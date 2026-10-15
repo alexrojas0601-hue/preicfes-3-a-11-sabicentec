@@ -1,0 +1,10 @@
+{
+  // SABI Ruta del Error · saber.sabicentec.com
+  // Worker que sirve los archivos estáticos de este repositorio (index.html en la raíz).
+  "name": "saber-sabicentec",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "single-page-application"
+  }
+}

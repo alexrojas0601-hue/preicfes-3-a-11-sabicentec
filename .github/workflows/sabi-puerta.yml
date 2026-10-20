@@ -1,0 +1,35 @@
+# Dot guardián: mantiene el bot de acceso SABI en todas las páginas de esta app.
+# Si alguien sube una página nueva sin el bot, lo instala y hace commit solo.
+name: SABI · guardián del bot
+
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", ".sabi-puerta.json"]
+  schedule:
+    - cron: "0 12 * * 1"   # lunes 7:00 a. m. hora Colombia: revisión semanal
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guardian:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar el bot donde falte
+        run: python3 .github/scripts/sabi-puerta-guardian.py
+      - name: Guardar cambios
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "SABI Dot guardián"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Dot guardián: bot de acceso SABI en páginas nuevas"
+            git push
+          else
+            echo "Todas las páginas ya tienen el bot."
+          fi

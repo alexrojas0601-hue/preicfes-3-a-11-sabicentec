@@ -1,0 +1,742 @@
+[
+ {
+  "id": "P10-SOC-C024",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento social",
+  "componente": "Economía y política",
+  "nivel": "Mínimo",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende el modelo económico que establece la Constitución de 1991 y el papel del Estado en la economía.",
+  "lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 4: desarrollos económicos sostenibles que preserven la dignidad humana. Constitución de 1991, arts. 333 y 334.",
+  "afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+  "evidencia": "Identifica el modelo de economía social de mercado a partir de los artículos constitucionales sobre libertad económica e intervención del Estado.",
+  "contexto": "El artículo 333 de la Constitución de 1991 dice que «la actividad económica y la iniciativa privada son libres, dentro de los límites del bien común». El artículo 334 agrega que «la dirección general de la economía estará a cargo del Estado», que intervendrá para mejorar la calidad de vida de los habitantes, distribuir equitativamente las oportunidades y preservar un ambiente sano.",
+  "enunciado": "Según estos artículos, el modelo económico colombiano se caracteriza por:",
+  "opciones": {
+   "A": "una economía planificada, en la que el Estado es dueño de todas las empresas y fija todos los precios.",
+   "B": "una economía social de mercado, que reconoce la libre empresa pero permite al Estado intervenir por el bien común.",
+   "C": "un mercado totalmente libre, en el que el Estado no puede intervenir en ninguna actividad económica.",
+   "D": "una economía de subsistencia, en la que cada familia produce lo que necesita para vivir."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Exagerar el papel del Estado",
+    "porque": "Elegiste A porque probablemente leíste «la dirección general de la economía estará a cargo del Estado» y olvidaste el artículo 333.",
+    "pregunta_guia": "Si la iniciativa privada es libre, ¿puede el Estado ser dueño de todas las empresas?",
+    "aprende": "En la economía planificada no hay libre empresa. La Constitución reconoce la libertad económica y, a la vez, la intervención del Estado."
+   },
+   "C": {
+    "error": "Ignorar la intervención estatal",
+    "porque": "Elegiste C porque probablemente te quedaste con la frase «la actividad económica es libre».",
+    "pregunta_guia": "¿Qué dice el artículo 334 sobre el papel del Estado en la economía?",
+    "aprende": "La libertad económica tiene límites: el bien común, el ambiente sano y la distribución equitativa de oportunidades, que el Estado vigila."
+   },
+   "D": {
+    "error": "Confundir modelo económico del país con forma de producción familiar",
+    "porque": "Elegiste D porque probablemente asociaste «calidad de vida» con producir lo necesario para vivir.",
+    "pregunta_guia": "¿Los artículos hablan de autoconsumo familiar o de cómo se organiza la economía de todo el país?",
+    "aprende": "La economía de subsistencia es una forma de producción, no el modelo constitucional del Estado."
+   }
+  },
+  "explicacion": "Paso 1: Lee el artículo 333: libre empresa, pero con límites del bien común. Paso 2: Lee el artículo 334: el Estado dirige la economía e interviene para la calidad de vida, la equidad y el ambiente. Paso 3: Une las dos ideas: mercado libre + intervención social del Estado = economía social de mercado, coherente con el Estado social de derecho (art. 1). Respuesta: B.",
+  "tip": "La Constitución colombiana no es ni puro mercado ni puro Estado: es un equilibrio entre los dos.",
+  "truco": "Social (Estado que protege) + de mercado (empresa libre) = Colombia 1991.",
+  "estrategia_icfes": "El ICFES usa fragmentos de la Constitución. Lee todos los fragmentos antes de concluir: una opción suele tomar solo una parte del texto, y la correcta integra todas.",
+  "temas": [
+   "economía social de mercado",
+   "Estado social de derecho",
+   "intervención del Estado en la economía"
+  ],
+  "gemela": {
+   "enunciado": "El Estado fija un precio máximo a algunos medicamentos esenciales para que más personas puedan comprarlos, aunque los laboratorios son empresas privadas. ¿Qué principio constitucional aplica?",
+   "opciones": {
+    "A": "La prohibición de la empresa privada en salud.",
+    "B": "La libertad económica absoluta de los laboratorios.",
+    "C": "La economía de subsistencia.",
+    "D": "La intervención del Estado en la economía para proteger el bien común."
+   },
+   "correcta": "D",
+   "explicacion": "Los laboratorios siguen siendo privados (libre empresa), pero el Estado interviene en los precios para proteger la salud de la población, como permite el artículo 334."
+  }
+ },
+ {
+  "id": "P10-SOC-C025",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y análisis de perspectivas",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Mínimo",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental, el escaso desarrollo económico y la inestabilidad política.",
+  "lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 3: «Mujeres y hombres como guardianes y beneficiarios de la madre tierra». Ley 70 de 1993 (derechos territoriales de las comunidades negras).",
+  "afirmacion": "Comprende perspectivas de distintos actores y grupos sociales.",
+  "evidencia": "Asocia la preocupación de un actor con su relación con el territorio en un conflicto ambiental.",
+  "contexto": "En un río del Pacífico caucano, la minería de oro con retroexcavadoras y mercurio ha enturbiado el agua. En una reunión se escuchan tres voces.\nUn minero que llegó de otra región: «Aquí gano en una semana lo que en mi pueblo ganaba en un mes».\nUna representante del consejo comunitario afrodescendiente, titular colectivo de esas tierras según la Ley 70 de 1993: «Este río es nuestro territorio ancestral; de él dependen la pesca, el agua que tomamos y nuestras tradiciones».\nUn comerciante del pueblo: «Desde que llegó la minería, vendo más, aunque todo está más caro».",
+  "enunciado": "La preocupación principal de la representante del consejo comunitario se relaciona con:",
+  "opciones": {
+   "A": "el aumento de los precios de los productos en el comercio del pueblo.",
+   "B": "la falta de oportunidades de empleo para las personas que llegan de otras regiones.",
+   "C": "la protección del territorio colectivo y del río del que depende la vida de su comunidad.",
+   "D": "el bajo precio internacional del oro que extraen las retroexcavadoras."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Atribuir a un actor la preocupación de otro",
+    "porque": "Elegiste A porque probablemente tomaste la queja del comerciante sobre los precios.",
+    "pregunta_guia": "¿Quién habla de precios en el texto: la representante o el comerciante?",
+    "aprende": "En análisis de perspectivas, cada actor tiene intereses propios; hay que leer con cuidado quién dice qué."
+   },
+   "B": {
+    "error": "Confundir la perspectiva del minero con la de la comunidad",
+    "porque": "Elegiste B porque probablemente te quedaste con la voz del minero, que habla de ingresos.",
+    "pregunta_guia": "¿La representante menciona empleo o menciona el río, la pesca y las tradiciones?",
+    "aprende": "El minero valora el ingreso; el consejo comunitario valora el territorio y su relación ancestral con él."
+   },
+   "D": {
+    "error": "Introducir información que no está en el texto",
+    "porque": "Elegiste D porque probablemente asociaste la minería de oro con los precios internacionales.",
+    "pregunta_guia": "¿Alguien en la reunión habla del precio internacional del oro?",
+    "aprende": "Las respuestas deben apoyarse en el texto. Ningún actor menciona el precio internacional del oro."
+   }
+  },
+  "explicacion": "Paso 1: Identifica a la representante: habla por un consejo comunitario, dueño colectivo del territorio (Ley 70 de 1993). Paso 2: Lee sus palabras clave: territorio ancestral, pesca, agua, tradiciones. Paso 3: Relaciona: su preocupación es la protección del río y del territorio del que depende la vida de la comunidad. Respuesta: C.",
+  "tip": "Antes de responder, haz una tabla mental: actor, qué dice, qué le importa.",
+  "truco": "Cada voz tiene su «palabra bandera»: minero = ganancia; comerciante = ventas y precios; consejo comunitario = territorio.",
+  "estrategia_icfes": "El ICFES presenta varias voces y pregunta por una. Lee solo la intervención del actor que te piden, identifica sus palabras clave y descarta las opciones que pertenecen a otros actores o que no aparecen en el texto.",
+  "temas": [
+   "conflictos socioambientales",
+   "territorios colectivos (Ley 70 de 1993)",
+   "análisis de actores"
+  ],
+  "gemela": {
+   "enunciado": "En el mismo caso, ¿qué valora principalmente el comerciante del pueblo?",
+   "opciones": {
+    "A": "El aumento de sus ventas, aunque reconoce que los precios han subido.",
+    "B": "La protección del río como territorio ancestral.",
+    "C": "La llegada de trabajadores de otras regiones para cultivar la tierra.",
+    "D": "La prohibición inmediata de la minería."
+   },
+   "correcta": "A",
+   "explicacion": "El comerciante dice que vende más, aunque todo está más caro: su perspectiva se centra en el efecto económico de la minería sobre su negocio."
+  }
+ },
+ {
+  "id": "P10-SOC-C026",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y análisis de perspectivas",
+  "componente": "Economía y política",
+  "nivel": "Avanzado",
+  "sabic": "Estadística financiera",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las políticas económicas del Estado y evalúa críticamente la información que se usa para justificarlas.",
+  "lineamiento": "EBC Ciencias Sociales 10°–11° (MEN 2006): analizo críticamente los documentos que utilizo e identifico sus tesis; utilizo diferentes formas de representación de la información.",
+  "afirmacion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+  "evidencia": "Detecta que una gráfica con el eje vertical recortado exagera visualmente un cambio pequeño en el recaudo tributario.",
+  "contexto": "Un concejal presentó en redes una gráfica de barras sobre el recaudo de impuestos de su ciudad con el titular «¡El recaudo se disparó!». Su gráfica tenía el eje vertical empezando en 95 mil millones, por lo que la barra de 2023 se veía casi el doble de alta que la de 2022. Abajo se presentan los mismos datos con el eje completo desde cero (datos hipotéticos).",
+  "grafica": {
+   "tipo": "barras",
+   "titulo": "Recaudo de impuestos de la ciudad (datos hipotéticos)",
+   "etiquetas": [
+    "2022",
+    "2023"
+   ],
+   "series": [
+    {
+     "nombre": "Recaudo (miles de millones de pesos)",
+     "datos": [
+      98,
+      102
+     ]
+    }
+   ],
+   "ejeY": "Miles de millones de pesos"
+  },
+  "enunciado": "¿Cuál es la crítica más acertada al uso que hizo el concejal de la gráfica?",
+  "opciones": {
+   "A": "El recaudo aumentó alrededor de 4 %, pero al recortar el eje la gráfica hace ver el cambio mucho mayor de lo que fue.",
+   "B": "Los datos son falsos, porque el recaudo de una ciudad nunca aumenta de un año a otro.",
+   "C": "La gráfica es correcta, porque una barra más alta siempre significa que el valor se duplicó.",
+   "D": "El recaudo disminuyó, porque el titular de una publicación política siempre dice lo contrario de lo que ocurre."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Descalificar los datos sin evidencia",
+    "porque": "Elegiste B porque probablemente pensaste que, si la gráfica engaña, los datos también deben ser falsos.",
+    "pregunta_guia": "¿El problema está en los números (98 y 102) o en la forma en que se dibujaron?",
+    "aprende": "Una gráfica puede usar datos verdaderos y aun así engañar por su escala. Hay que distinguir el dato de su representación."
+   },
+   "C": {
+    "error": "Leer alturas sin revisar la escala",
+    "porque": "Elegiste C porque probablemente comparaste la altura de las barras sin mirar dónde empieza el eje.",
+    "pregunta_guia": "Si el eje empieza en 95, ¿la barra de 98 mide 98 o mide 3 unidades?",
+    "aprende": "Con el eje desde 95, la barra de 2022 mide 3 y la de 2023 mide 7: parece más del doble, aunque 102 es apenas 4 % más que 98."
+   },
+   "D": {
+    "error": "Generalización y lectura contraria a los datos",
+    "porque": "Elegiste D porque probablemente desconfiaste del mensaje político y concluiste lo opuesto.",
+    "pregunta_guia": "¿Qué dicen los datos: 102 es mayor o menor que 98?",
+    "aprende": "El pensamiento crítico no consiste en creer lo contrario, sino en verificar: el recaudo sí subió, pero poco."
+   }
+  },
+  "explicacion": "Paso 1: Calcula el cambio real: (102 − 98) ÷ 98 = 4 ÷ 98 ≈ 0,041 ≈ 4 %. Paso 2: Analiza la gráfica del concejal: con el eje desde 95, las barras visibles miden 98 − 95 = 3 y 102 − 95 = 7; la segunda parece 2,3 veces la primera. Paso 3: Concluye que el aumento existe, pero la escala recortada lo exagera, y el titular «se disparó» no corresponde a un alza de 4 %. Respuesta: A.",
+  "tip": "Antes de creerle a una barra, mira dónde empieza el eje.",
+  "truco": "Eje que no empieza en cero = lupa que agranda las diferencias.",
+  "estrategia_icfes": "El ICFES evalúa si sabes juzgar cómo se usa una fuente. Calcula el cambio real con los números y compáralo con la conclusión del autor; la crítica correcta señala la distancia entre ambos sin negar los datos.",
+  "temas": [
+   "gráficas engañosas",
+   "cambio porcentual",
+   "uso político de la información",
+   "finanzas públicas locales"
+  ],
+  "gemela": {
+   "contexto": "Un titular afirma: «La pobreza bajó a la mitad». Los datos muestran que pasó de 40 % a 38 % de la población.",
+   "enunciado": "¿Qué tan preciso es el titular?",
+   "opciones": {
+    "A": "Es preciso, porque la pobreza efectivamente bajó.",
+    "B": "Es impreciso: la pobreza bajó 2 puntos porcentuales (5 % de su valor inicial), no a la mitad.",
+    "C": "Es preciso, porque 38 es aproximadamente la mitad de 40.",
+    "D": "Es impreciso, porque la pobreza subió."
+   },
+   "correcta": "B",
+   "explicacion": "40 % − 38 % = 2 puntos porcentuales; 2 ÷ 40 = 5 %. Para bajar a la mitad, la pobreza tendría que haber llegado a 20 %."
+  }
+ },
+ {
+  "id": "P10-SOC-C027",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento social",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Satisfactorio",
+  "sabic": "Inteligencia emocional",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): asume una posición crítica y responsable frente a las situaciones que afectan su proyecto de vida.",
+  "lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006), competencias emocionales: reconozco mis emociones y las manejo de forma constructiva. Modelo SABI: «El error no nos detiene: nos enseña, nos fortalece y nos hace crecer».",
+  "afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+  "evidencia": "Distingue una interpretación constructiva del error, propia de la resiliencia, de interpretaciones fijas o evasivas.",
+  "contexto": "Yuliana obtiene 48 puntos en el primer simulacro de Sociales, cuando esperaba 60. Al recibir el resultado, piensa en varias formas de interpretarlo.",
+  "enunciado": "¿Cuál pensamiento de Yuliana refleja resiliencia y una visión del error como oportunidad de aprendizaje?",
+  "opciones": {
+   "A": "«Definitivamente no soy buena para Sociales; mejor me concentro en otras áreas».",
+   "B": "«El simulacro estaba mal hecho; las preguntas no tenían nada que ver con lo que vimos».",
+   "C": "«Ya no importa; el examen de verdad es el año entrante y todavía falta mucho».",
+   "D": "«Este resultado me muestra qué debo mejorar: voy a revisar en qué competencias fallé y practicar esas preguntas»."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Interpretar un resultado como capacidad fija",
+    "porque": "Elegiste A porque probablemente pensaste que un mal resultado revela una falta de capacidad que no cambia.",
+    "pregunta_guia": "¿Un solo simulacro dice cuánto puedes aprender, o solo dónde estás hoy?",
+    "aprende": "Un resultado es una foto del momento, no una sentencia. Las habilidades en Sociales se fortalecen con práctica y análisis de errores."
+   },
+   "B": {
+    "error": "Atribuir el resultado solo a causas externas",
+    "porque": "Elegiste B porque probablemente pensaste que culpar al examen protege la autoestima.",
+    "pregunta_guia": "Si todo fuera culpa del simulacro, ¿qué podría hacer Yuliana para mejorar?",
+    "aprende": "Culpar solo a factores externos deja sin acciones posibles. La resiliencia busca lo que sí está en nuestras manos."
+   },
+   "C": {
+    "error": "Postergación y minimización",
+    "porque": "Elegiste C porque probablemente creíste que, como falta tiempo, no hace falta actuar ya.",
+    "pregunta_guia": "¿El tiempo que falta es una razón para esperar o una oportunidad para empezar a mejorar?",
+    "aprende": "Postergar convierte el tiempo disponible en tiempo perdido. Cada error detectado temprano es una ventaja."
+   }
+  },
+  "explicacion": "Paso 1: Recuerda que la resiliencia es la capacidad de recuperarse ante una dificultad y salir fortalecido. Paso 2: Revisa los pensamientos: A ve el resultado como algo fijo; B culpa solo a lo externo; C posterga. Paso 3: D interpreta el error como información, identifica qué mejorar y plantea una acción concreta. Respuesta: D.",
+  "tip": "Cada respuesta equivocada es un mapa: te señala exactamente qué estudiar.",
+  "truco": "Cambia «no soy capaz» por «todavía no lo domino… y esto es lo que haré».",
+  "estrategia_icfes": "En preguntas de competencias emocionales, el ICFES contrasta pensamientos fijos, evasivos y constructivos. Busca la opción que asume responsabilidad y propone una acción concreta.",
+  "temas": [
+   "resiliencia",
+   "aprendizaje desde el error",
+   "autoliderazgo"
+  ],
+  "gemela": {
+   "contexto": "Andrés no fue elegido personero estudiantil. Al día siguiente reflexiona sobre lo ocurrido.",
+   "enunciado": "¿Qué reflexión muestra resiliencia?",
+   "opciones": {
+    "A": "«Nunca más me presento a nada».",
+    "B": "«Voy a preguntar a mis compañeros qué les faltó a mis propuestas y seguiré participando en el consejo estudiantil».",
+    "C": "«Perdí porque todos están en mi contra».",
+    "D": "«Da igual; la personería no sirve para nada»."
+   },
+   "correcta": "B",
+   "explicacion": "B convierte la derrota en aprendizaje (pide retroalimentación) y mantiene su participación. Las otras se rinden, culpan a otros o minimizan."
+  }
+ },
+ {
+  "id": "P10-SOC-C028",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento reflexivo y sistémico",
+  "componente": "Economía y política",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental, el escaso desarrollo económico y la inestabilidad política.",
+  "lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 4: desarrollos económicos sostenibles, y eje 5: «Nuestro planeta como un espacio de interacciones cambiantes que nos posibilita y limita».",
+  "afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+  "evidencia": "Elige una propuesta de infraestructura que considera las dimensiones económica, ambiental y social.",
+  "contexto": "Buenaventura es el principal puerto de Colombia sobre el océano Pacífico. Gran parte de la carga que llega o sale por allí viaja por una carretera de montaña que con frecuencia se cierra por derrumbes durante las lluvias, lo que encarece el transporte y retrasa las exportaciones. Al mismo tiempo, buena parte de la población de Buenaventura tiene necesidades básicas insatisfechas, y la carretera atraviesa zonas de bosque y territorios de comunidades afrodescendientes.",
+  "enunciado": "¿Cuál propuesta atiende mejor las distintas dimensiones del problema?",
+  "opciones": {
+   "A": "Ampliar la carretera lo más rápido posible, sin estudios ambientales, para reducir de inmediato los costos de transporte.",
+   "B": "Mejorar la vía con estudios ambientales y consulta a las comunidades, y destinar parte de la inversión a empleo y servicios en Buenaventura.",
+   "C": "Trasladar el puerto a otra ciudad para no tener que invertir más en Buenaventura.",
+   "D": "Prohibir el paso de camiones en temporada de lluvias para evitar accidentes en los derrumbes."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Atender solo la dimensión económica",
+    "porque": "Elegiste A porque probablemente te concentraste en reducir costos y retrasos.",
+    "pregunta_guia": "¿Qué pasaría con el bosque y con las comunidades si se construye sin estudios ni consulta?",
+    "aprende": "Una solución que ignora lo ambiental y los derechos de las comunidades genera nuevos conflictos, retrasos judiciales y daños difíciles de reparar."
+   },
+   "C": {
+    "error": "Proponer una solución que desconoce la geografía y la población",
+    "porque": "Elegiste C porque probablemente pensaste que mover el problema es resolverlo.",
+    "pregunta_guia": "¿Qué pasaría con el empleo en Buenaventura y con la salida al Pacífico si se traslada el puerto?",
+    "aprende": "Buenaventura tiene condiciones geográficas para el puerto; trasladarlo empeoraría las condiciones sociales locales y no resolvería la conexión con el interior."
+   },
+   "D": {
+    "error": "Medida parcial que agrava el problema económico",
+    "porque": "Elegiste D porque probablemente pensaste solo en la seguridad vial.",
+    "pregunta_guia": "Si se prohíbe el paso de camiones varios meses, ¿qué pasa con las exportaciones y los empleos del puerto?",
+    "aprende": "Prohibir el tránsito evita un riesgo, pero detiene la economía del puerto y no atiende las causas de los cierres."
+   }
+  },
+  "explicacion": "Paso 1: Identifica las dimensiones: económica (costos y exportaciones), geográfica y ambiental (montaña, lluvias, bosques), social (pobreza en Buenaventura) y de derechos (territorios de comunidades afrodescendientes). Paso 2: Evalúa: A solo económica; C ignora geografía y población; D solo seguridad. Paso 3: B mejora la vía, cuida el ambiente con estudios, respeta a las comunidades con la consulta y conecta la inversión con el bienestar local. Respuesta: B.",
+  "tip": "En problemas regionales, piensa en el territorio completo: la economía, la naturaleza y la gente.",
+  "truco": "Propuesta sistémica = Vía + Verde + Vecinos.",
+  "estrategia_icfes": "En pensamiento sistémico, el contexto siempre trae datos de varias dimensiones. Haz una lista de ellas y elige la opción que no deja ninguna por fuera.",
+  "temas": [
+   "infraestructura y desarrollo regional",
+   "Pacífico colombiano",
+   "desarrollo sostenible"
+  ],
+  "gemela": {
+   "contexto": "Un municipio quiere atraer turismo a una playa del Pacífico donde llegan ballenas jorobadas, pero teme que el exceso de embarcaciones las afecte.",
+   "enunciado": "¿Qué medida equilibra las dimensiones económica y ambiental?",
+   "opciones": {
+    "A": "Permitir embarcaciones sin límite para aumentar ingresos.",
+    "B": "Prohibir todo turismo en la zona de forma permanente.",
+    "C": "Regular el número de embarcaciones y la distancia a las ballenas, con guías locales capacitados.",
+    "D": "Trasladar a las ballenas a otra zona."
+   },
+   "correcta": "C",
+   "explicacion": "Regular el avistamiento genera ingresos y empleo local y, a la vez, protege a las ballenas; las demás opciones sacrifican una dimensión o son inviables."
+  }
+ },
+ {
+  "id": "P10-SOC-C029",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento reflexivo y sistémico",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Avanzado",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad colombiana existen derechos, deberes, principios y acciones para orientar la convivencia, y asume posturas éticas frente a situaciones de corrupción.",
+  "lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006): identifico dilemas de la vida en los que distintos derechos o valores entran en conflicto y analizo posibles opciones de solución. Constitución, art. 95 (deberes de la persona y del ciudadano) y art. 267 (control fiscal).",
+  "afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+  "evidencia": "Evalúa las consecuencias éticas, legales y personales de distintas respuestas ante un posible caso de corrupción.",
+  "contexto": "Natalia hace sus prácticas del SENA en una oficina de una alcaldía. Al organizar archivos, encuentra facturas de la compra de pupitres para colegios públicos cuyo precio por unidad es tres veces mayor que el de cotizaciones de otros proveedores. Su jefe le dice: «No te metas en eso; si preguntas, se te acaba la práctica».",
+  "enunciado": "¿Qué decisión de Natalia responde de manera más responsable a las distintas dimensiones del dilema?",
+  "opciones": {
+   "A": "Conservar copias de los documentos y presentar la información ante un organismo de control, como la Contraloría, que puede verificarla y reservar la identidad de quien informa.",
+   "B": "Publicar en sus redes las facturas con el nombre de su jefe para que todo el mundo se entere de inmediato.",
+   "C": "Guardar silencio, porque su práctica es más importante y los recursos no son suyos.",
+   "D": "Enfrentar a su jefe frente a toda la oficina y amenazarlo con denunciarlo si no devuelve el dinero."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundir denuncia con exposición pública sin verificación",
+    "porque": "Elegiste B porque probablemente pensaste que la presión de las redes es la forma más rápida de hacer justicia.",
+    "pregunta_guia": "¿Natalia ya sabe con certeza que hubo un delito y quién lo cometió? ¿Qué pasa si hay una explicación que ella desconoce?",
+    "aprende": "La exposición en redes puede dañar la honra de alguien sin pruebas suficientes y entorpecer la investigación. Los organismos de control verifican con garantías."
+   },
+   "C": {
+    "error": "Ver los recursos públicos como ajenos",
+    "porque": "Elegiste C porque probablemente pensaste que lo público no es asunto personal y que el riesgo de perder la práctica pesa más.",
+    "pregunta_guia": "¿De quién es el dinero con el que se compran los pupitres? ¿Quiénes pierden si se pagó de más?",
+    "aprende": "Los recursos públicos son de todos; el sobrecosto significa menos pupitres o menos calidad para estudiantes. Colaborar con la buena marcha de lo público es un deber (art. 95)."
+   },
+   "D": {
+    "error": "Respuesta impulsiva que pone en riesgo a la persona y al proceso",
+    "porque": "Elegiste D porque probablemente sentiste indignación y pensaste que confrontar es lo más valiente.",
+    "pregunta_guia": "¿Qué podría pasar con los documentos y con la seguridad de Natalia si avisa al posible implicado antes de informar a las autoridades?",
+    "aprende": "Confrontar y amenazar puede facilitar que se oculten pruebas y expone a Natalia. La vía institucional protege la evidencia y a quien informa."
+   }
+  },
+  "explicacion": "Paso 1: Identifica las dimensiones: ética (honestidad y cuidado de lo público), legal (posible detrimento patrimonial), personal (riesgo para su práctica y su seguridad) y social (afectación a estudiantes). Paso 2: Evalúa: B arriesga la honra de otros y la investigación; C sacrifica lo público; D expone a Natalia y a las pruebas. Paso 3: A protege la evidencia, acude a la entidad competente para verificar (la Contraloría vigila el uso de recursos públicos) y reduce el riesgo personal. Respuesta: A.",
+  "tip": "Ante una irregularidad: guarda la evidencia, no la difundas sin verificar y acude a la institución competente.",
+  "truco": "Denunciar bien = Evidencia + Entidad competente + Prudencia.",
+  "estrategia_icfes": "En dilemas éticos, el ICFES ofrece una opción pasiva, una impulsiva, una mediática y una institucional. Suele ser correcta la que actúa, pero con responsabilidad: evidencia, cauce legal y cuidado de las personas.",
+  "temas": [
+   "corrupción y recursos públicos",
+   "organismos de control",
+   "dilemas éticos",
+   "deberes ciudadanos"
+  ],
+  "gemela": {
+   "contexto": "Camilo, tesorero del consejo estudiantil, nota que faltan $200.000 del fondo de la jornada deportiva y que el registro de gastos tiene firmas que no reconoce.",
+   "enunciado": "¿Qué debería hacer primero?",
+   "opciones": {
+    "A": "Reponer el dinero de su bolsillo para evitar problemas.",
+    "B": "Acusar públicamente en el salón al compañero que considera sospechoso.",
+    "C": "Reunir los soportes y presentar el caso al comité del consejo estudiantil y a la coordinación, para que se revise.",
+    "D": "Borrar las firmas que no reconoce para que el registro quede limpio."
+   },
+   "correcta": "C",
+   "explicacion": "Lo responsable es documentar y acudir a las instancias que pueden verificar. Reponer oculta el problema, acusar sin pruebas daña a alguien y alterar registros es otra falta."
+  }
+ },
+ {
+  "id": "P10-SOC-C030",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento social",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Mínimo",
+  "sabic": "Inteligencia emocional",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad existen principios y acciones para orientar la convivencia, como la reparación del daño y la reconciliación.",
+  "lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006): construyo relaciones pacíficas que contribuyen a la convivencia cotidiana en mi comunidad y municipio.",
+  "afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+  "evidencia": "Reconoce los elementos de una disculpa genuina que repara una relación.",
+  "contexto": "Sebastián publicó en TikTok un video en el que se burlaba del acento de su compañero Óscar, que llegó hace poco de Tumaco. Muchos compañeros lo comentaron con risas. Óscar se sintió humillado. Días después, Sebastián decide disculparse.",
+  "enunciado": "¿Cuál de las siguientes disculpas contiene los elementos de una reparación genuina?",
+  "opciones": {
+   "A": "«Perdón si te ofendiste, pero era solo un chiste; no es para tanto».",
+   "B": "«Perdón, pero los demás también se rieron, así que no fui solo yo».",
+   "C": "«Me equivoqué al burlarme de tu acento; entiendo que te hice sentir humillado. Ya borré el video y no lo volveré a hacer. ¿Hay algo más que pueda hacer?».",
+   "D": "«Ya, perdón. ¿Contento?»."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Disculpa condicional que minimiza el daño",
+    "porque": "Elegiste A porque probablemente pensaste que decir «perdón» ya es suficiente, aunque se agregue un «pero».",
+    "pregunta_guia": "Cuando alguien dice «perdón si te ofendiste», ¿asume lo que hizo o pone la responsabilidad en el otro?",
+    "aprende": "El «si te ofendiste» y el «no es para tanto» niegan el daño. Una disculpa genuina reconoce el hecho y su efecto sin condiciones."
+   },
+   "B": {
+    "error": "Diluir la responsabilidad en el grupo",
+    "porque": "Elegiste B porque probablemente creíste que mencionar a los demás hace la falta más pequeña.",
+    "pregunta_guia": "¿Quién grabó y publicó el video?",
+    "aprende": "Que otros participen no elimina la responsabilidad propia. Disculparse es responder por lo que uno hizo."
+   },
+   "D": {
+    "error": "Disculpa forzada sin reconocimiento",
+    "porque": "Elegiste D porque probablemente pensaste que lo importante es pronunciar la palabra «perdón».",
+    "pregunta_guia": "¿Esa frase muestra que Sebastián entiende el daño que causó?",
+    "aprende": "Una disculpa sin reconocimiento ni reparación no restablece la confianza; incluso puede ofender más."
+   }
+  },
+  "explicacion": "Paso 1: Recuerda los elementos de una disculpa genuina: reconocer lo que se hizo, reconocer el efecto en el otro, reparar el daño y comprometerse a no repetir. Paso 2: Revisa C: «me equivoqué» (reconoce), «te hice sentir humillado» (efecto), «borré el video» (repara), «no lo volveré a hacer» (no repetición) y ofrece más reparación. Paso 3: A minimiza, B culpa al grupo y D es forzada. Respuesta: C.",
+  "tip": "Pedir perdón de verdad no te hace débil: te hace confiable.",
+  "truco": "Las 4 R de la disculpa: Reconozco, Reflejo tu sentir, Reparo y no Repito.",
+  "estrategia_icfes": "El ICFES contrasta respuestas parecidas que difieren en matices. Busca palabras que minimizan («si», «pero», «no es para tanto») y descarta esas opciones.",
+  "temas": [
+   "reparación del daño",
+   "justicia restaurativa",
+   "inteligencia emocional",
+   "discriminación por origen"
+  ],
+  "gemela": {
+   "contexto": "Paola rompió sin querer la calculadora que le prestó su compañera Diana.",
+   "enunciado": "¿Qué respuesta repara mejor la situación?",
+   "opciones": {
+    "A": "«Lo siento, se me cayó y se rompió. Te la voy a reponer esta semana y tendré más cuidado con lo que me prestes».",
+    "B": "«Ya estaba vieja, seguro se iba a dañar igual».",
+    "C": "«No fue mi culpa, la mesa estaba inclinada».",
+    "D": "«Perdón, pero tú no me dijiste que era delicada»."
+   },
+   "correcta": "A",
+   "explicacion": "A reconoce el hecho, repara (repone la calculadora) y se compromete a tener cuidado. Las demás minimizan o trasladan la responsabilidad."
+  }
+ },
+ {
+  "id": "P10-SOC-C031",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento social",
+  "componente": "Economía y política",
+  "nivel": "Satisfactorio",
+  "sabic": "Matemática financiera",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las condiciones económicas que afectan la vida cotidiana de las personas y el papel del Estado en la regulación del sistema financiero.",
+  "lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 4: desarrollos económicos sostenibles que preserven la dignidad humana. Programa de Educación Económica y Financiera (MEN): toma de decisiones informadas sobre crédito.",
+  "afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+  "evidencia": "Compara el costo de un préstamo informal «gota a gota» con el de un crédito formal y reconoce por qué el Estado regula las tasas de interés.",
+  "contexto": "Doña Marleny necesita $1.000.000 para surtir su puesto de empanadas en el barrio Siloé, de Cali. Tiene dos opciones (datos hipotéticos):",
+  "tabla": {
+   "titulo": "Opciones de préstamo de $1.000.000 a un mes (datos hipotéticos)",
+   "cols": [
+    "Opción",
+    "Condición",
+    "Total a pagar en un mes"
+   ],
+   "filas": [
+    [
+     "Prestamista «gota a gota»",
+     "30 cuotas diarias de $40.000",
+     "$1.200.000"
+    ],
+    [
+     "Cooperativa de ahorro y crédito",
+     "Interés de 2 % mensual",
+     "$1.020.000"
+    ]
+   ]
+  },
+  "enunciado": "¿Cuántas veces más interés paga doña Marleny con el «gota a gota» que con la cooperativa?",
+  "opciones": {
+   "A": "18 veces, porque la diferencia entre 20 % y 2 % es 18.",
+   "B": "1,2 veces, porque $1.200.000 es aproximadamente 1,2 veces $1.020.000.",
+   "C": "Igual, porque en las dos opciones el capital prestado es $1.000.000.",
+   "D": "10 veces, porque paga $200.000 de interés frente a $20.000."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Confundir diferencia en puntos porcentuales con razón",
+    "porque": "Elegiste A porque probablemente restaste las tasas (20 − 2) en lugar de dividirlas.",
+    "pregunta_guia": "La pregunta dice «cuántas veces más»: ¿se responde restando o dividiendo?",
+    "aprende": "«Cuántas veces» pide una razón: 20 % ÷ 2 % = 10. La resta (18 puntos porcentuales) indica la diferencia, no las veces."
+   },
+   "B": {
+    "error": "Comparar totales en vez de intereses",
+    "porque": "Elegiste B porque probablemente dividiste los totales a pagar, que incluyen el capital.",
+    "pregunta_guia": "¿Los $1.200.000 son solo interés o incluyen el millón prestado?",
+    "aprende": "Para comparar el costo del crédito se resta el capital: 1.200.000 − 1.000.000 = 200.000 y 1.020.000 − 1.000.000 = 20.000."
+   },
+   "C": {
+    "error": "Confundir capital con costo del préstamo",
+    "porque": "Elegiste C porque probablemente pensaste que si el préstamo es igual, el costo también lo es.",
+    "pregunta_guia": "¿Cuánto paga de más doña Marleny en cada opción, además del millón?",
+    "aprende": "El capital es igual, pero el interés (el precio del dinero) es muy distinto: $200.000 frente a $20.000."
+   }
+  },
+  "explicacion": "Paso 1: Verifica el total del «gota a gota»: 30 × 40.000 = 1.200.000. Paso 2: Calcula el interés de cada opción. Gota a gota: 1.200.000 − 1.000.000 = 200.000 (20 % en un mes). Cooperativa: 1.000.000 × 0,02 = 20.000. Paso 3: Divide: 200.000 ÷ 20.000 = 10. Paso 4: Interpreta: el préstamo informal cuesta 10 veces más. Por eso el Estado fija un tope a las tasas (tasa de usura) y promueve el crédito formal; cobrar por encima de ese tope es ilegal. Respuesta: D.",
+  "tip": "Antes de pedir prestado, calcula cuánto pagas DE MÁS, no solo la cuota diaria.",
+  "truco": "Interés = Total pagado − Capital. «Cuántas veces» = divide; «cuánto más» = resta.",
+  "estrategia_icfes": "El ICFES combina finanzas cotidianas con economía. Separa capital e interés, identifica si te piden una diferencia o una razón y verifica el resultado con los datos de la tabla.",
+  "temas": [
+   "tasas de interés y crédito",
+   "préstamos gota a gota y usura",
+   "educación financiera",
+   "regulación del sistema financiero"
+  ],
+  "gemela": {
+   "enunciado": "Un prestamista ofrece $500.000 y pide devolver $650.000 al cabo de un mes. ¿Qué tasa de interés mensual cobra?",
+   "opciones": {
+    "A": "15 %",
+    "B": "30 %",
+    "C": "130 %",
+    "D": "65 %"
+   },
+   "correcta": "B",
+   "explicacion": "Interés = 650.000 − 500.000 = 150.000. Tasa = 150.000 ÷ 500.000 = 0,30 = 30 % mensual."
+  }
+ },
+ {
+  "id": "P10-SOC-C032",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y análisis de perspectivas",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que existen multitud de culturas y una sola humanidad en el mundo, y reconoce el derecho de los pueblos a preservar su identidad.",
+  "lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 7: «Las distintas culturas como creadoras de diferentes tipos de saberes valiosos». Constitución, arts. 7, 10 y 68 (diversidad étnica y cultural; educación que respete la identidad de los grupos étnicos).",
+  "afirmacion": "Comprende perspectivas de distintos actores y grupos sociales.",
+  "evidencia": "Explica la postura de una comunidad indígena sobre la educación propia a partir de sus valores culturales.",
+  "contexto": "En un resguardo nasa del norte del Cauca, la comunidad defiende un proyecto de educación propia: las clases se dan en nasa yuwe y en español, los mayores enseñan sobre medicina tradicional y el cuidado de la tierra, y el calendario escolar se ajusta a las fechas de siembra y a las ceremonias. Un líder explica: «Si nuestros niños solo aprenden lo de afuera, dejan de saber quiénes son».",
+  "enunciado": "Desde la perspectiva del líder, la educación propia es importante principalmente porque:",
+  "opciones": {
+   "A": "permite que los niños no tengan que aprender español ni matemáticas.",
+   "B": "fortalece la identidad cultural y la transmisión de saberes de la comunidad.",
+   "C": "reemplaza por completo la educación del Estado colombiano en el resguardo.",
+   "D": "evita que los niños nasa se relacionen con personas de otras culturas."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Interpretar la educación propia como rechazo del conocimiento externo",
+    "porque": "Elegiste A porque probablemente pensaste que enseñar en la lengua propia excluye otros saberes.",
+    "pregunta_guia": "Según el texto, ¿en qué lenguas se dan las clases?",
+    "aprende": "El proyecto es bilingüe (nasa yuwe y español): suma saberes, no los elimina."
+   },
+   "C": {
+    "error": "Exagerar el alcance de la postura",
+    "porque": "Elegiste C porque probablemente creíste que defender lo propio significa rechazar todo lo del Estado.",
+    "pregunta_guia": "¿El líder rechaza lo de afuera o dice que no debe ser lo ÚNICO que aprendan?",
+    "aprende": "La frase «si solo aprenden lo de afuera» indica que busca equilibrio, no exclusión. La Constitución reconoce la etnoeducación dentro del sistema educativo."
+   },
+   "D": {
+    "error": "Atribuir aislamiento a una postura de identidad",
+    "porque": "Elegiste D porque probablemente asociaste la defensa de la identidad con encerrarse.",
+    "pregunta_guia": "¿Hay alguna frase del texto que hable de evitar el contacto con otras culturas?",
+    "aprende": "Fortalecer la identidad propia permite relacionarse con otras culturas desde el respeto mutuo; no implica aislamiento."
+   }
+  },
+  "explicacion": "Paso 1: Identifica los elementos del proyecto: bilingüismo, saberes de los mayores, calendario cultural. Paso 2: Lee la frase del líder: el riesgo es que los niños «dejen de saber quiénes son». Paso 3: Su preocupación es la identidad y la transmisión de saberes. Paso 4: B recoge esa idea sin exagerarla. Respuesta: B.",
+  "tip": "Cuando una postura dice «no SOLO», está pidiendo equilibrio, no exclusión.",
+  "truco": "Identidad + Saberes de los mayores = educación propia.",
+  "estrategia_icfes": "El ICFES suele incluir opciones que exageran una postura (todo o nada). Busca la palabra exacta del actor y elige la opción que la recoge con su verdadero alcance.",
+  "temas": [
+   "diversidad étnica y cultural",
+   "etnoeducación",
+   "pueblo nasa",
+   "análisis de perspectivas"
+  ],
+  "gemela": {
+   "contexto": "Una docente de San Basilio de Palenque enseña en lengua palenquera canciones, juegos y la historia de Benkos Biohó.",
+   "enunciado": "¿Qué propósito tiene principalmente esta práctica?",
+   "opciones": {
+    "A": "Reemplazar el español en todo el país.",
+    "B": "Impedir que los estudiantes aprendan inglés.",
+    "C": "Preservar la lengua y la memoria histórica de la comunidad palenquera.",
+    "D": "Separar a Palenque del resto de Colombia."
+   },
+   "correcta": "C",
+   "explicacion": "Enseñar la lengua y la historia propias protege el patrimonio cultural de la comunidad, reconocido por la Constitución, sin excluir otros aprendizajes."
+  }
+ },
+ {
+  "id": "P10-SOC-C033",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento reflexivo y sistémico",
+  "componente": "Economía y política",
+  "nivel": "Avanzado",
+  "sabic": "Educación digital e IA",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las transformaciones económicas de la Colombia contemporánea, incluidos los cambios en el mundo del trabajo, y sus repercusiones en la vida cotidiana.",
+  "lineamiento": "EBC Ciencias Sociales 10°–11° (MEN 2006): reconozco el impacto de la globalización sobre las distintas economías y reconozco diferentes reacciones ante este fenómeno. Constitución, arts. 25 y 48 (trabajo digno y seguridad social).",
+  "afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+  "evidencia": "Analiza el trabajo en plataformas digitales considerando las dimensiones económica, laboral y social.",
+  "contexto": "Miles de jóvenes en Cali trabajan como repartidores de aplicaciones de domicilios. Pueden escoger sus horarios y empezar a trabajar casi sin requisitos. Sin embargo, la mayoría no tiene contrato laboral, paga por su cuenta su moto y su celular, y si sufren un accidente durante una entrega no siempre cuentan con protección de seguridad social.",
+  "enunciado": "¿Cuál análisis integra mejor las distintas dimensiones de esta situación?",
+  "opciones": {
+   "A": "Las plataformas crean oportunidades de ingreso flexibles, pero trasladan riesgos al trabajador; por eso se debaten reglas que mantengan la flexibilidad y garanticen seguridad social.",
+   "B": "Las plataformas solo traen beneficios, porque cualquier persona puede trabajar cuando quiera.",
+   "C": "Las plataformas deben prohibirse, porque ningún trabajo sin contrato puede generar ingresos.",
+   "D": "El problema es solo de los repartidores, porque ellos eligieron trabajar sin contrato."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Ver solo la dimensión de la oportunidad",
+    "porque": "Elegiste B porque probablemente te fijaste en la flexibilidad y la facilidad de entrada.",
+    "pregunta_guia": "¿Qué pasa con un repartidor que sufre un accidente y no tiene seguridad social?",
+    "aprende": "La flexibilidad es real, pero también lo son los riesgos sin protección. Un análisis completo reconoce ambos lados."
+   },
+   "C": {
+    "error": "Solución extrema que desconoce los beneficios",
+    "porque": "Elegiste C porque probablemente pensaste que si un trabajo tiene problemas, debe desaparecer.",
+    "pregunta_guia": "Si se prohíben las plataformas, ¿qué pasa con el ingreso de los miles de jóvenes que viven de ellas?",
+    "aprende": "Prohibir eliminaría una fuente de ingreso. Además, la afirmación de que sin contrato no hay ingresos es falsa: los repartidores sí ganan dinero."
+   },
+   "D": {
+    "error": "Individualizar un problema estructural",
+    "porque": "Elegiste D porque probablemente pensaste que, si fue una elección personal, la sociedad no tiene responsabilidad.",
+    "pregunta_guia": "Si un repartidor sin seguridad social se accidenta, ¿quién termina atendiendo los costos de su salud y de su familia?",
+    "aprende": "Los riesgos sin protección terminan afectando a las familias y al sistema público; por eso el trabajo digno es un asunto social (arts. 25 y 48)."
+   }
+  },
+  "explicacion": "Paso 1: Identifica las dimensiones: económica (ingresos y flexibilidad), laboral (falta de contrato y costos asumidos por el trabajador), social (seguridad social, efectos en las familias) y tecnológica (plataformas digitales). Paso 2: Evalúa: B solo ve beneficios; C solo ve problemas y afirma algo falso; D reduce todo a lo individual. Paso 3: A reconoce la oportunidad y el riesgo y señala el debate sobre reglas que equilibren ambas cosas. Respuesta: A.",
+  "tip": "La tecnología cambia el trabajo; la pregunta ciudadana es cómo hacerlo digno sin perder sus ventajas.",
+  "truco": "Análisis completo = «sí, pero…»: reconoce lo bueno, nombra el riesgo y propone un equilibrio.",
+  "estrategia_icfes": "En el nivel avanzado, desconfía de las opciones con «solo», «ningún» o «siempre». La respuesta correcta suele reconocer tensiones y proponer equilibrios.",
+  "temas": [
+   "economía de plataformas",
+   "trabajo digno y seguridad social",
+   "transformaciones del trabajo"
+  ],
+  "gemela": {
+   "contexto": "Un supermercado de Cali instala cajas de autopago y reduce el número de cajeros.",
+   "enunciado": "¿Qué análisis considera más dimensiones?",
+   "opciones": {
+    "A": "Es positivo para todos, porque los clientes pagan más rápido.",
+    "B": "Puede bajar costos y agilizar filas, pero afecta el empleo de los cajeros; capacitarlos para nuevas funciones reduciría ese impacto.",
+    "C": "Debe prohibirse toda tecnología que reemplace trabajadores.",
+    "D": "Solo afecta al supermercado, que gasta en las máquinas."
+   },
+   "correcta": "B",
+   "explicacion": "B reconoce el beneficio económico, el efecto social sobre el empleo y una medida para mitigarlo; las demás ven una sola dimensión o proponen extremos."
+  }
+ },
+ {
+  "id": "P10-SOC-C034",
+  "area": "sociales",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Pensamiento reflexivo y sistémico",
+  "componente": "Convivencia, paz y perspectivas",
+  "nivel": "Avanzado",
+  "sabic": "Inteligencia emocional",
+  "dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad existen principios y acciones para orientar la convivencia, y valora el diálogo y el pluralismo como base de la democracia.",
+  "lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006): expreso empatía ante grupos o personas cuyas opiniones son distintas a las mías; argumento y debato dilemas de la vida cotidiana respetando la diversidad de opiniones.",
+  "afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+  "evidencia": "Elige una estrategia de diálogo que atiende a la vez la dimensión emocional y la deliberativa de un desacuerdo político.",
+  "contexto": "En época de elecciones, cada almuerzo familiar en la casa de Mariana termina en gritos: su tío apoya a un candidato y su mamá a otro. Ya nadie escucha, se dicen «ignorantes» y los primos más pequeños se van de la mesa. Mariana quiere proponer algo que mejore la convivencia sin prohibir que se hable de política.",
+  "enunciado": "¿Qué propuesta atiende mejor tanto las emociones como el derecho a deliberar de la familia?",
+  "opciones": {
+   "A": "Prohibir hablar de política en la casa hasta que pasen las elecciones.",
+   "B": "Pedir que cada uno vote igual que la mayoría de la familia para que no haya diferencias.",
+   "C": "Acordar reglas: turnos para hablar, no usar insultos, criticar las ideas y no a las personas, y hacer una pausa si alguien se altera.",
+   "D": "Dejar que discutan sin reglas, porque los desacuerdos políticos se resuelven solos con el tiempo."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Suprimir el debate en vez de regularlo",
+    "porque": "Elegiste A porque probablemente pensaste que si no se habla del tema, no hay conflicto.",
+    "pregunta_guia": "Mariana quería mejorar la convivencia sin prohibir hablar de política. ¿Esta opción cumple esa condición?",
+    "aprende": "Prohibir el tema evita la pelea por un tiempo, pero sacrifica la deliberación, que es valiosa en una democracia."
+   },
+   "B": {
+    "error": "Confundir convivencia con uniformidad",
+    "porque": "Elegiste B porque probablemente creíste que la armonía exige pensar igual.",
+    "pregunta_guia": "En una democracia, ¿convivir significa estar de acuerdo o respetarse en el desacuerdo?",
+    "aprende": "El voto es libre y secreto (art. 258). La convivencia democrática se basa en el pluralismo, no en la unanimidad."
+   },
+   "D": {
+    "error": "Confundir libertad con ausencia de acuerdos",
+    "porque": "Elegiste D porque probablemente pensaste que intervenir limita la libertad de expresión.",
+    "pregunta_guia": "Si cada almuerzo termina en insultos, ¿se está deliberando o solo peleando?",
+    "aprende": "Sin reglas, la emoción desbordada impide escuchar. Unas reglas mínimas protegen tanto la libertad como el respeto."
+   }
+  },
+  "explicacion": "Paso 1: Identifica las dos dimensiones: emocional (gritos, insultos, alteración) y deliberativa (derecho a opinar y debatir sobre política). Paso 2: Evalúa: A sacrifica la deliberación; B sacrifica el pluralismo; D ignora la dimensión emocional. Paso 3: C regula las emociones (pausa si alguien se altera, no insultos) y protege la deliberación (turnos, crítica a las ideas). Respuesta: C.",
+  "tip": "Se puede estar en total desacuerdo con una idea y en total respeto con la persona.",
+  "truco": "Duro con las ideas, suave con las personas.",
+  "estrategia_icfes": "Cuando el enunciado impone una condición (aquí, «sin prohibir»), úsala como filtro: descarta primero las opciones que la violan y luego compara las restantes por cuántas dimensiones atienden.",
+  "temas": [
+   "pluralismo político",
+   "diálogo y deliberación",
+   "regulación emocional",
+   "convivencia familiar"
+  ],
+  "gemela": {
+   "contexto": "En un grupo de WhatsApp de padres de familia, una discusión sobre la jornada escolar termina en insultos.",
+   "enunciado": "¿Qué medida mejora la convivencia sin impedir el debate?",
+   "opciones": {
+    "A": "Cerrar el grupo para siempre.",
+    "B": "Expulsar a quienes opinan diferente al administrador.",
+    "C": "Permitir cualquier mensaje, incluidos los insultos.",
+    "D": "Establecer normas de respeto en el grupo y llevar el tema a una reunión donde todos puedan exponer sus argumentos."
+   },
+   "correcta": "D",
+   "explicacion": "D regula el trato y abre un espacio adecuado de deliberación. A suprime el diálogo, B excluye el disenso y C permite la agresión."
+  }
+ }
+]

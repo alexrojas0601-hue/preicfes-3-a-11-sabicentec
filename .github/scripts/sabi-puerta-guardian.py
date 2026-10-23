@@ -30,7 +30,8 @@ for raiz, dirs, archivos in os.walk("."):
         for regla in cfg["reglas"]:
             if re.search(regla["patron"], ruta, re.I):
                 rol = regla["rol"]
-        etiqueta = f'<script src="{SRC}" data-rol="{rol}" data-texto="{cfg["texto"]}" defer></script>\n'
+        extra = "".join(f' data-{k}="{cfg[k]}"' for k in ("materia", "lado", "abajo") if cfg.get(k))
+        etiqueta = f'<script src="{SRC}" data-rol="{rol}" data-texto="{cfg["texto"]}"{extra} defer></script>\n'
         i = s.lower().rfind("</body>")
         open(ruta, "w", encoding="utf-8", errors="surrogateescape").write(s[:i] + etiqueta + s[i:])
         cambiadas.append(ruta)

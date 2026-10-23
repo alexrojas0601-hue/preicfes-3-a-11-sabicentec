@@ -1,0 +1,7 @@
+{
+  // SABI PREICFES CENTEC · preicfes.sabicentec.com
+  // Conecta el Worker sabi-preicfes-centec a este repositorio con "Root directory" = preicfes
+  "name": "sabi-preicfes-centec",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": ".", "not_found_handling": "single-page-application" }
+}

@@ -1,0 +1,736 @@
+[
+{
+"id": "P10-SOC-C001",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento social",
+"componente": "Economía y política",
+"nivel": "Mínimo",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende el funcionamiento del Estado colombiano, la separación de poderes y la manera como se toman las decisiones sobre los recursos públicos.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 8: «Las organizaciones políticas y sociales como estructuras que canalizan diversos poderes para afrontar necesidades y cambios». EBC 10°–11° (MEN 2006): identifico las funciones de las ramas del poder público y de los organismos de control.",
+"afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+"evidencia": "Identifica la rama del poder público que aprueba el Presupuesto General de la Nación, según la Constitución de 1991.",
+"contexto": "Cada año el Ministerio de Hacienda prepara el proyecto de Presupuesto General de la Nación, en el que se calculan los ingresos que espera recibir el Estado (impuestos, crédito, utilidades de empresas públicas) y se distribuyen los gastos entre educación, salud, defensa, vías y pago de la deuda. Ese proyecto no entra en vigencia hasta que otra institución lo discute, lo modifica si es necesario y lo aprueba mediante una ley, como lo establecen los artículos 150 y 346 de la Constitución.",
+"enunciado": "¿Qué institución tiene la función de aprobar el Presupuesto General de la Nación?",
+"opciones": {
+"A": "La Corte Constitucional, porque revisa que todas las leyes respeten la Constitución.",
+"B": "El Congreso de la República, porque le corresponde expedir las leyes, incluida la de presupuesto.",
+"C": "El Banco de la República, porque es la entidad encargada de administrar el dinero del país.",
+"D": "La Contraloría General, porque vigila la forma en que se gastan los recursos públicos."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir control constitucional con función legislativa",
+"porque": "Elegiste A porque probablemente pensaste que, al ser una ley importante, la decide el máximo tribunal constitucional.",
+"pregunta_guia": "¿La Corte Constitucional crea y aprueba leyes, o revisa las que ya fueron expedidas?",
+"aprende": "La Corte Constitucional (rama judicial) guarda la integridad de la Constitución; quien discute y aprueba la ley de presupuesto es el Congreso (rama legislativa)."
+},
+"C": {
+"error": "Confundir política monetaria con política fiscal",
+"porque": "Elegiste C porque probablemente asociaste «dinero del país» con el banco central.",
+"pregunta_guia": "¿El Banco de la República decide en qué gasta el Estado o controla la cantidad de dinero y la inflación?",
+"aprende": "El Banco de la República maneja la política monetaria (tasas de interés, inflación). El presupuesto es política fiscal: lo propone el Gobierno y lo aprueba el Congreso."
+},
+"D": {
+"error": "Confundir aprobación con control posterior",
+"porque": "Elegiste D porque probablemente recordaste que la Contraloría tiene que ver con los recursos públicos.",
+"pregunta_guia": "¿La Contraloría actúa antes, aprobando el gasto, o después, vigilando cómo se ejecutó?",
+"aprende": "La Contraloría ejerce el control fiscal sobre el uso de los recursos (art. 267); no aprueba el presupuesto. Esa es función del Congreso."
+}
+},
+"explicacion": "Paso 1: Identifica qué se pide: la institución que APRUEBA el presupuesto, no quien lo prepara ni quien lo vigila. Paso 2: El contexto dice que se aprueba «mediante una ley». Paso 3: En Colombia, la rama que expide leyes es la legislativa, es decir, el Congreso (art. 150). Paso 4: El Gobierno lo propone (art. 346) y el Congreso lo discute y aprueba. Respuesta: B.",
+"tip": "En economía pública piensa en tres verbos: el Gobierno PROPONE, el Congreso APRUEBA y la Contraloría VIGILA.",
+"truco": "«Plata de todos, ley de todos»: si el gasto público necesita una ley, la aprueban los representantes del pueblo en el Congreso.",
+"estrategia_icfes": "El ICFES pregunta por funciones de las instituciones dando pistas en el contexto («mediante una ley»). Subraya el verbo clave (aprobar, vigilar, juzgar, proponer) y relaciónalo con la rama o el organismo que cumple esa función.",
+"temas": ["Presupuesto General de la Nación", "ramas del poder público", "organismos de control"],
+"gemela": {
+"enunciado": "Una vez ejecutado el presupuesto, ¿qué entidad vigila que los recursos públicos se hayan gastado de manera correcta y eficiente?",
+"opciones": {
+"A": "La Registraduría Nacional del Estado Civil.",
+"B": "La Fiscalía General de la Nación.",
+"C": "La Contraloría General de la República.",
+"D": "El Banco de la República."
+},
+"correcta": "C",
+"explicacion": "La Contraloría ejerce el control fiscal (art. 267 de la Constitución): vigila la gestión de quienes manejan fondos públicos. La Fiscalía investiga delitos, la Registraduría organiza elecciones y el Banco de la República maneja la política monetaria."
+}
+},
+{
+"id": "P10-SOC-C002",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento social",
+"componente": "Economía y política",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las políticas económicas del Estado colombiano y sus efectos en la vida cotidiana y en la distribución de la riqueza.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 4: «La necesidad de buscar desarrollos económicos sostenibles que permitan preservar la dignidad humana». Constitución, art. 363: el sistema tributario se funda en los principios de equidad, eficiencia y progresividad.",
+"afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+"evidencia": "Clasifica un impuesto como progresivo, proporcional o regresivo a partir del porcentaje del ingreso que pagan hogares con ingresos distintos.",
+"contexto": "Dos hogares de Cali compran una canasta parecida de productos gravados con IVA. La tabla muestra lo que pagan al mes por ese impuesto (datos hipotéticos).",
+"tabla": {
+"titulo": "IVA pagado al mes por dos hogares (datos hipotéticos)",
+"cols": ["Hogar", "Ingreso mensual", "IVA pagado al mes"],
+"filas": [
+["Familia Angulo", "$2.000.000", "$100.000"],
+["Familia Mosquera", "$8.000.000", "$200.000"]
+]
+},
+"enunciado": "De acuerdo con la tabla, ¿cómo se comporta el IVA frente al ingreso de estos hogares?",
+"opciones": {
+"A": "Es progresivo, porque la Familia Mosquera paga el doble de pesos que la Familia Angulo.",
+"B": "Es proporcional, porque los dos hogares pagan la misma tarifa sobre cada producto que compran.",
+"C": "Es neutral, porque cada hogar paga según lo que decide consumir y no según su ingreso.",
+"D": "Es regresivo, porque la Familia Angulo destina el 5 % de su ingreso y la Familia Mosquera solo el 2,5 %."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Comparar pesos absolutos en vez de porcentajes del ingreso",
+"porque": "Elegiste A porque probablemente viste que $200.000 es más que $100.000 y concluiste que quien gana más aporta más.",
+"pregunta_guia": "Para saber si un impuesto es progresivo, ¿comparas cuántos pesos paga cada uno o qué parte de su ingreso representa ese pago?",
+"aprende": "La progresividad se mide en proporción al ingreso: 100.000/2.000.000 = 5 % frente a 200.000/8.000.000 = 2,5 %. El hogar más pobre aporta una parte mayor de su ingreso."
+},
+"B": {
+"error": "Confundir tarifa sobre el producto con carga sobre el ingreso",
+"porque": "Elegiste B porque probablemente recordaste que el IVA tiene la misma tarifa para todos los compradores.",
+"pregunta_guia": "Si la tarifa sobre cada compra es igual, ¿la carga sobre el ingreso de cada familia también lo es?",
+"aprende": "Una tarifa igual sobre el consumo no produce una carga igual sobre el ingreso, porque los hogares de menores ingresos gastan casi todo lo que ganan."
+},
+"C": {
+"error": "Ignorar la información de ingresos de la tabla",
+"porque": "Elegiste C porque probablemente pensaste que el consumo es una decisión libre y por eso el impuesto no se relaciona con el ingreso.",
+"pregunta_guia": "¿Qué columna de la tabla te permite relacionar el impuesto con el ingreso?",
+"aprende": "La pregunta exige relacionar dos columnas: el IVA pagado y el ingreso. Al calcular el porcentaje aparece el efecto regresivo."
+}
+},
+"explicacion": "Paso 1: Calcula qué porcentaje del ingreso paga cada hogar. Familia Angulo: 100.000 ÷ 2.000.000 = 0,05 = 5 %. Familia Mosquera: 200.000 ÷ 8.000.000 = 0,025 = 2,5 %. Paso 2: Recuerda las definiciones: progresivo = el porcentaje sube con el ingreso; proporcional = el porcentaje es igual; regresivo = el porcentaje baja cuando el ingreso sube. Paso 3: Aquí el porcentaje baja de 5 % a 2,5 % al subir el ingreso. Paso 4: El impuesto es regresivo. Respuesta: D.",
+"tip": "Antes de opinar sobre un impuesto, convierte los pesos en porcentajes del ingreso.",
+"truco": "PRO-gresivo: el que más tiene PRO-porcionalmente paga más. RE-gresivo: la carga RE-cae sobre el que menos tiene.",
+"estrategia_icfes": "El ICFES suele presentar tablas con valores absolutos para ver si el estudiante compara proporciones. Calcula siempre la razón impuesto/ingreso antes de leer las opciones y descarta las que razonan solo con pesos.",
+"temas": ["impuestos progresivos y regresivos", "IVA", "principio de progresividad tributaria"],
+"gemela": {
+"contexto": "En un país hipotético el impuesto de renta funciona así: quien gana hasta $1.000.000 paga 0 %; entre $1.000.001 y $5.000.000 paga 10 % sobre ese tramo; y lo que pase de $5.000.000 paga 25 %.",
+"enunciado": "¿Cómo se clasifica este impuesto?",
+"opciones": {
+"A": "Regresivo, porque las personas de menores ingresos no pagan nada.",
+"B": "Progresivo, porque la tarifa aumenta a medida que aumenta el ingreso.",
+"C": "Proporcional, porque todos pagan sobre el mismo tipo de ingreso.",
+"D": "Indirecto, porque se cobra al momento de comprar bienes."
+},
+"correcta": "B",
+"explicacion": "Las tarifas suben por tramos (0 %, 10 %, 25 %): quien gana más paga una proporción mayor de su ingreso. Es un impuesto directo y progresivo."
+}
+},
+{
+"id": "P10-SOC-C003",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento reflexivo y sistémico",
+"componente": "Economía y política",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las crisis económicas de la Colombia contemporánea y sus repercusiones en las finanzas del Estado y en la vida cotidiana de las personas.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 4: desarrollos económicos sostenibles. EBC 10°–11° (MEN 2006): utilizo diferentes formas de representación (gráficas, tablas) para interpretar información económica y social.",
+"afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+"evidencia": "Explica que un indicador construido como cociente (deuda/PIB) cambia tanto por su numerador como por su denominador.",
+"contexto": "La gráfica muestra la deuda pública de un país hipotético como porcentaje de su producto interno bruto (PIB). En 2020, durante una pandemia, la economía se contrajo y el gobierno amplió las ayudas a los hogares. Un analista afirmó: «El gran salto de 2020 pudo ocurrir aunque la deuda en pesos no hubiera crecido tanto».",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Deuda pública como % del PIB (país hipotético)",
+"etiquetas": ["2017", "2018", "2019", "2020", "2021", "2022"],
+"series": [
+{"nombre": "Deuda / PIB", "datos": [45, 47, 50, 62, 60, 58]}
+],
+"ejeY": "% del PIB"
+},
+"enunciado": "¿Por qué es válida la afirmación del analista?",
+"opciones": {
+"A": "Porque el indicador es un cociente: si el PIB cae, la razón deuda/PIB aumenta aunque la deuda crezca poco.",
+"B": "Porque la deuda en pesos disminuyó en 2020, y por eso el porcentaje tuvo que subir.",
+"C": "Porque el porcentaje solo depende de los intereses pagados, no del tamaño de la economía.",
+"D": "Porque cuando el PIB disminuye la razón deuda/PIB siempre baja, y en 2020 ocurrió lo contrario."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Invertir la relación entre numerador y razón",
+"porque": "Elegiste B porque probablemente pensaste que si el porcentaje sube algo tuvo que bajar, y supusiste que fue la deuda.",
+"pregunta_guia": "Si la deuda (numerador) baja y el PIB no cambia, ¿la razón sube o baja?",
+"aprende": "Una deuda menor reduce la razón deuda/PIB. El aumento se explica por mayor deuda, menor PIB o ambas cosas."
+},
+"C": {
+"error": "Desconocer cómo se construye el indicador",
+"porque": "Elegiste C porque probablemente asociaste deuda con intereses y olvidaste que el indicador divide por el PIB.",
+"pregunta_guia": "¿Qué dos cantidades se dividen para obtener «deuda como % del PIB»?",
+"aprende": "Deuda/PIB = saldo de la deuda ÷ PIB × 100. Los intereses afectan la deuda, pero el tamaño de la economía (PIB) está en el denominador."
+},
+"D": {
+"error": "Error en el efecto del denominador",
+"porque": "Elegiste D porque probablemente creíste que si el PIB baja, todo lo que se mide con él también baja.",
+"pregunta_guia": "¿Qué pasa con 50 ÷ 100 si el denominador baja a 90?",
+"aprende": "Si el denominador disminuye, el cociente aumenta: 50 ÷ 90 ≈ 55,6 % frente a 50 ÷ 100 = 50 %."
+}
+},
+"explicacion": "Paso 1: Deuda/PIB = (saldo de la deuda ÷ PIB) × 100. Paso 2: El indicador sube si la deuda crece, si el PIB cae, o por ambas razones. Paso 3: En 2020 la economía se contrajo (el PIB cayó) y el gasto en ayudas aumentó (la deuda creció). Paso 4: Por eso el salto de 50 % a 62 % no exige que toda la subida venga del endeudamiento: parte se debe a que la economía se achicó. Ejemplo: deuda 50 y PIB 100 dan 50 %; deuda 54 y PIB 90 dan 60 %. Respuesta: A.",
+"tip": "Cuando leas un porcentaje en una gráfica, pregúntate siempre: ¿porcentaje de qué?",
+"truco": "Cociente = arriba ÷ abajo. Si lo de abajo se encoge, el resultado se agranda.",
+"estrategia_icfes": "En el componente económico el ICFES usa indicadores relativos (deuda/PIB, desempleo, inflación) y pide interpretar sus cambios. Escribe la fórmula del indicador e identifica qué parte se movió según el contexto.",
+"temas": ["deuda pública", "indicador deuda/PIB", "lectura de gráficas", "finanzas públicas en crisis"],
+"gemela": {
+"enunciado": "Un país tiene una deuda de 80 billones y un PIB de 200 billones. Al año siguiente la deuda sube a 84 billones y el PIB crece a 240 billones. ¿Qué pasa con la razón deuda/PIB?",
+"opciones": {
+"A": "Sube de 40 % a 42 %, porque la deuda creció.",
+"B": "Baja de 40 % a 35 %, porque el PIB creció más que la deuda.",
+"C": "Se mantiene en 40 %, porque deuda y PIB crecieron.",
+"D": "Baja de 40 % a 30 %, porque la deuda creció poco."
+},
+"correcta": "B",
+"explicacion": "Año 1: 80 ÷ 200 = 0,40 = 40 %. Año 2: 84 ÷ 240 = 0,35 = 35 %. El PIB creció 20 % y la deuda solo 5 %, así que la razón baja."
+}
+},
+{
+"id": "P10-SOC-C004",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y análisis de perspectivas",
+"componente": "Economía y política",
+"nivel": "Satisfactorio",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza conflictos que se presentan en el territorio colombiano originados por el desarrollo económico y la inserción del país en la economía global.",
+"lineamiento": "EBC Ciencias Sociales 10°–11° (MEN 2006): reconozco el impacto de la globalización sobre las distintas economías y reconozco diferentes reacciones ante este fenómeno.",
+"afirmacion": "Comprende perspectivas de distintos actores y grupos sociales.",
+"evidencia": "Identifica los intereses de productores y consumidores frente a la reducción de un arancel de importación.",
+"contexto": "El gobierno de un país estudia reducir el arancel (impuesto a las importaciones) que paga el arroz traído del exterior. Con un arancel más bajo, el arroz importado llegaría más barato a los supermercados. En el país hay miles de familias que cultivan arroz en llanuras del interior, y millones de hogares urbanos que lo consumen a diario.",
+"enunciado": "¿Cuál afirmación describe mejor las posturas que probablemente tendrán los productores y los consumidores frente a esta medida?",
+"opciones": {
+"A": "Los productores la apoyarán porque podrán vender más arroz, y los consumidores se opondrán porque el arroz importado es de menor calidad.",
+"B": "Los productores y los consumidores la apoyarán, porque el arancel es un impuesto que solo beneficia al Estado.",
+"C": "Los productores se opondrán por la competencia de arroz más barato, y los consumidores la apoyarán porque bajaría el precio.",
+"D": "Los productores y los consumidores se opondrán, porque una reducción de aranceles siempre eleva los precios internos."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Invertir los intereses de los actores",
+"porque": "Elegiste A porque probablemente pensaste que abrir el mercado beneficia a todos los que venden, sin notar que la competencia viene de afuera.",
+"pregunta_guia": "Si llega arroz importado más barato, ¿a quién le compiten el precio: al productor nacional o al consumidor?",
+"aprende": "La reducción del arancel aumenta la competencia para el productor nacional y abarata el producto para el consumidor."
+},
+"B": {
+"error": "Suponer que un arancel no tiene efectos distributivos",
+"porque": "Elegiste B porque probablemente viste el arancel solo como recaudo del Estado.",
+"pregunta_guia": "Además de recaudar, ¿qué hace el arancel con el precio del arroz importado frente al nacional?",
+"aprende": "El arancel también protege a los productores nacionales al encarecer lo importado; por eso quitarlo los perjudica a ellos."
+},
+"D": {
+"error": "Confundir el efecto de bajar aranceles con el de subirlos",
+"porque": "Elegiste D porque probablemente asociaste cualquier cambio en impuestos con aumento de precios.",
+"pregunta_guia": "Si un impuesto sobre un producto baja, ¿su precio tiende a subir o a bajar?",
+"aprende": "Bajar el arancel abarata lo importado y presiona a la baja los precios internos."
+}
+},
+"explicacion": "Paso 1: Entiende la medida: bajar el arancel abarata el arroz importado. Paso 2: Analiza a cada actor según su interés. Productores nacionales: enfrentarán competencia más barata, pueden perder ventas e ingresos, por lo que tenderán a oponerse. Consumidores urbanos: pagarán menos por un alimento básico, por lo que tenderán a apoyarla. Paso 3: La opción que recoge ambos intereses es la C.",
+"tip": "Ante una política económica, pregunta: ¿quién gana y quién pierde?",
+"truco": "Arancel ALTO = escudo para el productor; arancel BAJO = descuento para el consumidor.",
+"estrategia_icfes": "En perspectivas el ICFES no pregunta tu opinión, sino qué piensa cada actor según su posición. Ponte en los zapatos de cada grupo y deduce su interés económico antes de mirar las opciones.",
+"temas": ["aranceles", "globalización y comercio", "intereses de productores y consumidores"],
+"gemela": {
+"contexto": "Un gobierno propone subir el arancel al acero importado. Las siderúrgicas nacionales producen acero; los talleres metalmecánicos usan acero como insumo para fabricar rejas y estructuras.",
+"enunciado": "¿Qué postura es más probable en los talleres metalmecánicos?",
+"opciones": {
+"A": "Apoyarán la medida, porque protege a toda la industria nacional por igual.",
+"B": "Se opondrán, porque el acero, su insumo, se encarecería y subirían sus costos.",
+"C": "Serán indiferentes, porque el arancel solo afecta a las siderúrgicas.",
+"D": "Apoyarán la medida, porque bajará el precio del acero importado."
+},
+"correcta": "B",
+"explicacion": "Subir el arancel encarece el acero importado y permite que el nacional suba precios. Para quien usa acero como insumo, los costos aumentan, así que tenderá a oponerse."
+}
+},
+{
+"id": "P10-SOC-C005",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento social",
+"componente": "Economía y política",
+"nivel": "Mínimo",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende la organización económica del Estado colombiano y el uso de los recursos naturales como fuente de ingresos públicos.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 3: «Mujeres y hombres como guardianes y beneficiarios de la madre tierra». Constitución de 1991, arts. 332 y 360: el Estado es propietario del subsuelo y de los recursos naturales no renovables, cuya explotación genera regalías.",
+"afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+"evidencia": "Define qué son las regalías y las diferencia de otros ingresos públicos.",
+"contexto": "Una empresa extrae petróleo en un municipio del Meta. Por esa explotación, la empresa debe entregar al Estado un pago que luego se distribuye mediante el Sistema General de Regalías para financiar proyectos de inversión en distintas regiones del país, como vías, acueductos y proyectos de ciencia y tecnología.",
+"enunciado": "El pago que realiza la empresa corresponde a una regalía, que se define como:",
+"opciones": {
+"A": "la contraprestación económica que recibe el Estado por la explotación de un recurso natural no renovable.",
+"B": "un impuesto que pagan los habitantes del municipio por vivir en una zona petrolera.",
+"C": "la transferencia que hace la Nación a los municipios para pagar docentes y servicios de salud.",
+"D": "una donación voluntaria que hace la empresa como parte de su responsabilidad social."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir regalía con impuesto a los ciudadanos",
+"porque": "Elegiste B porque probablemente pensaste que cualquier ingreso del Estado es un impuesto pagado por la población.",
+"pregunta_guia": "Según el contexto, ¿quién hace el pago: los habitantes o la empresa que extrae el petróleo?",
+"aprende": "La regalía la paga quien explota el recurso, porque el subsuelo pertenece al Estado (art. 332)."
+},
+"C": {
+"error": "Confundir regalías con el Sistema General de Participaciones",
+"porque": "Elegiste C porque probablemente recordaste que la Nación gira recursos a los municipios y mezclaste los dos sistemas.",
+"pregunta_guia": "¿De dónde salen los recursos para pagar docentes y salud: de la explotación de petróleo o de los ingresos corrientes de la Nación?",
+"aprende": "El Sistema General de Participaciones (arts. 356-357) transfiere ingresos de la Nación para educación, salud y agua potable. Las regalías provienen de la explotación de recursos no renovables."
+},
+"D": {
+"error": "Confundir obligación legal con acto voluntario",
+"porque": "Elegiste D porque probablemente asociaste los aportes de las empresas a las comunidades con responsabilidad social.",
+"pregunta_guia": "¿La empresa puede decidir si paga la regalía o está obligada a hacerlo?",
+"aprende": "La regalía es una obligación establecida por la Constitución y la ley; la responsabilidad social es voluntaria y adicional."
+}
+},
+"explicacion": "Paso 1: Identifica quién paga (la empresa), por qué paga (por extraer petróleo) y a quién (al Estado). Paso 2: Recuerda que la Constitución declara que el subsuelo y los recursos no renovables son del Estado (art. 332). Paso 3: Como la empresa aprovecha un bien del Estado, le paga una contraprestación: la regalía (art. 360). Respuesta: A.",
+"tip": "Recursos NO renovables (petróleo, carbón, oro) generan regalías porque se agotan y son de todos los colombianos.",
+"truco": "Regalía viene de «regalis», lo que le corresponde al rey; hoy, lo que le corresponde al Estado por su subsuelo.",
+"estrategia_icfes": "Las preguntas de nivel mínimo piden reconocer un concepto en una situación. Ubica en el contexto el quién, el qué y el por qué del pago y compáralos con cada definición.",
+"temas": ["regalías", "Sistema General de Regalías", "recursos naturales no renovables"],
+"gemela": {
+"enunciado": "Según la Constitución de 1991, ¿a quién pertenecen el subsuelo y los recursos naturales no renovables?",
+"opciones": {
+"A": "Al dueño del terreno donde se encuentran.",
+"B": "A la empresa que obtiene la licencia de explotación.",
+"C": "Al departamento donde se ubica el yacimiento.",
+"D": "Al Estado."
+},
+"correcta": "D",
+"explicacion": "El artículo 332 establece que el Estado es propietario del subsuelo y de los recursos naturales no renovables; por eso quien los explota debe pagar regalías."
+}
+},
+{
+"id": "P10-SOC-C006",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y análisis de perspectivas",
+"componente": "Convivencia, paz y perspectivas",
+"nivel": "Satisfactorio",
+"sabic": "Inteligencia emocional",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad colombiana existen derechos, deberes, principios y acciones para orientar y regular la convivencia de las personas.",
+"lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006): utilizo mecanismos constructivos para encauzar mi rabia y enfrentar mis conflictos; construyo relaciones pacíficas que contribuyen a la convivencia cotidiana.",
+"afirmacion": "Comprende perspectivas de distintos actores y grupos sociales.",
+"evidencia": "Diferencia posiciones de intereses en un conflicto y reconoce cómo identificar intereses facilita acuerdos.",
+"contexto": "En un colegio de Cali, el equipo de fútbol de grado 10 y el grupo de danza discuten por la cancha durante el descanso. El equipo dice: «La cancha es nuestra todo el descanso». El grupo de danza responde: «Nos la tienen que dejar a nosotros». La mediadora escolar les pregunta a ambos: «¿Para qué necesitan la cancha?». El equipo explica que debe practicar para un torneo dentro de dos semanas; el grupo de danza, que necesita un piso plano y amplio durante unos 20 minutos para ensayar una coreografía del Festival del Petronio.",
+"enunciado": "Con su pregunta, la mediadora busca principalmente:",
+"opciones": {
+"A": "determinar cuál de los dos grupos tiene más derecho a la cancha para que el otro ceda.",
+"B": "que los grupos se cansen de discutir y acepten la decisión que tome el rector.",
+"C": "pasar de las posiciones de cada grupo a sus intereses para encontrar una solución que satisfaga a ambos.",
+"D": "demostrar que el conflicto no es importante porque los dos grupos tienen razón."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Ver la mediación como un juicio de ganador y perdedor",
+"porque": "Elegiste A porque probablemente pensaste que resolver un conflicto es decidir quién tiene la razón.",
+"pregunta_guia": "¿La pregunta de la mediadora busca un culpable o busca entender qué necesita cada grupo?",
+"aprende": "La mediación no impone un ganador; ayuda a que las partes descubran sus necesidades y construyan acuerdos gana-gana."
+},
+"B": {
+"error": "Confundir mediación con imposición de autoridad",
+"porque": "Elegiste B porque probablemente creíste que todo conflicto escolar termina con una decisión de las directivas.",
+"pregunta_guia": "Si la decisión la toma otra persona, ¿para qué haría falta preguntar a los grupos qué necesitan?",
+"aprende": "En la mediación son las partes quienes construyen el acuerdo, con ayuda de un tercero neutral."
+},
+"D": {
+"error": "Minimizar el conflicto",
+"porque": "Elegiste D porque probablemente pensaste que si ambos tienen razón, el conflicto desaparece solo.",
+"pregunta_guia": "¿Que ambos tengan necesidades legítimas hace que el conflicto deje de existir?",
+"aprende": "Reconocer que ambos tienen necesidades válidas es el punto de partida para negociar, no el final del conflicto."
+}
+},
+"explicacion": "Paso 1: Identifica las posiciones: lo que cada grupo exige («la cancha es nuestra»). Paso 2: Identifica los intereses: lo que de verdad necesitan (practicar para un torneo; un piso plano por 20 minutos). Paso 3: La pregunta «¿para qué?» revela intereses. Paso 4: Con los intereses a la vista aparecen salidas: dividir el descanso en turnos, usar media cancha, alternar días. Respuesta: C.",
+"tip": "Cuando estés en un conflicto, cambia «¿qué quieres?» por «¿para qué lo necesitas?».",
+"truco": "Posición = el QUÉ que exijo; interés = el PARA QUÉ que necesito. Las soluciones viven en el «para qué».",
+"estrategia_icfes": "El ICFES presenta conflictos cotidianos y pregunta por la intención de una acción. Identifica el modelo de resolución usado (mediación, negociación, conciliación) y lo que ese modelo busca.",
+"temas": ["mediación escolar", "posiciones e intereses", "negociación gana-gana", "inteligencia emocional"],
+"gemela": {
+"contexto": "Dos hermanos pelean por el único computador de la casa. Lucía dice: «Lo necesito toda la tarde». Andrés dice: «Hoy me toca a mí». Luego se sabe que Lucía debe enviar una tarea a las 6:00 p. m. y Andrés quiere jugar en línea con sus amigos a las 8:00 p. m.",
+"enunciado": "¿Cuál es el interés de Lucía?",
+"opciones": {
+"A": "Usar el computador toda la tarde.",
+"B": "Que Andrés no juegue en línea.",
+"C": "Ganarle la discusión a su hermano.",
+"D": "Entregar su tarea antes de las 6:00 p. m."
+},
+"correcta": "D",
+"explicacion": "«Toda la tarde» es la posición; la necesidad real es entregar la tarea a las 6:00 p. m. Como Andrés juega a las 8:00 p. m., ambos intereses son compatibles."
+}
+},
+{
+"id": "P10-SOC-C007",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento reflexivo y sistémico",
+"componente": "Convivencia, paz y perspectivas",
+"nivel": "Avanzado",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad colombiana existen derechos, deberes, principios y acciones para orientar y regular la convivencia, y analiza situaciones en las que entran en tensión distintos derechos.",
+"lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006): analizo críticamente las decisiones, acciones u omisiones que se toman en el ámbito nacional o internacional y que pueden generar conflictos o afectar los derechos humanos. Constitución, art. 37: derecho de reunión y manifestación pública y pacífica.",
+"afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+"evidencia": "Evalúa una propuesta de solución que articula las dimensiones política, económica y humanitaria de un conflicto social.",
+"contexto": "Una organización campesina bloquea durante varios días una vía principal del suroccidente colombiano para exigir que el gobierno cumpla acuerdos firmados años atrás sobre vías terciarias y apoyo a la comercialización de sus cosechas. En Cali empiezan a subir los precios de algunos alimentos, y una ambulancia queda detenida varias horas en el bloqueo. Las autoridades locales deben proponer una salida.",
+"enunciado": "¿Cuál de las siguientes propuestas atiende mejor las distintas dimensiones del problema?",
+"opciones": {
+"A": "Despejar la vía por la fuerza de inmediato, porque la libre circulación está por encima de cualquier reclamo social.",
+"B": "Esperar sin intervenir hasta que los manifestantes se cansen y levanten el bloqueo por su propia cuenta.",
+"C": "Aceptar de inmediato todas las exigencias para terminar el bloqueo, sin revisar su costo ni su viabilidad.",
+"D": "Instalar una mesa de diálogo con seguimiento a los acuerdos y pactar corredores humanitarios para ambulancias y alimentos."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Atender una sola dimensión del problema (orden público)",
+"porque": "Elegiste A porque probablemente pensaste solo en el efecto inmediato del bloqueo y no en sus causas.",
+"pregunta_guia": "Si se despeja la vía pero no se atienden los acuerdos incumplidos, ¿qué pasará con el conflicto en el futuro?",
+"aprende": "El uso de la fuerza como primera respuesta desconoce el derecho a la protesta pacífica y deja intactas las causas del conflicto."
+},
+"B": {
+"error": "Confundir pasividad con neutralidad",
+"porque": "Elegiste B porque probablemente creíste que no intervenir evita empeorar el conflicto.",
+"pregunta_guia": "Mientras se espera, ¿qué ocurre con la ambulancia detenida y con los precios de los alimentos?",
+"aprende": "La omisión del Estado también tiene efectos: prolonga la afectación de terceros y no resuelve el reclamo."
+},
+"C": {
+"error": "Ignorar la dimensión fiscal y de viabilidad",
+"porque": "Elegiste C porque probablemente pensaste que acceder a todo es la forma más rápida y pacífica de terminar el bloqueo.",
+"pregunta_guia": "Si se aceptan compromisos sin saber si hay recursos para cumplirlos, ¿qué puede pasar con esos nuevos acuerdos?",
+"aprende": "Prometer sin evaluar viabilidad puede generar nuevos incumplimientos, que fue justamente el origen del conflicto."
+}
+},
+"explicacion": "Paso 1: Identifica las dimensiones del problema: política (acuerdos incumplidos y derecho a la protesta), económica (alza de precios y ventas de los campesinos) y humanitaria (ambulancia y abastecimiento). Paso 2: Evalúa cada propuesta. A atiende solo el orden público. B no atiende ninguna. C atiende la exigencia, pero ignora la viabilidad económica. D abre el diálogo sobre las causas, crea seguimiento para evitar nuevos incumplimientos y protege a terceros con corredores humanitarios. Paso 3: La D integra todas las dimensiones.",
+"tip": "La mejor solución en un problema social es la que conversa con todas sus dimensiones, no la más rápida.",
+"truco": "Revisa las tres «P»: Protesta (derechos), Plata (economía) y Personas afectadas (humanitario). Gana la opción que cubre las tres.",
+"estrategia_icfes": "En pensamiento sistémico el ICFES pregunta por la solución que considera más dimensiones. Haz una lista rápida de dimensiones en el contexto y marca cuáles atiende cada opción: descarta las que solo cubren una.",
+"temas": ["derecho a la protesta pacífica", "tensión entre derechos", "solución de conflictos sociales"],
+"gemela": {
+"contexto": "Los conductores de buses de una ciudad hacen un paro para exigir mejores condiciones laborales. Miles de estudiantes y trabajadores no pueden llegar a sus destinos.",
+"enunciado": "¿Qué medida reconoce a la vez el derecho de los conductores y el de los usuarios?",
+"opciones": {
+"A": "Sancionar a todos los conductores para que el servicio se reanude.",
+"B": "Negociar con los conductores y organizar un servicio mínimo para los trayectos esenciales mientras dura la negociación.",
+"C": "Cerrar la empresa de transporte para evitar nuevos paros.",
+"D": "Pedir a los usuarios que no salgan de su casa hasta que termine el paro."
+},
+"correcta": "B",
+"explicacion": "La negociación atiende el reclamo laboral y el servicio mínimo protege la movilidad de los usuarios; las demás opciones sacrifican por completo uno de los dos derechos."
+}
+},
+{
+"id": "P10-SOC-C008",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento social",
+"componente": "Convivencia, paz y perspectivas",
+"nivel": "Mínimo",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): evalúa las causas y consecuencias de la violencia en la segunda mitad del siglo XX en Colombia y reconoce las iniciativas de construcción de paz.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 2: «Sujeto, sociedad civil y Estado comprometidos con la defensa y promoción de los deberes y derechos humanos». Ley 1732 de 2014 (Cátedra de la Paz).",
+"afirmacion": "Comprende dimensiones espaciales y temporales de eventos, problemáticas y prácticas sociales.",
+"evidencia": "Relaciona medidas concretas con los puntos del Acuerdo Final de Paz firmado en 2016.",
+"contexto": "El Acuerdo Final para la Terminación del Conflicto y la Construcción de una Paz Estable y Duradera, firmado en 2016 entre el Gobierno colombiano y la guerrilla de las FARC-EP, incluye un punto que busca transformar el campo mediante el acceso a la tierra para campesinos que no la tienen, la formalización de predios, la construcción de vías terciarias y los planes de desarrollo con enfoque territorial (PDET) en las zonas más afectadas por el conflicto.",
+"enunciado": "Las medidas descritas corresponden al punto del Acuerdo denominado:",
+"opciones": {
+"A": "Participación política: apertura democrática para construir la paz.",
+"B": "Hacia un nuevo campo colombiano: Reforma Rural Integral.",
+"C": "Solución al problema de las drogas ilícitas.",
+"D": "Fin del conflicto: cese al fuego y dejación de armas."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir desarrollo rural con participación política",
+"porque": "Elegiste A porque probablemente pensaste que todos los temas del Acuerdo son, en el fondo, políticos.",
+"pregunta_guia": "¿Las medidas del texto hablan de partidos y elecciones, o de tierras, predios y vías?",
+"aprende": "El punto de participación política trata garantías para la oposición, nuevos partidos y circunscripciones; tierras y vías corresponden a la Reforma Rural Integral."
+},
+"C": {
+"error": "Asociar todo lo rural con cultivos ilícitos",
+"porque": "Elegiste C porque probablemente relacionaste el campo afectado por el conflicto con la coca.",
+"pregunta_guia": "¿El texto menciona sustitución de cultivos o acceso y formalización de tierras?",
+"aprende": "El punto de drogas ilícitas trata la sustitución voluntaria de cultivos y la prevención del consumo; el acceso a tierras es Reforma Rural Integral."
+},
+"D": {
+"error": "Confundir medidas de transformación con medidas militares",
+"porque": "Elegiste D porque probablemente pensaste que todo el Acuerdo trata de cómo dejar las armas.",
+"pregunta_guia": "¿Construir vías terciarias y formalizar predios tiene que ver con un cese al fuego?",
+"aprende": "El fin del conflicto incluye cese al fuego, dejación de armas y reincorporación; las medidas del texto buscan atacar causas estructurales en el campo."
+}
+},
+"explicacion": "Paso 1: Lee las palabras clave del contexto: tierra para campesinos, formalización de predios, vías terciarias, PDET. Paso 2: Todas se refieren al desarrollo del campo. Paso 3: El primer punto del Acuerdo, «Hacia un nuevo campo colombiano: Reforma Rural Integral», reúne estas medidas porque el problema de la tierra es una de las raíces históricas del conflicto. Respuesta: B.",
+"tip": "Relaciona cada punto del Acuerdo con una raíz del conflicto: tierra, participación, armas, drogas y víctimas.",
+"truco": "Tierra, Trochas (vías) y Títulos (predios) = Reforma Rural Integral.",
+"estrategia_icfes": "El ICFES puede pedir que relaciones medidas con la política o el acuerdo que las contiene. Subraya las palabras clave del contexto y compáralas con el tema central de cada opción.",
+"temas": ["Acuerdo Final de Paz de 2016", "Reforma Rural Integral", "construcción de paz territorial"],
+"gemela": {
+"enunciado": "Un programa del Acuerdo de 2016 ofrece a familias campesinas apoyos para reemplazar voluntariamente cultivos de coca por cacao o café. ¿A qué punto del Acuerdo corresponde?",
+"opciones": {
+"A": "Solución al problema de las drogas ilícitas.",
+"B": "Participación política.",
+"C": "Víctimas del conflicto.",
+"D": "Implementación, verificación y refrendación."
+},
+"correcta": "A",
+"explicacion": "La sustitución voluntaria de cultivos de uso ilícito hace parte del punto «Solución al problema de las drogas ilícitas»."
+}
+},
+{
+"id": "P10-SOC-C009",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento reflexivo y sistémico",
+"componente": "Economía y política",
+"nivel": "Satisfactorio",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental y el modelo de desarrollo económico.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 3: «Mujeres y hombres como guardianes y beneficiarios de la madre tierra», y eje 4: desarrollos económicos sostenibles.",
+"afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+"evidencia": "Explica la finalidad de un impuesto ambiental como instrumento para cambiar comportamientos que generan costos sociales.",
+"contexto": "La Ley 1819 de 2016 creó en Colombia un impuesto al consumo de bolsas plásticas que se cobra al cliente en el punto de pago. La tabla muestra las bolsas entregadas por un supermercado de Cali en un mes típico antes y después del impuesto (datos hipotéticos).",
+"tabla": {
+"titulo": "Bolsas plásticas entregadas en un mes típico (datos hipotéticos)",
+"cols": ["Año", "Bolsas entregadas"],
+"filas": [
+["2016 (antes del impuesto)", "120.000"],
+["2017", "70.000"],
+["2018", "50.000"]
+]
+},
+"enunciado": "¿Cuál es el principal propósito de un impuesto como este?",
+"opciones": {
+"A": "Aumentar el recaudo del Estado para pagar la deuda pública, aunque el consumo de bolsas se mantenga.",
+"B": "Castigar a los supermercados por vender productos que contaminan el ambiente.",
+"C": "Proteger a los fabricantes nacionales de plástico frente a las bolsas importadas.",
+"D": "Desincentivar un consumo que genera costos ambientales que la sociedad termina asumiendo."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir un impuesto correctivo con uno de recaudo",
+"porque": "Elegiste A porque probablemente pensaste que todo impuesto existe principalmente para recaudar dinero.",
+"pregunta_guia": "Si el impuesto funciona como muestra la tabla, ¿el recaudo crece o disminuye a medida que se usan menos bolsas?",
+"aprende": "Un impuesto ambiental tiene éxito cuando reduce la conducta que grava, aunque eso implique recaudar menos con el tiempo."
+},
+"B": {
+"error": "Equivocar quién paga el impuesto",
+"porque": "Elegiste B porque probablemente pensaste que el supermercado es el responsable de la contaminación.",
+"pregunta_guia": "Según el contexto, ¿a quién se le cobra el impuesto en el punto de pago?",
+"aprende": "El impuesto lo paga el consumidor cuando pide la bolsa; el supermercado lo recauda. Busca cambiar la decisión de quien consume."
+},
+"C": {
+"error": "Confundir impuesto ambiental con arancel proteccionista",
+"porque": "Elegiste C porque probablemente asociaste impuestos a productos con la protección de la industria nacional.",
+"pregunta_guia": "¿El impuesto distingue entre bolsas nacionales e importadas?",
+"aprende": "Un arancel grava lo importado para proteger lo nacional; este impuesto grava todas las bolsas para reducir su uso."
+}
+},
+"explicacion": "Paso 1: Lee la tabla: las bolsas pasan de 120.000 a 50.000, una reducción de (120.000 − 50.000) ÷ 120.000 ≈ 58 %. Paso 2: Interpreta: el cobro cambió el comportamiento de los consumidores. Paso 3: Relaciona con el concepto de externalidad negativa: el plástico contamina ríos y mares, y ese costo no lo paga quien usa la bolsa sino toda la sociedad. Paso 4: El impuesto pone un precio a ese daño para desincentivarlo. Respuesta: D.",
+"tip": "Hay impuestos para recaudar y hay impuestos para cambiar conductas; los ambientales son del segundo tipo.",
+"truco": "Impuesto verde exitoso = recaudo que se encoge, porque la conducta dañina también se encoge.",
+"estrategia_icfes": "El ICFES combina una tabla con una política pública y pregunta por su finalidad. Usa los datos para comprobar qué efecto buscaba la medida y descarta las opciones que contradicen la tendencia de la tabla.",
+"temas": ["externalidades negativas", "impuestos ambientales", "economía y ambiente"],
+"gemela": {
+"enunciado": "La misma Ley 1819 de 2016 creó el impuesto al carbono, que grava combustibles fósiles según el CO₂ que emiten. ¿Qué efecto busca principalmente?",
+"opciones": {
+"A": "Que los combustibles sean más baratos para las empresas de transporte.",
+"B": "Que se reduzcan las emisiones al encarecer los combustibles que más contaminan.",
+"C": "Que los combustibles importados paguen más que los nacionales.",
+"D": "Que los hogares de menores ingresos no paguen impuestos."
+},
+"correcta": "B",
+"explicacion": "El impuesto al carbono pone precio a las emisiones (una externalidad negativa) para incentivar el uso de energías menos contaminantes."
+}
+},
+{
+"id": "P10-SOC-C010",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Pensamiento social",
+"componente": "Convivencia, paz y perspectivas",
+"nivel": "Mínimo",
+"sabic": "Inteligencia emocional",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que en la sociedad colombiana existen principios y acciones para orientar la convivencia, entre ellas el manejo constructivo de las emociones en los conflictos.",
+"lineamiento": "EBC Competencias Ciudadanas 10°–11° (MEN 2006), competencias emocionales: utilizo mecanismos constructivos para encauzar mi rabia y enfrentar mis conflictos.",
+"afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+"evidencia": "Reconoce una conducta de autorregulación emocional frente a una ofensa en un entorno digital.",
+"contexto": "Mariana, estudiante de grado 10, lee en el grupo de WhatsApp del curso un comentario burlón sobre su presentación en clase. Siente calor en la cara, el corazón acelerado y ganas de responder con un insulto delante de todos.",
+"enunciado": "¿Cuál de las siguientes acciones muestra que Mariana está autorregulando su emoción?",
+"opciones": {
+"A": "Esperar unos minutos, respirar, reconocer que siente rabia y luego decidir con calma cómo responder o a quién acudir.",
+"B": "Responder de inmediato con un insulto para que nadie vuelva a burlarse de ella.",
+"C": "Salirse del grupo y no volver a hablar con nadie del curso durante el resto del año.",
+"D": "Fingir que no le importó y guardar la rabia sin contarle a nadie lo que pasó."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir reacción impulsiva con defensa",
+"porque": "Elegiste B porque probablemente pensaste que responder fuerte es la forma de hacerse respetar.",
+"pregunta_guia": "Si Mariana insulta en el grupo, ¿se resuelve la burla o crece el conflicto?",
+"aprende": "Reaccionar en el pico de la emoción suele escalar el conflicto. Autorregularse no es callarse, es elegir cómo y cuándo actuar."
+},
+"C": {
+"error": "Confundir evitación con regulación",
+"porque": "Elegiste C porque probablemente pensaste que alejarse de todos evita volver a sentirse mal.",
+"pregunta_guia": "Aislarse de todo el curso, ¿resuelve lo que pasó o solo lo esconde?",
+"aprende": "La evitación total aísla y no atiende el problema. Regular la emoción permite enfrentarlo de forma constructiva."
+},
+"D": {
+"error": "Confundir supresión emocional con autorregulación",
+"porque": "Elegiste D porque probablemente creíste que controlar una emoción es no mostrarla.",
+"pregunta_guia": "Guardar la rabia sin reconocerla ni hablarla, ¿hace que desaparezca?",
+"aprende": "Suprimir las emociones las acumula. Regular implica reconocerlas, nombrarlas y canalizarlas, por ejemplo hablando con alguien de confianza."
+}
+},
+"explicacion": "Paso 1: Recuerda que la autorregulación emocional es la capacidad de reconocer lo que siento y manejar su intensidad para actuar de forma constructiva. Paso 2: Revisa las opciones. B es impulsividad; C es evitación; D es supresión. Paso 3: Solo A incluye los pasos de la autorregulación: pausa, respiración, reconocimiento de la emoción y decisión consciente. Respuesta: A.",
+"tip": "Entre lo que sientes y lo que haces hay un espacio: ese espacio se llama pausa, y en él está tu libertad.",
+"truco": "PARA: Pausa, Respira, Reconoce lo que sientes y Actúa con calma.",
+"estrategia_icfes": "En convivencia el ICFES describe emociones y conductas y pide reconocer la respuesta constructiva. Descarta las opciones extremas (atacar, huir, callar) y busca la que combina reconocer la emoción con actuar de forma responsable.",
+"temas": ["autorregulación emocional", "convivencia digital", "manejo de la rabia"],
+"gemela": {
+"contexto": "Juan Pablo pierde un partido de microfútbol por un error suyo. Un compañero le grita que es «el peor del equipo».",
+"enunciado": "¿Qué respuesta de Juan Pablo refleja una mejor gestión de su frustración?",
+"opciones": {
+"A": "Empujar al compañero para que deje de gritarle.",
+"B": "Abandonar el equipo para no volver a equivocarse.",
+"C": "Tomar aire, reconocer que se siente frustrado y, más tarde, conversar con su compañero sobre cómo le habló.",
+"D": "Decir que el error fue culpa del arquero."
+},
+"correcta": "C",
+"explicacion": "Reconocer la emoción y elegir un momento tranquilo para hablar es autorregulación. Empujar es agresión, abandonar es evitación y culpar a otro es negar la responsabilidad."
+}
+},
+{
+"id": "P10-SOC-C011",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y análisis de perspectivas",
+"componente": "Economía y política",
+"nivel": "Avanzado",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): analiza las políticas económicas y sus efectos en la distribución de la riqueza y en la vida cotidiana de las personas.",
+"lineamiento": "EBC Ciencias Sociales 10°–11° (MEN 2006): analizo críticamente los documentos que utilizo e identifico sus tesis; establezco relaciones entre información de distintas fuentes.",
+"afirmacion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+"evidencia": "Identifica la debilidad de un argumento que usa un indicador agregado para sacar conclusiones sobre el bienestar de toda la población.",
+"contexto": "En un debate televisado, un candidato afirma: «El producto interno bruto (PIB) del país creció 3 % el año pasado. Esto demuestra que todos los colombianos mejoraron su bienestar».",
+"enunciado": "¿Cuál es la objeción más sólida al argumento del candidato?",
+"opciones": {
+"A": "El PIB no mide nada importante, así que no sirve para hablar de la economía de un país.",
+"B": "El PIB es un total: puede crecer mientras una parte de la población mantiene o pierde ingresos; se necesitan datos sobre su distribución.",
+"C": "Un crecimiento de 3 % es muy pequeño y, por tanto, ningún colombiano pudo mejorar su bienestar.",
+"D": "El candidato debió usar el PIB nominal, que incluye la inflación y muestra mejor el bienestar de las personas."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Rechazar por completo la fuente en vez de señalar su límite",
+"porque": "Elegiste A porque probablemente pensaste que, si un dato no prueba algo, entonces no sirve para nada.",
+"pregunta_guia": "¿El problema es que el PIB sea inútil o que el candidato le pide decir algo que no mide?",
+"aprende": "El PIB sí mide la producción total de la economía; lo que no informa es cómo se reparte. Una buena crítica señala el límite preciso del dato."
+},
+"C": {
+"error": "Concluir sin relación lógica a partir de la magnitud",
+"porque": "Elegiste C porque probablemente pensaste que un crecimiento bajo no puede beneficiar a nadie.",
+"pregunta_guia": "¿Un crecimiento pequeño impide que algunas personas mejoren?",
+"aprende": "Con 3 % de crecimiento algunas personas pueden mejorar mucho y otras nada. La magnitud no resuelve el problema de la distribución."
+},
+"D": {
+"error": "Confundir PIB nominal con real",
+"porque": "Elegiste D porque probablemente pensaste que un número mayor representa mejor el bienestar.",
+"pregunta_guia": "Si los precios suben pero se produce lo mismo, ¿el bienestar mejoró?",
+"aprende": "El PIB nominal incluye la inflación y puede crecer sin que aumente la producción. Para comparar bienestar se usa el PIB real, y aun así hay que mirar la distribución."
+}
+},
+"explicacion": "Paso 1: Identifica la tesis: «el PIB creció, luego TODOS mejoraron». Paso 2: Identifica el salto lógico: de un dato agregado (total del país) se concluye algo sobre cada persona. Paso 3: El PIB puede crecer si unos sectores ganan mucho, aunque otros se estanquen. Para hablar de todos, harían falta indicadores de distribución (coeficiente de Gini, pobreza monetaria, ingresos por decil). Respuesta: B.",
+"tip": "Desconfía de la palabra «todos» cuando el dato es un promedio o un total.",
+"truco": "Un total no dice cómo se reparte el pastel; solo dice qué tan grande es.",
+"estrategia_icfes": "En evaluación de argumentos el ICFES pide la objeción MÁS sólida. Descarta las que exageran (el dato no sirve) o cambian de tema, y elige la que ataca el salto lógico entre la evidencia y la conclusión.",
+"temas": ["PIB y bienestar", "desigualdad y distribución del ingreso", "evaluación de argumentos"],
+"gemela": {
+"contexto": "Una funcionaria afirma: «La tasa de desempleo bajó de 12 % a 10 %; por tanto, ahora todos los trabajadores tienen empleos de calidad».",
+"enunciado": "¿Qué información debilita más esta conclusión?",
+"opciones": {
+"A": "Que la tasa de desempleo se calcula cada mes.",
+"B": "Que una parte de los nuevos empleos es informal, sin contrato ni seguridad social.",
+"C": "Que la tasa de desempleo de otro país es menor.",
+"D": "Que la funcionaria pertenece a un partido político."
+},
+"correcta": "B",
+"explicacion": "La tasa de desempleo indica cuántos buscan trabajo sin conseguirlo, no la calidad del empleo. Si muchos empleos nuevos son informales, la conclusión sobre «empleos de calidad» no se sostiene."
+}
+},
+{
+"id": "P10-SOC-C012",
+"area": "sociales",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y análisis de perspectivas",
+"componente": "Convivencia, paz y perspectivas",
+"nivel": "Satisfactorio",
+"sabic": "Educación digital e IA",
+"dba": "DBA Ciencias Sociales 10° (MEN 2016): comprende que existen multitud de culturas y una sola humanidad, y analiza situaciones de discriminación y exclusión.",
+"lineamiento": "Lineamientos Curriculares de Ciencias Sociales (MEN 2002), eje 1: «La defensa de la condición humana y el respeto por su diversidad». EBC Competencias Ciudadanas 10°–11° (MEN 2006): identifico prejuicios, estereotipos y emociones que me dificultan sentir empatía.",
+"afirmacion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+"evidencia": "Reconoce el sesgo de confirmación en la difusión de información no verificada que alimenta prejuicios.",
+"contexto": "Santiago ve en redes sociales un video sin fecha ni fuente que asegura que «los migrantes son la causa del aumento de robos en Cali». Sin revisar quién lo publicó ni buscar cifras oficiales, lo comparte en tres grupos y escribe: «Yo siempre lo dije».",
+"enunciado": "La actitud de Santiago al compartir el video se explica mejor como:",
+"opciones": {
+"A": "un ejercicio de pensamiento crítico, porque compara su opinión previa con un video que circula en redes.",
+"B": "un acto de empatía, porque busca proteger a sus contactos de un posible peligro en la ciudad.",
+"C": "un sesgo de confirmación, porque acepta sin verificar la información que coincide con lo que ya creía.",
+"D": "un uso de fuentes confiables, porque el video fue compartido por muchas personas antes que él."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir confirmar una creencia con pensar críticamente",
+"porque": "Elegiste A porque probablemente pensaste que contrastar el video con su opinión ya es analizarlo.",
+"pregunta_guia": "¿Santiago buscó otras fuentes o datos, o solo comprobó que el video decía lo mismo que él pensaba?",
+"aprende": "El pensamiento crítico exige verificar la fuente, la fecha y los datos, y considerar evidencia contraria. Santiago no hizo nada de eso."
+},
+"B": {
+"error": "Confundir la intención declarada con el efecto de la acción",
+"porque": "Elegiste B porque probablemente supusiste una buena intención de cuidar a los demás.",
+"pregunta_guia": "¿Con quién deja de ser empático Santiago al difundir una generalización sobre todo un grupo?",
+"aprende": "Difundir generalizaciones sin evidencia estigmatiza a personas migrantes; la empatía incluye ponerse en el lugar del grupo señalado."
+},
+"D": {
+"error": "Falacia de popularidad",
+"porque": "Elegiste D porque probablemente creíste que si mucha gente comparte algo debe ser cierto.",
+"pregunta_guia": "¿El número de veces que se comparte un video dice algo sobre quién lo hizo y con qué datos?",
+"aprende": "La popularidad no es evidencia. Una fuente confiable tiene autor identificable, fecha, datos verificables y respaldo institucional."
+}
+},
+"explicacion": "Paso 1: Identifica las señales del contexto: video sin fecha ni fuente, no verificado, y la frase «Yo siempre lo dije». Paso 2: Recuerda que el sesgo de confirmación es la tendencia a aceptar y difundir información que confirma nuestras creencias previas, sin examinarla. Paso 3: La conducta de Santiago encaja con esa definición. Además, la generalización alimenta un prejuicio contra un grupo. Respuesta: C.",
+"tip": "Antes de compartir, pregúntate: ¿quién lo dice, cuándo, con qué datos, y lo compartiría si dijera lo contrario de lo que pienso?",
+"truco": "Si un mensaje te hace decir «¡yo sabía!», es el momento de verificarlo dos veces.",
+"estrategia_icfes": "El ICFES evalúa el uso de fuentes con situaciones de redes sociales. Identifica qué hizo o dejó de hacer el personaje con la fuente (verificar autor, fecha, datos) y relaciónalo con el concepto que describe esa conducta.",
+"temas": ["sesgo de confirmación", "desinformación", "prejuicios y discriminación", "ciudadanía digital"],
+"gemela": {
+"contexto": "Valentina recibe una imagen que atribuye una frase ofensiva a una lideresa del Pacífico. Antes de compartirla, busca la frase en medios reconocidos y en las redes oficiales de la lideresa, y no la encuentra.",
+"enunciado": "¿Qué decisión es más coherente con un uso responsable de la información?",
+"opciones": {
+"A": "Compartir la imagen aclarando que «no sabe si es verdad».",
+"B": "No compartirla y advertir a quien se la envió que no hay evidencia de que la frase sea real.",
+"C": "Compartirla solo con sus amigos más cercanos.",
+"D": "Modificar la imagen para que la frase suene menos ofensiva y luego compartirla."
+},
+"correcta": "B",
+"explicacion": "Si la verificación no encuentra respaldo, lo responsable es no difundir el contenido e informar a quien lo envió. Compartir con advertencia o en círculos cerrados sigue propagando la desinformación."
+}
+}
+]

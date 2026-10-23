@@ -1,0 +1,303 @@
+[
+ {
+  "id": "MAT-11-1",
+  "area": "matematicas",
+  "grado": 11,
+  "competencia": "Formulación y ejecución",
+  "componente": "Numérico-variacional",
+  "nivel": "Satisfactorio",
+  "dba": "DBA (v.2) Matemáticas 11°: modela situaciones de crecimiento con funciones exponenciales, como el interés compuesto.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: modelo situaciones de variación con funciones exponenciales.",
+  "afirmacion": "El estudiante calcula el monto de una inversión con interés compuesto.",
+  "evidencia": "Aplica M = C(1 + i)ⁿ y lo diferencia del interés simple.",
+  "contexto": "Una familia de Cali invierte $2.000.000 en un CDT que paga 10% anual con interés compuesto (los intereses se reinvierten cada año).",
+  "enunciado": "¿Cuánto dinero tendrá la familia al final de 2 años?",
+  "opciones": {
+   "A": "$2.200.000",
+   "B": "$2.400.000",
+   "C": "$420.000",
+   "D": "$2.420.000"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Calcular un solo año",
+    "porque": "Elegiste $2.200.000 porque calculaste el monto de solo el primer año.",
+    "pregunta_guia": "¿Cuántos años dura la inversión?",
+    "aprende": "Se aplica (1,10) dos veces: 2.000.000 × 1,1 × 1,1."
+   },
+   "B": {
+    "error": "Usar interés simple",
+    "porque": "Elegiste $2.400.000 porque probablemente calculaste 10% de 2.000.000 y lo sumaste dos veces (interés simple).",
+    "pregunta_guia": "En el segundo año, ¿el 10% se calcula sobre 2.000.000 o sobre 2.200.000?",
+    "aprende": "En el compuesto el interés también gana interés."
+   },
+   "C": {
+    "error": "Olvidar el capital",
+    "porque": "Elegiste $420.000 porque calculaste bien el interés ganado, pero no lo sumaste al capital.",
+    "pregunta_guia": "¿La pregunta pide el interés o el dinero total?",
+    "aprende": "Monto = capital + intereses = 2.000.000 + 420.000."
+   }
+  },
+  "explicacion": "Paso 1: año 1: 2.000.000 × 1,10 = 2.200.000. Paso 2: año 2: 2.200.000 × 1,10 = 2.420.000. Paso 3: equivale a M = 2.000.000 × (1,10)² = $2.420.000.",
+  "tip": "El interés compuesto premia al que ahorra temprano y por más tiempo.",
+  "truco": "M = C × (1 + i)ⁿ: el exponente es el número de periodos.",
+  "temas": [
+   "interés compuesto",
+   "función exponencial",
+   "educación financiera"
+  ],
+  "gemela": {
+   "enunciado": "Se invierten $1.000.000 al 5% anual compuesto durante 3 años. ¿Cuál es el monto final?",
+   "opciones": {
+    "A": "$1.150.000",
+    "B": "$1.157.625",
+    "C": "$157.625",
+    "D": "$1.050.000"
+   },
+   "correcta": "B",
+   "explicacion": "1.000.000 × (1,05)³ = 1.000.000 × 1,157625 = $1.157.625."
+  }
+ },
+ {
+  "id": "LEN-11-1",
+  "area": "lenguaje",
+  "grado": 11,
+  "competencia": "Lectura crítica",
+  "componente": "Identificar y entender contenidos locales",
+  "nivel": "Satisfactorio",
+  "dba": "DBA (v.2) Lenguaje 11°: comprende el sentido de los enunciados de textos filosóficos y ensayísticos y el significado de las expresiones en su contexto.",
+  "lineamiento": "Comprensión e interpretación textual: comprende e interpreta textos con actitud crítica y capacidad argumentativa, atendiendo al significado de los enunciados en contexto.",
+  "afirmacion": "Identifica y entiende los contenidos locales que conforman un texto.",
+  "evidencia": "Entiende el significado de una expresión a partir de su contexto en un ensayo.",
+  "contexto": "Solemos pensar que la memoria es un archivo: guardamos los recuerdos y, cuando los necesitamos, los sacamos intactos. Pero la memoria se parece más a un jardín que a un archivo. Cada vez que evocamos un recuerdo lo reconstruimos, y en esa reconstrucción intervienen nuestras emociones presentes, lo que otros nos han contado y lo que hemos aprendido desde entonces. Por eso dos hermanos pueden recordar de manera distinta la misma tarde en la casa de los abuelos en Palmira, y ninguno de los dos estar mintiendo. Reconocer esto no nos condena a la desconfianza, sino a una cierta humildad frente a nuestras propias certezas.",
+  "enunciado": "En el texto, la comparación de la memoria con «un jardín» significa que los recuerdos:",
+  "opciones": {
+   "A": "se pierden con el tiempo si no se cuidan.",
+   "B": "son falsos y no se puede confiar en ellos.",
+   "C": "cambian y se reelaboran cada vez que los evocamos.",
+   "D": "se guardan ordenados por fechas, como las plantas por especies."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Extrapolar la metáfora con saberes propios",
+    "porque": "Elegiste A porque probablemente pensaste en jardines que se marchitan sin cuidado.",
+    "pregunta_guia": "¿Qué rasgo del jardín explica el autor justo después de la comparación?",
+    "aprende": "El autor desarrolla la idea de reconstrucción, no de pérdida."
+   },
+   "B": {
+    "error": "Sobreinterpretar en sentido extremo",
+    "porque": "Elegiste B porque probablemente leíste que los hermanos recuerdan distinto y concluiste que todo es falso.",
+    "pregunta_guia": "¿Qué dice la última oración sobre la desconfianza?",
+    "aprende": "El autor aclara que esto no lleva a la desconfianza, sino a la humildad."
+   },
+   "D": {
+    "error": "Atribuir a la metáfora el rasgo que el autor rechaza",
+    "porque": "Elegiste D porque probablemente asociaste orden con archivo.",
+    "pregunta_guia": "¿A qué imagen opone el autor el jardín?",
+    "aprende": "El orden fijo corresponde a la imagen del archivo, que el autor descarta."
+   }
+  },
+  "explicacion": "Paso 1: Identifica las dos imágenes: archivo (recuerdos intactos) frente a jardín. Paso 2: Lee la explicación: «cada vez que evocamos un recuerdo lo reconstruimos». Paso 3: El jardín representa algo vivo que cambia. Paso 4: Opción C.",
+  "tip": "El significado de una metáfora en un ensayo casi siempre se explica en la oración siguiente.",
+  "truco": "Si el texto opone dos imágenes, la correcta tendrá el rasgo contrario a la imagen rechazada.",
+  "temas": [
+   "metáfora",
+   "ensayo",
+   "significado en contexto"
+  ],
+  "gemela": {
+   "enunciado": "Según el texto, ¿por qué los dos hermanos pueden recordar distinto sin estar mintiendo?",
+   "opciones": {
+    "A": "Porque cada uno reconstruye el recuerdo con sus propias emociones y experiencias.",
+    "B": "Porque uno de ellos no estuvo en Palmira.",
+    "C": "Porque los abuelos les contaron historias falsas.",
+    "D": "Porque la memoria funciona como un archivo."
+   },
+   "correcta": "A",
+   "explicacion": "El texto explica que en la reconstrucción intervienen las emociones presentes y lo aprendido por cada persona."
+  }
+ },
+ {
+  "id": "CN-11-1",
+  "area": "ciencias",
+  "grado": 11,
+  "competencia": "Explicación de fenómenos",
+  "componente": "Biológico",
+  "nivel": "Satisfactorio",
+  "dba": "DBA (v.2) Ciencias Naturales 11°: analiza cuestiones ambientales y de salud desde la teoría de la evolución, explicando la selección natural como mecanismo de cambio en las poblaciones.",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 10°-11°: explico la relación entre variabilidad genética, selección natural y adaptación; analizo implicaciones del uso de la ciencia en la salud (CTS).",
+  "afirmacion": "Explica la resistencia a antibióticos mediante la selección natural.",
+  "evidencia": "Diferencia la explicación darwiniana (variación previa y selección) de explicaciones lamarckistas (adaptación por uso o necesidad).",
+  "contexto": "En un hospital de Cali se usó con mucha frecuencia el mismo antibiótico. Después de unos años, la proporción de bacterias resistentes a ese antibiótico aumentó notablemente.",
+  "enunciado": "¿Cuál es la explicación más adecuada?",
+  "opciones": {
+   "A": "Algunas bacterias ya tenían variantes genéticas que les daban resistencia; el antibiótico eliminó a las sensibles y las resistentes sobrevivieron y se reprodujeron.",
+   "B": "Las bacterias se acostumbraron al antibiótico y aprendieron a resistirlo.",
+   "C": "El antibiótico provocó en cada bacteria las mutaciones exactas que necesitaba para resistir.",
+   "D": "Los pacientes se volvieron resistentes al antibiótico y por eso ya no les hace efecto."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Adaptación por costumbre o aprendizaje (lamarckismo)",
+    "porque": "Elegiste esta opción porque probablemente piensas que los organismos cambian a voluntad o por exposición repetida.",
+    "pregunta_guia": "¿Puede una bacteria que muere por el antibiótico 'aprender' algo y pasarlo a sus descendientes?",
+    "aprende": "La resistencia no se aprende: depende de genes que algunas bacterias ya tenían o adquirieron, y que el antibiótico selecciona."
+   },
+   "C": {
+    "error": "Mutaciones dirigidas por la necesidad",
+    "porque": "Elegiste esta opción porque probablemente sabes que las mutaciones existen, pero crees que aparecen para resolver un problema.",
+    "pregunta_guia": "¿Las mutaciones ocurren al azar o 'saben' qué necesita el organismo?",
+    "aprende": "Las mutaciones son aleatorias; el antibiótico no las crea a la medida, solo favorece a las que ya dan resistencia."
+   },
+   "D": {
+    "error": "Confundir resistencia de la bacteria con resistencia del paciente",
+    "porque": "Elegiste esta opción porque probablemente has oído la expresión 'el cuerpo se volvió resistente'.",
+    "pregunta_guia": "¿Sobre qué organismo actúa el antibiótico: sobre las personas o sobre las bacterias?",
+    "aprende": "Las que se vuelven resistentes son las poblaciones de bacterias, no las personas."
+   }
+  },
+  "explicacion": "1. En una población bacteriana hay variación genética. 2. Algunas bacterias tienen genes de resistencia. 3. El antibiótico mata a las sensibles (presión de selección). 4. Las resistentes sobreviven, se reproducen y aumentan su proporción. 5. Esto es selección natural. 6. Respuesta: A.",
+  "tip": "Selección natural = variación previa + presión ambiental + reproducción diferencial.",
+  "truco": "Desconfía de opciones con 'se acostumbraron', 'aprendieron' o 'para poder': suelen ser lamarckistas.",
+  "temas": [
+   "selección natural",
+   "resistencia a antibióticos",
+   "CTS y salud"
+  ],
+  "gemela": {
+   "enunciado": "En un cultivo de caña se aplicó el mismo insecticida durante muchos años y ahora la mayoría de los insectos plaga lo resisten. ¿Qué lo explica mejor?",
+   "opciones": {
+    "A": "El insecticida les enseñó a los insectos a defenderse.",
+    "B": "Los insectos se fortalecieron al usar el insecticida como alimento.",
+    "C": "El insecticida perdió su fuerza dentro del envase con el tiempo.",
+    "D": "Los pocos insectos que ya eran resistentes sobrevivieron y se reprodujeron, y su descendencia heredó la resistencia."
+   },
+   "correcta": "D",
+   "explicacion": "1. Había variación en la población de insectos. 2. El insecticida eliminó a los sensibles. 3. Los resistentes se reprodujeron y transmitieron sus genes. 4. Con los años, la mayoría resultó resistente. 5. Respuesta: D."
+  }
+ },
+ {
+  "id": "SOC-11-1",
+  "area": "sociales",
+  "grado": 11,
+  "competencia": "Pensamiento social",
+  "componente": "Relaciones ético-políticas",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Ciencias Sociales 11°: comprende la organización del Estado colombiano, la separación de poderes y los mecanismos de control constitucional.",
+  "lineamiento": "Estándares Básicos de Competencias Ciudadanas (10° a 11°): conozco y sé usar los mecanismos constitucionales de participación y control que permiten expresar mis opiniones y vigilar el poder.",
+  "afirmacion": "Identifica los órganos y mecanismos de control del Estado.",
+  "evidencia": "Reconoce la acción pública de inconstitucionalidad y el órgano que la resuelve.",
+  "contexto": "Un ciudadano considera que una ley aprobada por el Congreso contradice un derecho consagrado en la Constitución de 1991.",
+  "enunciado": "¿Ante qué entidad y mediante qué acción puede solicitar que esa ley sea retirada del ordenamiento jurídico?",
+  "opciones": {
+   "A": "Ante la Corte Constitucional, con una acción pública de inconstitucionalidad.",
+   "B": "Ante la Registraduría, con una consulta popular.",
+   "C": "Ante el Concejo Municipal, con un cabildo abierto.",
+   "D": "Ante la Contraloría, con un derecho de petición."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundir la entidad electoral con el control constitucional.",
+    "porque": "Elegiste esta opción porque probablemente asociaste 'ciudadano' con votaciones, pero la Registraduría organiza elecciones, no juzga leyes.",
+    "pregunta_guia": "¿Qué entidad guarda la integridad de la Constitución?",
+    "aprende": "La Corte Constitucional (art. 241) decide sobre la constitucionalidad de las leyes."
+   },
+   "C": {
+    "error": "Equivocar el nivel territorial.",
+    "porque": "Elegiste esta opción porque probablemente pensaste en participación local, pero una ley del Congreso es nacional.",
+    "pregunta_guia": "¿Puede un Concejo anular una ley de la República?",
+    "aprende": "Las leyes nacionales solo pueden ser declaradas inconstitucionales por la Corte Constitucional."
+   },
+   "D": {
+    "error": "Confundir control fiscal con control constitucional.",
+    "porque": "Elegiste esta opción porque probablemente asociaste 'control' con la Contraloría, que vigila el uso de recursos públicos.",
+    "pregunta_guia": "¿La Contraloría revisa leyes o el manejo del dinero público?",
+    "aprende": "Contraloría = control fiscal; Corte Constitucional = control de constitucionalidad."
+   }
+  },
+  "explicacion": "1. El problema: una ley contraria a la Constitución. 2. Cualquier ciudadano puede presentar una acción pública de inconstitucionalidad. 3. La resuelve la Corte Constitucional, guardiana de la Constitución (art. 241). Respuesta A.",
+  "tip": "Asocia cada órgano de control con su objeto: leyes, dinero, conducta de funcionarios.",
+  "truco": "'Ley contraria a la Constitución' → Corte Constitucional.",
+  "temas": [
+   "Corte Constitucional",
+   "control de constitucionalidad",
+   "organización del Estado"
+  ],
+  "gemela": {
+   "enunciado": "¿Qué entidad ejerce el control fiscal, es decir, vigila la gestión de los recursos públicos del Estado colombiano?",
+   "opciones": {
+    "A": "La Corte Constitucional.",
+    "B": "La Registraduría Nacional.",
+    "C": "El Consejo Nacional Electoral.",
+    "D": "La Contraloría General de la República."
+   },
+   "correcta": "D",
+   "explicacion": "Según el artículo 267 de la Constitución, la Contraloría General de la República ejerce el control fiscal."
+  }
+ },
+ {
+  "id": "ING-11-1",
+  "area": "ingles",
+  "grado": 11,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "B1",
+  "dba": "DBA de Inglés grado 11 (MEN 2016): identifica relaciones de causa y efecto en textos informativos sobre temas sociales y ambientales.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico relaciones de causa-efecto y la intención del autor en textos.",
+  "afirmacion": "Comprende relaciones lógicas en un texto informativo.",
+  "evidencia": "Identifica la causa de una decisión explicada en el texto.",
+  "contexto": "Every year, thousands of visitors travel to San Cipriano, a village near Buenaventura reached by 'brujitas', small rail carts pushed by motorcycles. Local guides say tourism has created jobs, but they also warn that too many visitors can pollute the river. For this reason, the community now limits the number of tourists on weekends.",
+  "enunciado": "Why does the community limit the number of tourists?",
+  "opciones": {
+   "A": "to protect the river from pollution",
+   "B": "because the brujitas are broken",
+   "C": "to create more jobs",
+   "D": "because tourists don't like the village"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Detalle no relacionado.",
+    "porque": "Elegiste esta porque probablemente te llamó la atención la palabra 'brujitas'.",
+    "pregunta_guia": "¿El texto dice que las brujitas están dañadas?",
+    "aprende": "Los detalles llamativos no siempre son la respuesta."
+   },
+   "C": {
+    "error": "Efecto contrario.",
+    "porque": "Elegiste esta porque probablemente viste 'created jobs' en el texto.",
+    "pregunta_guia": "¿Limitar turistas crea más empleos o menos?",
+    "aprende": "Los empleos son un efecto positivo del turismo, no la razón del límite."
+   },
+   "D": {
+    "error": "Información falsa.",
+    "porque": "Elegiste esta porque probablemente inferiste algo que el texto no dice.",
+    "pregunta_guia": "Si llegan miles de visitantes, ¿les gusta el pueblo?",
+    "aprende": "Responde con evidencia del texto."
+   }
+  },
+  "explicacion": "1. Busca 'For this reason': conecta causa y efecto. 2. La oración anterior es la causa: demasiados visitantes contaminan el río. 3. El límite busca proteger el río.",
+  "tip": "'For this reason', 'that's why', 'so' señalan que la causa está justo antes.",
+  "truco": "Reason = razón; mira la oración ANTERIOR.",
+  "temas": [
+   "Causa y efecto",
+   "Conectores",
+   "Medio ambiente"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'The school library extended its opening hours until 6 p.m. because many students said they had no quiet place to study at home.' What was the main reason?",
+   "opciones": {
+    "A": "to sell more books",
+    "B": "to give students a quiet place to study",
+    "C": "because classes end at 6 p.m.",
+    "D": "because the library was always empty"
+   },
+   "correcta": "B",
+   "explicacion": "Después de 'because' está la causa: los estudiantes no tenían un lugar tranquilo para estudiar."
+  }
+ }
+]

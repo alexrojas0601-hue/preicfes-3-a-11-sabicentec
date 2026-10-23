@@ -1,0 +1,1758 @@
+[
+{
+"id": "P9-MAT-A001",
+"contexto": "En CENTEC Córdoba, en Cali, se preguntó a los 50 estudiantes de grado 9° qué medio de transporte usan para llegar al colegio. Cada estudiante eligió una sola opción. Los resultados se muestran en la gráfica.",
+"enunciado": "¿Qué porcentaje de los estudiantes de 9° llega al colegio en MIO?",
+"opciones": {
+"A": "18 %",
+"B": "36 %",
+"C": "20 %",
+"D": "64 %"
+},
+"grafica": {
+"tipo": "barras",
+"titulo": "Medio de transporte de los estudiantes de 9°",
+"etiquetas": [
+"A pie",
+"MIO",
+"Moto",
+"Carro",
+"Bicicleta"
+],
+"series": [
+{
+"nombre": "Estudiantes",
+"datos": [
+12,
+18,
+9,
+6,
+5
+]
+}
+],
+"ejeY": "Número de estudiantes"
+}
+},
+{
+"id": "P11-MAT-A023",
+"contexto": "Valentina y Brayan, egresados de un programa técnico del SENA en Palmira, crearon un emprendimiento de jugos naturales. La gráfica muestra sus ingresos y gastos mensuales durante el primer semestre.",
+"enunciado": "¿En cuántos meses del semestre el emprendimiento tuvo pérdidas, es decir, gastos mayores que los ingresos?",
+"opciones": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4"
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ingresos y gastos del emprendimiento (millones de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ingresos",
+"datos": [
+2.0,
+2.4,
+2.2,
+2.8,
+3.0,
+3.6
+]
+},
+{
+"nombre": "Gastos",
+"datos": [
+2.2,
+2.0,
+2.3,
+2.1,
+2.4,
+2.5
+]
+}
+],
+"ejeY": "millones de pesos"
+}
+},
+{
+"id": "P9-MAT-A038",
+"contexto": "Dos colegios de Cali aplicaron el mismo simulacro de matemáticas a sus estudiantes de grado 9°. La tabla muestra cuántos estudiantes lo presentaron y cuántos lo aprobaron.",
+"enunciado": "¿Cuál de las siguientes afirmaciones sobre el desempeño de los colegios es correcta?",
+"opciones": {
+"A": "El colegio X tuvo mejor desempeño, porque aprobó el 75 % de sus estudiantes, frente al 70 % del colegio Y.",
+"B": "El colegio Y tuvo mejor desempeño, porque aprobaron 70 estudiantes, más que los 45 del colegio X.",
+"C": "No se pueden comparar, porque los colegios tienen distinto número de estudiantes.",
+"D": "El colegio X tuvo mejor desempeño, porque al tener menos estudiantes es más fácil que aprueben."
+},
+"tabla": {
+"titulo": "Resultados del simulacro de matemáticas",
+"cols": [
+"Colegio",
+"Presentaron",
+"Aprobaron"
+],
+"filas": [
+[
+"Colegio X",
+"60",
+"45"
+],
+[
+"Colegio Y",
+"100",
+"70"
+]
+]
+}
+},
+{
+"id": "P11-MAT-B045",
+"contexto": "Un parqueadero del centro de Cali cobra C(h) = 2.500h pesos, donde h es el tiempo de permanencia en horas. El parqueadero permite dejar un vehículo como máximo 12 horas seguidas.",
+"enunciado": "¿Cuál es el conjunto de valores posibles del cobro C?",
+"opciones": {
+"A": "0 ≤ C ≤ 12",
+"B": "0 ≤ C ≤ 30.000",
+"C": "0 ≤ C ≤ 2.500",
+"D": "C ≥ 30.000"
+}
+},
+{
+"id": "P11-MAT-D025",
+"contexto": "En un grupo de 8 estudiantes de grado 11 se deben escoger 3 para conformar el comité del proyecto ambiental. Los tres integrantes tienen las mismas funciones (no hay cargos). Sara calcula el número de comités posibles así: 8 × 7 × 6 = 336.",
+"enunciado": "¿Es correcto el cálculo de Sara?",
+"opciones": {
+"A": "Sí, porque hay 8 opciones para el primer integrante, 7 para el segundo y 6 para el tercero.",
+"B": "No, porque en un comité sin cargos el orden no importa; se divide entre 3! = 6 y son 56 comités.",
+"C": "No, porque cada puesto puede ocuparlo cualquiera de los 8, así que son 8³ = 512 comités.",
+"D": "No, porque como son 3 integrantes se divide 336 entre 3 y son 112 comités."
+}
+},
+{
+"id": "P11-MAT-D038",
+"contexto": "Esteban y Sofía ahorran para comprar un portátil. Esteban empezó con $50.000 y ahorra $20.000 cada mes; Sofía empezó sin ahorros y guarda $30.000 cada mes. La gráfica muestra el dinero acumulado por cada uno, en miles de pesos.",
+"enunciado": "Sofía afirma: «Como ahorro más cada mes que Esteban, desde el comienzo siempre he tenido más dinero que él». ¿Es válida su afirmación?",
+"opciones": {
+"A": "No, porque Esteban empezó con $50.000 y Sofía solo lo supera después del mes 5.",
+"B": "Sí, porque $30.000 mensuales es más que $20.000 mensuales.",
+"C": "No, porque Esteban siempre tendrá más dinero que Sofía.",
+"D": "Sí, porque en el mes 6 Sofía tiene $180.000 y Esteban $170.000."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ahorro acumulado (miles de pesos)",
+"etiquetas": [
+"Mes 0",
+"Mes 1",
+"Mes 2",
+"Mes 3",
+"Mes 4",
+"Mes 5",
+"Mes 6"
+],
+"series": [
+{
+"nombre": "Esteban",
+"datos": [
+50,
+70,
+90,
+110,
+130,
+150,
+170
+]
+},
+{
+"nombre": "Sofía",
+"datos": [
+0,
+30,
+60,
+90,
+120,
+150,
+180
+]
+}
+],
+"ejeY": "miles de pesos"
+}
+},
+{
+"id": "P9-MAT-B007",
+"contexto": "El área de un aviso rectangular para la feria de ciencias de un colegio de Palmira está dada por la expresión x² + 7x + 12 (en decímetros cuadrados). El diseñador sabe que el largo y el ancho se pueden expresar como binomios de la forma (x + m) y (x + n), con m y n números enteros.",
+"enunciado": "¿Cuáles son las expresiones del largo y el ancho del aviso?",
+"opciones": {
+"A": "(x + 6) y (x + 2)",
+"B": "(x + 12) y (x + 1)",
+"C": "(x + 4) y (x + 3)",
+"D": "(x + 5) y (x + 2)"
+}
+},
+{
+"id": "P10-MAT-B045",
+"contexto": "Un silo para almacenar maíz en una finca de Buga tiene forma de cilindro de 2 m de radio y 6 m de altura, coronado por un cono del mismo radio y 3 m de altura.",
+"enunciado": "¿Cuál es el volumen total del silo?",
+"opciones": {
+"A": "36π m³",
+"B": "24π m³",
+"C": "28π m³",
+"D": "112π m³"
+}
+},
+{
+"id": "P11-MAT-D049",
+"contexto": "Un grupo de investigación escolar encuestó una muestra de 500 hogares de Cali y los clasificó por estrato socioeconómico. La gráfica muestra el número de hogares de cada estrato en la muestra.",
+"enunciado": "Un estudiante afirma: «En la muestra, los estratos 4, 5 y 6 juntos tienen menos hogares que el estrato 1». ¿Es correcta su afirmación?",
+"opciones": {
+"A": "Sí, porque cada uno de esos estratos tiene menos hogares que el estrato 1.",
+"B": "Sí, porque el estrato 1 tiene 90 hogares y el estrato 4 solo tiene 60.",
+"C": "No, porque juntos suman 120 hogares, que es más que los 90 del estrato 1.",
+"D": "No, porque juntos representan el 24 % y el estrato 1 solo el 9 % de la muestra."
+},
+"grafica": {
+"tipo": "barras",
+"titulo": "Hogares encuestados por estrato",
+"etiquetas": [
+"Estrato 1",
+"Estrato 2",
+"Estrato 3",
+"Estrato 4",
+"Estrato 5",
+"Estrato 6"
+],
+"series": [
+{
+"nombre": "Hogares",
+"datos": [
+90,
+140,
+150,
+60,
+40,
+20
+]
+}
+],
+"ejeY": "número de hogares"
+}
+},
+{
+"id": "P9-MAT-A023",
+"contexto": "El fondo de empleados de una empresa de Yumbo le presta a Carolina $1.500.000 con un interés simple del 2 % mensual. Carolina pagará el préstamo completo al cabo de 6 meses.",
+"enunciado": "¿Cuánto dinero pagará Carolina solo por concepto de intereses?",
+"opciones": {
+"A": "$30.000",
+"B": "$1.680.000",
+"C": "$180.000",
+"D": "$189.244"
+}
+},
+{
+"id": "P11-MAT-B010",
+"contexto": "Una tienda de tecnología del sur de Cali sube 20 % el precio de un portátil en noviembre y en enero lo rebaja 20 %. Sebastián afirma que, después de los dos cambios, el portátil quedó con su precio original.",
+"enunciado": "¿Por qué la afirmación de Sebastián es incorrecta?",
+"opciones": {
+"A": "Porque el aumento se aplica sobre un precio mayor, y el precio final queda 4 % por encima del original.",
+"B": "Porque los porcentajes se suman, y el precio final queda 40 % por debajo del original.",
+"C": "Porque solo cuenta la rebaja, y el precio final queda 20 % por debajo del original.",
+"D": "Porque la rebaja se aplica sobre un precio mayor, y el precio final queda 4 % por debajo del original."
+}
+},
+{
+"id": "P11-MAT-D030",
+"contexto": "Una baraja francesa tiene 52 cartas, de las cuales 4 son ases. Mateo saca 2 cartas, una tras otra y sin devolver la primera, y quiere calcular la probabilidad de que ambas sean ases. Escribe: Paso 1: P(primera carta es as) = 4/52. Paso 2: P(segunda carta es as) = 4/52. Paso 3: P(ambas son ases) = (4/52) × (4/52) = 1/169.",
+"enunciado": "¿En qué paso se equivocó Mateo y cuál es la probabilidad correcta?",
+"opciones": {
+"A": "En el paso 1, porque la probabilidad de sacar un as es 1/13 y no 4/52; la respuesta es 1/169.",
+"B": "En el paso 3, porque las probabilidades se debían sumar; la respuesta es 8/52.",
+"C": "En el paso 2, porque quedan 3 ases en 51 cartas; la respuesta es (4/52) × (3/51) = 1/221.",
+"D": "En el paso 2, porque quedan 3 ases en 52 cartas; la respuesta es (4/52) × (3/52) = 3/676."
+}
+},
+{
+"id": "P9-MAT-B052",
+"contexto": "En una plazoleta de Cali hay un bloque decorativo de concreto en forma de cubo de 2 m de arista, apoyado sobre el suelo. Se va a pintar todo el bloque excepto la cara que toca el suelo.",
+"enunciado": "¿Cuántos metros cuadrados se deben pintar?",
+"opciones": {
+"A": "24 m²",
+"B": "8 m²",
+"C": "16 m²",
+"D": "20 m²"
+}
+},
+{
+"id": "P10-MAT-B030",
+"contexto": "Una antena de telefonía celular cubre una región circular. En un plano con unidades en kilómetros, el borde de la zona de cobertura tiene ecuación (x − 2)² + (y + 3)² = 16.",
+"enunciado": "¿Cuáles son la ubicación de la antena (centro) y el alcance (radio) de la cobertura?",
+"opciones": {
+"A": "Centro (−2, 3) y radio 4 km.",
+"B": "Centro (2, −3) y radio 16 km.",
+"C": "Centro (2, −3) y radio 4 km.",
+"D": "Centro (−2, 3) y radio 16 km."
+}
+},
+{
+"id": "P11-MAT-A055",
+"contexto": "Sara y Tomás, estudiantes de 11° en Cali, ahorran para su viaje de grado. La gráfica muestra el saldo acumulado de cada uno al final de cada mes.",
+"enunciado": "¿En qué mes el saldo de Sara supera por primera vez al de Tomás?",
+"opciones": {
+"A": "Mes 4",
+"B": "Mes 5",
+"C": "Mes 6",
+"D": "Mes 3"
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Saldo acumulado (miles de pesos)",
+"etiquetas": [
+"Mes 1",
+"Mes 2",
+"Mes 3",
+"Mes 4",
+"Mes 5",
+"Mes 6"
+],
+"series": [
+{
+"nombre": "Sara",
+"datos": [
+50,
+100,
+150,
+200,
+250,
+300
+]
+},
+{
+"nombre": "Tomás",
+"datos": [
+120,
+150,
+180,
+210,
+240,
+270
+]
+}
+],
+"ejeY": "miles de pesos"
+}
+},
+{
+"id": "P11-MAT-D020",
+"contexto": "En un juego de mesa se lanzan dos dados normales de seis caras y se suman los resultados. Julián razona así: «Las sumas posibles van de 2 a 12, es decir, 11 resultados; por eso la probabilidad de que la suma sea 7 es 1/11».",
+"enunciado": "¿Qué se puede afirmar del razonamiento de Julián?",
+"opciones": {
+"A": "Es incorrecto, porque las 11 sumas no son igualmente probables: de 36 resultados, 6 suman 7, así que es 1/6.",
+"B": "Es correcto, porque cada una de las sumas de 2 a 12 tiene la misma oportunidad de salir.",
+"C": "Es incorrecto, porque hay 12 sumas posibles y la probabilidad es 1/12.",
+"D": "Es incorrecto, porque solo 3 parejas dan 7 (1 y 6, 2 y 5, 3 y 4), así que es 3/36 = 1/12."
+}
+},
+{
+"id": "P11-MAT-D045",
+"contexto": "En una empresa de empaques de Yumbo, 5 máquinas iguales empacan 1.200 cajas en 8 horas. Para un pedido urgente solo hay 4 de esas máquinas disponibles y se deben empacar 1.800 cajas.",
+"enunciado": "Trabajando al mismo ritmo, ¿cuántas horas necesitan las 4 máquinas para empacar las 1.800 cajas?",
+"opciones": {
+"A": "9,6 horas",
+"B": "6,7 horas",
+"C": "15 horas",
+"D": "12 horas"
+}
+},
+{
+"id": "P9-MAT-A058",
+"contexto": "En una encuesta del área de Ética, se preguntó a los 30 estudiantes de un grupo de 9° cuántos hermanos tiene cada uno. Los resultados están en la tabla.",
+"enunciado": "Simón afirma que la moda de los datos es 10. ¿Es correcta su afirmación?",
+"opciones": {
+"A": "No, la moda es 1 hermano, el valor que más se repite (lo tienen 10 estudiantes).",
+"B": "Sí, porque 10 es el número más alto de la columna de estudiantes.",
+"C": "No, la moda es 2 hermanos, porque es el valor central entre 0 y 4.",
+"D": "No, la moda es 30, porque es el total de estudiantes encuestados."
+},
+"tabla": {
+"titulo": "Número de hermanos de los estudiantes",
+"cols": [
+"Número de hermanos",
+"Número de estudiantes"
+],
+"filas": [
+[
+"0",
+"6"
+],
+[
+"1",
+"10"
+],
+[
+"2",
+"8"
+],
+[
+"3",
+"4"
+],
+[
+"4 o más",
+"2"
+]
+]
+}
+},
+{
+"id": "P9-MAT-A050",
+"contexto": "En el páramo de Sumapaz, un grupo de investigadores registró una temperatura de −3 °C a las 5:00 a. m. y de 14 °C al mediodía del mismo día.",
+"enunciado": "¿Cuántos grados aumentó la temperatura entre las 5:00 a. m. y el mediodía?",
+"opciones": {
+"A": "17 °C",
+"B": "11 °C",
+"C": "14 °C",
+"D": "−17 °C"
+}
+},
+{
+"id": "P11-MAT-D036",
+"contexto": "Una empresa de telefonía ofrece dos planes mensuales de datos. Plan X: cargo fijo de $25.000 más $2.000 por cada GB consumido. Plan Y: cargo fijo de $40.000 más $500 por cada GB consumido.",
+"enunciado": "Andrea afirma: «El plan Y siempre es más caro, porque su cargo fijo es mayor». ¿Es válida su afirmación?",
+"opciones": {
+"A": "Sí, porque $40.000 es mayor que $25.000 y eso decide cuál plan es más caro.",
+"B": "Sí, porque si no se consume ningún GB el plan Y cuesta más que el plan X.",
+"C": "No, porque el plan Y es más barato para cualquier consumo de datos.",
+"D": "No, porque con más de 10 GB el plan Y es más barato; con 20 GB, X cuesta $65.000 y Y $50.000."
+}
+},
+{
+"id": "P11-MAT-C014",
+"contexto": "En un diseño de vitral para la capilla del colegio, el triángulo T₁ tiene dos ángulos de 40° y 60°. El triángulo T₂, mucho más grande, tiene dos ángulos de 60° y 80°.",
+"enunciado": "¿Cuál afirmación sobre los triángulos es correcta?",
+"opciones": {
+"A": "No son semejantes, porque sus lados tienen longitudes diferentes.",
+"B": "No son semejantes, porque los ángulos dados no son los mismos en ambos triángulos.",
+"C": "Son semejantes, porque el tercer ángulo de T₁ mide 80° y el de T₂ mide 40°, así que sus tres ángulos coinciden.",
+"D": "Son semejantes, porque ambos tienen un ángulo de 60° y eso basta."
+}
+},
+{
+"id": "P11-MAT-D047",
+"contexto": "En Química, el promedio de las 5 primeras notas de Juliana es 3,8. Después de presentar un sexto quiz, su promedio de las 6 notas sube a 4,0.",
+"enunciado": "¿Qué nota sacó Juliana en el sexto quiz?",
+"opciones": {
+"A": "4,2",
+"B": "0,2",
+"C": "4,0",
+"D": "5,0"
+}
+},
+{
+"id": "P10-MAT-B053",
+"contexto": "Unos bomberos de Cali apoyan una escalera de 5 m contra un muro vertical, con el pie de la escalera a 2 m del muro. Deben alcanzar una ventana que está a 4,5 m de altura. Pedro afirma: «La escalera no alcanza, porque 5 − 2 = 3 m».",
+"enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+"opciones": {
+"A": "Pedro tiene razón, porque la escalera alcanza 5 − 2 = 3 m de altura.",
+"B": "Pedro está equivocado: la escalera alcanza √(5² − 2²) = √21 ≈ 4,58 m, más que 4,5 m.",
+"C": "Pedro está equivocado: la escalera alcanza 5 + 2 = 7 m de altura.",
+"D": "No se puede decidir sin conocer el ángulo que forma la escalera con el suelo."
+}
+},
+{
+"id": "P9-MAT-A053",
+"contexto": "La gráfica muestra el número de usuarios que visitaron la sala infantil de una biblioteca pública de Cali en los primeros cuatro meses del año. El número de visitantes aumentó cada mes en la misma cantidad.",
+"enunciado": "Si el patrón se mantiene, ¿cuántos visitantes tendrá la sala infantil en junio?",
+"opciones": {
+"A": "240",
+"B": "420",
+"C": "270",
+"D": "300"
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Visitantes de la sala infantil",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr"
+],
+"series": [
+{
+"nombre": "Visitantes",
+"datos": [
+120,
+150,
+180,
+210
+]
+}
+],
+"ejeY": "Número de visitantes"
+}
+},
+{
+"id": "P11-MAT-D031",
+"contexto": "La liga intercolegial de microfútbol de la Comuna 15 de Cali organiza un torneo en el que cada equipo juega exactamente un partido contra cada uno de los demás equipos.",
+"enunciado": "Si participan 12 equipos, ¿cuántos partidos se juegan en total?",
+"opciones": {
+"A": "66",
+"B": "132",
+"C": "144",
+"D": "24"
+}
+},
+{
+"id": "P9-MAT-B010",
+"contexto": "En una visita al zoológico de Cali, la familia Angulo pagó $62.000 por 2 entradas de adulto y 3 de niño. La familia Mosquera pagó $36.000 por 1 entrada de adulto y 2 de niño. Todos pagaron las mismas tarifas.",
+"enunciado": "¿Cuál es el precio de una entrada de adulto?",
+"opciones": {
+"A": "$10.000",
+"B": "$16.000",
+"C": "$18.000",
+"D": "$12.400"
+}
+},
+{
+"id": "P11-MAT-B001",
+"contexto": "Una plataforma de transporte en Cali cobra un valor fijo por servicio más un valor por cada kilómetro recorrido. El costo C, en pesos, de un viaje de x kilómetros es C(x) = 1.800x + 5.000.",
+"enunciado": "¿Qué representa el número 1.800 en esta situación?",
+"opciones": {
+"A": "El valor fijo que se cobra por cada servicio.",
+"B": "El aumento del costo por cada kilómetro adicional recorrido.",
+"C": "El costo total de un viaje de un kilómetro.",
+"D": "La cantidad de kilómetros que se recorren con $5.000."
+}
+},
+{
+"id": "P11-MAT-A009",
+"contexto": "Dos atletas de Tumaco se preparan para una carrera de 5 km. La tabla muestra sus tiempos, en minutos, en cinco carreras de práctica.",
+"enunciado": "A partir de la tabla, ¿qué se puede afirmar sobre el desempeño de los dos atletas?",
+"opciones": {
+"A": "Jhon es más rápido, porque obtuvo el tiempo más bajo de todos.",
+"B": "Yuli tiene un promedio menor que Jhon en las cinco carreras.",
+"C": "Los dos atletas tienen el mismo promedio y la misma regularidad.",
+"D": "Tienen el mismo promedio, pero los tiempos de Yuli son más regulares."
+},
+"tabla": {
+"titulo": "Tiempos en 5 km (minutos)",
+"cols": [
+"Carrera",
+"Yuli",
+"Jhon"
+],
+"filas": [
+[
+"1",
+"20",
+"17"
+],
+[
+"2",
+"21",
+"25"
+],
+[
+"3",
+"20",
+"19"
+],
+[
+"4",
+"22",
+"24"
+],
+[
+"5",
+"22",
+"20"
+]
+]
+}
+},
+{
+"id": "P11-MAT-C005",
+"contexto": "A las 3 de la tarde, en el parque de un barrio de Palmira, un poste de alumbrado proyecta una sombra de 6 m. Al mismo tiempo, Mateo, que mide 1,6 m, proyecta una sombra de 1,2 m. El suelo es horizontal.",
+"enunciado": "¿Cuál es la altura del poste?",
+"opciones": {
+"A": "4,5 m",
+"B": "6,4 m",
+"C": "8 m",
+"D": "7,2 m"
+}
+},
+{
+"id": "P11-MAT-B034",
+"contexto": "Una cooperativa de Cali muestra a sus asociados dos planes de ahorro que inician con $100 mil. La gráfica presenta el saldo de cada plan durante 5 años.",
+"enunciado": "¿Cuál afirmación describe correctamente la gráfica?",
+"opciones": {
+"A": "El plan Lineal siempre tiene un saldo mayor que el plan Exponencial.",
+"B": "El plan Exponencial siempre tiene un saldo mayor que el plan Lineal.",
+"C": "El plan Lineal aumenta la misma cantidad cada año, mientras que el plan Exponencial aumenta cada vez más.",
+"D": "Los dos planes aumentan la misma cantidad cada año."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Saldo de los planes de ahorro",
+"etiquetas": [
+"Año 0",
+"Año 1",
+"Año 2",
+"Año 3",
+"Año 4",
+"Año 5"
+],
+"series": [
+{
+"nombre": "Plan Lineal",
+"datos": [
+100,
+120,
+140,
+160,
+180,
+200
+]
+},
+{
+"nombre": "Plan Exponencial",
+"datos": [
+100,
+115,
+132.2,
+152.1,
+174.9,
+201.1
+]
+}
+],
+"ejeY": "miles de pesos"
+}
+},
+{
+"id": "P11-MAT-B033",
+"contexto": "En una campaña sobre contaminación auditiva en Cali se explica que el nivel de un sonido, en decibeles (dB), es L = 10·log(I/I₀), donde I es la intensidad del sonido e I₀ es una intensidad de referencia constante.",
+"enunciado": "Si la intensidad de un sonido se multiplica por 100, ¿cómo cambia su nivel en decibeles?",
+"opciones": {
+"A": "Aumenta 20 dB.",
+"B": "Se multiplica por 100.",
+"C": "Aumenta 100 dB.",
+"D": "Se multiplica por 2."
+}
+},
+{
+"id": "P11-MAT-D032",
+"contexto": "La liga intercolegial de microfútbol de la Comuna 15 de Cali organiza un torneo en el que cada equipo juega exactamente un partido contra cada uno de los demás equipos.",
+"enunciado": "El organizador afirma: «El año pasado jugaron 6 equipos; como este año juegan 12, el número de partidos se duplica». ¿Es válida su afirmación?",
+"opciones": {
+"A": "Sí, porque el número de partidos es proporcional al número de equipos.",
+"B": "No, porque se pasa de 15 a 66 partidos, que es más del cuádruple.",
+"C": "No, porque se pasa de 15 a 60 partidos, que es exactamente el cuádruple.",
+"D": "No, porque se pasa de 30 a 132 partidos, ya que cada pareja juega dos partidos."
+}
+},
+{
+"id": "P11-MAT-B007",
+"contexto": "Andrés tiene $1.000.000 para invertir durante 5 años. El Banco A le ofrece 12 % anual de interés simple y el Banco B, 10 % anual de interés compuesto. Andrés dice: «El Banco A siempre conviene más porque su tasa es mayor».",
+"enunciado": "¿Cuál de los siguientes argumentos sobre la inversión a 5 años es válido?",
+"opciones": {
+"A": "El Banco A conviene más en cualquier plazo, porque 12 % es mayor que 10 %.",
+"B": "A 5 años conviene el Banco B, porque el interés compuesto genera intereses sobre intereses y supera los $600.000 del Banco A.",
+"C": "El Banco B conviene en cualquier plazo, incluso a 1 año, porque el interés compuesto siempre gana.",
+"D": "A 5 años conviene el Banco A, porque acumula 60 % de interés frente a 50 % del Banco B."
+}
+},
+{
+"id": "P11-MAT-B011",
+"contexto": "Supón que la tarifa del IVA es del 19 %. La factura de una papelería de Cali muestra un total de $59.500 por un pedido de cuadernos, con el IVA ya incluido.",
+"enunciado": "¿Cuál era el precio de los cuadernos antes de IVA?",
+"opciones": {
+"A": "$48.195",
+"B": "$50.000",
+"C": "$9.500",
+"D": "$70.805"
+}
+},
+{
+"id": "P9-MAT-A039",
+"contexto": "La tabla muestra las edades de los 20 integrantes del equipo de voleibol de un colegio de Candelaria, Valle del Cauca.",
+"enunciado": "¿Cuál es la edad promedio de los integrantes del equipo?",
+"opciones": {
+"A": "15,0 años",
+"B": "15,1 años",
+"C": "6,7 años",
+"D": "100,7 años"
+},
+"tabla": {
+"titulo": "Edades del equipo de voleibol",
+"cols": [
+"Edad (años)",
+"Número de integrantes"
+],
+"filas": [
+[
+"14",
+"5"
+],
+[
+"15",
+"8"
+],
+[
+"16",
+"7"
+]
+]
+}
+},
+{
+"id": "P11-MAT-D026",
+"contexto": "En la clase de estadística, la profesora pide clasificar varias situaciones de conteo según si el orden en que se eligen los elementos produce resultados distintos.",
+"enunciado": "¿En cuál de las siguientes situaciones el orden de elección SÍ importa?",
+"opciones": {
+"A": "Elegir 3 libros de la biblioteca para leer durante las vacaciones.",
+"B": "Escoger 2 sabores de helado para servir en un mismo vaso.",
+"C": "Asignar las medallas de oro, plata y bronce entre 10 atletas de una carrera.",
+"D": "Formar un grupo de estudio de 4 personas entre los 20 estudiantes del curso."
+}
+},
+{
+"id": "P11-MAT-C004",
+"contexto": "En la clase de tecnología, Samuel diseña cajas cúbicas para empacar café del Valle. Afirma: «Si duplico la arista del cubo, la caja tendrá el doble de capacidad».",
+"enunciado": "¿Cuál de las siguientes razones muestra correctamente si Samuel tiene o no razón?",
+"opciones": {
+"A": "Tiene razón, porque el volumen es directamente proporcional a la arista.",
+"B": "No tiene razón, porque el volumen se multiplica por 4, ya que se duplican el largo y el ancho.",
+"C": "No tiene razón, porque el volumen se multiplica por 6, ya que el cubo tiene 6 caras.",
+"D": "No tiene razón, porque (2a)³ = 8a³, así que el volumen se multiplica por 8."
+}
+},
+{
+"id": "P11-MAT-D024",
+"contexto": "La plataforma de notas del colegio pide a cada estudiante crear un PIN de 4 dígitos (del 0 al 9) en el que no se puede repetir ningún dígito. Por ejemplo, 4071 es válido, pero 4471 no lo es.",
+"enunciado": "¿Cuántos PIN diferentes se pueden crear con esa regla?",
+"opciones": {
+"A": "5.040",
+"B": "10.000",
+"C": "210",
+"D": "40"
+}
+},
+{
+"id": "P10-MAT-B056",
+"contexto": "Para resolver la inecuación −2x + 5 > 11, Kevin escribió: «Paso 1: −2x > 6. Paso 2: x > −3».",
+"enunciado": "¿Cuál de las siguientes afirmaciones sobre el procedimiento de Kevin es correcta?",
+"opciones": {
+"A": "El error está en el paso 1, porque debía sumar 5 a ambos lados.",
+"B": "El error está en el paso 2: al dividir entre −2 debía invertir el sentido de la desigualdad; la solución es x < −3.",
+"C": "El error está en el paso 2: debía dividir entre 2 y no entre −2, y obtener x > 3.",
+"D": "No hay error, porque x = −3 cumple la desigualdad original."
+}
+},
+{
+"id": "P9-MAT-B026",
+"contexto": "En el club de matemáticas, Juliana debe resolver la ecuación 2x² − 3x − 2 = 0. Como el trinomio no se factoriza fácilmente a simple vista, decide usar la fórmula general x = [−b ± √(b² − 4ac)] / (2a).",
+"enunciado": "¿Cuáles son las soluciones de la ecuación?",
+"opciones": {
+"A": "x = 2 y x = ½",
+"B": "x = 2 y x = −½",
+"C": "x = −2 y x = ½",
+"D": "x = 4 y x = −1"
+}
+},
+{
+"id": "P11-MAT-A014",
+"contexto": "Se preguntó a 40 estudiantes de grado 11° de un colegio de Cali cuántos días a la semana van al colegio en bicicleta. Los resultados están en la tabla.",
+"enunciado": "Camila afirma que la mediana es 10, «porque es el número que queda en el centro de la columna de estudiantes». ¿Por qué su razonamiento es incorrecto?",
+"opciones": {
+"A": "Porque la mediana es el valor que más se repite, es decir, 12.",
+"B": "Porque antes de buscar el centro debía sumar todas las frecuencias y dividir entre 5.",
+"C": "Porque la mediana siempre coincide con la media, que es 2,4.",
+"D": "Porque debía ubicar los datos 20.° y 21.° de los días ordenados, y la mediana es 2,5."
+},
+"tabla": {
+"titulo": "Días por semana en bicicleta",
+"cols": [
+"Días",
+"Número de estudiantes"
+],
+"filas": [
+[
+"0",
+"2"
+],
+[
+"1",
+"8"
+],
+[
+"2",
+"10"
+],
+[
+"3",
+"12"
+],
+[
+"4",
+"8"
+]
+]
+}
+},
+{
+"id": "P11-MAT-C039",
+"contexto": "Una tienda de deportes de Cali debe enviar una varilla rígida de 125 cm en una caja con forma de prisma rectangular de 120 cm de largo, 30 cm de ancho y 30 cm de alto. La varilla es muy delgada y no se puede doblar.",
+"enunciado": "¿Cuál afirmación sobre si la varilla cabe en la caja está correctamente justificada?",
+"opciones": {
+"A": "No cabe, porque la arista más larga de la caja mide 120 cm, menos que la varilla.",
+"B": "No cabe, porque la diagonal de la cara más grande mide aproximadamente 123,7 cm, menos que la varilla.",
+"C": "Sí cabe, porque la diagonal interior, de una esquina a la opuesta, mide √(120² + 30² + 30²) ≈ 127,3 cm.",
+"D": "Sí cabe, porque la suma de las aristas 120 + 30 + 30 = 180 cm supera a la varilla."
+}
+},
+{
+"id": "P11-MAT-A019",
+"contexto": "La familia Mosquera, de Jamundí, organizó su presupuesto mensual. Su ingreso total es $3.000.000 y lo distribuye como muestra la tabla.",
+"enunciado": "La familia quiere ahorrar el 20 % de su ingreso, reduciendo en la misma cantidad los rubros «Transporte» y «Otros gastos». ¿Cuánto debe reducir cada uno de esos rubros?",
+"opciones": {
+"A": "$300.000",
+"B": "$75.000",
+"C": "$150.000",
+"D": "$600.000"
+},
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor"
+],
+"filas": [
+[
+"Vivienda",
+"$900.000"
+],
+[
+"Alimentación",
+"$750.000"
+],
+[
+"Transporte",
+"$300.000"
+],
+[
+"Educación",
+"$450.000"
+],
+[
+"Otros gastos",
+"$300.000"
+],
+[
+"Ahorro",
+"$300.000"
+]
+]
+}
+},
+{
+"id": "P10-MAT-B047",
+"contexto": "Tomás afirma: «Si en un triángulo un ángulo mide el doble que otro, entonces el lado opuesto al ángulo mayor mide el doble que el lado opuesto al ángulo menor».",
+"enunciado": "¿Cuál de las siguientes afirmaciones sobre la conjetura de Tomás es correcta?",
+"opciones": {
+"A": "Tiene razón, porque según la ley del seno los lados son proporcionales a sus ángulos opuestos.",
+"B": "Tiene razón, porque en el triángulo de ángulos 30°, 60° y 90° los catetos miden 1 y 2.",
+"C": "Está equivocado, porque el lado opuesto al ángulo mayor siempre es menor.",
+"D": "Está equivocado: según la ley del seno los lados son proporcionales a los senos de los ángulos, y sen 60° ≈ 1,73 · sen 30°, no el doble."
+}
+},
+{
+"id": "P11-MAT-A006",
+"contexto": "La gráfica muestra la inflación anual (variación porcentual de los precios al consumidor) de un país latinoamericano entre 2018 y 2023. Datos ilustrativos.",
+"enunciado": "Lucía tuvo sus ahorros durante 2022 en una cuenta que pagó 8 % de rentabilidad anual. ¿Cuál afirmación sobre sus ahorros es válida?",
+"opciones": {
+"A": "Perdieron poder de compra, porque la inflación de 2022 superó la rentabilidad.",
+"B": "Ganaron poder de compra, porque la cantidad de dinero en la cuenta aumentó.",
+"C": "Mantuvieron su poder de compra, porque la rentabilidad fue positiva.",
+"D": "Ganaron poder de compra, porque 8 % es mayor que la inflación de 2018."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Inflación anual (%)",
+"etiquetas": [
+"2018",
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Inflación",
+"datos": [
+3.2,
+3.8,
+1.6,
+5.6,
+13.1,
+9.3
+]
+}
+],
+"ejeY": "%"
+}
+},
+{
+"id": "P10-CIE-B063",
+"contexto": "En la pista atlética del estadio Pascual Guerrero, Laura y Andrés corren en la misma dirección por un tramo recto. Laura sale desde la marca de 0 m y Andrés desde la marca de 20 m. La gráfica muestra la posición de cada uno cada 2 segundos.",
+"enunciado": "¿Qué significa que las dos líneas se encuentren a los 10 s?",
+"opciones": {
+"A": "Que en ese instante ambos corredores tienen la misma rapidez.",
+"B": "Que en ese instante Andrés se detiene.",
+"C": "Que en ese instante ambos están en la misma posición, a 50 m de la marca de salida de Laura.",
+"D": "Que hasta ese instante ambos han recorrido la misma distancia."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Posición de dos corredores contra tiempo",
+"etiquetas": [
+"0 s",
+"2 s",
+"4 s",
+"6 s",
+"8 s",
+"10 s"
+],
+"series": [
+{
+"nombre": "Laura",
+"datos": [
+0,
+10,
+20,
+30,
+40,
+50
+]
+},
+{
+"nombre": "Andrés",
+"datos": [
+20,
+26,
+32,
+38,
+44,
+50
+]
+}
+],
+"ejeY": "posición (m)"
+}
+},
+{
+"id": "P11-CIE-B038",
+"contexto": "La gráfica muestra la solubilidad (gramos de sal que se pueden disolver como máximo en 100 g de agua) del nitrato de potasio (KNO₃), usado en fertilizantes del Valle del Cauca, y del cloruro de sodio (NaCl), a distintas temperaturas.",
+"enunciado": "Se disuelven completamente 100 g de KNO₃ en 100 g de agua a 60 °C y luego la solución se enfría lentamente hasta 20 °C. ¿Qué masa de KNO₃ se espera que cristalice?",
+"opciones": {
+"A": "68,4 g",
+"B": "31,6 g",
+"C": "100 g",
+"D": "10 g"
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Curvas de solubilidad",
+"etiquetas": [
+"0 °C",
+"20 °C",
+"40 °C",
+"60 °C",
+"80 °C"
+],
+"series": [
+{
+"nombre": "KNO₃",
+"datos": [
+13.3,
+31.6,
+63.9,
+110,
+169
+]
+},
+{
+"nombre": "NaCl",
+"datos": [
+35.7,
+36.0,
+36.6,
+37.3,
+38.4
+]
+}
+],
+"ejeY": "g de sal / 100 g de agua"
+}
+},
+{
+"id": "P10-CIE-B057",
+"contexto": "Para construir una central hidroeléctrica se levanta una represa que cierra el cauce de un río y forma un gran embalse. En los ríos colombianos viven peces como el bocachico, que cada año remonta los ríos para reproducirse (subienda).",
+"enunciado": "¿Cuál es un efecto ambiental directo de la represa sobre el ecosistema del río?",
+"opciones": {
+"A": "Fragmenta el río e impide que peces como el bocachico migren aguas arriba para reproducirse.",
+"B": "Aumenta las emisiones de CO₂ porque la central quema combustibles para mover las turbinas.",
+"C": "Produce residuos radiactivos que contaminan el agua del embalse.",
+"D": "Hace desaparecer el agua, porque las turbinas la consumen al generar electricidad."
+}
+},
+{
+"id": "P10-CIE-A008",
+"contexto": "Unos estudiantes miden la actividad de la amilasa de la saliva, enzima que descompone el almidón, a diferentes temperaturas. Expresan la actividad como porcentaje de la actividad máxima observada. Los resultados se muestran en la gráfica.",
+"enunciado": "¿Qué explica la disminución de la actividad de la enzima por encima de 37 °C?",
+"opciones": {
+"A": "El almidón se evapora a altas temperaturas y ya no queda sustrato.",
+"B": "Las moléculas se mueven más despacio y chocan menos entre sí.",
+"C": "El calor altera la forma de la enzima y su sitio activo deja de encajar con el sustrato.",
+"D": "La enzima se consume en cada reacción y a mayor temperatura se gasta más rápido."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Actividad de la amilasa salival según la temperatura",
+"etiquetas": [
+"10 °C",
+"20 °C",
+"30 °C",
+"37 °C",
+"45 °C",
+"55 °C",
+"65 °C"
+],
+"series": [
+{
+"nombre": "Actividad",
+"datos": [
+22,
+45,
+80,
+100,
+70,
+25,
+5
+]
+}
+],
+"ejeY": "% de la actividad máxima"
+}
+},
+{
+"id": "P11-CIE-D050",
+"contexto": "Un paciente tomó un antibiótico solo durante tres días, aunque el médico le había formulado siete, porque ya se sentía mejor. Semanas después la infección regresó y el mismo antibiótico ya no funcionó.",
+"enunciado": "¿Cuál es la explicación más adecuada de lo ocurrido?",
+"opciones": {
+"A": "El antibiótico hizo que las bacterias aprendieran a defenderse y les enseñaran a las demás.",
+"B": "El antibiótico eliminó las bacterias más sensibles; las pocas que tenían variaciones que las hacían resistentes sobrevivieron, se reprodujeron y formaron una población resistente.",
+"C": "El cuerpo del paciente se volvió resistente al antibiótico y dejó de absorberlo.",
+"D": "Las bacterias se transformaron en virus, contra los que los antibióticos no funcionan."
+}
+},
+{
+"id": "P9-CIE-A028",
+"contexto": "En la clase de educación física, cinco estudiantes midieron su frecuencia cardíaca (latidos por minuto) en reposo y justo después de correr durante 5 minutos.",
+"enunciado": "En este experimento, ¿cuál es la variable independiente?",
+"opciones": {
+"A": "La frecuencia cardíaca de cada estudiante.",
+"B": "La actividad realizada: estar en reposo o correr 5 minutos.",
+"C": "El nombre de cada estudiante que participó.",
+"D": "El número total de estudiantes del grupo."
+},
+"tabla": {
+"titulo": "Frecuencia cardíaca (latidos por minuto)",
+"cols": [
+"Estudiante",
+"En reposo",
+"Después de correr 5 min"
+],
+"filas": [
+[
+"Ana",
+"72",
+"130"
+],
+[
+"Luis",
+"68",
+"124"
+],
+[
+"Sara",
+"80",
+"142"
+],
+[
+"Juan",
+"75",
+"135"
+],
+[
+"Nicol",
+"70",
+"128"
+]
+]
+}
+},
+{
+"id": "P9-CIE-B053",
+"contexto": "En la clase de ciencias, el profesor mide con un termómetro la temperatura del agua de una piscina en la mañana (22 °C) y al mediodía (27 °C).",
+"enunciado": "Según el modelo de partículas, ¿qué significa que la temperatura del agua haya aumentado?",
+"opciones": {
+"A": "Que la energía cinética promedio de las partículas de agua aumentó.",
+"B": "Que aumentó el número de partículas de agua en la piscina.",
+"C": "Que las partículas de agua se hicieron más grandes.",
+"D": "Que el agua ganó frío y perdió calor."
+}
+},
+{
+"id": "P10-CIE-B068",
+"contexto": "En una prueba de choque, un maniquí de 70 kg viaja a 15 m/s dentro de un carro que se estrella contra un muro. Sin bolsa de aire, la cabeza del maniquí se detiene al golpear el timón en unos 0,01 s; con bolsa de aire, se detiene en unos 0,1 s. En ambos casos el maniquí pasa de 15 m/s a 0 m/s.",
+"enunciado": "¿Por qué la bolsa de aire reduce el daño sobre el ocupante?",
+"opciones": {
+"A": "Porque disminuye el cambio en la cantidad de movimiento del ocupante.",
+"B": "Porque detiene al ocupante de manera instantánea, sin que alcance a moverse.",
+"C": "Porque aumenta la masa del ocupante y así se mueve más despacio.",
+"D": "Porque aumenta el tiempo en que el ocupante se detiene y, con el mismo cambio de movimiento, la fuerza promedio es menor."
+}
+},
+{
+"id": "P11-CIE-D028",
+"contexto": "Una ciudad colombiana reemplazó parte de sus buses diésel por buses eléctricos. Un concejal afirma: «Los buses eléctricos no generan ninguna contaminación». Una ingeniera ambiental responde que la afirmación es incompleta.",
+"enunciado": "¿Cuál argumento sustenta mejor la respuesta de la ingeniera?",
+"opciones": {
+"A": "Los buses eléctricos emiten más gases por el tubo de escape que los buses diésel.",
+"B": "Los buses eléctricos no sirven en ciudades con lluvias frecuentes.",
+"C": "La electricidad es una forma de energía que no puede producir contaminación en ninguna etapa.",
+"D": "Aunque no emiten gases al circular, su impacto total depende de cómo se genera la electricidad y de la fabricación y disposición final de sus baterías."
+}
+},
+{
+"id": "P9-CIE-A032",
+"contexto": "En el laboratorio, el grupo de Kevin mezcló la misma cantidad de almidón y de amilasa en cuatro tubos, cada uno a una temperatura distinta. Cada minuto tomaban una gota y le agregaban yodo: mientras haya almidón, el yodo se pone azul oscuro. Registraron el tiempo que tardó el almidón en desaparecer.",
+"enunciado": "¿Qué conclusión es válida según estos resultados?",
+"opciones": {
+"A": "La amilasa actúa más rápido cuanto mayor es la temperatura.",
+"B": "La temperatura no influye en la acción de la amilasa.",
+"C": "La amilasa actúa más rápido cerca de 37 °C y a 70 °C deja de funcionar, probablemente porque se altera su estructura.",
+"D": "A 10 °C la amilasa se destruye por completo y no actúa."
+},
+"tabla": {
+"titulo": "Tiempo para que desaparezca el almidón",
+"cols": [
+"Temperatura (°C)",
+"Tiempo (min)"
+],
+"filas": [
+[
+"10",
+"18"
+],
+[
+"25",
+"9"
+],
+[
+"37",
+"4"
+],
+[
+"70",
+"No desapareció en 30 min"
+]
+]
+}
+},
+{
+"id": "P11-CIE-A016",
+"contexto": "En el sistema ABO los alelos Iᴬ e Iᴮ son codominantes entre sí y ambos son dominantes sobre el alelo i. En un banco de sangre de Cali se registra que Diego tiene sangre tipo A con genotipo Iᴬi y Natalia tiene sangre tipo B con genotipo Iᴮi.",
+"enunciado": "¿Qué grupos sanguíneos pueden tener los hijos de Diego y Natalia?",
+"opciones": {
+"A": "Solo A o B, como sus padres.",
+"B": "Solo AB, porque los alelos Iᴬ e Iᴮ son codominantes.",
+"C": "A, B o AB, pero nunca O, porque ninguno de los padres es O.",
+"D": "A, B, AB u O, cada uno con probabilidad de 1/4."
+}
+},
+{
+"id": "P9-CIE-B050",
+"contexto": "En el laboratorio se calentaron por separado 100 g de agua y 100 g de aceite de cocina, en recipientes iguales y con el mismo mechero, que entrega la misma cantidad de calor por minuto. La gráfica muestra la temperatura de cada líquido.",
+"enunciado": "¿Qué conclusión se apoya en los resultados?",
+"opciones": {
+"A": "El agua recibió menos calor que el aceite, por eso se calentó más despacio.",
+"B": "El aceite necesita menos calor que el agua para aumentar 1 °C su temperatura, por eso tiene menor calor específico.",
+"C": "El aceite tiene mayor calor específico, porque alcanzó una temperatura más alta.",
+"D": "Ambos líquidos tienen el mismo calor específico, porque empezaron a la misma temperatura."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Temperatura del agua y del aceite al calentarlos",
+"etiquetas": [
+"0",
+"1",
+"2",
+"3",
+"4"
+],
+"series": [
+{
+"nombre": "Agua",
+"datos": [
+20,
+25,
+30,
+35,
+40
+]
+},
+{
+"nombre": "Aceite",
+"datos": [
+20,
+30,
+40,
+50,
+60
+]
+}
+],
+"ejeY": "°C (eje X: tiempo en minutos)"
+}
+},
+{
+"id": "P10-CIE-B051",
+"contexto": "Un estudio presentó la generación de electricidad de una región durante un año, clasificada por fuente. Las fuentes hidráulica, solar y eólica se consideran renovables; las térmicas de gas y de carbón, no renovables.",
+"enunciado": "¿Qué conclusión se apoya en los datos de la gráfica?",
+"opciones": {
+"A": "La energía solar es la principal fuente de electricidad de la región.",
+"B": "Las centrales térmicas producen más de la mitad de la electricidad de la región.",
+"C": "Cerca del 70 % de la electricidad de la región proviene de fuentes renovables.",
+"D": "Solo el 5 % de la electricidad de la región proviene de fuentes renovables."
+},
+"grafica": {
+"tipo": "barras",
+"titulo": "Generación anual de electricidad de una región por fuente",
+"etiquetas": [
+"Hidráulica",
+"Térmica a gas",
+"Térmica a carbón",
+"Solar",
+"Eólica"
+],
+"series": [
+{
+"nombre": "Generación",
+"datos": [
+650,
+200,
+100,
+40,
+10
+]
+}
+],
+"ejeY": "GWh"
+}
+},
+{
+"id": "P11-CIE-C010",
+"contexto": "Un bus articulado del MIO avanza en línea recta por la avenida de las Américas a 15 m/s respecto al andén. Dentro del bus, Camilo camina hacia el frente a 1,5 m/s respecto al bus.",
+"enunciado": "¿Cuál es la velocidad de Camilo respecto a una persona quieta en el andén?",
+"opciones": {
+"A": "16,5 m/s hacia el frente.",
+"B": "13,5 m/s hacia el frente.",
+"C": "1,5 m/s hacia el frente.",
+"D": "15 m/s hacia el frente."
+}
+},
+{
+"id": "P9-CIE-B033",
+"contexto": "Mientras prepara un aderezo para ensalada en el restaurante, el cocinero mezcla aceite de cocina y agua en una botella. Aunque agita con fuerza, al poco tiempo se forman dos capas: el aceite arriba y el agua abajo. La densidad del aceite es 0,92 g/mL y la del agua 1,00 g/mL.",
+"enunciado": "¿Por qué el aceite queda encima del agua?",
+"opciones": {
+"A": "Porque el aceite tiene más masa que el agua de la botella.",
+"B": "Porque el aceite no se disuelve en el agua y es menos denso que ella.",
+"C": "Porque el aceite está más caliente que el agua.",
+"D": "Porque el agua reacciona con el aceite y lo empuja hacia arriba."
+}
+},
+{
+"id": "P10-CIE-B059",
+"contexto": "En una finca de Ginebra, Valle del Cauca, se instaló un biodigestor: un tanque cerrado donde se depositan el estiércol de los cerdos y restos de cosecha. Allí, en ausencia de oxígeno, unos microorganismos descomponen la materia orgánica y producen biogás, que la familia usa para cocinar. El residuo líquido (biol) se usa como abono.",
+"enunciado": "¿Qué explica el beneficio ambiental y energético del biodigestor?",
+"opciones": {
+"A": "El estiércol se quema directamente dentro del tanque y su calor se usa para cocinar.",
+"B": "El biodigestor fabrica gas a partir del aire, sin necesidad de residuos.",
+"C": "Los microorganismos transforman los residuos en biogás rico en metano, que sirve como combustible, y se evita que ese metano escape libremente a la atmósfera.",
+"D": "El biodigestor elimina toda la materia orgánica, así que no queda ningún residuo aprovechable."
+}
+},
+{
+"id": "P9-CIE-B031",
+"contexto": "Las masas atómicas aproximadas son: hidrógeno (H) = 1 g/mol y oxígeno (O) = 16 g/mol. Valentina sirvió 36 g de agua (H₂O) en un vaso.",
+"enunciado": "¿Cuántos moles de agua hay en el vaso de Valentina?",
+"opciones": {
+"A": "18 mol",
+"B": "0,5 mol",
+"C": "2 mol",
+"D": "36 mol"
+}
+},
+{
+"id": "P11-CIE-D017",
+"contexto": "En un proyecto STEAM para construir calentadores solares de bajo costo, estudiantes de CENTEC llenaron dos tanques iguales con 20 L de agua cada uno, uno pintado de negro mate y otro de blanco, y los dejaron al sol en el mismo lugar. Midieron la temperatura del agua cada hora.",
+"enunciado": "¿Cuál conclusión se apoya en la gráfica y en el conocimiento científico?",
+"opciones": {
+"A": "El tanque blanco produce frío, por eso su temperatura sube menos.",
+"B": "La superficie negra absorbe más radiación solar, por eso el agua de ese tanque se calentó más rápido.",
+"C": "Los dos tanques se calentaron igual porque empezaron a la misma temperatura.",
+"D": "El tanque negro tenía más agua y por eso alcanzó mayor temperatura."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Temperatura del agua en los tanques",
+"etiquetas": [
+"8:00",
+"9:00",
+"10:00",
+"11:00",
+"12:00"
+],
+"series": [
+{
+"nombre": "Tanque negro",
+"datos": [
+20,
+26,
+32,
+37,
+41
+]
+},
+{
+"nombre": "Tanque blanco",
+"datos": [
+20,
+22,
+24,
+26,
+27
+]
+}
+],
+"ejeY": "Temperatura (°C)"
+}
+},
+{
+"id": "P9-CIE-A041",
+"contexto": "La secretaría de salud de un municipio del Valle del Cauca inició en 2019 un programa de educación sexual en todos los colegios. La gráfica muestra el número de embarazos en adolescentes registrados en el municipio cada año.",
+"enunciado": "Un funcionario afirma que el programa fue la única causa de la disminución de los embarazos. ¿Por qué esta conclusión no está completamente justificada con estos datos?",
+"opciones": {
+"A": "Porque la gráfica muestra que los embarazos aumentaron después de 2019.",
+"B": "Porque otros factores también pudieron cambiar en ese periodo y no hay un grupo de comparación sin el programa.",
+"C": "Porque los datos anteriores a 2019 no sirven para analizar el efecto del programa.",
+"D": "Porque la educación nunca tiene efectos sobre la salud de una población."
+},
+"grafica": {
+"tipo": "barras",
+"titulo": "Embarazos en adolescentes registrados por año",
+"etiquetas": [
+"2015",
+"2016",
+"2017",
+"2018",
+"2019",
+"2020",
+"2021",
+"2022"
+],
+"series": [
+{
+"nombre": "Embarazos",
+"datos": [
+120,
+118,
+121,
+119,
+117,
+98,
+85,
+80
+]
+}
+],
+"ejeY": "número de casos"
+}
+},
+{
+"id": "P10-CIE-B025",
+"contexto": "Isabella entrena ciclismo de pista en el velódromo Alcides Nieto Patiño de Cali. En una vuelta pasa de 5 m/s a 10 m/s. La masa de Isabella con su bicicleta es la misma durante todo el recorrido.",
+"enunciado": "Al pasar de 5 m/s a 10 m/s, ¿qué ocurre con la energía cinética de Isabella y su bicicleta?",
+"opciones": {
+"A": "Se cuadruplica.",
+"B": "Se duplica.",
+"C": "Se mantiene igual.",
+"D": "Se reduce a la mitad."
+}
+},
+{
+"id": "P11-CIE-D049",
+"contexto": "En un proyecto STEAM, estudiantes construyeron un miniaerogenerador y lo probaron frente a un ventilador industrial con velocidades de viento controladas. Midieron la potencia eléctrica entregada para cada velocidad.",
+"enunciado": "Si el modelo se mantiene, ¿qué potencia se esperaría con un viento de 10 m/s?",
+"opciones": {
+"A": "40,0 W",
+"B": "50,5 W",
+"C": "125,0 W",
+"D": "62,5 W"
+},
+"tabla": {
+"titulo": "Potencia del miniaerogenerador",
+"cols": [
+"Velocidad del viento (m/s)",
+"Potencia (W)"
+],
+"filas": [
+[
+"2",
+"0,5"
+],
+[
+"4",
+"4,0"
+],
+[
+"6",
+"13,5"
+],
+[
+"8",
+"32,0"
+]
+]
+}
+},
+{
+"id": "P10-CIE-B043",
+"contexto": "En un ensayo de la banda marcial de CENTEC, un tambor produce un sonido de 170 Hz. La rapidez del sonido en el aire del coliseo es 340 m/s.",
+"enunciado": "¿Cuál es la longitud de onda de ese sonido?",
+"opciones": {
+"A": "57 800 m",
+"B": "0,5 m",
+"C": "2 m",
+"D": "510 m"
+}
+},
+{
+"id": "P11-CIE-A044",
+"contexto": "Estudiantes de Cali quieren saber si el agua del río Cauca tomada aguas abajo de la ciudad afecta la germinación de semillas de rábano. Siembran 30 semillas en cada uno de dos grupos de recipientes iguales, con la misma tierra, la misma luz y la misma temperatura. Riegan el grupo 1 con agua de un nacimiento en la montaña y el grupo 2 con agua del río.",
+"enunciado": "¿Por qué es importante que ambos grupos tengan el mismo número de semillas, la misma tierra, la misma luz y la misma temperatura?",
+"opciones": {
+"A": "Para que la única diferencia entre los grupos sea el tipo de agua y se le pueda atribuir el resultado.",
+"B": "Para que las semillas germinen más rápido en ambos grupos.",
+"C": "Para obtener más datos en menos tiempo y terminar pronto.",
+"D": "Para que el resultado coincida con lo que los estudiantes esperan."
+}
+},
+{
+"id": "P11-CIE-C043",
+"contexto": "En una obra de teatro del colegio, una actriz lleva una camiseta que bajo la luz del sol se ve roja. En una escena, el escenario se ilumina solo con luz azul.",
+"enunciado": "¿De qué color se verá la camiseta bajo la luz azul?",
+"opciones": {
+"A": "Negra, porque absorbe la luz azul y no hay luz roja que reflejar.",
+"B": "Roja, porque el color es una propiedad fija de la camiseta.",
+"C": "Morada, porque se mezclan el rojo de la camiseta y el azul de la luz.",
+"D": "Azul, porque refleja la luz que recibe."
+}
+},
+{
+"id": "P11-CIE-B041",
+"contexto": "En el laboratorio del colegio, Samuel infla un globo con 2,0 L de aire a 27 °C. Luego lo introduce en una estufa de secado y el aire del globo alcanza 87 °C. La presión se mantiene constante. (T en K = T en °C + 273)",
+"enunciado": "¿Cuál es el volumen aproximado del globo a 87 °C?",
+"opciones": {
+"A": "6,4 L",
+"B": "1,7 L",
+"C": "2,4 L",
+"D": "2,0 L"
+}
+},
+{
+"id": "P10-CIE-B009",
+"contexto": "Un grupo de estudiantes soltó un carrito desde el reposo por un riel inclinado y midió la distancia total recorrida al final de cada segundo.",
+"enunciado": "¿Qué conclusión se apoya en los datos?",
+"opciones": {
+"A": "El carrito aumenta su velocidad de manera uniforme, porque la distancia es proporcional al cuadrado del tiempo.",
+"B": "El carrito se mueve con velocidad constante de 2 m/s, porque recorre 8 m en 4 s.",
+"C": "La velocidad del carrito disminuye, porque los números de distancia se separan cada vez más.",
+"D": "La distancia es directamente proporcional al tiempo, porque ambas magnitudes aumentan."
+},
+"tabla": {
+"titulo": "Distancia recorrida por el carrito",
+"cols": [
+"Tiempo (s)",
+"Distancia total (m)"
+],
+"filas": [
+[
+"0",
+"0"
+],
+[
+"1",
+"0,5"
+],
+[
+"2",
+"2,0"
+],
+[
+"3",
+"4,5"
+],
+[
+"4",
+"8,0"
+]
+]
+}
+},
+{
+"id": "P10-CIE-B070",
+"contexto": "Un grupo de CENTEC midió durante un día soleado la temperatura de la superficie de dos techos en Cali: uno de láminas de zinc y otro con un techo verde (cubierto de plantas). Los datos se registraron cada 2 horas.",
+"enunciado": "¿Qué conclusión se apoya en los datos de la gráfica?",
+"opciones": {
+"A": "El techo de zinc permanece más fresco que el techo verde durante todo el día.",
+"B": "El techo verde se mantiene más fresco durante las horas de sol, y la mayor diferencia, de 15 °C, se presenta a las 12 m.",
+"C": "Ambos techos alcanzan la misma temperatura máxima a mediodía.",
+"D": "El techo verde se calienta más rápido que el de zinc durante la mañana."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Temperatura de dos techos durante un día soleado",
+"etiquetas": [
+"6 a. m.",
+"8 a. m.",
+"10 a. m.",
+"12 m.",
+"2 p. m.",
+"4 p. m.",
+"6 p. m."
+],
+"series": [
+{
+"nombre": "Techo de zinc",
+"datos": [
+20,
+28,
+38,
+45,
+42,
+33,
+24
+]
+},
+{
+"nombre": "Techo verde",
+"datos": [
+20,
+23,
+27,
+30,
+29,
+26,
+22
+]
+}
+],
+"ejeY": "temperatura (°C)"
+}
+},
+{
+"id": "P10-CIE-A063",
+"contexto": "La gráfica muestra la máxima cantidad de nitrato de potasio (KNO₃) y de cloruro de sodio (NaCl) que puede disolverse en 100 g de agua a diferentes temperaturas.",
+"enunciado": "¿Qué conclusión se apoya en los datos de la gráfica?",
+"opciones": {
+"A": "A 20 °C el KNO₃ es más soluble que el NaCl.",
+"B": "A 0 °C el KNO₃ es más soluble que el NaCl.",
+"C": "La solubilidad del KNO₃ aumenta mucho con la temperatura, mientras que la del NaCl casi no cambia.",
+"D": "La solubilidad de las dos sales disminuye al aumentar la temperatura."
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Solubilidad de dos sales en agua",
+"etiquetas": [
+"0 °C",
+"20 °C",
+"40 °C",
+"60 °C",
+"80 °C"
+],
+"series": [
+{
+"nombre": "KNO₃",
+"datos": [
+13.3,
+31.6,
+63.9,
+110,
+169
+]
+},
+{
+"nombre": "NaCl",
+"datos": [
+35.7,
+36.0,
+36.6,
+37.3,
+38.4
+]
+}
+],
+"ejeY": "g de sal por 100 g de agua"
+}
+},
+{
+"id": "P10-CIE-B003",
+"contexto": "Una motocicleta arranca desde un semáforo en la Autopista Suroriental de Cali y se mueve en línea recta. La gráfica muestra su velocidad cada 2 segundos.",
+"enunciado": "¿Cuál fue la aceleración de la motocicleta durante los primeros 6 segundos?",
+"opciones": {
+"A": "2 m/s²",
+"B": "12 m/s²",
+"C": "0,5 m/s²",
+"D": "72 m/s²"
+},
+"grafica": {
+"tipo": "lineas",
+"titulo": "Velocidad de la motocicleta contra tiempo",
+"etiquetas": [
+"0 s",
+"2 s",
+"4 s",
+"6 s",
+"8 s",
+"10 s"
+],
+"series": [
+{
+"nombre": "Velocidad",
+"datos": [
+0,
+4,
+8,
+12,
+12,
+12
+]
+}
+],
+"ejeY": "velocidad (m/s)"
+}
+},
+{
+"id": "P11-CIE-A011",
+"contexto": "En la panadería de su familia en Palmira, Sofía prepara tres frascos con la misma cantidad de levadura y 100 mL de agua tibia (35 °C). Al frasco 1 no le agrega azúcar, al frasco 2 le agrega 5 g y al frasco 3 le agrega 10 g. Cubre cada frasco con un globo y, después de 30 minutos, mide el volumen de gas (CO₂) recogido.",
+"enunciado": "¿Cuál es la función del frasco 1 dentro del experimento?",
+"opciones": {
+"A": "Producir más gas para compararlo con los otros frascos.",
+"B": "Comprobar que la levadura necesita oxígeno para estar viva.",
+"C": "Determinar cuál es la temperatura ideal para la levadura.",
+"D": "Servir de control para mostrar que, sin azúcar, la levadura casi no produce CO₂."
+},
+"tabla": {
+"titulo": "CO₂ producido por la levadura en 30 minutos",
+"cols": [
+"Frasco",
+"Azúcar agregada (g)",
+"Volumen de CO₂ (mL)"
+],
+"filas": [
+[
+"1",
+"0",
+"2"
+],
+[
+"2",
+"5",
+"35"
+],
+[
+"3",
+"10",
+"62"
+]
+]
+}
+},
+{
+"id": "P11-CIE-B034",
+"contexto": "Para preparar una salmuera para encurtir pepinos en un restaurante de Cali, el cocinero disuelve 15 g de sal en 135 g de agua.",
+"enunciado": "¿Cuál es el porcentaje en masa (% m/m) de sal en la salmuera?",
+"opciones": {
+"A": "10 %",
+"B": "11,1 %",
+"C": "15 %",
+"D": "90 %"
+}
+},
+{
+"id": "P11-CIE-B008",
+"contexto": "El cloro se usa para potabilizar el agua en las plantas de tratamiento de Cali. Su número atómico es 17 y su configuración electrónica es 1s² 2s² 2p⁶ 3s² 3p⁵.",
+"enunciado": "De acuerdo con su configuración electrónica, ¿dónde se ubica el cloro en la tabla periódica?",
+"opciones": {
+"A": "Periodo 3, grupo 15, porque tiene 5 electrones en el subnivel 3p.",
+"B": "Periodo 2, grupo 17, porque el subnivel 2p tiene 6 electrones.",
+"C": "Periodo 5, grupo 3, porque el último subnivel tiene 5 electrones en el nivel 3.",
+"D": "Periodo 3, grupo 17, porque tiene 7 electrones en su último nivel."
+}
+},
+{
+"id": "P11-CIE-C052",
+"contexto": "Para preparar aguapanela, la abuela de Sofía calienta 2 kg de agua desde 20 °C hasta 70 °C. El calor específico del agua es 4.186 J/(kg·°C).",
+"enunciado": "¿Cuánta energía térmica absorbió el agua?",
+"opciones": {
+"A": "586.040 J",
+"B": "167.440 J",
+"C": "209.300 J",
+"D": "418.600 J"
+}
+},
+{
+"id": "P11-CIE-C003",
+"contexto": "Una motocicleta parte del reposo en un semáforo de la Calle 5 de Cali y, acelerando de manera uniforme, alcanza una rapidez de 20 m/s en 5 s.",
+"enunciado": "¿Qué distancia recorrió la motocicleta durante esos 5 s?",
+"opciones": {
+"A": "100 m",
+"B": "4 m",
+"C": "50 m",
+"D": "250 m"
+}
+},
+{
+"id": "P11-CIE-C045",
+"contexto": "En el taller de electrónica del colegio, Juan conecta una resistencia de 4 Ω a una batería de 12 V.",
+"enunciado": "¿Qué corriente circula por la resistencia?",
+"opciones": {
+"A": "48 A",
+"B": "0,33 A",
+"C": "3 A",
+"D": "16 A"
+}
+}
+]

@@ -1,0 +1,4981 @@
+[
+{
+"id": "P11-MAT-A001",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados presentados en estudios estadísticos a partir de tablas y gráficas.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Compara valores consecutivos de una tabla para identificar el mayor cambio.",
+"contexto": "Una panadería del barrio Ciudad Córdoba, en Cali, registró sus ventas mensuales del primer semestre en la siguiente tabla.",
+"tabla": {
+"titulo": "Ventas mensuales (millones de pesos)",
+"cols": [
+"Mes",
+"Ventas"
+],
+"filas": [
+[
+"Enero",
+"12"
+],
+[
+"Febrero",
+"15"
+],
+[
+"Marzo",
+"11"
+],
+[
+"Abril",
+"18"
+],
+[
+"Mayo",
+"14"
+],
+[
+"Junio",
+"20"
+]
+]
+},
+"enunciado": "¿En qué mes las ventas tuvieron el mayor aumento con respecto al mes anterior?",
+"opciones": {
+"A": "Junio",
+"B": "Abril",
+"C": "Febrero",
+"D": "Mayo"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir mayor valor con mayor aumento",
+"porque": "Elegiste Junio porque probablemente buscaste el mes con las ventas más altas (20 millones) y no el mayor cambio.",
+"pregunta_guia": "¿La pregunta pide el mes que más vendió o el mes que más creció frente al anterior?",
+"aprende": "Aumento = valor del mes − valor del mes anterior. Junio: 20 − 14 = 6; abril: 18 − 11 = 7."
+},
+"C": {
+"error": "Tomar el primer aumento que aparece",
+"porque": "Elegiste Febrero porque probablemente viste que fue el primer mes en subir y no comparaste con los demás.",
+"pregunta_guia": "¿Calculaste la diferencia de todos los meses antes de decidir?",
+"aprende": "Febrero subió 3 millones; hay que comparar todas las diferencias: +3, −4, +7, −4, +6."
+},
+"D": {
+"error": "Ignorar el signo del cambio",
+"porque": "Elegiste Mayo porque probablemente viste un cambio de 4 millones sin notar que fue una disminución (de 18 a 14).",
+"pregunta_guia": "Entre abril y mayo, ¿las ventas subieron o bajaron?",
+"aprende": "Un aumento exige diferencia positiva; mayo tuvo una diferencia de −4."
+}
+},
+"explicacion": "Paso 1: Calcula cada diferencia con el mes anterior: febrero 15 − 12 = +3; marzo 11 − 15 = −4; abril 18 − 11 = +7; mayo 14 − 18 = −4; junio 20 − 14 = +6. Paso 2: Quédate solo con las diferencias positivas: +3, +7, +6. Paso 3: La mayor es +7, que corresponde a abril. Respuesta: B.",
+"tip": "Antes de responder, subraya en el enunciado la palabra clave: ¿valor, aumento o porcentaje?",
+"truco": "Aumento = DESPUÉS − ANTES. Si da negativo, fue una caída.",
+"estrategia_icfes": "El ICFES presenta tablas y pregunta por cambios, no por valores. Construye una columna mental de diferencias y compárala; los distractores suelen ser el valor máximo y cambios negativos grandes.",
+"temas": [
+"lectura de tablas",
+"variación absoluta",
+"comparación de datos"
+],
+"gemela": {
+"contexto": "Una tienda vendió durante una semana (de lunes a sábado) estas cantidades de empanadas, en cientos: 8, 10, 9, 14, 12, 15.",
+"enunciado": "¿Qué día tuvo el mayor aumento de ventas frente al día anterior?",
+"opciones": {
+"A": "Sábado",
+"B": "Jueves",
+"C": "Martes",
+"D": "Viernes"
+},
+"correcta": "B",
+"explicacion": "Diferencias: martes +2, miércoles −1, jueves +5, viernes −2, sábado +3. El mayor aumento es +5, el jueves."
+}
+},
+{
+"id": "P11-MAT-A002",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende y explica el carácter relativo de las medidas de tendencia central y de dispersión y la necesidad de complementarlas.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos. EBC 10°–11°: uso comprensivamente algunas medidas de centralización, localización y dispersión.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el promedio de un conjunto de datos presentado en una tabla.",
+"contexto": "Una panadería del barrio Ciudad Córdoba, en Cali, registró sus ventas mensuales del primer semestre en la siguiente tabla.",
+"tabla": {
+"titulo": "Ventas mensuales (millones de pesos)",
+"cols": [
+"Mes",
+"Ventas"
+],
+"filas": [
+[
+"Enero",
+"12"
+],
+[
+"Febrero",
+"15"
+],
+[
+"Marzo",
+"11"
+],
+[
+"Abril",
+"18"
+],
+[
+"Mayo",
+"14"
+],
+[
+"Junio",
+"20"
+]
+]
+},
+"enunciado": "¿Cuál fue el promedio mensual de ventas de la panadería en el semestre?",
+"opciones": {
+"A": "15 millones",
+"B": "14,5 millones",
+"C": "18 millones",
+"D": "15,5 millones"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir media con mediana",
+"porque": "Elegiste 14,5 porque probablemente ordenaste los datos y promediaste los dos centrales (14 y 15): esa es la mediana.",
+"pregunta_guia": "¿El promedio usa todos los datos o solo los del centro?",
+"aprende": "Media = suma de todos los datos ÷ número de datos = 90 ÷ 6."
+},
+"C": {
+"error": "Dividir entre un número equivocado de datos",
+"porque": "Elegiste 18 porque probablemente dividiste la suma 90 entre 5 en lugar de 6 meses.",
+"pregunta_guia": "¿Cuántos meses tiene un semestre?",
+"aprende": "Se divide entre la cantidad de datos: 6 meses."
+},
+"D": {
+"error": "Promediar solo los extremos",
+"porque": "Elegiste 15,5 porque probablemente sumaste el mínimo y el máximo (11 + 20) y dividiste entre 2.",
+"pregunta_guia": "¿Los meses de febrero, abril o mayo no cuentan para el promedio?",
+"aprende": "El punto medio del rango no es la media; la media incluye todos los valores."
+}
+},
+"explicacion": "Paso 1: Suma todas las ventas: 12 + 15 + 11 + 18 + 14 + 20 = 90. Paso 2: Cuenta los datos: 6 meses. Paso 3: Divide: 90 ÷ 6 = 15. Respuesta: 15 millones (A).",
+"tip": "Verifica tu media: debe quedar entre el dato menor y el mayor.",
+"truco": "Media = Σ datos ÷ n. Primero suma, luego cuenta, al final divide.",
+"estrategia_icfes": "En el ICFES las opciones incluyen la mediana y el punto medio del rango como trampas. Identifica qué medida se pide y aplica su definición exacta.",
+"temas": [
+"media aritmética",
+"mediana",
+"lectura de tablas"
+],
+"gemela": {
+"contexto": "Los ahorros semanales de Mariana, en miles de pesos, durante 6 semanas fueron: 7, 9, 12, 10, 14, 8.",
+"enunciado": "¿Cuál fue su ahorro semanal promedio?",
+"opciones": {
+"A": "10 mil pesos",
+"B": "9,5 mil pesos",
+"C": "12 mil pesos",
+"D": "10,5 mil pesos"
+},
+"correcta": "A",
+"explicacion": "Suma: 7 + 9 + 12 + 10 + 14 + 8 = 60; 60 ÷ 6 = 10 mil pesos. (9,5 es la mediana, 12 resulta de dividir entre 5 y 10,5 es el punto medio del rango)."
+}
+},
+{
+"id": "P11-MAT-A003",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados y las inferencias presentadas en estudios estadísticos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una conclusión sobre una tendencia usando los datos de una tabla.",
+"contexto": "Una panadería del barrio Ciudad Córdoba, en Cali, registró sus ventas mensuales del primer semestre en la siguiente tabla.",
+"tabla": {
+"titulo": "Ventas mensuales (millones de pesos)",
+"cols": [
+"Mes",
+"Ventas"
+],
+"filas": [
+[
+"Enero",
+"12"
+],
+[
+"Febrero",
+"15"
+],
+[
+"Marzo",
+"11"
+],
+[
+"Abril",
+"18"
+],
+[
+"Mayo",
+"14"
+],
+[
+"Junio",
+"20"
+]
+]
+},
+"enunciado": "El administrador afirma: «Las ventas crecieron todos los meses del semestre, pues junio vendió más que enero». ¿Por qué esta afirmación es incorrecta?",
+"opciones": {
+"A": "Porque junio no fue el mes con mayores ventas del semestre.",
+"B": "Porque el promedio del semestre fue menor que las ventas de enero.",
+"C": "Porque en marzo y en mayo las ventas bajaron frente al mes anterior.",
+"D": "Porque la diferencia entre junio y enero es de apenas 2 millones."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar un dato falso de la tabla",
+"porque": "Elegiste A probablemente sin revisar que junio, con 20 millones, sí fue el mes de mayores ventas.",
+"pregunta_guia": "¿Cuál es el valor más alto de la tabla y a qué mes corresponde?",
+"aprende": "Un argumento válido debe apoyarse en datos verdaderos: junio sí es el máximo."
+},
+"B": {
+"error": "Calcular mal o no calcular la medida",
+"porque": "Elegiste B probablemente sin calcular el promedio; este es 15 millones, mayor que los 12 de enero.",
+"pregunta_guia": "¿Cuánto da 90 ÷ 6 y es mayor o menor que 12?",
+"aprende": "Comprueba la cifra antes de usarla como argumento; además el promedio no prueba si hubo caídas mes a mes."
+},
+"D": {
+"error": "Restar mal y usar un argumento irrelevante",
+"porque": "Elegiste D porque probablemente restaste mal (20 − 12 = 8, no 2) o pensaste que una diferencia pequeña invalida la afirmación.",
+"pregunta_guia": "¿Comparar solo el primer y el último mes dice algo sobre lo que pasó en medio?",
+"aprende": "«Crecer todos los meses» se refuta mostrando un mes en que hubo caída."
+}
+},
+"explicacion": "Paso 1: La afirmación dice que hubo crecimiento todos los meses. Paso 2: Para refutarla basta un mes con caída. Paso 3: Marzo (11) es menor que febrero (15) y mayo (14) es menor que abril (18). Paso 4: Comparar solo enero y junio no prueba un crecimiento mensual continuo. Respuesta: C.",
+"tip": "Una afirmación con «todos» o «siempre» se cae con un solo contraejemplo.",
+"truco": "Para refutar lo universal, busca UN caso que falle.",
+"estrategia_icfes": "En argumentación el ICFES pide el porqué de una conclusión errada. Descarta las opciones con datos falsos y escoge la que ataque directamente la idea central de la afirmación.",
+"temas": [
+"tendencias en datos",
+"contraejemplo",
+"argumentación estadística"
+],
+"gemela": {
+"contexto": "El ahorro mensual de Andrés de enero a mayo, en miles de pesos, fue: 50, 40, 60, 55, 70.",
+"enunciado": "Andrés dice: «Mi ahorro aumentó cada mes porque en mayo ahorré más que en enero». ¿Por qué su afirmación es incorrecta?",
+"opciones": {
+"A": "Porque mayo no fue el mes de mayor ahorro.",
+"B": "Porque en febrero y en abril ahorró menos que el mes anterior.",
+"C": "Porque su ahorro promedio fue menor de 50 mil pesos.",
+"D": "Porque la diferencia entre mayo y enero es negativa."
+},
+"correcta": "B",
+"explicacion": "Febrero (40) < enero (50) y abril (55) < marzo (60): hubo caídas, por lo que no aumentó cada mes. Mayo sí es el máximo, el promedio es 55 y mayo − enero = +20."
+}
+},
+{
+"id": "P11-MAT-A004",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y analiza críticamente información estadística de contextos económicos presentada en gráficas.",
+"lineamiento": "Pensamiento aleatorio y variacional. EBC 10°–11°: describo tendencias que se observan en conjuntos de variables relacionadas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta correctamente el significado de una disminución en la tasa de inflación.",
+"contexto": "La gráfica muestra la inflación anual (variación porcentual de los precios al consumidor) de un país latinoamericano entre 2018 y 2023. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Inflación anual (%)",
+"etiquetas": [
+"2018",
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Inflación",
+"datos": [
+3.2,
+3.8,
+1.6,
+5.6,
+13.1,
+9.3
+]
+}
+],
+"ejeY": "%"
+},
+"enunciado": "¿Qué ocurrió con los precios al consumidor en 2023 con respecto a 2022?",
+"opciones": {
+"A": "Bajaron en promedio un 3,8 %.",
+"B": "Bajaron hasta quedar como en 2021.",
+"C": "Se mantuvieron iguales que en 2022.",
+"D": "Siguieron subiendo, pero a un ritmo menor."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir caída de la inflación con caída de los precios",
+"porque": "Elegiste A porque probablemente restaste 13,1 − 9,3 = 3,8 y pensaste que los precios bajaron ese porcentaje.",
+"pregunta_guia": "Si la inflación de 2023 es 9,3 %, positiva, ¿los precios subieron o bajaron ese año?",
+"aprende": "La inflación mide cuánto suben los precios; si es positiva, los precios suben aunque la tasa sea menor que el año anterior."
+},
+"B": {
+"error": "Leer la gráfica como niveles de precios",
+"porque": "Elegiste B porque probablemente interpretaste la línea como el precio y no como la variación porcentual.",
+"pregunta_guia": "¿Qué mide el eje vertical: precios o porcentaje de cambio de los precios?",
+"aprende": "La gráfica muestra tasas de cambio; los precios acumulan cada aumento año tras año."
+},
+"C": {
+"error": "Asociar inflación con estabilidad",
+"porque": "Elegiste C porque probablemente pensaste que los precios solo cambian cuando la inflación sube.",
+"pregunta_guia": "¿Qué tendría que valer la inflación para que los precios no cambien?",
+"aprende": "Precios iguales corresponden a inflación de 0 %, no a 9,3 %."
+}
+},
+"explicacion": "Paso 1: Identifica qué mide la gráfica: el porcentaje en que subieron los precios cada año. Paso 2: En 2023 la inflación fue 9,3 %, un valor positivo, así que los precios subieron. Paso 3: Ese aumento fue menor que el 13,1 % de 2022. Paso 4: Conclusión: los precios siguieron subiendo, pero más despacio. Respuesta: D.",
+"tip": "Que la inflación baje no significa que las cosas se abaraten: significa que suben más despacio.",
+"truco": "Inflación = velocidad de los precios. Frenar no es retroceder.",
+"estrategia_icfes": "El ICFES usa gráficas de tasas (inflación, crecimiento) para ver si distingues entre la variable y su ritmo de cambio. Lee siempre el título y la unidad del eje antes de interpretar.",
+"temas": [
+"inflación",
+"lectura de gráficas de líneas",
+"tasa de variación"
+],
+"gemela": {
+"contexto": "La población de un municipio del Valle creció 2,5 % en 2021 y 1,2 % en 2022.",
+"enunciado": "¿Qué ocurrió con la población en 2022?",
+"opciones": {
+"A": "Disminuyó un 1,3 %.",
+"B": "Siguió aumentando, pero más despacio.",
+"C": "Se mantuvo igual que en 2021.",
+"D": "Volvió al valor de 2020."
+},
+"correcta": "B",
+"explicacion": "Una tasa de crecimiento positiva (1,2 %) indica que la población aumentó, aunque a un ritmo menor que el año anterior."
+}
+},
+{
+"id": "P11-MAT-A005",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): resuelve problemas que involucran variaciones porcentuales sucesivas en contextos económicos.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: resuelvo problemas con información estadística de medios de comunicación.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Aplica dos porcentajes de aumento sucesivos leídos en una gráfica.",
+"contexto": "La gráfica muestra la inflación anual (variación porcentual de los precios al consumidor) de un país latinoamericano entre 2018 y 2023. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Inflación anual (%)",
+"etiquetas": [
+"2018",
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Inflación",
+"datos": [
+3.2,
+3.8,
+1.6,
+5.6,
+13.1,
+9.3
+]
+}
+],
+"ejeY": "%"
+},
+"enunciado": "Un mercado familiar costaba $100.000 al comenzar 2022. Si su precio aumentó según la inflación de 2022 y luego según la de 2023, ¿cuánto costaba aproximadamente al terminar 2023?",
+"opciones": {
+"A": "$122.400",
+"B": "$123.618",
+"C": "$113.100",
+"D": "$109.300"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar porcentajes sucesivos",
+"porque": "Elegiste $122.400 porque probablemente sumaste 13,1 % + 9,3 % = 22,4 % y lo aplicaste a $100.000.",
+"pregunta_guia": "En 2023, ¿el 9,3 % se aplica sobre $100.000 o sobre el precio ya aumentado de $113.100?",
+"aprende": "Los aumentos sucesivos se multiplican: 100.000 × 1,131 × 1,093."
+},
+"C": {
+"error": "Aplicar solo un año",
+"porque": "Elegiste $113.100 porque probablemente aplicaste solo la inflación de 2022.",
+"pregunta_guia": "¿Cuántos años de aumento pide el enunciado?",
+"aprende": "Hay que aplicar 2022 y también 2023."
+},
+"D": {
+"error": "Usar solo el último dato",
+"porque": "Elegiste $109.300 porque probablemente aplicaste solo la inflación de 2023.",
+"pregunta_guia": "¿Qué pasó con el precio durante 2022?",
+"aprende": "El precio de inicio de 2023 ya incluye el aumento de 2022."
+}
+},
+"explicacion": "Paso 1: Lee en la gráfica: inflación 2022 = 13,1 %; 2023 = 9,3 %. Paso 2: Final de 2022: 100.000 × 1,131 = 113.100. Paso 3: Final de 2023: 113.100 × 1,093 = 123.618,3. Paso 4: Aproximando, $123.618. Respuesta: B.",
+"tip": "Convierte cada porcentaje de aumento en un factor: +13,1 % → × 1,131.",
+"truco": "Porcentajes en cadena: se MULTIPLICAN los factores, no se suman los porcentajes.",
+"estrategia_icfes": "El ICFES combina lectura de gráfica con cálculo. Primero extrae los datos exactos, luego plantea factores multiplicativos; la suma de porcentajes casi siempre es un distractor.",
+"temas": [
+"inflación",
+"porcentajes sucesivos",
+"factor de crecimiento"
+],
+"gemela": {
+"enunciado": "Un artículo cuesta $200.000. Si sube 10 % un año y 5 % el siguiente, ¿cuál es su precio final?",
+"opciones": {
+"A": "$230.000",
+"B": "$231.000",
+"C": "$220.000",
+"D": "$210.000"
+},
+"correcta": "B",
+"explicacion": "200.000 × 1,10 = 220.000; 220.000 × 1,05 = 231.000."
+}
+},
+{
+"id": "P11-MAT-A006",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente inferencias a partir de datos económicos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica si un ahorro ganó o perdió poder adquisitivo comparando su rentabilidad con la inflación.",
+"contexto": "La gráfica muestra la inflación anual (variación porcentual de los precios al consumidor) de un país latinoamericano entre 2018 y 2023. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Inflación anual (%)",
+"etiquetas": [
+"2018",
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Inflación",
+"datos": [
+3.2,
+3.8,
+1.6,
+5.6,
+13.1,
+9.3
+]
+}
+],
+"ejeY": "%"
+},
+"enunciado": "Lucía tuvo sus ahorros durante 2022 en una cuenta que pagó 8 % de rentabilidad anual. ¿Cuál afirmación sobre sus ahorros es válida?",
+"opciones": {
+"A": "Perdieron poder de compra, porque la inflación de 2022 superó la rentabilidad.",
+"B": "Ganaron poder de compra, porque la cantidad de dinero en la cuenta aumentó.",
+"C": "Mantuvieron su poder de compra, porque la rentabilidad fue positiva.",
+"D": "Ganaron poder de compra, porque 8 % es mayor que la inflación de 2018."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir valor nominal con valor real",
+"porque": "Elegiste B porque probablemente pensaste que tener más pesos significa poder comprar más.",
+"pregunta_guia": "Si tu dinero crece 8 % y los precios 13,1 %, ¿alcanza para lo mismo que antes?",
+"aprende": "El poder de compra depende de comparar el crecimiento del dinero con el crecimiento de los precios."
+},
+"C": {
+"error": "Creer que toda rentabilidad positiva protege",
+"porque": "Elegiste C porque probablemente creíste que basta con ganar intereses para no perder.",
+"pregunta_guia": "¿Con qué tasa debes comparar la rentabilidad para saber si ganaste en términos reales?",
+"aprende": "Solo si la rentabilidad iguala la inflación se mantiene el poder de compra."
+},
+"D": {
+"error": "Comparar con el año equivocado",
+"porque": "Elegiste D porque probablemente tomaste el dato de 2018 (3,2 %) en lugar del de 2022.",
+"pregunta_guia": "¿En qué año estuvo Lucía ahorrando?",
+"aprende": "Se compara con la inflación del mismo periodo: 2022, 13,1 %."
+}
+},
+"explicacion": "Paso 1: Lee la inflación de 2022 en la gráfica: 13,1 %. Paso 2: Compara con la rentabilidad: 8 % < 13,1 %. Paso 3: El dinero creció menos que los precios. Paso 4: Rentabilidad real aproximada: 1,08 ÷ 1,131 − 1 ≈ −4,5 %. Los ahorros perdieron poder de compra. Respuesta: A.",
+"tip": "Ahorrar es bueno; ahorrar ganándole a la inflación es mejor. Siempre compara las dos tasas.",
+"truco": "Rentabilidad real ≈ rentabilidad − inflación. Si da negativo, perdiste poder de compra.",
+"estrategia_icfes": "En preguntas de argumentación con datos económicos, el ICFES valora la razón correcta, no solo la conclusión. Revisa que el argumento use el dato del periodo correcto.",
+"temas": [
+"inflación",
+"rentabilidad real",
+"poder adquisitivo"
+],
+"gemela": {
+"enunciado": "En 2021 la inflación fue 5,6 % y un CDT pagó 4 % anual. ¿Qué pasó con el poder de compra del dinero invertido?",
+"opciones": {
+"A": "Aumentó, porque el CDT pagó intereses.",
+"B": "Se mantuvo, porque 4 % es positivo.",
+"C": "Disminuyó, porque la inflación fue mayor que la rentabilidad.",
+"D": "Aumentó, porque 4 % supera la inflación de 2020."
+},
+"correcta": "C",
+"explicacion": "4 % < 5,6 %: los precios subieron más que el dinero, así que el poder de compra disminuyó (aprox. −1,5 % real)."
+}
+},
+{
+"id": "P11-MAT-A007",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): selecciona muestras aleatorias en poblaciones grandes para inferir el comportamiento de las variables en estudio.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto nociones básicas como población, muestra y variable; diseño estudios para responder preguntas.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el tamaño de un estrato en un muestreo estratificado proporcional.",
+"contexto": "Un colegio de Cali quiere conocer la opinión de sus 1.200 estudiantes sobre un nuevo horario. Decide encuestar a 100 estudiantes mediante un muestreo estratificado proporcional por nivel.",
+"tabla": {
+"titulo": "Estudiantes por nivel",
+"cols": [
+"Nivel",
+"Estudiantes"
+],
+"filas": [
+[
+"Primaria",
+"480"
+],
+[
+"Básica secundaria",
+"480"
+],
+[
+"Media (10° y 11°)",
+"240"
+],
+[
+"Total",
+"1.200"
+]
+]
+},
+"enunciado": "¿Cuántos estudiantes de Media deben quedar en la muestra?",
+"opciones": {
+"A": "33",
+"B": "24",
+"C": "20",
+"D": "40"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Repartir la muestra en partes iguales",
+"porque": "Elegiste 33 porque probablemente dividiste 100 entre los 3 niveles sin tener en cuenta cuántos estudiantes tiene cada uno.",
+"pregunta_guia": "¿Qué significa «proporcional» en este muestreo?",
+"aprende": "Cada nivel aporta a la muestra el mismo porcentaje que representa en la población."
+},
+"B": {
+"error": "Aplicar un porcentaje fijo sin relación con la muestra",
+"porque": "Elegiste 24 porque probablemente tomaste el 10 % de 240.",
+"pregunta_guia": "¿Qué fracción de 1.200 es la muestra de 100?",
+"aprende": "La fracción de muestreo es 100/1.200 = 1/12, no 10 %."
+},
+"D": {
+"error": "Usar el estrato equivocado",
+"porque": "Elegiste 40 porque probablemente calculaste la cantidad de primaria o secundaria (480/1.200 × 100).",
+"pregunta_guia": "¿Cuántos estudiantes tiene Media en la tabla?",
+"aprende": "Media tiene 240 estudiantes: 240/1.200 = 20 %."
+}
+},
+"explicacion": "Paso 1: Proporción de Media en la población: 240 ÷ 1.200 = 0,20 (20 %). Paso 2: Aplica esa proporción a la muestra: 0,20 × 100 = 20. Paso 3: Verifica: primaria 40 + secundaria 40 + media 20 = 100. Respuesta: C.",
+"tip": "Comprueba que la suma de los estratos de la muestra dé el tamaño total de la muestra.",
+"truco": "Estrato en la muestra = (tamaño del estrato ÷ población) × muestra.",
+"estrategia_icfes": "El ICFES evalúa muestreo con tablas de población. Calcula la proporción de cada grupo y aplícala; las opciones trampa reparten por igual o usan porcentajes arbitrarios.",
+"temas": [
+"muestreo estratificado",
+"proporcionalidad",
+"población y muestra"
+],
+"gemela": {
+"contexto": "Una universidad tiene 800 estudiantes: 400 de ingenierías, 240 de ciencias sociales y 160 de artes. Se encuestará a 50 con muestreo estratificado proporcional.",
+"enunciado": "¿Cuántos estudiantes de ciencias sociales debe incluir la muestra?",
+"opciones": {
+"A": "15",
+"B": "17",
+"C": "24",
+"D": "25"
+},
+"correcta": "A",
+"explicacion": "240 ÷ 800 = 0,30; 0,30 × 50 = 15."
+}
+},
+{
+"id": "P11-MAT-A008",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): selecciona muestras aleatorias en poblaciones grandes y valora críticamente las inferencias de estudios estadísticos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos diseñados en el ámbito escolar.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el sesgo de una muestra que no representa a toda la población.",
+"contexto": "Un colegio de Cali quiere conocer la opinión de sus 1.200 estudiantes sobre un nuevo horario. Decide encuestar a 100 estudiantes mediante un muestreo estratificado proporcional por nivel.",
+"tabla": {
+"titulo": "Estudiantes por nivel",
+"cols": [
+"Nivel",
+"Estudiantes"
+],
+"filas": [
+[
+"Primaria",
+"480"
+],
+[
+"Básica secundaria",
+"480"
+],
+[
+"Media (10° y 11°)",
+"240"
+],
+[
+"Total",
+"1.200"
+]
+]
+},
+"enunciado": "Un docente propone encuestar solo a 100 estudiantes de Media «porque son los mayores y opinan con más criterio». ¿Por qué esa propuesta no es adecuada para conocer la opinión de todo el colegio?",
+"opciones": {
+"A": "Porque 100 estudiantes son demasiados para un colegio de 1.200.",
+"B": "Porque la muestra excluiría a Primaria y Secundaria, que son el 80 % de los estudiantes.",
+"C": "Porque los estudiantes de Media no saben qué horario les conviene.",
+"D": "Porque en Media hay menos de 100 estudiantes para encuestar."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Centrarse en el tamaño y no en la representatividad",
+"porque": "Elegiste A porque probablemente pensaste que el problema era cuántos se encuestan y no a quiénes.",
+"pregunta_guia": "Si la muestra fuera de 100, pero todos del mismo nivel, ¿representaría a todo el colegio?",
+"aprende": "Una muestra es buena si representa a todos los grupos de la población, no solo por su tamaño."
+},
+"C": {
+"error": "Argumentar con un juicio de valor sin datos",
+"porque": "Elegiste C porque probablemente buscaste una razón sobre las personas y no sobre el diseño de la muestra.",
+"pregunta_guia": "¿Qué dato de la tabla muestra qué parte del colegio quedaría por fuera?",
+"aprende": "En estadística el argumento debe apoyarse en el diseño muestral y en los datos."
+},
+"D": {
+"error": "Leer mal la tabla",
+"porque": "Elegiste D porque probablemente no viste que Media tiene 240 estudiantes.",
+"pregunta_guia": "¿Cuántos estudiantes de Media hay según la tabla?",
+"aprende": "Media tiene 240 estudiantes, así que sí se podrían encuestar 100; el problema es el sesgo."
+}
+},
+"explicacion": "Paso 1: La población es todo el colegio (1.200). Paso 2: Primaria + Secundaria = 960 estudiantes, es decir, 960 ÷ 1.200 = 80 %. Paso 3: Encuestar solo a Media deja sin voz al 80 % de la población. Paso 4: La muestra está sesgada y sus resultados no pueden generalizarse. Respuesta: B.",
+"tip": "Pregúntate siempre: ¿quiénes quedaron por fuera de la muestra?",
+"truco": "Muestra sesgada = un solo grupo hablando por todos.",
+"estrategia_icfes": "El ICFES pregunta por la validez de un diseño de muestreo. La respuesta correcta suele señalar qué parte de la población no está representada, apoyándose en datos.",
+"temas": [
+"sesgo de muestreo",
+"representatividad",
+"población y muestra"
+],
+"gemela": {
+"contexto": "Para conocer qué deporte prefieren los habitantes de Buenaventura, un estudiante encuesta a 200 personas a la salida del estadio de fútbol.",
+"enunciado": "¿Por qué esta muestra no es adecuada?",
+"opciones": {
+"A": "Porque 200 personas son pocas para una ciudad.",
+"B": "Porque las personas encuestadas probablemente prefieren el fútbol, lo que sesga el resultado.",
+"C": "Porque el fútbol no es un deporte popular en la ciudad.",
+"D": "Porque las encuestas solo se pueden hacer en los colegios."
+},
+"correcta": "B",
+"explicacion": "El lugar elegido favorece a aficionados del fútbol; la muestra no representa a toda la población."
+}
+},
+{
+"id": "P11-MAT-A009",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende el carácter relativo de las medidas de tendencia central y la necesidad de complementarlas con medidas de dispersión.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización y dispersión (rango, varianza).",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Compara dos conjuntos de datos con igual media y distinta dispersión.",
+"contexto": "Dos atletas de Tumaco se preparan para una carrera de 5 km. La tabla muestra sus tiempos, en minutos, en cinco carreras de práctica.",
+"tabla": {
+"titulo": "Tiempos en 5 km (minutos)",
+"cols": [
+"Carrera",
+"Yuli",
+"Jhon"
+],
+"filas": [
+[
+"1",
+"20",
+"17"
+],
+[
+"2",
+"21",
+"25"
+],
+[
+"3",
+"20",
+"19"
+],
+[
+"4",
+"22",
+"24"
+],
+[
+"5",
+"22",
+"20"
+]
+]
+},
+"enunciado": "A partir de la tabla, ¿qué se puede afirmar sobre el desempeño de los dos atletas?",
+"opciones": {
+"A": "Jhon es más rápido, porque obtuvo el tiempo más bajo de todos.",
+"B": "Yuli tiene un promedio menor que Jhon en las cinco carreras.",
+"C": "Los dos atletas tienen el mismo promedio y la misma regularidad.",
+"D": "Tienen el mismo promedio, pero los tiempos de Yuli son más regulares."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Generalizar a partir de un solo dato",
+"porque": "Elegiste A porque probablemente te fijaste solo en el mínimo de Jhon (17 min).",
+"pregunta_guia": "¿Un solo tiempo bueno describe las cinco carreras?",
+"aprende": "Para comparar desempeños se usan medidas que resumen todos los datos, como la media y el rango."
+},
+"B": {
+"error": "No calcular la media",
+"porque": "Elegiste B porque probablemente viste que los tiempos de Yuli «parecen» bajos sin calcular promedios.",
+"pregunta_guia": "¿Cuánto suman los tiempos de cada atleta?",
+"aprende": "Ambos suman 105 minutos: media 105 ÷ 5 = 21 para los dos."
+},
+"C": {
+"error": "Suponer que igual media implica igual dispersión",
+"porque": "Elegiste C porque probablemente pensaste que si los promedios son iguales, los datos se comportan igual.",
+"pregunta_guia": "¿Cuál es la diferencia entre el tiempo mayor y el menor de cada atleta?",
+"aprende": "Rango de Yuli = 22 − 20 = 2; rango de Jhon = 25 − 17 = 8. La media no muestra la dispersión."
+}
+},
+"explicacion": "Paso 1: Media de Yuli: (20 + 21 + 20 + 22 + 22) ÷ 5 = 105 ÷ 5 = 21. Paso 2: Media de Jhon: (17 + 25 + 19 + 24 + 20) ÷ 5 = 105 ÷ 5 = 21. Paso 3: Rangos: Yuli 2 min; Jhon 8 min. Paso 4: Igual media, pero Yuli es mucho más regular (menor dispersión). Respuesta: D.",
+"tip": "Dos grupos pueden tener la misma media y comportarse muy distinto: mira siempre la dispersión.",
+"truco": "Media dice DÓNDE están los datos; rango y desviación dicen QUÉ TAN JUNTOS están.",
+"estrategia_icfes": "El ICFES diseña tablas con medias iguales para evaluar si complementas con dispersión. Calcula media y rango de cada grupo antes de leer las opciones.",
+"temas": [
+"media aritmética",
+"rango",
+"dispersión"
+],
+"gemela": {
+"contexto": "Las notas de Sara en cuatro quices fueron 3,8; 4,0; 4,2; 4,0 y las de Kevin fueron 3,0; 5,0; 3,5; 4,5.",
+"enunciado": "¿Qué se puede afirmar de sus notas?",
+"opciones": {
+"A": "Kevin tiene mejor promedio porque sacó un 5,0.",
+"B": "Ambos tienen promedio 4,0, pero Sara es más regular.",
+"C": "Sara tiene mejor promedio que Kevin.",
+"D": "Ambos tienen el mismo promedio y la misma dispersión."
+},
+"correcta": "B",
+"explicacion": "Sara: 16 ÷ 4 = 4,0 con rango 0,4; Kevin: 16 ÷ 4 = 4,0 con rango 2,0. Igual media, Sara más regular."
+}
+},
+{
+"id": "P11-MAT-A010",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula e interpreta medidas de dispersión como la varianza y la desviación estándar.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de dispersión (rango, varianza, desviación).",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la desviación estándar poblacional de un conjunto pequeño de datos.",
+"contexto": "Dos atletas de Tumaco se preparan para una carrera de 5 km. La tabla muestra sus tiempos, en minutos, en cinco carreras de práctica.",
+"tabla": {
+"titulo": "Tiempos en 5 km (minutos)",
+"cols": [
+"Carrera",
+"Yuli",
+"Jhon"
+],
+"filas": [
+[
+"1",
+"20",
+"17"
+],
+[
+"2",
+"21",
+"25"
+],
+[
+"3",
+"20",
+"19"
+],
+[
+"4",
+"22",
+"24"
+],
+[
+"5",
+"22",
+"20"
+]
+]
+},
+"enunciado": "El entrenador calcula la desviación estándar de los tiempos de Yuli dividiendo entre el número de datos (desviación poblacional). ¿Qué valor obtiene, aproximadamente?",
+"opciones": {
+"A": "0,8 minutos",
+"B": "2,0 minutos",
+"C": "0,89 minutos",
+"D": "4,0 minutos"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Olvidar la raíz cuadrada",
+"porque": "Elegiste 0,8 porque probablemente calculaste la varianza (4 ÷ 5) y no le sacaste la raíz.",
+"pregunta_guia": "¿Qué relación hay entre la varianza y la desviación estándar?",
+"aprende": "Desviación estándar = √varianza = √0,8 ≈ 0,89."
+},
+"B": {
+"error": "Confundir desviación estándar con rango",
+"porque": "Elegiste 2,0 porque probablemente restaste el tiempo mayor menos el menor (22 − 20).",
+"pregunta_guia": "¿El rango usa todos los datos o solo los extremos?",
+"aprende": "El rango es otra medida de dispersión; la desviación estándar usa las distancias de cada dato a la media."
+},
+"D": {
+"error": "No dividir entre el número de datos",
+"porque": "Elegiste 4,0 porque probablemente sumaste los cuadrados de las desviaciones (1 + 0 + 1 + 1 + 1) y te detuviste.",
+"pregunta_guia": "Después de sumar los cuadrados, ¿qué operaciones faltan?",
+"aprende": "Varianza = suma de cuadrados ÷ n; luego se saca la raíz."
+}
+},
+"explicacion": "Paso 1: Media de Yuli = 21. Paso 2: Desviaciones: 20 − 21 = −1; 21 − 21 = 0; −1; +1; +1. Paso 3: Cuadrados: 1, 0, 1, 1, 1; suma = 4. Paso 4: Varianza = 4 ÷ 5 = 0,8. Paso 5: Desviación estándar = √0,8 ≈ 0,89 minutos. Respuesta: C.",
+"tip": "La desviación estándar queda en las mismas unidades que los datos (minutos); la varianza, en unidades al cuadrado.",
+"truco": "MeDiCuSuDiRa: Media, Diferencias, Cuadrados, Suma, Dividir, Raíz.",
+"estrategia_icfes": "Cuando el ICFES pide desviación estándar, las opciones suelen incluir la varianza y la suma de cuadrados. Sigue el algoritmo completo y verifica las unidades.",
+"temas": [
+"desviación estándar",
+"varianza",
+"dispersión"
+],
+"gemela": {
+"enunciado": "¿Cuál es la desviación estándar poblacional de los datos 4, 6, 5, 7, 8?",
+"opciones": {
+"A": "2",
+"B": "≈ 1,41",
+"C": "4",
+"D": "10"
+},
+"correcta": "B",
+"explicacion": "Media 6; desviaciones −2, 0, −1, 1, 2; cuadrados suman 10; varianza 10 ÷ 5 = 2; desviación √2 ≈ 1,41."
+}
+},
+{
+"id": "P11-MAT-A011",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente resultados estadísticos para tomar decisiones.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica una decisión usando tanto la tendencia central como la dispersión de los datos.",
+"contexto": "Dos atletas de Tumaco se preparan para una carrera de 5 km. La tabla muestra sus tiempos, en minutos, en cinco carreras de práctica.",
+"tabla": {
+"titulo": "Tiempos en 5 km (minutos)",
+"cols": [
+"Carrera",
+"Yuli",
+"Jhon"
+],
+"filas": [
+[
+"1",
+"20",
+"17"
+],
+[
+"2",
+"21",
+"25"
+],
+[
+"3",
+"20",
+"19"
+],
+[
+"4",
+"22",
+"24"
+],
+[
+"5",
+"22",
+"20"
+]
+]
+},
+"enunciado": "Para una competencia, el equipo necesita un atleta que corra los 5 km en menos de 23 minutos con la mayor seguridad posible. ¿Cuál es la mejor decisión y su justificación?",
+"opciones": {
+"A": "Elegir a Yuli, porque todos sus tiempos fueron menores de 23 minutos y varían poco.",
+"B": "Elegir a Jhon, porque logró el mejor tiempo individual de las prácticas.",
+"C": "Elegir a cualquiera, porque ambos tienen un promedio de 21 minutos.",
+"D": "Elegir a Jhon, porque su rango amplio muestra que puede mejorar mucho."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Decidir con un dato aislado",
+"porque": "Elegiste B porque probablemente valoraste solo el mejor tiempo de Jhon (17 min).",
+"pregunta_guia": "¿En cuántas carreras Jhon superó los 23 minutos?",
+"aprende": "Jhon superó 23 minutos en 2 de 5 carreras (25 y 24); la meta pide seguridad, no un récord."
+},
+"C": {
+"error": "Ignorar la dispersión",
+"porque": "Elegiste C porque probablemente pensaste que la media basta para decidir.",
+"pregunta_guia": "Si dos atletas tienen la misma media, ¿cuál es más predecible?",
+"aprende": "Con igual media, la menor dispersión indica resultados más seguros."
+},
+"D": {
+"error": "Interpretar la variabilidad como ventaja",
+"porque": "Elegiste D porque probablemente leíste el rango amplio como potencial de mejora.",
+"pregunta_guia": "¿Un rango amplio significa que siempre corre rápido o que es impredecible?",
+"aprende": "Un rango amplio indica irregularidad: puede correr muy rápido o muy lento."
+}
+},
+"explicacion": "Paso 1: Criterio: correr en menos de 23 minutos con seguridad. Paso 2: Yuli: 20, 21, 20, 22, 22 → todos menores de 23 (5 de 5). Paso 3: Jhon: 25 y 24 superan 23 → solo 3 de 5 cumplen. Paso 4: Ambos tienen media 21, pero la dispersión de Yuli es menor (rango 2 frente a 8). Paso 5: La decisión más segura es Yuli. Respuesta: A.",
+"tip": "Cuando la pregunta habla de «seguridad» o «confiabilidad», piensa en la dispersión.",
+"truco": "Igual media + menos dispersión = más confianza.",
+"estrategia_icfes": "En argumentación el ICFES pide decisión + justificación. La opción correcta usa el criterio del enunciado y los datos completos, no un valor aislado.",
+"temas": [
+"toma de decisiones con datos",
+"dispersión",
+"media"
+],
+"gemela": {
+"contexto": "Dos máquinas llenan bolsas de 500 g. En 4 pruebas, la máquina P llenó 498, 501, 500, 501 g, y la máquina Q llenó 490, 510, 495, 505 g.",
+"enunciado": "Si se requiere que cada bolsa pese entre 495 g y 505 g, ¿qué máquina conviene y por qué?",
+"opciones": {
+"A": "Q, porque llenó la bolsa más pesada.",
+"B": "Cualquiera, porque ambas tienen media 500 g.",
+"C": "P, porque todos sus pesos están dentro del intervalo y varían poco.",
+"D": "Q, porque su variación muestra que es más potente."
+},
+"correcta": "C",
+"explicacion": "Ambas tienen media 500 g, pero P tiene rango 3 g y todos sus valores están entre 495 y 505; Q tiene valores de 490 y 510, fuera del intervalo."
+}
+},
+{
+"id": "P11-MAT-A012",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística presentada en tablas de frecuencias y la expresa en porcentajes.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos. EBC 10°–11°: interpreto nociones como distribución de frecuencias, población y muestra.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Calcula una frecuencia relativa acumulada a partir de una tabla de frecuencias.",
+"contexto": "Se preguntó a 40 estudiantes de grado 11° de un colegio de Cali cuántos días a la semana van al colegio en bicicleta. Los resultados están en la tabla.",
+"tabla": {
+"titulo": "Días por semana en bicicleta",
+"cols": [
+"Días",
+"Número de estudiantes"
+],
+"filas": [
+[
+"0",
+"2"
+],
+[
+"1",
+"8"
+],
+[
+"2",
+"10"
+],
+[
+"3",
+"12"
+],
+[
+"4",
+"8"
+]
+]
+},
+"enunciado": "¿Qué porcentaje de los estudiantes va en bicicleta al menos 3 días a la semana?",
+"opciones": {
+"A": "30 %",
+"B": "50 %",
+"C": "20 %",
+"D": "75 %"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Interpretar «al menos 3» como «exactamente 3»",
+"porque": "Elegiste 30 % porque probablemente contaste solo a los 12 estudiantes que van 3 días (12 ÷ 40).",
+"pregunta_guia": "¿Quien va 4 días cumple la condición de ir «al menos 3 días»?",
+"aprende": "«Al menos 3» incluye 3 y 4 días: 12 + 8 = 20 estudiantes."
+},
+"C": {
+"error": "Tomar solo el valor extremo",
+"porque": "Elegiste 20 % porque probablemente contaste solo a los 8 estudiantes que van 4 días.",
+"pregunta_guia": "¿«Al menos 3» incluye el 3?",
+"aprende": "«Al menos» significa «mayor o igual que»."
+},
+"D": {
+"error": "Incluir valores que no cumplen la condición",
+"porque": "Elegiste 75 % porque probablemente sumaste también los que van 2 días (10 + 12 + 8 = 30).",
+"pregunta_guia": "¿2 días es al menos 3 días?",
+"aprende": "Solo cumplen 3 y 4 días."
+}
+},
+"explicacion": "Paso 1: «Al menos 3 días» significa 3 o 4 días. Paso 2: Estudiantes: 12 + 8 = 20. Paso 3: Porcentaje: 20 ÷ 40 × 100 = 50 %. Respuesta: B.",
+"tip": "Traduce las expresiones: «al menos» es ≥, «a lo sumo» es ≤, «más de» es >.",
+"truco": "Al menos = de ahí para arriba, incluyéndolo.",
+"estrategia_icfes": "El ICFES usa expresiones como «al menos», «a lo sumo» y «más de» para probar la lectura precisa. Marca en la tabla las filas que cumplen antes de sumar.",
+"temas": [
+"tablas de frecuencia",
+"frecuencia relativa",
+"porcentajes"
+],
+"gemela": {
+"contexto": "A 50 jóvenes se les preguntó cuántos libros leyeron en el año: 0 libros: 5; 1: 10; 2: 15; 3: 12; 4: 8.",
+"enunciado": "¿Qué porcentaje leyó al menos 3 libros?",
+"opciones": {
+"A": "24 %",
+"B": "40 %",
+"C": "16 %",
+"D": "70 %"
+},
+"correcta": "B",
+"explicacion": "Al menos 3: 12 + 8 = 20; 20 ÷ 50 = 0,40 = 40 %."
+}
+},
+{
+"id": "P11-MAT-A013",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula e interpreta medidas de tendencia central en datos agrupados en tablas de frecuencias.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la media ponderada a partir de una tabla de frecuencias.",
+"contexto": "Se preguntó a 40 estudiantes de grado 11° de un colegio de Cali cuántos días a la semana van al colegio en bicicleta. Los resultados están en la tabla.",
+"tabla": {
+"titulo": "Días por semana en bicicleta",
+"cols": [
+"Días",
+"Número de estudiantes"
+],
+"filas": [
+[
+"0",
+"2"
+],
+[
+"1",
+"8"
+],
+[
+"2",
+"10"
+],
+[
+"3",
+"12"
+],
+[
+"4",
+"8"
+]
+]
+},
+"enunciado": "¿Cuál es el promedio de días por semana que estos estudiantes van en bicicleta?",
+"opciones": {
+"A": "2,5 días",
+"B": "3 días",
+"C": "2,4 días",
+"D": "8 días"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir media con mediana",
+"porque": "Elegiste 2,5 porque probablemente encontraste la mediana (datos 20.° y 21.°: 2 y 3).",
+"pregunta_guia": "¿La media se obtiene ubicando el centro o sumando y dividiendo?",
+"aprende": "Media = Σ(valor × frecuencia) ÷ total de datos."
+},
+"B": {
+"error": "Confundir media con moda",
+"porque": "Elegiste 3 porque probablemente tomaste el valor con mayor frecuencia (12 estudiantes).",
+"pregunta_guia": "¿El valor más repetido es el promedio?",
+"aprende": "La moda es el valor más frecuente; la media pondera todos los valores."
+},
+"D": {
+"error": "Promediar las frecuencias",
+"porque": "Elegiste 8 porque probablemente sumaste las frecuencias (40) y dividiste entre las 5 filas.",
+"pregunta_guia": "¿La variable es el número de estudiantes o el número de días?",
+"aprende": "Se promedian los valores de la variable (días), pesados por cuántos estudiantes los tienen."
+}
+},
+"explicacion": "Paso 1: Multiplica cada valor por su frecuencia: 0 × 2 = 0; 1 × 8 = 8; 2 × 10 = 20; 3 × 12 = 36; 4 × 8 = 32. Paso 2: Suma: 0 + 8 + 20 + 36 + 32 = 96 días. Paso 3: Divide entre el total de estudiantes: 96 ÷ 40 = 2,4. Respuesta: C.",
+"tip": "En tablas de frecuencia la columna de frecuencias dice «cuántas veces», no es el dato.",
+"truco": "Media ponderada: multiplica, suma, divide entre el total de personas.",
+"estrategia_icfes": "El ICFES presenta datos agrupados para ver si distingues variable y frecuencia. Agrega mentalmente una columna «valor × frecuencia».",
+"temas": [
+"media ponderada",
+"tablas de frecuencia",
+"moda y mediana"
+],
+"gemela": {
+"contexto": "A 50 jóvenes se les preguntó cuántos libros leyeron en el año: 0 libros: 5; 1: 10; 2: 15; 3: 12; 4: 8.",
+"enunciado": "¿Cuál es el promedio de libros leídos por joven?",
+"opciones": {
+"A": "2,16",
+"B": "2",
+"C": "10",
+"D": "21,6"
+},
+"correcta": "A",
+"explicacion": "Σ(valor × frecuencia) = 0 + 10 + 30 + 36 + 32 = 108; 108 ÷ 50 = 2,16."
+}
+},
+{
+"id": "P11-MAT-A014",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende y explica el carácter relativo de las medidas de tendencia central y sus propiedades.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto procedimientos basados en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el error en el cálculo de la mediana a partir de una tabla de frecuencias.",
+"contexto": "Se preguntó a 40 estudiantes de grado 11° de un colegio de Cali cuántos días a la semana van al colegio en bicicleta. Los resultados están en la tabla.",
+"tabla": {
+"titulo": "Días por semana en bicicleta",
+"cols": [
+"Días",
+"Número de estudiantes"
+],
+"filas": [
+[
+"0",
+"2"
+],
+[
+"1",
+"8"
+],
+[
+"2",
+"10"
+],
+[
+"3",
+"12"
+],
+[
+"4",
+"8"
+]
+]
+},
+"enunciado": "Camila afirma que la mediana es 10, «porque es el número que queda en el centro de la columna de estudiantes». ¿Por qué su razonamiento es incorrecto?",
+"opciones": {
+"A": "Porque la mediana es el valor que más se repite, es decir, 12.",
+"B": "Porque antes de buscar el centro debía sumar todas las frecuencias y dividir entre 5.",
+"C": "Porque la mediana siempre coincide con la media, que es 2,4.",
+"D": "Porque debía ubicar los datos 20.° y 21.° de los días ordenados, y la mediana es 2,5."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir mediana con moda (y con frecuencia)",
+"porque": "Elegiste A porque probablemente mezclaste la mediana con la moda y, además, tomaste la frecuencia (12) en vez del valor (3).",
+"pregunta_guia": "¿La mediana es el dato central o el más repetido?",
+"aprende": "La mediana es el dato que divide los datos ordenados en dos mitades iguales."
+},
+"B": {
+"error": "Proponer otro procedimiento erróneo",
+"porque": "Elegiste B porque probablemente creíste que el problema era no promediar las frecuencias.",
+"pregunta_guia": "¿Promediar las frecuencias da información sobre los días?",
+"aprende": "Promediar frecuencias (40 ÷ 5 = 8) no da ninguna medida de la variable."
+},
+"C": {
+"error": "Creer que media y mediana siempre coinciden",
+"porque": "Elegiste C porque probablemente pensaste que todas las medidas de centro son iguales.",
+"pregunta_guia": "¿En una distribución no simétrica, coinciden la media y la mediana?",
+"aprende": "Media (2,4) y mediana (2,5) son medidas diferentes y pueden diferir."
+}
+},
+"explicacion": "Paso 1: Camila trabajó sobre las frecuencias y no sobre la variable (días). Paso 2: Con 40 datos ordenados, la mediana es el promedio de los datos 20.° y 21.°. Paso 3: Frecuencias acumuladas: 0 días → 2; 1 → 10; 2 → 20; 3 → 32. Paso 4: El dato 20.° es 2 y el 21.° es 3. Paso 5: Mediana = (2 + 3) ÷ 2 = 2,5. Respuesta: D.",
+"tip": "La mediana siempre es un valor de la variable (o el promedio de dos), nunca una frecuencia.",
+"truco": "Acumula frecuencias hasta pasar la mitad: ahí está la mediana.",
+"estrategia_icfes": "El ICFES presenta razonamientos de otros estudiantes para que detectes el error (/detectaerror). Identifica en qué paso falla y elige la opción que lo corrige con el procedimiento correcto.",
+"temas": [
+"mediana",
+"frecuencia acumulada",
+"detección de errores"
+],
+"gemela": {
+"contexto": "En 12 hogares se contó el número de televisores: 1 televisor: 3 hogares; 2: 5 hogares; 3: 4 hogares.",
+"enunciado": "Mateo dice que la mediana es 5 porque es la frecuencia mayor. ¿Cuál es la corrección adecuada?",
+"opciones": {
+"A": "La mediana es 4, la frecuencia central.",
+"B": "La mediana es 2, porque los datos 6.° y 7.° ordenados son 2.",
+"C": "La mediana es 3, el valor más alto.",
+"D": "La mediana es 1, el primer valor de la tabla."
+},
+"correcta": "B",
+"explicacion": "Acumuladas: 1 → 3; 2 → 8. Los datos 6.° y 7.° valen 2, así que la mediana es 2."
+}
+},
+{
+"id": "P11-MAT-A015",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística de contextos económicos presentada en gráficas de barras.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Compara dos series en una gráfica de barras agrupadas.",
+"contexto": "Una empresa de empaques de Yumbo vende cajas de cartón y bolsas de papel. La gráfica muestra sus ventas por trimestre en un año.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas por trimestre (millones de pesos)",
+"etiquetas": [
+"T1",
+"T2",
+"T3",
+"T4"
+],
+"series": [
+{
+"nombre": "Cajas",
+"datos": [
+40,
+50,
+45,
+65
+]
+},
+{
+"nombre": "Bolsas",
+"datos": [
+30,
+35,
+50,
+45
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿En qué trimestre fue mayor la diferencia entre las ventas de cajas y las de bolsas?",
+"opciones": {
+"A": "T4",
+"B": "T2",
+"C": "T3",
+"D": "T1"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Estimar a ojo sin calcular",
+"porque": "Elegiste T2 porque probablemente viste barras separadas y no calculaste la diferencia (50 − 35 = 15).",
+"pregunta_guia": "¿Cuánto es la diferencia en T2 y cuánto en T4?",
+"aprende": "Calcula todas las diferencias: 10, 15, −5 y 20."
+},
+"C": {
+"error": "Fijarse en el máximo de una sola serie",
+"porque": "Elegiste T3 porque probablemente viste que allí las bolsas alcanzaron su máximo.",
+"pregunta_guia": "¿La pregunta pide el máximo de bolsas o la diferencia entre productos?",
+"aprende": "En T3 la diferencia es solo de 5 millones (y a favor de las bolsas)."
+},
+"D": {
+"error": "Elegir el primer dato",
+"porque": "Elegiste T1 probablemente sin comparar todos los trimestres.",
+"pregunta_guia": "¿Revisaste los cuatro trimestres?",
+"aprende": "En T1 la diferencia es 10 millones; en T4 es 20."
+}
+},
+"explicacion": "Paso 1: Lee los valores: T1 40 y 30; T2 50 y 35; T3 45 y 50; T4 65 y 45. Paso 2: Diferencias (cajas − bolsas): 10, 15, −5, 20. Paso 3: La mayor diferencia en valor absoluto es 20, en T4. Respuesta: A.",
+"tip": "En gráficas de barras agrupadas, escribe los valores debajo de cada barra antes de comparar.",
+"truco": "Diferencia = barra alta − barra baja, trimestre por trimestre.",
+"estrategia_icfes": "El ICFES usa barras agrupadas para comparar series. Lee cada valor con la escala del eje y opera; no te guíes solo por la apariencia.",
+"temas": [
+"gráficas de barras",
+"comparación de series",
+"diferencias"
+],
+"gemela": {
+"contexto": "Una frutería vendió mangos y piñas (en kg) en 4 semanas: mangos 60, 70, 55, 90; piñas 50, 40, 60, 75.",
+"enunciado": "¿En qué semana fue mayor la diferencia entre mangos y piñas?",
+"opciones": {
+"A": "Semana 1",
+"B": "Semana 2",
+"C": "Semana 3",
+"D": "Semana 4"
+},
+"correcta": "B",
+"explicacion": "Diferencias: 10, 30, −5, 15. La mayor es 30, en la semana 2."
+}
+},
+{
+"id": "P11-MAT-A016",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): resuelve problemas de variación porcentual a partir de datos económicos presentados en gráficas.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: resuelvo problemas con información estadística.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la variación porcentual de un total obtenido de una gráfica.",
+"contexto": "Una empresa de empaques de Yumbo vende cajas de cartón y bolsas de papel. La gráfica muestra sus ventas por trimestre en un año.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas por trimestre (millones de pesos)",
+"etiquetas": [
+"T1",
+"T2",
+"T3",
+"T4"
+],
+"series": [
+{
+"nombre": "Cajas",
+"datos": [
+40,
+50,
+45,
+65
+]
+},
+{
+"nombre": "Bolsas",
+"datos": [
+30,
+35,
+50,
+45
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿En qué porcentaje aumentaron las ventas totales de la empresa del trimestre T1 al trimestre T4?",
+"opciones": {
+"A": "40 %",
+"B": "36,4 %",
+"C": "157,1 %",
+"D": "57,1 %"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir aumento absoluto con porcentual",
+"porque": "Elegiste 40 % porque probablemente calculaste la diferencia 110 − 70 = 40 millones y la leíste como porcentaje.",
+"pregunta_guia": "¿40 millones es un porcentaje de qué cantidad?",
+"aprende": "Variación porcentual = (final − inicial) ÷ inicial × 100."
+},
+"B": {
+"error": "Dividir entre el valor final",
+"porque": "Elegiste 36,4 % porque probablemente dividiste 40 entre 110 (el valor final).",
+"pregunta_guia": "¿Respecto a qué valor se mide un crecimiento?",
+"aprende": "El crecimiento se mide respecto al valor inicial: 40 ÷ 70."
+},
+"C": {
+"error": "Confundir razón con variación",
+"porque": "Elegiste 157,1 % porque probablemente calculaste 110 ÷ 70 y no le restaste el 100 %.",
+"pregunta_guia": "Si las ventas no cambiaran, ¿cuánto daría 70 ÷ 70 y qué porcentaje de aumento sería?",
+"aprende": "110 ÷ 70 = 1,571 significa que T4 es el 157,1 % de T1; el aumento es 57,1 %."
+}
+},
+"explicacion": "Paso 1: Total T1 = 40 + 30 = 70 millones. Paso 2: Total T4 = 65 + 45 = 110 millones. Paso 3: Aumento = 110 − 70 = 40 millones. Paso 4: Porcentaje = 40 ÷ 70 × 100 ≈ 57,1 %. Respuesta: D.",
+"tip": "Para porcentajes de cambio, el denominador es SIEMPRE el valor de partida.",
+"truco": "% cambio = (nuevo − viejo) ÷ viejo × 100.",
+"estrategia_icfes": "El ICFES combina sumar series y calcular variaciones. Los distractores típicos: la diferencia absoluta, dividir entre el valor final y la razón sin restar 1.",
+"temas": [
+"variación porcentual",
+"gráficas de barras",
+"estadística financiera"
+],
+"gemela": {
+"enunciado": "Las ventas de una tienda pasaron de 80 millones a 100 millones. ¿En qué porcentaje aumentaron?",
+"opciones": {
+"A": "20 %",
+"B": "25 %",
+"C": "125 %",
+"D": "80 %"
+},
+"correcta": "B",
+"explicacion": "(100 − 80) ÷ 80 × 100 = 20 ÷ 80 × 100 = 25 %."
+}
+},
+{
+"id": "P11-MAT-A017",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente inferencias sobre datos económicos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una afirmación comparando crecimientos porcentuales de dos series.",
+"contexto": "Una empresa de empaques de Yumbo vende cajas de cartón y bolsas de papel. La gráfica muestra sus ventas por trimestre en un año.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas por trimestre (millones de pesos)",
+"etiquetas": [
+"T1",
+"T2",
+"T3",
+"T4"
+],
+"series": [
+{
+"nombre": "Cajas",
+"datos": [
+40,
+50,
+45,
+65
+]
+},
+{
+"nombre": "Bolsas",
+"datos": [
+30,
+35,
+50,
+45
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "La gerente afirma: «Entre T1 y T4, las bolsas fueron el producto que más creció porcentualmente». ¿Es correcta su afirmación?",
+"opciones": {
+"A": "Sí, porque en T3 las bolsas superaron a las cajas.",
+"B": "No, porque las cajas crecieron 62,5 % y las bolsas 50 %.",
+"C": "Sí, porque las bolsas crecieron 15 millones y las cajas no.",
+"D": "No, porque las bolsas disminuyeron entre T1 y T4."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar un trimestre intermedio para concluir sobre el periodo",
+"porque": "Elegiste A porque probablemente te fijaste en T3, donde las bolsas superaron a las cajas.",
+"pregunta_guia": "¿La afirmación compara T1 con T4 o habla de T3?",
+"aprende": "El crecimiento entre T1 y T4 se calcula con esos dos trimestres."
+},
+"C": {
+"error": "Leer mal la gráfica y usar el aumento absoluto",
+"porque": "Elegiste C porque probablemente viste el aumento de las bolsas (15 millones) y no calculaste el de las cajas (25 millones) ni los porcentajes.",
+"pregunta_guia": "¿Cuánto aumentaron las cajas de T1 a T4?",
+"aprende": "Cajas: 40 → 65 (+25); bolsas: 30 → 45 (+15). Además, se comparan porcentajes."
+},
+"D": {
+"error": "Leer mal la tendencia",
+"porque": "Elegiste D porque probablemente comparaste T3 (50) con T4 (45) en lugar de T1 con T4.",
+"pregunta_guia": "¿Cuánto vendieron las bolsas en T1 y en T4?",
+"aprende": "Las bolsas pasaron de 30 a 45: aumentaron."
+}
+},
+"explicacion": "Paso 1: Cajas: (65 − 40) ÷ 40 × 100 = 25 ÷ 40 × 100 = 62,5 %. Paso 2: Bolsas: (45 − 30) ÷ 30 × 100 = 15 ÷ 30 × 100 = 50 %. Paso 3: 62,5 % > 50 %, así que las cajas crecieron más porcentualmente. Paso 4: La afirmación es incorrecta. Respuesta: B.",
+"tip": "«Crecer más» puede ser en pesos o en porcentaje: lee cuál de los dos pide la afirmación.",
+"truco": "Para comparar crecimientos de series distintas, conviértelos a porcentaje.",
+"estrategia_icfes": "El ICFES pide validar afirmaciones de personajes. La opción correcta da el veredicto (sí/no) con el cálculo que lo sustenta; descarta las que usan datos de otro periodo.",
+"temas": [
+"variación porcentual",
+"argumentación con datos",
+"gráficas de barras"
+],
+"gemela": {
+"enunciado": "El producto M pasó de 20 a 30 unidades y el producto N de 50 a 70. Carlos dice que N creció más porcentualmente porque aumentó 20 unidades. ¿Tiene razón?",
+"opciones": {
+"A": "Sí, porque 20 unidades es más que 10.",
+"B": "No, porque M creció 50 % y N creció 40 %.",
+"C": "Sí, porque N vende más unidades que M.",
+"D": "No, porque N disminuyó sus ventas."
+},
+"correcta": "B",
+"explicacion": "M: 10 ÷ 20 = 50 %; N: 20 ÷ 50 = 40 %. M creció más porcentualmente."
+}
+},
+{
+"id": "P11-MAT-A018",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información de contextos financieros presentada en tablas y la expresa en porcentajes.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: interpreto información estadística de contextos cotidianos.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Expresa una parte de un presupuesto como porcentaje del ingreso total.",
+"contexto": "La familia Mosquera, de Jamundí, organizó su presupuesto mensual. Su ingreso total es $3.000.000 y lo distribuye como muestra la tabla.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor"
+],
+"filas": [
+[
+"Vivienda",
+"$900.000"
+],
+[
+"Alimentación",
+"$750.000"
+],
+[
+"Transporte",
+"$300.000"
+],
+[
+"Educación",
+"$450.000"
+],
+[
+"Otros gastos",
+"$300.000"
+],
+[
+"Ahorro",
+"$300.000"
+]
+]
+},
+"enunciado": "¿Qué porcentaje de su ingreso destina la familia al ahorro?",
+"opciones": {
+"A": "10 %",
+"B": "30 %",
+"C": "3 %",
+"D": "11,1 %"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Leer la fila equivocada",
+"porque": "Elegiste 30 % porque probablemente calculaste el porcentaje de vivienda (900.000 ÷ 3.000.000).",
+"pregunta_guia": "¿Qué valor aparece en la fila «Ahorro»?",
+"aprende": "Ahorro = $300.000; 300.000 ÷ 3.000.000 = 0,10."
+},
+"C": {
+"error": "Error al convertir decimal en porcentaje",
+"porque": "Elegiste 3 % porque probablemente corriste mal la coma al convertir 0,1 en porcentaje.",
+"pregunta_guia": "Para pasar de decimal a porcentaje, ¿por cuánto se multiplica?",
+"aprende": "0,1 × 100 = 10 %."
+},
+"D": {
+"error": "Dividir entre los gastos en vez del ingreso",
+"porque": "Elegiste 11,1 % porque probablemente dividiste 300.000 entre los gastos (2.700.000) y no entre el ingreso.",
+"pregunta_guia": "¿La pregunta dice porcentaje del ingreso o de los gastos?",
+"aprende": "El total de referencia es el ingreso: $3.000.000."
+}
+},
+"explicacion": "Paso 1: Ubica el ahorro: $300.000. Paso 2: Divide entre el ingreso total: 300.000 ÷ 3.000.000 = 0,10. Paso 3: Convierte a porcentaje: 0,10 × 100 = 10 %. Respuesta: A.",
+"tip": "Una regla sana de finanzas personales: págate primero a ti mismo, separando el ahorro apenas recibes el ingreso.",
+"truco": "Porcentaje = parte ÷ total × 100. Identifica primero cuál es el TOTAL.",
+"estrategia_icfes": "En preguntas de presupuesto, el ICFES verifica que identifiques el total de referencia. Subraya «del ingreso», «de los gastos» o «del total» en el enunciado.",
+"temas": [
+"porcentajes",
+"presupuesto familiar",
+"lectura de tablas"
+],
+"gemela": {
+"enunciado": "Una persona gana $2.000.000 al mes y ahorra $250.000. ¿Qué porcentaje de su ingreso ahorra?",
+"opciones": {
+"A": "25 %",
+"B": "12,5 %",
+"C": "8 %",
+"D": "14,3 %"
+},
+"correcta": "B",
+"explicacion": "250.000 ÷ 2.000.000 = 0,125 = 12,5 %."
+}
+},
+{
+"id": "P11-MAT-A019",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): plantea y resuelve problemas de contextos financieros que involucran porcentajes y redistribución de cantidades.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: resuelvo problemas en contextos de finanzas personales usando porcentajes.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el ajuste necesario en un presupuesto para alcanzar una meta de ahorro.",
+"contexto": "La familia Mosquera, de Jamundí, organizó su presupuesto mensual. Su ingreso total es $3.000.000 y lo distribuye como muestra la tabla.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor"
+],
+"filas": [
+[
+"Vivienda",
+"$900.000"
+],
+[
+"Alimentación",
+"$750.000"
+],
+[
+"Transporte",
+"$300.000"
+],
+[
+"Educación",
+"$450.000"
+],
+[
+"Otros gastos",
+"$300.000"
+],
+[
+"Ahorro",
+"$300.000"
+]
+]
+},
+"enunciado": "La familia quiere ahorrar el 20 % de su ingreso, reduciendo en la misma cantidad los rubros «Transporte» y «Otros gastos». ¿Cuánto debe reducir cada uno de esos rubros?",
+"opciones": {
+"A": "$300.000",
+"B": "$75.000",
+"C": "$150.000",
+"D": "$600.000"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No repartir el faltante",
+"porque": "Elegiste $300.000 porque probablemente calculaste bien lo que falta ahorrar, pero no lo dividiste entre los dos rubros.",
+"pregunta_guia": "¿Entre cuántos rubros se reparte la reducción?",
+"aprende": "Faltan $300.000 y se reparten en 2 rubros: $150.000 cada uno."
+},
+"B": {
+"error": "Dividir entre más rubros de los indicados",
+"porque": "Elegiste $75.000 porque probablemente dividiste el faltante entre 4.",
+"pregunta_guia": "¿Cuáles son los rubros que se van a reducir?",
+"aprende": "Solo se reducen Transporte y Otros gastos: se divide entre 2."
+},
+"D": {
+"error": "Confundir la meta total con lo que falta",
+"porque": "Elegiste $600.000 porque probablemente calculaste el 20 % del ingreso y no restaste lo que ya ahorran.",
+"pregunta_guia": "¿La familia ya ahorra algo actualmente?",
+"aprende": "Meta $600.000 − ahorro actual $300.000 = $300.000 por conseguir."
+}
+},
+"explicacion": "Paso 1: Meta de ahorro: 20 % de 3.000.000 = 600.000. Paso 2: Ahorro actual: 300.000. Paso 3: Faltan 600.000 − 300.000 = 300.000. Paso 4: Se reparten entre 2 rubros: 300.000 ÷ 2 = 150.000. Paso 5: Transporte queda en 150.000 y Otros gastos en 150.000. Respuesta: C.",
+"tip": "Antes de recortar, identifica cuánto falta para la meta, no la meta completa.",
+"truco": "Lo que falta = meta − lo que ya tengo.",
+"estrategia_icfes": "El ICFES plantea problemas de varios pasos con un presupuesto. Escribe cada paso (meta, faltante, reparto) y revisa que tu respuesta cumpla todas las condiciones.",
+"temas": [
+"presupuesto",
+"porcentajes",
+"ahorro"
+],
+"gemela": {
+"enunciado": "Ana gana $2.000.000 y ahorra $200.000. Quiere ahorrar el 15 % reduciendo por igual sus gastos en ropa y en salidas. ¿Cuánto debe reducir cada uno?",
+"opciones": {
+"A": "$100.000",
+"B": "$50.000",
+"C": "$150.000",
+"D": "$300.000"
+},
+"correcta": "B",
+"explicacion": "Meta: 15 % de 2.000.000 = 300.000. Falta 300.000 − 200.000 = 100.000; entre 2 rubros: 50.000 cada uno."
+}
+},
+{
+"id": "P11-MAT-A020",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): selecciona muestras aleatorias en poblaciones grandes para inferir el comportamiento de las variables en estudio.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto nociones de población, muestra y parámetros; uso resultados muestrales para hacer inferencias.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Estima un total poblacional a partir de la proporción observada en una muestra aleatoria.",
+"contexto": "Para estudiar los hábitos de ahorro en una ciudad con 800.000 hogares, se encuestó a una muestra aleatoria de 400 hogares. De ellos, 140 dijeron que ahorran una parte de su ingreso todos los meses.",
+"enunciado": "Con base en la muestra, ¿cuántos hogares de la ciudad se estima que ahorran todos los meses?",
+"opciones": {
+"A": "140.000",
+"B": "560.000",
+"C": "112.000",
+"D": "280.000"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Escalar la cifra sin proporción",
+"porque": "Elegiste 140.000 porque probablemente pensaste que 140 hogares en la muestra equivalen a 140 mil en la ciudad.",
+"pregunta_guia": "¿Qué porcentaje de la muestra ahorra?",
+"aprende": "Primero se calcula la proporción: 140 ÷ 400 = 35 %."
+},
+"B": {
+"error": "Usar el complemento",
+"porque": "Elegiste 560.000 porque probablemente calculaste los hogares que NO ahorran (65 %).",
+"pregunta_guia": "¿La pregunta pide los que ahorran o los que no ahorran?",
+"aprende": "35 % de 800.000 = 280.000 ahorran; 520.000 no ahorran."
+},
+"C": {
+"error": "Multiplicar mal la proporción",
+"porque": "Elegiste 112.000 porque probablemente multiplicaste 140 × 800 sin dividir entre 400 correctamente.",
+"pregunta_guia": "¿Cuánto es 140 ÷ 400 expresado en decimal?",
+"aprende": "140 ÷ 400 = 0,35; 0,35 × 800.000 = 280.000."
+}
+},
+"explicacion": "Paso 1: Proporción en la muestra: 140 ÷ 400 = 0,35 (35 %). Paso 2: Si la muestra es aleatoria, se espera la misma proporción en la población. Paso 3: Estimación: 0,35 × 800.000 = 280.000 hogares. Respuesta: D.",
+"tip": "Una muestra aleatoria es como una «foto pequeña» de la población: conserva sus proporciones.",
+"truco": "Estimado = (casos en la muestra ÷ tamaño de la muestra) × población.",
+"estrategia_icfes": "El ICFES evalúa la inferencia de muestra a población. Calcula la proporción muestral y multiplícala por la población; revisa si te piden el grupo o su complemento.",
+"temas": [
+"inferencia estadística",
+"proporciones",
+"muestreo aleatorio"
+],
+"gemela": {
+"enunciado": "En un barrio de 60.000 habitantes se encuestó aleatoriamente a 500 personas, y 120 usan el transporte masivo a diario. ¿Cuántos habitantes se estima que lo usan a diario?",
+"opciones": {
+"A": "12.000",
+"B": "14.400",
+"C": "45.600",
+"D": "24.000"
+},
+"correcta": "B",
+"explicacion": "120 ÷ 500 = 0,24; 0,24 × 60.000 = 14.400."
+}
+},
+{
+"id": "P11-MAT-A021",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados y las inferencias presentadas en estudios estadísticos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística provenientes de medios de comunicación.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Interpreta el margen de error de una estimación muestral.",
+"contexto": "Para estudiar los hábitos de ahorro en una ciudad con 800.000 hogares, se encuestó a una muestra aleatoria de 400 hogares. De ellos, 140 dijeron que ahorran una parte de su ingreso todos los meses.",
+"enunciado": "El informe del estudio dice: «El 35 % de los hogares ahorra mensualmente, con un margen de error de ±5 puntos porcentuales». ¿Qué significa esta frase?",
+"opciones": {
+"A": "Que el 5 % de los hogares encuestados respondió de manera falsa.",
+"B": "Que el porcentaje real de hogares que ahorra probablemente está entre 30 % y 40 %.",
+"C": "Que exactamente el 35 % de los hogares de la ciudad ahorra cada mes.",
+"D": "Que el porcentaje real de hogares que ahorra está entre 33,25 % y 36,75 %."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Interpretar el margen como respuestas falsas",
+"porque": "Elegiste A porque probablemente pensaste que «error» significa que algunos encuestados mintieron.",
+"pregunta_guia": "¿El margen de error se refiere a la muestra o a la estimación de la población?",
+"aprende": "El margen de error mide la incertidumbre al pasar de la muestra a la población."
+},
+"C": {
+"error": "Tomar la estimación como valor exacto",
+"porque": "Elegiste C porque probablemente ignoraste el margen de error.",
+"pregunta_guia": "Si se encuestara otra muestra aleatoria, ¿saldría exactamente 35 %?",
+"aprende": "Una muestra da una estimación; el valor real puede diferir dentro del margen."
+},
+"D": {
+"error": "Calcular el 5 % del 35 %",
+"porque": "Elegiste D porque probablemente calculaste 5 % de 35 (1,75) en lugar de sumar y restar 5 puntos.",
+"pregunta_guia": "¿Qué significa «puntos porcentuales»?",
+"aprende": "±5 puntos porcentuales: 35 − 5 = 30 y 35 + 5 = 40."
+}
+},
+"explicacion": "Paso 1: La estimación puntual es 35 %. Paso 2: El margen de ±5 puntos porcentuales se suma y se resta: 35 − 5 = 30 %; 35 + 5 = 40 %. Paso 3: Se interpreta que el porcentaje real de la ciudad probablemente está en el intervalo de 30 % a 40 %. Respuesta: B.",
+"tip": "Cuando leas una encuesta en las noticias, busca siempre el tamaño de la muestra y el margen de error.",
+"truco": "Margen de error = rango alrededor del dato: dato − margen, dato + margen.",
+"estrategia_icfes": "El ICFES usa noticias y encuestas para evaluar lectura crítica de datos. Distingue «puntos porcentuales» (se suman y restan) de «por ciento de» (se multiplica).",
+"temas": [
+"margen de error",
+"intervalo de estimación",
+"encuestas"
+],
+"gemela": {
+"enunciado": "Una encuesta indica que el 62 % de los jóvenes usa banca digital, con margen de error de ±3 puntos porcentuales. ¿Qué intervalo es el correcto?",
+"opciones": {
+"A": "Entre 60,14 % y 63,86 %",
+"B": "Exactamente 62 %",
+"C": "Entre 59 % y 65 %",
+"D": "Entre 3 % y 62 %"
+},
+"correcta": "C",
+"explicacion": "62 − 3 = 59 y 62 + 3 = 65: el valor real probablemente está entre 59 % y 65 %."
+}
+},
+{
+"id": "P11-MAT-A022",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados y las inferencias presentadas en estudios estadísticos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos a partir de estudios publicados en los medios.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Critica una conclusión basada en una muestra autoseleccionada.",
+"contexto": "Un portal de noticias publicó: «La mayoría de los caleños no ahorra. Así lo demuestra nuestra encuesta en redes sociales, que respondieron 5.000 personas: el 70 % dijo no ahorrar». La encuesta estuvo abierta para quien quisiera participar.",
+"enunciado": "¿Cuál es la crítica más sólida a la conclusión del portal?",
+"opciones": {
+"A": "Los participantes eligieron responder y solo usan redes sociales, así que la muestra puede no representar a todos los caleños.",
+"B": "Con 5.000 respuestas la muestra es muy pequeña para una ciudad grande como Cali.",
+"C": "El 70 % no es mayoría, porque para eso se necesita más del 75 %.",
+"D": "Las encuestas en redes sociales siempre dan resultados contrarios a la realidad."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Creer que el tamaño corrige o causa el sesgo",
+"porque": "Elegiste B porque probablemente pensaste que el problema era el número de respuestas.",
+"pregunta_guia": "Si 50.000 personas respondieran por la misma vía, ¿dejaría de estar sesgada la muestra?",
+"aprende": "Una muestra grande pero autoseleccionada sigue sesgada; importa CÓMO se elige."
+},
+"C": {
+"error": "Error en el concepto de mayoría",
+"porque": "Elegiste C porque probablemente confundiste «mayoría» con un umbral especial.",
+"pregunta_guia": "¿Qué porcentaje mínimo se necesita para ser más de la mitad?",
+"aprende": "Mayoría es más del 50 %; el problema no está en el cálculo sino en la muestra."
+},
+"D": {
+"error": "Generalizar en exceso",
+"porque": "Elegiste D porque probablemente reemplazaste un argumento estadístico por una afirmación absoluta.",
+"pregunta_guia": "¿Se puede afirmar que algo ocurre «siempre» sin pruebas?",
+"aprende": "Una crítica válida señala el sesgo de selección, no afirma que el resultado sea falso siempre."
+}
+},
+"explicacion": "Paso 1: Identifica la población: todos los caleños. Paso 2: Identifica cómo se eligió la muestra: personas que vieron la encuesta en redes y decidieron responder (autoselección). Paso 3: Ese método excluye a quienes no usan redes y atrae a quienes tienen interés en el tema: hay sesgo de selección. Paso 4: Por eso no se puede generalizar el 70 % a toda la ciudad. Respuesta: A.",
+"tip": "En la era digital abundan las encuestas en línea: antes de creerlas, pregunta cómo eligieron a los participantes.",
+"truco": "Muestra grande ≠ muestra representativa. Lo que importa es el azar en la selección.",
+"estrategia_icfes": "El ICFES presenta noticias con conclusiones apresuradas. Busca la opción que critique el método de obtención de los datos con un argumento estadístico, no con opiniones.",
+"temas": [
+"sesgo de selección",
+"muestreo aleatorio",
+"pensamiento crítico con datos"
+],
+"gemela": {
+"enunciado": "Para concluir cuántas horas de ejercicio hacen los vallecaucanos, se encuestó a 1.000 personas dentro de gimnasios de Cali. ¿Cuál es la principal falla del estudio?",
+"opciones": {
+"A": "1.000 personas es un número demasiado grande.",
+"B": "Las personas de gimnasios probablemente hacen más ejercicio que el promedio, por lo que la muestra está sesgada.",
+"C": "El ejercicio no se puede medir en horas.",
+"D": "Los gimnasios cierran los domingos."
+},
+"correcta": "B",
+"explicacion": "El lugar de la encuesta selecciona a personas activas: la muestra no representa a la población del Valle."
+}
+},
+{
+"id": "P11-MAT-A023",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información de contextos económicos presentada en gráficas de líneas con varias series.",
+"lineamiento": "Pensamiento aleatorio y variacional. EBC 10°–11°: describo tendencias que se observan en conjuntos de variables relacionadas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Compara dos series de una gráfica de líneas para identificar los periodos en que una supera a la otra.",
+"contexto": "Valentina y Brayan, egresados de un programa técnico del SENA en Palmira, crearon un emprendimiento de jugos naturales. La gráfica muestra sus ingresos y gastos mensuales durante el primer semestre.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ingresos y gastos del emprendimiento (millones de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ingresos",
+"datos": [
+2.0,
+2.4,
+2.2,
+2.8,
+3.0,
+3.6
+]
+},
+{
+"nombre": "Gastos",
+"datos": [
+2.2,
+2.0,
+2.3,
+2.1,
+2.4,
+2.5
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿En cuántos meses del semestre el emprendimiento tuvo pérdidas, es decir, gastos mayores que los ingresos?",
+"opciones": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Revisar solo una parte de la gráfica",
+"porque": "Elegiste 1 porque probablemente solo notaste enero, donde la diferencia es más visible.",
+"pregunta_guia": "En marzo, ¿cuál línea está arriba: ingresos (2,2) o gastos (2,3)?",
+"aprende": "Compara mes a mes; en marzo los gastos también superan a los ingresos."
+},
+"C": {
+"error": "Contar los meses en que suben los gastos",
+"porque": "Elegiste 3 porque probablemente contaste los meses en que los gastos aumentaron frente al mes anterior (marzo, mayo y junio).",
+"pregunta_guia": "¿La pregunta habla de que los gastos suban o de que superen a los ingresos?",
+"aprende": "Pérdida significa gastos > ingresos en ese mismo mes."
+},
+"D": {
+"error": "Contar los meses con ganancia",
+"porque": "Elegiste 4 porque probablemente contaste los meses en que los ingresos superaron a los gastos.",
+"pregunta_guia": "¿Cuál línea debe estar por encima para que haya pérdida?",
+"aprende": "Hay ganancia en 4 meses y pérdida en 2."
+}
+},
+"explicacion": "Paso 1: Compara mes a mes: Ene 2,0 < 2,2 (pérdida); Feb 2,4 > 2,0; Mar 2,2 < 2,3 (pérdida); Abr 2,8 > 2,1; May 3,0 > 2,4; Jun 3,6 > 2,5. Paso 2: Hay pérdida en enero y marzo. Respuesta: 2 meses (B).",
+"tip": "En gráficas con dos líneas, los puntos donde se cruzan marcan cambios entre ganancia y pérdida.",
+"truco": "Pérdida: la línea de gastos va POR ENCIMA de la de ingresos.",
+"estrategia_icfes": "El ICFES usa dos series en una misma gráfica para que compares punto a punto. Recorre cada etiqueta del eje horizontal y anota cuál serie es mayor.",
+"temas": [
+"gráficas de líneas",
+"ingresos y gastos",
+"utilidad"
+],
+"gemela": {
+"contexto": "Una tienda escolar tuvo en 4 meses ingresos de 5, 6, 4 y 7 millones y gastos de 6, 5, 5 y 6 millones.",
+"enunciado": "¿En cuántos meses tuvo pérdidas?",
+"opciones": {
+"A": "2",
+"B": "1",
+"C": "3",
+"D": "4"
+},
+"correcta": "A",
+"explicacion": "Mes 1: 5 < 6 (pérdida); mes 2: 6 > 5; mes 3: 4 < 5 (pérdida); mes 4: 7 > 6. Pérdidas en 2 meses."
+}
+},
+{
+"id": "P11-MAT-A024",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): resuelve problemas en contextos económicos usando datos leídos de gráficas.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: resuelvo problemas con información estadística de contextos productivos.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la utilidad acumulada considerando meses con pérdidas y con ganancias.",
+"contexto": "Valentina y Brayan, egresados de un programa técnico del SENA en Palmira, crearon un emprendimiento de jugos naturales. La gráfica muestra sus ingresos y gastos mensuales durante el primer semestre.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ingresos y gastos del emprendimiento (millones de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ingresos",
+"datos": [
+2.0,
+2.4,
+2.2,
+2.8,
+3.0,
+3.6
+]
+},
+{
+"nombre": "Gastos",
+"datos": [
+2.2,
+2.0,
+2.3,
+2.1,
+2.4,
+2.5
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿Cuál fue la utilidad total (ingresos menos gastos) del emprendimiento en el semestre?",
+"opciones": {
+"A": "2,5 millones",
+"B": "2,8 millones",
+"C": "16,0 millones",
+"D": "3,1 millones"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Ignorar los meses con pérdida",
+"porque": "Elegiste 2,8 porque probablemente sumaste solo las ganancias (0,4 + 0,7 + 0,6 + 1,1) y no restaste las pérdidas.",
+"pregunta_guia": "¿Qué pasa con la utilidad total en los meses en que se pierde dinero?",
+"aprende": "Las pérdidas (−0,2 y −0,1) también se suman, con signo negativo."
+},
+"C": {
+"error": "Confundir ingresos con utilidad",
+"porque": "Elegiste 16,0 porque probablemente sumaste solo los ingresos.",
+"pregunta_guia": "¿La utilidad es lo que entra o lo que queda después de pagar los gastos?",
+"aprende": "Utilidad = ingresos − gastos = 16,0 − 13,5."
+},
+"D": {
+"error": "Sumar las pérdidas como si fueran ganancias",
+"porque": "Elegiste 3,1 porque probablemente sumaste las diferencias sin tener en cuenta el signo.",
+"pregunta_guia": "En enero, ¿la diferencia 2,0 − 2,2 es positiva o negativa?",
+"aprende": "Una pérdida resta: −0,2 + 0,4 − 0,1 + 0,7 + 0,6 + 1,1 = 2,5."
+}
+},
+"explicacion": "Paso 1: Ingresos totales: 2,0 + 2,4 + 2,2 + 2,8 + 3,0 + 3,6 = 16,0. Paso 2: Gastos totales: 2,2 + 2,0 + 2,3 + 2,1 + 2,4 + 2,5 = 13,5. Paso 3: Utilidad = 16,0 − 13,5 = 2,5 millones. Paso 4: Comprobación mes a mes: −0,2 + 0,4 − 0,1 + 0,7 + 0,6 + 1,1 = 2,5. Respuesta: A.",
+"tip": "Llevar las cuentas mes a mes, con pérdidas y ganancias, es la base de cualquier emprendimiento sano.",
+"truco": "Utilidad total = Σ ingresos − Σ gastos (verifica con la suma de diferencias con signo).",
+"estrategia_icfes": "El ICFES espera que extraigas datos de la gráfica y operes con signos. Resuelve por dos caminos (totales y diferencias) para confirmar.",
+"temas": [
+"utilidad",
+"números con signo",
+"lectura de gráficas"
+],
+"gemela": {
+"contexto": "Una tienda escolar tuvo en 4 meses ingresos de 5, 6, 4 y 7 millones y gastos de 6, 5, 5 y 6 millones.",
+"enunciado": "¿Cuál fue su utilidad total en los 4 meses?",
+"opciones": {
+"A": "0 millones",
+"B": "2 millones",
+"C": "22 millones",
+"D": "4 millones"
+},
+"correcta": "A",
+"explicacion": "Ingresos 22 − gastos 22 = 0. Diferencias: −1 + 1 − 1 + 1 = 0."
+}
+},
+{
+"id": "P11-MAT-A025",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente conclusiones sobre datos económicos.",
+"lineamiento": "Pensamiento aleatorio y variacional. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una conclusión comparando el crecimiento relativo de dos variables relacionadas.",
+"contexto": "Valentina y Brayan, egresados de un programa técnico del SENA en Palmira, crearon un emprendimiento de jugos naturales. La gráfica muestra sus ingresos y gastos mensuales durante el primer semestre.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ingresos y gastos del emprendimiento (millones de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ingresos",
+"datos": [
+2.0,
+2.4,
+2.2,
+2.8,
+3.0,
+3.6
+]
+},
+{
+"nombre": "Gastos",
+"datos": [
+2.2,
+2.0,
+2.3,
+2.1,
+2.4,
+2.5
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "Brayan afirma: «El negocio va peor, porque los gastos crecieron de enero a junio». ¿Qué argumento refuta mejor su afirmación?",
+"opciones": {
+"A": "Los gastos de junio fueron menores que los ingresos de mayo.",
+"B": "Los gastos bajaron en febrero y en abril, así que no crecieron.",
+"C": "Los ingresos crecieron 80 % y los gastos 13,6 %, y la utilidad pasó de −0,2 a 1,1 millones.",
+"D": "Los gastos siempre crecen en un negocio y eso no tiene importancia."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Comparar meses distintos",
+"porque": "Elegiste A porque probablemente comparaste gastos de un mes con ingresos de otro.",
+"pregunta_guia": "¿Tiene sentido comparar los gastos de junio con los ingresos de mayo para evaluar el negocio?",
+"aprende": "Para evaluar el desempeño se comparan ingresos y gastos del mismo periodo."
+},
+"B": {
+"error": "Negar un dato verdadero",
+"porque": "Elegiste B porque probablemente viste caídas intermedias y concluiste que los gastos no crecieron.",
+"pregunta_guia": "¿Cuánto eran los gastos en enero y en junio?",
+"aprende": "Los gastos sí crecieron (2,2 → 2,5); el argumento debe mostrar que los ingresos crecieron mucho más."
+},
+"D": {
+"error": "Usar una generalización sin datos",
+"porque": "Elegiste D porque probablemente buscaste una opinión en lugar de un argumento numérico.",
+"pregunta_guia": "¿Qué datos de la gráfica podrías usar para responderle a Brayan?",
+"aprende": "Un buen argumento estadístico compara crecimientos y utilidades con cifras."
+}
+},
+"explicacion": "Paso 1: Los gastos sí crecieron: (2,5 − 2,2) ÷ 2,2 ≈ 13,6 %. Paso 2: Los ingresos crecieron: (3,6 − 2,0) ÷ 2,0 = 80 %. Paso 3: Utilidad de enero: 2,0 − 2,2 = −0,2; de junio: 3,6 − 2,5 = 1,1. Paso 4: Que suban los gastos no indica que el negocio empeore si los ingresos suben más. Respuesta: C.",
+"tip": "Un negocio que crece suele gastar más; lo importante es que sus ingresos crezcan aún más rápido.",
+"truco": "No juzgues una variable sola: compárala con la que se relaciona (ingreso vs. gasto).",
+"estrategia_icfes": "En argumentación el ICFES valora la opción que usa datos pertinentes y del mismo periodo. Descarta las que niegan datos ciertos o recurren a generalidades.",
+"temas": [
+"variación porcentual",
+"utilidad",
+"argumentación con datos"
+],
+"gemela": {
+"enunciado": "Los ingresos de una empresa pasaron de 10 a 15 millones y sus gastos de 8 a 10 millones. Un socio dice que la empresa empeoró porque los gastos aumentaron. ¿Qué argumento lo refuta?",
+"opciones": {
+"A": "Los gastos no aumentaron.",
+"B": "Los ingresos crecieron 50 % y los gastos 25 %; la utilidad pasó de 2 a 5 millones.",
+"C": "Los gastos son menores que los ingresos iniciales.",
+"D": "Las empresas siempre tienen más gastos."
+},
+"correcta": "B",
+"explicacion": "Ingresos: 5 ÷ 10 = 50 %; gastos: 2 ÷ 8 = 25 %. Utilidad: 10 − 8 = 2 → 15 − 10 = 5. La empresa mejoró."
+}
+},
+{
+"id": "P11-MAT-A026",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula medidas de tendencia central y reconoce el efecto de los valores atípicos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización y localización.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la mediana de un conjunto de datos no ordenados.",
+"contexto": "La tabla muestra el salario mensual de los 9 empleados de una pequeña empresa de confecciones de Cali.",
+"tabla": {
+"titulo": "Salario mensual (millones de pesos)",
+"cols": [
+"Empleado",
+"Salario"
+],
+"filas": [
+[
+"Ana",
+"1,5"
+],
+[
+"Luis",
+"1,3"
+],
+[
+"Gerente",
+"10,2"
+],
+[
+"Marta",
+"2,0"
+],
+[
+"Juan",
+"1,8"
+],
+[
+"Rosa",
+"1,4"
+],
+[
+"Pedro",
+"1,5"
+],
+[
+"Elsa",
+"1,3"
+],
+[
+"Iván",
+"1,5"
+]
+]
+},
+"enunciado": "¿Cuál es la mediana de los salarios de la empresa?",
+"opciones": {
+"A": "2,5 millones",
+"B": "1,5 millones",
+"C": "1,8 millones",
+"D": "5,75 millones"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir mediana con media",
+"porque": "Elegiste 2,5 porque probablemente calculaste el promedio (22,5 ÷ 9).",
+"pregunta_guia": "¿La mediana se obtiene sumando o ubicando el dato central?",
+"aprende": "La mediana es el valor central de los datos ordenados."
+},
+"C": {
+"error": "No ordenar los datos",
+"porque": "Elegiste 1,8 porque probablemente tomaste el quinto dato de la tabla tal como aparece, sin ordenar.",
+"pregunta_guia": "¿Están los salarios de la tabla ordenados de menor a mayor?",
+"aprende": "Primero se ordena: 1,3; 1,3; 1,4; 1,5; 1,5; 1,5; 1,8; 2,0; 10,2."
+},
+"D": {
+"error": "Promediar los extremos",
+"porque": "Elegiste 5,75 porque probablemente calculaste (1,3 + 10,2) ÷ 2.",
+"pregunta_guia": "¿La mediana depende solo del menor y del mayor?",
+"aprende": "El punto medio del rango no es la mediana."
+}
+},
+"explicacion": "Paso 1: Ordena los 9 salarios: 1,3; 1,3; 1,4; 1,5; 1,5; 1,5; 1,8; 2,0; 10,2. Paso 2: Con 9 datos, la posición central es (9 + 1) ÷ 2 = 5. Paso 3: El quinto dato es 1,5. Respuesta: 1,5 millones (B).",
+"tip": "Siempre ordena los datos antes de buscar la mediana.",
+"truco": "Posición de la mediana = (n + 1) ÷ 2.",
+"estrategia_icfes": "El ICFES presenta tablas desordenadas a propósito. Ordena, cuenta y ubica la posición; las trampas son la media y el dato central sin ordenar.",
+"temas": [
+"mediana",
+"ordenamiento de datos",
+"valores atípicos"
+],
+"gemela": {
+"enunciado": "¿Cuál es la mediana de los datos 3, 8, 2, 30, 4, 5, 6?",
+"opciones": {
+"A": "5",
+"B": "30",
+"C": "8,29",
+"D": "16"
+},
+"correcta": "A",
+"explicacion": "Ordenados: 2, 3, 4, 5, 6, 8, 30. La posición central es la 4.ª: 5."
+}
+},
+{
+"id": "P11-MAT-A027",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende y explica el carácter relativo de las medidas de tendencia central y la necesidad de complementarlas.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Explica por qué la media no representa bien un conjunto de datos con un valor atípico.",
+"contexto": "La tabla muestra el salario mensual de los 9 empleados de una pequeña empresa de confecciones de Cali.",
+"tabla": {
+"titulo": "Salario mensual (millones de pesos)",
+"cols": [
+"Empleado",
+"Salario"
+],
+"filas": [
+[
+"Ana",
+"1,5"
+],
+[
+"Luis",
+"1,3"
+],
+[
+"Gerente",
+"10,2"
+],
+[
+"Marta",
+"2,0"
+],
+[
+"Juan",
+"1,8"
+],
+[
+"Rosa",
+"1,4"
+],
+[
+"Pedro",
+"1,5"
+],
+[
+"Elsa",
+"1,3"
+],
+[
+"Iván",
+"1,5"
+]
+]
+},
+"enunciado": "Para atraer personal, la empresa publica: «Aquí el salario promedio es de 2,5 millones». ¿Por qué ese anuncio puede ser engañoso?",
+"opciones": {
+"A": "Porque el promedio real es menor que 2,5 millones.",
+"B": "Porque el promedio debe calcularse sin contar a nadie que gane más de 2 millones.",
+"C": "Porque la moda de los salarios es 2,5 millones y no el promedio.",
+"D": "Porque el salario del gerente eleva la media: 8 de los 9 empleados ganan 2 millones o menos."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "No verificar el cálculo",
+"porque": "Elegiste A porque probablemente supusiste que el dato estaba mal calculado.",
+"pregunta_guia": "¿Cuánto es la suma de los salarios dividida entre 9?",
+"aprende": "22,5 ÷ 9 = 2,5: el cálculo es correcto; lo engañoso es su uso."
+},
+"B": {
+"error": "Proponer eliminar datos arbitrariamente",
+"porque": "Elegiste B porque probablemente pensaste que los salarios altos no deben contarse nunca.",
+"pregunta_guia": "¿Es correcto eliminar datos de la población sin justificación?",
+"aprende": "No se eliminan datos; se elige una medida resistente como la mediana (1,5 millones)."
+},
+"C": {
+"error": "Confundir moda con media",
+"porque": "Elegiste C porque probablemente no calculaste la moda, que es 1,5 millones.",
+"pregunta_guia": "¿Qué salario se repite más veces en la tabla?",
+"aprende": "La moda es 1,5 (se repite 3 veces)."
+}
+},
+"explicacion": "Paso 1: Media = 22,5 ÷ 9 = 2,5 millones (el cálculo es correcto). Paso 2: El salario del gerente (10,2) es un valor atípico que «jala» la media hacia arriba. Paso 3: 8 de los 9 empleados ganan 2,0 millones o menos; la mediana es 1,5. Paso 4: Un aspirante creería que ganaría cerca de 2,5 millones, lo cual es poco probable. Respuesta: D.",
+"tip": "Cuando hay un dato muy alto o muy bajo, la mediana describe mejor lo «típico».",
+"truco": "Valor atípico a la vista → desconfía de la media y mira la mediana.",
+"estrategia_icfes": "El ICFES usa salarios, precios de vivienda o ingresos para evaluar el efecto de los atípicos. La respuesta correcta explica el efecto con datos concretos.",
+"temas": [
+"valores atípicos",
+"media vs. mediana",
+"lectura crítica de datos"
+],
+"gemela": {
+"contexto": "En una cuadra hay 6 casas valoradas en 200, 210, 190, 220, 200 y 1.180 millones de pesos.",
+"enunciado": "Un agente dice que el precio promedio es de 366,7 millones. ¿Por qué ese dato no representa bien a la cuadra?",
+"opciones": {
+"A": "Porque el cálculo del promedio está mal hecho.",
+"B": "Porque la casa de 1.180 millones eleva la media; las demás valen 220 millones o menos.",
+"C": "Porque el promedio solo se usa para salarios.",
+"D": "Porque la moda es 366,7 millones."
+},
+"correcta": "B",
+"explicacion": "Suma 2.200 ÷ 6 ≈ 366,7 (cálculo correcto), pero el atípico de 1.180 lo eleva; la mediana (205 millones) representa mejor la cuadra."
+}
+},
+{
+"id": "P11-MAT-A028",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende las propiedades de las medidas de tendencia central frente a cambios en los datos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización y analizo su sensibilidad a valores extremos.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Recalcula media y mediana tras modificar un valor atípico y compara los efectos.",
+"contexto": "La tabla muestra el salario mensual de los 9 empleados de una pequeña empresa de confecciones de Cali.",
+"tabla": {
+"titulo": "Salario mensual (millones de pesos)",
+"cols": [
+"Empleado",
+"Salario"
+],
+"filas": [
+[
+"Ana",
+"1,5"
+],
+[
+"Luis",
+"1,3"
+],
+[
+"Gerente",
+"10,2"
+],
+[
+"Marta",
+"2,0"
+],
+[
+"Juan",
+"1,8"
+],
+[
+"Rosa",
+"1,4"
+],
+[
+"Pedro",
+"1,5"
+],
+[
+"Elsa",
+"1,3"
+],
+[
+"Iván",
+"1,5"
+]
+]
+},
+"enunciado": "Si el gerente se retira y lo reemplaza una persona con salario de 1,5 millones, ¿qué ocurre con la media y la mediana de los salarios?",
+"opciones": {
+"A": "Las dos bajan a 1,5 millones.",
+"B": "La media se mantiene en 2,5 y la mediana baja a 1,4.",
+"C": "La media baja a cerca de 1,53 y la mediana sigue en 1,5.",
+"D": "La media baja a cerca de 1,53 y la mediana baja a 1,4."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Suponer que media y mediana cambian igual",
+"porque": "Elegiste A porque probablemente pensaste que, sin el atípico, la media coincide con la mediana.",
+"pregunta_guia": "¿Cuánto da la nueva suma de salarios dividida entre 9?",
+"aprende": "Nueva suma 13,8; 13,8 ÷ 9 ≈ 1,53, cercana pero distinta de 1,5."
+},
+"B": {
+"error": "Creer que la media es resistente",
+"porque": "Elegiste B porque probablemente pensaste que un cambio en un solo dato no afecta la media.",
+"pregunta_guia": "Si la suma de los datos cambia, ¿puede quedar igual la media?",
+"aprende": "La media usa todos los valores: si uno cambia mucho, ella cambia mucho."
+},
+"D": {
+"error": "Reubicar mal la posición central",
+"porque": "Elegiste D porque probablemente al reordenar tomaste otra posición como central.",
+"pregunta_guia": "Al reordenar los 9 nuevos datos, ¿cuál es el quinto?",
+"aprende": "Nuevos datos: 1,3; 1,3; 1,4; 1,5; 1,5; 1,5; 1,5; 1,8; 2,0. El quinto es 1,5."
+}
+},
+"explicacion": "Paso 1: Suma original 22,5. Nueva suma: 22,5 − 10,2 + 1,5 = 13,8. Paso 2: Nueva media: 13,8 ÷ 9 ≈ 1,53. Paso 3: Nuevos datos ordenados: 1,3; 1,3; 1,4; 1,5; 1,5; 1,5; 1,5; 1,8; 2,0. Paso 4: El quinto dato es 1,5: la mediana no cambia. Paso 5: La media es sensible a los atípicos; la mediana es resistente. Respuesta: C.",
+"tip": "Recalcular rápido: nueva suma = suma vieja − dato que sale + dato que entra.",
+"truco": "La mediana es «terca»: casi no se mueve cuando cambian los extremos.",
+"estrategia_icfes": "El ICFES pregunta qué pasa con las medidas al modificar datos. Recalcula con la suma ajustada y revisa la posición central; no necesitas recalcular todo desde cero.",
+"temas": [
+"propiedades de la media",
+"mediana resistente",
+"valores atípicos"
+],
+"gemela": {
+"enunciado": "Los datos 2, 3, 3, 4, 18 tienen media 6 y mediana 3. Si el 18 se cambia por 3, ¿qué pasa?",
+"opciones": {
+"A": "La media baja a 3 y la mediana sigue en 3.",
+"B": "La media sigue en 6 y la mediana baja a 2.",
+"C": "Ambas bajan a 2.",
+"D": "La media baja a 4 y la mediana sube a 4."
+},
+"correcta": "A",
+"explicacion": "Nueva suma 30 − 18 + 3 = 15; media 15 ÷ 5 = 3. Ordenados 2, 3, 3, 3, 4: mediana 3."
+}
+},
+{
+"id": "P11-MAT-A029",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta distribuciones de frecuencia de datos agrupados representadas en histogramas o diagramas de barras.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos. EBC 10°–11°: interpreto nociones de distribución de frecuencias.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Lee frecuencias de intervalos en un diagrama de barras de datos agrupados.",
+"contexto": "Los 30 estudiantes de 11°A presentaron un simulacro de matemáticas. La gráfica muestra cuántos estudiantes obtuvieron puntajes en cada intervalo (el extremo izquierdo se incluye y el derecho no).",
+"grafica": {
+"tipo": "barras",
+"titulo": "Puntajes del simulacro de 11°A",
+"etiquetas": [
+"[30,40)",
+"[40,50)",
+"[50,60)",
+"[60,70)",
+"[70,80)"
+],
+"series": [
+{
+"nombre": "Estudiantes",
+"datos": [
+3,
+7,
+12,
+6,
+2
+]
+}
+],
+"ejeY": "número de estudiantes"
+},
+"enunciado": "¿Cuántos estudiantes obtuvieron 60 puntos o más?",
+"opciones": {
+"A": "8",
+"B": "6",
+"C": "20",
+"D": "2"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tomar un solo intervalo",
+"porque": "Elegiste 6 porque probablemente contaste solo el intervalo [60,70).",
+"pregunta_guia": "¿Un estudiante con 75 puntos tiene 60 o más?",
+"aprende": "Se suman los intervalos [60,70) y [70,80): 6 + 2."
+},
+"C": {
+"error": "Incluir un intervalo que no cumple",
+"porque": "Elegiste 20 porque probablemente sumaste también el intervalo [50,60).",
+"pregunta_guia": "¿Un estudiante con 55 puntos tiene 60 o más?",
+"aprende": "El intervalo [50,60) va de 50 a menos de 60: no cumple."
+},
+"D": {
+"error": "Tomar solo el último intervalo",
+"porque": "Elegiste 2 porque probablemente pensaste solo en los puntajes más altos.",
+"pregunta_guia": "¿Dónde empieza el grupo de «60 o más»?",
+"aprende": "Desde 60 en adelante: dos intervalos."
+}
+},
+"explicacion": "Paso 1: «60 o más» incluye los intervalos [60,70) y [70,80). Paso 2: Lee las barras: 6 y 2. Paso 3: Suma: 6 + 2 = 8 estudiantes. Respuesta: A.",
+"tip": "El corchete [ incluye el número; el paréntesis ) lo excluye.",
+"truco": "[a, b) = desde a hasta antes de b.",
+"estrategia_icfes": "El ICFES usa datos agrupados en intervalos. Lee con cuidado la notación de los extremos y suma las barras que cumplen la condición.",
+"temas": [
+"datos agrupados",
+"intervalos",
+"histogramas"
+],
+"gemela": {
+"contexto": "En 11°B, los puntajes de 30 estudiantes se distribuyeron así: [30,40): 4; [40,50): 9; [50,60): 10; [60,70): 5; [70,80): 2.",
+"enunciado": "¿Cuántos estudiantes de 11°B alcanzaron un puntaje de al menos 60?",
+"opciones": {
+"A": "5",
+"B": "17",
+"C": "7",
+"D": "2"
+},
+"correcta": "C",
+"explicacion": "Intervalos [60,70) y [70,80): 5 + 2 = 7."
+}
+},
+{
+"id": "P11-MAT-A030",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula medidas de tendencia central en datos agrupados usando marcas de clase.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización en distribuciones de frecuencia.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Estima la media de datos agrupados usando el punto medio de cada intervalo.",
+"contexto": "Los 30 estudiantes de 11°A presentaron un simulacro de matemáticas. La gráfica muestra cuántos estudiantes obtuvieron puntajes en cada intervalo (el extremo izquierdo se incluye y el derecho no).",
+"grafica": {
+"tipo": "barras",
+"titulo": "Puntajes del simulacro de 11°A",
+"etiquetas": [
+"[30,40)",
+"[40,50)",
+"[50,60)",
+"[60,70)",
+"[70,80)"
+],
+"series": [
+{
+"nombre": "Estudiantes",
+"datos": [
+3,
+7,
+12,
+6,
+2
+]
+}
+],
+"ejeY": "número de estudiantes"
+},
+"enunciado": "Si se toma como representante de cada intervalo su punto medio (marca de clase), ¿cuál es la media estimada del puntaje del curso?",
+"opciones": {
+"A": "55 puntos",
+"B": "6 puntos",
+"C": "324 puntos",
+"D": "54 puntos"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Tomar la marca de clase modal",
+"porque": "Elegiste 55 porque probablemente tomaste el punto medio del intervalo con más estudiantes.",
+"pregunta_guia": "¿La media usa solo el intervalo más alto en la gráfica o todos?",
+"aprende": "Eso estima la moda; la media pondera todas las marcas de clase."
+},
+"B": {
+"error": "Promediar las frecuencias",
+"porque": "Elegiste 6 porque probablemente dividiste los 30 estudiantes entre los 5 intervalos.",
+"pregunta_guia": "¿La variable es el número de estudiantes o el puntaje?",
+"aprende": "Se promedian puntajes, no cantidades de estudiantes."
+},
+"C": {
+"error": "Dividir entre el número de intervalos",
+"porque": "Elegiste 324 porque probablemente calculaste bien la suma ponderada (1.620) pero la dividiste entre 5 intervalos.",
+"pregunta_guia": "¿Entre cuántos estudiantes se reparten los 1.620 puntos?",
+"aprende": "Se divide entre el total de datos: 30."
+}
+},
+"explicacion": "Paso 1: Marcas de clase: 35, 45, 55, 65, 75. Paso 2: Multiplica por la frecuencia: 35 × 3 = 105; 45 × 7 = 315; 55 × 12 = 660; 65 × 6 = 390; 75 × 2 = 150. Paso 3: Suma: 105 + 315 + 660 + 390 + 150 = 1.620. Paso 4: Divide entre 30: 1.620 ÷ 30 = 54. Respuesta: D.",
+"tip": "Con datos agrupados la media es una estimación: no conocemos cada puntaje exacto.",
+"truco": "Marca de clase = (límite inferior + límite superior) ÷ 2.",
+"estrategia_icfes": "El ICFES pide medias de datos agrupados para verificar que uses marcas de clase y el total de datos. Organiza una tabla rápida: marca, frecuencia, producto.",
+"temas": [
+"datos agrupados",
+"marca de clase",
+"media ponderada"
+],
+"gemela": {
+"contexto": "En un grupo de 20 personas las edades se agruparon así: [10,20): 2; [20,30): 8; [30,40): 10.",
+"enunciado": "¿Cuál es la edad media estimada usando las marcas de clase?",
+"opciones": {
+"A": "35 años",
+"B": "29 años",
+"C": "193,3 años",
+"D": "25 años"
+},
+"correcta": "B",
+"explicacion": "15 × 2 + 25 × 8 + 35 × 10 = 30 + 200 + 350 = 580; 580 ÷ 20 = 29 años."
+}
+},
+{
+"id": "P11-MAT-A031",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente la información que proporcionan las distribuciones de datos agrupados.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Reconoce qué conclusiones se pueden y no se pueden obtener de datos agrupados.",
+"contexto": "Los 30 estudiantes de 11°A presentaron un simulacro de matemáticas. La gráfica muestra cuántos estudiantes obtuvieron puntajes en cada intervalo (el extremo izquierdo se incluye y el derecho no).",
+"grafica": {
+"tipo": "barras",
+"titulo": "Puntajes del simulacro de 11°A",
+"etiquetas": [
+"[30,40)",
+"[40,50)",
+"[50,60)",
+"[60,70)",
+"[70,80)"
+],
+"series": [
+{
+"nombre": "Estudiantes",
+"datos": [
+3,
+7,
+12,
+6,
+2
+]
+}
+],
+"ejeY": "número de estudiantes"
+},
+"enunciado": "Juliana afirma: «Según la gráfica, algún estudiante obtuvo exactamente 79 puntos». ¿Qué se puede decir de su afirmación?",
+"opciones": {
+"A": "Es verdadera, porque hay 2 estudiantes en el último intervalo.",
+"B": "Es falsa, porque el puntaje máximo posible en la gráfica es 70.",
+"C": "No se puede verificar, porque la gráfica solo indica que 2 estudiantes están entre 70 y menos de 80.",
+"D": "Es falsa, porque la media del curso es 54 puntos."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Suponer datos exactos en datos agrupados",
+"porque": "Elegiste A porque probablemente asumiste que estar en el intervalo implica tener el valor máximo.",
+"pregunta_guia": "¿Un estudiante con 72 puntos también estaría en [70,80)?",
+"aprende": "El intervalo agrupa muchos valores posibles; no revela cada dato."
+},
+"B": {
+"error": "Leer mal los límites del intervalo",
+"porque": "Elegiste B porque probablemente tomaste el límite inferior del último intervalo como máximo.",
+"pregunta_guia": "¿Qué valores incluye el intervalo [70,80)?",
+"aprende": "[70,80) incluye puntajes desde 70 hasta antes de 80, por ejemplo 79."
+},
+"D": {
+"error": "Usar una medida que no responde la pregunta",
+"porque": "Elegiste D porque probablemente pensaste que si la media es 54 nadie puede tener 79.",
+"pregunta_guia": "¿La media impide que existan datos muy por encima de ella?",
+"aprende": "La media resume; puede haber datos lejos de ella."
+}
+},
+"explicacion": "Paso 1: El último intervalo [70,80) incluye puntajes desde 70 hasta antes de 80. Paso 2: Hay 2 estudiantes en él, pero la gráfica no dice sus puntajes exactos. Paso 3: Pudieron obtener 79 o cualquier valor entre 70 y 79,9. Paso 4: La afirmación no se puede confirmar ni refutar con la gráfica. Respuesta: C.",
+"tip": "Pregúntate siempre: ¿los datos permiten afirmar esto o estoy suponiendo?",
+"truco": "Datos agrupados = sabes el «barrio», no la «dirección exacta».",
+"estrategia_icfes": "El ICFES incluye opciones del tipo «no se puede determinar». Elígela solo cuando de verdad falte información, como ocurre con valores exactos en datos agrupados.",
+"temas": [
+"datos agrupados",
+"inferencia válida",
+"argumentación estadística"
+],
+"gemela": {
+"contexto": "Una gráfica de barras muestra que 5 trabajadores tienen salarios en el intervalo [2,3) millones.",
+"enunciado": "Pablo dice que ninguno de esos 5 gana exactamente 2,8 millones. ¿Qué se puede afirmar?",
+"opciones": {
+"A": "Es verdad, porque todos ganan 2 millones.",
+"B": "No se puede verificar, porque solo se sabe que ganan entre 2 y menos de 3 millones.",
+"C": "Es falso, porque todos ganan 2,8 millones.",
+"D": "Es verdad, porque 2,8 no está en el intervalo."
+},
+"correcta": "B",
+"explicacion": "El intervalo [2,3) incluye 2,8, pero la gráfica no muestra los salarios exactos: no se puede verificar."
+}
+},
+{
+"id": "P11-MAT-A032",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): selecciona muestras aleatorias en poblaciones grandes usando diferentes técnicas de muestreo.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto nociones de población y muestra y reconozco técnicas de muestreo.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Identifica los elementos seleccionados con un muestreo sistemático descrito en palabras.",
+"contexto": "Para evaluar el servicio de la biblioteca, un colegio de Buga numeró a sus 600 estudiantes del 1 al 600. Luego sorteó un número entre 1 y 20, que resultó ser el 7, y seleccionó a ese estudiante y, a partir de él, a uno de cada 20 en la lista.",
+"enunciado": "¿Cuáles son los primeros cuatro números de lista seleccionados en la muestra?",
+"opciones": {
+"A": "7, 27, 47, 67",
+"B": "7, 14, 21, 28",
+"C": "20, 40, 60, 80",
+"D": "7, 20, 33, 46"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar el número sorteado como salto",
+"porque": "Elegiste B porque probablemente tomaste múltiplos de 7 en lugar de saltar de 20 en 20.",
+"pregunta_guia": "¿Cuál es el salto entre seleccionados: 7 o 20?",
+"aprende": "El 7 es el punto de partida; el salto es 20."
+},
+"C": {
+"error": "Ignorar el arranque aleatorio",
+"porque": "Elegiste C porque probablemente tomaste múltiplos de 20 sin usar el número sorteado.",
+"pregunta_guia": "¿Para qué se sorteó el número 7?",
+"aprende": "El arranque aleatorio da a todos la misma posibilidad de ser elegidos."
+},
+"D": {
+"error": "Calcular mal el salto",
+"porque": "Elegiste D porque probablemente sumaste 13 (20 − 7) en cada paso.",
+"pregunta_guia": "Si empiezas en 7 y avanzas 20 posiciones, ¿a qué número llegas?",
+"aprende": "7 + 20 = 27; 27 + 20 = 47; 47 + 20 = 67."
+}
+},
+"explicacion": "Paso 1: El primer seleccionado es el número sorteado: 7. Paso 2: Cada siguiente se obtiene sumando 20: 7 + 20 = 27. Paso 3: 27 + 20 = 47; 47 + 20 = 67. Paso 4: La muestra tendrá 600 ÷ 20 = 30 estudiantes. Respuesta: A.",
+"tip": "En el muestreo sistemático el azar está en el punto de partida; después, el salto es fijo.",
+"truco": "Sistemático: arranque al azar + saltos de k = N ÷ n.",
+"estrategia_icfes": "El ICFES describe procedimientos de muestreo en palabras y pide reconocer su resultado. Sigue el procedimiento paso a paso, sin inventar reglas.",
+"temas": [
+"muestreo sistemático",
+"población y muestra",
+"secuencias aritméticas"
+],
+"gemela": {
+"enunciado": "De 400 clientes numerados, se elige uno de cada 10 a partir del número sorteado 3. ¿Cuáles son los primeros cuatro elegidos?",
+"opciones": {
+"A": "3, 6, 9, 12",
+"B": "10, 20, 30, 40",
+"C": "3, 13, 23, 33",
+"D": "3, 10, 17, 24"
+},
+"correcta": "C",
+"explicacion": "Se inicia en 3 y se suma 10 cada vez: 3, 13, 23, 33."
+}
+},
+{
+"id": "P11-MAT-A033",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): selecciona muestras aleatorias en poblaciones grandes y valora críticamente los procedimientos de muestreo.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico la elección de un diseño de muestreo para un estudio escolar.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Compara dos diseños de muestreo y justifica cuál produce resultados más confiables.",
+"contexto": "El consejo estudiantil de un colegio de Cali quiere saber qué opinan los 900 estudiantes (de primaria y bachillerato) sobre el restaurante escolar. Hay dos propuestas: Propuesta 1: sortear 60 estudiantes de la lista completa del colegio. Propuesta 2: encuestar a los 200 estudiantes que almuerzan en el primer turno, que es exclusivo de primaria.",
+"enunciado": "¿Cuál propuesta es más adecuada y por qué?",
+"opciones": {
+"A": "La 2, porque una muestra de 200 siempre da mejores resultados que una de 60.",
+"B": "La 2, porque los estudiantes de primaria son los que más usan el restaurante.",
+"C": "La 1, porque con 60 estudiantes la encuesta es más rápida y barata.",
+"D": "La 1, porque todos los estudiantes tienen la misma posibilidad de ser elegidos y la muestra representa a todo el colegio."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Creer que el tamaño garantiza representatividad",
+"porque": "Elegiste A porque probablemente pensaste que más encuestados significa más confianza, sin importar quiénes son.",
+"pregunta_guia": "¿Están representados los estudiantes de bachillerato en la propuesta 2?",
+"aprende": "Una muestra grande pero de un solo grupo sigue sesgada."
+},
+"B": {
+"error": "Justificar con una suposición no dada",
+"porque": "Elegiste B porque probablemente supusiste un dato que el contexto no menciona.",
+"pregunta_guia": "¿El contexto dice que primaria usa más el restaurante?",
+"aprende": "El objetivo es conocer la opinión de los 900; ningún grupo debe quedar excluido."
+},
+"C": {
+"error": "Elegir bien con una razón irrelevante",
+"porque": "Elegiste C porque probablemente acertaste la propuesta, pero con un argumento de costo y no estadístico.",
+"pregunta_guia": "¿Qué hace que una muestra sea confiable: su costo o su forma de selección?",
+"aprende": "La razón estadística es la selección aleatoria de toda la población."
+}
+},
+"explicacion": "Paso 1: La población son los 900 estudiantes. Paso 2: La propuesta 2 solo incluye primaria: excluye a bachillerato y está sesgada. Paso 3: La propuesta 1 sortea de la lista completa: cada estudiante tiene igual probabilidad de ser elegido. Paso 4: Por eso la propuesta 1 es más representativa, aunque sea más pequeña. Respuesta: D.",
+"tip": "En argumentación, la opción correcta tiene la decisión correcta Y la razón correcta.",
+"truco": "Azar sobre TODA la población > tamaño grande de un solo grupo.",
+"estrategia_icfes": "El ICFES suele poner dos opciones con la misma decisión y razones distintas. Elige la que da la razón estadística (aleatoriedad, representatividad).",
+"temas": [
+"diseño de muestreo",
+"muestreo aleatorio simple",
+"sesgo"
+],
+"gemela": {
+"contexto": "Una alcaldía quiere conocer la opinión de todos los habitantes sobre una nueva ciclorruta. Opción 1: sortear 300 números del censo municipal. Opción 2: encuestar a 1.000 ciclistas en la ciclovía del domingo.",
+"enunciado": "¿Qué opción es más adecuada y por qué?",
+"opciones": {
+"A": "La 2, porque los ciclistas conocen mejor el tema.",
+"B": "La 1, porque es aleatoria sobre toda la población y no solo sobre ciclistas.",
+"C": "La 2, porque 1.000 es más que 300.",
+"D": "La 1, porque es más barata."
+},
+"correcta": "B",
+"explicacion": "La opción 2 solo incluye ciclistas (sesgo); la 1 sortea entre todos los habitantes y es representativa."
+}
+},
+{
+"id": "P11-MAT-A034",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información de contextos financieros presentada en tablas de doble columna.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Compara año a año dos series de rentabilidades presentadas en una tabla.",
+"contexto": "Una cooperativa de ahorro de Cali ofrece dos fondos de inversión. La tabla muestra su rentabilidad anual durante cinco años (un valor negativo indica pérdida).",
+"tabla": {
+"titulo": "Rentabilidad anual de los fondos (%)",
+"cols": [
+"Año",
+"Fondo X",
+"Fondo Y"
+],
+"filas": [
+[
+"1",
+"6",
+"12"
+],
+[
+"2",
+"7",
+"−2"
+],
+[
+"3",
+"5",
+"10"
+],
+[
+"4",
+"6",
+"1"
+],
+[
+"5",
+"6",
+"9"
+]
+]
+},
+"enunciado": "¿En cuántos de los cinco años el fondo Y tuvo mayor rentabilidad que el fondo X?",
+"opciones": {
+"A": "2",
+"B": "5",
+"C": "3",
+"D": "4"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Omitir un año al comparar",
+"porque": "Elegiste 2 porque probablemente comparaste solo los años con diferencias grandes (1 y 3) y olvidaste el año 5 (9 > 6).",
+"pregunta_guia": "En el año 5, ¿cuál fondo rindió más?",
+"aprende": "Compara fila por fila los cinco años, aunque la diferencia sea pequeña."
+},
+"B": {
+"error": "Guiarse por los valores máximos",
+"porque": "Elegiste 5 porque probablemente viste que Y tiene los valores más altos de la tabla y supusiste que siempre gana.",
+"pregunta_guia": "En el año 2, ¿−2 % es mayor o menor que 7 %?",
+"aprende": "Y perdió frente a X en los años 2 y 4."
+},
+"D": {
+"error": "Leer mal un número negativo o pequeño",
+"porque": "Elegiste 4 porque probablemente consideraste que el 1 % del año 4 era mayor que el 6 % de X, o leíste mal el −2.",
+"pregunta_guia": "¿Qué número es mayor: 1 o 6?",
+"aprende": "Y supera a X solo en los años 1, 3 y 5."
+}
+},
+"explicacion": "Paso 1: Compara año a año: año 1: 12 > 6 (gana Y); año 2: −2 < 7 (gana X); año 3: 10 > 5 (gana Y); año 4: 1 < 6 (gana X); año 5: 9 > 6 (gana Y). Paso 2: Y supera a X en los años 1, 3 y 5. Respuesta: 3 años (C).",
+"tip": "Un número negativo en rentabilidad significa que el dinero invertido disminuyó ese año.",
+"truco": "Marca con una ✓ el ganador de cada fila y luego cuenta.",
+"estrategia_icfes": "El ICFES pide comparaciones fila a fila en tablas con números negativos. Ve despacio y anota cada comparación antes de contar.",
+"temas": [
+"lectura de tablas",
+"números negativos",
+"rentabilidad"
+],
+"gemela": {
+"contexto": "En tres años, el fondo M rindió 4 %, 5 % y 6 %, y el fondo N rindió 8 %, 2 % y 5 %.",
+"enunciado": "¿En cuántos años el fondo N rindió más que el fondo M?",
+"opciones": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "0"
+},
+"correcta": "A",
+"explicacion": "Año 1: 8 > 4 (N); año 2: 2 < 5 (M); año 3: 5 < 6 (M). Solo en 1 año."
+}
+},
+{
+"id": "P11-MAT-A035",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de crecimiento con variaciones porcentuales sucesivas, como el interés compuesto.",
+"lineamiento": "Pensamiento numérico, variacional y aleatorio. EBC 10°–11°: resuelvo problemas en contextos financieros con porcentajes sucesivos.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el valor final de una inversión aplicando rentabilidades anuales distintas de forma compuesta.",
+"contexto": "Una cooperativa de ahorro de Cali ofrece dos fondos de inversión. La tabla muestra su rentabilidad anual durante cinco años (un valor negativo indica pérdida).",
+"tabla": {
+"titulo": "Rentabilidad anual de los fondos (%)",
+"cols": [
+"Año",
+"Fondo X",
+"Fondo Y"
+],
+"filas": [
+[
+"1",
+"6",
+"12"
+],
+[
+"2",
+"7",
+"−2"
+],
+[
+"3",
+"5",
+"10"
+],
+[
+"4",
+"6",
+"1"
+],
+[
+"5",
+"6",
+"9"
+]
+]
+},
+"enunciado": "Si una persona invirtió $1.000.000 en el fondo X al comienzo del año 1 y reinvirtió las ganancias cada año, ¿cuánto dinero tenía, aproximadamente, al final del año 5?",
+"opciones": {
+"A": "$1.338.106",
+"B": "$1.300.000",
+"C": "$1.329.183",
+"D": "$338.106"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar interés simple con el promedio",
+"porque": "Elegiste $1.300.000 porque probablemente sumaste las rentabilidades (30 %) y las aplicaste una sola vez al capital inicial.",
+"pregunta_guia": "En el año 2, ¿el 7 % se calcula sobre $1.000.000 o sobre el dinero acumulado?",
+"aprende": "Al reinvertir, cada porcentaje se aplica al saldo acumulado: se multiplican los factores."
+},
+"C": {
+"error": "Usar el fondo equivocado",
+"porque": "Elegiste $1.329.183 porque probablemente hiciste el cálculo con las rentabilidades del fondo Y.",
+"pregunta_guia": "¿En qué fondo invirtió la persona?",
+"aprende": "Se usan los datos de la columna del fondo X."
+},
+"D": {
+"error": "Dar solo la ganancia",
+"porque": "Elegiste $338.106 porque probablemente calculaste bien la ganancia, pero no le sumaste el capital.",
+"pregunta_guia": "¿La pregunta pide la ganancia o el dinero total?",
+"aprende": "Dinero final = capital + ganancias."
+}
+},
+"explicacion": "Paso 1: Convierte cada rentabilidad en factor: 1,06; 1,07; 1,05; 1,06; 1,06. Paso 2: Multiplica: 1,06 × 1,07 = 1,1342; × 1,05 = 1,19091; × 1,06 = 1,262365; × 1,06 ≈ 1,338106. Paso 3: Valor final: 1.000.000 × 1,338106 ≈ $1.338.106. Respuesta: A.",
+"tip": "Reinvertir las ganancias hace que tu dinero crezca sobre lo ya ganado: es el poder del interés compuesto.",
+"truco": "Valor final = capital × (1 + r₁)(1 + r₂)…(1 + rₙ).",
+"estrategia_icfes": "El ICFES plantea inversiones con tasas variables para evaluar el uso de factores multiplicativos. Construye la cadena de factores y multiplica con cuidado; la suma de porcentajes es el distractor clásico.",
+"temas": [
+"interés compuesto",
+"factores de crecimiento",
+"matemática financiera"
+],
+"gemela": {
+"enunciado": "Se invierten $2.000.000 y la inversión rinde 5 %, luego 4 % y luego 6 %, reinvirtiendo las ganancias. ¿Cuál es el valor final?",
+"opciones": {
+"A": "$2.300.000",
+"B": "$2.315.040",
+"C": "$315.040",
+"D": "$2.312.000"
+},
+"correcta": "B",
+"explicacion": "2.000.000 × 1,05 × 1,04 × 1,06 = 2.000.000 × 1,15752 = $2.315.040."
+}
+},
+{
+"id": "P11-MAT-A036",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende la necesidad de complementar las medidas de tendencia central con medidas de dispersión para obtener mejores lecturas de los datos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos; uso medidas de dispersión.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta la equivalencia de dos inversiones usando la dispersión de sus rentabilidades.",
+"contexto": "Una cooperativa de ahorro de Cali ofrece dos fondos de inversión. La tabla muestra su rentabilidad anual durante cinco años (un valor negativo indica pérdida).",
+"tabla": {
+"titulo": "Rentabilidad anual de los fondos (%)",
+"cols": [
+"Año",
+"Fondo X",
+"Fondo Y"
+],
+"filas": [
+[
+"1",
+"6",
+"12"
+],
+[
+"2",
+"7",
+"−2"
+],
+[
+"3",
+"5",
+"10"
+],
+[
+"4",
+"6",
+"1"
+],
+[
+"5",
+"6",
+"9"
+]
+]
+},
+"enunciado": "Un asesor afirma: «Los dos fondos son igual de convenientes, porque ambos tienen una rentabilidad promedio de 6 % anual». ¿Cuál es el mejor argumento para cuestionarlo?",
+"opciones": {
+"A": "El promedio del fondo Y es mayor, porque tiene el valor más alto de la tabla (12 %).",
+"B": "Aunque los promedios son iguales, el fondo Y varía mucho más (de −2 % a 12 %), así que es más riesgoso.",
+"C": "El promedio del fondo X es mayor, porque nunca tuvo pérdidas.",
+"D": "Los promedios no pueden compararse porque los fondos tienen nombres diferentes."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir el máximo con el promedio",
+"porque": "Elegiste A porque probablemente pensaste que el fondo con el valor más alto tiene mayor promedio.",
+"pregunta_guia": "¿Cuánto suman las rentabilidades de Y y cuánto da su promedio?",
+"aprende": "Y: (12 − 2 + 10 + 1 + 9) ÷ 5 = 30 ÷ 5 = 6 %, igual que X."
+},
+"C": {
+"error": "Negar un dato correcto con una razón cualitativa",
+"porque": "Elegiste C porque probablemente pensaste que no tener pérdidas aumenta el promedio.",
+"pregunta_guia": "¿Cuánto suma X: 6 + 7 + 5 + 6 + 6?",
+"aprende": "El promedio de X también es 6 %; la diferencia está en la dispersión, no en la media."
+},
+"D": {
+"error": "Argumento irrelevante",
+"porque": "Elegiste D porque probablemente no encontraste una razón numérica.",
+"pregunta_guia": "¿Qué medida estadística muestra qué tan estable es cada fondo?",
+"aprende": "Las medidas de dispersión (rango, desviación estándar) permiten comparar el riesgo."
+}
+},
+"explicacion": "Paso 1: Promedio X = 30 ÷ 5 = 6 %; promedio Y = 30 ÷ 5 = 6 %: el dato del asesor es correcto. Paso 2: Rango X = 7 − 5 = 2 puntos; rango Y = 12 − (−2) = 14 puntos. Paso 3: Desviación estándar aproximada: X ≈ 0,63; Y ≈ 5,48. Paso 4: Y es mucho más variable (más riesgo) e incluso tuvo pérdida; además, al reinvertir, $1.000.000 en Y llega a ≈ $1.329.183 y en X a ≈ $1.338.106. Paso 5: El promedio solo no basta para decidir. Respuesta: B.",
+"tip": "En finanzas, la dispersión de la rentabilidad es una forma de medir el riesgo.",
+"truco": "Mismo promedio + más dispersión = más riesgo.",
+"estrategia_icfes": "El ICFES pide cuestionar conclusiones basadas en una sola medida. La opción correcta acepta el dato verdadero y agrega la medida que falta (dispersión).",
+"temas": [
+"dispersión y riesgo",
+"media",
+"argumentación financiera"
+],
+"gemela": {
+"contexto": "Dos cultivos de piña del Valle produjeron en 4 cosechas, en toneladas: cultivo A: 10, 11, 9, 10; cultivo B: 15, 4, 14, 7.",
+"enunciado": "Un agrónomo dice que ambos cultivos son igual de confiables porque tienen el mismo promedio. ¿Qué argumento lo cuestiona?",
+"opciones": {
+"A": "El cultivo B tiene mayor promedio porque produjo 15 toneladas.",
+"B": "Ambos tienen promedio 10, pero B varía de 4 a 15 y A de 9 a 11; B es menos predecible.",
+"C": "El cultivo A tiene mayor promedio porque nunca bajó de 9.",
+"D": "No se pueden comparar cultivos distintos."
+},
+"correcta": "B",
+"explicacion": "A: 40 ÷ 4 = 10; B: 40 ÷ 4 = 10. Rangos: A = 2, B = 11. B es mucho más variable."
+}
+},
+{
+"id": "P11-MAT-A037",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística de contextos económicos presentada en gráficas de barras.",
+"lineamiento": "Pensamiento aleatorio y variacional. EBC 10°–11°: describo tendencias que se observan en conjuntos de datos.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica en una gráfica de barras el intervalo de tiempo con mayor aumento.",
+"contexto": "Una asociación de artesanas de Guapi, en el Pacífico caucano, empezó a vender sus productos por internet. La gráfica muestra sus ventas en línea anuales.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas en línea (millones de pesos)",
+"etiquetas": [
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Ventas en línea",
+"datos": [
+8,
+20,
+26,
+30,
+33
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿Entre qué par de años consecutivos aumentaron más las ventas en línea?",
+"opciones": {
+"A": "Entre 2022 y 2023",
+"B": "Entre 2021 y 2022",
+"C": "Entre 2020 y 2021",
+"D": "Entre 2019 y 2020"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir el valor más alto con el mayor aumento",
+"porque": "Elegiste 2022–2023 porque probablemente viste que 2023 tiene la barra más alta.",
+"pregunta_guia": "¿Cuánto creció de 2022 a 2023?",
+"aprende": "De 30 a 33 solo hay un aumento de 3 millones."
+},
+"B": {
+"error": "Estimar a ojo sin calcular",
+"porque": "Elegiste 2021–2022 probablemente sin calcular las diferencias.",
+"pregunta_guia": "¿Cuánto vale 30 − 26?",
+"aprende": "Aumentos: +12, +6, +4, +3."
+},
+"C": {
+"error": "Elegir un intervalo intermedio sin verificar",
+"porque": "Elegiste 2020–2021 probablemente porque las barras crecen visiblemente, pero el aumento fue de 6.",
+"pregunta_guia": "¿Cuál diferencia es mayor: 26 − 20 o 20 − 8?",
+"aprende": "El mayor salto está entre 2019 y 2020: 12 millones."
+}
+},
+"explicacion": "Paso 1: Calcula los aumentos: 2019→2020: 20 − 8 = 12; 2020→2021: 26 − 20 = 6; 2021→2022: 30 − 26 = 4; 2022→2023: 33 − 30 = 3. Paso 2: El mayor es 12, entre 2019 y 2020. Respuesta: D.",
+"tip": "Que una barra sea la más alta no significa que sea la que más creció.",
+"truco": "Mayor aumento = mayor salto entre barras vecinas.",
+"estrategia_icfes": "El ICFES distingue entre nivel (altura de la barra) y cambio (diferencia entre barras). Calcula las diferencias consecutivas antes de elegir.",
+"temas": [
+"gráficas de barras",
+"variación absoluta",
+"tendencias"
+],
+"gemela": {
+"contexto": "Los suscriptores de un canal educativo fueron: 2020: 5 mil; 2021: 9 mil; 2022: 18 mil; 2023: 21 mil.",
+"enunciado": "¿Entre qué años consecutivos hubo el mayor aumento?",
+"opciones": {
+"A": "2020 y 2021",
+"B": "2021 y 2022",
+"C": "2022 y 2023",
+"D": "2020 y 2023"
+},
+"correcta": "B",
+"explicacion": "Aumentos: +4, +9, +3 (mil). El mayor, +9 mil, entre 2021 y 2022. (2020 y 2023 no son consecutivos)."
+}
+},
+{
+"id": "P11-MAT-A038",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula razones de cambio promedio a partir de datos presentados en gráficas.",
+"lineamiento": "Pensamiento variacional y aleatorio. EBC 10°–11°: analizo la variación entre dos momentos usando razones de cambio.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el aumento promedio anual entre dos años de una serie temporal.",
+"contexto": "Una asociación de artesanas de Guapi, en el Pacífico caucano, empezó a vender sus productos por internet. La gráfica muestra sus ventas en línea anuales.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas en línea (millones de pesos)",
+"etiquetas": [
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Ventas en línea",
+"datos": [
+8,
+20,
+26,
+30,
+33
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿Cuál fue el aumento promedio anual de las ventas en línea entre 2019 y 2023?",
+"opciones": {
+"A": "5 millones por año",
+"B": "6,25 millones por año",
+"C": "23,4 millones por año",
+"D": "25 millones por año"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Contar años en lugar de intervalos",
+"porque": "Elegiste 5 porque probablemente dividiste el aumento total (25) entre 5 años, pero entre 2019 y 2023 hay 4 intervalos anuales.",
+"pregunta_guia": "¿Cuántos saltos de un año hay de 2019 a 2023?",
+"aprende": "Número de intervalos = 2023 − 2019 = 4."
+},
+"C": {
+"error": "Calcular el promedio de las ventas",
+"porque": "Elegiste 23,4 porque probablemente calculaste la media de las ventas (117 ÷ 5) en lugar del aumento promedio.",
+"pregunta_guia": "¿La pregunta pide cuánto se vendió en promedio o cuánto aumentó por año?",
+"aprende": "Aumento promedio = (valor final − valor inicial) ÷ número de años transcurridos."
+},
+"D": {
+"error": "Dar el aumento total",
+"porque": "Elegiste 25 porque probablemente calculaste el aumento total (33 − 8) y no lo repartiste por año.",
+"pregunta_guia": "¿En cuántos años se produjo ese aumento?",
+"aprende": "Se divide el aumento total entre 4 años."
+}
+},
+"explicacion": "Paso 1: Aumento total: 33 − 8 = 25 millones. Paso 2: Años transcurridos: 2023 − 2019 = 4. Paso 3: Aumento promedio: 25 ÷ 4 = 6,25 millones por año. Paso 4: Comprobación: (12 + 6 + 4 + 3) ÷ 4 = 25 ÷ 4 = 6,25. Respuesta: B.",
+"tip": "Entre el año 1 y el año 5 hay 4 saltos, no 5: cuenta los intervalos.",
+"truco": "Cambio promedio = (final − inicial) ÷ (tiempo final − tiempo inicial).",
+"estrategia_icfes": "El ICFES evalúa la razón de cambio promedio en series de tiempo. Cuidado con contar los años (puntos) en vez de los intervalos (saltos).",
+"temas": [
+"razón de cambio promedio",
+"series de tiempo",
+"gráficas de barras"
+],
+"gemela": {
+"enunciado": "Las ventas de una tienda pasaron de 10 millones en 2018 a 30 millones en 2022. ¿Cuál fue el aumento promedio anual?",
+"opciones": {
+"A": "4 millones",
+"B": "20 millones",
+"C": "5 millones",
+"D": "6,7 millones"
+},
+"correcta": "C",
+"explicacion": "(30 − 10) ÷ (2022 − 2018) = 20 ÷ 4 = 5 millones por año."
+}
+},
+{
+"id": "P11-MAT-A039",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente predicciones basadas en tendencias de datos.",
+"lineamiento": "Pensamiento aleatorio y variacional. EBC 10°–11°: justifico o refuto inferencias y predicciones basadas en tendencias.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Evalúa la validez de una proyección a partir de la tendencia reciente de una serie.",
+"contexto": "Una asociación de artesanas de Guapi, en el Pacífico caucano, empezó a vender sus productos por internet. La gráfica muestra sus ventas en línea anuales.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas en línea (millones de pesos)",
+"etiquetas": [
+"2019",
+"2020",
+"2021",
+"2022",
+"2023"
+],
+"series": [
+{
+"nombre": "Ventas en línea",
+"datos": [
+8,
+20,
+26,
+30,
+33
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "Una artesana estima: «En 2024 venderemos alrededor de 36 millones en línea». ¿Cuál afirmación sobre esta estimación es más acertada?",
+"opciones": {
+"A": "Es razonable, porque los aumentos de los últimos años fueron cada vez menores (6, 4 y 3 millones), aunque es solo una estimación.",
+"B": "Es baja, porque si se repite el aumento de 2019 a 2020, en 2024 venderán 45 millones.",
+"C": "Es segura, porque las ventas siempre aumentan en la misma cantidad cada año.",
+"D": "Es imposible, porque las ventas tienen que disminuir después de cuatro años de crecimiento."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Proyectar con un dato atípico antiguo",
+"porque": "Elegiste B porque probablemente usaste el aumento de 12 millones del primer año, que no refleja la tendencia reciente.",
+"pregunta_guia": "¿Cómo han sido los aumentos en los últimos tres años?",
+"aprende": "Para proyectar se usa la tendencia más reciente: aumentos de 6, 4 y 3."
+},
+"C": {
+"error": "Afirmar certeza en una predicción y negar los datos",
+"porque": "Elegiste C porque probablemente pensaste que una tendencia garantiza el futuro y no revisaste que los aumentos cambian cada año.",
+"pregunta_guia": "¿Fueron iguales los aumentos de cada año?",
+"aprende": "Los aumentos varían (12, 6, 4, 3); una proyección siempre es aproximada."
+},
+"D": {
+"error": "Suponer una regla sin sustento",
+"porque": "Elegiste D porque probablemente creíste que todo crecimiento debe terminar pronto, sin evidencia en los datos.",
+"pregunta_guia": "¿Qué dato de la gráfica indica que las ventas van a bajar?",
+"aprende": "Nada en los datos indica una caída; la tendencia es de crecimiento cada vez más lento."
+}
+},
+"explicacion": "Paso 1: Aumentos anuales: +12, +6, +4, +3. Paso 2: La tendencia reciente es de crecimiento, cada vez más lento. Paso 3: Si en 2024 el aumento es de unos 3 millones, las ventas serían cerca de 33 + 3 = 36 millones. Paso 4: La estimación es razonable, pero no es segura, porque el futuro puede cambiar. Respuesta: A.",
+"tip": "Una proyección es una estimación con base en datos, nunca una certeza.",
+"truco": "Para predecir, mira los últimos pasos de la tendencia, no el primero.",
+"estrategia_icfes": "El ICFES pregunta por predicciones razonables. Descarta las opciones con certezas absolutas («siempre», «imposible») y las que usan datos poco representativos.",
+"temas": [
+"tendencias",
+"proyección",
+"argumentación con datos"
+],
+"gemela": {
+"contexto": "Los visitantes de un museo de Cali fueron, en miles: 2020: 10; 2021: 25; 2022: 31; 2023: 35; 2024: 38.",
+"enunciado": "¿Cuál estimación para 2025 es más razonable?",
+"opciones": {
+"A": "Alrededor de 53 mil, repitiendo el aumento de 2020 a 2021.",
+"B": "Alrededor de 41 mil, porque los aumentos recientes fueron de 6, 4 y 3 mil.",
+"C": "Exactamente 38 mil, porque los visitantes ya no pueden crecer.",
+"D": "Alrededor de 10 mil, porque siempre se vuelve al inicio."
+},
+"correcta": "B",
+"explicacion": "Aumentos: +15, +6, +4, +3. Con la tendencia reciente (~+3 mil), en 2025 habría cerca de 41 mil visitantes."
+}
+},
+{
+"id": "P11-MAT-A040",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información de tablas de doble entrada y calcula frecuencias relativas condicionadas.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto nociones de distribución de frecuencias y relaciones entre variables.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Calcula un porcentaje dentro de un subgrupo en una tabla de doble entrada.",
+"contexto": "Se encuestó a 200 jóvenes de Cali entre 18 y 25 años sobre sus hábitos financieros. La tabla resume si ahorran con regularidad y si tienen una cuenta bancaria o billetera digital.",
+"tabla": {
+"titulo": "Hábitos financieros de 200 jóvenes",
+"cols": [
+"",
+"Tiene cuenta",
+"No tiene cuenta",
+"Total"
+],
+"filas": [
+[
+"Ahorra",
+"60",
+"30",
+"90"
+],
+[
+"No ahorra",
+"40",
+"70",
+"110"
+],
+[
+"Total",
+"100",
+"100",
+"200"
+]
+]
+},
+"enunciado": "¿Qué porcentaje de los jóvenes que tienen cuenta ahorra con regularidad?",
+"opciones": {
+"A": "30 %",
+"B": "66,7 %",
+"C": "60 %",
+"D": "45 %"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar el total general como referencia",
+"porque": "Elegiste 30 % porque probablemente dividiste 60 entre los 200 encuestados.",
+"pregunta_guia": "¿La pregunta habla de todos los jóvenes o solo de los que tienen cuenta?",
+"aprende": "El grupo de referencia son los 100 que tienen cuenta."
+},
+"B": {
+"error": "Invertir la condición",
+"porque": "Elegiste 66,7 % porque probablemente calculaste qué porcentaje de los que ahorran tiene cuenta (60 ÷ 90).",
+"pregunta_guia": "¿El total de referencia son los que ahorran o los que tienen cuenta?",
+"aprende": "«De los que tienen cuenta» indica que el denominador es 100."
+},
+"D": {
+"error": "Calcular un porcentaje general",
+"porque": "Elegiste 45 % porque probablemente calculaste el porcentaje total de jóvenes que ahorran (90 ÷ 200).",
+"pregunta_guia": "¿Ese 45 % se refiere a todos o solo a quienes tienen cuenta?",
+"aprende": "Hay que restringirse a la columna «Tiene cuenta»."
+}
+},
+"explicacion": "Paso 1: El grupo de referencia es «los que tienen cuenta»: 100 jóvenes (columna). Paso 2: De ellos, ahorran 60. Paso 3: Porcentaje: 60 ÷ 100 × 100 = 60 %. Respuesta: C.",
+"tip": "La frase «de los que…» te dice cuál es el total (denominador).",
+"truco": "«De los que X» → divide entre el total de X.",
+"estrategia_icfes": "En tablas de doble entrada el ICFES cambia el grupo de referencia entre preguntas. Identifica la fila o columna que actúa como total antes de dividir.",
+"temas": [
+"tablas de doble entrada",
+"frecuencia relativa condicional",
+"porcentajes"
+],
+"gemela": {
+"contexto": "En un colegio hay 200 jóvenes; 80 tienen bicicleta y, de ellos, 20 la usan a diario.",
+"enunciado": "¿Qué porcentaje de los jóvenes que tienen bicicleta la usa a diario?",
+"opciones": {
+"A": "10 %",
+"B": "25 %",
+"C": "40 %",
+"D": "20 %"
+},
+"correcta": "B",
+"explicacion": "20 ÷ 80 = 0,25 = 25 %. (10 % sería 20 ÷ 200 y 40 % sería 80 ÷ 200)."
+}
+},
+{
+"id": "P11-MAT-A041",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): plantea y resuelve problemas en los que reconoce cuándo dos eventos son o no independientes y calcula probabilidades condicionales a partir de tablas.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: resuelvo problemas usando conceptos básicos de probabilidad condicional.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula una probabilidad condicional a partir de una tabla de doble entrada.",
+"contexto": "Se encuestó a 200 jóvenes de Cali entre 18 y 25 años sobre sus hábitos financieros. La tabla resume si ahorran con regularidad y si tienen una cuenta bancaria o billetera digital.",
+"tabla": {
+"titulo": "Hábitos financieros de 200 jóvenes",
+"cols": [
+"",
+"Tiene cuenta",
+"No tiene cuenta",
+"Total"
+],
+"filas": [
+[
+"Ahorra",
+"60",
+"30",
+"90"
+],
+[
+"No ahorra",
+"40",
+"70",
+"110"
+],
+[
+"Total",
+"100",
+"100",
+"200"
+]
+]
+},
+"enunciado": "Se elige al azar a uno de los jóvenes que NO ahorran. ¿Cuál es la probabilidad, aproximada, de que tampoco tenga cuenta?",
+"opciones": {
+"A": "35 %",
+"B": "70 %",
+"C": "36,4 %",
+"D": "63,6 %"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar el total general como espacio muestral",
+"porque": "Elegiste 35 % porque probablemente dividiste 70 entre 200.",
+"pregunta_guia": "Si ya sabemos que el joven no ahorra, ¿entre cuántos jóvenes se elige?",
+"aprende": "La condición reduce el espacio muestral a los 110 que no ahorran."
+},
+"B": {
+"error": "Usar como referencia la columna equivocada",
+"porque": "Elegiste 70 % porque probablemente dividiste 70 entre los 100 que no tienen cuenta.",
+"pregunta_guia": "¿La condición conocida es «no ahorra» o «no tiene cuenta»?",
+"aprende": "P(no cuenta | no ahorra) = 70 ÷ 110; 70 ÷ 100 es P(no ahorra | no cuenta)."
+},
+"C": {
+"error": "Tomar la celda complementaria",
+"porque": "Elegiste 36,4 % porque probablemente calculaste la probabilidad de que SÍ tenga cuenta (40 ÷ 110).",
+"pregunta_guia": "¿Qué celda corresponde a «no ahorra» y «no tiene cuenta» a la vez?",
+"aprende": "La celda correcta es 70; 40 corresponde a los que no ahorran pero sí tienen cuenta."
+}
+},
+"explicacion": "Paso 1: La condición es «no ahorra»: espacio muestral de 110 jóvenes. Paso 2: De ellos, no tienen cuenta 70. Paso 3: P = 70 ÷ 110 ≈ 0,636. Paso 4: Aproximadamente 63,6 %. Respuesta: D.",
+"tip": "En una probabilidad condicional, la condición te dice en qué fila o columna «vives».",
+"truco": "P(A | B) = casos con A y B ÷ casos con B.",
+"estrategia_icfes": "El ICFES evalúa probabilidad condicional con tablas de contingencia. Subraya la condición («de los que…», «si se sabe que…») y úsala como denominador.",
+"temas": [
+"probabilidad condicional",
+"tablas de contingencia",
+"espacio muestral"
+],
+"gemela": {
+"contexto": "De 120 personas encuestadas, 50 no usan transporte público; de esas 50, 30 tienen carro.",
+"enunciado": "Si se elige al azar una persona que no usa transporte público, ¿cuál es la probabilidad de que tenga carro?",
+"opciones": {
+"A": "25 %",
+"B": "60 %",
+"C": "40 %",
+"D": "41,7 %"
+},
+"correcta": "B",
+"explicacion": "Espacio muestral: 50 personas. P = 30 ÷ 50 = 0,6 = 60 %."
+}
+},
+{
+"id": "P11-MAT-A042",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados presentados en estudios estadísticos y en medios.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Distingue entre diferencia en puntos porcentuales y variación porcentual relativa.",
+"contexto": "La tabla muestra el porcentaje de estudiantes de 11° de un colegio de Palmira que alcanzó los niveles 3 y 4 en matemáticas en la prueba Saber 11.",
+"tabla": {
+"titulo": "Estudiantes en niveles 3 y 4 de matemáticas",
+"cols": [
+"Año",
+"Porcentaje"
+],
+"filas": [
+[
+"2022",
+"40 %"
+],
+[
+"2023",
+"50 %"
+]
+]
+},
+"enunciado": "En la reunión de padres, un directivo dijo: «El porcentaje de estudiantes en niveles 3 y 4 aumentó un 10 %». ¿Cuál es la forma más precisa de corregir su afirmación?",
+"opciones": {
+"A": "Aumentó un 50 %, porque ese fue el porcentaje alcanzado en 2023.",
+"B": "Aumentó 10 puntos porcentuales, que corresponde a un aumento relativo del 25 %.",
+"C": "Aumentó un 20 %, porque 10 es el 20 % de 50.",
+"D": "Aumentó un 90 %, porque 40 + 50 = 90."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir el valor final con el cambio",
+"porque": "Elegiste A porque probablemente tomaste el porcentaje de 2023 como si fuera el aumento.",
+"pregunta_guia": "¿Cuánto cambió el porcentaje de 2022 a 2023?",
+"aprende": "El cambio es 50 − 40 = 10 puntos porcentuales."
+},
+"C": {
+"error": "Calcular el cambio relativo con el valor final",
+"porque": "Elegiste C porque probablemente dividiste 10 entre 50 (valor final) en lugar de 40.",
+"pregunta_guia": "¿El aumento relativo se compara con el valor inicial o con el final?",
+"aprende": "Aumento relativo = 10 ÷ 40 = 25 %."
+},
+"D": {
+"error": "Sumar porcentajes sin sentido",
+"porque": "Elegiste D porque probablemente sumaste los dos porcentajes.",
+"pregunta_guia": "¿Sumar los porcentajes de dos años distintos mide un cambio?",
+"aprende": "Un cambio se mide con una resta (absoluta) o con una razón (relativa)."
+}
+},
+"explicacion": "Paso 1: Cambio absoluto: 50 % − 40 % = 10 puntos porcentuales. Paso 2: Cambio relativo: 10 ÷ 40 × 100 = 25 %. Paso 3: Decir «aumentó un 10 %» confunde ambas ideas: un aumento del 10 % sobre 40 % daría 44 %. Paso 4: Lo preciso es «aumentó 10 puntos porcentuales, es decir, un 25 % relativo». Respuesta: B.",
+"tip": "Cuando comparas dos porcentajes, la resta se expresa en «puntos porcentuales».",
+"truco": "Restar porcentajes → puntos porcentuales; dividir entre el inicial → % relativo.",
+"estrategia_icfes": "El ICFES usa noticias y discursos con errores en porcentajes. Calcula tanto la diferencia en puntos como el cambio relativo, y elige la opción que los distingue.",
+"temas": [
+"puntos porcentuales",
+"variación relativa",
+"lectura crítica de datos"
+],
+"gemela": {
+"enunciado": "El desempleo juvenil de una ciudad pasó de 20 % a 30 %. ¿Cuál descripción es correcta?",
+"opciones": {
+"A": "Subió 10 %, porque 30 − 20 = 10.",
+"B": "Subió 10 puntos porcentuales, un aumento relativo del 50 %.",
+"C": "Subió 33,3 %, porque 10 ÷ 30 ≈ 0,333.",
+"D": "Subió 30 %, que es el valor final."
+},
+"correcta": "B",
+"explicacion": "30 − 20 = 10 puntos porcentuales; 10 ÷ 20 = 50 % de aumento relativo."
+}
+},
+{
+"id": "P11-MAT-A043",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula medidas de tendencia central de conjuntos combinados y reconoce la media ponderada.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de centralización.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula la media combinada de dos grupos de distinto tamaño.",
+"contexto": "Un colegio de Cartago tiene dos cursos de grado 11°. La tabla muestra el número de estudiantes y el puntaje promedio de cada curso en un simulacro de matemáticas.",
+"tabla": {
+"titulo": "Resultados del simulacro por curso",
+"cols": [
+"Curso",
+"Estudiantes",
+"Promedio"
+],
+"filas": [
+[
+"11°A",
+"30",
+"60"
+],
+[
+"11°B",
+"20",
+"70"
+]
+]
+},
+"enunciado": "¿Cuál es el puntaje promedio de todos los estudiantes de grado 11° del colegio?",
+"opciones": {
+"A": "64",
+"B": "65",
+"C": "66",
+"D": "130"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Promediar promedios sin ponderar",
+"porque": "Elegiste 65 porque probablemente calculaste (60 + 70) ÷ 2, como si ambos cursos tuvieran el mismo número de estudiantes.",
+"pregunta_guia": "¿Cuál curso tiene más estudiantes y cómo debe influir eso en el promedio?",
+"aprende": "Cada promedio se pondera por el tamaño de su grupo."
+},
+"C": {
+"error": "Intercambiar los pesos",
+"porque": "Elegiste 66 porque probablemente multiplicaste 30 × 70 y 20 × 60, cruzando los datos.",
+"pregunta_guia": "¿Cuál es el promedio del curso que tiene 30 estudiantes?",
+"aprende": "11°A: 30 estudiantes con promedio 60; 11°B: 20 con promedio 70."
+},
+"D": {
+"error": "Sumar promedios",
+"porque": "Elegiste 130 porque probablemente sumaste los dos promedios sin dividir.",
+"pregunta_guia": "¿Un promedio puede ser mayor que el puntaje de cada curso?",
+"aprende": "El promedio combinado debe estar entre 60 y 70."
+}
+},
+"explicacion": "Paso 1: Puntos totales de 11°A: 30 × 60 = 1.800. Paso 2: Puntos totales de 11°B: 20 × 70 = 1.400. Paso 3: Total: 1.800 + 1.400 = 3.200 puntos en 50 estudiantes. Paso 4: Promedio general: 3.200 ÷ 50 = 64. Paso 5: Queda más cerca de 60 porque 11°A tiene más estudiantes. Respuesta: A.",
+"tip": "El promedio combinado se «inclina» hacia el grupo más grande.",
+"truco": "Media combinada = (n₁·x̄₁ + n₂·x̄₂) ÷ (n₁ + n₂).",
+"estrategia_icfes": "El ICFES evalúa la media ponderada con grupos de distinto tamaño. El distractor más común es el promedio simple de promedios; verifica que tu resultado quede más cerca del grupo más numeroso.",
+"temas": [
+"media ponderada",
+"media combinada",
+"propiedades de la media"
+],
+"gemela": {
+"enunciado": "Un grupo de 10 estudiantes tiene promedio 80 y otro de 30 estudiantes tiene promedio 60. ¿Cuál es el promedio de los 40?",
+"opciones": {
+"A": "70",
+"B": "65",
+"C": "75",
+"D": "140"
+},
+"correcta": "B",
+"explicacion": "(10 × 80 + 30 × 60) ÷ 40 = (800 + 1.800) ÷ 40 = 2.600 ÷ 40 = 65."
+}
+},
+{
+"id": "P11-MAT-A044",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística de contextos económicos, como la construcción de índices ponderados.",
+"lineamiento": "Pensamiento aleatorio y numérico. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Interpreta el aporte de cada componente a un promedio ponderado de variaciones de precios.",
+"contexto": "La inflación que siente una familia depende de cómo reparte su gasto. La tabla muestra, para la familia Cuero, de Buenaventura, qué parte de su gasto va a cada grupo y cuánto subieron los precios de cada grupo en un año. Datos ilustrativos.",
+"tabla": {
+"titulo": "Gasto familiar y variación de precios",
+"cols": [
+"Grupo",
+"Parte del gasto",
+"Variación de precios"
+],
+"filas": [
+[
+"Alimentos",
+"30 %",
+"10 %"
+],
+[
+"Vivienda",
+"40 %",
+"9 %"
+],
+[
+"Transporte",
+"20 %",
+"16 %"
+],
+[
+"Educación",
+"10 %",
+"20 %"
+]
+]
+},
+"enunciado": "¿Qué grupo aportó más a la inflación total que sintió la familia Cuero ese año?",
+"opciones": {
+"A": "Educación",
+"B": "Transporte",
+"C": "Vivienda",
+"D": "Alimentos"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Mirar solo la variación de precios",
+"porque": "Elegiste Educación porque probablemente te fijaste en que tuvo la mayor subida de precios (20 %), sin considerar su peso.",
+"pregunta_guia": "¿Qué parte del gasto de la familia va a educación?",
+"aprende": "Aporte = peso × variación: educación 0,10 × 20 = 2,0 puntos."
+},
+"B": {
+"error": "Combinar mal peso y variación",
+"porque": "Elegiste Transporte porque probablemente viste una variación alta (16 %) y un peso intermedio, sin calcular el producto.",
+"pregunta_guia": "¿Cuánto es 0,20 × 16 comparado con 0,40 × 9?",
+"aprende": "Transporte aporta 3,2 puntos; vivienda, 3,6."
+},
+"D": {
+"error": "Estimar sin calcular todos los aportes",
+"porque": "Elegiste Alimentos probablemente porque es un gasto básico y pensaste que siempre pesa más.",
+"pregunta_guia": "¿Cuánto aporta alimentos: 0,30 × 10?",
+"aprende": "Alimentos aporta 3,0 puntos, menos que vivienda."
+}
+},
+"explicacion": "Paso 1: El aporte de cada grupo = parte del gasto × variación de precios. Paso 2: Alimentos: 0,30 × 10 = 3,0; Vivienda: 0,40 × 9 = 3,6; Transporte: 0,20 × 16 = 3,2; Educación: 0,10 × 20 = 2,0. Paso 3: Inflación de la familia: 3,0 + 3,6 + 3,2 + 2,0 = 11,8 %. Paso 4: El mayor aporte es el de Vivienda (3,6 puntos). Respuesta: C.",
+"tip": "El IPC se construye así: cada precio pesa según cuánto gastan los hogares en él.",
+"truco": "Aporte = peso × cambio. Un cambio grande con peso pequeño puede aportar poco.",
+"estrategia_icfes": "El ICFES usa promedios ponderados en contextos económicos. Multiplica cada valor por su peso antes de comparar; no te dejes llevar por el número más grande de una sola columna.",
+"temas": [
+"promedio ponderado",
+"inflación (IPC)",
+"estadística financiera"
+],
+"gemela": {
+"contexto": "Una persona gasta el 70 % en alimentos, cuyos precios subieron 6 %, y el 30 % en transporte, cuyos precios subieron 12 %.",
+"enunciado": "¿Qué grupo aportó más a su inflación personal?",
+"opciones": {
+"A": "Transporte, porque subió el doble.",
+"B": "Ambos aportaron lo mismo.",
+"C": "Alimentos, porque aporta 4,2 puntos frente a 3,6 de transporte.",
+"D": "Ninguno, porque la inflación es igual para todos."
+},
+"correcta": "C",
+"explicacion": "Alimentos: 0,70 × 6 = 4,2; transporte: 0,30 × 12 = 3,6. Alimentos aporta más."
+}
+},
+{
+"id": "P11-MAT-A045",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística de contextos económicos presentada en gráficas de líneas.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica en una gráfica de líneas los puntos que superan un valor de referencia.",
+"contexto": "La gráfica muestra el precio promedio del kilo de tomate en una galería de mercado de Cali durante el primer semestre de un año. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Precio del kilo de tomate (miles de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Precio",
+"datos": [
+3.0,
+3.4,
+4.2,
+3.8,
+2.9,
+3.1
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿En cuántos meses el precio del kilo de tomate fue mayor que $3.500?",
+"opciones": {
+"A": "3",
+"B": "4",
+"C": "2",
+"D": "1"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Incluir un valor cercano que no cumple",
+"porque": "Elegiste 3 porque probablemente contaste febrero ($3.400) como si superara $3.500.",
+"pregunta_guia": "¿3,4 mil pesos es mayor o menor que 3,5 mil pesos?",
+"aprende": "$3.400 < $3.500; solo marzo ($4.200) y abril ($3.800) superan el valor."
+},
+"B": {
+"error": "Contar los meses por encima de otro valor",
+"porque": "Elegiste 4 porque probablemente contaste los meses con precio mayor que $3.000 (Feb, Mar, Abr, Jun).",
+"pregunta_guia": "¿Cuál es el valor de referencia que dice el enunciado?",
+"aprende": "La referencia es $3.500, es decir, 3,5 en el eje en miles."
+},
+"D": {
+"error": "Contar solo el máximo",
+"porque": "Elegiste 1 porque probablemente solo notaste el pico de marzo.",
+"pregunta_guia": "¿Qué precio tuvo abril?",
+"aprende": "Abril, con $3.800, también supera $3.500."
+}
+},
+"explicacion": "Paso 1: El eje está en miles: $3.500 corresponde a 3,5. Paso 2: Compara cada mes: Ene 3,0 (no); Feb 3,4 (no); Mar 4,2 (sí); Abr 3,8 (sí); May 2,9 (no); Jun 3,1 (no). Paso 3: Solo marzo y abril. Respuesta: 2 meses (C).",
+"tip": "Revisa las unidades del eje: si dice «miles de pesos», 3,5 significa $3.500.",
+"truco": "Traza mentalmente una línea horizontal en el valor de referencia y cuenta los puntos que quedan por encima.",
+"estrategia_icfes": "El ICFES pregunta por datos que cumplen una condición. Convierte primero las unidades y luego compara uno por uno; los valores muy cercanos al límite son la trampa.",
+"temas": [
+"gráficas de líneas",
+"unidades en los ejes",
+"comparación con un umbral"
+],
+"gemela": {
+"contexto": "El precio del kilo de papa (en miles) en 5 semanas fue: 2,0; 2,6; 2,4; 3,1; 2,8.",
+"enunciado": "¿En cuántas semanas el precio fue mayor que $2.500?",
+"opciones": {
+"A": "2",
+"B": "3",
+"C": "4",
+"D": "5"
+},
+"correcta": "B",
+"explicacion": "Superan 2,5: 2,6; 3,1 y 2,8. Son 3 semanas (2,4 y 2,0 no superan)."
+}
+},
+{
+"id": "P11-MAT-A046",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): calcula e interpreta medidas de dispersión como el rango en datos de contextos económicos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de dispersión (rango).",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula el rango de una serie de precios leída en una gráfica y lo expresa en pesos.",
+"contexto": "La gráfica muestra el precio promedio del kilo de tomate en una galería de mercado de Cali durante el primer semestre de un año. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Precio del kilo de tomate (miles de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Precio",
+"datos": [
+3.0,
+3.4,
+4.2,
+3.8,
+2.9,
+3.1
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿Cuál fue el rango (diferencia entre el precio máximo y el mínimo) del kilo de tomate en el semestre?",
+"opciones": {
+"A": "$1.300",
+"B": "$1.100",
+"C": "$3.400",
+"D": "$7.100"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar el último dato en lugar del mínimo",
+"porque": "Elegiste $1.100 porque probablemente restaste el máximo menos el precio de junio (4,2 − 3,1).",
+"pregunta_guia": "¿Cuál fue el precio más bajo del semestre y en qué mes?",
+"aprende": "El mínimo es mayo, con $2.900."
+},
+"C": {
+"error": "Confundir rango con media",
+"porque": "Elegiste $3.400 porque probablemente calculaste el precio promedio (20,4 ÷ 6).",
+"pregunta_guia": "¿El rango mide el centro de los datos o qué tan separados están?",
+"aprende": "Rango = máximo − mínimo; mide dispersión."
+},
+"D": {
+"error": "Sumar en lugar de restar",
+"porque": "Elegiste $7.100 porque probablemente sumaste el máximo y el mínimo.",
+"pregunta_guia": "¿«Diferencia» indica suma o resta?",
+"aprende": "4,2 − 2,9 = 1,3 mil pesos."
+}
+},
+"explicacion": "Paso 1: Precio máximo: marzo, 4,2 mil = $4.200. Paso 2: Precio mínimo: mayo, 2,9 mil = $2.900. Paso 3: Rango = 4.200 − 2.900 = $1.300. Respuesta: A.",
+"tip": "El rango es la medida de dispersión más rápida, pero solo usa dos datos: el mayor y el menor.",
+"truco": "Rango = techo − piso.",
+"estrategia_icfes": "El ICFES pide medidas de dispersión leyendo gráficas. Ubica el punto más alto y el más bajo, conviértelos a la unidad pedida y resta.",
+"temas": [
+"rango",
+"dispersión",
+"lectura de gráficas"
+],
+"gemela": {
+"enunciado": "Las temperaturas máximas de una semana en Cali fueron 29, 31, 28, 33, 30 °C. ¿Cuál es el rango?",
+"opciones": {
+"A": "3 °C",
+"B": "5 °C",
+"C": "30,2 °C",
+"D": "61 °C"
+},
+"correcta": "B",
+"explicacion": "Máximo 33 − mínimo 28 = 5 °C."
+}
+},
+{
+"id": "P11-MAT-A047",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente afirmaciones sobre variaciones porcentuales en contextos económicos.",
+"lineamiento": "Pensamiento numérico y aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Valida una afirmación sobre una disminución porcentual con el procedimiento correcto.",
+"contexto": "La gráfica muestra el precio promedio del kilo de tomate en una galería de mercado de Cali durante el primer semestre de un año. Datos ilustrativos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Precio del kilo de tomate (miles de pesos)",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Precio",
+"datos": [
+3.0,
+3.4,
+4.2,
+3.8,
+2.9,
+3.1
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "Un vendedor afirma: «En mayo el precio del tomate bajó cerca de un 24 % con respecto a abril». ¿Es correcta su afirmación?",
+"opciones": {
+"A": "No, porque la disminución fue de 900 ÷ 2.900, es decir, cerca de un 31 %.",
+"B": "Sí, porque bajó $900, que es aproximadamente el 23,7 % de $3.800.",
+"C": "Sí, porque mayo fue el mes con el precio más bajo del semestre.",
+"D": "No, porque el precio solo bajó 0,9, es decir, un 0,9 %."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Dividir entre el valor final",
+"porque": "Elegiste A porque probablemente calculaste la disminución respecto al precio de mayo y no al de abril.",
+"pregunta_guia": "Si el precio baja de abril a mayo, ¿cuál es el valor de partida?",
+"aprende": "El porcentaje de cambio se calcula sobre el valor inicial: 900 ÷ 3.800."
+},
+"C": {
+"error": "Conclusión correcta con una razón que no la prueba",
+"porque": "Elegiste C porque probablemente aceptaste la afirmación sin verificar el porcentaje.",
+"pregunta_guia": "¿Que mayo tenga el precio más bajo demuestra que la caída fue del 24 %?",
+"aprende": "Para validar un porcentaje hay que calcularlo."
+},
+"D": {
+"error": "Confundir la diferencia en miles con un porcentaje",
+"porque": "Elegiste D porque probablemente leíste 0,9 (mil pesos) como si fuera 0,9 %.",
+"pregunta_guia": "¿0,9 en el eje significa 0,9 % o $900?",
+"aprende": "0,9 mil pesos = $900; luego se compara con $3.800."
+}
+},
+"explicacion": "Paso 1: Abril: $3.800; mayo: $2.900. Paso 2: Disminución: 3.800 − 2.900 = $900. Paso 3: Porcentaje respecto al valor inicial: 900 ÷ 3.800 ≈ 0,237 = 23,7 %. Paso 4: 23,7 % es «cerca de un 24 %»: la afirmación es correcta. Respuesta: B.",
+"tip": "Validar es recalcular: no aceptes ni rechaces un dato sin hacer la cuenta.",
+"truco": "% de cambio = cambio ÷ valor ANTES × 100 (sirve para subidas y bajadas).",
+"estrategia_icfes": "El ICFES presenta afirmaciones con cifras y pide validarlas. Hazlas tú mismo; la opción correcta combina el veredicto con el procedimiento que lo demuestra.",
+"temas": [
+"variación porcentual",
+"validación de afirmaciones",
+"lectura de gráficas"
+],
+"gemela": {
+"enunciado": "Un producto bajó de $5.000 a $4.000. Lina dice que bajó un 25 %. ¿Tiene razón?",
+"opciones": {
+"A": "Sí, porque 1.000 ÷ 4.000 = 25 %.",
+"B": "No, porque bajó 1.000 ÷ 5.000 = 20 %.",
+"C": "Sí, porque bajó $1.000.",
+"D": "No, porque bajó 1 %."
+},
+"correcta": "B",
+"explicacion": "El cambio se compara con el valor inicial: 1.000 ÷ 5.000 = 0,20 = 20 %. Lina dividió entre el valor final."
+}
+},
+{
+"id": "P11-MAT-A048",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información presentada en tablas de frecuencias relativas y la transforma en frecuencias absolutas.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos. EBC 10°–11°: interpreto nociones de distribución de frecuencias.",
+"afirmacion": "Comprende y transforma la información cuantitativa presentada en distintos formatos.",
+"evidencia": "Convierte un porcentaje de una tabla en número de personas.",
+"contexto": "Una tienda de tecnología del centro de Cali preguntó a 250 compradores por su medio de pago preferido. La tabla muestra los resultados en porcentajes.",
+"tabla": {
+"titulo": "Medio de pago preferido (250 compradores)",
+"cols": [
+"Medio de pago",
+"Porcentaje"
+],
+"filas": [
+[
+"Efectivo",
+"40 %"
+],
+[
+"Tarjeta débito",
+"24 %"
+],
+[
+"Billetera digital",
+"28 %"
+],
+[
+"Tarjeta de crédito",
+"8 %"
+]
+]
+},
+"enunciado": "¿Cuántos compradores prefieren pagar con billetera digital?",
+"opciones": {
+"A": "28",
+"B": "60",
+"C": "100",
+"D": "70"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir porcentaje con cantidad",
+"porque": "Elegiste 28 porque probablemente tomaste el porcentaje como si fuera el número de personas.",
+"pregunta_guia": "¿28 % de cuántas personas?",
+"aprende": "Cantidad = porcentaje × total = 0,28 × 250."
+},
+"B": {
+"error": "Leer la fila equivocada",
+"porque": "Elegiste 60 porque probablemente calculaste el 24 % (tarjeta débito).",
+"pregunta_guia": "¿Qué porcentaje corresponde a billetera digital?",
+"aprende": "Billetera digital: 28 %."
+},
+"C": {
+"error": "Leer la fila equivocada",
+"porque": "Elegiste 100 porque probablemente calculaste el 40 % (efectivo).",
+"pregunta_guia": "¿Revisaste el nombre de la fila antes de calcular?",
+"aprende": "Ubica primero la categoría correcta y luego opera."
+}
+},
+"explicacion": "Paso 1: Ubica la fila «Billetera digital»: 28 %. Paso 2: Calcula el 28 % de 250: 0,28 × 250 = 70. Respuesta: 70 compradores (D).",
+"tip": "Un truco para porcentajes: 10 % de 250 es 25; 28 % ≈ 2,8 veces 25 = 70.",
+"truco": "Cantidad = (porcentaje ÷ 100) × total.",
+"estrategia_icfes": "El ICFES alterna entre porcentajes y cantidades. Identifica el total de la muestra en el contexto y conviértelo a cantidades solo cuando la pregunta lo pide.",
+"temas": [
+"frecuencia relativa",
+"porcentajes",
+"tablas"
+],
+"gemela": {
+"enunciado": "En una encuesta a 400 personas, el 15 % prefiere pagar con tarjeta de crédito. ¿Cuántas personas son?",
+"opciones": {
+"A": "15",
+"B": "60",
+"C": "40",
+"D": "150"
+},
+"correcta": "B",
+"explicacion": "0,15 × 400 = 60 personas."
+}
+},
+{
+"id": "P11-MAT-A049",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente conclusiones obtenidas de tablas de frecuencias.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Selecciona el dato que respalda una conclusión sobre una mayoría.",
+"contexto": "Una tienda de tecnología del centro de Cali preguntó a 250 compradores por su medio de pago preferido. La tabla muestra los resultados en porcentajes.",
+"tabla": {
+"titulo": "Medio de pago preferido (250 compradores)",
+"cols": [
+"Medio de pago",
+"Porcentaje"
+],
+"filas": [
+[
+"Efectivo",
+"40 %"
+],
+[
+"Tarjeta débito",
+"24 %"
+],
+[
+"Billetera digital",
+"28 %"
+],
+[
+"Tarjeta de crédito",
+"8 %"
+]
+]
+},
+"enunciado": "El gerente concluye: «La mayoría de nuestros compradores prefiere medios de pago electrónicos». ¿Qué razón respalda su conclusión?",
+"opciones": {
+"A": "El efectivo es el medio de pago con mayor porcentaje.",
+"B": "La billetera digital tiene mayor porcentaje que la tarjeta débito.",
+"C": "Débito, billetera digital y crédito suman 60 %, más de la mitad.",
+"D": "La tarjeta de crédito es la menos preferida, con 8 %."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar un dato que va en contra de la conclusión",
+"porque": "Elegiste A porque probablemente pensaste que un dato verdadero siempre sirve como argumento.",
+"pregunta_guia": "Que el efectivo tenga el mayor porcentaje, ¿apoya o debilita la idea de que se prefieren los electrónicos?",
+"aprende": "El argumento debe respaldar la conclusión, no solo ser verdadero."
+},
+"B": {
+"error": "Comparar categorías sin llegar a la conclusión",
+"porque": "Elegiste B porque probablemente comparaste dos medios electrónicos entre sí.",
+"pregunta_guia": "¿Comparar billetera con débito dice si los electrónicos son más de la mitad?",
+"aprende": "Para hablar de «mayoría» hay que sumar todos los electrónicos y compararlos con 50 %."
+},
+"D": {
+"error": "Usar un dato aislado irrelevante",
+"porque": "Elegiste D porque probablemente te fijaste en el menor porcentaje.",
+"pregunta_guia": "¿Qué necesitas sumar para saber si los electrónicos superan el 50 %?",
+"aprende": "Suma: 24 + 28 + 8 = 60 % > 50 %."
+}
+},
+"explicacion": "Paso 1: Identifica los medios electrónicos: tarjeta débito, billetera digital y tarjeta de crédito. Paso 2: Suma sus porcentajes: 24 + 28 + 8 = 60 %. Paso 3: «Mayoría» significa más del 50 %; 60 % > 50 %. Paso 4: Aunque el efectivo es la categoría individual más grande, los electrónicos juntos son mayoría. Respuesta: C.",
+"tip": "La categoría más grande no siempre es la mayoría: la mayoría exige más del 50 %.",
+"truco": "Mayoría = más de la mitad. Agrupa las categorías y compara con 50 %.",
+"estrategia_icfes": "El ICFES pide elegir el dato que sustenta una conclusión. Busca la opción que conecte directamente los datos con la palabra clave de la conclusión (aquí, «mayoría»).",
+"temas": [
+"mayoría y pluralidad",
+"agrupación de categorías",
+"argumentación con datos"
+],
+"gemela": {
+"contexto": "En una encuesta sobre transporte en Cali: bus 35 %, bicicleta 20 %, moto 25 %, carro 20 %.",
+"enunciado": "¿Qué dato respalda que la mayoría NO usa vehículos motorizados propios (moto o carro)?",
+"opciones": {
+"A": "El bus es el medio con mayor porcentaje.",
+"B": "Bus y bicicleta suman 55 %, más de la mitad.",
+"C": "La moto supera al carro.",
+"D": "La bicicleta y el carro tienen el mismo porcentaje."
+},
+"correcta": "B",
+"explicacion": "Bus (35 %) + bicicleta (20 %) = 55 % > 50 %, por lo que la mayoría no usa moto ni carro."
+}
+},
+{
+"id": "P11-MAT-A050",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): usa la media y la desviación estándar para ubicar un dato dentro de una distribución.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: uso comprensivamente medidas de localización y dispersión (desviación estándar, normalidad).",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Calcula cuántas desviaciones estándar se aleja un dato de la media.",
+"contexto": "En un simulacro departamental del Valle del Cauca, Mateo obtuvo 70 puntos en Matemáticas y 75 en Lectura Crítica. La tabla muestra la media y la desviación estándar de cada prueba entre todos los participantes.",
+"tabla": {
+"titulo": "Resultados del simulacro departamental",
+"cols": [
+"Prueba",
+"Puntaje de Mateo",
+"Media",
+"Desviación estándar"
+],
+"filas": [
+[
+"Matemáticas",
+"70",
+"60",
+"5"
+],
+[
+"Lectura Crítica",
+"75",
+"70",
+"10"
+]
+]
+},
+"enunciado": "¿A cuántas desviaciones estándar por encima de la media está el puntaje de Mateo en Matemáticas?",
+"opciones": {
+"A": "10",
+"B": "2",
+"C": "14",
+"D": "0,5"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Dar la diferencia en puntos",
+"porque": "Elegiste 10 porque probablemente calculaste 70 − 60 y no lo dividiste entre la desviación estándar.",
+"pregunta_guia": "¿Cuántas veces cabe la desviación estándar (5) en esos 10 puntos?",
+"aprende": "Número de desviaciones = (dato − media) ÷ desviación = 10 ÷ 5."
+},
+"C": {
+"error": "Dividir el dato sin restar la media",
+"porque": "Elegiste 14 porque probablemente dividiste 70 entre 5.",
+"pregunta_guia": "¿Desde qué valor se mide la distancia: desde 0 o desde la media?",
+"aprende": "La distancia se mide desde la media: 70 − 60."
+},
+"D": {
+"error": "Usar los datos de la otra prueba",
+"porque": "Elegiste 0,5 porque probablemente hiciste el cálculo con Lectura Crítica: (75 − 70) ÷ 10.",
+"pregunta_guia": "¿Sobre qué prueba se pregunta?",
+"aprende": "Matemáticas: (70 − 60) ÷ 5 = 2."
+}
+},
+"explicacion": "Paso 1: Distancia a la media en Matemáticas: 70 − 60 = 10 puntos. Paso 2: Divide entre la desviación estándar: 10 ÷ 5 = 2. Paso 3: Mateo está 2 desviaciones estándar por encima de la media. Respuesta: B.",
+"tip": "La desviación estándar funciona como una «regla» para medir qué tan lejos está un dato del promedio.",
+"truco": "z = (dato − media) ÷ desviación estándar.",
+"estrategia_icfes": "El ICFES puede pedir comparar puntajes de pruebas con escalas distintas. Calcula la distancia a la media en unidades de desviación estándar para cada prueba por separado.",
+"temas": [
+"desviación estándar",
+"puntaje estandarizado",
+"posición relativa"
+],
+"gemela": {
+"enunciado": "En una prueba con media 65 y desviación estándar 5, Daniela obtuvo 80 puntos. ¿A cuántas desviaciones estándar por encima de la media está?",
+"opciones": {
+"A": "15",
+"B": "16",
+"C": "3",
+"D": "0,33"
+},
+"correcta": "C",
+"explicacion": "(80 − 65) ÷ 5 = 15 ÷ 5 = 3 desviaciones estándar."
+}
+},
+{
+"id": "P11-MAT-A051",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° y 11° (MEN 2016): comprende el carácter relativo de las medidas estadísticas y la necesidad de complementar la media con la dispersión.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos; uso medidas de localización y dispersión.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica en cuál prueba fue mejor el desempeño relativo usando media y desviación estándar.",
+"contexto": "En un simulacro departamental del Valle del Cauca, Mateo obtuvo 70 puntos en Matemáticas y 75 en Lectura Crítica. La tabla muestra la media y la desviación estándar de cada prueba entre todos los participantes.",
+"tabla": {
+"titulo": "Resultados del simulacro departamental",
+"cols": [
+"Prueba",
+"Puntaje de Mateo",
+"Media",
+"Desviación estándar"
+],
+"filas": [
+[
+"Matemáticas",
+"70",
+"60",
+"5"
+],
+[
+"Lectura Crítica",
+"75",
+"70",
+"10"
+]
+]
+},
+"enunciado": "Mateo dice: «Me fue mejor en Lectura Crítica que en Matemáticas, porque saqué más puntos». ¿Cuál es el argumento correcto para evaluar su afirmación?",
+"opciones": {
+"A": "Tiene razón, porque 75 es mayor que 70.",
+"B": "Tiene razón, porque en Lectura Crítica la desviación es mayor y eso favorece su puntaje.",
+"C": "No tiene razón, porque en Matemáticas quedó 10 puntos sobre la media y en Lectura solo 5, sin importar la dispersión.",
+"D": "No tiene razón: en Matemáticas está 2 desviaciones estándar sobre la media y en Lectura solo 0,5; su posición relativa fue mejor en Matemáticas."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Comparar puntajes de escalas distintas",
+"porque": "Elegiste A porque probablemente comparaste directamente los puntos de dos pruebas con medias y dispersiones diferentes.",
+"pregunta_guia": "¿Sacar 75 es igual de difícil en una prueba con media 70 que en una con media 60?",
+"aprende": "Para comparar pruebas distintas se usa la posición relativa respecto a la media y la desviación."
+},
+"B": {
+"error": "Interpretar mal el efecto de la dispersión",
+"porque": "Elegiste B porque probablemente pensaste que una desviación mayor «sube» el puntaje.",
+"pregunta_guia": "Si la desviación es mayor, ¿estar 5 puntos sobre la media es más o menos destacado?",
+"aprende": "Con más dispersión, una misma distancia a la media es menos sobresaliente."
+},
+"C": {
+"error": "Conclusión correcta con argumento incompleto",
+"porque": "Elegiste C porque probablemente acertaste la conclusión, pero ignoraste la desviación estándar.",
+"pregunta_guia": "Si en Lectura la desviación fuera 1, ¿5 puntos sobre la media serían poco?",
+"aprende": "La distancia a la media debe medirse en desviaciones estándar."
+}
+},
+"explicacion": "Paso 1: Matemáticas: (70 − 60) ÷ 5 = 2 desviaciones estándar sobre la media. Paso 2: Lectura Crítica: (75 − 70) ÷ 10 = 0,5 desviaciones estándar sobre la media. Paso 3: 2 > 0,5: frente a los demás participantes, Mateo se destacó más en Matemáticas. Paso 4: Comparar puntos brutos de pruebas con distinta media y dispersión es engañoso. Respuesta: D.",
+"tip": "Para saber en qué te fue «mejor», compárate con el grupo: ¿qué tan arriba de la media quedaste?",
+"truco": "Comparar pruebas distintas → convierte a desviaciones estándar (z) y compara las z.",
+"estrategia_icfes": "El ICFES pone dos opciones con la misma conclusión y razones distintas. La correcta usa todos los datos relevantes (media Y desviación); la incompleta deja uno por fuera.",
+"temas": [
+"puntaje estandarizado",
+"comparación de distribuciones",
+"argumentación estadística"
+],
+"gemela": {
+"contexto": "Isabela sacó 72 en Física (media 60, desviación 6) y 80 en Química (media 75, desviación 10).",
+"enunciado": "¿En cuál prueba tuvo mejor desempeño relativo y por qué?",
+"opciones": {
+"A": "En Química, porque 80 > 72.",
+"B": "En Física, porque está a 2 desviaciones sobre la media frente a 0,5 en Química.",
+"C": "En Química, porque su desviación es mayor.",
+"D": "En las dos igual, porque en ambas superó la media."
+},
+"correcta": "B",
+"explicacion": "Física: (72 − 60) ÷ 6 = 2; Química: (80 − 75) ÷ 10 = 0,5. Mejor desempeño relativo en Física."
+}
+},
+{
+"id": "P11-MAT-A052",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente resultados presentados en gráficas de distribuciones porcentuales.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Compara distribuciones porcentuales de dos grupos y reconoce qué conclusiones permiten.",
+"contexto": "La gráfica muestra el porcentaje de estudiantes de 11° de dos colegios de Tuluá, P y Q, en cada nivel de desempeño de matemáticas (del 1, el más bajo, al 4, el más alto). Los colegios tienen distinto número de estudiantes.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Estudiantes por nivel de desempeño (%)",
+"etiquetas": [
+"Nivel 1",
+"Nivel 2",
+"Nivel 3",
+"Nivel 4"
+],
+"series": [
+{
+"nombre": "Colegio P",
+"datos": [
+10,
+30,
+40,
+20
+]
+},
+{
+"nombre": "Colegio Q",
+"datos": [
+25,
+25,
+25,
+25
+]
+}
+],
+"ejeY": "% de estudiantes"
+},
+"enunciado": "¿Cuál de las siguientes afirmaciones se puede concluir a partir de la gráfica?",
+"opciones": {
+"A": "El porcentaje de estudiantes en los niveles 3 y 4 juntos es mayor en P que en Q.",
+"B": "El colegio Q tiene más estudiantes en el nivel 4 que el colegio P.",
+"C": "En el colegio P la mitad de los estudiantes está en el nivel 3.",
+"D": "Los dos colegios tienen el mismo porcentaje de estudiantes en el nivel 1."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir porcentaje con cantidad",
+"porque": "Elegiste B porque probablemente viste 25 % frente a 20 % y concluiste que Q tiene más estudiantes en nivel 4.",
+"pregunta_guia": "Si P tuviera 200 estudiantes y Q solo 40, ¿cuál tendría más estudiantes en nivel 4?",
+"aprende": "Sin conocer el total de cada colegio no se pueden comparar cantidades, solo porcentajes."
+},
+"C": {
+"error": "Leer mal el valor de una barra",
+"porque": "Elegiste C porque probablemente pensaste que la barra más alta representa la mitad.",
+"pregunta_guia": "¿La barra del nivel 3 de P marca 50 % o 40 %?",
+"aprende": "El nivel 3 de P es 40 %, no 50 %."
+},
+"D": {
+"error": "No comparar las barras de cada serie",
+"porque": "Elegiste D probablemente sin leer los valores del nivel 1 de cada colegio.",
+"pregunta_guia": "¿Cuánto vale el nivel 1 en P y en Q?",
+"aprende": "P: 10 %; Q: 25 %; son diferentes."
+}
+},
+"explicacion": "Paso 1: Niveles 3 y 4 en P: 40 + 20 = 60 %. Paso 2: Niveles 3 y 4 en Q: 25 + 25 = 50 %. Paso 3: 60 % > 50 %: la afirmación A es correcta. Paso 4: B no se puede concluir porque la gráfica muestra porcentajes y los colegios tienen distinto tamaño; C y D contradicen los datos. Respuesta: A.",
+"tip": "Si la gráfica está en porcentajes, solo puedes comparar porcentajes, no cantidades de personas.",
+"truco": "% ≠ cantidad cuando los grupos tienen distinto tamaño.",
+"estrategia_icfes": "El ICFES pregunta «¿qué se puede concluir?». Verifica cada opción contra la gráfica y descarta las que requieren información que no aparece (como el número total de estudiantes).",
+"temas": [
+"distribuciones porcentuales",
+"gráficas de barras agrupadas",
+"conclusiones válidas"
+],
+"gemela": {
+"contexto": "En la ciudad M, el 30 % de los hogares tiene internet de fibra; en la ciudad N, el 45 %. M tiene muchos más hogares que N.",
+"enunciado": "¿Qué se puede concluir?",
+"opciones": {
+"A": "N tiene más hogares con fibra que M.",
+"B": "El porcentaje de hogares con fibra es mayor en N que en M.",
+"C": "M tiene el 30 % de los hogares de la región.",
+"D": "Ambas ciudades tienen la misma cantidad de hogares con fibra."
+},
+"correcta": "B",
+"explicacion": "Solo se pueden comparar porcentajes: 45 % > 30 %. Como M tiene más hogares, no se sabe cuál tiene más hogares con fibra en cantidad."
+}
+},
+{
+"id": "P11-MAT-A053",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa frecuencias relativas de datos históricos para tomar decisiones en situaciones cotidianas y productivas.",
+"lineamiento": "Pensamiento aleatorio y numérico. EBC 10°–11°: resuelvo problemas usando proporciones obtenidas de datos.",
+"afirmacion": "Frente a un problema que involucra información cuantitativa, plantea e implementa estrategias que llevan a soluciones adecuadas.",
+"evidencia": "Usa la proporción observada de una categoría para planear un pedido.",
+"contexto": "Un taller de confección de Cali, creado por egresadas de un técnico del SENA, registró las camisetas vendidas el mes pasado por talla.",
+"tabla": {
+"titulo": "Camisetas vendidas por talla",
+"cols": [
+"Talla",
+"Unidades"
+],
+"filas": [
+[
+"S",
+"12"
+],
+[
+"M",
+"30"
+],
+[
+"L",
+"25"
+],
+[
+"XL",
+"8"
+],
+[
+"Total",
+"75"
+]
+]
+},
+"enunciado": "Para el próximo mes el taller fabricará 150 camisetas, manteniendo la misma proporción de tallas. ¿Cuántas camisetas de talla M debe fabricar?",
+"opciones": {
+"A": "30",
+"B": "40",
+"C": "60",
+"D": "37,5"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No escalar al nuevo total",
+"porque": "Elegiste 30 porque probablemente copiaste las unidades del mes pasado sin ajustar a 150.",
+"pregunta_guia": "¿El nuevo pedido es igual al total vendido el mes pasado?",
+"aprende": "El total se duplica (75 → 150), así que cada talla también se duplica."
+},
+"B": {
+"error": "Dar el porcentaje en lugar de la cantidad",
+"porque": "Elegiste 40 porque probablemente calculaste que M es el 40 % de las ventas y no lo aplicaste a 150.",
+"pregunta_guia": "¿Cuánto es el 40 % de 150?",
+"aprende": "0,40 × 150 = 60."
+},
+"D": {
+"error": "Repartir por igual entre tallas",
+"porque": "Elegiste 37,5 porque probablemente dividiste 150 entre las 4 tallas.",
+"pregunta_guia": "¿Se venden todas las tallas en la misma cantidad?",
+"aprende": "Se respeta la proporción de ventas de cada talla, no un reparto igual."
+}
+},
+"explicacion": "Paso 1: Proporción de la talla M: 30 ÷ 75 = 0,40 (40 %). Paso 2: Aplica la proporción al nuevo pedido: 0,40 × 150 = 60. Paso 3: Comprobación: como 150 es el doble de 75, M pasa de 30 a 60. Respuesta: C.",
+"tip": "Usar los datos de ventas para planear la producción reduce desperdicios y costos.",
+"truco": "Si el total se multiplica por k, cada parte también se multiplica por k.",
+"estrategia_icfes": "El ICFES plantea decisiones de producción con base en datos. Calcula la proporción y aplícala al nuevo total; verifica con el factor de escala.",
+"temas": [
+"proporciones",
+"frecuencia relativa",
+"toma de decisiones"
+],
+"gemela": {
+"contexto": "Una tienda vendió 50 kg de arroz, 30 kg de fríjol y 20 kg de lenteja.",
+"enunciado": "Si hará un pedido de 300 kg manteniendo la misma proporción, ¿cuántos kilos de fríjol debe pedir?",
+"opciones": {
+"A": "30 kg",
+"B": "90 kg",
+"C": "100 kg",
+"D": "75 kg"
+},
+"correcta": "B",
+"explicacion": "Fríjol: 30 ÷ 100 = 30 %; 0,30 × 300 = 90 kg."
+}
+},
+{
+"id": "P11-MAT-A054",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta, valora y analiza críticamente los resultados y las inferencias presentadas en estudios estadísticos.",
+"lineamiento": "Pensamiento aleatorio. EBC 10°–11°: describo tendencias en conjuntos de variables relacionadas y justifico o refuto inferencias.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Distingue entre correlación y causalidad al analizar dos variables que cambian juntas.",
+"contexto": "Un estudiante de Bogotá registró, en algunos meses del año, las ventas de paraguas en una tienda y el número de consultas por gripa en un centro de salud cercano.",
+"tabla": {
+"titulo": "Ventas de paraguas y consultas por gripa",
+"cols": [
+"Mes",
+"Paraguas vendidos",
+"Consultas por gripa"
+],
+"filas": [
+[
+"Enero",
+"120",
+"40"
+],
+[
+"Abril",
+"300",
+"95"
+],
+[
+"Julio",
+"90",
+"35"
+],
+[
+"Octubre",
+"280",
+"90"
+]
+]
+},
+"enunciado": "El estudiante concluye: «Comprar paraguas hace que las personas se enfermen de gripa». ¿Cuál es la mejor crítica a esta conclusión?",
+"opciones": {
+"A": "La conclusión es correcta, porque cuando suben las ventas de paraguas también suben las consultas.",
+"B": "Los datos son pocos; con 12 meses la relación demostraría la causa.",
+"C": "Las consultas por gripa son menores que las ventas de paraguas, así que no hay relación.",
+"D": "Que dos variables aumenten juntas no prueba que una cause la otra; ambas pueden depender de la temporada de lluvias."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir correlación con causalidad",
+"porque": "Elegiste A porque probablemente pensaste que si dos cosas cambian juntas, una causa la otra.",
+"pregunta_guia": "¿Hay algún factor que podría hacer subir a la vez los paraguas y la gripa?",
+"aprende": "Una correlación puede deberse a una tercera variable (la lluvia)."
+},
+"B": {
+"error": "Creer que más datos prueban causalidad",
+"porque": "Elegiste B porque probablemente pensaste que el problema es solo la cantidad de datos.",
+"pregunta_guia": "Si con 12 meses se ve la misma relación, ¿desaparece la posibilidad de una tercera variable?",
+"aprende": "Más datos fortalecen la correlación, pero no prueban causa sin un diseño adecuado."
+},
+"C": {
+"error": "Comparar magnitudes de variables distintas",
+"porque": "Elegiste C porque probablemente comparaste los números de paraguas con los de consultas, que miden cosas diferentes.",
+"pregunta_guia": "¿La relación entre variables depende de que tengan valores parecidos o de que cambien juntas?",
+"aprende": "Dos variables están relacionadas si varían juntas, aunque sus valores sean distintos."
+}
+},
+"explicacion": "Paso 1: Observa la tabla: en abril y octubre aumentan ambas variables; en enero y julio, ambas bajan. Hay una relación (correlación positiva). Paso 2: Pregúntate si hay otra explicación: abril y octubre son meses de lluvias en Bogotá. Paso 3: La lluvia aumenta la compra de paraguas y también favorece los contagios de gripa. Paso 4: Correlación no implica causalidad. Respuesta: D.",
+"tip": "Antes de decir «A causa B», busca una variable C que pueda causar ambas.",
+"truco": "Correlación ≠ causalidad. Pregunta: ¿hay un tercer factor escondido?",
+"estrategia_icfes": "El ICFES evalúa el pensamiento crítico con datos que muestran asociación. La opción correcta reconoce la relación pero advierte que no prueba causa y propone una variable alternativa.",
+"temas": [
+"correlación y causalidad",
+"variables relacionadas",
+"pensamiento crítico"
+],
+"gemela": {
+"contexto": "En una escuela se observó que los niños con zapatos más grandes leen más rápido.",
+"enunciado": "¿Cuál es la mejor explicación de esta relación?",
+"opciones": {
+"A": "Los zapatos grandes ayudan a leer más rápido.",
+"B": "Leer rápido hace crecer los pies.",
+"C": "Ambas variables aumentan con la edad de los niños; la edad explica la relación.",
+"D": "No hay ninguna relación entre las variables."
+},
+"correcta": "C",
+"explicacion": "Los niños mayores tienen pies más grandes y leen mejor: la edad es la tercera variable que explica la correlación."
+}
+},
+{
+"id": "P11-MAT-A055",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta gráficas de dos series de datos que cambian en el tiempo en contextos financieros.",
+"lineamiento": "Pensamiento variacional y aleatorio. EBC 10°–11°: describo tendencias que se observan en conjuntos de variables relacionadas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica en una gráfica de líneas el momento en que una serie supera a otra.",
+"contexto": "Sara y Tomás, estudiantes de 11° en Cali, ahorran para su viaje de grado. La gráfica muestra el saldo acumulado de cada uno al final de cada mes.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Saldo acumulado (miles de pesos)",
+"etiquetas": [
+"Mes 1",
+"Mes 2",
+"Mes 3",
+"Mes 4",
+"Mes 5",
+"Mes 6"
+],
+"series": [
+{
+"nombre": "Sara",
+"datos": [
+50,
+100,
+150,
+200,
+250,
+300
+]
+},
+{
+"nombre": "Tomás",
+"datos": [
+120,
+150,
+180,
+210,
+240,
+270
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿En qué mes el saldo de Sara supera por primera vez al de Tomás?",
+"opciones": {
+"A": "Mes 4",
+"B": "Mes 5",
+"C": "Mes 6",
+"D": "Mes 3"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir «más cerca» con «supera»",
+"porque": "Elegiste el mes 4 porque probablemente viste que los saldos están muy cerca (200 y 210).",
+"pregunta_guia": "En el mes 4, ¿200 es mayor que 210?",
+"aprende": "En el mes 4 Sara aún tiene menos: 200 < 210."
+},
+"C": {
+"error": "Elegir el último mes",
+"porque": "Elegiste el mes 6 porque probablemente viste que allí Sara tiene la mayor ventaja.",
+"pregunta_guia": "¿La pregunta pide cuándo supera por primera vez o cuándo tiene más ventaja?",
+"aprende": "«Por primera vez» exige buscar el primer mes en que Sara > Tomás: el mes 5 (250 > 240)."
+},
+"D": {
+"error": "Confundir crecimiento mensual con saldo",
+"porque": "Elegiste el mes 3 porque probablemente notaste que Sara ahorra más cada mes (50 frente a 30) y lo confundiste con tener más saldo.",
+"pregunta_guia": "En el mes 3, ¿quién tiene el saldo mayor?",
+"aprende": "Ahorrar más por mes no significa tener más saldo de inmediato: Tomás empezó con más."
+}
+},
+"explicacion": "Paso 1: Compara los saldos mes a mes: Mes 1: 50 < 120; Mes 2: 100 < 150; Mes 3: 150 < 180; Mes 4: 200 < 210; Mes 5: 250 > 240. Paso 2: El primer mes en que Sara supera a Tomás es el mes 5. Paso 3: Esto ocurre porque Sara ahorra $50.000 mensuales y Tomás $30.000; la diferencia inicial se reduce $20.000 cada mes. Respuesta: B.",
+"tip": "La constancia en el ahorro gana: quien aporta más cada mes termina alcanzando a quien empezó con más.",
+"truco": "El cruce de dos líneas marca el momento en que cambia quién va adelante.",
+"estrategia_icfes": "El ICFES usa gráficas con dos series que se cruzan. Lee con precisión palabras como «supera», «iguala» y «por primera vez», y compara punto a punto.",
+"temas": [
+"gráficas de líneas",
+"ahorro programado",
+"comparación de series"
+],
+"gemela": {
+"contexto": "Ana ahorra $30.000 cada mes y tiene saldos de 30, 60, 90, 120 (miles). Beto tenía 45 mil y ahorra $15.000 al mes: 60, 75, 90, 105 (miles).",
+"enunciado": "¿En qué mes el saldo de Ana supera por primera vez al de Beto?",
+"opciones": {
+"A": "Mes 3",
+"B": "Mes 2",
+"C": "Mes 4",
+"D": "Mes 1"
+},
+"correcta": "C",
+"explicacion": "Mes 1: 30 < 60; mes 2: 60 < 75; mes 3: 90 = 90 (iguala, no supera); mes 4: 120 > 105. Supera por primera vez en el mes 4."
+}
+}
+]

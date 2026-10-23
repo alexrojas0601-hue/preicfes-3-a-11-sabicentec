@@ -1,0 +1,3626 @@
+[
+{
+"id": "P9-ING-A001",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando desempeños de 6°–7°: comprendo textos cortos de uso cotidiano como avisos, letreros e instrucciones, e identifico el lugar donde aparecen.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el lugar en el que se usan.",
+"evidencia": "Relaciona el aviso con un lugar a partir de palabras clave (voice down, reading).",
+"contexto": "NOTICE:\n“PLEASE KEEP YOUR VOICE DOWN. STUDENTS ARE READING.”",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "at a football stadium",
+"B": "in a library",
+"C": "at a salsa concert"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Asociar 'voice' con gritar o animar",
+"porque": "Elegiste 'at a football stadium' porque probablemente reconociste la palabra 'voice' (voz) y pensaste en la gente que grita en el estadio.",
+"pregunta_guia": "¿En un estadio te piden hablar en voz baja para que otros puedan leer?",
+"aprende": "'Keep your voice down' significa 'habla en voz baja'. Se pide en lugares de silencio donde las personas leen o estudian."
+},
+"C": {
+"error": "Asociar 'voice' con cantar",
+"porque": "Elegiste 'at a salsa concert' porque probablemente relacionaste 'voice' con los cantantes de un concierto.",
+"pregunta_guia": "¿En un concierto de salsa hay estudiantes leyendo en silencio?",
+"aprende": "La segunda frase, 'Students are reading', es la pista decisiva: el lugar es una biblioteca."
+}
+},
+"explicacion": "Paso 1: identifica las palabras clave: 'keep your voice down' (habla en voz baja) y 'students are reading' (los estudiantes están leyendo). Paso 2: imagina un lugar donde se lee y se exige silencio. Paso 3: de las tres opciones, solo la biblioteca cumple ambas condiciones. Respuesta: B.",
+"tip": "Lee el aviso completo: la segunda línea suele confirmar el lugar.",
+"truco": "Silencio + leer = library (biblioteca). Ojo: 'library' NO es librería (bookshop).",
+"estrategia_icfes": "En la Parte 1 el ICFES presenta un aviso breve y pregunta dónde se ve o qué significa. Subraya verbos y sustantivos clave, imagina la escena y descarta los lugares que solo comparten una palabra suelta con el aviso.",
+"temas": [
+"Avisos en la escuela",
+"Imperativos en avisos",
+"Falsos amigos: library/bookshop"
+],
+"gemela": {
+"contexto": "NOTICE:\n“QUIET, PLEASE. EXAM IN PROGRESS.”",
+"enunciado": "Where would you probably find this notice?",
+"opciones": {
+"A": "on a classroom door",
+"B": "at a market",
+"C": "in a park"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'quiet' (silencio) y 'exam in progress' (examen en curso) son las claves. Paso 2: los exámenes se presentan en un salón de clase. Paso 3: el aviso se pone en la puerta del salón. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A002",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando desempeños de 6°–7°: comprendo textos cortos de uso cotidiano como avisos, letreros e instrucciones, e identifico el lugar donde aparecen.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el lugar en el que se usan.",
+"evidencia": "Relaciona el aviso con un lugar a partir de vocabulario de transporte (travel card, recharge).",
+"contexto": "NOTICE:\n“RECHARGE YOUR TRAVEL CARD HERE. CASH ONLY.”",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "at a bus station",
+"B": "in a hospital",
+"C": "in a classroom"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar 'card' con un carné cualquiera",
+"porque": "Elegiste 'in a hospital' porque probablemente pensaste en el carné de salud al leer 'card'.",
+"pregunta_guia": "¿Qué significa 'travel'? ¿Para qué sirve una tarjeta de viaje?",
+"aprende": "'Travel card' es la tarjeta de transporte (como la del MIO en Cali) y se recarga en las estaciones."
+},
+"C": {
+"error": "Fijarse solo en una palabra conocida",
+"porque": "Elegiste 'in a classroom' porque probablemente no entendiste 'recharge' y elegiste un lugar familiar.",
+"pregunta_guia": "¿En un salón de clase se recargan tarjetas para viajar y se paga en efectivo?",
+"aprende": "'Recharge' es recargar y 'cash only' es solo efectivo: es un punto de pago del transporte."
+}
+},
+"explicacion": "Paso 1: palabras clave: 'recharge' (recargar), 'travel card' (tarjeta de transporte), 'cash only' (solo efectivo). Paso 2: ¿dónde se recarga la tarjeta para viajar en bus? Paso 3: en la estación de bus. Respuesta: A.",
+"tip": "Busca la palabra 'ancla' que solo tiene sentido en un lugar: aquí es 'travel card'.",
+"truco": "Travel = viajar → transporte → estación.",
+"estrategia_icfes": "El ICFES usa avisos de la vida diaria (transporte, tiendas, colegio). Traduce solo las palabras clave y pregúntate '¿quién necesita leer esto?'.",
+"temas": [
+"Vocabulario de transporte",
+"Avisos de pago",
+"Dinero: cash, card"
+],
+"gemela": {
+"contexto": "NOTICE:\n“PLATFORM 2: BUSES TO THE CITY CENTRE.”",
+"enunciado": "Where would you probably find this notice?",
+"opciones": {
+"A": "in a kitchen",
+"B": "at a bus terminal",
+"C": "in a bank"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'platform' (plataforma) y 'buses' son las claves. Paso 2: las plataformas de buses están en una terminal. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A003",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando desempeños de 6°–7°: comprendo instrucciones y advertencias escritas en textos cortos y actúo de acuerdo con ellas.",
+"afirmacion": "Comprende el mensaje de una advertencia pública.",
+"evidencia": "Interpreta la intención de un aviso de seguridad (wet floor, carefully).",
+"contexto": "NOTICE:\n“WET FLOOR. WALK CAREFULLY.”",
+"enunciado": "What does this notice tell you?",
+"opciones": {
+"A": "Clean the floor now.",
+"B": "Be careful because you can fall.",
+"C": "Do not walk on the grass."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir la advertencia con una orden de limpiar",
+"porque": "Elegiste 'Clean the floor now' porque probablemente sabías que 'floor' es piso y pensaste que el aviso pedía limpiarlo.",
+"pregunta_guia": "¿Qué significa 'wet'? Si el piso ya está mojado, ¿qué te pide el aviso que hagas al caminar?",
+"aprende": "'Wet floor' significa piso mojado: el aviso advierte que el piso ya fue limpiado y puede ser resbaloso."
+},
+"C": {
+"error": "Usar un aviso conocido en lugar del texto",
+"porque": "Elegiste 'Do not walk on the grass' porque probablemente recordaste otro aviso con 'walk' (caminar).",
+"pregunta_guia": "¿El aviso menciona 'grass' (césped)?",
+"aprende": "Responde solo con lo que dice el aviso: piso mojado y caminar con cuidado."
+}
+},
+"explicacion": "Paso 1: 'wet' = mojado; 'floor' = piso. Paso 2: 'walk carefully' = camina con cuidado. Paso 3: un piso mojado es resbaloso, así que el aviso advierte que te puedes caer. Respuesta: B.",
+"tip": "Los adverbios terminados en -ly (carefully, slowly, quietly) dicen CÓMO hacer algo.",
+"truco": "-ly = -mente: carefully = cuidadosamente.",
+"estrategia_icfes": "Cuando el ICFES pregunta 'What does this notice tell you/mean?', la respuesta correcta es una paráfrasis (otras palabras, mismo sentido). Desconfía de la opción que repite palabras del aviso con otro sentido.",
+"temas": [
+"Avisos de seguridad",
+"Adverbios de modo (-ly)",
+"Paráfrasis"
+],
+"gemela": {
+"contexto": "NOTICE:\n“DANGER! DEEP WATER. NO SWIMMING.”",
+"enunciado": "What does this notice mean?",
+"opciones": {
+"A": "You can swim here safely.",
+"B": "The water is cold today.",
+"C": "It is not safe to swim here."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'danger' = peligro; 'deep water' = agua profunda. Paso 2: 'no swimming' = prohibido nadar. Paso 3: no es seguro nadar allí. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A004",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, horarios, letreros) relacionados con su entorno y la usa para tomar decisiones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico información específica (días, horas) en textos cortos de uso cotidiano.",
+"afirmacion": "Extrae información específica de un horario publicado en un aviso.",
+"evidencia": "Identifica un día y una hora compatibles con el horario indicado.",
+"contexto": "NOTICE ON THE DOOR OF A COMMUNITY LIBRARY IN CALI:\n“OPEN MONDAY TO FRIDAY, 8 A.M. – 5 P.M. CLOSED ON WEEKENDS.”",
+"enunciado": "When can you visit this place?",
+"opciones": {
+"A": "on Saturday morning",
+"B": "on Sunday afternoon",
+"C": "on Wednesday at 10 a.m."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No reconocer 'weekend'",
+"porque": "Elegiste 'on Saturday morning' porque probablemente leíste '8 a.m.' y pensaste que cualquier mañana servía.",
+"pregunta_guia": "¿Qué días forman el 'weekend'? ¿El sábado es parte de él?",
+"aprende": "'Weekend' = fin de semana (sábado y domingo). El aviso dice 'closed on weekends'."
+},
+"B": {
+"error": "Ignorar la palabra 'closed'",
+"porque": "Elegiste 'on Sunday afternoon' porque probablemente viste 'p.m.' (tarde) y no leíste 'closed' (cerrado).",
+"pregunta_guia": "¿Qué significa 'closed'? ¿Qué días está cerrado?",
+"aprende": "'Closed' = cerrado. El domingo es fin de semana, así que no se puede visitar."
+}
+},
+"explicacion": "Paso 1: 'Monday to Friday' = de lunes a viernes. Paso 2: '8 a.m. – 5 p.m.' = de 8 de la mañana a 5 de la tarde. Paso 3: 'closed on weekends' = cerrado sábados y domingos. Paso 4: el miércoles a las 10 a.m. está dentro del horario. Respuesta: C.",
+"tip": "En los horarios revisa dos cosas: el DÍA y la HORA. Las dos deben cumplirse.",
+"truco": "a.m. = antes del mediodía (mañana); p.m. = después del mediodía (tarde/noche).",
+"estrategia_icfes": "El ICFES pone opciones que cumplen solo una condición (la hora pero no el día). Verifica cada opción contra todas las condiciones del aviso.",
+"temas": [
+"Días de la semana",
+"La hora: a.m./p.m.",
+"Open / closed"
+],
+"gemela": {
+"contexto": "NOTICE:\n“SWIMMING POOL: OPEN EVERY DAY 6 A.M. – 2 P.M.”",
+"enunciado": "When is the swimming pool closed?",
+"opciones": {
+"A": "on Monday at 7 a.m.",
+"B": "on Friday at 4 p.m.",
+"C": "on Sunday at 11 a.m."
+},
+"correcta": "B",
+"explicacion": "Paso 1: abre todos los días de 6 a.m. a 2 p.m. Paso 2: las 4 p.m. está después de la hora de cierre. Paso 3: el viernes a las 4 p.m. está cerrada. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A005",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando desempeños de 6°–7°: comprendo textos cortos de uso cotidiano como avisos, letreros e instrucciones, e identifico el lugar donde aparecen.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el lugar en el que se usan.",
+"evidencia": "Relaciona el aviso con un lugar a partir de palabras clave (feed, animals, diet).",
+"contexto": "NOTICE:\n“DO NOT FEED THE ANIMALS. THEY HAVE A SPECIAL DIET.”",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "at a zoo",
+"B": "in a restaurant",
+"C": "in a supermarket"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar 'feed' y 'diet' con comida para personas",
+"porque": "Elegiste 'in a restaurant' porque probablemente relacionaste 'feed' (alimentar) y 'diet' (dieta) con un lugar de comida.",
+"pregunta_guia": "¿A quién NO se debe alimentar según el aviso?",
+"aprende": "El aviso habla de 'animals': no darles comida porque tienen una dieta especial. Es un zoológico."
+},
+"C": {
+"error": "Asociar 'diet' con productos de dieta",
+"porque": "Elegiste 'in a supermarket' porque probablemente pensaste en productos 'diet' que se venden allí.",
+"pregunta_guia": "¿En un supermercado hay animales a los que la gente quiera alimentar?",
+"aprende": "Lee el aviso completo: la palabra 'animals' define el lugar."
+}
+},
+"explicacion": "Paso 1: 'do not feed' = no alimentes. Paso 2: 'the animals' = a los animales. Paso 3: 'special diet' = dieta especial. Paso 4: un lugar donde hay animales que los visitantes podrían alimentar: el zoológico (como el Zoológico de Cali). Respuesta: A.",
+"tip": "'Do not' + verbo = prohibición. Pregúntate: ¿qué está prohibido y a quién afecta?",
+"truco": "Feed = dar de comer (food → feed).",
+"estrategia_icfes": "Las prohibiciones ('Do not…', 'No…') son muy frecuentes en la Parte 1. Identifica la acción prohibida y el objeto: juntos te dan el lugar.",
+"temas": [
+"Prohibiciones con 'Do not'",
+"Vocabulario: animales y comida",
+"Avisos en lugares turísticos"
+],
+"gemela": {
+"contexto": "NOTICE:\n“PLEASE DO NOT TOUCH THE PAINTINGS.”",
+"enunciado": "Where would you probably find this notice?",
+"opciones": {
+"A": "in a gym",
+"B": "in an art museum",
+"C": "at a bakery"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'do not touch' = no toques. Paso 2: 'paintings' = pinturas, cuadros. Paso 3: los cuadros se exhiben en un museo de arte. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A006",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): comprendo instrucciones escritas en textos cortos e identifico el contexto en que se usan.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el lugar en el que se usan.",
+"evidencia": "Relaciona una instrucción (switch off, film) con el lugar donde se da.",
+"contexto": "NOTICE:\n“SWITCH OFF YOUR MOBILE PHONE BEFORE THE FILM STARTS.”",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "in a phone shop",
+"B": "at a cinema",
+"C": "at a bus stop"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Elegir el lugar de la palabra más conocida",
+"porque": "Elegiste 'in a phone shop' porque probablemente reconociste 'mobile phone' y pensaste en la tienda de celulares.",
+"pregunta_guia": "¿En una tienda de celulares hay una película que va a empezar?",
+"aprende": "La palabra decisiva es 'film' (película): el aviso está en un cine."
+},
+"C": {
+"error": "No reconocer 'film'",
+"porque": "Elegiste 'at a bus stop' porque probablemente entendiste 'starts' como la salida de un bus.",
+"pregunta_guia": "¿Qué significa 'film'? ¿Qué empieza en el aviso?",
+"aprende": "'Before the film starts' = antes de que empiece la película. En el cine se apaga el celular."
+}
+},
+"explicacion": "Paso 1: 'switch off' = apagar. Paso 2: 'mobile phone' = celular. Paso 3: 'before the film starts' = antes de que empiece la película. Paso 4: el lugar donde empieza una película y se pide apagar el celular es el cine. Respuesta: B.",
+"tip": "No elijas el lugar de la primera palabra que reconoces; busca la que solo encaja en un lugar.",
+"truco": "Switch ON = encender; switch OFF = apagar.",
+"estrategia_icfes": "El ICFES incluye un distractor con la palabra más fácil del aviso (aquí 'phone'). Pregúntate qué palabra describe la SITUACIÓN, no el objeto.",
+"temas": [
+"Phrasal verbs: switch on/off",
+"Vocabulario: entretenimiento",
+"Conjunción 'before'"
+],
+"gemela": {
+"contexto": "NOTICE:\n“PUT YOUR TRAY BACK HERE AFTER YOU EAT.”",
+"enunciado": "Where would you probably find this notice?",
+"opciones": {
+"A": "in a school cafeteria",
+"B": "in a bedroom",
+"C": "at a petrol station"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'tray' = bandeja. Paso 2: 'after you eat' = después de comer. Paso 3: en la cafetería del colegio se devuelve la bandeja. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A007",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) y explica su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el propósito de textos cortos y el significado de expresiones de uso frecuente.",
+"afirmacion": "Comprende el significado de un aviso de acceso restringido.",
+"evidencia": "Reformula con otras palabras el mensaje de 'staff only'.",
+"contexto": "NOTICE ON A DOOR IN A SHOPPING CENTRE:\n“STAFF ONLY. NO ENTRY FOR CUSTOMERS.”",
+"enunciado": "What does this notice mean?",
+"opciones": {
+"A": "Customers must wait here.",
+"B": "This place is closed today.",
+"C": "Only the workers can go in."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Inventar una instrucción",
+"porque": "Elegiste 'Customers must wait here' porque probablemente reconociste 'customers' (clientes) y supusiste que el aviso les daba una orden de esperar.",
+"pregunta_guia": "¿El aviso dice 'wait' (esperar) en algún lugar?",
+"aprende": "'No entry for customers' = los clientes no pueden entrar; no les pide esperar."
+},
+"B": {
+"error": "Confundir 'no entry' con 'closed'",
+"porque": "Elegiste 'This place is closed today' porque probablemente interpretaste 'no entry' como cerrado.",
+"pregunta_guia": "Si el lugar estuviera cerrado, ¿podrían entrar los empleados?",
+"aprende": "'Staff only' indica que el lugar está abierto, pero solo para el personal (staff)."
+}
+},
+"explicacion": "Paso 1: 'staff' = personal, empleados. Paso 2: 'only' = solamente. Paso 3: 'no entry for customers' = prohibida la entrada a clientes. Paso 4: solo los trabajadores pueden entrar. Respuesta: C.",
+"tip": "'Only' limita: 'staff only' = solo el personal. Busca la opción que exprese esa limitación.",
+"truco": "Staff = equipo de trabajo; customers = clientes.",
+"estrategia_icfes": "En las preguntas de significado, la opción correcta usa sinónimos (staff → workers). Las incorrectas suelen repetir palabras del aviso con otro sentido.",
+"temas": [
+"Staff / customers",
+"Avisos de acceso",
+"Sinónimos y paráfrasis"
+],
+"gemela": {
+"contexto": "NOTICE:\n“MEMBERS ONLY. PLEASE SHOW YOUR CARD.”",
+"enunciado": "What does this sign tell visitors?",
+"opciones": {
+"A": "Everybody can enter for free.",
+"B": "You need a membership card to go in.",
+"C": "You can buy a card here."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'members only' = solo para socios. Paso 2: 'show your card' = muestra tu carné. Paso 3: necesitas el carné de socio para entrar. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A008",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano y la aplica a situaciones concretas de su entorno.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico información específica en textos cortos y hago inferencias sencillas a partir de ella.",
+"afirmacion": "Aplica una norma escrita a un caso particular.",
+"evidencia": "Decide qué persona debe cumplir una regla según la edad indicada (under 12).",
+"contexto": "NOTICE AT A RECREATION CENTRE IN JAMUNDÍ:\n“CHILDREN UNDER 12 MUST BE WITH AN ADULT IN THE POOL AREA.”",
+"enunciado": "According to the notice, which sentence is true?",
+"opciones": {
+"A": "A 10-year-old girl can swim alone.",
+"B": "Adults cannot use the pool area.",
+"C": "A 9-year-old boy needs an adult with him."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No entender 'under' (menor de)",
+"porque": "Elegiste la opción de la niña de 10 años porque probablemente leíste 'under 12' como 'mayores de 12'.",
+"pregunta_guia": "¿10 es menor o mayor que 12? ¿Qué deben hacer los menores de 12?",
+"aprende": "'Under 12' = menores de 12 años. Una niña de 10 años debe estar con un adulto; no puede nadar sola."
+},
+"B": {
+"error": "Invertir el sentido de la norma",
+"porque": "Elegiste 'Adults cannot use the pool area' porque probablemente viste 'adult' y 'must' y pensaste que la regla prohibía algo a los adultos.",
+"pregunta_guia": "¿El aviso prohíbe algo a los adultos o les pide acompañar a los niños?",
+"aprende": "La norma obliga a los niños menores de 12 a estar CON un adulto; los adultos sí pueden estar allí."
+}
+},
+"explicacion": "Paso 1: 'children under 12' = niños menores de 12 años. Paso 2: 'must be with an adult' = deben estar con un adulto. Paso 3: un niño de 9 años es menor de 12, por lo tanto necesita un adulto. Paso 4: la niña de 10 años tampoco puede nadar sola, y la norma no prohíbe a los adultos. Respuesta: C.",
+"tip": "Con números, prueba cada opción: ¿la edad cumple la condición del aviso?",
+"truco": "Under = por debajo de (menos); over = por encima de (más).",
+"estrategia_icfes": "En el nivel avanzado, el ICFES pide aplicar el aviso a un caso concreto. Traduce la condición (under 12) y verifícala con los datos de cada opción.",
+"temas": [
+"Under / over",
+"Modal 'must' (obligación)",
+"Normas en lugares públicos"
+],
+"gemela": {
+"contexto": "NOTICE:\n“VISITORS OVER 60 PAY HALF PRICE.”",
+"enunciado": "Who pays half price?",
+"opciones": {
+"A": "a 65-year-old man",
+"B": "a 45-year-old woman",
+"C": "a 12-year-old boy"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'over 60' = mayores de 60. Paso 2: 'half price' = mitad de precio. Paso 3: solo el hombre de 65 años es mayor de 60. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A009",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (instrucciones, etiquetas) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): comprendo instrucciones escritas sobre temas de salud y cuidado personal.",
+"afirmacion": "Reconoce el tipo de texto y el soporte donde aparece una instrucción.",
+"evidencia": "Asocia una instrucción de dosis (tablet, every eight hours) con el empaque de un medicamento.",
+"contexto": "INSTRUCTIONS:\n“TAKE ONE TABLET EVERY EIGHT HOURS AFTER MEALS.”",
+"enunciado": "Where can you read these instructions?",
+"opciones": {
+"A": "on a medicine box",
+"B": "on a restaurant menu",
+"C": "on a train ticket"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar 'meals' con un restaurante",
+"porque": "Elegiste 'on a restaurant menu' porque probablemente reconociste 'meals' (comidas) y pensaste en un restaurante.",
+"pregunta_guia": "¿Un menú te dice que tomes una tableta cada ocho horas?",
+"aprende": "'After meals' indica CUÁNDO tomar la tableta (después de comer); la clave es 'tablet' (pastilla)."
+},
+"C": {
+"error": "Asociar 'every eight hours' con horarios de viaje",
+"porque": "Elegiste 'on a train ticket' porque probablemente pensaste en horarios de salida al leer 'every eight hours'.",
+"pregunta_guia": "¿Qué se 'toma' en el texto: un tren o una tableta?",
+"aprende": "En este texto 'take one tablet' = tomar una pastilla: es una instrucción médica."
+}
+},
+"explicacion": "Paso 1: 'take one tablet' = toma una pastilla. Paso 2: 'every eight hours' = cada ocho horas. Paso 3: 'after meals' = después de las comidas. Paso 4: es la dosis de un medicamento, escrita en su caja. Respuesta: A.",
+"tip": "El verbo 'take' tiene muchos usos (take a bus, take a photo, take a tablet); el sustantivo que lo acompaña decide el sentido.",
+"truco": "Tablet en salud = pastilla (no solo la tableta electrónica).",
+"estrategia_icfes": "El ICFES incluye textos como etiquetas e instrucciones. Identifica el tipo de texto (¿quién lo escribe y para qué?) antes de mirar las opciones.",
+"temas": [
+"Vocabulario de salud",
+"Expresiones de frecuencia: every…",
+"Verbo 'take'"
+],
+"gemela": {
+"contexto": "INSTRUCTIONS:\n“WASH AT 30°C. DO NOT IRON.”",
+"enunciado": "Where would you probably read these instructions?",
+"opciones": {
+"A": "on a bus",
+"B": "on a cake",
+"C": "on a T-shirt label"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'wash' = lavar; 'do not iron' = no planchar. Paso 2: esas instrucciones son para la ropa. Paso 3: aparecen en la etiqueta de una camiseta. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A010",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"sabic": "Matemática financiera",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (anuncios, avisos comerciales) y explica su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico información específica y el propósito de anuncios y textos publicitarios cortos.",
+"afirmacion": "Comprende el mensaje de un anuncio comercial de descuento.",
+"evidencia": "Interpreta '50% off' y 'this week only' como una rebaja temporal.",
+"contexto": "NOTICE IN A SHOP WINDOW:\n“SALE! ALL T-SHIRTS 50% OFF. THIS WEEK ONLY.”",
+"enunciado": "What does this notice mean?",
+"opciones": {
+"A": "T-shirts are cheaper for a short time.",
+"B": "T-shirts cost 50 dollars this week.",
+"C": "The shop sells only T-shirts."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Leer el porcentaje como un precio",
+"porque": "Elegiste 'T-shirts cost 50 dollars' porque probablemente viste el número 50 y no notaste el símbolo % ni la palabra 'off'.",
+"pregunta_guia": "¿Qué significa '%' y qué significa 'off' en una tienda?",
+"aprende": "'50% off' = 50 % de descuento: pagas la mitad del precio normal, no 50 dólares."
+},
+"C": {
+"error": "Confundir 'all' con 'only'",
+"porque": "Elegiste 'The shop sells only T-shirts' porque probablemente interpretaste 'all T-shirts' como si la tienda solo vendiera camisetas.",
+"pregunta_guia": "¿'All T-shirts' dice que no hay otros productos, o que la rebaja es para todas las camisetas?",
+"aprende": "'All T-shirts' = todas las camisetas tienen descuento; el aviso no dice qué más vende la tienda. 'Only' aparece en 'this week only' (solo esta semana)."
+}
+},
+"explicacion": "Paso 1: 'sale' = rebajas. Paso 2: '50% off' = 50 % de descuento, es decir, más baratas. Paso 3: 'this week only' = solo esta semana (poco tiempo). Paso 4: las camisetas están más baratas por poco tiempo. Respuesta: A.",
+"tip": "En compras, 'off' junto a un porcentaje siempre significa descuento.",
+"truco": "50% off = paga la mitad. Si cuesta $40.000, pagas $20.000.",
+"estrategia_icfes": "Los avisos comerciales prueban vocabulario de dinero (sale, off, price, free). Fíjate en los símbolos (%, $) porque el ICFES construye distractores con ellos.",
+"temas": [
+"Vocabulario de compras",
+"Porcentajes y descuentos",
+"All / only"
+],
+"gemela": {
+"contexto": "NOTICE:\n“BUY ONE ICE CREAM, GET ONE FREE. TODAY ONLY.”",
+"enunciado": "What does this sign tell customers?",
+"opciones": {
+"A": "Ice cream is free every day.",
+"B": "Today you get two ice creams for the price of one.",
+"C": "You can only buy one ice cream today."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'buy one' = compra uno. Paso 2: 'get one free' = recibe otro gratis. Paso 3: 'today only' = solo hoy. Paso 4: hoy recibes dos helados por el precio de uno. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A011",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) y actúa de acuerdo con ellos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): sigo instrucciones escritas en textos cortos relacionados con mi entorno.",
+"afirmacion": "Comprende qué acción pide un aviso a los visitantes de un lugar.",
+"evidencia": "Reformula la instrucción 'leave your bags at the entrance'.",
+"contexto": "NOTICE AT THE LA TERTULIA MUSEUM:\n“PLEASE LEAVE YOUR BAGS AT THE ENTRANCE BEFORE VISITING THE ROOMS.”",
+"enunciado": "What should visitors do?",
+"opciones": {
+"A": "Carry their bags into the rooms.",
+"B": "Buy a new bag at the entrance.",
+"C": "Put their bags in a place near the door."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'leave' (dejar) con 'take' (llevar)",
+"porque": "Elegiste 'Carry their bags into the rooms' porque probablemente no conocías el verbo 'leave' en el sentido de 'dejar algo en un lugar'.",
+"pregunta_guia": "Si dejas tu bolso en la entrada, ¿lo llevas contigo a las salas?",
+"aprende": "'Leave something somewhere' = dejar algo en un lugar. Los bolsos se quedan en la entrada."
+},
+"B": {
+"error": "Inventar una acción comercial",
+"porque": "Elegiste 'Buy a new bag at the entrance' porque probablemente reconociste 'bags' y 'entrance' y armaste una idea con ellas.",
+"pregunta_guia": "¿El aviso menciona comprar ('buy') algo?",
+"aprende": "La opción correcta no debe añadir información que el aviso no da."
+}
+},
+"explicacion": "Paso 1: 'leave your bags' = deja tus bolsos. Paso 2: 'at the entrance' = en la entrada (cerca de la puerta). Paso 3: 'before visiting the rooms' = antes de visitar las salas. Paso 4: los visitantes deben dejar sus bolsos cerca de la puerta. Respuesta: C.",
+"tip": "El verbo 'leave' significa 'salir de' (leave the house) y también 'dejar' (leave your bag). El objeto te dice cuál es.",
+"truco": "Leave + objeto + lugar = dejar algo en un sitio.",
+"estrategia_icfes": "Si la pregunta es 'What should you do?', busca el verbo en imperativo del aviso (leave) y encuentra la opción que lo diga con otras palabras (put… near the door).",
+"temas": [
+"Verbo 'leave'",
+"Imperativos",
+"Vocabulario de lugares culturales"
+],
+"gemela": {
+"contexto": "NOTICE:\n“PLEASE TAKE OFF YOUR SHOES BEFORE ENTERING THE DANCE ROOM.”",
+"enunciado": "What should students do?",
+"opciones": {
+"A": "Remove their shoes before going in.",
+"B": "Buy new shoes for the class.",
+"C": "Wear their shoes during the dance."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'take off' = quitarse. Paso 2: 'before entering' = antes de entrar. Paso 3: deben quitarse los zapatos antes de entrar. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A012",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano de su entorno escolar y explica las consecuencias de lo que indican.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico relaciones de condición y consecuencia en textos cortos.",
+"afirmacion": "Comprende una regla con condición y consecuencia expresada en un aviso.",
+"evidencia": "Interpreta la estructura 'do X before… or…' y la palabra 'fine' (multa).",
+"contexto": "NOTICE IN THE SCHOOL LIBRARY:\n“RETURN YOUR BOOKS BEFORE FRIDAY OR PAY A FINE.”",
+"enunciado": "What does this notice mean?",
+"opciones": {
+"A": "You must pay if you return your books after Friday.",
+"B": "You can borrow books only on Friday.",
+"C": "Books are free only on Friday."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tomar 'Friday' como el único día de préstamo",
+"porque": "Elegiste 'You can borrow books only on Friday' porque probablemente viste 'Friday' y pensaste que era el día de préstamo.",
+"pregunta_guia": "¿Qué significa 'return'? ¿El aviso habla de pedir prestado o de devolver?",
+"aprende": "'Return' = devolver. Friday es la fecha límite para devolver, no el día de préstamo."
+},
+"C": {
+"error": "Confundir 'fine' (multa) con 'free' o 'bien'",
+"porque": "Elegiste 'Books are free only on Friday' porque probablemente conocías 'fine' como 'bien' y no como 'multa'.",
+"pregunta_guia": "En la frase 'pay a fine', ¿qué se paga?",
+"aprende": "'Pay a fine' = pagar una multa. Si devuelves tarde, pagas."
+}
+},
+"explicacion": "Paso 1: 'return your books' = devuelve tus libros. Paso 2: 'before Friday' = antes del viernes. Paso 3: 'or pay a fine' = o paga una multa. Paso 4: si no los devuelves a tiempo (después del viernes), debes pagar. Respuesta: A.",
+"tip": "'Or' en un aviso suele anunciar la consecuencia de no cumplir la norma.",
+"truco": "Fine tiene dos caras: 'I'm fine' (bien) y 'pay a fine' (multa). Si va con 'pay', es multa.",
+"estrategia_icfes": "En el nivel avanzado de la Parte 1 el ICFES usa palabras con doble significado (fine, leave, take). Lee la palabra con sus vecinas para descubrir su sentido.",
+"temas": [
+"Palabras con varios significados",
+"Return / borrow",
+"Conector 'or' como consecuencia"
+],
+"gemela": {
+"contexto": "NOTICE:\n“SHOW YOUR TICKET TO THE DRIVER OR PAY AGAIN.”",
+"enunciado": "What does this sign tell passengers?",
+"opciones": {
+"A": "Passengers never need a ticket.",
+"B": "The driver sells tickets only.",
+"C": "Passengers without a ticket must pay."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'show your ticket' = muestra tu tiquete. Paso 2: 'or pay again' = o paga otra vez. Paso 3: quien no tenga tiquete debe pagar. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A013",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (avisos, letreros, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando desempeños de 6°–7°: comprendo textos cortos de uso cotidiano como avisos y letreros e identifico el lugar donde aparecen.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el lugar en el que se usan.",
+"evidencia": "Relaciona un aviso de tránsito (parking, gate, cars) con su ubicación.",
+"contexto": "NOTICE:\n“NO PARKING IN FRONT OF THE GATE. CARS WILL BE REMOVED.”",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "in a kitchen",
+"B": "outside a house or building",
+"C": "inside a classroom"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Elegir sin comprender las palabras clave",
+"porque": "Elegiste 'in a kitchen' porque probablemente no reconociste 'parking' ni 'gate' y escogiste al azar un lugar conocido.",
+"pregunta_guia": "¿Qué significa 'parking'? ¿Se parquean carros en una cocina?",
+"aprende": "'Parking' = parquear/estacionar y 'gate' = portón. El aviso está afuera, en la entrada de una casa o edificio."
+},
+"C": {
+"error": "Asociar 'removed' con objetos del salón",
+"porque": "Elegiste 'inside a classroom' porque probablemente pensaste que 'removed' (retirados) se refería a cosas que se sacan del salón.",
+"pregunta_guia": "¿Qué es lo que será retirado según el aviso?",
+"aprende": "'Cars will be removed' = los carros serán retirados (por la grúa). Hay carros, así que el aviso está en la calle."
+}
+},
+"explicacion": "Paso 1: 'no parking' = prohibido parquear. Paso 2: 'in front of the gate' = frente al portón. Paso 3: 'cars will be removed' = los carros serán retirados. Paso 4: un portón con carros afuera está en la entrada de una casa o edificio. Respuesta: B.",
+"tip": "'No + -ing' es la forma más corta de prohibir: no parking, no smoking, no running.",
+"truco": "Gate = portón (de carros); door = puerta (de personas).",
+"estrategia_icfes": "Aunque no conozcas todas las palabras, el ICFES te da varias pistas en el mismo aviso. Con una sola palabra clara (cars) ya puedes descartar lugares imposibles.",
+"temas": [
+"Prohibiciones con 'No + -ing'",
+"Vocabulario de la ciudad",
+"Futuro con 'will'"
+],
+"gemela": {
+"contexto": "NOTICE:\n“NO SMOKING. GAS STATION.”",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "in a swimming pool",
+"B": "at a petrol station",
+"C": "in a bedroom"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'no smoking' = prohibido fumar. Paso 2: 'gas station' = estación de gasolina (también 'petrol station'). Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A014",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano y la usa para tomar decisiones en situaciones de su comunidad.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): sigo instrucciones escritas y hago inferencias sencillas sobre lo que debo hacer.",
+"afirmacion": "Infiere la acción que debe tomar una persona a partir de un aviso de transporte.",
+"evidencia": "Interpreta 'does not stop at' y 'change at the next stop'.",
+"contexto": "NOTICE INSIDE A BUS:\n“THIS BUS DOES NOT STOP AT THE AIRPORT. PASSENGERS FOR THE AIRPORT: CHANGE AT THE NEXT STOP.”",
+"enunciado": "What should a passenger going to the airport do?",
+"opciones": {
+"A": "Stay on this bus until the last stop.",
+"B": "Get off at the next stop and take another bus.",
+"C": "Get off this bus at the airport."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No interpretar 'change' como cambiar de bus",
+"porque": "Elegiste 'Stay on this bus' porque probablemente no entendiste que 'change' significa cambiar de vehículo.",
+"pregunta_guia": "Si el bus no para en el aeropuerto, ¿llegarás quedándote en él?",
+"aprende": "'Change at the next stop' = haz trasbordo en la siguiente parada: bájate y toma otro bus."
+},
+"C": {
+"error": "Pasar por alto la negación",
+"porque": "Elegiste 'Get off this bus at the airport' porque probablemente leíste 'stop at the airport' y no viste 'does not'.",
+"pregunta_guia": "¿Qué cambia la palabra 'not' en 'does not stop'?",
+"aprende": "'Does not stop' = no para. Las negaciones cambian todo el sentido: búscalas siempre."
+}
+},
+"explicacion": "Paso 1: 'this bus does not stop at the airport' = este bus no para en el aeropuerto. Paso 2: 'passengers for the airport' = pasajeros que van al aeropuerto. Paso 3: 'change at the next stop' = cambien (de bus) en la próxima parada. Paso 4: deben bajarse en la siguiente parada y tomar otro bus. Respuesta: B.",
+"tip": "Busca siempre 'not', 'no' y 'never': una negación pasada por alto es el error más común.",
+"truco": "Change en transporte = trasbordo (cambiar de bus, tren o avión).",
+"estrategia_icfes": "Los avisos de nivel avanzado tienen dos frases: una da información y la otra una instrucción. Une ambas para responder qué debe hacer la persona.",
+"temas": [
+"Negación en presente simple",
+"Vocabulario de transporte",
+"Get on / get off"
+],
+"gemela": {
+"contexto": "NOTICE AT A STATION:\n“LIFT OUT OF ORDER. PLEASE USE THE STAIRS.”",
+"enunciado": "What should people do to go up?",
+"opciones": {
+"A": "Wait for the lift to arrive.",
+"B": "Walk up the stairs.",
+"C": "Call the lift again."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'lift' = ascensor; 'out of order' = fuera de servicio. Paso 2: 'use the stairs' = usa las escaleras. Paso 3: hay que subir por las escaleras. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A015",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "Inteligencia emocional",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos sobre actividades de su comunidad escolar y explica su propósito.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el propósito de anuncios y convocatorias de mi entorno escolar.",
+"afirmacion": "Comprende el propósito de un anuncio de convocatoria escolar.",
+"evidencia": "Interpreta 'volunteers needed' y 'sign up' en un anuncio.",
+"contexto": "NOTICE ON THE SCHOOL BOARD:\n“VOLUNTEERS NEEDED FOR THE BEACH CLEAN-UP IN JUANCHACO. SIGN UP IN THE TEACHERS' ROOM.”",
+"enunciado": "What does the notice ask students to do?",
+"opciones": {
+"A": "Write their names in the teachers' room if they want to help.",
+"B": "Clean the teachers' room before the trip.",
+"C": "Stay away from the beach in Juanchaco."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Unir palabras del aviso sin relación",
+"porque": "Elegiste 'Clean the teachers' room' porque probablemente juntaste 'clean-up' y 'teachers' room' en una sola idea.",
+"pregunta_guia": "¿Qué lugar se va a limpiar según el aviso: la playa o la sala de profesores?",
+"aprende": "La limpieza es en la playa; en la sala de profesores solo te inscribes ('sign up')."
+},
+"C": {
+"error": "Interpretar la limpieza como un peligro",
+"porque": "Elegiste 'Stay away from the beach' porque probablemente pensaste que si la playa necesita limpieza es mejor no ir.",
+"pregunta_guia": "¿Qué significa 'volunteers needed'? ¿Se busca gente o se aleja a la gente?",
+"aprende": "'Volunteers needed' = se necesitan voluntarios: el aviso invita a participar."
+}
+},
+"explicacion": "Paso 1: 'volunteers needed' = se necesitan voluntarios. Paso 2: 'beach clean-up in Juanchaco' = limpieza de la playa en Juanchaco. Paso 3: 'sign up in the teachers' room' = inscríbete en la sala de profesores. Paso 4: el aviso pide que quien quiera ayudar escriba su nombre allí. Respuesta: A.",
+"tip": "'Sign up' = inscribirse. Es muy frecuente en anuncios de actividades.",
+"truco": "Needed = se necesita(n). 'Volunteers needed' = ¡buscamos voluntarios!",
+"estrategia_icfes": "En los anuncios, identifica tres datos: qué actividad es, quién puede participar y qué hay que hacer. La respuesta correcta suele resumir la acción pedida.",
+"temas": [
+"Phrasal verbs: sign up, clean up",
+"Voluntariado y medio ambiente",
+"Avisos escolares"
+],
+"gemela": {
+"contexto": "NOTICE:\n“FOOTBALL TEAM: NEW PLAYERS WELCOME. TRAINING ON TUESDAYS AT 3 P.M.”",
+"enunciado": "What does the notice invite students to do?",
+"opciones": {
+"A": "Watch a football match on TV.",
+"B": "Join the team and train on Tuesdays.",
+"C": "Buy tickets for a match on Tuesday."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'new players welcome' = nuevos jugadores son bienvenidos. Paso 2: 'training on Tuesdays' = entrenamiento los martes. Paso 3: invita a unirse al equipo y entrenar los martes. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A016",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos y letreros",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce información específica en textos cortos de uso cotidiano (etiquetas, instrucciones) relacionados con su entorno y los asocia con su propósito comunicativo.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): comprendo información de etiquetas e instrucciones de productos de uso diario.",
+"afirmacion": "Reconoce el producto en el que aparece una etiqueta.",
+"evidencia": "Asocia 'keep refrigerated' y 'best before' con un alimento perecedero.",
+"contexto": "LABEL:\n“KEEP REFRIGERATED. BEST BEFORE: 20 NOV.”",
+"enunciado": "Where can you read this label?",
+"opciones": {
+"A": "on a notebook",
+"B": "on a pair of shoes",
+"C": "on a carton of milk"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar la fecha con un calendario o cuaderno",
+"porque": "Elegiste 'on a notebook' porque probablemente viste una fecha (20 NOV) y pensaste en algo para escribir fechas.",
+"pregunta_guia": "¿Un cuaderno necesita estar en la nevera?",
+"aprende": "'Keep refrigerated' = mantener refrigerado: solo tiene sentido en alimentos."
+},
+"B": {
+"error": "Asociar 'best' con calidad de un producto",
+"porque": "Elegiste 'on a pair of shoes' porque probablemente entendiste 'best' como 'el mejor producto'.",
+"pregunta_guia": "¿Qué significa 'best before' junto a una fecha?",
+"aprende": "'Best before' = consumir preferiblemente antes de: es la fecha de vencimiento de un alimento."
+}
+},
+"explicacion": "Paso 1: 'keep refrigerated' = mantener refrigerado. Paso 2: 'best before: 20 NOV' = consumir antes del 20 de noviembre. Paso 3: un producto que va en la nevera y vence es un alimento como la leche. Respuesta: C.",
+"tip": "En etiquetas de alimentos busca: 'best before', 'expiry date', 'keep in a cool place'.",
+"truco": "Refrigerated → refrigerator (nevera) → alimento frío.",
+"estrategia_icfes": "Si el aviso es una etiqueta, pregúntate qué producto necesita esa instrucción. Descarta los objetos que no podrían cumplirla.",
+"temas": [
+"Etiquetas de alimentos",
+"Fechas en inglés",
+"Vocabulario: envases (carton, bottle, can)"
+],
+"gemela": {
+"contexto": "LABEL:\n“SHAKE WELL BEFORE DRINKING.”",
+"enunciado": "Where would you probably see this label?",
+"opciones": {
+"A": "on a bottle of juice",
+"B": "on a T-shirt",
+"C": "on a pencil"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'shake well' = agita bien. Paso 2: 'before drinking' = antes de beber. Paso 3: se bebe un jugo, así que la etiqueta está en una botella de jugo. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A017",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario de su entorno escolar y de interés general en textos cortos orales y escritos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando 6°–7°: identifico el significado de palabras de uso frecuente y las relaciono con definiciones sencillas.",
+"afirmacion": "Reconoce el significado de palabras de uso frecuente en el entorno escolar.",
+"evidencia": "Relaciona la definición de un útil escolar con la palabra correspondiente.",
+"contexto": "Read the description: “You use this to cut paper in the art class.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "glue",
+"B": "scissors",
+"C": "ruler"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Relacionar con otro útil de la clase de arte",
+"porque": "Elegiste 'glue' porque probablemente pensaste en materiales de arte y el pegante es uno de ellos.",
+"pregunta_guia": "¿Con el pegante cortas o pegas el papel?",
+"aprende": "'Glue' = pegante (sirve para pegar). Para cortar se usan 'scissors' (tijeras)."
+},
+"C": {
+"error": "Relacionar con un útil que se usa con papel",
+"porque": "Elegiste 'ruler' porque probablemente sabías que la regla se usa sobre el papel.",
+"pregunta_guia": "¿La regla sirve para cortar o para medir y trazar líneas?",
+"aprende": "'Ruler' = regla (medir). 'Scissors' = tijeras (cortar)."
+}
+},
+"explicacion": "Paso 1: el verbo clave es 'cut' (cortar). Paso 2: 'paper' = papel; 'art class' = clase de arte. Paso 3: el objeto que corta papel son las tijeras: 'scissors'. Respuesta: B.",
+"tip": "En la Parte 2 busca el VERBO de la definición: te dice para qué sirve el objeto.",
+"truco": "Scissors siempre va en plural, como 'tijeras'.",
+"estrategia_icfes": "En la Parte 2 el ICFES da una definición y varias palabras del mismo campo (útiles escolares). Todas se parecen en tema; solo una cumple la función exacta.",
+"temas": [
+"Útiles escolares",
+"Verbos de acción: cut, glue, measure",
+"Sustantivos en plural"
+],
+"gemela": {
+"contexto": "Read the description: “You use this to remove pencil marks from your notebook.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "eraser",
+"B": "sharpener",
+"C": "marker"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'remove pencil marks' = quitar marcas de lápiz. Paso 2: eso lo hace el borrador: 'eraser'. 'Sharpener' saca punta y 'marker' es un marcador. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A018",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con oficios, profesiones y servicios de su comunidad.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras de uso frecuente y las relaciono con definiciones sencillas.",
+"afirmacion": "Reconoce vocabulario de profesiones a partir de su descripción.",
+"evidencia": "Asocia la descripción de un trabajo en el hospital con la palabra 'nurse'.",
+"contexto": "Read the description: “This person takes care of sick people in a hospital and works with doctors.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "nurse",
+"B": "lawyer",
+"C": "waiter"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar 'takes care' con defender a alguien",
+"porque": "Elegiste 'lawyer' porque probablemente pensaste que 'take care of people' podía ser defender a las personas.",
+"pregunta_guia": "¿Un abogado trabaja en el hospital con los médicos?",
+"aprende": "'Lawyer' = abogado (trabaja con leyes). 'Nurse' = enfermero(a)."
+},
+"C": {
+"error": "Asociar 'take care' con servir a clientes",
+"porque": "Elegiste 'waiter' porque probablemente pensaste que atender personas es lo que hace un mesero.",
+"pregunta_guia": "¿Dónde trabaja un mesero: en un hospital o en un restaurante?",
+"aprende": "'Waiter' = mesero (restaurante). Las pistas 'sick people' y 'hospital' llevan a 'nurse'."
+}
+},
+"explicacion": "Paso 1: 'takes care of' = cuida a. Paso 2: 'sick people' = personas enfermas. Paso 3: 'in a hospital… with doctors' = en el hospital con los médicos. Paso 4: es el enfermero o enfermera: 'nurse'. Respuesta: A.",
+"tip": "Las profesiones se reconocen por el LUGAR de trabajo y la ACCIÓN que realizan.",
+"truco": "Take care of = cuidar de. ¡'Take care!' también significa '¡cuídate!'.",
+"estrategia_icfes": "El ICFES describe a las personas por su trabajo. Subraya el lugar (hospital) y la acción (takes care): con esas dos pistas descartas las otras profesiones.",
+"temas": [
+"Profesiones y oficios",
+"Lugares de trabajo",
+"Expresión 'take care of'"
+],
+"gemela": {
+"contexto": "Read the description: “This person prepares food in a restaurant kitchen.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "pilot",
+"B": "cook",
+"C": "farmer"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'prepares food' = prepara comida. Paso 2: 'restaurant kitchen' = cocina de restaurante. Paso 3: es el cocinero: 'cook'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A019",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con su vida cotidiana (hogar, alimentos) en textos cortos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando 6°–7°: identifico el significado de palabras de uso frecuente y las relaciono con definiciones sencillas.",
+"afirmacion": "Reconoce vocabulario del hogar a partir de su función.",
+"evidencia": "Relaciona la función 'keep food cold' con 'fridge'.",
+"contexto": "Read the description: “You put your food in this to keep it cold.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "oven",
+"B": "fridge",
+"C": "sink"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Elegir otro electrodoméstico de la cocina",
+"porque": "Elegiste 'oven' porque probablemente sabías que el horno es de la cocina y se usa con comida.",
+"pregunta_guia": "¿El horno enfría o calienta la comida?",
+"aprende": "'Oven' = horno (calienta). 'Fridge' = nevera (mantiene frío)."
+},
+"C": {
+"error": "Elegir un objeto de cocina sin revisar la función",
+"porque": "Elegiste 'sink' porque probablemente pensaste en el lugar de la cocina donde se lava la comida.",
+"pregunta_guia": "¿El lavaplatos mantiene la comida fría?",
+"aprende": "'Sink' = lavaplatos o lavamanos (lavar). La clave es 'keep it cold'."
+}
+},
+"explicacion": "Paso 1: 'put your food in this' = guardas tu comida aquí. Paso 2: 'to keep it cold' = para mantenerla fría. Paso 3: el aparato que mantiene la comida fría es la nevera: 'fridge'. Respuesta: B.",
+"tip": "Si varias opciones son del mismo lugar (cocina), decide por la FUNCIÓN exacta.",
+"truco": "Fridge = refrigerator (forma corta).",
+"estrategia_icfes": "La Parte 2 evalúa vocabulario por campos semánticos. Agrupa mentalmente las opciones: si todas son de la cocina, la palabra clave de la definición (cold) decide.",
+"temas": [
+"Vocabulario del hogar",
+"Cocina y electrodomésticos",
+"Expresión 'keep + adjetivo'"
+],
+"gemela": {
+"contexto": "Read the description: “You sleep on this every night.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "chair",
+"B": "table",
+"C": "bed"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'sleep' = dormir. Paso 2: 'every night' = cada noche. Paso 3: se duerme en la cama: 'bed'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A020",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con sus rutinas y hábitos de vida saludable.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), retomando 6°–7°: identifico el significado de palabras de uso frecuente relacionadas con mi rutina diaria.",
+"afirmacion": "Reconoce vocabulario de comidas del día.",
+"evidencia": "Relaciona 'the first meal of the day' con 'breakfast'.",
+"contexto": "Read the description: “This is the first meal of the day. Many people in Cali have arepa, eggs and hot chocolate for it.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "dinner",
+"B": "lunch",
+"C": "breakfast"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir el orden de las comidas",
+"porque": "Elegiste 'dinner' porque probablemente recordabas que es una comida pero no en qué momento del día va.",
+"pregunta_guia": "¿'Dinner' es la primera o la última comida del día?",
+"aprende": "Breakfast (mañana) → lunch (mediodía) → dinner (noche)."
+},
+"B": {
+"error": "Tomar la comida principal por la primera",
+"porque": "Elegiste 'lunch' porque probablemente pensaste en el almuerzo como la comida más importante en Colombia.",
+"pregunta_guia": "¿Qué significa 'first'? ¿El almuerzo es la primera comida?",
+"aprende": "'First meal of the day' = la primera comida: el desayuno, 'breakfast'."
+}
+},
+"explicacion": "Paso 1: 'first meal of the day' = primera comida del día. Paso 2: la pista cultural (arepa, huevos, chocolate) confirma la mañana. Paso 3: la primera comida es el desayuno: 'breakfast'. Respuesta: C.",
+"tip": "Ordena el vocabulario en secuencias (comidas, días, meses): así no lo confundes.",
+"truco": "Break + fast = romper el ayuno de la noche → desayuno.",
+"estrategia_icfes": "Los distractores de la Parte 2 suelen ser palabras de la misma secuencia. Ubica la posición que pide la definición (first, last) y escoge.",
+"temas": [
+"Comidas del día",
+"Números ordinales: first, last",
+"Hábitos de vida saludable"
+],
+"gemela": {
+"contexto": "Read the description: “This is the last meal of the day, usually in the evening.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "breakfast",
+"B": "dinner",
+"C": "snack"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'last meal' = última comida. Paso 2: 'in the evening' = en la noche. Paso 3: es la cena: 'dinner'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A021",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con temas de interés general como la naturaleza y el medio ambiente de su región.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con otras áreas del conocimiento (ciencias naturales) a partir del contexto.",
+"afirmacion": "Reconoce vocabulario de fauna a partir de una descripción con datos de su región.",
+"evidencia": "Relaciona características (sea, very big, Pacific coast) con 'whale'.",
+"contexto": "Read the description: “This very big animal lives in the sea. Every year, from July to October, it visits the Colombian Pacific coast to have its babies.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "whale",
+"B": "parrot",
+"C": "monkey"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Elegir un animal típico de Colombia sin revisar el hábitat",
+"porque": "Elegiste 'parrot' porque probablemente pensaste en animales conocidos de Colombia, como los loros.",
+"pregunta_guia": "¿Un loro vive en el mar?",
+"aprende": "'Parrot' = loro (vive en los árboles). La pista 'lives in the sea' lleva a 'whale' (ballena)."
+},
+"C": {
+"error": "Asociar 'Pacific coast' con la selva",
+"porque": "Elegiste 'monkey' porque probablemente pensaste en la selva del Pacífico, donde hay monos.",
+"pregunta_guia": "¿Dónde vive el animal según la primera oración?",
+"aprende": "El animal vive 'in the sea' (en el mar) y es 'very big': es la ballena jorobada que llega a Bahía Solano y Juanchaco."
+}
+},
+"explicacion": "Paso 1: 'very big animal' = animal muy grande. Paso 2: 'lives in the sea' = vive en el mar. Paso 3: 'visits the Colombian Pacific coast to have its babies' = visita la costa pacífica para tener sus crías. Paso 4: es la ballena: 'whale'. Respuesta: A.",
+"tip": "Cuando la definición tiene varias pistas, usa la más restrictiva (lives in the sea) para descartar.",
+"truco": "Whale = ballena (la 'w' es muda al inicio de 'wh': suena 'güeil').",
+"estrategia_icfes": "El ICFES combina vocabulario con contextos de ciencias. No necesitas saber biología: basta con unir las pistas de la definición.",
+"temas": [
+"Animales y hábitats",
+"Biodiversidad del Pacífico colombiano",
+"Presente simple para hechos"
+],
+"gemela": {
+"contexto": "Read the description: “This bird cannot fly. It lives in very cold places and swims very well.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "eagle",
+"B": "penguin",
+"C": "hummingbird"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'bird' = ave; 'cannot fly' = no puede volar. Paso 2: 'very cold places' y 'swims' = lugares fríos y nada. Paso 3: es el pingüino: 'penguin'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A022",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con lugares de su ciudad y su comunidad.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras de uso frecuente sobre lugares de mi entorno.",
+"afirmacion": "Reconoce vocabulario de lugares de la ciudad a partir de su función.",
+"evidencia": "Relaciona 'see old objects and paintings, learn about history' con 'museum'.",
+"contexto": "Read the description: “In this place you can see old objects and paintings and learn about history.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "museum",
+"B": "pharmacy",
+"C": "garage"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Elegir sin conocer el vocabulario",
+"porque": "Elegiste 'pharmacy' porque probablemente no reconociste las palabras de la definición y elegiste un lugar al azar.",
+"pregunta_guia": "¿En una farmacia ves pinturas y aprendes historia?",
+"aprende": "'Pharmacy' = farmacia (venden medicinas). 'Museum' = museo."
+},
+"C": {
+"error": "Asociar 'old objects' con cosas guardadas",
+"porque": "Elegiste 'garage' porque probablemente pensaste que en el garaje se guardan objetos viejos.",
+"pregunta_guia": "¿En un garaje aprendes historia y ves pinturas?",
+"aprende": "'Garage' = garaje (para carros). La pista 'learn about history' lleva a 'museum'."
+}
+},
+"explicacion": "Paso 1: 'old objects and paintings' = objetos antiguos y pinturas. Paso 2: 'learn about history' = aprender sobre historia. Paso 3: el lugar es el museo: 'museum'. Respuesta: A.",
+"tip": "Si dudas, revisa si la opción cumple TODA la definición, no solo una parte.",
+"truco": "Museum ≈ museo (palabra transparente). ¡Aprovecha los cognados!",
+"estrategia_icfes": "Los cognados (palabras parecidas al español) ayudan, pero verifica que la definición completa encaje; el ICFES también usa falsos amigos.",
+"temas": [
+"Lugares de la ciudad",
+"Cognados",
+"Turismo cultural"
+],
+"gemela": {
+"contexto": "Read the description: “You go to this place to buy medicine.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "bakery",
+"B": "stadium",
+"C": "pharmacy"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'buy medicine' = comprar medicinas. Paso 2: se compran en la farmacia: 'pharmacy'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A023",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con viajes y transporte en textos cortos de interés general.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras de uso frecuente y las relaciono con definiciones sencillas.",
+"afirmacion": "Reconoce vocabulario de viajes a partir de su descripción.",
+"evidencia": "Relaciona 'document to travel to another country' con 'passport'.",
+"contexto": "Read the description: “You need this document with your photo to travel to another country.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "receipt",
+"B": "menu",
+"C": "passport"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar 'document' con cualquier papel",
+"porque": "Elegiste 'receipt' porque probablemente pensaste que un recibo también es un documento de papel.",
+"pregunta_guia": "¿Un recibo tiene tu foto y te permite viajar a otro país?",
+"aprende": "'Receipt' = recibo de pago. El documento con foto para viajar al exterior es el 'passport'."
+},
+"B": {
+"error": "Elegir una palabra de viaje sin relación con la definición",
+"porque": "Elegiste 'menu' porque probablemente lo asociaste con hoteles y restaurantes de los viajes.",
+"pregunta_guia": "¿El menú es un documento de identidad?",
+"aprende": "'Menu' = carta de un restaurante. La definición pide un documento con foto: 'passport'."
+}
+},
+"explicacion": "Paso 1: 'document with your photo' = documento con tu foto. Paso 2: 'to travel to another country' = para viajar a otro país. Paso 3: ese documento es el pasaporte: 'passport'. Respuesta: C.",
+"tip": "'Another country' = otro país. Esa pista separa el pasaporte de otros papeles.",
+"truco": "Pass + port = 'pasar por el puerto': el documento para cruzar fronteras.",
+"estrategia_icfes": "Las definiciones de la Parte 2 usan palabras generales (document, place, person) seguidas de detalles. Los detalles son los que deciden la respuesta.",
+"temas": [
+"Vocabulario de viajes",
+"Documentos",
+"Another / other"
+],
+"gemela": {
+"contexto": "Read the description: “You get this paper after you pay for something in a shop.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "passport",
+"B": "receipt",
+"C": "map"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'after you pay' = después de pagar. Paso 2: el papel que recibes es el recibo: 'receipt'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A024",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "Educación digital e IA",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con oficios, medios de comunicación y temas de interés general.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con los medios de comunicación a partir de definiciones.",
+"afirmacion": "Reconoce vocabulario de profesiones relacionadas con los medios de comunicación.",
+"evidencia": "Relaciona 'writes news for a newspaper or a website' con 'journalist'.",
+"contexto": "Read the description: “This person writes news for a newspaper or a website.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "mechanic",
+"B": "journalist",
+"C": "farmer"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Desconocer el vocabulario de oficios",
+"porque": "Elegiste 'mechanic' porque probablemente asociaste 'website' con computadores y máquinas.",
+"pregunta_guia": "¿Un mecánico escribe noticias?",
+"aprende": "'Mechanic' = mecánico (repara motores). Quien escribe noticias es 'journalist' (periodista)."
+},
+"C": {
+"error": "Confundir 'news' con información del campo",
+"porque": "Elegiste 'farmer' porque probablemente no conocías 'journalist' y escogiste por descarte una palabra conocida.",
+"pregunta_guia": "¿Qué hace un 'farmer'? ¿Trabaja escribiendo?",
+"aprende": "'Farmer' = agricultor o campesino. 'Journalist' viene de 'journal' (diario)."
+}
+},
+"explicacion": "Paso 1: 'writes news' = escribe noticias. Paso 2: 'newspaper or website' = periódico o sitio web. Paso 3: la persona que escribe noticias es el periodista: 'journalist'. Respuesta: B.",
+"tip": "Muchas profesiones se forman con sufijos: -ist (journalist, artist), -er (farmer, teacher), -ic (mechanic).",
+"truco": "Journal = diario → journalist = el que escribe el diario.",
+"estrategia_icfes": "Si no conoces la palabra correcta, descarta las que sí conoces y no encajan. En la Parte 2 el descarte es una estrategia válida.",
+"temas": [
+"Profesiones",
+"Medios de comunicación",
+"Sufijos -ist / -er"
+],
+"gemela": {
+"contexto": "Read the description: “This person designs and creates computer programs and apps.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "programmer",
+"B": "dentist",
+"C": "baker"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'designs and creates computer programs and apps' = diseña y crea programas y aplicaciones. Paso 2: es el programador: 'programmer'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A025",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"sabic": "Matemática financiera",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con el trabajo y el manejo del dinero en situaciones cotidianas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con otras áreas del conocimiento a partir de definiciones sencillas.",
+"afirmacion": "Reconoce vocabulario básico de finanzas personales.",
+"evidencia": "Relaciona 'money you receive every month for your work' con 'salary'.",
+"contexto": "Read the description: “This is the money that you receive every month for your work.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "discount",
+"B": "change",
+"C": "salary"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar dinero con rebajas",
+"porque": "Elegiste 'discount' porque probablemente sabías que es una palabra relacionada con dinero.",
+"pregunta_guia": "¿Un descuento es dinero que recibes por trabajar?",
+"aprende": "'Discount' = descuento (rebaja en un precio). El pago mensual por trabajar es 'salary'."
+},
+"B": {
+"error": "Asociar 'receive money' con las vueltas",
+"porque": "Elegiste 'change' porque probablemente pensaste en el dinero que te devuelven cuando pagas.",
+"pregunta_guia": "¿Las vueltas te las dan cada mes por tu trabajo?",
+"aprende": "'Change' = vueltas o cambio después de pagar. 'Salary' = sueldo o salario."
+}
+},
+"explicacion": "Paso 1: 'money that you receive' = dinero que recibes. Paso 2: 'every month' = cada mes. Paso 3: 'for your work' = por tu trabajo. Paso 4: es el salario: 'salary'. Respuesta: C.",
+"tip": "Aprende el vocabulario financiero en parejas: salary/expenses, save/spend, earn/pay.",
+"truco": "Salary ≈ salario (cognado). Viene de 'sal', con la que se pagaba en la antigua Roma.",
+"estrategia_icfes": "El ICFES agrupa palabras del mismo campo (dinero). Fíjate en la acción (receive, pay, save) y en la frecuencia (every month).",
+"temas": [
+"Vocabulario financiero",
+"Trabajo y dinero",
+"Educación financiera"
+],
+"gemela": {
+"contexto": "Read the description: “This is the money that a shop gives back to you when you pay with a big bill.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "salary",
+"B": "change",
+"C": "price"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'gives back to you' = te devuelve. Paso 2: 'when you pay with a big bill' = cuando pagas con un billete grande. Paso 3: son las vueltas: 'change'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A026",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con el comercio y los servicios de su comunidad.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras de uso frecuente y diferencio términos cercanos por su definición.",
+"afirmacion": "Diferencia palabras de un mismo campo semántico (comercio) por su definición precisa.",
+"evidencia": "Distingue 'customer' de 'owner' y 'cashier'.",
+"contexto": "Read the description: “This person goes to a shop to buy things or services.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "customer",
+"B": "owner",
+"C": "cashier"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir a quien compra con quien es dueño",
+"porque": "Elegiste 'owner' porque probablemente pensaste en la persona más importante de la tienda.",
+"pregunta_guia": "¿El dueño va a la tienda a comprar o es quien la tiene?",
+"aprende": "'Owner' = dueño o propietario. Quien compra es 'customer' (cliente)."
+},
+"C": {
+"error": "Confundir a quien paga con quien cobra",
+"porque": "Elegiste 'cashier' porque probablemente lo relacionaste con la caja, donde se paga al comprar.",
+"pregunta_guia": "¿El cajero compra o recibe el dinero de los que compran?",
+"aprende": "'Cashier' = cajero(a): recibe el pago. 'Customer' = la persona que compra."
+}
+},
+"explicacion": "Paso 1: 'goes to a shop' = va a una tienda. Paso 2: 'to buy things or services' = a comprar cosas o servicios. Paso 3: la persona que compra es el cliente: 'customer'. Respuesta: A.",
+"tip": "Cuando tres palabras están en el mismo lugar (tienda), pregúntate por el ROL de cada persona.",
+"truco": "Customer = cliente; costumbre de comprar (custom = costumbre).",
+"estrategia_icfes": "En el nivel avanzado de la Parte 2, los distractores son muy cercanos (customer, owner, cashier). Define con tus palabras cada opción antes de elegir.",
+"temas": [
+"Comercio y servicios",
+"Personas en una tienda",
+"Campos semánticos"
+],
+"gemela": {
+"contexto": "Read the description: “This person has a shop or a business; it belongs to him or her.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "customer",
+"B": "visitor",
+"C": "owner"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'has a shop or a business' = tiene una tienda o negocio. Paso 2: 'it belongs to him or her' = le pertenece. Paso 3: es el dueño: 'owner'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A027",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"sabic": "Matemática financiera",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con el manejo responsable del dinero y los planes personales.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de verbos de uso frecuente a partir de definiciones.",
+"afirmacion": "Reconoce verbos de finanzas personales a partir de su descripción.",
+"evidencia": "Relaciona 'put money in a bank and do not spend it' con 'saving'.",
+"contexto": "Read the description: “When you put money in a bank and do not spend it, you are doing this.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "borrowing",
+"B": "saving",
+"C": "wasting"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Asociar 'bank' con préstamos",
+"porque": "Elegiste 'borrowing' porque probablemente relacionaste el banco con pedir dinero prestado.",
+"pregunta_guia": "Cuando pides prestado, ¿pones tu dinero en el banco o recibes dinero del banco?",
+"aprende": "'Borrow' = pedir prestado. Poner dinero y no gastarlo es 'save' (ahorrar)."
+},
+"C": {
+"error": "Confundir el sentido de 'spend'",
+"porque": "Elegiste 'wasting' porque probablemente leíste 'spend' (gastar) y no viste 'do not'.",
+"pregunta_guia": "¿La definición dice que gastas o que NO gastas?",
+"aprende": "'Waste' = desperdiciar. La definición dice 'do not spend it': es ahorrar."
+}
+},
+"explicacion": "Paso 1: 'put money in a bank' = poner dinero en un banco. Paso 2: 'do not spend it' = no gastarlo. Paso 3: guardar dinero sin gastarlo es ahorrar: 'saving'. Respuesta: B.",
+"tip": "Ojo con 'do not': una negación en la definición elimina los distractores que hablan de gastar.",
+"truco": "Save = ahorrar (y también 'salvar'): ahorrar salva tu futuro.",
+"estrategia_icfes": "Cuando la Parte 2 define acciones, las opciones vienen en la misma forma (-ing). Busca el verbo principal de la definición y su negación.",
+"temas": [
+"Verbos de dinero: save, spend, borrow, waste",
+"Negación",
+"Ahorro e inversión"
+],
+"gemela": {
+"contexto": "Read the description: “When you take money from a friend and promise to give it back later, you are doing this.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "borrowing",
+"B": "saving",
+"C": "selling"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'take money… and promise to give it back' = tomas dinero y prometes devolverlo. Paso 2: eso es pedir prestado: 'borrowing'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A028",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con la geografía y el entorno natural de Colombia.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con otras áreas (ciencias sociales) a partir de definiciones y ejemplos.",
+"afirmacion": "Reconoce vocabulario geográfico a partir de una definición y un ejemplo.",
+"evidencia": "Relaciona 'very high natural place' y el ejemplo del Nevado del Huila con 'mountain'.",
+"contexto": "Read the description: “This is a very high natural place. The Nevado del Huila, in the Andes, is an example.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "valley",
+"B": "island",
+"C": "mountain"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir alto y bajo en el relieve",
+"porque": "Elegiste 'valley' porque probablemente recordaste el Valle del Cauca y lo relacionaste con los Andes.",
+"pregunta_guia": "¿Un valle es un lugar alto o bajo entre montañas?",
+"aprende": "'Valley' = valle (tierra baja entre montañas). 'Very high' lleva a 'mountain'."
+},
+"B": {
+"error": "Elegir un accidente geográfico sin revisar la pista",
+"porque": "Elegiste 'island' porque probablemente sabías que es una palabra de geografía pero no su significado.",
+"pregunta_guia": "¿Una isla está rodeada de agua o es muy alta?",
+"aprende": "'Island' = isla (tierra rodeada de agua). El Nevado del Huila es una montaña."
+}
+},
+"explicacion": "Paso 1: 'very high natural place' = lugar natural muy alto. Paso 2: el ejemplo es el Nevado del Huila, en la cordillera de los Andes. Paso 3: es una montaña: 'mountain'. Respuesta: C.",
+"tip": "Los ejemplos de la definición (Nevado del Huila) son una pista poderosa: úsalos.",
+"truco": "Mountain ≈ montaña; valley ≈ valle; island: la 's' no suena ('ailand').",
+"estrategia_icfes": "El ICFES puede incluir un ejemplo real para ayudarte. Si conoces el ejemplo, úsalo para confirmar tu respuesta.",
+"temas": [
+"Geografía de Colombia",
+"Relieve: mountain, valley, island",
+"Adjetivos: high / low"
+],
+"gemela": {
+"contexto": "Read the description: “This is a piece of land with water all around it. San Andrés is an example.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "island",
+"B": "desert",
+"C": "mountain"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'land with water all around it' = tierra rodeada de agua. Paso 2: San Andrés es un ejemplo. Paso 3: es una isla: 'island'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A029",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"sabic": "Inteligencia emocional",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario para describir sentimientos y estados de ánimo propios y de otros.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de adjetivos que expresan emociones a partir de su descripción.",
+"afirmacion": "Reconoce adjetivos de emociones a partir de su descripción.",
+"evidencia": "Relaciona 'something bad happens and you want to cry' con 'sad'.",
+"contexto": "Read the description: “You feel like this when something bad happens and you want to cry.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "angry",
+"B": "sad",
+"C": "bored"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir dos emociones negativas",
+"porque": "Elegiste 'angry' porque probablemente pensaste que cuando algo malo pasa uno se enoja.",
+"pregunta_guia": "Cuando estás enojado, ¿quieres llorar o quieres gritar?",
+"aprende": "'Angry' = enojado. 'Want to cry' (querer llorar) describe la tristeza: 'sad'."
+},
+"C": {
+"error": "Elegir un estado de ánimo sin relación con llorar",
+"porque": "Elegiste 'bored' porque probablemente sabías que es una emoción, pero no cuál.",
+"pregunta_guia": "¿Qué sientes cuando no tienes nada que hacer? ¿Es lo mismo que querer llorar?",
+"aprende": "'Bored' = aburrido. 'Sad' = triste."
+}
+},
+"explicacion": "Paso 1: 'something bad happens' = pasa algo malo. Paso 2: 'you want to cry' = quieres llorar. Paso 3: esa emoción es la tristeza: 'sad'. Respuesta: B.",
+"tip": "Nombrar bien tus emociones (en español y en inglés) es el primer paso de la inteligencia emocional.",
+"truco": "Sad = triste; mad = enojado (informal); glad = contento.",
+"estrategia_icfes": "Para emociones, el ICFES describe una situación y una reacción (want to cry). La reacción es la pista más precisa.",
+"temas": [
+"Adjetivos de emociones",
+"Inteligencia emocional",
+"Feel + adjetivo"
+],
+"gemela": {
+"contexto": "Read the description: “You feel like this when you get a very good grade or see your best friend.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "tired",
+"B": "scared",
+"C": "happy"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'very good grade' y 'best friend' son situaciones agradables. Paso 2: la emoción es la alegría: 'happy'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A030",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "Educación digital e IA",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con la tecnología y los medios digitales de su entorno escolar.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con la tecnología a partir de descripciones con varias características.",
+"afirmacion": "Reconoce vocabulario tecnológico integrando varias características de una descripción.",
+"evidencia": "Relaciona 'carry in your bag, write, watch videos, connect to the internet, bigger than a phone' con 'laptop'.",
+"contexto": "Read the description: “This machine is bigger than a phone, but you can carry it in your bag. You use it to write, watch videos and connect to the internet.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "laptop",
+"B": "printer",
+"C": "keyboard"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Elegir un aparato que se usa para documentos",
+"porque": "Elegiste 'printer' porque probablemente relacionaste 'write' con imprimir documentos.",
+"pregunta_guia": "¿Con una impresora puedes ver videos y conectarte a internet?",
+"aprende": "'Printer' = impresora (imprime en papel). La máquina portátil para escribir y ver videos es el 'laptop'."
+},
+"C": {
+"error": "Tomar una parte por el todo",
+"porque": "Elegiste 'keyboard' porque probablemente pensaste que el teclado sirve para escribir.",
+"pregunta_guia": "¿Un teclado solo puede mostrarte un video?",
+"aprende": "'Keyboard' = teclado (solo una parte). La definición describe un computador completo y portátil: 'laptop'."
+}
+},
+"explicacion": "Paso 1: 'bigger than a phone' = más grande que un celular. Paso 2: 'carry it in your bag' = lo llevas en tu maleta. Paso 3: 'write, watch videos, connect to the internet' = escribir, ver videos, conectarse. Paso 4: el aparato que cumple todo es el computador portátil: 'laptop'. Respuesta: A.",
+"tip": "Si un distractor cumple una sola característica (keyboard → write), no es suficiente: la respuesta cumple TODAS.",
+"truco": "Lap = regazo: laptop = el computador que pones sobre las piernas.",
+"estrategia_icfes": "Las definiciones largas del nivel avanzado tienen 3 o 4 pistas. Haz una lista y marca cuál opción cumple cada una.",
+"temas": [
+"Vocabulario tecnológico",
+"Comparativos: bigger than",
+"Educación digital"
+],
+"gemela": {
+"contexto": "Read the description: “This device prints your documents and photos on paper.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "mouse",
+"B": "printer",
+"C": "screen"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'prints… on paper' = imprime en papel. Paso 2: el aparato es la impresora: 'printer'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A031",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con oficios y medios de transporte en textos de interés general.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras de uso frecuente y diferencio términos cercanos por su definición.",
+"afirmacion": "Diferencia palabras de oficios relacionados con el transporte.",
+"evidencia": "Distingue 'pilot' de 'driver' y 'sailor' según el medio de transporte.",
+"contexto": "Read the description: “This person flies a plane and takes passengers from one city to another.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "sailor",
+"B": "driver",
+"C": "pilot"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir medios de transporte",
+"porque": "Elegiste 'sailor' porque probablemente sabías que es una persona que viaja y transporta, pero no en qué.",
+"pregunta_guia": "¿Un marinero trabaja en un barco o en un avión?",
+"aprende": "'Sailor' = marinero (barco). 'Flies a plane' lleva a 'pilot'."
+},
+"B": {
+"error": "Generalizar 'conducir' a todos los vehículos",
+"porque": "Elegiste 'driver' porque probablemente pensaste que todo el que maneja un vehículo es un 'driver'.",
+"pregunta_guia": "¿Qué verbo usa la definición: 'drives' o 'flies'?",
+"aprende": "'Driver' conduce carros, buses o camiones. Quien vuela ('flies') un avión es el 'pilot'."
+}
+},
+"explicacion": "Paso 1: 'flies a plane' = pilotea (vuela) un avión. Paso 2: 'takes passengers from one city to another' = lleva pasajeros de una ciudad a otra. Paso 3: es el piloto: 'pilot'. Respuesta: C.",
+"tip": "El verbo revela el oficio: drive → driver, sail → sailor, fly a plane → pilot.",
+"truco": "Fly = volar (avión). Drive = conducir (carro). Sail = navegar (barco).",
+"estrategia_icfes": "En la Parte 2 los distractores comparten la idea general (transportar personas). Fíjate en el verbo específico de la definición.",
+"temas": [
+"Oficios del transporte",
+"Verbos: fly, drive, sail",
+"Medios de transporte"
+],
+"gemela": {
+"contexto": "Read the description: “This person drives a bus or a taxi in the city.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "driver",
+"B": "pilot",
+"C": "sailor"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'drives a bus or a taxi' = conduce un bus o un taxi. Paso 2: es el conductor: 'driver'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A032",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario (palabra-definición)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "Matemática financiera",
+"dba": "DBA de Inglés 9° (MEN 2016): reconoce y usa vocabulario relacionado con planes personales y el manejo responsable del dinero.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1): identifico el significado de palabras relacionadas con otras áreas del conocimiento (finanzas) y diferencio términos cercanos.",
+"afirmacion": "Reconoce vocabulario de planeación financiera y lo diferencia de términos cercanos.",
+"evidencia": "Distingue 'budget' de 'bill' y 'coin' a partir de la definición.",
+"contexto": "Read the description: “This is a plan that shows how much money you will receive and how much you will spend in a month.”",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "budget",
+"B": "bill",
+"C": "coin"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir el plan con un documento de cobro",
+"porque": "Elegiste 'bill' porque probablemente sabías que es un papel relacionado con dinero (factura o billete).",
+"pregunta_guia": "¿Una factura es un plan de lo que vas a recibir y gastar?",
+"aprende": "'Bill' = factura (lo que debes pagar) o billete. El plan mensual de ingresos y gastos es el 'budget' (presupuesto)."
+},
+"C": {
+"error": "Elegir una forma de dinero",
+"porque": "Elegiste 'coin' porque probablemente viste 'money' y pensaste en las monedas.",
+"pregunta_guia": "¿Una moneda puede 'mostrar' un plan?",
+"aprende": "'Coin' = moneda. 'Budget' = presupuesto: plan de ingresos y gastos."
+}
+},
+"explicacion": "Paso 1: 'a plan' = un plan. Paso 2: 'how much money you will receive and spend' = cuánto dinero recibirás y gastarás. Paso 3: 'in a month' = en un mes. Paso 4: ese plan es el presupuesto: 'budget'. Respuesta: A.",
+"tip": "Hacer un 'budget' mensual es el primer hábito de un buen manejo del dinero.",
+"truco": "Budget = presupuesto (suena 'báyet'). Bill = la cuenta que te llega.",
+"estrategia_icfes": "Cuando la definición empieza con 'a plan', 'a list', 'a document', esa primera palabra ya descarta las opciones que son objetos físicos (coin).",
+"temas": [
+"Presupuesto personal",
+"Vocabulario financiero: budget, bill, coin",
+"Futuro con 'will'"
+],
+"gemela": {
+"contexto": "Read the description: “This is a paper that tells you how much you must pay for electricity or water.”",
+"enunciado": "Which word matches this definition?",
+"opciones": {
+"A": "coin",
+"B": "budget",
+"C": "bill"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'a paper that tells you how much you must pay' = papel que dice cuánto debes pagar. Paso 2: 'for electricity or water' = de luz o agua. Paso 3: es la factura: 'bill'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A033",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas del entorno escolar y de interés general en conversaciones sencillas, respondiendo de forma adecuada a la intención de su interlocutor.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), monólogos y conversación: respondo saludos y preguntas personales con expresiones apropiadas.",
+"afirmacion": "Responde adecuadamente a un saludo en una conversación cotidiana.",
+"evidencia": "Elige la respuesta apropiada a 'How are you today?'.",
+"contexto": "Two friends meet at the entrance of the school in the morning.",
+"enunciado": "Lucía: “Hi, Kevin! How are you today?” Which is the best reply?",
+"opciones": {
+"A": "I'm fourteen.",
+"B": "I'm fine, thanks. And you?",
+"C": "I'm from Cali."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir 'How are you?' con 'How old are you?'",
+"porque": "Elegiste 'I'm fourteen' porque probablemente escuchaste 'How… you' y pensaste en la pregunta por la edad.",
+"pregunta_guia": "¿La pregunta dice 'How OLD are you?'?",
+"aprende": "'How are you?' pregunta cómo estás. 'How old are you?' pregunta la edad."
+},
+"C": {
+"error": "Responder a otra pregunta personal",
+"porque": "Elegiste 'I'm from Cali' porque probablemente reconociste la estructura 'I'm…' y la usaste con cualquier pregunta.",
+"pregunta_guia": "¿Qué pregunta se responde con 'I'm from…'?",
+"aprende": "'I'm from…' responde a 'Where are you from?'. A 'How are you?' se responde con un estado: fine, great, tired."
+}
+},
+"explicacion": "Paso 1: 'How are you today?' = ¿cómo estás hoy? Paso 2: se responde con un estado de ánimo o salud. Paso 3: 'I'm fine, thanks. And you?' responde y devuelve la pregunta, como es cortés. Respuesta: B.",
+"tip": "Devolver la pregunta ('And you?') es parte de la cortesía en inglés.",
+"truco": "How are you? → fine. How old? → años. Where from? → lugar.",
+"estrategia_icfes": "En la Parte 3 el ICFES muestra una frase y tres respuestas gramaticalmente posibles. Elige la que responde a la INTENCIÓN de la pregunta.",
+"temas": [
+"Saludos",
+"Preguntas con 'How'",
+"Cortesía en la conversación"
+],
+"gemela": {
+"enunciado": "Teacher: “Where are you from, Daniela?” Which is the best answer?",
+"opciones": {
+"A": "I'm from Tumaco.",
+"B": "I'm very well.",
+"C": "I'm thirteen."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Where are you from?' pregunta el lugar de origen. Paso 2: se responde con 'I'm from + lugar'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A034",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas del entorno escolar en conversaciones sencillas, usando expresiones de cortesía adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: uso expresiones de cortesía para pedir y ofrecer objetos en situaciones escolares.",
+"afirmacion": "Responde de manera apropiada a una petición cortés.",
+"evidencia": "Reconoce que 'Can I borrow…, please?' es una petición y no una pregunta por habilidad.",
+"contexto": "In the maths class, Andrés does not have a pen.",
+"enunciado": "Andrés: “Can I borrow your pen, please?” Which is the best reply?",
+"opciones": {
+"A": "Sure, here you are.",
+"B": "Yes, I can.",
+"C": "No, it's blue."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Interpretar 'Can I…?' como pregunta de habilidad",
+"porque": "Elegiste 'Yes, I can' porque probablemente aplicaste la regla de respuesta corta (Can…? → Yes, I can) sin pensar en la intención.",
+"pregunta_guia": "¿Andrés quiere saber si TÚ puedes hacer algo o te está pidiendo un esfero?",
+"aprende": "'Can I borrow…?' es una petición. Se responde prestando el objeto: 'Sure, here you are'."
+},
+"C": {
+"error": "Responder sobre el objeto y no sobre la petición",
+"porque": "Elegiste 'No, it's blue' porque probablemente pensaste en una característica del esfero.",
+"pregunta_guia": "¿Andrés preguntó de qué color es el esfero?",
+"aprende": "La respuesta debe aceptar o rechazar la petición, no describir el objeto."
+}
+},
+"explicacion": "Paso 1: 'Can I borrow your pen, please?' = ¿me prestas tu esfero, por favor? Paso 2: es una petición cortés. Paso 3: la respuesta natural es aceptar y entregarlo: 'Sure, here you are' (claro, aquí tienes). Respuesta: A.",
+"tip": "'Here you are' / 'Here it is' se dice al entregar algo.",
+"truco": "Borrow = pedir prestado; lend = prestar. 'Can I borrow…?' = ¿me prestas…?",
+"estrategia_icfes": "La Parte 3 evalúa la función comunicativa: pedir, ofrecer, invitar, agradecer. Identifica la función antes de leer las opciones.",
+"temas": [
+"Peticiones con 'Can I…?'",
+"Borrow / lend",
+"Expresiones de cortesía"
+],
+"gemela": {
+"enunciado": "Classmate: “Could you pass me the ruler, please?” Which is the best reply?",
+"opciones": {
+"A": "Yes, I could.",
+"B": "It's on Monday.",
+"C": "Of course. Here it is."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'Could you pass me…?' es una petición cortés. Paso 2: se responde entregando el objeto: 'Of course. Here it is'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A035",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas del entorno escolar y de interés general en conversaciones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo preguntas sobre horarios y rutinas escolares.",
+"afirmacion": "Responde una pregunta de información específica (hora) en una conversación.",
+"evidencia": "Asocia 'What time…?' con una respuesta que indica la hora.",
+"contexto": "A new student talks to a classmate before the first class.",
+"enunciado": "New student: “What time does the English class start?” Which is the best reply?",
+"opciones": {
+"A": "In room 5.",
+"B": "It's Tuesday.",
+"C": "At seven o'clock."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Responder 'dónde' en lugar de 'cuándo'",
+"porque": "Elegiste 'In room 5' porque probablemente pensaste en la información que necesita un estudiante nuevo: el salón.",
+"pregunta_guia": "¿La pregunta empieza con 'Where' o con 'What time'?",
+"aprende": "'What time…?' pide la hora: 'At + hora'. 'In room 5' responde a 'Where…?'."
+},
+"B": {
+"error": "Responder el día en lugar de la hora",
+"porque": "Elegiste 'It's Tuesday' porque probablemente pensaste que 'time' se refería a cuándo en general.",
+"pregunta_guia": "¿'What time' pregunta el día o la hora?",
+"aprende": "'What day…?' → un día. 'What time…?' → una hora (at seven o'clock)."
+}
+},
+"explicacion": "Paso 1: 'What time does… start?' = ¿a qué hora empieza…? Paso 2: se responde con 'at + hora'. Paso 3: 'At seven o'clock' es la única opción que da una hora. Respuesta: C.",
+"tip": "La palabra interrogativa (what time, where, who, why) te dice qué tipo de respuesta buscar.",
+"truco": "What time → AT + hora. What day → ON + día. Where → IN/AT + lugar.",
+"estrategia_icfes": "En la Parte 3 el ICFES pone respuestas correctas gramaticalmente pero que responden otra pregunta. Pregúntate: ¿qué información pide?",
+"temas": [
+"Preguntas Wh-",
+"La hora",
+"Preposiciones de tiempo: at, on"
+],
+"gemela": {
+"enunciado": "Friend: “Where is the science lab?” Which is the best answer?",
+"opciones": {
+"A": "At nine o'clock.",
+"B": "Next to the library.",
+"C": "On Friday."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Where…?' pregunta por un lugar. Paso 2: 'Next to the library' (al lado de la biblioteca) indica un lugar. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A036",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en conversaciones sencillas usando expresiones de cortesía adecuadas a la situación.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: uso fórmulas de cortesía para agradecer y responder a agradecimientos.",
+"afirmacion": "Responde de forma cortés a un agradecimiento.",
+"evidencia": "Elige 'You're welcome' como respuesta a 'Thank you'.",
+"contexto": "Sofía helped her friend Juan with his homework in the afternoon.",
+"enunciado": "Juan: “Thank you for helping me with my homework!” Which is the best reply?",
+"opciones": {
+"A": "Me too.",
+"B": "Yes, please.",
+"C": "You're welcome."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar una expresión de acuerdo",
+"porque": "Elegiste 'Me too' porque probablemente pensaste que se responde repitiendo el sentimiento del otro.",
+"pregunta_guia": "¿'Me too' tiene sentido después de que alguien te da las gracias?",
+"aprende": "'Me too' = yo también (para estar de acuerdo). A 'Thank you' se responde 'You're welcome' (de nada)."
+},
+"B": {
+"error": "Confundir aceptar un ofrecimiento con responder un agradecimiento",
+"porque": "Elegiste 'Yes, please' porque probablemente lo asociaste con frases de cortesía en general.",
+"pregunta_guia": "¿Juan te está ofreciendo algo o te está dando las gracias?",
+"aprende": "'Yes, please' acepta un ofrecimiento. Para responder 'gracias' se usa 'You're welcome' o 'No problem'."
+}
+},
+"explicacion": "Paso 1: Juan dice 'Thank you…' (gracias por ayudarme). Paso 2: la respuesta cortés a un agradecimiento es 'You're welcome' (de nada). Respuesta: C.",
+"tip": "Otras respuestas válidas a 'Thank you': 'No problem', 'Any time', 'My pleasure'.",
+"truco": "Thank you → You're welcome (como 'gracias' → 'de nada').",
+"estrategia_icfes": "En las conversaciones de nivel mínimo el ICFES evalúa pares fijos (saludo-saludo, gracias-de nada). Apréndelos como bloques.",
+"temas": [
+"Fórmulas de cortesía",
+"Agradecimientos",
+"Pares conversacionales"
+],
+"gemela": {
+"enunciado": "Friend: “I'm sorry, I broke your pencil.” Which is the best reply?",
+"opciones": {
+"A": "Don't worry. I have another one.",
+"B": "You're welcome.",
+"C": "Yes, please."
+},
+"correcta": "A",
+"explicacion": "Paso 1: tu amigo se disculpa ('I'm sorry'). Paso 2: a una disculpa se responde tranquilizando: 'Don't worry' (no te preocupes). Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A037",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en conversaciones sencillas, aceptando o rechazando ofrecimientos de manera apropiada.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo a ofrecimientos usando expresiones de cortesía adecuadas.",
+"afirmacion": "Acepta un ofrecimiento con la expresión apropiada.",
+"evidencia": "Reconoce 'Would you like…?' como un ofrecimiento y responde 'Yes, please'.",
+"contexto": "Mariana is visiting her friend's house in Palmira. It is a very hot afternoon.",
+"enunciado": "Friend's mother: “Would you like some mango juice?” Which is the best reply?",
+"opciones": {
+"A": "Yes, I like.",
+"B": "Yes, please.",
+"C": "No, I'm not."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calco del español 'sí, me gusta'",
+"porque": "Elegiste 'Yes, I like' porque probablemente confundiste 'Would you like…?' (¿quieres…?) con 'Do you like…?' (¿te gusta…?).",
+"pregunta_guia": "¿La señora pregunta si te gusta el jugo o si quieres un poco ahora?",
+"aprende": "'Would you like…?' = ¿quieres…? (ofrecimiento). Se responde 'Yes, please' o 'No, thank you'. Además, 'like' necesita objeto: 'I like it'."
+},
+"C": {
+"error": "Responder con el verbo 'to be'",
+"porque": "Elegiste 'No, I'm not' porque probablemente usaste una respuesta corta con 'be' que no corresponde a 'would'.",
+"pregunta_guia": "¿La pregunta usa 'are you' o 'would you'?",
+"aprende": "La respuesta corta debe coincidir con el auxiliar; con ofrecimientos lo natural es 'Yes, please' / 'No, thank you'."
+}
+},
+"explicacion": "Paso 1: 'Would you like some mango juice?' = ¿quieres un poco de jugo de mango? Paso 2: es un ofrecimiento. Paso 3: para aceptar con cortesía se dice 'Yes, please'. Respuesta: B.",
+"tip": "Ofrecimiento → 'Yes, please' / 'No, thank you'. Así de simple y cortés.",
+"truco": "Would you like = ¿quieres? / Do you like = ¿te gusta?",
+"estrategia_icfes": "El ICFES usa distractores que son traducciones literales del español ('Yes, I like'). Desconfía de las respuestas que suenan como el español palabra por palabra.",
+"temas": [
+"Ofrecimientos con 'Would you like…?'",
+"Would like vs. like",
+"Cortesía"
+],
+"gemela": {
+"enunciado": "Waiter: “Would you like something to eat?” Which is the best answer?",
+"opciones": {
+"A": "Yes, I'd like a cheese empanada, please.",
+"B": "Yes, I like eat.",
+"C": "No, I don't eat yesterday."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Would you like…?' ofrece algo. Paso 2: se acepta con 'I'd like + lo que quieres, please'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A038",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información personal y sobre su entorno en conversaciones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo preguntas sobre información personal (lugar donde vivo, familia, rutinas).",
+"afirmacion": "Responde con información pertinente a una pregunta personal.",
+"evidencia": "Asocia 'Where do you live?' con una respuesta que indica un lugar.",
+"contexto": "At a youth football tournament, two players from different schools are talking.",
+"enunciado": "Player: “Where do you live?” Which is the best reply?",
+"opciones": {
+"A": "Every day.",
+"B": "With my sister.",
+"C": "Near the park in Ciudad Córdoba."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Responder 'con qué frecuencia'",
+"porque": "Elegiste 'Every day' porque probablemente pensaste que vivir es algo que haces todos los días.",
+"pregunta_guia": "¿'Where' pregunta un lugar o una frecuencia?",
+"aprende": "'Every day' responde a 'How often…?'. 'Where…?' pide un lugar."
+},
+"B": {
+"error": "Responder 'con quién'",
+"porque": "Elegiste 'With my sister' porque probablemente pensaste en con quién vives.",
+"pregunta_guia": "¿La pregunta es 'Who do you live with?' o 'Where do you live?'?",
+"aprende": "'With my sister' responde a 'Who do you live with?'. Para 'Where' se da un lugar: 'near the park in Ciudad Córdoba'."
+}
+},
+"explicacion": "Paso 1: 'Where do you live?' = ¿dónde vives? Paso 2: se responde con un lugar. Paso 3: 'Near the park in Ciudad Córdoba' (cerca del parque en Ciudad Córdoba) indica un lugar. Respuesta: C.",
+"tip": "Las respuestas pueden ser frases cortas sin verbo: 'Near the park' es completa en una conversación.",
+"truco": "Where = dónde → lugar. Who = quién → persona. How often = qué tan seguido → frecuencia.",
+"estrategia_icfes": "Los tres distractores de la Parte 3 suelen responder tres preguntas distintas. Escribe al lado de cada opción qué pregunta responde y elige la que coincide.",
+"temas": [
+"Preguntas Wh-",
+"Información personal",
+"Preposiciones de lugar: near, in"
+],
+"gemela": {
+"enunciado": "Teacher: “Who do you live with?” Which is the best answer?",
+"opciones": {
+"A": "In Yumbo.",
+"B": "With my grandparents.",
+"C": "Since 2020."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Who… with?' = ¿con quién…? Paso 2: se responde con personas: 'With my grandparents'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A039",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"sabic": "Inteligencia emocional",
+"dba": "DBA de Inglés 9° (MEN 2016): realiza recomendaciones a personas de su comunidad sobre qué hacer en situaciones cotidianas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo con empatía y doy sugerencias sencillas ante problemas de otros.",
+"afirmacion": "Reacciona con empatía y da una sugerencia apropiada ante un problema.",
+"evidencia": "Elige una respuesta que muestra preocupación y sugiere una acción ('Why don't you…?').",
+"contexto": "During the break, Camila looks tired and holds her head.",
+"enunciado": "Camila: “I've got a terrible headache.” Which is the best reply?",
+"opciones": {
+"A": "Congratulations!",
+"B": "Oh no! Why don't you go to the nurse's office?",
+"C": "That's a good idea."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No reconocer el sentido negativo",
+"porque": "Elegiste 'Congratulations!' porque probablemente no entendiste 'headache' y pensaste que Camila daba una buena noticia.",
+"pregunta_guia": "¿Qué significa 'headache'? ¿Es una buena o una mala noticia?",
+"aprende": "'Headache' = dolor de cabeza. Ante un problema se muestra empatía ('Oh no!') y se sugiere algo."
+},
+"C": {
+"error": "Responder como si fuera una propuesta",
+"porque": "Elegiste 'That's a good idea' porque probablemente pensaste que Camila proponía algo.",
+"pregunta_guia": "¿Camila propone un plan o cuenta cómo se siente?",
+"aprende": "'That's a good idea' responde a una sugerencia ('Let's…'). Camila describe un problema."
+}
+},
+"explicacion": "Paso 1: 'I've got a terrible headache' = tengo un dolor de cabeza terrible. Paso 2: es un problema, así que se responde con empatía. Paso 3: 'Oh no! Why don't you go to the nurse's office?' muestra preocupación y sugiere ir a enfermería. Respuesta: B.",
+"tip": "'Why don't you…?' es una forma amable de dar un consejo.",
+"truco": "-ache = dolor: headache (cabeza), stomachache (estómago), toothache (muela).",
+"estrategia_icfes": "Identifica si la persona da una noticia buena, una mala, una propuesta o una pregunta. La respuesta correcta reacciona a ESA función.",
+"temas": [
+"Salud y malestares",
+"Sugerencias con 'Why don't you…?'",
+"Empatía en la conversación"
+],
+"gemela": {
+"enunciado": "Friend: “I passed my English exam!” Which is the best reply?",
+"opciones": {
+"A": "I'm sorry to hear that.",
+"B": "Get well soon.",
+"C": "Well done! That's great news."
+},
+"correcta": "C",
+"explicacion": "Paso 1: aprobar un examen es una buena noticia. Paso 2: se felicita: 'Well done! That's great news'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A040",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): explica y acuerda planes relacionados con su entorno personal, escolar y comunitario en conversaciones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo a invitaciones y propuestas aceptándolas o rechazándolas de forma apropiada.",
+"afirmacion": "Responde de manera coherente a una propuesta de plan.",
+"evidencia": "Acepta una propuesta con 'Let's…' y continúa la conversación con una pregunta pertinente.",
+"contexto": "Two cousins are planning the weekend at home in Buenaventura.",
+"enunciado": "Tatiana: “Let's go to the beach in Ladrilleros on Saturday!” Which is the best reply?",
+"opciones": {
+"A": "Good idea! What time shall we leave?",
+"B": "No, thanks. I'm full.",
+"C": "Yes, I was."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Rechazar como si fuera un ofrecimiento de comida",
+"porque": "Elegiste 'No, thanks. I'm full' porque probablemente aprendiste 'No, thanks' para rechazar ofrecimientos y no notaste que 'I'm full' es para comida.",
+"pregunta_guia": "¿Tatiana te ofrece comida o te propone un paseo?",
+"aprende": "'I'm full' = estoy lleno (de comida). Para una propuesta se acepta ('Good idea!') o se rechaza con una razón ('Sorry, I can't, I have to study')."
+},
+"C": {
+"error": "Usar un tiempo verbal que no corresponde",
+"porque": "Elegiste 'Yes, I was' porque probablemente pensaste en una respuesta corta con 'be' sin fijarte en el tiempo.",
+"pregunta_guia": "¿El plan es para el pasado o para el sábado que viene?",
+"aprende": "'Let's…' propone algo para el futuro; 'I was' habla del pasado y no responde la propuesta."
+}
+},
+"explicacion": "Paso 1: 'Let's go to the beach…' = vamos a la playa… (propuesta). Paso 2: la respuesta debe aceptar o rechazar el plan. Paso 3: 'Good idea! What time shall we leave?' acepta y pregunta un detalle del plan. Respuesta: A.",
+"tip": "Una buena respuesta en conversación muchas veces acepta y continúa con una pregunta.",
+"truco": "Let's = Let us = 'vamos a…'. Respuesta típica: 'Good idea!' / 'Sounds great!'.",
+"estrategia_icfes": "El ICFES evalúa la coherencia del intercambio: tiempo verbal, tema y función deben encajar con la primera frase.",
+"temas": [
+"Propuestas con 'Let's'",
+"Aceptar y rechazar planes",
+"Shall para sugerencias"
+],
+"gemela": {
+"enunciado": "Friend: “Let's watch a film tonight.” Which is the best answer?",
+"opciones": {
+"A": "Yes, I watched.",
+"B": "Sorry, I can't. I have to study for a test.",
+"C": "No, thanks. I'm not hungry."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Let's watch a film tonight' es una propuesta. Paso 2: se puede rechazar con disculpa y razón: 'Sorry, I can't. I have to study'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A041",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en situaciones cotidianas de su comunidad (compras, servicios) usando expresiones apropiadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: participo en situaciones comunicativas cotidianas como comprar en una tienda.",
+"afirmacion": "Responde de manera apropiada en una situación de servicio al cliente.",
+"evidencia": "Reconoce 'Can I help you?' como un ofrecimiento de ayuda en una tienda.",
+"contexto": "Felipe enters a sports shop in Chipichape to buy shoes.",
+"enunciado": "Shop assistant: “Good morning. Can I help you?” Which is the best reply?",
+"opciones": {
+"A": "Yes, I help you.",
+"B": "Help is very good.",
+"C": "Yes, I'm looking for a pair of trainers."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Repetir la estructura de la pregunta",
+"porque": "Elegiste 'Yes, I help you' porque probablemente repetiste las palabras de la pregunta cambiando el sujeto.",
+"pregunta_guia": "¿Quién ayuda a quién en la tienda: el vendedor a Felipe o Felipe al vendedor?",
+"aprende": "El vendedor ofrece ayuda. Felipe debe decir qué necesita: 'I'm looking for…'."
+},
+"B": {
+"error": "Opinar en lugar de responder",
+"porque": "Elegiste 'Help is very good' porque probablemente reconociste 'help' y formaste una frase con ella.",
+"pregunta_guia": "¿El vendedor pidió tu opinión sobre la ayuda?",
+"aprende": "A un ofrecimiento de ayuda se responde aceptando y diciendo qué buscas, o con 'No, thanks, I'm just looking'."
+}
+},
+"explicacion": "Paso 1: 'Can I help you?' = ¿le puedo ayudar? (ofrecimiento del vendedor). Paso 2: el cliente acepta y explica qué necesita. Paso 3: 'Yes, I'm looking for a pair of trainers' (busco unos tenis). Respuesta: C.",
+"tip": "'I'm looking for…' (estoy buscando…) es la frase clave para comprar en inglés.",
+"truco": "Trainers (UK) = sneakers (US) = tenis.",
+"estrategia_icfes": "Ubica quién habla (vendedor, profesor, amigo). El rol del hablante te ayuda a saber qué respuesta es natural.",
+"temas": [
+"De compras",
+"Ofrecimientos de ayuda",
+"Presente continuo: I'm looking for"
+],
+"gemela": {
+"enunciado": "Receptionist: “How can I help you?” Which is the best answer?",
+"opciones": {
+"A": "I'd like to make an appointment with the dentist, please.",
+"B": "You help me very well.",
+"C": "Yes, I can help."
+},
+"correcta": "A",
+"explicacion": "Paso 1: el recepcionista ofrece ayuda. Paso 2: el cliente dice lo que necesita: 'I'd like to make an appointment…'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A042",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente sus experiencias propias y responde preguntas sobre ellas en conversaciones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo preguntas sobre experiencias usando expresiones de tiempo adecuadas.",
+"afirmacion": "Responde una pregunta de duración con la expresión de tiempo apropiada.",
+"evidencia": "Asocia 'How long have you…?' con una respuesta con 'since' o 'for'.",
+"contexto": "At an English club in Cali, a volunteer teacher talks to a new member.",
+"enunciado": "Teacher: “How long have you studied English?” Which is the best reply?",
+"opciones": {
+"A": "Since I was eight.",
+"B": "Two years ago.",
+"C": "It's very long."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar 'ago' con una pregunta de duración",
+"porque": "Elegiste 'Two years ago' porque probablemente traduciste 'hace dos años' palabra por palabra.",
+"pregunta_guia": "¿'Ago' indica cuándo empezó algo terminado o cuánto tiempo lleva algo que sigue?",
+"aprende": "'Ago' marca un momento en el pasado (I started two years ago). Para duración hasta hoy se usa 'for two years' o 'since + momento'."
+},
+"C": {
+"error": "Interpretar 'long' como longitud física",
+"porque": "Elegiste 'It's very long' porque probablemente entendiste 'long' como 'largo' y no 'cuánto tiempo'.",
+"pregunta_guia": "¿'How long' pregunta por el tamaño del inglés o por el tiempo?",
+"aprende": "'How long…?' = ¿cuánto tiempo…? Se responde con duración: 'for…' o 'since…'."
+}
+},
+"explicacion": "Paso 1: 'How long have you studied English?' = ¿hace cuánto tiempo estudias inglés? (presente perfecto: empezó en el pasado y sigue). Paso 2: se responde con 'since + momento de inicio' o 'for + periodo'. Paso 3: 'Since I was eight' (desde que tenía ocho años) es correcta. Respuesta: A.",
+"tip": "Presente perfecto + duración: 'for' + periodo (for three years); 'since' + punto de inicio (since 2020).",
+"truco": "FOR = cuánto dura; SINCE = desde cuándo; AGO = hace (acción terminada).",
+"estrategia_icfes": "En el nivel avanzado de la Parte 3 el ICFES prueba la concordancia de tiempos verbales entre pregunta y respuesta. Identifica el tiempo de la pregunta.",
+"temas": [
+"Presente perfecto",
+"For / since / ago",
+"Preguntas con 'How long'"
+],
+"gemela": {
+"enunciado": "Friend: “When did you start playing the guitar?” Which is the best answer?",
+"opciones": {
+"A": "For three years.",
+"B": "Three years ago.",
+"C": "Since three years."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'When did you start…?' pregunta un momento del pasado (pasado simple). Paso 2: se responde con 'ago': 'Three years ago'. 'For' indica duración y 'since three years' es incorrecto. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A043",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en conversaciones sencillas usando expresiones de cortesía adecuadas para pedir permiso.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: uso fórmulas de cortesía para pedir y conceder permiso.",
+"afirmacion": "Concede permiso de manera apropiada ante una pregunta con 'Do you mind if…?'.",
+"evidencia": "Reconoce que 'No, not at all' concede permiso ante 'Do you mind…?'.",
+"contexto": "On a hot day, two passengers are sitting next to each other on an intercity bus from Cali to Buga.",
+"enunciado": "Passenger: “Do you mind if I open the window?” Which is the best reply if you agree?",
+"opciones": {
+"A": "Yes, I mind. Open it.",
+"B": "No, not at all. It's very hot.",
+"C": "No, I don't open it."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Responder 'yes' para dar permiso",
+"porque": "Elegiste 'Yes, I mind. Open it' porque probablemente pensaste que 'yes' siempre significa que estás de acuerdo.",
+"pregunta_guia": "¿Qué significa 'mind'? Si dices 'Yes, I mind', ¿te molesta o no te molesta?",
+"aprende": "'Do you mind…?' = ¿te molesta si…? Para dar permiso se dice 'No, not at all' (no, para nada)."
+},
+"C": {
+"error": "Responder sobre la propia acción",
+"porque": "Elegiste 'No, I don't open it' porque probablemente pensaste que la pregunta era si TÚ abres la ventana.",
+"pregunta_guia": "¿Quién quiere abrir la ventana?",
+"aprende": "El otro pasajero pide permiso para abrirla él. Tu respuesta debe decir si te molesta o no."
+}
+},
+"explicacion": "Paso 1: 'Do you mind if I open the window?' = ¿te molesta si abro la ventana? Paso 2: si estás de acuerdo, NO te molesta. Paso 3: 'No, not at all. It's very hot' (no, para nada, hace mucho calor) concede el permiso. Respuesta: B.",
+"tip": "Con 'Do you mind…?' el 'no' es positivo: significa 'adelante'.",
+"truco": "Mind = molestar. ¿Te molesta? → No (= hazlo).",
+"estrategia_icfes": "El nivel avanzado de la Parte 3 incluye expresiones donde la lógica del 'sí/no' cambia. Traduce la pregunta completa antes de elegir.",
+"temas": [
+"Pedir permiso",
+"Do you mind if…?",
+"Cortesía y registro"
+],
+"gemela": {
+"enunciado": "Classmate: “Do you mind if I sit here?” Which is the best reply if you agree?",
+"opciones": {
+"A": "Not at all. Please, sit down.",
+"B": "Yes, I do. Sit here.",
+"C": "No, I'm not sitting."
+},
+"correcta": "A",
+"explicacion": "Paso 1: '¿te molesta si me siento aquí?' Paso 2: si no te molesta, dices 'Not at all' y lo invitas a sentarse. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A044",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en conversaciones sencillas del entorno escolar, respondiendo de forma adecuada a disculpas y explicaciones.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo a disculpas con expresiones adecuadas a la situación.",
+"afirmacion": "Responde de forma apropiada a una disculpa.",
+"evidencia": "Reconoce 'I'm sorry I'm late' como disculpa y elige una respuesta tranquilizadora.",
+"contexto": "The robotics club meeting has just started when Mateo arrives at the door.",
+"enunciado": "Mateo: “I'm sorry I'm late. The bus was full.” Which is the best reply?",
+"opciones": {
+"A": "You're welcome.",
+"B": "Don't worry. We've just started.",
+"C": "I'm sorry too."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Responder a una disculpa como a un agradecimiento",
+"porque": "Elegiste 'You're welcome' porque probablemente lo usas para todas las frases de cortesía.",
+"pregunta_guia": "¿Mateo te dio las gracias o te pidió disculpas?",
+"aprende": "'You're welcome' responde a 'Thank you'. A 'I'm sorry' se responde 'Don't worry' o 'That's OK'."
+},
+"C": {
+"error": "Repetir la disculpa",
+"porque": "Elegiste 'I'm sorry too' porque probablemente pensaste que se responde con la misma expresión.",
+"pregunta_guia": "¿Tú llegaste tarde? ¿Por qué tendrías que disculparte?",
+"aprende": "Ante una disculpa no se repite; se acepta y se tranquiliza a la persona."
+}
+},
+"explicacion": "Paso 1: 'I'm sorry I'm late' = perdón por llegar tarde (disculpa). Paso 2: se acepta la disculpa y se tranquiliza. Paso 3: 'Don't worry. We've just started' (tranquilo, apenas empezamos). Respuesta: B.",
+"tip": "Respuestas a disculpas: 'Don't worry', 'That's OK', 'No problem'.",
+"truco": "Sorry → Don't worry. Thank you → You're welcome.",
+"estrategia_icfes": "El ICFES mezcla fórmulas de cortesía en los distractores. Asocia cada fórmula con su función: agradecer, disculparse, felicitar.",
+"temas": [
+"Disculpas",
+"Fórmulas de cortesía",
+"Presente perfecto con 'just'"
+],
+"gemela": {
+"enunciado": "Friend: “I'm sorry, I forgot to bring your book.” Which is the best reply?",
+"opciones": {
+"A": "Congratulations!",
+"B": "Yes, please.",
+"C": "That's OK. You can bring it tomorrow."
+},
+"correcta": "C",
+"explicacion": "Paso 1: tu amigo se disculpa. Paso 2: se acepta la disculpa y se ofrece una solución: 'That's OK. You can bring it tomorrow'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A045",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre personas de su entorno en conversaciones sencillas, describiendo su apariencia física.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: describo con frases sencillas a personas de mi entorno.",
+"afirmacion": "Distingue preguntas parecidas y responde con la información que se pide.",
+"evidencia": "Diferencia 'What does he look like?' (apariencia) de 'What does he like?' (gustos).",
+"contexto": "Natalia is going to pick up her friend's brother at the airport, but she has never seen him.",
+"enunciado": "Natalia: “What does your brother look like?” Which is the best reply?",
+"opciones": {
+"A": "He likes football and video games.",
+"B": "He's tall and he has curly black hair.",
+"C": "He's fine, thanks."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir 'look like' con 'like'",
+"porque": "Elegiste la opción de los gustos porque probablemente viste la palabra 'like' y pensaste en '¿qué le gusta?'.",
+"pregunta_guia": "¿Natalia necesita saber qué le gusta al hermano o cómo reconocerlo en el aeropuerto?",
+"aprende": "'What does he look like?' = ¿cómo es físicamente? 'What does he like?' = ¿qué le gusta?"
+},
+"C": {
+"error": "Confundir con 'How is he?'",
+"porque": "Elegiste 'He's fine, thanks' porque probablemente interpretaste la pregunta como '¿cómo está?'.",
+"pregunta_guia": "¿La pregunta es sobre la salud del hermano o sobre su apariencia?",
+"aprende": "'How is he?' → fine. 'What does he look like?' → tall, short, curly hair, etc."
+}
+},
+"explicacion": "Paso 1: 'What does your brother look like?' = ¿cómo es tu hermano físicamente? Paso 2: se responde con descripción física. Paso 3: 'He's tall and he has curly black hair' (es alto y tiene el pelo negro y crespo) es la única descripción física. Respuesta: B.",
+"tip": "El contexto ayuda: si Natalia debe reconocerlo, necesita su apariencia.",
+"truco": "LOOK like = cómo se VE. Like = qué le gusta.",
+"estrategia_icfes": "En el nivel avanzado el ICFES usa preguntas casi iguales con significados distintos. Lee el contexto para confirmar qué información necesita el hablante.",
+"temas": [
+"Descripción física",
+"Look like vs. like",
+"Have got / has para rasgos"
+],
+"gemela": {
+"enunciado": "Friend: “What is your sister like?” Which is the best answer?",
+"opciones": {
+"A": "She likes pizza.",
+"B": "She's very friendly and funny.",
+"C": "She's in Medellín."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'What is she like?' pregunta por la personalidad. Paso 2: se responde con adjetivos de carácter: 'friendly and funny'. 'She likes pizza' responde '¿qué le gusta?'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A046",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente experiencias propias y responde preguntas sobre ellas usando tiempos verbales adecuados.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: respondo preguntas sobre experiencias pasadas con coherencia temporal.",
+"afirmacion": "Responde una pregunta sobre experiencias con coherencia de tiempo verbal.",
+"evidencia": "Responde 'Have you ever been…?' con una respuesta que confirma y ubica la experiencia en el pasado.",
+"contexto": "Two classmates are talking about holidays during the break.",
+"enunciado": "Esteban: “Have you ever been to San Andrés?” Which is the best reply?",
+"opciones": {
+"A": "Yes, I went there last December.",
+"B": "No, I am ever.",
+"C": "Yes, I have been there next year."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Reutilizar 'ever' sin estructura",
+"porque": "Elegiste 'No, I am ever' porque probablemente repetiste la palabra 'ever' de la pregunta.",
+"pregunta_guia": "¿Cómo se dice 'nunca he ido' en inglés: 'I am ever' o 'I have never been'?",
+"aprende": "La respuesta negativa correcta sería 'No, I haven't' o 'No, I've never been there'."
+},
+"C": {
+"error": "Combinar pasado con futuro",
+"porque": "Elegiste 'Yes, I have been there next year' porque probablemente reconociste 'have been' pero no viste que 'next year' es futuro.",
+"pregunta_guia": "¿Puedes haber ido a un lugar 'el próximo año'?",
+"aprende": "Una experiencia ya vivida se ubica en el pasado: 'last December', 'two years ago'. 'Next year' es futuro."
+}
+},
+"explicacion": "Paso 1: 'Have you ever been to San Andrés?' = ¿alguna vez has ido a San Andrés? Paso 2: se puede responder 'Yes' y dar el momento con pasado simple. Paso 3: 'Yes, I went there last December' (sí, fui en diciembre pasado) es coherente. Respuesta: A.",
+"tip": "Pregunta con presente perfecto ('Have you ever…?') + detalle con pasado simple ('I went… last…') es una combinación natural.",
+"truco": "Ever = alguna vez; never = nunca. Last + tiempo = pasado; next + tiempo = futuro.",
+"estrategia_icfes": "Revisa las expresiones de tiempo de cada opción (last, next, ago). Si contradicen el tiempo verbal, descártalas.",
+"temas": [
+"Presente perfecto con 'ever'",
+"Pasado simple",
+"Expresiones de tiempo"
+],
+"gemela": {
+"enunciado": "Friend: “Have you ever eaten sancocho de pescado?” Which is the best answer?",
+"opciones": {
+"A": "No, I never eat tomorrow.",
+"B": "Yes, I'm eating it last week.",
+"C": "Yes, I ate it in Buenaventura last year."
+},
+"correcta": "C",
+"explicacion": "Paso 1: '¿alguna vez has comido sancocho de pescado?' Paso 2: 'Yes' + pasado simple con momento: 'I ate it… last year'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A047",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"sabic": "Matemática financiera",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información en situaciones cotidianas de su comunidad (compras) en conversaciones sencillas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: pregunto y respondo por precios y cantidades en situaciones de compra.",
+"afirmacion": "Responde una pregunta sobre el precio de un producto.",
+"evidencia": "Asocia 'How much is…?' con una respuesta que indica un precio.",
+"contexto": "Paula is buying school supplies at a stationery shop near CENTEC.",
+"enunciado": "Paula: “How much is this notebook?” Which is the best reply?",
+"opciones": {
+"A": "There are twenty.",
+"B": "It's very good.",
+"C": "It's 8,000 pesos."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'How much' (precio) con 'How many' (cantidad)",
+"porque": "Elegiste 'There are twenty' porque probablemente pensaste que 'How much' preguntaba cuántos cuadernos hay.",
+"pregunta_guia": "¿Paula pregunta cuántos cuadernos hay o cuánto cuesta uno?",
+"aprende": "'How much is…?' pregunta el precio. 'How many… are there?' pregunta la cantidad."
+},
+"B": {
+"error": "Dar una opinión en lugar de un dato",
+"porque": "Elegiste 'It's very good' porque probablemente pensaste en la calidad del cuaderno.",
+"pregunta_guia": "¿Paula pidió tu opinión o un precio?",
+"aprende": "Ante 'How much is…?' se responde con un número y una moneda: 'It's 8,000 pesos'."
+}
+},
+"explicacion": "Paso 1: 'How much is this notebook?' = ¿cuánto cuesta este cuaderno? Paso 2: se responde con un precio. Paso 3: 'It's 8,000 pesos' da el precio. Respuesta: C.",
+"tip": "En inglés los miles se separan con coma: 8,000 (en Colombia escribimos 8.000).",
+"truco": "How MUCH = cuánto cuesta / cuánto (incontable). How MANY = cuántos (contables).",
+"estrategia_icfes": "El ICFES prueba pares que se confunden (much/many, look/look like, ago/for). Fíjate en la palabra que acompaña a 'How'.",
+"temas": [
+"Precios y dinero",
+"How much / how many",
+"Números grandes en inglés"
+],
+"gemela": {
+"enunciado": "Customer: “How many apples are there in the bag?” Which is the best answer?",
+"opciones": {
+"A": "There are six.",
+"B": "They're 5,000 pesos.",
+"C": "They're red."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'How many…?' pregunta la cantidad. Paso 2: 'There are six' indica cuántas hay. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A048",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): realiza recomendaciones e indicaciones a personas de su comunidad sobre dónde y cómo llegar a un lugar.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), conversación: doy y sigo indicaciones sencillas para ubicar lugares.",
+"afirmacion": "Responde una petición de indicaciones con información de ubicación.",
+"evidencia": "Reconoce 'Could you tell me the way to…?' como petición de indicaciones.",
+"contexto": "A visitor from Canada is at the school for an exchange program and asks a student for help.",
+"enunciado": "Visitor: “Excuse me. Could you tell me the way to the library?” Which is the best reply?",
+"opciones": {
+"A": "Yes, I could.",
+"B": "I read books there every day.",
+"C": "Sure. It's on the second floor, next to the computer room."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Responder solo a la forma gramatical",
+"porque": "Elegiste 'Yes, I could' porque probablemente respondiste a 'Could you…?' como si fuera una pregunta de habilidad.",
+"pregunta_guia": "¿El visitante quiere saber si puedes, o quiere que le digas el camino?",
+"aprende": "'Could you tell me…?' es una petición cortés. Se responde dando la información pedida."
+},
+"B": {
+"error": "Hablar del lugar sin dar indicaciones",
+"porque": "Elegiste 'I read books there every day' porque probablemente reconociste que la biblioteca es para leer.",
+"pregunta_guia": "¿Esa respuesta ayuda al visitante a llegar a la biblioteca?",
+"aprende": "Una indicación usa preposiciones de lugar: on the second floor, next to, opposite, between."
+}
+},
+"explicacion": "Paso 1: 'Could you tell me the way to the library?' = ¿podría indicarme cómo llegar a la biblioteca? Paso 2: es una petición de indicaciones. Paso 3: 'Sure. It's on the second floor, next to the computer room' da la ubicación. Respuesta: C.",
+"tip": "'Excuse me' + 'Could you…?' = petición muy cortés, típica con desconocidos.",
+"truco": "Next to = al lado de; opposite = enfrente de; between = entre.",
+"estrategia_icfes": "Las preguntas con 'Can/Could you…?' casi nunca se responden con 'Yes, I can/could' solamente: el hablante espera una acción o información.",
+"temas": [
+"Dar indicaciones",
+"Preposiciones de lugar",
+"Peticiones corteses con 'Could you…?'"
+],
+"gemela": {
+"enunciado": "Tourist: “Excuse me, is there a bank near here?” Which is the best answer?",
+"opciones": {
+"A": "Yes, there is one opposite the church.",
+"B": "Yes, I have money.",
+"C": "No, I'm not a bank."
+},
+"correcta": "A",
+"explicacion": "Paso 1: el turista pregunta si hay un banco cerca. Paso 2: se responde 'Yes, there is one' + ubicación: 'opposite the church' (enfrente de la iglesia). Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A049",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A-",
+"dba": "DBA de Inglés 9° (MEN 2016): describe con oraciones sencillas aspectos de su vida personal, su rutina y su entorno, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso estructuras gramaticales básicas (verbo 'to be', presente simple, preposiciones, conectores) para escribir textos cortos coherentes.",
+"afirmacion": "Usa el verbo 'to be' para expresar la edad.",
+"evidencia": "Completa '(1)' con la forma 'am' en concordancia con el sujeto 'I'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi! My name is Valentina. I (1) ______ fourteen years old and I live in Jamundí, a town near Cali. Every morning I (2) ______ up at 5:30 because my school is far from my house. My father takes me there (3) ______ motorbike. After school I play volleyball with my friends. My favourite day is Sunday (4) ______ my whole family has lunch at my grandmother's house.",
+"enunciado": "Which word correctly completes gap (1)?",
+"opciones": {
+"A": "have",
+"B": "am",
+"C": "is"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calco del español 'tengo … años'",
+"porque": "Elegiste 'have' porque probablemente tradujiste 'tengo catorce años' palabra por palabra.",
+"pregunta_guia": "En inglés, ¿la edad se 'tiene' o se 'es'?",
+"aprende": "En inglés la edad se expresa con 'to be': 'I am fourteen (years old)'."
+},
+"C": {
+"error": "Falta de concordancia sujeto-verbo",
+"porque": "Elegiste 'is' porque probablemente sabías que se usa 'to be', pero no lo conjugaste con 'I'.",
+"pregunta_guia": "¿Con qué pronombre se usa 'is'? ¿Y con 'I'?",
+"aprende": "I am / you are / he, she, it is. Con 'I' siempre es 'am'."
+}
+},
+"explicacion": "Paso 1: el sujeto es 'I'. Paso 2: la edad en inglés usa el verbo 'to be'. Paso 3: 'to be' con 'I' es 'am'. Paso 4: 'I am fourteen years old'. Respuesta: B.",
+"tip": "Antes de completar un espacio, busca el sujeto: él decide la forma del verbo.",
+"truco": "Edad = BE, no HAVE: I am 14, she is 15.",
+"estrategia_icfes": "En la Parte 4 el ICFES evalúa gramática dentro de un texto. Lee la oración completa (antes y después del espacio) y luego decide la forma correcta.",
+"temas": [
+"Verbo 'to be'",
+"Expresar la edad",
+"Concordancia sujeto-verbo"
+],
+"gemela": {
+"enunciado": "Complete: “My cousins ______ twelve years old.”",
+"opciones": {
+"A": "have",
+"B": "is",
+"C": "are"
+},
+"correcta": "C",
+"explicacion": "Paso 1: el sujeto 'my cousins' es plural (they). Paso 2: la edad usa 'to be'. Paso 3: con 'they' es 'are'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A050",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): describe con oraciones sencillas aspectos de su vida personal, su rutina y su entorno, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso el presente simple para describir rutinas en textos cortos.",
+"afirmacion": "Usa el presente simple para describir rutinas.",
+"evidencia": "Completa '(2)' con la forma base 'get' en concordancia con 'I'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi! My name is Valentina. I (1) ______ fourteen years old and I live in Jamundí, a town near Cali. Every morning I (2) ______ up at 5:30 because my school is far from my house. My father takes me there (3) ______ motorbike. After school I play volleyball with my friends. My favourite day is Sunday (4) ______ my whole family has lunch at my grandmother's house.",
+"enunciado": "Which word correctly completes gap (2)?",
+"opciones": {
+"A": "get",
+"B": "gets",
+"C": "getting"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Agregar -s con 'I'",
+"porque": "Elegiste 'gets' porque probablemente recordaste que en presente simple se agrega -s, pero esa regla es solo para he, she, it.",
+"pregunta_guia": "¿El sujeto es 'I' o 'she'?",
+"aprende": "Presente simple: I/you/we/they get; he/she/it gets."
+},
+"C": {
+"error": "Usar -ing sin auxiliar",
+"porque": "Elegiste 'getting' porque probablemente pensaste en una acción que se repite.",
+"pregunta_guia": "¿Hay un 'am' antes del espacio para formar el presente continuo?",
+"aprende": "'Every morning' indica rutina → presente simple. El -ing necesita 'am/is/are' (I am getting)."
+}
+},
+"explicacion": "Paso 1: 'every morning' (todas las mañanas) indica una rutina → presente simple. Paso 2: el sujeto es 'I'. Paso 3: con 'I' el verbo va en forma base: 'get'. Paso 4: 'I get up at 5:30'. Respuesta: A.",
+"tip": "Palabras como 'every day', 'usually', 'always' anuncian presente simple.",
+"truco": "La -s del presente simple es solo para HE, SHE, IT (la 'S' de 'Solo tercera persona').",
+"estrategia_icfes": "Busca marcadores de tiempo cerca del espacio (every morning, yesterday, now). Ellos te dicen qué tiempo verbal necesita el espacio.",
+"temas": [
+"Presente simple",
+"Rutinas diarias",
+"Phrasal verb: get up"
+],
+"gemela": {
+"enunciado": "Complete: “My mother ______ to work by bus every day.”",
+"opciones": {
+"A": "go",
+"B": "goes",
+"C": "going"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'every day' indica presente simple. Paso 2: el sujeto 'my mother' es 'she'. Paso 3: con 'she' se agrega -es: 'goes'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A051",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): describe con oraciones sencillas aspectos de su vida personal, su rutina y su entorno, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso preposiciones adecuadas para hablar de medios de transporte, lugares y tiempo.",
+"afirmacion": "Usa la preposición correcta para expresar el medio de transporte.",
+"evidencia": "Completa '(3)' con 'by' en la expresión 'by motorbike'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi! My name is Valentina. I (1) ______ fourteen years old and I live in Jamundí, a town near Cali. Every morning I (2) ______ up at 5:30 because my school is far from my house. My father takes me there (3) ______ motorbike. After school I play volleyball with my friends. My favourite day is Sunday (4) ______ my whole family has lunch at my grandmother's house.",
+"enunciado": "Which word correctly completes gap (3)?",
+"opciones": {
+"A": "in",
+"B": "with",
+"C": "by"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Calco del español 'en moto'",
+"porque": "Elegiste 'in' porque probablemente tradujiste 'me lleva en moto'.",
+"pregunta_guia": "En inglés, ¿cómo se dice 'en bus', 'en carro', 'en moto' de forma general?",
+"aprende": "Para el medio de transporte en general se usa 'by' sin artículo: by bus, by car, by motorbike."
+},
+"B": {
+"error": "Usar 'with' como instrumento",
+"porque": "Elegiste 'with' porque probablemente pensaste que la moto es el instrumento con el que va.",
+"pregunta_guia": "¿Dices 'I go to school with bus'?",
+"aprende": "'With' indica compañía o instrumento (with my father, with a pen). El transporte va con 'by'."
+}
+},
+"explicacion": "Paso 1: el espacio está antes de 'motorbike', un medio de transporte. Paso 2: sin artículo (no dice 'his motorbike'). Paso 3: la regla es 'by + transporte': by motorbike. Respuesta: C.",
+"tip": "Excepción importante: a pie es 'on foot', no 'by foot'.",
+"truco": "BY + Bus, Bike, Boat… ¡B con B!",
+"estrategia_icfes": "Las preposiciones son de las preguntas más frecuentes de la Parte 4. Memoriza combinaciones fijas (by bus, on foot, at night, in the morning).",
+"temas": [
+"Preposiciones con transporte",
+"By / on foot",
+"Medios de transporte"
+],
+"gemela": {
+"enunciado": "Complete: “Many tourists travel to Juanchaco ______ boat.”",
+"opciones": {
+"A": "by",
+"B": "on",
+"C": "at"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'boat' es un medio de transporte sin artículo. Paso 2: la regla es 'by + transporte': 'by boat'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A052",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): explica el porqué de sus preferencias y acciones relacionadas con su entorno personal y familiar, usando conectores sencillos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso conectores (and, but, because, so) para dar coherencia a mis textos.",
+"afirmacion": "Usa el conector adecuado para expresar causa.",
+"evidencia": "Completa '(4)' con 'because' para explicar la razón de una preferencia.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi! My name is Valentina. I (1) ______ fourteen years old and I live in Jamundí, a town near Cali. Every morning I (2) ______ up at 5:30 because my school is far from my house. My father takes me there (3) ______ motorbike. After school I play volleyball with my friends. My favourite day is Sunday (4) ______ my whole family has lunch at my grandmother's house.",
+"enunciado": "Which word correctly completes gap (4)?",
+"opciones": {
+"A": "because",
+"B": "but",
+"C": "so"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar un conector de contraste sin contraste",
+"porque": "Elegiste 'but' porque probablemente lo usas como conector general para unir dos ideas.",
+"pregunta_guia": "¿El almuerzo familiar se opone a que el domingo sea su día favorito, o lo explica?",
+"aprende": "'But' une ideas contrarias. Aquí la segunda idea es la RAZÓN de la primera: 'because'."
+},
+"C": {
+"error": "Invertir causa y consecuencia",
+"porque": "Elegiste 'so' porque probablemente sabías que relaciona dos ideas, pero no notaste el orden.",
+"pregunta_guia": "¿La familia almuerza junta porque es su día favorito, o es su día favorito porque la familia almuerza junta?",
+"aprende": "'So' introduce la consecuencia; 'because' introduce la causa. El almuerzo familiar es la causa."
+}
+},
+"explicacion": "Paso 1: idea 1: el domingo es su día favorito. Paso 2: idea 2: toda la familia almuerza en casa de la abuela. Paso 3: la idea 2 explica por qué el domingo es su favorito (causa). Paso 4: el conector de causa es 'because'. Respuesta: A.",
+"tip": "Pregúntate '¿por qué?' después de la primera idea. Si la segunda responde, el conector es 'because'.",
+"truco": "Because = porque (causa). So = así que (consecuencia). But = pero (contraste).",
+"estrategia_icfes": "En la Parte 4 los conectores se deciden por la relación lógica entre las dos ideas. Léelas en voz baja con cada conector y elige la que tenga sentido.",
+"temas": [
+"Conectores: because, but, so",
+"Causa y consecuencia",
+"Coherencia textual"
+],
+"gemela": {
+"enunciado": "Complete: “It was raining a lot, ______ we stayed at home.”",
+"opciones": {
+"A": "because",
+"B": "but",
+"C": "so"
+},
+"correcta": "C",
+"explicacion": "Paso 1: la lluvia es la causa. Paso 2: quedarse en casa es la consecuencia. Paso 3: el conector de consecuencia es 'so'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A053",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente hechos y experiencias propias en textos escritos sencillos, usando el pasado simple y conectores de secuencia.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: narro experiencias pasadas en textos cortos usando el pasado simple de verbos regulares e irregulares.",
+"afirmacion": "Usa el pasado simple de verbos irregulares en una narración.",
+"evidencia": "Completa '(5)' con 'took', reconociendo el marcador 'Last July'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nLast July, my class (5) ______ a trip to the Pacific coast. We travelled to Buenaventura by bus and then we took a boat to Juanchaco. On the second day, we (6) ______ humpback whales from the boat. It was amazing! In the afternoon we (7) ______ visit the beach of Ladrilleros because it was raining a lot. The trip was (8) ______ than our trip to the Cali Zoo last year, and everybody wants to go back.",
+"enunciado": "Which word correctly completes gap (5)?",
+"opciones": {
+"A": "take",
+"B": "took",
+"C": "taken"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Ignorar el marcador de pasado",
+"porque": "Elegiste 'take' porque probablemente no notaste 'Last July' al inicio de la oración.",
+"pregunta_guia": "¿'Last July' habla del presente o del pasado?",
+"aprende": "'Last July' = el julio pasado → pasado simple. 'Take' es presente."
+},
+"C": {
+"error": "Usar el participio sin auxiliar",
+"porque": "Elegiste 'taken' porque probablemente sabías que es una forma de pasado, pero es el participio.",
+"pregunta_guia": "¿Hay un 'have' o 'has' antes del espacio?",
+"aprende": "take – took – taken. 'Taken' necesita 'have/has' (presente perfecto). Sin auxiliar se usa 'took'."
+}
+},
+"explicacion": "Paso 1: 'Last July' indica una acción terminada en el pasado. Paso 2: se usa pasado simple. Paso 3: 'take' es irregular: take – took – taken. Paso 4: el pasado simple es 'took'. Respuesta: B.",
+"tip": "Aprende los verbos irregulares en tríos: take-took-taken, see-saw-seen, go-went-gone.",
+"truco": "Sin auxiliar → 2.ª columna (took). Con have/has → 3.ª columna (taken).",
+"estrategia_icfes": "En las narraciones de la Parte 4 el ICFES marca el tiempo al inicio (Last July, Yesterday). Subraya ese marcador: aplica a todos los verbos del relato.",
+"temas": [
+"Pasado simple irregular",
+"Marcadores de tiempo pasado",
+"Take a trip"
+],
+"gemela": {
+"enunciado": "Complete: “Yesterday my brother ______ a lot of photos at the Cali Zoo.”",
+"opciones": {
+"A": "taken",
+"B": "takes",
+"C": "took"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'Yesterday' indica pasado simple. Paso 2: el pasado de 'take' es 'took'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A054",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente hechos y experiencias propias en textos escritos sencillos, usando el pasado simple y conectores de secuencia.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: narro experiencias pasadas en textos cortos usando el pasado simple de verbos regulares e irregulares.",
+"afirmacion": "Usa el pasado simple de verbos irregulares en una narración.",
+"evidencia": "Completa '(6)' con 'saw' manteniendo la coherencia temporal del relato.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nLast July, my class (5) ______ a trip to the Pacific coast. We travelled to Buenaventura by bus and then we took a boat to Juanchaco. On the second day, we (6) ______ humpback whales from the boat. It was amazing! In the afternoon we (7) ______ visit the beach of Ladrilleros because it was raining a lot. The trip was (8) ______ than our trip to the Cali Zoo last year, and everybody wants to go back.",
+"enunciado": "Which word correctly completes gap (6)?",
+"opciones": {
+"A": "saw",
+"B": "see",
+"C": "seen"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Romper la coherencia temporal",
+"porque": "Elegiste 'see' porque probablemente leíste solo la oración del espacio y no el relato completo en pasado.",
+"pregunta_guia": "¿Los otros verbos del texto (travelled, took, was) están en presente o en pasado?",
+"aprende": "Un relato mantiene el mismo tiempo. Todo el viaje ocurrió el julio pasado → 'saw'."
+},
+"C": {
+"error": "Usar el participio como pasado simple",
+"porque": "Elegiste 'seen' porque probablemente confundiste las columnas del verbo irregular.",
+"pregunta_guia": "¿Se puede decir 'we seen' sin 'have'?",
+"aprende": "see – saw – seen. 'Seen' solo va con have/has: 'we have seen'."
+}
+},
+"explicacion": "Paso 1: el relato está en pasado (Last July, travelled, took). Paso 2: 'On the second day' sigue la misma secuencia pasada. Paso 3: el pasado simple de 'see' es 'saw'. Paso 4: 'we saw humpback whales'. Respuesta: A.",
+"tip": "Si un verbo del texto está en pasado, los siguientes del mismo relato casi siempre también lo están.",
+"truco": "see – saw – seen: 'Ayer SAW, ya he SEEN'.",
+"estrategia_icfes": "La Parte 4 premia leer el texto como un todo. Revisa los verbos cercanos al espacio: muestran el tiempo del relato.",
+"temas": [
+"Pasado simple irregular",
+"Coherencia temporal",
+"Fauna del Pacífico"
+],
+"gemela": {
+"enunciado": "Complete: “Last weekend we ______ a documentary about whales at school.”",
+"opciones": {
+"A": "watch",
+"B": "watched",
+"C": "watching"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Last weekend' indica pasado. Paso 2: 'watch' es regular: se agrega -ed. Paso 3: 'watched'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A055",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente hechos y experiencias propias en textos escritos sencillos, usando el pasado simple en forma afirmativa y negativa.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso el pasado simple en oraciones afirmativas y negativas en textos narrativos cortos.",
+"afirmacion": "Forma la negación del pasado simple con el auxiliar adecuado.",
+"evidencia": "Completa '(7)' con 'didn't' ante el verbo en forma base 'visit'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nLast July, my class (5) ______ a trip to the Pacific coast. We travelled to Buenaventura by bus and then we took a boat to Juanchaco. On the second day, we (6) ______ humpback whales from the boat. It was amazing! In the afternoon we (7) ______ visit the beach of Ladrilleros because it was raining a lot. The trip was (8) ______ than our trip to the Cali Zoo last year, and everybody wants to go back.",
+"enunciado": "Which word correctly completes gap (7)?",
+"opciones": {
+"A": "weren't",
+"B": "don't",
+"C": "didn't"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar 'to be' para negar un verbo de acción",
+"porque": "Elegiste 'weren't' porque probablemente sabías que la oración es en pasado y usaste el pasado de 'be'.",
+"pregunta_guia": "Después del espacio viene 'visit'. ¿Se dice 'we weren't visit'?",
+"aprende": "Para negar un verbo de acción en pasado se usa 'didn't + verbo base': we didn't visit."
+},
+"B": {
+"error": "Negar en presente un hecho pasado",
+"porque": "Elegiste 'don't' porque probablemente reconociste que antes de 'visit' va un auxiliar, pero no lo pusiste en pasado.",
+"pregunta_guia": "¿La lluvia y la visita ocurrieron el julio pasado o ocurren ahora?",
+"aprende": "El presente usa 'don't'; el pasado, 'didn't'. Aquí 'it was raining' confirma el pasado."
+}
+},
+"explicacion": "Paso 1: el relato está en pasado y 'it was raining' lo confirma. Paso 2: después del espacio está 'visit' en forma base. Paso 3: la negación del pasado simple es 'didn't + verbo base'. Paso 4: 'we didn't visit the beach'. Respuesta: C.",
+"tip": "Si después del espacio hay un verbo en forma base, el espacio pide un auxiliar (do, does, did, can, will).",
+"truco": "DIDN'T ya lleva el pasado: el verbo queda en base (didn't visit, NO didn't visited).",
+"estrategia_icfes": "Mira la palabra que viene DESPUÉS del espacio: si es un verbo base, descarta 'be' (am, is, was, were) y elige el auxiliar del tiempo correcto.",
+"temas": [
+"Pasado simple negativo",
+"Auxiliar 'did'",
+"Was/were vs. did"
+],
+"gemela": {
+"enunciado": "Complete: “I ______ go to the party yesterday because I was sick.”",
+"opciones": {
+"A": "didn't",
+"B": "wasn't",
+"C": "doesn't"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'yesterday' indica pasado. Paso 2: 'go' está en forma base. Paso 3: la negación es 'didn't go'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A056",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): narra brevemente hechos y experiencias propias y expresa su opinión comparando situaciones, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso comparativos y superlativos de adjetivos cortos y largos para expresar opiniones.",
+"afirmacion": "Usa la forma comparativa de un adjetivo largo.",
+"evidencia": "Completa '(8)' con 'more exciting', reconociendo la palabra 'than'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nLast July, my class (5) ______ a trip to the Pacific coast. We travelled to Buenaventura by bus and then we took a boat to Juanchaco. On the second day, we (6) ______ humpback whales from the boat. It was amazing! In the afternoon we (7) ______ visit the beach of Ladrilleros because it was raining a lot. The trip was (8) ______ than our trip to the Cali Zoo last year, and everybody wants to go back.",
+"enunciado": "Which option correctly completes gap (8)?",
+"opciones": {
+"A": "more exciting",
+"B": "most exciting",
+"C": "excitinger"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir comparativo con superlativo",
+"porque": "Elegiste 'most exciting' porque probablemente sabías que los adjetivos largos usan 'more/most', pero no notaste la palabra 'than'.",
+"pregunta_guia": "¿Qué palabra viene después del espacio? ¿'Than' compara dos cosas o destaca una entre todas?",
+"aprende": "Comparativo (dos cosas) = more + adjetivo + than. Superlativo (una entre todas) = the most + adjetivo."
+},
+"C": {
+"error": "Agregar -er a un adjetivo largo",
+"porque": "Elegiste 'excitinger' porque probablemente aplicaste la regla de los adjetivos cortos (big → bigger).",
+"pregunta_guia": "¿'Exciting' es un adjetivo corto (una sílaba) o largo?",
+"aprende": "Adjetivos de tres o más sílabas no llevan -er: se usa 'more' (more exciting, more interesting)."
+}
+},
+"explicacion": "Paso 1: después del espacio está 'than' → comparativo. Paso 2: 'exciting' tiene tres sílabas (ex-ci-ting) → adjetivo largo. Paso 3: comparativo de adjetivo largo = more + adjetivo. Paso 4: 'more exciting than'. Respuesta: A.",
+"tip": "'Than' es la señal del comparativo; 'the' + '-est/most' es la señal del superlativo.",
+"truco": "Corto: -ER + than (bigger than). Largo: MORE + than (more exciting than).",
+"estrategia_icfes": "En la Parte 4 los comparativos se reconocen por 'than'. Cuenta las sílabas del adjetivo para decidir entre -er y more.",
+"temas": [
+"Comparativos",
+"Adjetivos largos y cortos",
+"Comparativo vs. superlativo"
+],
+"gemela": {
+"enunciado": "Complete: “For many students, maths is ______ than history.”",
+"opciones": {
+"A": "difficulter",
+"B": "the most difficult",
+"C": "more difficult"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'than' indica comparativo. Paso 2: 'difficult' es largo. Paso 3: 'more difficult than'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A057",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas académicos del entorno escolar en mensajes escritos sencillos, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso el presente continuo para describir acciones que ocurren en el momento.",
+"afirmacion": "Usa el presente continuo para describir una acción en curso.",
+"evidencia": "Completa '(9)' con 'are studying', reconociendo el marcador 'Right now' y el sujeto plural.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi Tomás! I'm writing to you from the school library. Right now my classmates and I (9) ______ for the science test. There aren't (10) ______ computers here, so we are sharing them. The test is (11) ______ Friday at 8 a.m. Can you come to my house (12) ______ the afternoon to study with me? Bye, Mariana",
+"enunciado": "Which option correctly completes gap (9)?",
+"opciones": {
+"A": "study",
+"B": "are studying",
+"C": "studies"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar presente simple para una acción del momento",
+"porque": "Elegiste 'study' porque probablemente pensaste que estudiar es una actividad habitual.",
+"pregunta_guia": "¿'Right now' habla de una rutina o de algo que pasa en este momento?",
+"aprende": "'Right now' = ahora mismo → presente continuo: am/is/are + verbo-ing."
+},
+"C": {
+"error": "Concordar con 'classmates' como si fuera singular",
+"porque": "Elegiste 'studies' porque probablemente aplicaste la -s de tercera persona sin notar que el sujeto es plural.",
+"pregunta_guia": "'My classmates and I' es igual a 'he' o a 'we'?",
+"aprende": "'My classmates and I' = we. Con 'we' nunca se agrega -s; y 'right now' pide 'are studying'."
+}
+},
+"explicacion": "Paso 1: 'Right now' indica una acción que está ocurriendo → presente continuo. Paso 2: el sujeto 'my classmates and I' equivale a 'we'. Paso 3: con 'we' se usa 'are + verbo-ing'. Paso 4: 'we are studying'. Respuesta: B.",
+"tip": "La primera oración del mensaje (I'm writing…) también está en presente continuo: es una pista del momento.",
+"truco": "Now, right now, at the moment, look!, listen! → BE + -ING.",
+"estrategia_icfes": "Identifica dos cosas en cada espacio verbal: el sujeto (¿singular o plural?) y el marcador de tiempo. Las dos deben concordar con la opción.",
+"temas": [
+"Presente continuo",
+"Sujetos compuestos",
+"Marcadores de tiempo: right now"
+],
+"gemela": {
+"enunciado": "Complete: “Look! The children ______ in the park.”",
+"opciones": {
+"A": "are playing",
+"B": "plays",
+"C": "is play"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Look!' indica que ocurre ahora → presente continuo. Paso 2: 'the children' es plural → 'are'. Paso 3: 'are playing'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A058",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "Educación digital e IA",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas académicos del entorno escolar en mensajes escritos sencillos, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso cuantificadores (much, many, some, any) con sustantivos contables e incontables.",
+"afirmacion": "Usa el cuantificador adecuado con un sustantivo contable en plural en oraciones negativas.",
+"evidencia": "Completa '(10)' con 'many' delante de 'computers' y de acuerdo con el sentido del texto (they are sharing them).",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi Tomás! I'm writing to you from the school library. Right now my classmates and I (9) ______ for the science test. There aren't (10) ______ computers here, so we are sharing them. The test is (11) ______ Friday at 8 a.m. Can you come to my house (12) ______ the afternoon to study with me? Bye, Mariana",
+"enunciado": "Which word correctly completes gap (10)?",
+"opciones": {
+"A": "many",
+"B": "much",
+"C": "a"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar 'much' con un sustantivo contable",
+"porque": "Elegiste 'much' porque probablemente lo tradujiste como 'muchos' sin revisar si el sustantivo se puede contar.",
+"pregunta_guia": "¿Puedes contar los computadores (one, two, three)? ¿Qué cuantificador va con contables en plural?",
+"aprende": "Much + incontable (much water, much time). Many + contable plural (many computers)."
+},
+"C": {
+"error": "Usar artículo singular con un plural",
+"porque": "Elegiste 'a' porque probablemente pensaste en 'there isn't a computer'.",
+"pregunta_guia": "¿'Computers' está en singular o en plural? ¿'A' va con plurales?",
+"aprende": "'A/an' solo acompaña sustantivos singulares. Además, si los están compartiendo, sí hay computadores, pero pocos: 'There aren't many'."
+}
+},
+"explicacion": "Paso 1: 'computers' es un sustantivo contable en plural. Paso 2: la oración es negativa (aren't). Paso 3: el texto dice que los comparten, es decir, hay pocos. Paso 4: el cuantificador para contables plurales es 'many': 'There aren't many computers'. Respuesta: A.",
+"tip": "Pregúntate '¿lo puedo contar?'. Si sí → many / a few. Si no → much / a little.",
+"truco": "MANY → cosas que se cuentan (many computers). MUCH → cosas que se miden (much internet, much time).",
+"estrategia_icfes": "Para cuantificadores, el ICFES te obliga a mirar el sustantivo que sigue al espacio. Decide si es contable o incontable y si está en singular o plural.",
+"temas": [
+"Cuantificadores: much / many",
+"Sustantivos contables e incontables",
+"There is / there are"
+],
+"gemela": {
+"enunciado": "Complete: “Hurry up! We don't have ______ time before the bus leaves.”",
+"opciones": {
+"A": "many",
+"B": "much",
+"C": "a"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'time' es incontable. Paso 2: en negativo, con incontables se usa 'much'. Paso 3: 'We don't have much time'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A059",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas académicos del entorno escolar en mensajes escritos sencillos, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso preposiciones de tiempo (in, on, at) en textos cortos.",
+"afirmacion": "Usa la preposición de tiempo correcta con los días de la semana.",
+"evidencia": "Completa '(11)' con 'on' delante de 'Friday'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi Tomás! I'm writing to you from the school library. Right now my classmates and I (9) ______ for the science test. There aren't (10) ______ computers here, so we are sharing them. The test is (11) ______ Friday at 8 a.m. Can you come to my house (12) ______ the afternoon to study with me? Bye, Mariana",
+"enunciado": "Which word correctly completes gap (11)?",
+"opciones": {
+"A": "in",
+"B": "on",
+"C": "at"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calco del español 'en'",
+"porque": "Elegiste 'in' porque probablemente tradujiste 'el examen es en viernes' o pensaste en 'in July'.",
+"pregunta_guia": "¿'In' se usa con días o con meses y años?",
+"aprende": "'In' va con meses, años y partes del día (in July, in 2026, in the morning). Los días van con 'on'."
+},
+"C": {
+"error": "Contagiarse de la preposición siguiente",
+"porque": "Elegiste 'at' porque probablemente viste 'at 8 a.m.' en la misma oración y usaste la misma preposición.",
+"pregunta_guia": "¿'At' va con la hora o con el día?",
+"aprende": "'At' va con horas exactas (at 8 a.m.). El día lleva 'on': on Friday at 8 a.m."
+}
+},
+"explicacion": "Paso 1: el espacio está antes de 'Friday', un día de la semana. Paso 2: los días llevan la preposición 'on'. Paso 3: 'at 8 a.m.' es otra preposición para la hora. Paso 4: 'on Friday at 8 a.m.'. Respuesta: B.",
+"tip": "Pirámide de tiempo: IN (meses, años) → ON (días, fechas) → AT (horas).",
+"truco": "ON + días: on Monday, on my birthday, on 20 July.",
+"estrategia_icfes": "Las preposiciones de tiempo son frecuentes en la Parte 4. Mira solo la palabra que sigue al espacio: ella decide la preposición.",
+"temas": [
+"Preposiciones de tiempo: in, on, at",
+"Días de la semana",
+"La hora"
+],
+"gemela": {
+"enunciado": "Complete: “Colombia's Independence Day is ______ 20 July.”",
+"opciones": {
+"A": "on",
+"B": "in",
+"C": "at"
+},
+"correcta": "A",
+"explicacion": "Paso 1: '20 July' es una fecha específica. Paso 2: las fechas llevan 'on'. Paso 3: 'on 20 July'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A060",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): intercambia información sobre temas académicos del entorno escolar en mensajes escritos sencillos, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso preposiciones de tiempo (in, on, at) en textos cortos.",
+"afirmacion": "Usa la preposición de tiempo correcta con las partes del día.",
+"evidencia": "Completa '(12)' con 'in' delante de 'the afternoon'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nHi Tomás! I'm writing to you from the school library. Right now my classmates and I (9) ______ for the science test. There aren't (10) ______ computers here, so we are sharing them. The test is (11) ______ Friday at 8 a.m. Can you come to my house (12) ______ the afternoon to study with me? Bye, Mariana",
+"enunciado": "Which word correctly completes gap (12)?",
+"opciones": {
+"A": "at",
+"B": "on",
+"C": "in"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Generalizar la excepción 'at night'",
+"porque": "Elegiste 'at' porque probablemente recordaste 'at night' y pensaste que todas las partes del día van con 'at'.",
+"pregunta_guia": "¿Se dice 'at the morning' o 'in the morning'? ¿Y 'the afternoon'?",
+"aprende": "in the morning, in the afternoon, in the evening; la excepción es 'at night'."
+},
+"B": {
+"error": "Aplicar la regla de los días",
+"porque": "Elegiste 'on' porque probablemente acababas de usarlo con 'Friday' en el espacio anterior.",
+"pregunta_guia": "¿'The afternoon' es un día de la semana?",
+"aprende": "'On' es para días y fechas. Para partes del día (sin día específico) se usa 'in'."
+}
+},
+"explicacion": "Paso 1: el espacio está antes de 'the afternoon', una parte del día. Paso 2: las partes del día llevan 'in' (in the morning, in the afternoon, in the evening). Paso 3: 'in the afternoon'. Respuesta: C.",
+"tip": "Si dices el día y la parte del día juntos, cambia a 'on': on Friday afternoon.",
+"truco": "IN the morning / afternoon / evening, pero AT night.",
+"estrategia_icfes": "Cuando dos espacios seguidos piden preposiciones, el ICFES espera que no repitas la anterior por inercia. Decide cada una por la palabra que la sigue.",
+"temas": [
+"Preposiciones de tiempo",
+"Partes del día",
+"Excepción: at night"
+],
+"gemela": {
+"enunciado": "Complete: “Owls usually hunt ______ night.”",
+"opciones": {
+"A": "in",
+"B": "at",
+"C": "on"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'night' es la excepción de las partes del día. Paso 2: se dice 'at night'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A061",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): explica el porqué de planes y acciones relacionadas con su entorno escolar y comunitario en textos escritos sencillos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso el futuro con 'going to' para expresar planes.",
+"afirmacion": "Usa el futuro con 'going to' en concordancia con el sujeto.",
+"evidencia": "Completa '(13)' con 'are' en 'My friend Andrés and I are going to…'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nNext month, our school is organizing a science fair. My friend Andrés and I (13) ______ going to present a project about recycling plastic. We (14) ______ buy expensive materials because we are using old bottles from the school cafeteria. (15) ______ project is called “Second Life for Plastic”.",
+"enunciado": "Which word correctly completes gap (13)?",
+"opciones": {
+"A": "is",
+"B": "are",
+"C": "am"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Concordar solo con 'my friend Andrés'",
+"porque": "Elegiste 'is' porque probablemente pensaste solo en 'my friend Andrés' (he).",
+"pregunta_guia": "¿Cuántas personas van a presentar el proyecto? ¿'Andrés and I' es 'he' o 'we'?",
+"aprende": "'My friend Andrés and I' = we → are. Siempre lee el sujeto completo."
+},
+"C": {
+"error": "Concordar con la palabra más cercana",
+"porque": "Elegiste 'am' porque probablemente viste 'I' justo antes del espacio.",
+"pregunta_guia": "¿El sujeto es solo 'I' o 'Andrés and I'?",
+"aprende": "Cuando el sujeto tiene 'and', es plural: Andrés and I = we → we are going to."
+}
+},
+"explicacion": "Paso 1: el sujeto es 'My friend Andrés and I' (dos personas = we). Paso 2: el futuro con planes es 'be + going to + verbo'. Paso 3: con 'we' el verbo 'be' es 'are'. Paso 4: 'are going to present'. Respuesta: B.",
+"tip": "Un sujeto unido con 'and' siempre es plural.",
+"truco": "X and I = WE. X and you = YOU (plural). → ARE.",
+"estrategia_icfes": "El ICFES pone el pronombre 'I' justo antes del espacio para que caigas en 'am'. Lee el sujeto desde el inicio de la oración.",
+"temas": [
+"Futuro con 'going to'",
+"Sujetos compuestos",
+"Verbo 'to be'"
+],
+"gemela": {
+"enunciado": "Complete: “My sister and her friends ______ going to visit the Botanical Garden tomorrow.”",
+"opciones": {
+"A": "is",
+"B": "am",
+"C": "are"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'my sister and her friends' es plural (they). Paso 2: con 'they' se usa 'are going to'. Respuesta: C."
+}
+},
+{
+"id": "P9-ING-A062",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): explica el porqué de planes y acciones relacionadas con su entorno escolar y comunitario en textos escritos sencillos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso expresiones de necesidad y obligación (need to, have to) en forma afirmativa y negativa.",
+"afirmacion": "Expresa ausencia de necesidad con la estructura gramatical correcta.",
+"evidencia": "Completa '(14)' con 'don't need to' en concordancia con 'we' y seguido de verbo base.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nNext month, our school is organizing a science fair. My friend Andrés and I (13) ______ going to present a project about recycling plastic. We (14) ______ buy expensive materials because we are using old bottles from the school cafeteria. (15) ______ project is called “Second Life for Plastic”.",
+"enunciado": "Which option correctly completes gap (14)?",
+"opciones": {
+"A": "don't need to",
+"B": "doesn't need",
+"C": "needn't to"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar la forma de tercera persona con 'we'",
+"porque": "Elegiste 'doesn't need' porque probablemente recordaste la negación con 'does' sin revisar el sujeto.",
+"pregunta_guia": "¿El sujeto 'we' va con 'don't' o con 'doesn't'? ¿Qué falta entre 'need' y 'buy'?",
+"aprende": "'Doesn't' es solo para he/she/it. Con 'we': 'we don't need to buy'."
+},
+"C": {
+"error": "Mezclar el modal 'needn't' con 'to'",
+"porque": "Elegiste 'needn't to' porque probablemente conocías 'needn't' y le agregaste 'to' como en 'need to'.",
+"pregunta_guia": "Los modales (can, must, needn't) ¿llevan 'to' antes del verbo?",
+"aprende": "El modal 'needn't' va sin 'to' (we needn't buy). La forma más común es 'don't need to buy'."
+}
+},
+"explicacion": "Paso 1: el sujeto es 'we'. Paso 2: la idea es que no es necesario comprar materiales caros (usan botellas viejas). Paso 3: la ausencia de necesidad es 'don't need to + verbo base'. Paso 4: 'We don't need to buy'. Respuesta: A.",
+"tip": "'Don't need to' = no es necesario; 'mustn't' = está prohibido. ¡No son lo mismo!",
+"truco": "need TO + verbo (verbo normal) / needn't + verbo (modal, sin 'to').",
+"estrategia_icfes": "En el nivel avanzado de la Parte 4 las opciones combinan dos reglas (concordancia + estructura). Revisa ambas en cada opción.",
+"temas": [
+"Need to / don't need to",
+"Verbos modales",
+"Concordancia con auxiliares"
+],
+"gemela": {
+"enunciado": "Complete: “You ______ bring food to the trip. Lunch is included.”",
+"opciones": {
+"A": "doesn't need",
+"B": "don't have to",
+"C": "haven't to"
+},
+"correcta": "B",
+"explicacion": "Paso 1: el almuerzo está incluido → no es necesario traer comida. Paso 2: con 'you' se usa 'don't have to + verbo'. Paso 3: 'You don't have to bring'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A063",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"sabic": "STEAM",
+"dba": "DBA de Inglés 9° (MEN 2016): explica el porqué de planes y acciones relacionadas con su entorno escolar y comunitario en textos escritos sencillos.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso adjetivos posesivos y pronombres personales en textos cortos.",
+"afirmacion": "Usa el adjetivo posesivo adecuado delante de un sustantivo.",
+"evidencia": "Completa '(15)' con 'Our' delante de 'project'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nNext month, our school is organizing a science fair. My friend Andrés and I (13) ______ going to present a project about recycling plastic. We (14) ______ buy expensive materials because we are using old bottles from the school cafeteria. (15) ______ project is called “Second Life for Plastic”.",
+"enunciado": "Which word correctly completes gap (15)?",
+"opciones": {
+"A": "We",
+"B": "Us",
+"C": "Our"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar pronombre sujeto en lugar de posesivo",
+"porque": "Elegiste 'We' porque probablemente pensaste en 'nosotros' y no en 'nuestro'.",
+"pregunta_guia": "¿Se dice 'nosotros proyecto' o 'nuestro proyecto'?",
+"aprende": "Delante de un sustantivo va un adjetivo posesivo: our project (nuestro proyecto)."
+},
+"B": {
+"error": "Usar pronombre objeto en lugar de posesivo",
+"porque": "Elegiste 'Us' porque probablemente sabías que es una forma de 'nosotros', pero es la forma de objeto (a nosotros).",
+"pregunta_guia": "¿'Us' puede ir delante de un sustantivo?",
+"aprende": "'Us' va después del verbo (They help us). Para 'nuestro' se usa 'our'."
+}
+},
+"explicacion": "Paso 1: después del espacio está 'project', un sustantivo. Paso 2: el proyecto pertenece a Andrés y a la narradora (nosotros). Paso 3: el adjetivo posesivo de 'we' es 'our'. Paso 4: 'Our project is called…'. Respuesta: C.",
+"tip": "Sujeto (we) → objeto (us) → posesivo (our). Aprende las tres formas juntas.",
+"truco": "I-me-my, you-you-your, we-us-OUR.",
+"estrategia_icfes": "Si el espacio está delante de un sustantivo, piensa en posesivos o artículos, no en pronombres sujeto u objeto.",
+"temas": [
+"Adjetivos posesivos",
+"Pronombres sujeto y objeto",
+"Proyectos escolares STEAM"
+],
+"gemela": {
+"enunciado": "Complete: “Laura and Diego are in ______ classroom now.”",
+"opciones": {
+"A": "their",
+"B": "they",
+"C": "them"
+},
+"correcta": "A",
+"explicacion": "Paso 1: antes de 'classroom' (sustantivo) va un posesivo. Paso 2: 'Laura and Diego' = they → posesivo 'their'. Respuesta: A."
+}
+},
+{
+"id": "P9-ING-A064",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "A2",
+"dba": "DBA de Inglés 9° (MEN 2016): describe aspectos de su ciudad y región en textos escritos sencillos, comparando lugares con estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso comparativos y superlativos para describir y comparar lugares.",
+"afirmacion": "Usa el superlativo de un adjetivo corto para destacar un elemento dentro de un grupo.",
+"evidencia": "Completa '(16)' con 'the biggest', reconociendo la comparación con todo el grupo ('in the Valle del Cauca').",
+"contexto": "Read the text and choose the correct word for each gap.\n\nCali is (16) ______ city in the Valle del Cauca: it has more people than Palmira, Buga or Tuluá. Many people say that it is the world capital of salsa, and there (17) ______ many dance schools in the city.",
+"enunciado": "Which option correctly completes gap (16)?",
+"opciones": {
+"A": "the bigger",
+"B": "the biggest",
+"C": "bigger"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Mezclar 'the' con el comparativo",
+"porque": "Elegiste 'the bigger' porque probablemente sabías que va 'the' pero usaste la forma -er del comparativo.",
+"pregunta_guia": "¿Cali se compara con una sola ciudad o con todas las ciudades del Valle?",
+"aprende": "Para destacar uno dentro de un grupo se usa el superlativo: the + adjetivo-est (the biggest)."
+},
+"C": {
+"error": "Usar comparativo sin 'than'",
+"porque": "Elegiste 'bigger' porque probablemente viste 'more people than' después y pensaste en un comparativo.",
+"pregunta_guia": "¿Hay un 'than' inmediatamente después de 'city'? ¿Qué indica 'in the Valle del Cauca'?",
+"aprende": "'Bigger' necesita 'than' (bigger than Palmira). 'The biggest city in…' compara con todo el grupo."
+}
+},
+"explicacion": "Paso 1: delante de 'city' y con 'in the Valle del Cauca' se compara Cali con TODAS las ciudades del departamento → superlativo. Paso 2: 'big' es corto: se dobla la consonante y se agrega -est → biggest. Paso 3: el superlativo lleva 'the': 'the biggest city'. Respuesta: B.",
+"tip": "'In + grupo/lugar' después del adjetivo (in the class, in Colombia) es la señal del superlativo.",
+"truco": "Comparativo: -ER + THAN. Superlativo: THE + -EST + IN/OF.",
+"estrategia_icfes": "El ICFES pone pistas cerca del espacio: 'than' → comparativo; 'the… in/of' → superlativo. Busca cuál de las dos aparece.",
+"temas": [
+"Superlativos",
+"Adjetivos cortos: doble consonante",
+"Geografía del Valle del Cauca"
+],
+"gemela": {
+"enunciado": "Complete: “The Magdalena is ______ river in Colombia.”",
+"opciones": {
+"A": "longer",
+"B": "the longest",
+"C": "the longer"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'in Colombia' compara con todos los ríos del país → superlativo. Paso 2: 'long' → 'the longest'. Respuesta: B."
+}
+},
+{
+"id": "P9-ING-A065",
+"area": "ingles",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A1",
+"dba": "DBA de Inglés 9° (MEN 2016): describe aspectos de su ciudad y región en textos escritos sencillos, usando estructuras gramaticales adecuadas.",
+"lineamiento": "Guía 22 · Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (MEN 2006), grados 8°–9° (Pre-intermedio 1), escritura: uso 'there is / there are' para describir lugares.",
+"afirmacion": "Usa 'there are' con sustantivos en plural.",
+"evidencia": "Completa '(17)' con 'are' delante de 'many dance schools'.",
+"contexto": "Read the text and choose the correct word for each gap.\n\nCali is (16) ______ city in the Valle del Cauca: it has more people than Palmira, Buga or Tuluá. Many people say that it is the world capital of salsa, and there (17) ______ many dance schools in the city.",
+"enunciado": "Which word correctly completes gap (17)?",
+"opciones": {
+"A": "is",
+"B": "be",
+"C": "are"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar 'there is' con plural",
+"porque": "Elegiste 'is' porque probablemente usaste 'there is' para todo, como el 'hay' del español.",
+"pregunta_guia": "¿'Many dance schools' es singular o plural?",
+"aprende": "En español 'hay' no cambia, pero en inglés sí: there is + singular, there are + plural."
+},
+"B": {
+"error": "Dejar el verbo sin conjugar",
+"porque": "Elegiste 'be' porque probablemente sabías que el verbo es 'to be' pero no lo conjugaste.",
+"pregunta_guia": "¿Se dice 'there be'? ¿Cómo se conjuga 'be' con un sujeto plural?",
+"aprende": "'Be' es la forma base; en presente se conjuga: is (singular) o are (plural)."
+}
+},
+"explicacion": "Paso 1: después del espacio está 'many dance schools', un sustantivo en plural. Paso 2: 'hay' en plural es 'there are'. Paso 3: 'there are many dance schools'. Respuesta: C.",
+"tip": "'Many' siempre va con plural, así que después de 'there' va 'are'.",
+"truco": "There IS one / There ARE many.",
+"estrategia_icfes": "Con 'there + be', mira el sustantivo que viene después del espacio: él decide singular o plural.",
+"temas": [
+"There is / there are",
+"Singular y plural",
+"Cultura caleña: la salsa"
+],
+"gemela": {
+"enunciado": "Complete: “There ______ a big park near my house in Ciudad Córdoba.”",
+"opciones": {
+"A": "are",
+"B": "is",
+"C": "be"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'a big park' es singular. Paso 2: con singular se usa 'there is'. Respuesta: B."
+}
+}
+]

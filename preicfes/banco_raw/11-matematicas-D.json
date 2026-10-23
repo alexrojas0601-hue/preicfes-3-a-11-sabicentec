@@ -1,0 +1,3838 @@
+[
+{
+"id": "P11-MAT-D001",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° y 10°–11°: identifico y utilizo relaciones de proporcionalidad directa para resolver problemas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica la regla de tres simple directa reconociendo que las dos magnitudes son directamente proporcionales.",
+"contexto": "Doña Rosalba prepara sancocho valluno para vender los domingos en el barrio Ciudad Córdoba. Su receta para 6 personas lleva 900 g de yuca, y ella mantiene siempre la misma proporción de yuca por persona.",
+"enunciado": "Si un domingo debe preparar sancocho para 10 personas, ¿cuántos gramos de yuca necesita?",
+"opciones": {
+"A": "540 g",
+"B": "1.500 g",
+"C": "904 g",
+"D": "1.350 g"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Tratar la relación como inversa",
+"porque": "Elegiste 540 g porque probablemente calculaste 900 × 6 ÷ 10, como si a más personas se necesitara menos yuca.",
+"pregunta_guia": "Si cocinas para más personas, ¿necesitas más o menos yuca?",
+"aprende": "Es proporcionalidad directa: ambas magnitudes crecen juntas, así que 900 × 10 ÷ 6."
+},
+"C": {
+"error": "Razonamiento aditivo",
+"porque": "Elegiste 904 g porque probablemente sumaste a 900 las 4 personas adicionales, como si cada persona agregara 1 g.",
+"pregunta_guia": "¿Cuántos gramos de yuca le corresponden a una sola persona?",
+"aprende": "En la proporcionalidad se multiplica por un factor (10/6), no se suma la diferencia."
+},
+"D": {
+"error": "Redondear el factor de proporcionalidad",
+"porque": "Elegiste 1.350 g porque probablemente tomaste el factor 10/6 como si fuera 1,5.",
+"pregunta_guia": "¿Cuánto es exactamente 10 ÷ 6?",
+"aprende": "10/6 ≈ 1,67; mejor calcula primero lo de una persona: 900 ÷ 6 = 150 g."
+}
+},
+"explicacion": "Paso 1: Las magnitudes personas y gramos de yuca son directamente proporcionales. Paso 2: Yuca por persona: 900 ÷ 6 = 150 g. Paso 3: Para 10 personas: 150 × 10 = 1.500 g. Paso 4: Comprobación: 1.500/10 = 900/6 = 150. Respuesta: 1.500 g.",
+"tip": "Antes de operar pregúntate: «¿si una crece, la otra crece o decrece?». Eso decide si multiplicas o divides.",
+"truco": "Reducción a la unidad: calcula cuánto corresponde a 1 y luego multiplica por lo que pide.",
+"estrategia_icfes": "El ICFES presenta regla de tres en contextos cotidianos y pone como distractores el resultado inverso y el aditivo. Identifica el tipo de proporcionalidad y verifica que el cociente se conserve.",
+"temas": [
+"proporcionalidad directa",
+"regla de tres simple",
+"reducción a la unidad"
+],
+"gemela": {
+"enunciado": "Una receta de arroz atollado para 4 personas usa 600 g de arroz. Manteniendo la proporción, ¿cuánto arroz se necesita para 14 personas?",
+"opciones": {
+"A": "1.400 g",
+"B": "2.100 g",
+"C": "610 g",
+"D": "2.400 g"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Arroz por persona: 600 ÷ 4 = 150 g. Paso 2: Para 14 personas: 150 × 14 = 2.100 g."
+}
+},
+{
+"id": "P11-MAT-D002",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9°: identifico relaciones de proporcionalidad inversa y las uso para resolver problemas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Reconoce una proporcionalidad inversa y la resuelve conservando el producto de las magnitudes.",
+"contexto": "Para pintar las aulas de un colegio en Jamundí, 4 pintores que trabajan al mismo ritmo tardan 15 días. El rector quiere terminar antes y contrata más pintores con el mismo rendimiento.",
+"enunciado": "¿Cuántos días tardarán 6 pintores en hacer el mismo trabajo?",
+"opciones": {
+"A": "22,5 días",
+"B": "13 días",
+"C": "10 días",
+"D": "9 días"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar proporcionalidad directa",
+"porque": "Elegiste 22,5 días porque probablemente calculaste 15 × 6 ÷ 4, como si más pintores tardaran más.",
+"pregunta_guia": "Con más pintores trabajando, ¿el trabajo se termina antes o después?",
+"aprende": "Es inversa: el producto pintores × días se conserva (4 × 15 = 60)."
+},
+"B": {
+"error": "Razonamiento aditivo",
+"porque": "Elegiste 13 días porque probablemente restaste a 15 los 2 pintores adicionales.",
+"pregunta_guia": "¿Cuántos «días-pintor» de trabajo hay en total?",
+"aprende": "Los cambios en proporcionalidad son multiplicativos: 60 días-pintor ÷ 6 pintores."
+},
+"D": {
+"error": "Restar cantidades sin sentido",
+"porque": "Elegiste 9 días porque probablemente restaste 15 − 6.",
+"pregunta_guia": "¿Qué representa el número 15 − 6 en la situación?",
+"aprende": "Calcula el trabajo total (4 × 15) y repártelo entre los 6 pintores."
+}
+},
+"explicacion": "Paso 1: A más pintores, menos días: proporcionalidad inversa. Paso 2: Trabajo total = 4 × 15 = 60 días-pintor. Paso 3: Con 6 pintores: 60 ÷ 6 = 10 días. Paso 4: Comprobación: 6 × 10 = 60. Respuesta: 10 días.",
+"tip": "En la inversa lo que se conserva es el producto, no el cociente.",
+"truco": "Inversa = «en cruz no; en línea sí»: 4 × 15 = 6 × x.",
+"estrategia_icfes": "El ICFES mezcla situaciones directas e inversas en la misma prueba. Pregunta siempre cómo cambia una magnitud cuando la otra aumenta antes de plantear.",
+"temas": [
+"proporcionalidad inversa",
+"regla de tres inversa",
+"producto constante"
+],
+"gemela": {
+"enunciado": "Tres máquinas iguales cosechan un lote de caña en 12 días. ¿Cuántos días tardarían 9 máquinas iguales?",
+"opciones": {
+"A": "36 días",
+"B": "6 días",
+"C": "4 días",
+"D": "9 días"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Trabajo total = 3 × 12 = 36 días-máquina. Paso 2: 36 ÷ 9 = 4 días."
+}
+},
+{
+"id": "P11-MAT-D003",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: comparo y contrasto las propiedades de los números y de sus operaciones para justificar procedimientos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica por qué dos variaciones porcentuales sucesivas de igual magnitud y signo contrario no se anulan.",
+"contexto": "Un almacén del centro de Cali vende unos tenis a $200.000. En diciembre sube su precio un 20 % y en enero lo rebaja un 20 % sobre el precio de diciembre. Camila afirma: «En enero los tenis vuelven a costar $200.000, porque subir 20 % y bajar 20 % se cancelan».",
+"enunciado": "¿Es correcta la afirmación de Camila?",
+"opciones": {
+"A": "Sí, porque +20 % y −20 % suman 0 %, así que el precio no cambia.",
+"B": "No, porque el precio de enero queda 4 % por encima del original, ya que el aumento se aplicó primero.",
+"C": "No, porque el precio de enero queda 40 % por debajo del original, ya que se acumulan los dos porcentajes.",
+"D": "No, porque la rebaja se calcula sobre $240.000 y el precio queda en $192.000, 4 % menos que el original."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Sumar porcentajes con bases distintas",
+"porque": "Elegiste A porque probablemente sumaste los porcentajes como si se aplicaran sobre la misma cantidad.",
+"pregunta_guia": "¿El 20 % de enero es el 20 % de $200.000 o de otro valor?",
+"aprende": "Cada porcentaje se aplica sobre su propia base: 200.000 × 1,20 × 0,80."
+},
+"B": {
+"error": "Confundir la dirección del cambio",
+"porque": "Elegiste B porque probablemente supusiste que el primer cambio domina y el precio queda arriba.",
+"pregunta_guia": "¿Cuánto es 200.000 × 1,2 × 0,8? ¿Es mayor o menor que 200.000?",
+"aprende": "1,2 × 0,8 = 0,96: el precio final es el 96 % del original, 4 % menos."
+},
+"C": {
+"error": "Acumular porcentajes sin sentido",
+"porque": "Elegiste C porque probablemente sumaste 20 % + 20 % como dos rebajas.",
+"pregunta_guia": "¿Hubo dos rebajas o una subida y una rebaja?",
+"aprende": "Una subida y una rebaja del mismo tamaño dejan un pequeño cambio neto, no del 40 %."
+}
+},
+"explicacion": "Paso 1: Diciembre: 200.000 × 1,20 = $240.000. Paso 2: Enero: el 20 % de 240.000 es 48.000; 240.000 − 48.000 = $192.000. Paso 3: Factor total: 1,20 × 0,80 = 0,96, es decir, 96 % del original. Paso 4: El precio queda 4 % por debajo; la afirmación de Camila es falsa.",
+"tip": "Los porcentajes sucesivos se multiplican, nunca se suman.",
+"truco": "Sube a % y baja a %: el resultado siempre es (1 − (a/100)²), un poco menos que al inicio.",
+"estrategia_icfes": "En Argumentación el ICFES da una afirmación y pide validarla con la razón correcta. Descarta primero las opciones con la conclusión equivocada y luego elige la que da el argumento matemático completo.",
+"temas": [
+"porcentajes sucesivos",
+"factor multiplicativo",
+"validación de afirmaciones"
+],
+"gemela": {
+"enunciado": "Un celular baja su precio 10 % y luego sube 10 % sobre el nuevo precio. Respecto al precio inicial, el precio final:",
+"opciones": {
+"A": "queda igual.",
+"B": "queda 1 % por encima.",
+"C": "queda 1 % por debajo.",
+"D": "queda 20 % por debajo."
+},
+"correcta": "C",
+"explicacion": "Paso 1: Factor total: 0,90 × 1,10 = 0,99. Paso 2: El precio final es el 99 % del inicial, 1 % por debajo."
+}
+},
+{
+"id": "P11-MAT-D004",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo problemas que involucran porcentajes e interpreto su significado en contextos financieros.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula el valor base a partir de un valor que ya incluye un porcentaje (operación inversa del aumento porcentual).",
+"contexto": "En una factura de una tienda de tecnología en Palmira aparece que el precio total de unos audífonos, con IVA del 19 % incluido, es $357.000.",
+"enunciado": "¿Cuál es el precio de los audífonos antes de IVA?",
+"opciones": {
+"A": "$300.000",
+"B": "$289.170",
+"C": "$338.000",
+"D": "$424.830"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Restar el porcentaje sobre el total",
+"porque": "Elegiste $289.170 porque probablemente le quitaste el 19 % a $357.000, pero el IVA se calculó sobre el precio sin IVA.",
+"pregunta_guia": "¿El 19 % se calculó sobre $357.000 o sobre el precio original?",
+"aprende": "Precio con IVA = base × 1,19; por eso base = 357.000 ÷ 1,19."
+},
+"C": {
+"error": "Restar el número del porcentaje",
+"porque": "Elegiste $338.000 porque probablemente restaste 19.000 pesos en lugar del 19 %.",
+"pregunta_guia": "¿19 % es lo mismo que 19.000 pesos?",
+"aprende": "Un porcentaje es una fracción de una base (19/100 de ella), no una cantidad fija."
+},
+"D": {
+"error": "Aplicar el porcentaje en sentido contrario",
+"porque": "Elegiste $424.830 porque probablemente volviste a sumar el 19 % al precio que ya lo incluía.",
+"pregunta_guia": "El precio sin IVA, ¿debe ser mayor o menor que el precio con IVA?",
+"aprende": "Para quitar un aumento se divide entre el factor (1,19), no se multiplica."
+}
+},
+"explicacion": "Paso 1: Si P es el precio sin IVA, el precio con IVA es P + 0,19P = 1,19P. Paso 2: 1,19P = 357.000. Paso 3: P = 357.000 ÷ 1,19 = 300.000. Paso 4: Comprobación: 300.000 × 0,19 = 57.000 y 300.000 + 57.000 = 357.000. Respuesta: $300.000.",
+"tip": "Si el total ya incluye el porcentaje, piensa en «base × factor = total» y despeja la base.",
+"truco": "Quitar IVA: divide entre 1,19. Quitar un descuento de 20 %: divide entre 0,80.",
+"estrategia_icfes": "El ICFES suele preguntar el valor original a partir del final. El distractor más fuerte es restar el porcentaje al total; verifica siempre tu respuesta volviendo a aplicar el porcentaje.",
+"temas": [
+"porcentajes",
+"IVA",
+"factor multiplicativo",
+"operación inversa"
+],
+"gemela": {
+"enunciado": "Una licuadora cuesta $238.000 con IVA del 19 % incluido. ¿Cuál es su precio sin IVA?",
+"opciones": {
+"A": "$200.000",
+"B": "$192.780",
+"C": "$219.000",
+"D": "$283.220"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 1,19P = 238.000. Paso 2: P = 238.000 ÷ 1,19 = $200.000."
+}
+},
+{
+"id": "P11-MAT-D005",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información presentada en tablas y la relaciona con porcentajes para tomar decisiones en contextos cotidianos.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Expresa un dato de una tabla como porcentaje de un total identificado correctamente.",
+"contexto": "La familia Mosquera, de Cali, tiene un ingreso mensual de $3.200.000 y lo distribuye completo según el presupuesto de la tabla.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor mensual"
+],
+"filas": [
+[
+"Arriendo",
+"$960.000"
+],
+[
+"Alimentación",
+"$800.000"
+],
+[
+"Transporte",
+"$320.000"
+],
+[
+"Servicios públicos",
+"$256.000"
+],
+[
+"Educación",
+"$480.000"
+],
+[
+"Ahorro",
+"$384.000"
+]
+]
+},
+"enunciado": "¿Qué porcentaje del ingreso mensual destina la familia al ahorro?",
+"opciones": {
+"A": "38,4 %",
+"B": "1,2 %",
+"C": "12 %",
+"D": "13,6 %"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Dividir entre una base equivocada",
+"porque": "Elegiste 38,4 % porque probablemente dividiste 384.000 entre 1.000.000 en lugar del ingreso real.",
+"pregunta_guia": "¿Cuál es el total sobre el que se calcula el porcentaje?",
+"aprende": "Porcentaje = parte ÷ total × 100, y el total aquí es $3.200.000."
+},
+"B": {
+"error": "Error al pasar de decimal a porcentaje",
+"porque": "Elegiste 1,2 % porque probablemente obtuviste 0,12 y lo multiplicaste por 10 en vez de 100.",
+"pregunta_guia": "¿Qué porcentaje es 0,12 de un todo?",
+"aprende": "0,12 × 100 = 12 %."
+},
+"D": {
+"error": "Excluir la parte del total",
+"porque": "Elegiste 13,6 % porque probablemente dividiste el ahorro entre los gastos ($2.816.000) y no entre el ingreso.",
+"pregunta_guia": "La pregunta pide el porcentaje del ingreso, ¿o de los gastos?",
+"aprende": "El total del presupuesto es el ingreso completo, que incluye el ahorro."
+}
+},
+"explicacion": "Paso 1: Identifica la parte (ahorro = $384.000) y el total (ingreso = $3.200.000). Paso 2: 384.000 ÷ 3.200.000 = 0,12. Paso 3: 0,12 × 100 = 12 %. Respuesta: 12 %.",
+"tip": "Lee bien «porcentaje de qué»: eso define el denominador.",
+"truco": "Atajo: el 1 % de 3.200.000 es 32.000; 384.000 ÷ 32.000 = 12.",
+"estrategia_icfes": "En las tablas de presupuesto el ICFES pide transformar valores absolutos en porcentajes. Ubica el total correcto y comprueba que tu resultado tenga sentido (el ahorro es una parte pequeña del ingreso).",
+"temas": [
+"porcentajes",
+"lectura de tablas",
+"presupuesto familiar"
+],
+"gemela": {
+"enunciado": "Con los datos de la tabla, ¿qué porcentaje del ingreso destina la familia Mosquera a educación?",
+"opciones": {
+"A": "15 %",
+"B": "48 %",
+"C": "1,5 %",
+"D": "17,0 %"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 480.000 ÷ 3.200.000 = 0,15. Paso 2: 0,15 × 100 = 15 %."
+}
+},
+{
+"id": "P11-MAT-D006",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo problemas con porcentajes y relaciones entre cantidades en contextos financieros.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Encadena dos cálculos porcentuales con bases diferentes para tomar una decisión de presupuesto.",
+"contexto": "La familia Mosquera, de Cali, tiene un ingreso mensual de $3.200.000 y lo distribuye completo según el presupuesto de la tabla.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor mensual"
+],
+"filas": [
+[
+"Arriendo",
+"$960.000"
+],
+[
+"Alimentación",
+"$800.000"
+],
+[
+"Transporte",
+"$320.000"
+],
+[
+"Servicios públicos",
+"$256.000"
+],
+[
+"Educación",
+"$480.000"
+],
+[
+"Ahorro",
+"$384.000"
+]
+]
+},
+"enunciado": "El arriendo sube 10 % y la familia decide cubrir el aumento reduciendo únicamente el gasto en alimentación, sin tocar el ahorro. ¿En qué porcentaje debe reducir el gasto en alimentación?",
+"opciones": {
+"A": "10 %",
+"B": "9,6 %",
+"C": "3 %",
+"D": "12 %"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Trasladar el porcentaje sin cambiar la base",
+"porque": "Elegiste 10 % porque probablemente supusiste que si un rubro sube 10 % el otro debe bajar 10 %.",
+"pregunta_guia": "¿El 10 % del arriendo es la misma cantidad de dinero que el 10 % de la alimentación?",
+"aprende": "Lo que se compensa es la cantidad en pesos ($96.000), y luego se compara con la base de alimentación."
+},
+"B": {
+"error": "Base de cálculo equivocada",
+"porque": "Elegiste 9,6 % porque probablemente dividiste 96.000 entre 1.000.000.",
+"pregunta_guia": "¿Respecto a qué gasto se mide la reducción?",
+"aprende": "La reducción se expresa respecto al gasto en alimentación: 96.000 ÷ 800.000."
+},
+"C": {
+"error": "Usar el ingreso como base",
+"porque": "Elegiste 3 % porque probablemente dividiste el aumento entre el ingreso total ($3.200.000).",
+"pregunta_guia": "¿Se pregunta qué parte del ingreso es el aumento, o cuánto debe bajar la alimentación?",
+"aprende": "La base del porcentaje es el rubro que cambia: alimentación."
+}
+},
+"explicacion": "Paso 1: Aumento del arriendo: 10 % de 960.000 = $96.000. Paso 2: Esa cantidad debe salir de alimentación. Paso 3: Porcentaje de reducción: 96.000 ÷ 800.000 = 0,12. Paso 4: 0,12 × 100 = 12 %. Comprobación: la alimentación queda en $704.000 y el presupuesto sigue sumando $3.200.000.",
+"tip": "En presupuestos, compensa en pesos y solo al final conviertes a porcentaje con la base correcta.",
+"truco": "Pesos primero, porcentaje después.",
+"estrategia_icfes": "El ICFES plantea ajustes de presupuesto en dos pasos. Escribe qué cantidad cambia, de dónde sale y sobre qué base se calcula el porcentaje final.",
+"temas": [
+"porcentajes con bases distintas",
+"presupuesto familiar",
+"toma de decisiones financieras"
+],
+"gemela": {
+"enunciado": "Con los datos de la tabla, si el transporte sube 25 % y el aumento se cubre reduciendo solo la alimentación, ¿en qué porcentaje debe reducirse la alimentación?",
+"opciones": {
+"A": "25 %",
+"B": "2,5 %",
+"C": "8 %",
+"D": "10 %"
+},
+"correcta": "D",
+"explicacion": "Paso 1: 25 % de 320.000 = 80.000. Paso 2: 80.000 ÷ 800.000 = 0,10 = 10 %."
+}
+},
+{
+"id": "P11-MAT-D007",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso razones y proporciones para resolver problemas de reparto proporcional.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Resuelve un reparto proporcional a partir de una razón parte–parte.",
+"contexto": "Para pintar un mural en la sede de CENTEC, el grupo de Arte mezcla pintura blanca y azul en la razón 3 : 2 (3 partes de blanca por cada 2 de azul). Necesitan preparar 12 litros de mezcla.",
+"enunciado": "¿Cuántos litros de pintura azul deben usar?",
+"opciones": {
+"A": "4,8 litros",
+"B": "8 litros",
+"C": "7,2 litros",
+"D": "6 litros"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar la razón parte–parte como parte–todo",
+"porque": "Elegiste 8 litros porque probablemente calculaste 12 × 2/3, tomando la razón 2 : 3 como fracción del total.",
+"pregunta_guia": "¿En cuántas partes iguales se divide la mezcla total?",
+"aprende": "3 + 2 = 5 partes; la azul es 2/5 del total, no 2/3."
+},
+"C": {
+"error": "Calcular el otro componente",
+"porque": "Elegiste 7,2 litros porque calculaste bien, pero la cantidad de pintura blanca (3/5 de 12).",
+"pregunta_guia": "¿Qué color te preguntan?",
+"aprende": "Azul = 2/5 × 12 = 4,8 L; blanca = 3/5 × 12 = 7,2 L."
+},
+"D": {
+"error": "Repartir por mitades",
+"porque": "Elegiste 6 litros porque probablemente repartiste la mezcla en partes iguales.",
+"pregunta_guia": "¿Se usa la misma cantidad de blanca que de azul?",
+"aprende": "Un reparto proporcional usa las partes de la razón (3 y 2), no mitades."
+}
+},
+"explicacion": "Paso 1: La razón 3 : 2 da 3 + 2 = 5 partes en total. Paso 2: Cada parte vale 12 ÷ 5 = 2,4 L. Paso 3: Azul = 2 partes = 2 × 2,4 = 4,8 L. Paso 4: Comprobación: blanca 7,2 L; 7,2 + 4,8 = 12 y 7,2 : 4,8 = 3 : 2.",
+"tip": "En una razón a : b, el total tiene a + b partes.",
+"truco": "Suma las partes, divide el total, multiplica por lo que pide.",
+"estrategia_icfes": "El ICFES usa repartos proporcionales en mezclas, recetas y sociedades. El distractor típico confunde parte–parte con parte–todo; verifica que las cantidades sumen el total.",
+"temas": [
+"razones",
+"reparto proporcional",
+"fracciones de un total"
+],
+"gemela": {
+"enunciado": "Un jugo se prepara con agua y concentrado en razón 4 : 1. ¿Cuántos litros de concentrado hay en 15 litros de jugo?",
+"opciones": {
+"A": "3 litros",
+"B": "3,75 litros",
+"C": "12 litros",
+"D": "5 litros"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 4 + 1 = 5 partes; cada parte = 15 ÷ 5 = 3 L. Paso 2: Concentrado = 1 parte = 3 L."
+}
+},
+{
+"id": "P11-MAT-D008",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9°: identifico relaciones de proporcionalidad entre varias magnitudes y las uso en la solución de problemas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el paso erróneo en un procedimiento de regla de tres compuesta y propone la corrección.",
+"contexto": "En un taller de impresión de Yumbo, 3 impresoras iguales imprimen 600 hojas en 4 minutos. Andrés quiere saber cuántas hojas imprimirán 5 impresoras iguales en 6 minutos y escribe: Paso 1: 600 ÷ 3 = 200 hojas por impresora en 4 minutos. Paso 2: 200 ÷ 4 = 50 hojas por impresora en 1 minuto. Paso 3: 5 × 50 = 250 hojas por minuto con 5 impresoras. Paso 4: 250 ÷ 6 ≈ 41,7 hojas en 6 minutos.",
+"enunciado": "¿En qué paso se equivocó Andrés y cuál es el resultado correcto?",
+"opciones": {
+"A": "En el paso 2, porque debía multiplicar 200 × 4; el resultado es 4.000 hojas.",
+"B": "En el paso 4, porque debía multiplicar 250 × 6; el resultado es 1.500 hojas.",
+"C": "En el paso 3, porque debía dividir 50 ÷ 5; el resultado es 60 hojas.",
+"D": "En el paso 1, porque debía multiplicar 600 × 3; el resultado es 2.700 hojas."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Desconfiar de un paso correcto",
+"porque": "Elegiste A porque probablemente pensaste que al pasar de 4 minutos a 1 minuto se debía multiplicar.",
+"pregunta_guia": "En 1 minuto, ¿una impresora imprime más o menos hojas que en 4 minutos?",
+"aprende": "Para llevar a 1 minuto se divide entre 4: el paso 2 es correcto."
+},
+"C": {
+"error": "Invertir la relación impresoras–hojas",
+"porque": "Elegiste C porque probablemente creíste que con más impresoras cada una imprime menos.",
+"pregunta_guia": "Si cada impresora imprime 50 hojas por minuto, ¿cuántas imprimen 5 juntas?",
+"aprende": "Impresoras y hojas son directamente proporcionales: 5 × 50 = 250 es correcto."
+},
+"D": {
+"error": "Invertir la reducción a la unidad",
+"porque": "Elegiste D porque probablemente pensaste que para hallar lo de una impresora se multiplica.",
+"pregunta_guia": "Si 3 impresoras hacen 600 hojas, ¿una sola hace más o menos?",
+"aprende": "Una impresora hace 600 ÷ 3 = 200 hojas: el paso 1 es correcto."
+}
+},
+"explicacion": "Paso 1: Revisa cada paso: 600 ÷ 3 = 200 (correcto, una impresora en 4 min). Paso 2: 200 ÷ 4 = 50 (correcto, una impresora en 1 min). Paso 3: 5 × 50 = 250 (correcto, cinco impresoras en 1 min). Paso 4: En 6 minutos se imprime 6 veces más, no menos: 250 × 6 = 1.500 hojas. El error está en el paso 4.",
+"tip": "/detectaerror: verifica cada paso con la pregunta «¿tiene sentido que aumente o disminuya?».",
+"truco": "Más tiempo trabajando = más hojas: si el número baja, algo anda mal.",
+"estrategia_icfes": "El ICFES presenta procedimientos de otra persona y pregunta dónde está el error. Revisa los pasos en orden y comprueba el sentido de cada operación; la opción correcta debe nombrar el paso y corregirlo.",
+"temas": [
+"regla de tres compuesta",
+"reducción a la unidad",
+"validación de procedimientos"
+],
+"gemela": {
+"enunciado": "Dos hornos iguales hornean 80 panes en 20 minutos. Para saber cuántos panes hornean 3 hornos en 30 minutos, Lina hace: Paso 1: 80 ÷ 2 = 40. Paso 2: 40 ÷ 20 = 2. Paso 3: 3 × 2 = 6. Paso 4: 6 ÷ 30 = 0,2. ¿Dónde está el error y cuál es el resultado correcto?",
+"opciones": {
+"A": "Paso 2; son 1.600 panes.",
+"B": "Paso 4; son 180 panes.",
+"C": "Paso 3; son 20 panes.",
+"D": "Paso 1; son 480 panes."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Los pasos 1 a 3 son correctos: 3 hornos hacen 6 panes por minuto. Paso 2: En 30 minutos: 6 × 30 = 180 panes; el error está en dividir en el paso 4."
+}
+},
+{
+"id": "P11-MAT-D009",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y compara información estadística presentada en gráficas y justifica o refuta conclusiones a partir de ella.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una conclusión que suma variaciones porcentuales con bases distintas, usando los datos de una gráfica.",
+"contexto": "La gráfica muestra los kilogramos de mango vendidos en diciembre por una frutería de la Galería Alameda en Cali, entre 2021 y 2024. Tomás afirma: «De 2022 a 2023 las ventas bajaron 10 % y de 2023 a 2024 subieron 20 %; por lo tanto, en 2024 se vendió 10 % más que en 2022».",
+"grafica": {
+"tipo": "barras",
+"titulo": "Mango vendido en diciembre (kg)",
+"etiquetas": [
+"2021",
+"2022",
+"2023",
+"2024"
+],
+"series": [
+{
+"nombre": "Kilogramos",
+"datos": [
+400,
+500,
+450,
+540
+]
+}
+],
+"ejeY": "kg"
+},
+"enunciado": "¿Es válida la conclusión de Tomás?",
+"opciones": {
+"A": "Sí, porque los porcentajes se pueden sumar: −10 % + 20 % = 10 %.",
+"B": "Sí, porque 540 − 500 = 40 kg y 40 kg es el 10 % de 400 kg.",
+"C": "No, porque el aumento de 2022 a 2024 es de 8 %, ya que 0,90 × 1,20 = 1,08.",
+"D": "No, porque el aumento es de 7,4 %, ya que 40 kg es el 7,4 % de 540 kg."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Sumar porcentajes con bases distintas",
+"porque": "Elegiste A porque probablemente sumaste los porcentajes aunque el 20 % se calcula sobre 450 kg y el 10 % sobre 500 kg.",
+"pregunta_guia": "¿Sobre qué cantidad se calcula cada porcentaje?",
+"aprende": "Los cambios porcentuales sucesivos se multiplican: 0,90 × 1,20."
+},
+"B": {
+"error": "Comparar con el año equivocado",
+"porque": "Elegiste B porque probablemente tomaste como base el dato de 2021 en lugar del de 2022.",
+"pregunta_guia": "¿Con qué año compara Tomás las ventas de 2024?",
+"aprende": "La variación de 2022 a 2024 se calcula sobre el valor de 2022: 40 ÷ 500."
+},
+"D": {
+"error": "Usar el valor final como base",
+"porque": "Elegiste D porque probablemente dividiste el aumento entre el valor de 2024.",
+"pregunta_guia": "En una variación porcentual, ¿se divide entre el valor inicial o el final?",
+"aprende": "Variación % = (final − inicial) ÷ inicial × 100 = 40 ÷ 500 × 100 = 8 %."
+}
+},
+"explicacion": "Paso 1: Lee la gráfica: 2022 = 500 kg, 2023 = 450 kg, 2024 = 540 kg. Paso 2: 500 → 450 es una baja de 50/500 = 10 % y 450 → 540 es una subida de 90/450 = 20 %: los datos de Tomás son correctos. Paso 3: Variación total: 540 ÷ 500 = 1,08, igual a 0,90 × 1,20. Paso 4: El aumento real es 8 %, no 10 %: la conclusión no es válida.",
+"tip": "Los porcentajes de periodos distintos no se suman: cada uno tiene su propia base.",
+"truco": "Variación total = producto de los factores − 1.",
+"estrategia_icfes": "El ICFES suele dar afirmaciones con datos parcialmente correctos. Comprueba cada dato en la gráfica y luego el razonamiento; la respuesta correcta refuta con el cálculo adecuado.",
+"temas": [
+"variación porcentual",
+"lectura de gráficas de barras",
+"validación de conclusiones"
+],
+"gemela": {
+"enunciado": "Un producto sube 25 % y luego baja 20 % sobre el nuevo precio. Sara concluye que quedó 5 % más caro que al inicio. ¿Es válida su conclusión?",
+"opciones": {
+"A": "Sí, porque 25 % − 20 % = 5 %.",
+"B": "No, porque 1,25 × 0,80 = 1 y el precio vuelve al inicial.",
+"C": "No, porque queda 5 % más barato.",
+"D": "No, porque queda 45 % más caro."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Factor total = 1,25 × 0,80 = 1,00. Paso 2: El precio final es igual al inicial; la conclusión no es válida."
+}
+},
+{
+"id": "P11-MAT-D010",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones de relaciones entre cantidades.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9°: analizo en representaciones tabulares la diferencia entre relaciones de proporcionalidad directa y relaciones lineales.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica cuándo una relación es de proporcionalidad directa usando la constancia del cociente.",
+"contexto": "Dos planes de internet por días para celular se ofrecen a estudiantes de Cali. La tabla muestra el costo total según el número de días contratados.",
+"tabla": {
+"titulo": "Costo total según días contratados",
+"cols": [
+"Días",
+"Plan A",
+"Plan B"
+],
+"filas": [
+[
+"2",
+"$3.000",
+"$5.000"
+],
+[
+"5",
+"$7.500",
+"$8.000"
+],
+[
+"8",
+"$12.000",
+"$11.000"
+],
+[
+"12",
+"$18.000",
+"$15.000"
+]
+]
+},
+"enunciado": "¿Cuál afirmación sobre la proporcionalidad entre los días y el costo es correcta?",
+"opciones": {
+"A": "Ambos planes son proporcionales, porque en los dos el costo aumenta cuando aumentan los días.",
+"B": "Solo el plan A es proporcional, porque el cociente costo ÷ días es siempre $1.500.",
+"C": "Solo el plan B es proporcional, porque su costo aumenta $1.000 por cada día adicional.",
+"D": "Ningún plan es proporcional, porque los costos no aumentan de a $1.000 en ambos."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir crecimiento con proporcionalidad",
+"porque": "Elegiste A porque probablemente pensaste que «si una crece y la otra también» ya es proporcional.",
+"pregunta_guia": "En el plan B, ¿cuánto da 5.000 ÷ 2 y 8.000 ÷ 5? ¿Son iguales?",
+"aprende": "Proporcional directa significa cociente constante, no solo que ambas crezcan."
+},
+"C": {
+"error": "Confundir variación constante con proporcionalidad",
+"porque": "Elegiste C porque probablemente viste que el plan B crece de forma constante y lo llamaste proporcional.",
+"pregunta_guia": "Si contrataras 0 días en el plan B, ¿cuánto pagarías según el patrón?",
+"aprende": "El plan B es lineal con valor fijo: C = 1.000d + 3.000. Por el cargo fijo no es proporcional."
+},
+"D": {
+"error": "Criterio de proporcionalidad inventado",
+"porque": "Elegiste D porque probablemente creíste que la proporcionalidad exige un aumento fijo de $1.000.",
+"pregunta_guia": "¿Qué propiedad debe cumplir una tabla de proporcionalidad directa?",
+"aprende": "El criterio es y ÷ x constante; en el plan A siempre da 1.500."
+}
+},
+"explicacion": "Paso 1: Plan A: 3.000/2 = 1.500; 7.500/5 = 1.500; 12.000/8 = 1.500; 18.000/12 = 1.500. Cociente constante: proporcional (C = 1.500d). Paso 2: Plan B: 5.000/2 = 2.500; 8.000/5 = 1.600: el cociente cambia. Paso 3: El plan B sube $1.000 por día con un cargo fijo de $3.000 (C = 1.000d + 3.000): es lineal, no proporcional. Paso 4: Solo el plan A es proporcional.",
+"tip": "Una relación proporcional pasa por el origen: 0 días, 0 pesos.",
+"truco": "Divide y compara: si todos los cocientes son iguales, hay proporcionalidad directa.",
+"estrategia_icfes": "El ICFES distingue proporcional de lineal con tablas. Calcula los cocientes y, si no son constantes, busca un valor fijo; la opción correcta da la razón matemática, no solo la conclusión.",
+"temas": [
+"proporcionalidad directa",
+"función lineal",
+"constante de proporcionalidad"
+],
+"gemela": {
+"contexto": "Tienda 1: 2 kg cuestan $7.000; 3 kg, $10.500; 5 kg, $17.500. Tienda 2: 2 kg cuestan $8.000; 3 kg, $11.000; 5 kg, $17.000.",
+"enunciado": "¿En cuál tienda el precio es proporcional a los kilogramos?",
+"opciones": {
+"A": "Solo en la tienda 1.",
+"B": "Solo en la tienda 2.",
+"C": "En ambas tiendas.",
+"D": "En ninguna de las dos tiendas."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Tienda 1: 7.000/2 = 10.500/3 = 17.500/5 = 3.500, constante. Paso 2: Tienda 2: 8.000/2 = 4.000 y 11.000/3 ≈ 3.667, no constante (es 3.000k + 2.000). Solo la tienda 1."
+}
+},
+{
+"id": "P11-MAT-D011",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo problemas de ahorro y presupuesto usando porcentajes.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula un porcentaje de un salario y lo usa para estimar el tiempo necesario para alcanzar una meta de ahorro.",
+"contexto": "Yuliana trabaja como auxiliar en una panadería de Candelaria y gana $1.400.000 mensuales. Decide ahorrar el 15 % de su salario cada mes para reunir $1.680.000 y pagar un curso técnico.",
+"enunciado": "¿Cuántos meses debe ahorrar para reunir exactamente esa cantidad?",
+"opciones": {
+"A": "12 meses",
+"B": "1,2 meses",
+"C": "80 meses",
+"D": "8 meses"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar un porcentaje diferente",
+"porque": "Elegiste 12 meses porque probablemente calculaste el 10 % del salario ($140.000) en lugar del 15 %.",
+"pregunta_guia": "¿Cuánto es exactamente el 15 % de $1.400.000?",
+"aprende": "15 % de 1.400.000 = 0,15 × 1.400.000 = $210.000."
+},
+"B": {
+"error": "Dividir entre el salario completo",
+"porque": "Elegiste 1,2 meses porque probablemente dividiste la meta entre todo el salario.",
+"pregunta_guia": "¿Ahorra todo el salario o solo una parte?",
+"aprende": "Se divide la meta entre el ahorro mensual, no entre el salario."
+},
+"C": {
+"error": "Error en el valor posicional del porcentaje",
+"porque": "Elegiste 80 meses porque probablemente calculaste el ahorro como $21.000 (corriste mal la coma).",
+"pregunta_guia": "¿El 15 % de 1.400.000 es 21.000 o 210.000?",
+"aprende": "El 10 % de 1.400.000 es 140.000 y el 5 % es 70.000; juntos, 210.000."
+}
+},
+"explicacion": "Paso 1: Ahorro mensual: 0,15 × 1.400.000 = $210.000. Paso 2: Meses necesarios: 1.680.000 ÷ 210.000 = 8. Paso 3: Comprobación: 8 × 210.000 = 1.680.000. Respuesta: 8 meses.",
+"tip": "Separa el problema: primero cuánto ahorra por mes, luego cuántos meses necesita.",
+"truco": "15 % = 10 % + 5 % (la mitad del 10 %).",
+"estrategia_icfes": "El ICFES usa metas de ahorro para combinar porcentaje y división. Estima antes de calcular: si ahorra cerca de 200.000 al mes, unos 8 meses es razonable.",
+"temas": [
+"porcentajes",
+"ahorro",
+"presupuesto personal"
+],
+"gemela": {
+"enunciado": "Martín gana $1.500.000 al mes y ahorra el 20 %. ¿Cuántos meses necesita para reunir $2.700.000?",
+"opciones": {
+"A": "18 meses",
+"B": "9 meses",
+"C": "1,8 meses",
+"D": "90 meses"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Ahorro mensual: 0,20 × 1.500.000 = 300.000. Paso 2: 2.700.000 ÷ 300.000 = 9 meses."
+}
+},
+{
+"id": "P11-MAT-D012",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y comparar cantidades en contextos cotidianos.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: comparo y contrasto las propiedades de los números y sus operaciones para justificar decisiones.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica cuál de dos ofertas comerciales es más conveniente expresando ambas como porcentaje de descuento.",
+"contexto": "Una papelería de Cali vende cada cuaderno a $9.000. Para el regreso a clases ofrece dos promociones excluyentes. Oferta 1: «lleve 3 y pague 2». Oferta 2: «30 % de descuento en cada cuaderno». Jerónimo necesita exactamente 3 cuadernos.",
+"enunciado": "¿Cuál oferta le conviene a Jerónimo y por qué?",
+"opciones": {
+"A": "La oferta 2, porque un 30 % de descuento es mayor que el ahorro de regalar un solo cuaderno.",
+"B": "Cualquiera, porque las dos ofertas son equivalentes: en ambas se ahorra casi un cuaderno.",
+"C": "La oferta 1, porque pagar 2 de 3 cuadernos equivale a un descuento de aproximadamente 33,3 %.",
+"D": "La oferta 1, porque pagar 2 de 3 cuadernos equivale a un descuento del 50 %."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No convertir la oferta a porcentaje",
+"porque": "Elegiste A porque probablemente comparaste «un cuaderno» con «30 %» sin llevarlos a la misma unidad.",
+"pregunta_guia": "¿Qué porcentaje del total representa un cuaderno de cada tres?",
+"aprende": "Un cuaderno gratis de 3 es 1/3 ≈ 33,3 % del total, que es más que 30 %."
+},
+"B": {
+"error": "Aproximar sin calcular",
+"porque": "Elegiste B porque probablemente pensaste que 30 % y 33 % son «casi iguales».",
+"pregunta_guia": "¿Cuánto paga en pesos con cada oferta?",
+"aprende": "Oferta 1: $18.000; oferta 2: 3 × 6.300 = $18.900. Hay $900 de diferencia."
+},
+"D": {
+"error": "Calcular la fracción con el denominador equivocado",
+"porque": "Elegiste D porque probablemente comparaste el cuaderno gratis con los 2 pagados (1/2).",
+"pregunta_guia": "¿El descuento se mide respecto al precio normal de cuántos cuadernos?",
+"aprende": "El descuento es lo que no pagas sobre lo que costaría todo: 9.000 ÷ 27.000 = 1/3."
+}
+},
+"explicacion": "Paso 1: Precio normal de 3 cuadernos: 3 × 9.000 = $27.000. Paso 2: Oferta 1: paga 2 × 9.000 = $18.000; ahorra 9.000, que es 9.000 ÷ 27.000 ≈ 33,3 %. Paso 3: Oferta 2: cada cuaderno cuesta 9.000 × 0,70 = 6.300; total $18.900. Paso 4: La oferta 1 es más barata y su descuento equivalente (33,3 %) supera al 30 %.",
+"tip": "Para comparar ofertas, llévalas a la misma unidad: pesos finales o porcentaje de descuento.",
+"truco": "«Lleve n, pague n − 1» equivale a un descuento de 1/n.",
+"estrategia_icfes": "En Argumentación el ICFES pide elegir la decisión y su justificación. Calcula el resultado en pesos para decidir y luego verifica que el argumento de la opción sea matemáticamente cierto.",
+"temas": [
+"porcentajes",
+"ofertas comerciales",
+"consumo inteligente"
+],
+"gemela": {
+"enunciado": "Una tienda ofrece «lleve 4 y pague 3» o «20 % de descuento en cada unidad». Para comprar 4 unidades, ¿qué conviene y por qué?",
+"opciones": {
+"A": "El 20 %, porque es mayor que regalar una unidad.",
+"B": "Lleve 4 pague 3, porque equivale a 25 % de descuento.",
+"C": "Son equivalentes.",
+"D": "Lleve 4 pague 3, porque equivale a 33 % de descuento."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Regalar 1 de 4 es 1/4 = 25 % de descuento. Paso 2: 25 % > 20 %, conviene «lleve 4 pague 3»."
+}
+},
+{
+"id": "P11-MAT-D013",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: justifico procedimientos con porcentajes y factores multiplicativos en contextos económicos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Evalúa una aproximación aditiva frente al cálculo exacto con factores multiplicativos del poder adquisitivo.",
+"contexto": "A Luisa, que trabaja en una cooperativa de Tuluá, le aumentaron el salario 8 % este año. En el mismo periodo, los precios de los productos que ella compra subieron en promedio 5 %. Luisa afirma: «Mi poder de compra aumentó exactamente 3 %, porque 8 % − 5 % = 3 %».",
+"enunciado": "¿Qué se puede decir de la afirmación de Luisa?",
+"opciones": {
+"A": "Es exacta, porque el aumento real siempre es la resta del aumento salarial menos el de los precios.",
+"B": "Es solo una aproximación: el aumento real es cerca de 2,86 %, porque 1,08 ÷ 1,05 ≈ 1,0286.",
+"C": "Es incorrecta, porque si los precios suben su poder de compra necesariamente disminuye.",
+"D": "Es incorrecta, porque los dos aumentos se acumulan y su poder de compra subió 13 %."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Restar porcentajes en lugar de dividir factores",
+"porque": "Elegiste A porque probablemente aceptaste la resta como regla exacta.",
+"pregunta_guia": "Si el salario se multiplica por 1,08 y los precios por 1,05, ¿cuántas veces más puede comprar?",
+"aprende": "El poder de compra cambia según el cociente 1,08 ÷ 1,05, no según la resta."
+},
+"C": {
+"error": "Ignorar la comparación entre aumentos",
+"porque": "Elegiste C porque probablemente pensaste solo en la subida de precios sin compararla con la del salario.",
+"pregunta_guia": "¿Qué subió más: el salario o los precios?",
+"aprende": "Si el salario sube más que los precios, el poder de compra aumenta."
+},
+"D": {
+"error": "Sumar porcentajes de magnitudes distintas",
+"porque": "Elegiste D porque probablemente sumaste los dos aumentos como si ambos favorecieran a Luisa.",
+"pregunta_guia": "¿El aumento de precios favorece o perjudica a Luisa?",
+"aprende": "El aumento de precios reduce lo que se puede comprar: se divide, no se suma."
+}
+},
+"explicacion": "Paso 1: Si antes ganaba S y los precios eran P, podía comprar S/P unidades. Paso 2: Ahora compra (1,08S)/(1,05P) = (1,08/1,05) × S/P. Paso 3: 1,08 ÷ 1,05 ≈ 1,0286: el poder de compra aumentó cerca de 2,86 %. Paso 4: La resta 8 − 5 = 3 es una buena aproximación, pero no es exacta.",
+"tip": "El aumento real se calcula dividiendo factores: (1 + aumento salarial) ÷ (1 + inflación).",
+"truco": "Restar porcentajes da una aproximación que solo funciona bien cuando los porcentajes son pequeños.",
+"estrategia_icfes": "El ICFES evalúa si sabes distinguir una aproximación de un cálculo exacto. Lee con cuidado palabras como «exactamente», «siempre» o «necesariamente» en la afirmación.",
+"temas": [
+"poder adquisitivo",
+"inflación",
+"factores multiplicativos"
+],
+"gemela": {
+"enunciado": "Si el salario de una persona sube 6 % y los precios también suben 6 %, su poder de compra:",
+"opciones": {
+"A": "aumentó 6 %.",
+"B": "no cambió, porque 1,06 ÷ 1,06 = 1.",
+"C": "disminuyó 6 %.",
+"D": "aumentó 12 %."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Factor real = 1,06 ÷ 1,06 = 1. Paso 2: El poder de compra se mantiene igual."
+}
+},
+{
+"id": "P11-MAT-D014",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y usa medidas de tendencia central, incluido el promedio ponderado, para justificar conclusiones.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso comprensivamente algunas medidas de centralización.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta el uso de un promedio simple cuando las cantidades tienen pesos distintos (promedio ponderado).",
+"contexto": "Mariana prepara jugo de lulo para la feria escolar. Mezcla 200 mL de un jugo que tiene 30 % de pulpa con 300 mL de otro jugo que tiene 10 % de pulpa. Mariana afirma: «La mezcla tiene 20 % de pulpa, porque es el promedio entre 30 % y 10 %».",
+"enunciado": "¿Es correcta la afirmación de Mariana?",
+"opciones": {
+"A": "No, porque hay más jugo del 10 %; la mezcla tiene 90 mL de pulpa en 500 mL, es decir, 18 %.",
+"B": "Sí, porque el porcentaje de una mezcla siempre es el promedio de los porcentajes que se mezclan.",
+"C": "No, porque al mezclar los porcentajes se suman y la mezcla tiene 40 % de pulpa.",
+"D": "No, porque la mezcla tiene 90 mL de pulpa, es decir, 90 % de pulpa."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Promedio simple en lugar de ponderado",
+"porque": "Elegiste B porque probablemente creíste que el promedio simple sirve aunque las cantidades sean distintas.",
+"pregunta_guia": "¿Se mezclaron cantidades iguales de los dos jugos?",
+"aprende": "Con cantidades distintas, cada porcentaje pesa según su volumen: promedio ponderado."
+},
+"C": {
+"error": "Sumar porcentajes",
+"porque": "Elegiste C porque probablemente sumaste 30 % + 10 %.",
+"pregunta_guia": "¿Puede una mezcla tener más pulpa (en proporción) que el jugo más concentrado?",
+"aprende": "El porcentaje de la mezcla siempre queda entre los dos porcentajes originales."
+},
+"D": {
+"error": "Confundir cantidad con porcentaje",
+"porque": "Elegiste D porque probablemente calculaste bien la pulpa (90 mL) pero olvidaste dividir entre el volumen total.",
+"pregunta_guia": "¿90 mL son el 90 % de qué cantidad?",
+"aprende": "Porcentaje = 90 ÷ 500 × 100 = 18 %."
+}
+},
+"explicacion": "Paso 1: Pulpa del primer jugo: 30 % de 200 = 60 mL. Paso 2: Pulpa del segundo: 10 % de 300 = 30 mL. Paso 3: Total: 90 mL de pulpa en 200 + 300 = 500 mL. Paso 4: 90 ÷ 500 = 0,18 = 18 %. Como hay más jugo del 10 %, el resultado queda más cerca del 10 %; la afirmación es incorrecta.",
+"tip": "El promedio simple solo sirve si las cantidades que se mezclan son iguales.",
+"truco": "El resultado de una mezcla se «inclina» hacia el ingrediente que más hay.",
+"estrategia_icfes": "El ICFES presenta razonamientos con promedios simples donde hacía falta ponderar. Busca si los grupos tienen tamaños distintos: esa es la pista del error.",
+"temas": [
+"promedio ponderado",
+"mezclas",
+"porcentajes"
+],
+"gemela": {
+"enunciado": "Se mezcla 1 L de una solución con 40 % de azúcar y 3 L de otra con 20 % de azúcar. ¿Qué porcentaje de azúcar tiene la mezcla?",
+"opciones": {
+"A": "30 %",
+"B": "25 %",
+"C": "60 %",
+"D": "1 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Azúcar: 0,40 × 1 + 0,20 × 3 = 0,4 + 0,6 = 1 L. Paso 2: 1 ÷ 4 = 0,25 = 25 %."
+}
+},
+{
+"id": "P11-MAT-D015",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y usa medidas de tendencia central, incluido el promedio ponderado, para resolver problemas.",
+"lineamiento": "Pensamiento aleatorio y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso comprensivamente medidas de centralización y planteo ecuaciones para resolver problemas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Plantea y resuelve una ecuación con un promedio ponderado para hallar un valor desconocido.",
+"contexto": "En Física, la nota definitiva de Daniela se calcula así: primer corte 40 %, segundo corte 35 % y tercer corte 25 %. Daniela obtuvo 3,5 en el primero y 4,2 en el segundo. Quiere una definitiva de 4,0.",
+"enunciado": "¿Qué nota mínima debe obtener Daniela en el tercer corte?",
+"opciones": {
+"A": "4,3",
+"B": "1,13",
+"C": "4,0",
+"D": "4,52"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar promedio simple",
+"porque": "Elegiste 4,3 porque probablemente planteaste (3,5 + 4,2 + x) ÷ 3 = 4,0, sin tener en cuenta los pesos.",
+"pregunta_guia": "¿Los tres cortes valen lo mismo en la definitiva?",
+"aprende": "Cada nota se multiplica por su peso: 0,40·3,5 + 0,35·4,2 + 0,25·x = 4,0."
+},
+"B": {
+"error": "No dividir entre el peso",
+"porque": "Elegiste 1,13 porque calculaste lo que le falta en la definitiva (0,25x = 1,13) pero no despejaste x.",
+"pregunta_guia": "Si 0,25x = 1,13, ¿cuánto vale x?",
+"aprende": "Se divide entre 0,25: x = 1,13 ÷ 0,25 = 4,52."
+},
+"C": {
+"error": "Creer que basta sacar la meta",
+"porque": "Elegiste 4,0 porque probablemente pensaste que sacando la nota que quieres en el último corte la definitiva será esa.",
+"pregunta_guia": "¿Las notas de los cortes anteriores están por encima o por debajo de 4,0 en promedio ponderado?",
+"aprende": "Lleva 2,87 y para ir en 4,0 necesitaría 4,0 × 0,75 = 3,00; debe compensar con más de 4,0."
+}
+},
+"explicacion": "Paso 1: Aporte del primer corte: 0,40 × 3,5 = 1,40. Paso 2: Aporte del segundo: 0,35 × 4,2 = 1,47. Paso 3: Suma: 1,40 + 1,47 = 2,87. Paso 4: Ecuación: 2,87 + 0,25x = 4,0, entonces 0,25x = 1,13. Paso 5: x = 1,13 ÷ 0,25 = 4,52.",
+"tip": "En un promedio ponderado cada nota «pesa» según su porcentaje.",
+"truco": "Calcula lo que ya tienes, réstalo de la meta y divide entre el peso que falta.",
+"estrategia_icfes": "El ICFES plantea situaciones de notas o calificaciones ponderadas. Escribe la ecuación completa y comprueba sustituyendo el valor hallado.",
+"temas": [
+"promedio ponderado",
+"ecuaciones lineales",
+"porcentajes"
+],
+"gemela": {
+"enunciado": "Una nota se calcula con dos cortes: el primero vale 60 % y el segundo 40 %. Si en el primero sacó 3,0, ¿qué nota necesita en el segundo para una definitiva de 3,6?",
+"opciones": {
+"A": "4,2",
+"B": "4,5",
+"C": "1,8",
+"D": "3,6"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 0,60 × 3,0 = 1,80. Paso 2: 1,80 + 0,40x = 3,6, entonces 0,40x = 1,80. Paso 3: x = 4,5."
+}
+},
+{
+"id": "P11-MAT-D016",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos simples y compuestos en experimentos aleatorios usando el espacio muestral.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo y probabilidad (espacio muestral).",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Expresa la probabilidad de un evento complementario a partir de la composición de una bolsa.",
+"contexto": "En una bolsa hay 12 dulces del mismo tamaño y textura: 5 de fresa (rojos), 3 de limón (verdes) y 4 de piña (amarillos). Valentina saca un dulce sin mirar.",
+"enunciado": "¿Cuál es la probabilidad de que el dulce que saque NO sea verde?",
+"opciones": {
+"A": "3/4",
+"B": "1/4",
+"C": "2/3",
+"D": "1/3"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Calcular el evento contrario",
+"porque": "Elegiste 1/4 porque calculaste la probabilidad de que SÍ sea verde (3/12).",
+"pregunta_guia": "¿La pregunta pide verde o no verde?",
+"aprende": "P(no verde) = 1 − P(verde) = 1 − 3/12 = 9/12."
+},
+"C": {
+"error": "Contar colores en lugar de dulces",
+"porque": "Elegiste 2/3 porque probablemente pensaste que 2 de los 3 colores no son verdes.",
+"pregunta_guia": "¿Hay la misma cantidad de dulces de cada color?",
+"aprende": "Los casos posibles son los 12 dulces, no los 3 colores."
+},
+"D": {
+"error": "Confundir razón con probabilidad",
+"porque": "Elegiste 1/3 porque probablemente comparaste verdes con no verdes (3 : 9).",
+"pregunta_guia": "¿La probabilidad compara favorables con no favorables o favorables con el total?",
+"aprende": "Probabilidad = casos favorables ÷ casos totales = 9/12."
+}
+},
+"explicacion": "Paso 1: Casos totales: 5 + 3 + 4 = 12 dulces. Paso 2: Casos favorables (no verde): 5 + 4 = 9. Paso 3: P = 9/12 = 3/4. Paso 4: Comprobación con el complemento: 1 − 3/12 = 9/12 = 3/4.",
+"tip": "Lee si la pregunta dice «NO»: muchas veces conviene calcular el complemento.",
+"truco": "P(no A) = 1 − P(A).",
+"estrategia_icfes": "El ICFES usa bolsas, urnas y ruletas con eventos negados. Cuenta objetos, no categorías, y simplifica la fracción al final para encontrarla entre las opciones.",
+"temas": [
+"probabilidad simple",
+"evento complementario",
+"espacio muestral"
+],
+"gemela": {
+"enunciado": "Una urna tiene 6 balotas azules, 2 blancas y 4 negras. ¿Cuál es la probabilidad de sacar una balota que NO sea blanca?",
+"opciones": {
+"A": "1/6",
+"B": "5/6",
+"C": "2/3",
+"D": "1/5"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Total: 12 balotas; no blancas: 10. Paso 2: P = 10/12 = 5/6."
+}
+},
+{
+"id": "P11-MAT-D017",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa la probabilidad condicional en tablas de doble entrada para reconocer si dos eventos son o no independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica en una tabla de doble entrada el total que corresponde a una probabilidad condicional.",
+"contexto": "En una encuesta a 200 estudiantes de grado 11 de colegios de Cali se les preguntó por el área de la carrera que desean estudiar. Los resultados están en la tabla. Se elige al azar uno de los estudiantes encuestados.",
+"tabla": {
+"titulo": "Área de carrera preferida",
+"cols": [
+"Grupo",
+"Ingeniería",
+"Salud",
+"Artes",
+"Total"
+],
+"filas": [
+[
+"Mujeres",
+"30",
+"50",
+"20",
+"100"
+],
+[
+"Hombres",
+"45",
+"25",
+"30",
+"100"
+],
+[
+"Total",
+"75",
+"75",
+"50",
+"200"
+]
+]
+},
+"enunciado": "Si se sabe que el estudiante elegido es mujer, ¿cuál es la probabilidad de que prefiera Salud?",
+"opciones": {
+"A": "1/4",
+"B": "2/3",
+"C": "3/8",
+"D": "1/2"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar el total general en una condicional",
+"porque": "Elegiste 1/4 porque dividiste 50 entre 200, que es la probabilidad de ser mujer Y preferir Salud.",
+"pregunta_guia": "Si ya sabes que es mujer, ¿entre cuántas personas eliges?",
+"aprende": "La condición reduce el espacio muestral a las 100 mujeres."
+},
+"B": {
+"error": "Invertir la condición",
+"porque": "Elegiste 2/3 porque dividiste 50 entre 75, que es la probabilidad de ser mujer dado que prefiere Salud.",
+"pregunta_guia": "¿Qué se sabe: que es mujer o que prefiere Salud?",
+"aprende": "P(Salud | Mujer) usa el total de mujeres; P(Mujer | Salud) usa el total de Salud."
+},
+"C": {
+"error": "Ignorar la condición",
+"porque": "Elegiste 3/8 porque calculaste 75/200, la probabilidad de preferir Salud sin importar el grupo.",
+"pregunta_guia": "¿Usaste la información de que la persona es mujer?",
+"aprende": "En una probabilidad condicional solo cuentan los casos que cumplen la condición."
+}
+},
+"explicacion": "Paso 1: La condición «es mujer» reduce los casos posibles a 100. Paso 2: De ellas, 50 prefieren Salud. Paso 3: P(Salud | Mujer) = 50/100 = 1/2.",
+"tip": "La palabra «si se sabe que…» te dice cuál fila o columna es tu nuevo total.",
+"truco": "Condicional: el denominador es el total de la condición.",
+"estrategia_icfes": "En tablas de doble entrada el ICFES pone como distractores la probabilidad conjunta, la inversa y la marginal. Subraya la condición y úsala como denominador.",
+"temas": [
+"probabilidad condicional",
+"tablas de doble entrada",
+"espacio muestral reducido"
+],
+"gemela": {
+"enunciado": "Con los datos de la tabla, si el estudiante elegido es hombre, ¿cuál es la probabilidad de que prefiera Artes?",
+"opciones": {
+"A": "3/20",
+"B": "3/10",
+"C": "3/5",
+"D": "1/4"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Total de hombres: 100. Paso 2: Prefieren Artes: 30. Paso 3: P = 30/100 = 3/10."
+}
+},
+{
+"id": "P11-MAT-D018",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa la probabilidad condicional en tablas de doble entrada para reconocer si dos eventos son o no independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional; justifico o refuto inferencias basadas en razonamientos estadísticos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta un razonamiento que confunde P(A | B) con P(B | A).",
+"contexto": "En una encuesta a 200 estudiantes de grado 11 de colegios de Cali se les preguntó por el área de la carrera que desean estudiar. Los resultados están en la tabla. Se elige al azar uno de los estudiantes encuestados.",
+"tabla": {
+"titulo": "Área de carrera preferida",
+"cols": [
+"Grupo",
+"Ingeniería",
+"Salud",
+"Artes",
+"Total"
+],
+"filas": [
+[
+"Mujeres",
+"30",
+"50",
+"20",
+"100"
+],
+[
+"Hombres",
+"45",
+"25",
+"30",
+"100"
+],
+[
+"Total",
+"75",
+"75",
+"50",
+"200"
+]
+]
+},
+"enunciado": "Valeria afirma: «Como la mitad de las mujeres prefiere Salud, entonces la mitad de los que prefieren Salud son mujeres». ¿Es válido su razonamiento?",
+"opciones": {
+"A": "Sí, porque la probabilidad de A dado B siempre es igual a la probabilidad de B dado A.",
+"B": "Sí, porque hay el mismo número de mujeres y de hombres en la encuesta.",
+"C": "No, porque de los 75 estudiantes que prefieren Salud, 50 son mujeres, es decir, 2/3.",
+"D": "No, porque solo 50 de los 200 encuestados son mujeres que prefieren Salud, es decir, 1/4."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Creer que la condicional es simétrica",
+"porque": "Elegiste A porque probablemente pensaste que invertir la condición no cambia la probabilidad.",
+"pregunta_guia": "¿P(Salud | Mujer) y P(Mujer | Salud) usan el mismo denominador?",
+"aprende": "P(Salud | Mujer) = 50/100 y P(Mujer | Salud) = 50/75: son diferentes."
+},
+"B": {
+"error": "Usar un dato irrelevante como justificación",
+"porque": "Elegiste B porque probablemente creíste que tener grupos del mismo tamaño hace iguales las condicionales.",
+"pregunta_guia": "¿Cuántos estudiantes prefieren Salud en total? ¿Es igual a 100?",
+"aprende": "El denominador de P(Mujer | Salud) es el total de Salud (75), no el de mujeres."
+},
+"D": {
+"error": "Usar la probabilidad conjunta",
+"porque": "Elegiste D porque calculaste P(Mujer y Salud) = 50/200 en vez de la condicional.",
+"pregunta_guia": "Entre quienes prefieren Salud, ¿cuántos son mujeres?",
+"aprende": "«De los que prefieren Salud» indica que el total es 75."
+}
+},
+"explicacion": "Paso 1: Lo que se sabe es cierto: P(Salud | Mujer) = 50/100 = 1/2. Paso 2: Lo que Valeria concluye es P(Mujer | Salud): se toman los 75 que prefieren Salud. Paso 3: De ellos, 50 son mujeres: 50/75 = 2/3. Paso 4: 2/3 ≠ 1/2, así que el razonamiento no es válido.",
+"tip": "Invertir la condición cambia el grupo de referencia y, casi siempre, la probabilidad.",
+"truco": "«De los que…» = denominador.",
+"estrategia_icfes": "El ICFES evalúa la confusión entre P(A | B) y P(B | A). Escribe ambas con su denominador y compáralas antes de decidir.",
+"temas": [
+"probabilidad condicional",
+"condicional inversa",
+"validación de razonamientos"
+],
+"gemela": {
+"enunciado": "Con los datos de la tabla, de los estudiantes que prefieren Ingeniería, ¿qué fracción son hombres?",
+"opciones": {
+"A": "45/100",
+"B": "3/5",
+"C": "45/200",
+"D": "1/2"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Prefieren Ingeniería: 75. Paso 2: De ellos, 45 son hombres. Paso 3: 45/75 = 3/5."
+}
+},
+{
+"id": "P11-MAT-D019",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos compuestos a partir de información organizada en tablas.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de probabilidad.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Lee en una tabla de doble entrada la frecuencia de una intersección y la expresa como probabilidad sobre el total.",
+"contexto": "En una encuesta a 200 estudiantes de grado 11 de colegios de Cali se les preguntó por el área de la carrera que desean estudiar. Los resultados están en la tabla. Se elige al azar uno de los estudiantes encuestados.",
+"tabla": {
+"titulo": "Área de carrera preferida",
+"cols": [
+"Grupo",
+"Ingeniería",
+"Salud",
+"Artes",
+"Total"
+],
+"filas": [
+[
+"Mujeres",
+"30",
+"50",
+"20",
+"100"
+],
+[
+"Hombres",
+"45",
+"25",
+"30",
+"100"
+],
+[
+"Total",
+"75",
+"75",
+"50",
+"200"
+]
+]
+},
+"enunciado": "¿Cuál es la probabilidad de que el estudiante elegido sea hombre y prefiera Artes?",
+"opciones": {
+"A": "30 %",
+"B": "15 %",
+"C": "60 %",
+"D": "25 %"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calcular una condicional en vez de la conjunta",
+"porque": "Elegiste 30 % porque dividiste 30 entre 100 (los hombres), como si ya se supiera que es hombre.",
+"pregunta_guia": "¿La pregunta dice «si es hombre» o «sea hombre y prefiera Artes»?",
+"aprende": "Con «y» y sin condición previa, el total son los 200 encuestados."
+},
+"C": {
+"error": "Condicionar por la columna",
+"porque": "Elegiste 60 % porque dividiste 30 entre 50 (los de Artes).",
+"pregunta_guia": "¿Se sabe de antemano que el estudiante prefiere Artes?",
+"aprende": "Eso sería P(Hombre | Artes); aquí se pide la intersección sobre el total."
+},
+"D": {
+"error": "Leer solo una categoría",
+"porque": "Elegiste 25 % porque calculaste la probabilidad de preferir Artes (50/200) sin tener en cuenta el sexo.",
+"pregunta_guia": "¿Cuántas condiciones debe cumplir el estudiante?",
+"aprende": "Deben cumplirse las dos: hombre Y Artes, que es la celda 30."
+}
+},
+"explicacion": "Paso 1: Casos totales: 200 estudiantes. Paso 2: Casos favorables: la celda donde se cruzan Hombres y Artes = 30. Paso 3: P = 30/200 = 0,15 = 15 %.",
+"tip": "«Y» sin condición previa = celda de la tabla ÷ total general.",
+"truco": "Conjunta: celda/gran total. Condicional: celda/total de fila o columna.",
+"estrategia_icfes": "El ICFES pregunta varias probabilidades sobre la misma tabla. Clasifica primero el tipo (marginal, conjunta o condicional) y elige el denominador.",
+"temas": [
+"probabilidad conjunta",
+"tablas de doble entrada",
+"porcentajes"
+],
+"gemela": {
+"enunciado": "Con los datos de la tabla, ¿cuál es la probabilidad de que el estudiante elegido sea hombre y prefiera Salud?",
+"opciones": {
+"A": "25 %",
+"B": "12,5 %",
+"C": "33,3 %",
+"D": "37,5 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Celda Hombres–Salud: 25. Paso 2: P = 25/200 = 0,125 = 12,5 %."
+}
+},
+{
+"id": "P11-MAT-D020",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos de espacio muestral y probabilidad.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta un cálculo de probabilidad que asume resultados equiprobables cuando no lo son.",
+"contexto": "En un juego de mesa se lanzan dos dados normales de seis caras y se suman los resultados. Julián razona así: «Las sumas posibles van de 2 a 12, es decir, 11 resultados; por eso la probabilidad de que la suma sea 7 es 1/11».",
+"enunciado": "¿Qué se puede afirmar del razonamiento de Julián?",
+"opciones": {
+"A": "Es incorrecto, porque las 11 sumas no son igualmente probables: de 36 resultados, 6 suman 7, así que es 1/6.",
+"B": "Es correcto, porque cada una de las sumas de 2 a 12 tiene la misma oportunidad de salir.",
+"C": "Es incorrecto, porque hay 12 sumas posibles y la probabilidad es 1/12.",
+"D": "Es incorrecto, porque solo 3 parejas dan 7 (1 y 6, 2 y 5, 3 y 4), así que es 3/36 = 1/12."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Suponer equiprobabilidad",
+"porque": "Elegiste B porque probablemente aceptaste que todos los resultados listados son igual de probables.",
+"pregunta_guia": "¿De cuántas formas se obtiene suma 2? ¿Y suma 7?",
+"aprende": "Suma 2 solo sale con (1,1); suma 7 sale de 6 maneras. No son equiprobables."
+},
+"C": {
+"error": "Contar mal los resultados",
+"porque": "Elegiste C porque probablemente contaste las sumas desde 1 hasta 12.",
+"pregunta_guia": "¿Puede la suma de dos dados ser 1?",
+"aprende": "El espacio muestral correcto son las 36 parejas ordenadas."
+},
+"D": {
+"error": "No considerar el orden de los dados",
+"porque": "Elegiste D porque contaste (1,6) y (6,1) como un mismo resultado.",
+"pregunta_guia": "Si un dado es rojo y el otro azul, ¿es lo mismo rojo 1–azul 6 que rojo 6–azul 1?",
+"aprende": "Las parejas ordenadas que suman 7 son 6: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)."
+}
+},
+"explicacion": "Paso 1: Espacio muestral: 6 × 6 = 36 parejas ordenadas, todas equiprobables. Paso 2: Suman 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 casos. Paso 3: P(suma 7) = 6/36 = 1/6. Paso 4: Julián falló al usar como espacio muestral las sumas, que no son equiprobables.",
+"tip": "La regla casos favorables ÷ casos posibles solo vale si los casos son igualmente probables.",
+"truco": "Dos dados: imagina uno rojo y uno azul y haz la tabla de 6 × 6.",
+"estrategia_icfes": "El ICFES presenta razonamientos con espacios muestrales mal construidos. Verifica que los resultados contados tengan la misma probabilidad.",
+"temas": [
+"espacio muestral",
+"equiprobabilidad",
+"probabilidad con dados"
+],
+"gemela": {
+"enunciado": "Ana dice que la probabilidad de que dos dados sumen 4 es 2/36, porque solo 1 + 3 y 2 + 2 dan 4. ¿Cuál es la probabilidad correcta?",
+"opciones": {
+"A": "2/36",
+"B": "1/11",
+"C": "3/36 = 1/12",
+"D": "4/36 = 1/9"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Parejas ordenadas que suman 4: (1,3), (3,1), (2,2). Paso 2: P = 3/36 = 1/12."
+}
+},
+{
+"id": "P11-MAT-D021",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos compuestos y reconoce cuándo dos eventos son independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica la regla del producto para eventos independientes junto con el complemento.",
+"contexto": "Para planear una salida de campo a los Farallones de Cali, un grupo de estudiantes supone que la probabilidad de que llueva en un día cualquiera es 0,35 y que lo que pase un día no influye en el otro.",
+"enunciado": "Con esa suposición, ¿cuál es la probabilidad de que NO llueva en ninguno de dos días seguidos?",
+"opciones": {
+"A": "0,30",
+"B": "0,65",
+"C": "0,4225",
+"D": "0,1225"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Restar probabilidades sumadas",
+"porque": "Elegiste 0,30 porque probablemente calculaste 1 − 0,35 − 0,35.",
+"pregunta_guia": "¿Se pueden sumar las probabilidades de lluvia de dos días como si fueran excluyentes?",
+"aprende": "Para que ocurran dos eventos independientes a la vez se multiplican: 0,65 × 0,65."
+},
+"B": {
+"error": "Considerar un solo día",
+"porque": "Elegiste 0,65 porque calculaste la probabilidad de que no llueva en un día.",
+"pregunta_guia": "¿Cuántos días deben estar sin lluvia?",
+"aprende": "Deben cumplirse dos condiciones: el día 1 sin lluvia Y el día 2 sin lluvia."
+},
+"D": {
+"error": "Calcular el evento contrario",
+"porque": "Elegiste 0,1225 porque calculaste la probabilidad de que llueva los dos días (0,35²).",
+"pregunta_guia": "¿La pregunta es sobre lluvia o sobre no lluvia?",
+"aprende": "Primero toma el complemento de cada día (0,65) y luego multiplica."
+}
+},
+"explicacion": "Paso 1: P(no llueve un día) = 1 − 0,35 = 0,65. Paso 2: Los días son independientes, así que P(no llueve día 1 y no llueve día 2) = 0,65 × 0,65. Paso 3: 0,65 × 0,65 = 0,4225.",
+"tip": "«Y» con eventos independientes se traduce en multiplicación.",
+"truco": "Complemento primero, producto después.",
+"estrategia_icfes": "El ICFES combina complemento e independencia en un mismo ítem. Traduce cada palabra: «no» → complemento; «y» → producto (si son independientes).",
+"temas": [
+"eventos independientes",
+"regla del producto",
+"evento complementario"
+],
+"gemela": {
+"enunciado": "Cada una de dos bombillas independientes falla con probabilidad 0,1. ¿Cuál es la probabilidad de que las dos funcionen?",
+"opciones": {
+"A": "0,8",
+"B": "0,9",
+"C": "0,81",
+"D": "0,01"
+},
+"correcta": "C",
+"explicacion": "Paso 1: P(funciona) = 1 − 0,1 = 0,9. Paso 2: 0,9 × 0,9 = 0,81."
+}
+},
+{
+"id": "P11-MAT-D022",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos compuestos y reconoce cuándo dos eventos son independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos de probabilidad e independencia.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Usa el complemento para calcular la probabilidad de «al menos uno» en eventos independientes repetidos.",
+"contexto": "En un simulacro, Kevin no estudió tres preguntas de selección múltiple, cada una con 4 opciones y una sola correcta. Decide responderlas al azar, de forma independiente.",
+"enunciado": "¿Cuál es la probabilidad de que acierte al menos una de las tres preguntas?",
+"opciones": {
+"A": "3/4",
+"B": "1/64",
+"C": "27/64",
+"D": "37/64"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Sumar probabilidades no excluyentes",
+"porque": "Elegiste 3/4 porque probablemente sumaste 1/4 + 1/4 + 1/4.",
+"pregunta_guia": "Si fueran 5 preguntas, ¿la probabilidad sería 5/4? ¿Tiene sentido?",
+"aprende": "Para «al menos uno» se usa el complemento: 1 − P(ninguno)."
+},
+"B": {
+"error": "Calcular «todas» en vez de «al menos una»",
+"porque": "Elegiste 1/64 porque calculaste la probabilidad de acertar las tres (1/4)³.",
+"pregunta_guia": "¿«Al menos una» significa «todas»?",
+"aprende": "«Al menos una» incluye acertar 1, 2 o 3 preguntas."
+},
+"C": {
+"error": "Olvidar restar del total",
+"porque": "Elegiste 27/64 porque calculaste la probabilidad de fallar todas (3/4)³ y no tomaste el complemento.",
+"pregunta_guia": "¿Lo que calculaste es acertar al menos una o fallarlas todas?",
+"aprende": "P(al menos una) = 1 − 27/64 = 37/64."
+}
+},
+"explicacion": "Paso 1: P(fallar una pregunta) = 3/4. Paso 2: P(fallar las tres) = (3/4)³ = 27/64. Paso 3: El evento «acertar al menos una» es el complemento de «fallar todas». Paso 4: P = 1 − 27/64 = 37/64 ≈ 0,58.",
+"tip": "«Al menos uno» casi siempre se resuelve más rápido por el complemento.",
+"truco": "Al menos uno = 1 − ninguno.",
+"estrategia_icfes": "El ICFES usa «al menos» para premiar el uso del complemento. Si una opción supera 1 o crece sin límite al aumentar los ensayos, descártala.",
+"temas": [
+"evento complementario",
+"eventos independientes",
+"probabilidad de al menos uno"
+],
+"gemela": {
+"enunciado": "Se lanza una moneda justa 3 veces. ¿Cuál es la probabilidad de obtener al menos una cara?",
+"opciones": {
+"A": "1/8",
+"B": "3/8",
+"C": "7/8",
+"D": "3/2"
+},
+"correcta": "C",
+"explicacion": "Paso 1: P(ninguna cara) = (1/2)³ = 1/8. Paso 2: P(al menos una) = 1 − 1/8 = 7/8."
+}
+},
+{
+"id": "P11-MAT-D023",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo (principio multiplicativo).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica el principio multiplicativo para contar combinaciones de elecciones sucesivas.",
+"contexto": "Un restaurante de Cali ofrece un menú ejecutivo en el que cada cliente elige 1 entrada, 1 plato fuerte y 1 postre. Hay 3 entradas, 4 platos fuertes y 2 postres disponibles.",
+"enunciado": "¿Cuántos menús ejecutivos diferentes se pueden armar?",
+"opciones": {
+"A": "9",
+"B": "12",
+"C": "27",
+"D": "24"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Sumar en lugar de multiplicar",
+"porque": "Elegiste 9 porque sumaste 3 + 4 + 2, como si el cliente eligiera solo uno de todos los platos.",
+"pregunta_guia": "Con cada entrada, ¿cuántos platos fuertes distintos se pueden combinar?",
+"aprende": "Cuando se eligen varias cosas a la vez (una de cada grupo), se multiplica: 3 × 4 × 2."
+},
+"B": {
+"error": "Omitir una etapa",
+"porque": "Elegiste 12 porque multiplicaste 3 × 4 y olvidaste los postres.",
+"pregunta_guia": "¿Cuántas elecciones hace el cliente en total?",
+"aprende": "Cada etapa de la elección es un factor en el producto."
+},
+"C": {
+"error": "Elevar a una potencia sin sentido",
+"porque": "Elegiste 27 porque probablemente calculaste 3³, como si cada etapa tuviera 3 opciones.",
+"pregunta_guia": "¿Todas las etapas tienen el mismo número de opciones?",
+"aprende": "Se multiplican las opciones reales de cada etapa: 3, 4 y 2."
+}
+},
+"explicacion": "Paso 1: Etapas de la elección: entrada (3), plato fuerte (4) y postre (2). Paso 2: Principio multiplicativo: 3 × 4 × 2. Paso 3: 3 × 4 = 12 y 12 × 2 = 24 menús.",
+"tip": "Haz un diagrama de árbol pequeño: cada rama se divide en tantas como opciones tenga la siguiente etapa.",
+"truco": "«Una de cada» → multiplica. «Una u otra» → suma.",
+"estrategia_icfes": "El ICFES usa menús, uniformes y rutas para evaluar el principio multiplicativo. Identifica las etapas y verifica si son elecciones simultáneas (producto) o alternativas (suma).",
+"temas": [
+"principio multiplicativo",
+"diagrama de árbol",
+"conteo"
+],
+"gemela": {
+"enunciado": "Para la jornada deportiva, Sofía tiene 2 camisetas, 3 pantalonetas y 2 pares de tenis. ¿De cuántas maneras diferentes puede vestirse con una prenda de cada tipo?",
+"opciones": {
+"A": "7",
+"B": "12",
+"C": "6",
+"D": "8"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Principio multiplicativo: 2 × 3 × 2. Paso 2: 12 maneras."
+}
+},
+{
+"id": "P11-MAT-D024",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios, con y sin reemplazo, usando técnicas de conteo adecuadas.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo (permutaciones).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Cuenta arreglos ordenados sin repetición mediante el principio multiplicativo decreciente.",
+"contexto": "La plataforma de notas del colegio pide a cada estudiante crear un PIN de 4 dígitos (del 0 al 9) en el que no se puede repetir ningún dígito. Por ejemplo, 4071 es válido, pero 4471 no lo es.",
+"enunciado": "¿Cuántos PIN diferentes se pueden crear con esa regla?",
+"opciones": {
+"A": "5.040",
+"B": "10.000",
+"C": "210",
+"D": "40"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Permitir repeticiones",
+"porque": "Elegiste 10.000 porque calculaste 10⁴, que incluye PIN con dígitos repetidos.",
+"pregunta_guia": "Si ya usaste un dígito en la primera posición, ¿cuántos quedan para la segunda?",
+"aprende": "Sin repetición las opciones bajan en cada posición: 10 × 9 × 8 × 7."
+},
+"C": {
+"error": "Ignorar el orden",
+"porque": "Elegiste 210 porque calculaste una combinación C(10, 4), como si 4071 y 1704 fueran el mismo PIN.",
+"pregunta_guia": "¿El PIN 4071 abre lo mismo que el PIN 1704?",
+"aprende": "En un PIN el orden importa: es una permutación, no una combinación."
+},
+"D": {
+"error": "Multiplicar dígitos por posiciones",
+"porque": "Elegiste 40 porque probablemente multiplicaste 10 dígitos × 4 posiciones.",
+"pregunta_guia": "Para cada elección del primer dígito, ¿cuántas opciones hay para el segundo?",
+"aprende": "Se multiplican las opciones de cada posición, no el número de posiciones."
+}
+},
+"explicacion": "Paso 1: Primera posición: 10 opciones. Paso 2: Segunda: 9 (no se repite la primera). Paso 3: Tercera: 8. Cuarta: 7. Paso 4: Total = 10 × 9 × 8 × 7 = 5.040 PIN.",
+"tip": "Pregúntate dos cosas: ¿importa el orden? ¿se puede repetir?",
+"truco": "Orden sí y sin repetición: multiplica hacia abajo tantos factores como posiciones haya.",
+"estrategia_icfes": "El ICFES cambia una condición (con o sin repetición, con o sin orden) para diferenciar las opciones. Subraya esas condiciones en el enunciado antes de contar.",
+"temas": [
+"permutaciones",
+"conteo sin repetición",
+"seguridad digital"
+],
+"gemela": {
+"enunciado": "¿Cuántos códigos de 3 letras distintas se pueden formar con las letras A, B, C, D y E si el orden importa?",
+"opciones": {
+"A": "125",
+"B": "10",
+"C": "60",
+"D": "15"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 5 opciones para la primera, 4 para la segunda, 3 para la tercera. Paso 2: 5 × 4 × 3 = 60."
+}
+},
+{
+"id": "P11-MAT-D025",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada en el contexto.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando combinaciones y permutaciones.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica por qué un conteo con orden sobrecuenta cuando la situación no distingue posiciones.",
+"contexto": "En un grupo de 8 estudiantes de grado 11 se deben escoger 3 para conformar el comité del proyecto ambiental. Los tres integrantes tienen las mismas funciones (no hay cargos). Sara calcula el número de comités posibles así: 8 × 7 × 6 = 336.",
+"enunciado": "¿Es correcto el cálculo de Sara?",
+"opciones": {
+"A": "Sí, porque hay 8 opciones para el primer integrante, 7 para el segundo y 6 para el tercero.",
+"B": "No, porque en un comité sin cargos el orden no importa; se divide entre 3! = 6 y son 56 comités.",
+"C": "No, porque cada puesto puede ocuparlo cualquiera de los 8, así que son 8³ = 512 comités.",
+"D": "No, porque como son 3 integrantes se divide 336 entre 3 y son 112 comités."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Contar con orden cuando no importa",
+"porque": "Elegiste A porque el procedimiento parece lógico, pero cuenta como distintos comités con las mismas personas en otro orden.",
+"pregunta_guia": "¿El comité {Ana, Luis, Eva} es diferente del comité {Eva, Ana, Luis}?",
+"aprende": "Cada comité aparece 3! = 6 veces en el conteo ordenado: hay que dividir entre 6."
+},
+"C": {
+"error": "Permitir repeticiones de personas",
+"porque": "Elegiste C porque usaste 8³, como si una persona pudiera ocupar dos lugares del comité.",
+"pregunta_guia": "¿Puede una misma persona ser dos integrantes del comité?",
+"aprende": "Sin repetición y sin orden se usa la combinación C(8, 3)."
+},
+"D": {
+"error": "Dividir entre el número de elegidos",
+"porque": "Elegiste D porque dividiste entre 3 en lugar de entre las 3! ordenaciones de cada grupo.",
+"pregunta_guia": "¿De cuántas maneras se pueden ordenar 3 personas?",
+"aprende": "Tres personas se ordenan de 3 × 2 × 1 = 6 maneras, no de 3."
+}
+},
+"explicacion": "Paso 1: 8 × 7 × 6 = 336 cuenta grupos ordenados (primero, segundo, tercero). Paso 2: Cada grupo de 3 personas aparece en 3! = 6 órdenes distintos. Paso 3: Comités = 336 ÷ 6 = 56 = C(8, 3). Paso 4: Sara contó con orden en una situación donde no importa.",
+"tip": "Si intercambiar a dos elegidos no cambia el resultado, el orden no importa: usa combinaciones.",
+"truco": "C(n, k) = (n × (n−1) × … k factores) ÷ k!.",
+"estrategia_icfes": "En Argumentación el ICFES presenta un conteo y pregunta si es correcto. Analiza si la situación distingue posiciones; la opción correcta explica por qué y corrige el resultado.",
+"temas": [
+"combinaciones",
+"permutaciones",
+"detección de errores de conteo"
+],
+"gemela": {
+"enunciado": "De 6 estudiantes se eligen 2 delegados sin cargos. Pedro dice que hay 6 × 5 = 30 formas. ¿Cuántas formas hay realmente?",
+"opciones": {
+"A": "30",
+"B": "15",
+"C": "36",
+"D": "12"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 6 × 5 = 30 cuenta parejas ordenadas. Paso 2: Cada pareja aparece 2! = 2 veces: 30 ÷ 2 = 15."
+}
+},
+{
+"id": "P11-MAT-D026",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada en el contexto.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo (combinaciones y permutaciones).",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Distingue situaciones de conteo en las que el orden de los elementos cambia el resultado.",
+"contexto": "En la clase de estadística, la profesora pide clasificar varias situaciones de conteo según si el orden en que se eligen los elementos produce resultados distintos.",
+"enunciado": "¿En cuál de las siguientes situaciones el orden de elección SÍ importa?",
+"opciones": {
+"A": "Elegir 3 libros de la biblioteca para leer durante las vacaciones.",
+"B": "Escoger 2 sabores de helado para servir en un mismo vaso.",
+"C": "Asignar las medallas de oro, plata y bronce entre 10 atletas de una carrera.",
+"D": "Formar un grupo de estudio de 4 personas entre los 20 estudiantes del curso."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir secuencia temporal con orden relevante",
+"porque": "Elegiste A porque probablemente pensaste que los libros se leen uno después de otro.",
+"pregunta_guia": "¿Cambia el conjunto de libros que te llevas si los escoges en otro orden?",
+"aprende": "Lo que importa es el resultado: el mismo grupo de libros, sin importar el orden de elección."
+},
+"B": {
+"error": "Atribuir orden a una mezcla",
+"porque": "Elegiste B porque probablemente imaginaste que un sabor va encima del otro.",
+"pregunta_guia": "¿Fresa con mora es un helado distinto de mora con fresa?",
+"aprende": "En el vaso los dos sabores forman la misma combinación."
+},
+"D": {
+"error": "No reconocer un grupo sin funciones",
+"porque": "Elegiste D porque probablemente pensaste que el primero elegido es el líder.",
+"pregunta_guia": "¿El enunciado asigna algún cargo dentro del grupo de estudio?",
+"aprende": "Si no hay cargos ni posiciones, el orden no importa."
+}
+},
+"explicacion": "Paso 1: Para cada situación pregunta: «Si intercambio dos elementos, ¿obtengo un resultado distinto?». Paso 2: Libros, sabores y grupo de estudio: intercambiar no cambia el resultado (combinaciones). Paso 3: Medallas: si Ana gana oro y Juan plata, es distinto de Juan oro y Ana plata. Paso 4: El orden importa en la asignación de medallas.",
+"tip": "Cargos, puestos, posiciones o claves: el orden importa.",
+"truco": "Prueba del intercambio: cambia dos elementos y mira si el resultado cambia.",
+"estrategia_icfes": "Antes de calcular, el ICFES verifica que sepas qué técnica usar. Identifica si hay posiciones distinguibles; esa decisión define el resto del procedimiento.",
+"temas": [
+"permutaciones",
+"combinaciones",
+"modelación de situaciones de conteo"
+],
+"gemela": {
+"enunciado": "¿En cuál de estas situaciones el orden NO importa?",
+"opciones": {
+"A": "Crear un PIN de 4 dígitos.",
+"B": "Ordenar 5 personas en una fila para una foto.",
+"C": "Escoger 5 cartas de una baraja para formar una mano.",
+"D": "Elegir presidente y vicepresidente del consejo estudiantil."
+},
+"correcta": "C",
+"explicacion": "Paso 1: Una mano de cartas es la misma sin importar el orden en que se reciban. Paso 2: En las demás situaciones el orden produce resultados distintos."
+}
+},
+{
+"id": "P11-MAT-D027",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios, con y sin reemplazo, usando técnicas de conteo adecuadas.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo con y sin repetición.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica el principio multiplicativo con repetición en posiciones de distinto tipo.",
+"contexto": "Supón que las placas de los carros de una ciudad tienen 3 letras seguidas de 3 dígitos (por ejemplo, KDV 027). Se pueden usar 26 letras y los dígitos del 0 al 9, y tanto letras como dígitos pueden repetirse.",
+"enunciado": "¿Cuántas placas diferentes se pueden formar con ese sistema?",
+"opciones": {
+"A": "17.576.000",
+"B": "108",
+"C": "11.232.000",
+"D": "2.176.782.336"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Sumar en lugar de multiplicar",
+"porque": "Elegiste 108 porque calculaste 3 × 26 + 3 × 10.",
+"pregunta_guia": "Para cada letra de la primera posición, ¿cuántas opciones tiene la segunda?",
+"aprende": "Cada posición es una etapa: se multiplican 26 · 26 · 26 · 10 · 10 · 10."
+},
+"C": {
+"error": "Prohibir repeticiones",
+"porque": "Elegiste 11.232.000 porque calculaste 26 · 25 · 24 · 10 · 9 · 8, sin repetir símbolos.",
+"pregunta_guia": "¿El enunciado permite placas como AAA 111?",
+"aprende": "Con repetición, cada posición conserva todas sus opciones."
+},
+"D": {
+"error": "Mezclar los tipos de posición",
+"porque": "Elegiste 2.176.782.336 porque calculaste 36⁶, como si cualquier posición pudiera ser letra o dígito.",
+"pregunta_guia": "¿Las tres primeras posiciones pueden tener dígitos?",
+"aprende": "Las tres primeras son solo letras (26) y las tres últimas solo dígitos (10)."
+}
+},
+"explicacion": "Paso 1: Letras: 26 × 26 × 26 = 17.576. Paso 2: Dígitos: 10 × 10 × 10 = 1.000. Paso 3: Total: 17.576 × 1.000 = 17.576.000 placas.",
+"tip": "Dibuja casillas: _ _ _ | _ _ _ y escribe en cada una cuántas opciones tiene.",
+"truco": "Método de casillas: multiplica lo que va en cada casilla.",
+"estrategia_icfes": "El ICFES usa placas, contraseñas y códigos con posiciones de tipos distintos. Respeta qué símbolo va en cada posición y si se permite repetir.",
+"temas": [
+"principio multiplicativo",
+"conteo con repetición",
+"método de casillas"
+],
+"gemela": {
+"enunciado": "Un código tiene 2 letras (de 26) seguidas de 2 dígitos (0 a 9), y se permiten repeticiones. ¿Cuántos códigos hay?",
+"opciones": {
+"A": "67.600",
+"B": "104",
+"C": "58.500",
+"D": "676"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 26 × 26 = 676 y 10 × 10 = 100. Paso 2: 676 × 100 = 67.600."
+}
+},
+{
+"id": "P11-MAT-D028",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando permutaciones, incluidas las permutaciones con elementos repetidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula permutaciones con elementos repetidos dividiendo entre las permutaciones de los elementos iguales.",
+"contexto": "En una actividad de lenguaje, los estudiantes forman «palabras» (con o sin sentido) reordenando todas las letras de la palabra CAUCA. Dos palabras son distintas si las letras aparecen en un orden diferente.",
+"enunciado": "¿Cuántas palabras diferentes se pueden formar?",
+"opciones": {
+"A": "120",
+"B": "30",
+"C": "60",
+"D": "10"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Ignorar las letras repetidas",
+"porque": "Elegiste 120 porque calculaste 5! como si las 5 letras fueran distintas.",
+"pregunta_guia": "Si intercambias las dos C, ¿obtienes una palabra diferente?",
+"aprende": "Las letras iguales generan arreglos repetidos; hay que dividir entre 2! por las C y 2! por las A."
+},
+"C": {
+"error": "Descontar solo una repetición",
+"porque": "Elegiste 60 porque dividiste 5! entre 2!, teniendo en cuenta solo una de las letras repetidas.",
+"pregunta_guia": "¿Cuántas letras se repiten en CAUCA?",
+"aprende": "Se repiten dos letras (C y A), cada una 2 veces: 5! ÷ (2! · 2!)."
+},
+"D": {
+"error": "Contar solo una parte del arreglo",
+"porque": "Elegiste 10 porque probablemente contaste solo las maneras de ubicar las dos C, C(5, 2).",
+"pregunta_guia": "Después de ubicar las C, ¿de cuántas formas puedes ubicar las A y la U en los 3 lugares restantes?",
+"aprende": "C(5, 2) × C(3, 2) × 1 = 10 × 3 = 30."
+}
+},
+"explicacion": "Paso 1: CAUCA tiene 5 letras: C (2 veces), A (2 veces), U (1 vez). Paso 2: Si todas fueran distintas: 5! = 120. Paso 3: Se divide entre 2! por las C y 2! por las A: 120 ÷ (2 × 2) = 30. Paso 4: Comprobación por casillas: ubicar C: C(5,2) = 10; ubicar A en los 3 lugares restantes: C(3,2) = 3; U queda fija: 10 × 3 = 30.",
+"tip": "Cada grupo de letras iguales «colapsa» varios arreglos en uno solo.",
+"truco": "Permutaciones con repetición: n! ÷ (a! · b! · …).",
+"estrategia_icfes": "El ICFES evalúa si reconoces elementos indistinguibles. Cuenta cuántas veces se repite cada elemento antes de aplicar la fórmula.",
+"temas": [
+"permutaciones con repetición",
+"factorial",
+"conteo"
+],
+"gemela": {
+"enunciado": "¿Cuántas palabras diferentes se forman reordenando todas las letras de PAPAYA?",
+"opciones": {
+"A": "720",
+"B": "120",
+"C": "60",
+"D": "360"
+},
+"correcta": "C",
+"explicacion": "Paso 1: PAPAYA: P (2), A (3), Y (1); 6 letras. Paso 2: 6! ÷ (2! · 3!) = 720 ÷ 12 = 60."
+}
+},
+{
+"id": "P11-MAT-D029",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios, con y sin reemplazo, y calcula la probabilidad de eventos compuestos.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos de conteo y probabilidad (muestreo sin reemplazo).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula una probabilidad sin reemplazo mediante combinaciones o productos de probabilidades.",
+"contexto": "En el consejo estudiantil hay 10 representantes: 6 mujeres y 4 hombres. Se sortean 2 de ellos, al mismo tiempo y sin reemplazo, para asistir a un foro juvenil en la Gobernación del Valle.",
+"enunciado": "¿Cuál es la probabilidad de que las dos personas sorteadas sean mujeres?",
+"opciones": {
+"A": "9/25",
+"B": "3/5",
+"C": "2/15",
+"D": "1/3"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Suponer reemplazo",
+"porque": "Elegiste 9/25 porque calculaste (6/10) × (6/10), como si la primera persona pudiera salir otra vez.",
+"pregunta_guia": "Después de sortear a una mujer, ¿cuántas mujeres y cuántas personas quedan?",
+"aprende": "Sin reemplazo: (6/10) × (5/9) = 30/90 = 1/3."
+},
+"B": {
+"error": "Calcular un solo evento",
+"porque": "Elegiste 3/5 porque calculaste la probabilidad de que la primera sea mujer.",
+"pregunta_guia": "¿Cuántas personas deben ser mujeres?",
+"aprende": "Ambas deben ser mujeres: se necesitan las dos condiciones."
+},
+"C": {
+"error": "Calcular el grupo contrario",
+"porque": "Elegiste 2/15 porque calculaste la probabilidad de que ambos sean hombres: C(4,2)/C(10,2) = 6/45.",
+"pregunta_guia": "¿Qué grupo pide la pregunta?",
+"aprende": "Para dos mujeres se usa C(6, 2) = 15 en el numerador: 15/45."
+}
+},
+"explicacion": "Paso 1: Parejas posibles: C(10, 2) = 45. Paso 2: Parejas de dos mujeres: C(6, 2) = 15. Paso 3: P = 15/45 = 1/3. Paso 4: Comprobación con productos: (6/10) × (5/9) = 30/90 = 1/3.",
+"tip": "Sin reemplazo, tanto los casos favorables como los totales disminuyen en cada extracción.",
+"truco": "Sorteo simultáneo = combinaciones arriba y abajo: C(favorables) ÷ C(totales).",
+"estrategia_icfes": "El ICFES distingue sorteos con y sin reemplazo. Verifica la palabra clave «sin reemplazo» o «al mismo tiempo» y actualiza los totales.",
+"temas": [
+"probabilidad sin reemplazo",
+"combinaciones",
+"eventos dependientes"
+],
+"gemela": {
+"enunciado": "Una bolsa tiene 3 balotas rojas y 2 azules. Se sacan 2 sin reemplazo. ¿Cuál es la probabilidad de que ambas sean rojas?",
+"opciones": {
+"A": "9/25",
+"B": "3/10",
+"C": "3/5",
+"D": "1/10"
+},
+"correcta": "B",
+"explicacion": "Paso 1: (3/5) × (2/4) = 6/20. Paso 2: 6/20 = 3/10."
+}
+},
+{
+"id": "P11-MAT-D030",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios, con y sin reemplazo, y argumenta la selección realizada en el contexto.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el paso donde se trató un muestreo sin reemplazo como si fuera con reemplazo.",
+"contexto": "Una baraja francesa tiene 52 cartas, de las cuales 4 son ases. Mateo saca 2 cartas, una tras otra y sin devolver la primera, y quiere calcular la probabilidad de que ambas sean ases. Escribe: Paso 1: P(primera carta es as) = 4/52. Paso 2: P(segunda carta es as) = 4/52. Paso 3: P(ambas son ases) = (4/52) × (4/52) = 1/169.",
+"enunciado": "¿En qué paso se equivocó Mateo y cuál es la probabilidad correcta?",
+"opciones": {
+"A": "En el paso 1, porque la probabilidad de sacar un as es 1/13 y no 4/52; la respuesta es 1/169.",
+"B": "En el paso 3, porque las probabilidades se debían sumar; la respuesta es 8/52.",
+"C": "En el paso 2, porque quedan 3 ases en 51 cartas; la respuesta es (4/52) × (3/51) = 1/221.",
+"D": "En el paso 2, porque quedan 3 ases en 52 cartas; la respuesta es (4/52) × (3/52) = 3/676."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No reconocer fracciones equivalentes",
+"porque": "Elegiste A porque probablemente no notaste que 4/52 y 1/13 son la misma fracción.",
+"pregunta_guia": "¿Cuánto da 4/52 simplificado?",
+"aprende": "4/52 = 1/13: el paso 1 es correcto; el error está en otro paso."
+},
+"B": {
+"error": "Sumar probabilidades de eventos simultáneos",
+"porque": "Elegiste B porque pensaste que la probabilidad de dos eventos que deben ocurrir juntos se suma.",
+"pregunta_guia": "¿Es más fácil o más difícil sacar dos ases que uno solo?",
+"aprende": "«Ambas» exige las dos condiciones: se multiplica, y el resultado es menor que cada probabilidad."
+},
+"D": {
+"error": "Actualizar solo los casos favorables",
+"porque": "Elegiste D porque notaste que queda un as menos, pero olvidaste que también queda una carta menos.",
+"pregunta_guia": "Si no se devuelve la primera carta, ¿cuántas cartas quedan en la baraja?",
+"aprende": "Sin reemplazo cambian el numerador y el denominador: 3/51."
+}
+},
+"explicacion": "Paso 1: 4/52 es correcto para la primera carta. Paso 2: Si la primera fue as y no se devolvió, quedan 3 ases en 51 cartas: P = 3/51 (Mateo usó 4/52, como si hubiera reemplazo). Paso 3: P(ambas) = (4/52) × (3/51) = 12/2652 = 1/221. El error está en el paso 2.",
+"tip": "/detectaerror: en extracciones sin reemplazo, revisa que cada fracción refleje lo que ya salió.",
+"truco": "Sin reemplazo: «uno menos arriba, uno menos abajo».",
+"estrategia_icfes": "El ICFES muestra procedimientos de otros con un error puntual. Revisa cada paso por separado; la opción correcta identifica el paso y presenta el valor corregido.",
+"temas": [
+"probabilidad sin reemplazo",
+"eventos dependientes",
+"validación de procedimientos"
+],
+"gemela": {
+"enunciado": "En una bolsa hay 5 fichas rojas y 5 negras. Se sacan 2 sin reemplazo. Laura calcula P(dos rojas) = (5/10) × (5/10) = 1/4. ¿Cuál es la probabilidad correcta?",
+"opciones": {
+"A": "1/4",
+"B": "2/9",
+"C": "1/5",
+"D": "1"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Tras sacar una roja quedan 4 rojas en 9 fichas. Paso 2: (5/10) × (4/9) = 20/90 = 2/9."
+}
+},
+{
+"id": "P11-MAT-D031",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando combinaciones.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Modela un torneo «todos contra todos» como combinaciones de 2 elementos.",
+"contexto": "La liga intercolegial de microfútbol de la Comuna 15 de Cali organiza un torneo en el que cada equipo juega exactamente un partido contra cada uno de los demás equipos.",
+"enunciado": "Si participan 12 equipos, ¿cuántos partidos se juegan en total?",
+"opciones": {
+"A": "66",
+"B": "132",
+"C": "144",
+"D": "24"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Contar cada partido dos veces",
+"porque": "Elegiste 132 porque calculaste 12 × 11, que cuenta A contra B y B contra A como partidos distintos.",
+"pregunta_guia": "¿El partido Equipo A contra Equipo B es distinto del partido B contra A?",
+"aprende": "Cada partido es una pareja sin orden: 12 × 11 ÷ 2."
+},
+"C": {
+"error": "Incluir partidos contra sí mismo",
+"porque": "Elegiste 144 porque calculaste 12 × 12.",
+"pregunta_guia": "¿Puede un equipo jugar contra sí mismo?",
+"aprende": "Cada equipo juega contra los otros 11, no contra 12."
+},
+"D": {
+"error": "Multiplicar por 2 sin sentido",
+"porque": "Elegiste 24 porque probablemente pensaste que en cada partido participan 2 equipos y multiplicaste 12 × 2.",
+"pregunta_guia": "¿Cuántos rivales tiene cada equipo?",
+"aprende": "Se cuentan parejas de equipos: C(12, 2)."
+}
+},
+"explicacion": "Paso 1: Cada partido es una pareja de equipos y el orden no importa. Paso 2: Parejas ordenadas: 12 × 11 = 132. Paso 3: Cada partido aparece dos veces: 132 ÷ 2 = 66. Paso 4: Equivale a C(12, 2) = 66 partidos.",
+"tip": "Saludos de mano, partidos «todos contra todos» y segmentos entre puntos son el mismo modelo: C(n, 2).",
+"truco": "Partidos todos contra todos = n(n − 1) ÷ 2.",
+"estrategia_icfes": "El ICFES usa torneos y saludos para evaluar combinaciones de 2. Verifica si el enunciado dice «una vez» (dividir entre 2) o «ida y vuelta» (no dividir).",
+"temas": [
+"combinaciones",
+"torneo todos contra todos",
+"conteo"
+],
+"gemela": {
+"enunciado": "En una reunión de padres, 8 personas se saludan de mano una sola vez cada pareja. ¿Cuántos saludos hay?",
+"opciones": {
+"A": "56",
+"B": "64",
+"C": "28",
+"D": "16"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 8 × 7 = 56 parejas ordenadas. Paso 2: 56 ÷ 2 = 28 saludos."
+}
+},
+{
+"id": "P11-MAT-D032",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo problemas con combinaciones y analizo relaciones no proporcionales.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una suposición de proporcionalidad en un conteo que crece de forma cuadrática.",
+"contexto": "La liga intercolegial de microfútbol de la Comuna 15 de Cali organiza un torneo en el que cada equipo juega exactamente un partido contra cada uno de los demás equipos.",
+"enunciado": "El organizador afirma: «El año pasado jugaron 6 equipos; como este año juegan 12, el número de partidos se duplica». ¿Es válida su afirmación?",
+"opciones": {
+"A": "Sí, porque el número de partidos es proporcional al número de equipos.",
+"B": "No, porque se pasa de 15 a 66 partidos, que es más del cuádruple.",
+"C": "No, porque se pasa de 15 a 60 partidos, que es exactamente el cuádruple.",
+"D": "No, porque se pasa de 30 a 132 partidos, ya que cada pareja juega dos partidos."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Suponer proporcionalidad",
+"porque": "Elegiste A porque probablemente pensaste que si los equipos se duplican, todo se duplica.",
+"pregunta_guia": "Con 6 equipos, ¿cuántos rivales tiene cada uno? ¿Y con 12?",
+"aprende": "Se duplican los equipos y también los rivales de cada uno: el número de partidos crece mucho más."
+},
+"C": {
+"error": "Generalizar con la regla del cuadrado",
+"porque": "Elegiste C porque probablemente pensaste que al duplicar n el conteo se multiplica exactamente por 4.",
+"pregunta_guia": "¿Cuánto es C(12, 2) exactamente?",
+"aprende": "C(12, 2) = 12 × 11 ÷ 2 = 66, no 60."
+},
+"D": {
+"error": "No respetar la condición del enunciado",
+"porque": "Elegiste D porque contaste partidos de ida y vuelta, aunque cada pareja juega una sola vez.",
+"pregunta_guia": "¿Cuántas veces se enfrenta cada pareja de equipos según el contexto?",
+"aprende": "«Exactamente un partido» por pareja: se divide entre 2."
+}
+},
+"explicacion": "Paso 1: Con 6 equipos: C(6, 2) = 6 × 5 ÷ 2 = 15 partidos. Paso 2: Con 12 equipos: C(12, 2) = 12 × 11 ÷ 2 = 66 partidos. Paso 3: 66 ÷ 15 = 4,4: el número de partidos se multiplica por más de 4. Paso 4: La afirmación no es válida.",
+"tip": "No todo lo que crece junto es proporcional: compruébalo con números.",
+"truco": "n(n − 1)/2 crece aproximadamente con el cuadrado de n.",
+"estrategia_icfes": "El ICFES pide validar afirmaciones de proporcionalidad. Calcula los dos casos y compara el cociente; la opción correcta trae los valores exactos.",
+"temas": [
+"combinaciones",
+"crecimiento no proporcional",
+"validación de afirmaciones"
+],
+"gemela": {
+"enunciado": "Si en un torneo «todos contra todos» (un partido por pareja) se pasa de 5 a 10 equipos, ¿qué ocurre con el número de partidos?",
+"opciones": {
+"A": "Se duplica.",
+"B": "Pasa de 10 a 45, más del cuádruple.",
+"C": "Pasa de 10 a 40, exactamente el cuádruple.",
+"D": "Pasa de 20 a 90."
+},
+"correcta": "B",
+"explicacion": "Paso 1: C(5, 2) = 10 y C(10, 2) = 45. Paso 2: 45 ÷ 10 = 4,5: más del cuádruple."
+}
+},
+{
+"id": "P11-MAT-D033",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo con restricciones.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Cuenta arreglos con una restricción empezando por la posición restringida.",
+"contexto": "Con los dígitos 1, 2, 3, 4 y 5, Isabella quiere formar números de tres cifras sin repetir ningún dígito.",
+"enunciado": "¿Cuántos de esos números son pares?",
+"opciones": {
+"A": "60",
+"B": "30",
+"C": "50",
+"D": "24"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ignorar la restricción",
+"porque": "Elegiste 60 porque contaste todos los números de tres cifras distintas (5 × 4 × 3), pares e impares.",
+"pregunta_guia": "¿Qué condición debe cumplir la última cifra de un número par?",
+"aprende": "Un número es par si termina en 2 o en 4: esa casilla solo tiene 2 opciones."
+},
+"B": {
+"error": "Suponer que la mitad son pares",
+"porque": "Elegiste 30 porque dividiste 60 entre 2, suponiendo que hay tantos pares como impares.",
+"pregunta_guia": "Entre 1, 2, 3, 4 y 5, ¿cuántos dígitos son pares y cuántos impares?",
+"aprende": "Solo 2 de los 5 dígitos son pares, así que los pares son 2/5 del total: 24."
+},
+"C": {
+"error": "Permitir repeticiones",
+"porque": "Elegiste 50 porque calculaste 5 × 5 × 2, permitiendo repetir dígitos.",
+"pregunta_guia": "¿El enunciado permite números como 224?",
+"aprende": "Sin repetición, después de fijar la última cifra quedan 4 y luego 3 opciones."
+}
+},
+"explicacion": "Paso 1: Empieza por la casilla con restricción: la cifra de las unidades debe ser 2 o 4 (2 opciones). Paso 2: Centenas: quedan 4 dígitos. Paso 3: Decenas: quedan 3 dígitos. Paso 4: Total = 2 × 4 × 3 = 24 números pares.",
+"tip": "En conteos con condiciones, llena primero la casilla más restringida.",
+"truco": "Restricción primero, el resto después.",
+"estrategia_icfes": "El ICFES agrega una condición (par, mayor que, empieza por) para distinguir a quien cuenta con cuidado. Ubica la casilla restringida y cuenta desde ella.",
+"temas": [
+"principio multiplicativo",
+"conteo con restricciones",
+"permutaciones"
+],
+"gemela": {
+"enunciado": "Con los dígitos 1, 2, 3, 4, 5 y 6, sin repetir, ¿cuántos números de tres cifras son impares?",
+"opciones": {
+"A": "120",
+"B": "60",
+"C": "108",
+"D": "90"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Unidades impares: 1, 3 o 5 (3 opciones). Paso 2: Centenas: 5 opciones; decenas: 4. Paso 3: 3 × 5 × 4 = 60."
+}
+},
+{
+"id": "P11-MAT-D034",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: comparo y contrasto las propiedades de los números racionales y de sus operaciones para justificar procedimientos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica un error en la suma de fracciones dentro de un procedimiento para resolver una ecuación.",
+"contexto": "Manuela gasta 1/4 de su mesada mensual en transporte y 1/3 en comida, y le quedan $50.000. Para hallar su mesada, escribe: Paso 1: 1/4 + 1/3 = 2/7. Paso 2: le queda 1 − 2/7 = 5/7 de la mesada. Paso 3: (5/7)x = 50.000. Paso 4: x = 70.000.",
+"enunciado": "¿En qué paso se equivocó Manuela y cuál es su mesada?",
+"opciones": {
+"A": "En el paso 1, porque 1/4 + 1/3 = 7/12; le queda 5/12 y la mesada es $120.000.",
+"B": "En el paso 2, porque le quedan 2/7 de la mesada; la mesada es $175.000.",
+"C": "En el paso 4, porque x = 50.000 × 5/7; la mesada es cerca de $35.714.",
+"D": "En el paso 1, porque 1/4 + 1/3 = 2/12; le queda 10/12 y la mesada es $60.000."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir lo gastado con lo que queda",
+"porque": "Elegiste B porque probablemente pensaste que 2/7 era lo que le quedaba, sin revisar la suma del paso 1.",
+"pregunta_guia": "¿Cuánto da realmente 1/4 + 1/3? ¿Es correcto 2/7?",
+"aprende": "Para sumar fracciones se busca denominador común: 3/12 + 4/12 = 7/12."
+},
+"C": {
+"error": "Despejar multiplicando en lugar de dividir",
+"porque": "Elegiste C porque probablemente creíste que para despejar x se multiplica por 5/7.",
+"pregunta_guia": "Si la mesada es x, ¿puede ser menor que lo que le sobra ($50.000)?",
+"aprende": "Para despejar (a/b)x = c se divide c entre a/b. Además, el error original está en el paso 1."
+},
+"D": {
+"error": "Sumar numeradores sin ajustar",
+"porque": "Elegiste D porque usaste denominador común 12 pero sumaste los numeradores 1 + 1 sin convertirlos.",
+"pregunta_guia": "¿A cuántos doceavos equivale 1/4? ¿Y 1/3?",
+"aprende": "1/4 = 3/12 y 1/3 = 4/12; la suma es 7/12, no 2/12."
+}
+},
+"explicacion": "Paso 1: Revisa la suma: 1/4 + 1/3 = 3/12 + 4/12 = 7/12 (Manuela sumó numeradores y denominadores: error). Paso 2: Le queda 1 − 7/12 = 5/12 de la mesada. Paso 3: (5/12)x = 50.000, así que x = 50.000 × 12/5 = 120.000. Paso 4: Comprobación: transporte 30.000, comida 40.000; 120.000 − 70.000 = 50.000.",
+"tip": "/detectaerror: el primer paso equivocado es el que hay que señalar, aunque los siguientes estén bien hechos.",
+"truco": "Nunca sumes fracciones «arriba con arriba y abajo con abajo».",
+"estrategia_icfes": "El ICFES muestra procedimientos con un error de operación. Revisa cada paso en orden y comprueba la respuesta final sustituyéndola en la situación.",
+"temas": [
+"suma de fracciones",
+"ecuaciones lineales",
+"presupuesto personal"
+],
+"gemela": {
+"enunciado": "Un hogar gasta 1/2 del ingreso en arriendo y 1/5 en mercado, y le quedan $300.000. ¿Cuál es el ingreso?",
+"opciones": {
+"A": "$1.000.000",
+"B": "$420.000",
+"C": "$90.000",
+"D": "$600.000"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 1/2 + 1/5 = 5/10 + 2/10 = 7/10. Paso 2: Queda 3/10 del ingreso. Paso 3: (3/10)x = 300.000, x = 1.000.000."
+}
+},
+{
+"id": "P11-MAT-D035",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades algebraicas de equivalencia y de orden de los números reales para comprender y crear estrategias que permitan compararlos (intervalos, desigualdades).",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: modelo situaciones de variación con funciones lineales y resuelvo inecuaciones.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Plantea y resuelve una inecuación lineal para comparar dos modelos de costo.",
+"contexto": "Una empresa de telefonía ofrece dos planes mensuales de datos. Plan X: cargo fijo de $25.000 más $2.000 por cada GB consumido. Plan Y: cargo fijo de $40.000 más $500 por cada GB consumido.",
+"enunciado": "¿Para qué consumo mensual de datos el plan Y resulta más económico que el plan X?",
+"opciones": {
+"A": "Para más de 30 GB.",
+"B": "Para más de 7,5 GB.",
+"C": "Para más de 10 GB.",
+"D": "Para más de 6 GB."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Dividir entre una sola tarifa",
+"porque": "Elegiste A porque dividiste la diferencia de cargos fijos (15.000) entre 500, la tarifa del plan Y.",
+"pregunta_guia": "Por cada GB adicional, ¿cuánto se ahorra al usar Y en lugar de X?",
+"aprende": "La ventaja por GB es la diferencia de tarifas: 2.000 − 500 = 1.500."
+},
+"B": {
+"error": "Usar solo la tarifa del plan X",
+"porque": "Elegiste B porque dividiste 15.000 entre 2.000.",
+"pregunta_guia": "¿El plan Y también cobra por GB?",
+"aprende": "Se compara lo que cobra cada plan por GB: el ahorro por GB es 1.500."
+},
+"D": {
+"error": "Sumar las tarifas",
+"porque": "Elegiste D porque dividiste 15.000 entre 2.500 (2.000 + 500).",
+"pregunta_guia": "¿Las tarifas por GB se suman o se restan al comparar los planes?",
+"aprende": "Al pasar todo a un lado de la desigualdad: 2.000g − 500g = 1.500g."
+}
+},
+"explicacion": "Paso 1: Costo X = 25.000 + 2.000g; costo Y = 40.000 + 500g. Paso 2: Y es más económico si 40.000 + 500g < 25.000 + 2.000g. Paso 3: 15.000 < 1.500g. Paso 4: g > 10. Comprobación: con 10 GB ambos cuestan $45.000; con más de 10 GB, Y es más barato.",
+"tip": "Un cargo fijo alto se compensa con una tarifa variable baja solo a partir de cierto consumo.",
+"truco": "Punto de equilibrio = diferencia de fijos ÷ diferencia de tarifas.",
+"estrategia_icfes": "El ICFES compara planes, tarifas y alquileres con funciones lineales. Plantea la desigualdad, halla el punto de equilibrio y verifica con un valor a cada lado.",
+"temas": [
+"inecuaciones lineales",
+"función lineal",
+"punto de equilibrio"
+],
+"gemela": {
+"enunciado": "El gimnasio A cobra $50.000 de inscripción y $8.000 por clase; el gimnasio B cobra $20.000 de inscripción y $11.000 por clase. ¿Para cuántas clases el gimnasio A es más económico?",
+"opciones": {
+"A": "Para más de 10 clases.",
+"B": "Para más de 3,75 clases.",
+"C": "Para más de 2,7 clases.",
+"D": "Para más de 1,6 clases."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 50.000 + 8.000n < 20.000 + 11.000n. Paso 2: 30.000 < 3.000n. Paso 3: n > 10."
+}
+},
+{
+"id": "P11-MAT-D036",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades algebraicas de equivalencia y de orden de los números reales para comparar cantidades y justificar decisiones.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: analizo las relaciones entre las expresiones algebraicas de funciones lineales y la situación que modelan.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una generalización usando un contraejemplo numérico.",
+"contexto": "Una empresa de telefonía ofrece dos planes mensuales de datos. Plan X: cargo fijo de $25.000 más $2.000 por cada GB consumido. Plan Y: cargo fijo de $40.000 más $500 por cada GB consumido.",
+"enunciado": "Andrea afirma: «El plan Y siempre es más caro, porque su cargo fijo es mayor». ¿Es válida su afirmación?",
+"opciones": {
+"A": "Sí, porque $40.000 es mayor que $25.000 y eso decide cuál plan es más caro.",
+"B": "Sí, porque si no se consume ningún GB el plan Y cuesta más que el plan X.",
+"C": "No, porque el plan Y es más barato para cualquier consumo de datos.",
+"D": "No, porque con más de 10 GB el plan Y es más barato; con 20 GB, X cuesta $65.000 y Y $50.000."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ignorar la parte variable",
+"porque": "Elegiste A porque comparaste solo los cargos fijos, sin tener en cuenta el costo por GB.",
+"pregunta_guia": "¿Cuánto cuesta cada plan si se consumen 20 GB?",
+"aprende": "El costo total depende del cargo fijo y de la tarifa por GB."
+},
+"B": {
+"error": "Generalizar desde un solo caso",
+"porque": "Elegiste B porque usaste un caso donde la afirmación se cumple como si probara que se cumple «siempre».",
+"pregunta_guia": "Para probar «siempre», ¿basta un ejemplo? ¿Y para refutarlo?",
+"aprende": "Un caso a favor no demuestra una afirmación general; un solo contraejemplo la refuta."
+},
+"C": {
+"error": "Pasar al extremo contrario",
+"porque": "Elegiste C porque notaste que Y puede ser más barato y generalizaste a todos los consumos.",
+"pregunta_guia": "Con 0 GB, ¿cuál plan es más barato?",
+"aprende": "Y es más barato solo cuando el consumo supera 10 GB."
+}
+},
+"explicacion": "Paso 1: «Siempre» se refuta con un contraejemplo. Paso 2: Con 20 GB: X = 25.000 + 2.000 × 20 = 65.000; Y = 40.000 + 500 × 20 = 50.000. Paso 3: Y es más barato en ese caso, así que la afirmación es falsa. Paso 4: En general, Y es más barato cuando g > 10.",
+"tip": "Desconfía de palabras como «siempre» o «nunca»: busca un contraejemplo.",
+"truco": "Un contraejemplo basta para tumbar un «siempre».",
+"estrategia_icfes": "En Argumentación el ICFES incluye afirmaciones absolutas. La opción correcta suele combinar la conclusión con un dato que la respalda.",
+"temas": [
+"contraejemplos",
+"funciones lineales",
+"comparación de planes"
+],
+"gemela": {
+"enunciado": "Con los mismos planes, para un consumo de 4 GB, ¿cuál plan es más barato y por cuánto?",
+"opciones": {
+"A": "El plan X, por $9.000.",
+"B": "El plan Y, por $9.000.",
+"C": "Cuestan lo mismo.",
+"D": "El plan X, por $15.000."
+},
+"correcta": "A",
+"explicacion": "Paso 1: X = 25.000 + 8.000 = 33.000; Y = 40.000 + 2.000 = 42.000. Paso 2: X es más barato por 42.000 − 33.000 = $9.000."
+}
+},
+{
+"id": "P11-MAT-D037",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta gráficas de funciones lineales en contextos de variación y las relaciona con la situación que modelan.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: analizo las relaciones y propiedades entre las expresiones algebraicas y las gráficas de funciones.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Lee en una gráfica de líneas el punto donde dos funciones toman el mismo valor.",
+"contexto": "Esteban y Sofía ahorran para comprar un portátil. Esteban empezó con $50.000 y ahorra $20.000 cada mes; Sofía empezó sin ahorros y guarda $30.000 cada mes. La gráfica muestra el dinero acumulado por cada uno, en miles de pesos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ahorro acumulado (miles de pesos)",
+"etiquetas": [
+"Mes 0",
+"Mes 1",
+"Mes 2",
+"Mes 3",
+"Mes 4",
+"Mes 5",
+"Mes 6"
+],
+"series": [
+{
+"nombre": "Esteban",
+"datos": [
+50,
+70,
+90,
+110,
+130,
+150,
+170
+]
+},
+{
+"nombre": "Sofía",
+"datos": [
+0,
+30,
+60,
+90,
+120,
+150,
+180
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿En qué mes Esteban y Sofía tienen la misma cantidad de dinero ahorrado?",
+"opciones": {
+"A": "En el mes 2.",
+"B": "En el mes 5.",
+"C": "En el mes 6.",
+"D": "En el mes 4."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Comparar valores de meses distintos",
+"porque": "Elegiste el mes 2 porque viste que Esteban tiene 90 en el mes 2 y Sofía tiene 90, pero en el mes 3.",
+"pregunta_guia": "En el mes 2, ¿cuánto tiene cada uno?",
+"aprende": "Para que tengan lo mismo, los dos valores deben coincidir en el mismo mes."
+},
+"C": {
+"error": "Confundir igualar con superar",
+"porque": "Elegiste el mes 6 porque es cuando Sofía ya tiene más que Esteban.",
+"pregunta_guia": "¿La pregunta es cuándo Sofía supera a Esteban o cuándo tienen lo mismo?",
+"aprende": "El punto de corte de las líneas indica igualdad: mes 5, con 150 mil cada uno."
+},
+"D": {
+"error": "Aproximar en lugar de leer",
+"porque": "Elegiste el mes 4 porque los valores (130 y 120) están cerca.",
+"pregunta_guia": "¿130 y 120 son iguales?",
+"aprende": "Lee los valores exactos; la igualdad se da en el mes 5."
+}
+},
+"explicacion": "Paso 1: Esteban: 50 + 20m (miles). Sofía: 30m. Paso 2: En la gráfica, las líneas se cruzan donde ambas valen 150. Paso 3: Algebraicamente: 50 + 20m = 30m, entonces 10m = 50 y m = 5. Paso 4: En el mes 5 ambos tienen $150.000.",
+"tip": "El cruce de dos líneas en una gráfica significa «mismo valor en el mismo momento».",
+"truco": "Igualdad de dos funciones = punto de corte de sus gráficas.",
+"estrategia_icfes": "El ICFES pide leer puntos de corte en gráficas de ahorro, costos o distancias. Ubica el valor en el eje horizontal donde los dos valores coinciden y confírmalo con la expresión algebraica.",
+"temas": [
+"función lineal",
+"lectura de gráficas",
+"sistemas de ecuaciones"
+],
+"gemela": {
+"enunciado": "Según la gráfica, ¿cuánto dinero tiene ahorrado Esteban en el mes 3?",
+"opciones": {
+"A": "$90.000",
+"B": "$110.000",
+"C": "$130.000",
+"D": "$60.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: En el mes 3 la línea de Esteban marca 110. Paso 2: Comprobación: 50 + 20 × 3 = 110 mil = $110.000."
+}
+},
+{
+"id": "P11-MAT-D038",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta gráficas de funciones lineales en contextos de variación y justifica conclusiones a partir de ellas.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: analizo las relaciones entre la pendiente, el valor inicial y la gráfica de funciones lineales.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una afirmación que ignora el valor inicial al comparar dos funciones lineales.",
+"contexto": "Esteban y Sofía ahorran para comprar un portátil. Esteban empezó con $50.000 y ahorra $20.000 cada mes; Sofía empezó sin ahorros y guarda $30.000 cada mes. La gráfica muestra el dinero acumulado por cada uno, en miles de pesos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ahorro acumulado (miles de pesos)",
+"etiquetas": [
+"Mes 0",
+"Mes 1",
+"Mes 2",
+"Mes 3",
+"Mes 4",
+"Mes 5",
+"Mes 6"
+],
+"series": [
+{
+"nombre": "Esteban",
+"datos": [
+50,
+70,
+90,
+110,
+130,
+150,
+170
+]
+},
+{
+"nombre": "Sofía",
+"datos": [
+0,
+30,
+60,
+90,
+120,
+150,
+180
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "Sofía afirma: «Como ahorro más cada mes que Esteban, desde el comienzo siempre he tenido más dinero que él». ¿Es válida su afirmación?",
+"opciones": {
+"A": "No, porque Esteban empezó con $50.000 y Sofía solo lo supera después del mes 5.",
+"B": "Sí, porque $30.000 mensuales es más que $20.000 mensuales.",
+"C": "No, porque Esteban siempre tendrá más dinero que Sofía.",
+"D": "Sí, porque en el mes 6 Sofía tiene $180.000 y Esteban $170.000."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Ignorar el valor inicial",
+"porque": "Elegiste B porque comparaste solo las cuotas mensuales (las pendientes) y olvidaste el ahorro inicial.",
+"pregunta_guia": "En el mes 0, ¿quién tenía más dinero?",
+"aprende": "El total depende del valor inicial y de la cuota: Esteban arrancó con 50 mil de ventaja."
+},
+"C": {
+"error": "Ignorar la pendiente",
+"porque": "Elegiste C porque te fijaste en que Esteban empezó con más, sin ver que Sofía ahorra más rápido.",
+"pregunta_guia": "¿Qué pasa en el mes 6 según la gráfica?",
+"aprende": "La línea con mayor pendiente termina superando a la otra: desde el mes 6 Sofía tiene más."
+},
+"D": {
+"error": "Generalizar desde un caso",
+"porque": "Elegiste D porque un mes en que Sofía tiene más no prueba que «siempre» haya tenido más.",
+"pregunta_guia": "¿Qué dice la gráfica en los meses 0 a 4?",
+"aprende": "Para validar «siempre» hay que revisar todos los meses; en los primeros, Esteban tiene más."
+}
+},
+"explicacion": "Paso 1: En el mes 0: Esteban 50, Sofía 0. Paso 2: Del mes 0 al 4, Esteban tiene más (130 frente a 120 en el mes 4). Paso 3: En el mes 5 son iguales (150) y desde el mes 6 Sofía tiene más. Paso 4: La afirmación «desde el comienzo siempre» es falsa.",
+"tip": "En funciones lineales, el valor inicial dice quién arranca adelante y la pendiente dice quién avanza más rápido.",
+"truco": "Arranque (intercepto) + velocidad (pendiente) = posición.",
+"estrategia_icfes": "El ICFES pregunta por afirmaciones sobre gráficas que solo son ciertas en un tramo. Revisa toda la gráfica antes de aceptar un «siempre».",
+"temas": [
+"pendiente e intercepto",
+"función lineal",
+"validación de afirmaciones"
+],
+"gemela": {
+"enunciado": "Si los dos siguen ahorrando al mismo ritmo, ¿en qué mes tendrá Sofía exactamente $40.000 más que Esteban?",
+"opciones": {
+"A": "En el mes 9.",
+"B": "En el mes 4.",
+"C": "En el mes 6.",
+"D": "En el mes 13."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Diferencia (miles): 30m − (50 + 20m) = 10m − 50. Paso 2: 10m − 50 = 40, entonces m = 9."
+}
+},
+{
+"id": "P11-MAT-D039",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de crecimiento con funciones exponenciales, como el interés compuesto.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: modelo situaciones de variación con funciones exponenciales y diferencio crecimiento lineal y exponencial.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica que un procedimiento aplicó interés simple cuando la situación es de interés compuesto.",
+"contexto": "Diana pide un préstamo de $2.000.000 con un interés compuesto del 2 % mensual y lo pagará en un solo pago al cabo de 3 meses. Ella calcula: Paso 1: interés de un mes = 2 % de 2.000.000 = $40.000. Paso 2: interés de los 3 meses = 3 × 40.000 = $120.000. Paso 3: total a pagar = 2.000.000 + 120.000 = $2.120.000.",
+"enunciado": "¿Qué se puede afirmar sobre el procedimiento de Diana?",
+"opciones": {
+"A": "Es correcto: con interés compuesto el total a pagar es $2.120.000.",
+"B": "Tiene un error en el paso 1: el interés del primer mes es el 2 % de $2.120.000.",
+"C": "Tiene un error en el paso 2: aplicó interés simple; el total es 2.000.000 × 1,02³ = $2.122.416.",
+"D": "Tiene un error en el paso 2: el interés debía ser 2.000.000 × 0,02³, es decir, $16."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir interés simple con compuesto",
+"porque": "Elegiste A porque probablemente creíste que el interés de cada mes siempre es el mismo.",
+"pregunta_guia": "En el segundo mes, ¿el 2 % se calcula sobre 2.000.000 o sobre 2.040.000?",
+"aprende": "En el compuesto el interés de cada mes se suma al capital y también genera interés."
+},
+"B": {
+"error": "Usar como base el total final",
+"porque": "Elegiste B porque pensaste que el interés del primer mes se calcula sobre el total a pagar.",
+"pregunta_guia": "Al comenzar el primer mes, ¿cuánto dinero se debe?",
+"aprende": "El primer mes la base es el capital prestado: 2 % de 2.000.000 = 40.000; el paso 1 es correcto."
+},
+"D": {
+"error": "Elevar la tasa en lugar del factor",
+"porque": "Elegiste D porque elevaste al cubo la tasa (0,02) en vez del factor de crecimiento (1,02).",
+"pregunta_guia": "Si cada mes la deuda se multiplica por 1,02, ¿qué se eleva a la 3?",
+"aprende": "Monto = C × (1 + i)ⁿ; se eleva (1 + i), no i."
+}
+},
+"explicacion": "Paso 1: Mes 1: 2.000.000 × 1,02 = 2.040.000 (el paso 1 de Diana es correcto). Paso 2: Mes 2: 2.040.000 × 1,02 = 2.080.800. Paso 3: Mes 3: 2.080.800 × 1,02 = 2.122.416. Paso 4: Diana multiplicó 3 × 40.000, que es interés simple; el error está en el paso 2 y el total correcto es $2.122.416.",
+"tip": "Interés compuesto: cada periodo se multiplica por (1 + i); interés simple: se suma siempre lo mismo.",
+"truco": "M = C(1 + i)ⁿ; la diferencia con el simple crece con el tiempo.",
+"estrategia_icfes": "El ICFES contrasta interés simple y compuesto en procedimientos ajenos. Lee el tipo de interés del enunciado y verifica si el procedimiento lo respeta.",
+"temas": [
+"interés compuesto",
+"interés simple",
+"detección de errores"
+],
+"gemela": {
+"enunciado": "Se invierte $1.000.000 al 10 % anual compuesto durante 2 años. Un estudiante dice que al final habrá $1.200.000. ¿Cuál es el valor correcto?",
+"opciones": {
+"A": "$1.200.000",
+"B": "$1.210.000",
+"C": "$1.010.000",
+"D": "$1.100.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Año 1: 1.000.000 × 1,1 = 1.100.000. Paso 2: Año 2: 1.100.000 × 1,1 = 1.210.000."
+}
+},
+{
+"id": "P11-MAT-D040",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de variación con funciones y relaciona sus representaciones verbal y algebraica.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: modelo situaciones de variación con funciones lineales y traduzco entre representaciones.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Traduce una regla de cobro verbal a una expresión algebraica lineal.",
+"contexto": "Una empresa de transporte de Cali cobra una tarifa hipotética de $4.500 fijos al iniciar el servicio más $900 por cada kilómetro recorrido.",
+"enunciado": "¿Cuál expresión representa el costo C, en pesos, de un servicio de d kilómetros?",
+"opciones": {
+"A": "C = (4.500 + 900)d",
+"B": "C = 900 + 4.500d",
+"C": "C = 4.500d + 900d",
+"D": "C = 4.500 + 900d"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Multiplicar también el valor fijo",
+"porque": "Elegiste A porque multiplicaste por d tanto el cobro fijo como el cobro por kilómetro.",
+"pregunta_guia": "Si el recorrido es de 2 km, ¿se pagan dos veces los $4.500?",
+"aprende": "El valor fijo se cobra una sola vez: no se multiplica por d."
+},
+"B": {
+"error": "Intercambiar los coeficientes",
+"porque": "Elegiste B porque confundiste cuál valor es fijo y cuál depende de los kilómetros.",
+"pregunta_guia": "¿Qué valor se cobra por cada kilómetro?",
+"aprende": "Lo que va multiplicado por d es la tarifa por kilómetro: 900d."
+},
+"C": {
+"error": "Convertir todo en variable",
+"porque": "Elegiste C porque pensaste que cada número debe ir acompañado de la variable.",
+"pregunta_guia": "Si d = 0, ¿cuánto se paga según la tarifa? ¿Y según tu expresión?",
+"aprende": "Con d = 0 se pagan $4.500; la expresión debe dar ese valor inicial."
+}
+},
+"explicacion": "Paso 1: El cobro fijo ($4.500) no depende de la distancia: es el término independiente. Paso 2: El cobro variable es $900 por kilómetro: 900d. Paso 3: C = 4.500 + 900d. Paso 4: Comprobación: para 10 km, C = 4.500 + 9.000 = $13.500.",
+"tip": "En un modelo lineal, el término independiente es lo fijo y el coeficiente de la variable es la tarifa.",
+"truco": "Prueba la expresión con d = 0 y d = 1: debe dar 4.500 y 5.400.",
+"estrategia_icfes": "El ICFES pide elegir la expresión que modela una situación. Sustituye valores sencillos en cada opción y compáralos con el enunciado.",
+"temas": [
+"función lineal",
+"modelación algebraica",
+"término independiente y pendiente"
+],
+"gemela": {
+"enunciado": "Un plomero cobra $30.000 por la visita más $25.000 por cada hora de trabajo. ¿Qué expresión da el costo C por h horas?",
+"opciones": {
+"A": "C = 55.000h",
+"B": "C = 30.000 + 25.000h",
+"C": "C = 25.000 + 30.000h",
+"D": "C = 30.000h + 25.000h"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Valor fijo: 30.000. Paso 2: Variable: 25.000 por hora. Paso 3: C = 30.000 + 25.000h."
+}
+},
+{
+"id": "P11-MAT-D041",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y compara medidas de tendencia central y argumenta cuál es más adecuada según la distribución de los datos.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso comprensivamente algunas medidas de centralización y justifico o refuto inferencias basadas en ellas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica por qué la mediana representa mejor un conjunto de datos con un valor atípico.",
+"contexto": "Una microempresa de Yumbo tiene 10 empleados. Sus salarios mensuales se muestran en la tabla. En un aviso para atraer personal, el gerente escribe: «El salario típico en nuestra empresa es de $2.220.000».",
+"tabla": {
+"titulo": "Salarios mensuales de la microempresa",
+"cols": [
+"Salario mensual",
+"Número de empleados"
+],
+"filas": [
+[
+"$1.400.000",
+"6"
+],
+[
+"$1.600.000",
+"3"
+],
+[
+"$9.000.000 (gerente)",
+"1"
+]
+]
+},
+"enunciado": "¿Es adecuada la afirmación del gerente?",
+"opciones": {
+"A": "Sí, porque $2.220.000 es el promedio de los salarios de los 10 empleados.",
+"B": "No, porque el salario del gerente eleva la media; la mediana, $1.400.000, representa mejor a la mayoría.",
+"C": "No, porque el salario típico es la moda, que en este caso es $1.600.000.",
+"D": "Sí, porque el promedio siempre es la mejor medida para describir el valor típico."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir cálculo correcto con medida adecuada",
+"porque": "Elegiste A porque el promedio sí es $2.220.000, pero no analizaste si representa a la mayoría.",
+"pregunta_guia": "¿Cuántos empleados ganan $2.220.000 o más?",
+"aprende": "Solo 1 de 10 gana más que la media: un valor atípico la distorsiona."
+},
+"C": {
+"error": "Identificar mal la moda",
+"porque": "Elegiste C porque probablemente pensaste que la moda era el valor intermedio de la tabla.",
+"pregunta_guia": "¿Cuál salario tiene más empleados?",
+"aprende": "La moda es el valor más frecuente: $1.400.000 (6 empleados)."
+},
+"D": {
+"error": "Creer que la media sirve en todos los casos",
+"porque": "Elegiste D porque probablemente aprendiste que el promedio es «la» medida central.",
+"pregunta_guia": "¿Qué le pasa al promedio cuando hay un dato muy alejado de los demás?",
+"aprende": "Con datos atípicos la mediana es más representativa que la media."
+}
+},
+"explicacion": "Paso 1: Media: (6 × 1.400.000 + 3 × 1.600.000 + 9.000.000) ÷ 10 = 22.200.000 ÷ 10 = $2.220.000. Paso 2: Al ordenar los 10 salarios, los lugares 5 y 6 son $1.400.000: la mediana es $1.400.000. Paso 3: Solo el gerente gana más que la media; el valor atípico la infla. Paso 4: La afirmación no es adecuada; la mediana (o la moda, $1.400.000) describe mejor el salario típico.",
+"tip": "Cuando hay un dato muy grande o muy pequeño, compara media y mediana antes de concluir.",
+"truco": "Media sensible, mediana resistente.",
+"estrategia_icfes": "El ICFES pregunta si una medida describe bien unos datos, no solo si está bien calculada. Revisa si hay valores atípicos y cuántos datos quedan cerca de la medida propuesta.",
+"temas": [
+"media y mediana",
+"datos atípicos",
+"estadística financiera"
+],
+"gemela": {
+"enunciado": "Los tiempos de desplazamiento de 5 estudiantes son 10, 12, 11, 13 y 60 minutos. ¿Qué valor representa mejor el tiempo típico?",
+"opciones": {
+"A": "La media, 21,2 minutos.",
+"B": "La mediana, 12 minutos.",
+"C": "El rango, 50 minutos.",
+"D": "El valor máximo, 60 minutos."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Ordenados: 10, 11, 12, 13, 60; mediana = 12. Paso 2: La media (106 ÷ 5 = 21,2) está inflada por el 60; la mediana representa mejor a la mayoría."
+}
+},
+{
+"id": "P11-MAT-D042",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos compuestos (unión e intersección) y argumenta el procedimiento usado.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de probabilidad, incluidos eventos no excluyentes.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el doble conteo de la intersección al calcular la probabilidad de una unión.",
+"contexto": "En un curso de 40 estudiantes, 18 juegan fútbol, 15 juegan baloncesto y 7 juegan los dos deportes. Se elige un estudiante al azar. Samuel calcula la probabilidad de que juegue fútbol o baloncesto así: 18/40 + 15/40 = 33/40.",
+"enunciado": "¿Es correcto el cálculo de Samuel?",
+"opciones": {
+"A": "No, porque contó dos veces a los 7 que juegan ambos; la probabilidad es 26/40 = 0,65.",
+"B": "Sí, porque la palabra «o» indica que se suman las probabilidades de los dos eventos.",
+"C": "No, porque las probabilidades se debían multiplicar: (18/40) × (15/40).",
+"D": "No, porque hay que restar dos veces a los 7 que juegan ambos; la probabilidad es 19/40."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Sumar eventos no excluyentes",
+"porque": "Elegiste B porque aplicaste la regla de la suma sin verificar si los eventos se pueden dar a la vez.",
+"pregunta_guia": "¿Un estudiante puede jugar fútbol y baloncesto al mismo tiempo?",
+"aprende": "Si los eventos no son excluyentes: P(A o B) = P(A) + P(B) − P(A y B)."
+},
+"C": {
+"error": "Confundir «o» con «y»",
+"porque": "Elegiste C porque usaste la regla del producto, que corresponde a «y» con eventos independientes.",
+"pregunta_guia": "¿Se pide que juegue ambos deportes o al menos uno?",
+"aprende": "«O» es unión: se suma y se resta la intersección."
+},
+"D": {
+"error": "Restar de más la intersección",
+"porque": "Elegiste D porque pensaste que los 7 aparecen en cada grupo y hay que quitarlos de ambos.",
+"pregunta_guia": "Después de sumar 18 + 15, ¿cuántas veces quedaron contados los 7?",
+"aprende": "Quedaron contados 2 veces; se restan una vez para contarlos exactamente una."
+}
+},
+"explicacion": "Paso 1: Los 7 que juegan ambos están incluidos en los 18 y en los 15. Paso 2: Al sumar 18 + 15 = 33 se cuentan dos veces. Paso 3: Estudiantes que juegan al menos uno: 18 + 15 − 7 = 26. Paso 4: P = 26/40 = 0,65. Samuel no restó la intersección.",
+"tip": "Un diagrama de Venn evita el doble conteo: llena primero la intersección.",
+"truco": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B).",
+"estrategia_icfes": "El ICFES presenta grupos que se traslapan. Busca la palabra «ambos» o «los dos»: es la señal de que hay intersección que restar.",
+"temas": [
+"unión de eventos",
+"diagramas de Venn",
+"eventos no excluyentes"
+],
+"gemela": {
+"enunciado": "De 30 personas, 12 toman café, 10 toman té y 4 toman ambos. ¿Cuál es la probabilidad de que una persona elegida al azar tome café o té?",
+"opciones": {
+"A": "22/30",
+"B": "3/5",
+"C": "14/30",
+"D": "4/30"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 12 + 10 − 4 = 18 personas. Paso 2: P = 18/30 = 3/5."
+}
+},
+{
+"id": "P11-MAT-D043",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa la probabilidad condicional para modelar situaciones y reconocer si dos eventos son o no independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Transforma porcentajes condicionales (diagrama de árbol) en frecuencias de una tabla de doble entrada.",
+"contexto": "En un colegio de Cali, el 60 % de los estudiantes de grado 11 asiste al curso preicfes. De quienes asisten, el 70 % supera 300 puntos en el simulacro; de quienes no asisten, el 40 % supera 300 puntos.",
+"enunciado": "Si el grado 11 tiene 200 estudiantes, ¿cuál distribución representa correctamente la situación?",
+"opciones": {
+"A": "Asisten y superan: 70; asisten y no superan: 50; no asisten y superan: 40; no asisten y no superan: 40.",
+"B": "Asisten y superan: 120; asisten y no superan: 80; no asisten y superan: 70; no asisten y no superan: 40.",
+"C": "Asisten y superan: 84; asisten y no superan: 36; no asisten y superan: 32; no asisten y no superan: 48.",
+"D": "Asisten y superan: 84; asisten y no superan: 36; no asisten y superan: 48; no asisten y no superan: 32."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar los porcentajes como cantidades",
+"porque": "Elegiste A porque tomaste el 70 % y el 40 % como números de estudiantes, sin aplicarlos a cada grupo.",
+"pregunta_guia": "¿El 70 % se calcula sobre los 200 estudiantes o sobre los que asisten?",
+"aprende": "Primero se halla cada grupo (120 y 80) y luego se aplica el porcentaje condicional a cada uno."
+},
+"B": {
+"error": "Mezclar totales con frecuencias de celda",
+"porque": "Elegiste B porque pusiste los totales de asistencia (120 y 80) donde van las celdas de la tabla.",
+"pregunta_guia": "¿Suman 200 las cuatro cantidades de esta opción?",
+"aprende": "Las cuatro celdas deben sumar 200 y cada par debe sumar el total de su grupo."
+},
+"D": {
+"error": "Aplicar el porcentaje al grupo contrario",
+"porque": "Elegiste D porque calculaste bien los que asisten, pero en los que no asisten usaste 60 % para «superan».",
+"pregunta_guia": "De los 80 que no asisten, ¿qué porcentaje supera 300?",
+"aprende": "40 % de 80 = 32 superan y 48 no superan."
+}
+},
+"explicacion": "Paso 1: Asisten: 60 % de 200 = 120; no asisten: 80. Paso 2: Asisten y superan: 70 % de 120 = 84; asisten y no superan: 36. Paso 3: No asisten y superan: 40 % de 80 = 32; no asisten y no superan: 48. Paso 4: Comprobación: 84 + 36 + 32 + 48 = 200.",
+"tip": "Un diagrama de árbol se convierte en tabla multiplicando por un total conveniente (100, 200, 1.000).",
+"truco": "Truco de los 1.000 (o 200): pasa los porcentajes a personas y la probabilidad se vuelve un conteo.",
+"estrategia_icfes": "El ICFES usa porcentajes condicionales encadenados. Representa la situación con un árbol o una tabla de frecuencias antes de responder.",
+"temas": [
+"diagrama de árbol",
+"tablas de doble entrada",
+"probabilidad condicional"
+],
+"gemela": {
+"enunciado": "De 100 estudiantes, el 30 % llega en bus. De los que llegan en bus, el 50 % llega tarde; de los demás, el 10 % llega tarde. ¿Cuántos estudiantes llegan tarde en total?",
+"opciones": {
+"A": "60",
+"B": "22",
+"C": "15",
+"D": "40"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Bus: 30; tarde: 50 % de 30 = 15. Paso 2: Sin bus: 70; tarde: 10 % de 70 = 7. Paso 3: Total tarde: 15 + 7 = 22."
+}
+},
+{
+"id": "P11-MAT-D044",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa la probabilidad condicional para modelar situaciones y reconocer si dos eventos son o no independientes.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula una probabilidad condicional inversa a partir de la probabilidad total.",
+"contexto": "En un colegio de Cali, el 60 % de los estudiantes de grado 11 asiste al curso preicfes. De quienes asisten, el 70 % supera 300 puntos en el simulacro; de quienes no asisten, el 40 % supera 300 puntos.",
+"enunciado": "Se elige al azar un estudiante que superó 300 puntos. ¿Cuál es, aproximadamente, la probabilidad de que haya asistido al preicfes?",
+"opciones": {
+"A": "70 %",
+"B": "72 %",
+"C": "42 %",
+"D": "58 %"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Invertir la condición",
+"porque": "Elegiste 70 % porque usaste P(supera | asiste), que es un dato del enunciado, en lugar de P(asiste | supera).",
+"pregunta_guia": "¿Qué se sabe del estudiante elegido: que asistió o que superó 300?",
+"aprende": "El total de referencia son todos los que superan 300 (asistan o no)."
+},
+"C": {
+"error": "Calcular la conjunta",
+"porque": "Elegiste 42 % porque calculaste P(asiste y supera) = 0,6 × 0,7, sin dividir entre los que superan.",
+"pregunta_guia": "¿Ese 42 % es de todos los estudiantes o solo de los que superaron 300?",
+"aprende": "P(asiste | supera) = 0,42 ÷ 0,58."
+},
+"D": {
+"error": "Calcular la probabilidad total",
+"porque": "Elegiste 58 % porque calculaste la probabilidad de superar 300 y te detuviste ahí.",
+"pregunta_guia": "¿La pregunta es cuántos superan o cuántos de los que superan asistieron?",
+"aprende": "El 58 % es el denominador; falta calcular qué parte de él corresponde a los que asistieron."
+}
+},
+"explicacion": "Paso 1: P(asiste y supera) = 0,60 × 0,70 = 0,42. Paso 2: P(no asiste y supera) = 0,40 × 0,40 = 0,16. Paso 3: P(supera) = 0,42 + 0,16 = 0,58. Paso 4: P(asiste | supera) = 0,42 ÷ 0,58 ≈ 0,724 ≈ 72 %. Con 200 estudiantes: 84 de los 116 que superan asistieron (84/116 ≈ 72 %).",
+"tip": "Para invertir una condicional, primero calcula el total de la nueva condición.",
+"truco": "Rama que me interesa ÷ suma de todas las ramas que cumplen la condición.",
+"estrategia_icfes": "El ICFES pregunta condicionales «al revés» de como se dan los datos. Construye el árbol completo y divide la rama favorable entre la suma de ramas que cumplen la condición.",
+"temas": [
+"probabilidad condicional",
+"probabilidad total",
+"diagrama de árbol"
+],
+"gemela": {
+"enunciado": "El 60 % de un curso usa una app de estudio. De quienes la usan, el 50 % aprueba; de quienes no la usan, el 25 % aprueba. Si un estudiante aprobó, ¿cuál es la probabilidad de que haya usado la app?",
+"opciones": {
+"A": "50 %",
+"B": "75 %",
+"C": "30 %",
+"D": "40 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Usa y aprueba: 0,6 × 0,5 = 0,30; no usa y aprueba: 0,4 × 0,25 = 0,10. Paso 2: P(aprueba) = 0,40. Paso 3: 0,30 ÷ 0,40 = 0,75 = 75 %."
+}
+},
+{
+"id": "P11-MAT-D045",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y resolver problemas en contextos productivos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° y 10°–11°: identifico relaciones de proporcionalidad directa e inversa entre varias magnitudes y las uso para resolver problemas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Resuelve una regla de tres compuesta identificando qué magnitudes son directas e inversas respecto al tiempo.",
+"contexto": "En una empresa de empaques de Yumbo, 5 máquinas iguales empacan 1.200 cajas en 8 horas. Para un pedido urgente solo hay 4 de esas máquinas disponibles y se deben empacar 1.800 cajas.",
+"enunciado": "Trabajando al mismo ritmo, ¿cuántas horas necesitan las 4 máquinas para empacar las 1.800 cajas?",
+"opciones": {
+"A": "9,6 horas",
+"B": "6,7 horas",
+"C": "15 horas",
+"D": "12 horas"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Tratar máquinas y tiempo como directas",
+"porque": "Elegiste 9,6 horas porque multiplicaste 8 × (4/5) × (1.800/1.200), como si con menos máquinas se tardara menos.",
+"pregunta_guia": "Si hay menos máquinas, ¿el trabajo tarda más o menos?",
+"aprende": "Máquinas y tiempo son inversas: el factor es 5/4, no 4/5."
+},
+"B": {
+"error": "Tratar cajas y tiempo como inversas",
+"porque": "Elegiste 6,7 horas porque usaste el factor 1.200/1.800, como si más cajas requirieran menos tiempo.",
+"pregunta_guia": "Si hay más cajas por empacar, ¿se necesita más o menos tiempo?",
+"aprende": "Cajas y tiempo son directas: el factor es 1.800/1.200 = 1,5."
+},
+"D": {
+"error": "Omitir una magnitud",
+"porque": "Elegiste 12 horas porque ajustaste por las cajas (8 × 1,5) pero olvidaste que hay menos máquinas.",
+"pregunta_guia": "¿Cuántas magnitudes cambian respecto a la situación inicial?",
+"aprende": "Cambian las cajas y las máquinas: hay que ajustar por ambas."
+}
+},
+"explicacion": "Paso 1: Rendimiento: 1.200 cajas ÷ (5 máquinas × 8 h) = 30 cajas por máquina-hora. Paso 2: Con 4 máquinas: 4 × 30 = 120 cajas por hora. Paso 3: Tiempo: 1.800 ÷ 120 = 15 horas. Paso 4: Comprobación con factores: 8 × (5/4) × (1.800/1.200) = 8 × 1,25 × 1,5 = 15.",
+"tip": "En la regla de tres compuesta, compara cada magnitud con la incógnita por separado: ¿directa o inversa?",
+"truco": "Reduce a «una máquina en una hora» y luego reconstruye lo que piden.",
+"estrategia_icfes": "El ICFES usa situaciones productivas con varias magnitudes. Calcula el rendimiento unitario; así evitas confundir relaciones directas e inversas.",
+"temas": [
+"regla de tres compuesta",
+"proporcionalidad inversa",
+"rendimiento unitario"
+],
+"gemela": {
+"enunciado": "Seis obreros construyen 30 m de muro en 5 días. ¿Cuántos días necesitan 10 obreros para construir 80 m de muro al mismo ritmo?",
+"opciones": {
+"A": "8 días",
+"B": "13,3 días",
+"C": "22,2 días",
+"D": "3 días"
+},
+"correcta": "A",
+"explicacion": "Paso 1: Rendimiento: 30 ÷ (6 × 5) = 1 m por obrero-día. Paso 2: 10 obreros hacen 10 m por día. Paso 3: 80 ÷ 10 = 8 días."
+}
+},
+{
+"id": "P11-MAT-D046",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de variación y justifica cuándo un modelo es adecuado para describir un fenómeno.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11°: analizo la pertinencia de modelos de variación (proporcional, lineal, no lineal) para describir situaciones.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta el uso de una regla de tres en una situación cuyas magnitudes no son proporcionales.",
+"contexto": "Simón tiene un sobrino de 5 años que mide 110 cm. Simón razona: «Si a los 5 años mide 110 cm, a los 10 años medirá el doble, es decir, 220 cm».",
+"enunciado": "¿Es válido el razonamiento de Simón?",
+"opciones": {
+"A": "Sí, porque si la edad se duplica, la estatura también se duplica.",
+"B": "No, porque la estatura no es proporcional a la edad: al nacer no se mide 0 cm y el crecimiento se desacelera.",
+"C": "Sí, porque los niños crecen exactamente la misma cantidad de centímetros cada año.",
+"D": "No, porque a los 10 años medirá el triple, es decir, 330 cm."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Aplicar proporcionalidad sin verificarla",
+"porque": "Elegiste A porque usaste una regla de tres sin preguntarte si las magnitudes son proporcionales.",
+"pregunta_guia": "Si fuera proporcional, ¿cuánto mediría un bebé de 0 años? ¿Y una persona de 40 años?",
+"aprende": "Para usar regla de tres, el cociente estatura ÷ edad debe ser constante, y aquí no lo es."
+},
+"C": {
+"error": "Confundir crecimiento constante con proporcionalidad",
+"porque": "Elegiste C porque pensaste que crecer lo mismo cada año implica duplicar al doble de edad.",
+"pregunta_guia": "Aun si creciera lo mismo cada año, ¿el valor inicial al nacer sería 0 cm?",
+"aprende": "Un crecimiento constante con valor inicial es lineal, no proporcional; y además el crecimiento real se desacelera."
+},
+"D": {
+"error": "Usar un factor sin justificación",
+"porque": "Elegiste D porque rechazaste el doble pero propusiste otro factor sin base.",
+"pregunta_guia": "¿Hay alguna razón para multiplicar por 3?",
+"aprende": "El problema no es el factor elegido, sino que el modelo proporcional no sirve aquí."
+}
+},
+"explicacion": "Paso 1: Una regla de tres directa exige que estatura ÷ edad sea constante. Paso 2: Al nacer (0 años) una persona ya mide alrededor de 50 cm, así que la relación no pasa por el origen. Paso 3: Además, el crecimiento es más rápido en los primeros años y luego se desacelera. Paso 4: El modelo proporcional no es adecuado y el razonamiento no es válido.",
+"tip": "Antes de usar una regla de tres, pregúntate si tiene sentido que al duplicar una magnitud se duplique la otra.",
+"truco": "Prueba del cero y del extremo: si en 0 o en valores grandes el resultado es absurdo, no es proporcional.",
+"estrategia_icfes": "El ICFES evalúa si sabes cuándo NO aplicar un modelo. Revisa si la situación real cumple las condiciones del modelo antes de calcular.",
+"temas": [
+"proporcionalidad",
+"validez de modelos",
+"variación no lineal"
+],
+"gemela": {
+"enunciado": "¿En cuál situación es razonable usar una regla de tres directa?",
+"opciones": {
+"A": "Edad y estatura de una persona.",
+"B": "Número de cuadernos iguales y precio total, sin descuentos.",
+"C": "Edad y peso de un perro.",
+"D": "Horas de estudio y puntaje exacto en el examen."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Solo en B el cociente precio ÷ cuadernos es constante (el precio unitario). Paso 2: En las demás no hay proporcionalidad garantizada."
+}
+},
+{
+"id": "P11-MAT-D047",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y usa medidas de tendencia central para resolver problemas y analizar cómo cambian al agregar datos.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso comprensivamente algunas medidas de centralización.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Usa la relación suma = promedio × número de datos para hallar un dato desconocido.",
+"contexto": "En Química, el promedio de las 5 primeras notas de Juliana es 3,8. Después de presentar un sexto quiz, su promedio de las 6 notas sube a 4,0.",
+"enunciado": "¿Qué nota sacó Juliana en el sexto quiz?",
+"opciones": {
+"A": "4,2",
+"B": "0,2",
+"C": "4,0",
+"D": "5,0"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Razonamiento aditivo sobre el promedio",
+"porque": "Elegiste 4,2 porque probablemente pensaste que si el promedio subió 0,2, la nota nueva está 0,2 por encima del nuevo promedio.",
+"pregunta_guia": "¿Cuántos puntos en total suman las 5 notas? ¿Y cuánto deben sumar las 6?",
+"aprende": "Trabaja con sumas: 6 × 4,0 − 5 × 3,8."
+},
+"B": {
+"error": "Confundir la nota con la diferencia de promedios",
+"porque": "Elegiste 0,2 porque calculaste cuánto subió el promedio, no la nota.",
+"pregunta_guia": "¿Una nota de 0,2 haría subir o bajar el promedio?",
+"aprende": "Para que el promedio suba, la nota nueva debe ser mayor que el promedio anterior."
+},
+"C": {
+"error": "Suponer que la nota nueva es el nuevo promedio",
+"porque": "Elegiste 4,0 porque pensaste que la nota agregada coincide con el nuevo promedio.",
+"pregunta_guia": "Si agregas un 4,0 a notas que promedian 3,8, ¿el promedio llega a 4,0?",
+"aprende": "Para subir el promedio hasta 4,0, la nueva nota debe compensar a las anteriores: 5,0."
+}
+},
+"explicacion": "Paso 1: Suma de las 5 notas: 5 × 3,8 = 19,0. Paso 2: Suma necesaria de las 6 notas: 6 × 4,0 = 24,0. Paso 3: Sexta nota: 24,0 − 19,0 = 5,0. Paso 4: Comprobación: (19 + 5) ÷ 6 = 4,0.",
+"tip": "Cuando cambia un promedio, piensa en sumas totales, no en promedios.",
+"truco": "Suma = promedio × cantidad.",
+"estrategia_icfes": "El ICFES pregunta por datos faltantes a partir de promedios. Convierte promedios en sumas, resta y verifica con la definición de promedio.",
+"temas": [
+"media aritmética",
+"suma de datos",
+"ecuaciones"
+],
+"gemela": {
+"enunciado": "Un basquetbolista promedió 15 puntos en 4 partidos. Tras el quinto partido su promedio es 16. ¿Cuántos puntos anotó en el quinto partido?",
+"opciones": {
+"A": "17",
+"B": "20",
+"C": "16",
+"D": "1"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Suma inicial: 4 × 15 = 60. Paso 2: Suma final: 5 × 16 = 80. Paso 3: 80 − 60 = 20 puntos."
+}
+},
+{
+"id": "P11-MAT-D048",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística presentada en gráficas y la transforma en porcentajes para comparar grupos.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Combina frecuencias de una gráfica de barras y las expresa como porcentaje del total.",
+"contexto": "Un grupo de investigación escolar encuestó una muestra de 500 hogares de Cali y los clasificó por estrato socioeconómico. La gráfica muestra el número de hogares de cada estrato en la muestra.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Hogares encuestados por estrato",
+"etiquetas": [
+"Estrato 1",
+"Estrato 2",
+"Estrato 3",
+"Estrato 4",
+"Estrato 5",
+"Estrato 6"
+],
+"series": [
+{
+"nombre": "Hogares",
+"datos": [
+90,
+140,
+150,
+60,
+40,
+20
+]
+}
+],
+"ejeY": "número de hogares"
+},
+"enunciado": "¿Qué porcentaje de los hogares encuestados pertenece a los estratos 1 y 2?",
+"opciones": {
+"A": "46 %",
+"B": "23 %",
+"C": "33,3 %",
+"D": "28 %"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Dividir entre un total equivocado",
+"porque": "Elegiste 23 % porque dividiste 230 entre 1.000 en lugar de entre 500.",
+"pregunta_guia": "¿Cuántos hogares se encuestaron en total?",
+"aprende": "El total de la muestra es 500: 230 ÷ 500 = 0,46."
+},
+"C": {
+"error": "Contar categorías en lugar de hogares",
+"porque": "Elegiste 33,3 % porque pensaste que 2 de 6 estratos son la tercera parte.",
+"pregunta_guia": "¿Todos los estratos tienen el mismo número de hogares?",
+"aprende": "El porcentaje se calcula con las frecuencias de las barras, no con el número de categorías."
+},
+"D": {
+"error": "Tomar solo una categoría",
+"porque": "Elegiste 28 % porque calculaste solo el estrato 2 (140 ÷ 500).",
+"pregunta_guia": "¿Cuántos estratos incluye la pregunta?",
+"aprende": "Se suman los dos estratos: 90 + 140 = 230."
+}
+},
+"explicacion": "Paso 1: Lee la gráfica: estrato 1 = 90 y estrato 2 = 140. Paso 2: Suma: 90 + 140 = 230 hogares. Paso 3: Total: 90 + 140 + 150 + 60 + 40 + 20 = 500. Paso 4: 230 ÷ 500 = 0,46 = 46 %.",
+"tip": "Verifica el total sumando todas las barras: así confirmas el dato del enunciado.",
+"truco": "Dividir entre 500 es lo mismo que multiplicar por 2 y dividir entre 1.000: 230 × 2 = 460 → 46 %.",
+"estrategia_icfes": "El ICFES combina lectura de gráficas con porcentajes. Lee cada barra con cuidado, suma las que pide la pregunta y divide entre el total.",
+"temas": [
+"gráficas de barras",
+"porcentajes",
+"frecuencias"
+],
+"gemela": {
+"enunciado": "Según la gráfica, ¿qué porcentaje de los hogares encuestados es de estrato 3?",
+"opciones": {
+"A": "30 %",
+"B": "15 %",
+"C": "16,7 %",
+"D": "50 %"
+},
+"correcta": "A",
+"explicacion": "Paso 1: Estrato 3: 150 hogares. Paso 2: 150 ÷ 500 = 0,30 = 30 %."
+}
+},
+{
+"id": "P11-MAT-D049",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta información estadística presentada en gráficas y justifica o refuta conclusiones a partir de ella.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: justifico o refuto inferencias basadas en razonamientos estadísticos a partir de resultados de estudios.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta una afirmación comparando la suma de varias frecuencias con otra frecuencia de la gráfica.",
+"contexto": "Un grupo de investigación escolar encuestó una muestra de 500 hogares de Cali y los clasificó por estrato socioeconómico. La gráfica muestra el número de hogares de cada estrato en la muestra.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Hogares encuestados por estrato",
+"etiquetas": [
+"Estrato 1",
+"Estrato 2",
+"Estrato 3",
+"Estrato 4",
+"Estrato 5",
+"Estrato 6"
+],
+"series": [
+{
+"nombre": "Hogares",
+"datos": [
+90,
+140,
+150,
+60,
+40,
+20
+]
+}
+],
+"ejeY": "número de hogares"
+},
+"enunciado": "Un estudiante afirma: «En la muestra, los estratos 4, 5 y 6 juntos tienen menos hogares que el estrato 1». ¿Es correcta su afirmación?",
+"opciones": {
+"A": "Sí, porque cada uno de esos estratos tiene menos hogares que el estrato 1.",
+"B": "Sí, porque el estrato 1 tiene 90 hogares y el estrato 4 solo tiene 60.",
+"C": "No, porque juntos suman 120 hogares, que es más que los 90 del estrato 1.",
+"D": "No, porque juntos representan el 24 % y el estrato 1 solo el 9 % de la muestra."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Comparar por partes en lugar de sumar",
+"porque": "Elegiste A porque comparaste cada estrato por separado con el estrato 1, pero la afirmación habla de los tres juntos.",
+"pregunta_guia": "¿Cuánto suman 60 + 40 + 20?",
+"aprende": "Que cada parte sea menor no implica que la suma sea menor."
+},
+"B": {
+"error": "Usar solo una parte del grupo",
+"porque": "Elegiste B porque comparaste únicamente el estrato 4 con el estrato 1.",
+"pregunta_guia": "¿La afirmación incluye solo al estrato 4?",
+"aprende": "Hay que considerar los tres estratos que menciona la afirmación."
+},
+"D": {
+"error": "Calcular mal un porcentaje",
+"porque": "Elegiste D porque la conclusión es correcta, pero el 9 % es un error: dividiste 90 entre 1.000.",
+"pregunta_guia": "¿Cuánto es 90 ÷ 500?",
+"aprende": "El estrato 1 es el 18 % de la muestra (90 ÷ 500); un argumento con datos falsos no es válido."
+}
+},
+"explicacion": "Paso 1: Lee la gráfica: estrato 4 = 60, estrato 5 = 40, estrato 6 = 20. Paso 2: Suma: 60 + 40 + 20 = 120 hogares. Paso 3: Estrato 1 = 90 hogares. Paso 4: 120 > 90, así que la afirmación es falsa (en porcentajes: 24 % frente a 18 %).",
+"tip": "En Argumentación no basta la conclusión correcta: el argumento también debe tener datos correctos.",
+"truco": "«Juntos» = suma primero, compara después.",
+"estrategia_icfes": "El ICFES incluye opciones con la conclusión correcta pero un dato falso. Verifica cada número de la justificación contra la gráfica.",
+"temas": [
+"gráficas de barras",
+"comparación de frecuencias",
+"validación de afirmaciones"
+],
+"gemela": {
+"enunciado": "Según la gráfica, ¿es cierto que los estratos 1 y 2 juntos tienen más hogares que los estratos 3, 4, 5 y 6 juntos?",
+"opciones": {
+"A": "Sí, porque 230 es mayor que 150.",
+"B": "No, porque 230 es menor que 270.",
+"C": "Sí, porque son los estratos más bajos.",
+"D": "No, porque tienen exactamente los mismos hogares."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Estratos 1 y 2: 90 + 140 = 230. Paso 2: Estratos 3 a 6: 150 + 60 + 40 + 20 = 270. Paso 3: 230 < 270: no es cierto."
+}
+},
+{
+"id": "P11-MAT-D050",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): calcula la probabilidad de eventos compuestos construyendo el espacio muestral de experimentos aleatorios.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando conceptos básicos de conteo y probabilidad (espacio muestral).",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Representa el espacio muestral de un experimento compuesto e identifica los casos favorables.",
+"contexto": "En una feria de matemáticas, un juego consiste en lanzar una moneda y un dado de seis caras al mismo tiempo. Se gana un premio si sale cara en la moneda y un número mayor que 4 en el dado.",
+"enunciado": "¿Cuál es la probabilidad de ganar el premio?",
+"opciones": {
+"A": "5/6",
+"B": "1/3",
+"C": "3/8",
+"D": "1/6"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Sumar probabilidades de eventos simultáneos",
+"porque": "Elegiste 5/6 porque sumaste 1/2 + 2/6.",
+"pregunta_guia": "¿Ganar exige que pase una cosa o las dos a la vez?",
+"aprende": "Para que ocurran las dos condiciones se multiplica: (1/2) × (2/6)."
+},
+"B": {
+"error": "Ignorar la moneda",
+"porque": "Elegiste 1/3 porque calculaste solo la probabilidad de sacar 5 o 6 en el dado.",
+"pregunta_guia": "¿Qué más debe ocurrir para ganar?",
+"aprende": "También debe salir cara: la probabilidad se reduce a la mitad."
+},
+"C": {
+"error": "Construir mal el espacio muestral",
+"porque": "Elegiste 3/8 porque sumaste los resultados (2 + 6 = 8) en lugar de combinarlos.",
+"pregunta_guia": "¿Cuántas parejas (moneda, dado) son posibles?",
+"aprende": "El espacio muestral tiene 2 × 6 = 12 resultados igualmente probables."
+}
+},
+"explicacion": "Paso 1: Espacio muestral: 2 resultados de la moneda × 6 del dado = 12 parejas igualmente probables. Paso 2: Favorables: (cara, 5) y (cara, 6) = 2. Paso 3: P = 2/12 = 1/6. Paso 4: Comprobación: (1/2) × (2/6) = 2/12 = 1/6.",
+"tip": "Escribe el espacio muestral como tabla: filas para la moneda, columnas para el dado.",
+"truco": "«Mayor que 4» en un dado son solo 5 y 6.",
+"estrategia_icfes": "El ICFES usa experimentos combinados (moneda y dado, dos ruletas). Construye la tabla de resultados y cuenta: así evitas sumar lo que se debe multiplicar.",
+"temas": [
+"espacio muestral",
+"experimentos compuestos",
+"eventos independientes"
+],
+"gemela": {
+"enunciado": "Se lanza una moneda y se gira una ruleta con 4 sectores iguales (rojo, azul, verde y amarillo). ¿Cuál es la probabilidad de obtener sello y rojo?",
+"opciones": {
+"A": "3/4",
+"B": "1/8",
+"C": "1/6",
+"D": "1/4"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Espacio muestral: 2 × 4 = 8 resultados. Paso 2: Favorable: (sello, rojo) = 1. Paso 3: P = 1/8."
+}
+},
+{
+"id": "P11-MAT-D051",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): reconoce cuándo dos eventos son o no independientes y argumenta sus conclusiones en situaciones de azar.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto conceptos de probabilidad condicional e independencia de eventos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta la falacia del jugador usando la independencia de los lanzamientos.",
+"contexto": "Sebastián lanza una moneda justa y obtiene cara 5 veces seguidas. Antes del sexto lanzamiento afirma: «Ahora es más probable que salga sello, porque ya salieron muchas caras».",
+"enunciado": "¿Qué se puede decir de la afirmación de Sebastián?",
+"opciones": {
+"A": "Tiene razón, porque por la ley de los promedios ya le «toca» salir a sello.",
+"B": "No tiene razón, porque los lanzamientos son independientes y la probabilidad de sello sigue siendo 1/2.",
+"C": "No tiene razón, porque es más probable que salga cara, ya que la moneda está en racha.",
+"D": "Tiene razón, porque la probabilidad de sello en el sexto lanzamiento es 1 − (1/2)⁶."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Falacia del jugador",
+"porque": "Elegiste A porque probablemente creíste que la moneda «compensa» los resultados anteriores.",
+"pregunta_guia": "¿La moneda tiene memoria de lo que salió antes?",
+"aprende": "La ley de los grandes números habla de muchísimos lanzamientos, no de compensar en el siguiente."
+},
+"C": {
+"error": "Falacia de la mano caliente",
+"porque": "Elegiste C porque pensaste que una racha hace más probable que se repita el resultado.",
+"pregunta_guia": "Si la moneda es justa, ¿cambia su forma o su peso después de 5 caras?",
+"aprende": "Con una moneda justa, cada lanzamiento tiene P(cara) = P(sello) = 1/2."
+},
+"D": {
+"error": "Confundir un evento con una secuencia",
+"porque": "Elegiste D porque calculaste la probabilidad de que no salgan 6 caras seguidas, que es otra pregunta.",
+"pregunta_guia": "¿Se pregunta por la secuencia completa o solo por el sexto lanzamiento?",
+"aprende": "Dados los 5 resultados ya ocurridos, el sexto lanzamiento por sí solo tiene probabilidad 1/2."
+}
+},
+"explicacion": "Paso 1: Una moneda justa no tiene memoria: cada lanzamiento es independiente de los anteriores. Paso 2: P(sello en el sexto | 5 caras antes) = P(sello) = 1/2. Paso 3: La afirmación de Sebastián es la «falacia del jugador»: no tiene razón.",
+"tip": "El azar no lleva cuentas: los eventos independientes no se compensan.",
+"truco": "Independiente = «la moneda no recuerda».",
+"estrategia_icfes": "El ICFES evalúa creencias erróneas sobre el azar. Identifica si los eventos son independientes; si lo son, el pasado no cambia la probabilidad.",
+"temas": [
+"eventos independientes",
+"falacia del jugador",
+"pensamiento crítico"
+],
+"gemela": {
+"enunciado": "En una lotería justa, el número 25 no ha salido en los últimos 30 sorteos. ¿Qué es correcto?",
+"opciones": {
+"A": "Ahora es más probable que salga.",
+"B": "Su probabilidad es la misma de siempre en cada sorteo.",
+"C": "Nunca va a salir.",
+"D": "Su probabilidad es ahora 30 veces mayor."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Los sorteos son independientes. Paso 2: La probabilidad de que salga el 25 en un sorteo no cambia por lo que pasó antes."
+}
+},
+{
+"id": "P11-MAT-D052",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y compara información estadística expresada en porcentajes y justifica o refuta conclusiones.",
+"lineamiento": "Pensamiento aleatorio y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto y comparo resultados de estudios con información estadística provenientes de medios de comunicación.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Distingue entre variación en puntos porcentuales y variación porcentual relativa.",
+"contexto": "En un colegio, el porcentaje de estudiantes de grado 11 que alcanzó el nivel avanzado en el simulacro de matemáticas pasó de 10 % en el primer semestre a 12 % en el segundo. El boletín institucional publica: «El porcentaje de estudiantes en nivel avanzado aumentó un 2 %».",
+"enunciado": "¿Qué se puede afirmar sobre la frase del boletín?",
+"opciones": {
+"A": "Es imprecisa: el aumento fue de 2 puntos porcentuales, que equivale a un aumento relativo del 20 %.",
+"B": "Es correcta, porque 12 % − 10 % = 2 % y esa resta es el aumento porcentual.",
+"C": "Es imprecisa: el aumento relativo fue del 12 %, porque ese es el valor final.",
+"D": "Es imprecisa: el aumento relativo fue de cerca del 16,7 %, porque 2 ÷ 12 ≈ 0,167."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir puntos porcentuales con porcentaje",
+"porque": "Elegiste B porque restaste los porcentajes y llamaste «2 %» a una diferencia de puntos porcentuales.",
+"pregunta_guia": "Si la cantidad de estudiantes en avanzado pasó de 10 a 12 de cada 100, ¿en qué porcentaje creció esa cantidad?",
+"aprende": "La diferencia 12 − 10 = 2 son puntos porcentuales; el aumento relativo es 2 ÷ 10 = 20 %."
+},
+"C": {
+"error": "Confundir valor final con variación",
+"porque": "Elegiste C porque tomaste el nuevo porcentaje como si fuera el aumento.",
+"pregunta_guia": "¿El 12 % es lo que creció o el valor al que se llegó?",
+"aprende": "La variación relativa compara el cambio (2) con el valor inicial (10)."
+},
+"D": {
+"error": "Dividir entre el valor final",
+"porque": "Elegiste D porque dividiste el cambio entre el valor final (12) en lugar del inicial (10).",
+"pregunta_guia": "En una variación porcentual, ¿cuál es la base: el antes o el después?",
+"aprende": "Variación relativa = (final − inicial) ÷ inicial = 2 ÷ 10 = 0,20."
+}
+},
+"explicacion": "Paso 1: Diferencia absoluta: 12 % − 10 % = 2 puntos porcentuales. Paso 2: Variación relativa: (12 − 10) ÷ 10 = 0,20 = 20 %. Paso 3: Decir «aumentó un 2 %» confunde ambas ideas; lo preciso es «aumentó 2 puntos porcentuales» o «aumentó 20 %». Paso 4: La frase es imprecisa.",
+"tip": "Cuando comparas dos porcentajes, di «puntos porcentuales» para la resta y «%» para el cambio relativo.",
+"truco": "Resta → puntos porcentuales. División → cambio relativo.",
+"estrategia_icfes": "El ICFES usa noticias y boletines con porcentajes mal comunicados. Calcula la diferencia absoluta y la relativa y mira cuál describe la opción.",
+"temas": [
+"puntos porcentuales",
+"variación porcentual",
+"lectura crítica de datos"
+],
+"gemela": {
+"enunciado": "La tasa de inasistencia de un curso bajó de 25 % a 20 %. ¿Cuál descripción es correcta?",
+"opciones": {
+"A": "Bajó 5 % en términos relativos.",
+"B": "Bajó 5 puntos porcentuales, que es una disminución relativa del 20 %.",
+"C": "Bajó 25 % en términos relativos.",
+"D": "Subió 5 puntos porcentuales."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 25 − 20 = 5 puntos porcentuales. Paso 2: Relativo: 5 ÷ 25 = 0,20 = 20 % de disminución."
+}
+},
+{
+"id": "P11-MAT-D053",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11°: justifico procedimientos con porcentajes en contextos financieros y analizo la validez de razonamientos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el error de sumar y restar porcentajes con bases distintas en un presupuesto personal.",
+"contexto": "Jhon gana $2.400.000 al mes, tiene gastos fijos de $1.800.000 y ahorra el resto ($600.000, es decir, el 25 % de su ingreso). El próximo año su ingreso subirá 10 % y sus gastos fijos subirán 4 %. Jhon razona: Paso 1: hoy ahorro el 25 % de mi ingreso. Paso 2: como el ingreso sube 10 % y los gastos 4 %, mi ahorro sube 10 − 4 = 6 puntos. Paso 3: ahorraré el 31 % de mi nuevo ingreso.",
+"enunciado": "¿Es correcto el razonamiento de Jhon?",
+"opciones": {
+"A": "Sí, porque el porcentaje de ahorro aumenta en la diferencia entre los dos aumentos.",
+"B": "No, porque si los gastos también suben, el porcentaje de ahorro sigue siendo 25 %.",
+"C": "No, el paso 2 falla: el nuevo ahorro es 2.640.000 − 1.872.000 = $768.000, cerca del 29,1 % del nuevo ingreso.",
+"D": "No, el paso 2 falla: el nuevo ahorro es $768.000, que equivale al 32 % del ingreso."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Restar porcentajes con bases distintas",
+"porque": "Elegiste A porque restaste el 4 % (que se aplica a los gastos) del 10 % (que se aplica al ingreso).",
+"pregunta_guia": "¿El 4 % y el 10 % se calculan sobre la misma cantidad de dinero?",
+"aprende": "Calcula en pesos: nuevo ingreso, nuevos gastos y nuevo ahorro; luego conviertes a porcentaje."
+},
+"B": {
+"error": "Suponer que el porcentaje no cambia",
+"porque": "Elegiste B porque pensaste que si ambos suben, la proporción se mantiene.",
+"pregunta_guia": "¿Subieron en el mismo porcentaje el ingreso y los gastos?",
+"aprende": "Si el ingreso sube más (en porcentaje) que los gastos, el porcentaje de ahorro aumenta."
+},
+"D": {
+"error": "Usar el ingreso anterior como base",
+"porque": "Elegiste D porque dividiste el nuevo ahorro entre el ingreso anterior ($2.400.000).",
+"pregunta_guia": "¿El porcentaje se pide respecto al ingreso viejo o al nuevo?",
+"aprende": "768.000 ÷ 2.640.000 ≈ 0,291 = 29,1 %."
+}
+},
+"explicacion": "Paso 1: Nuevo ingreso: 2.400.000 × 1,10 = $2.640.000. Paso 2: Nuevos gastos: 1.800.000 × 1,04 = $1.872.000. Paso 3: Nuevo ahorro: 2.640.000 − 1.872.000 = $768.000. Paso 4: Porcentaje: 768.000 ÷ 2.640.000 ≈ 0,291 = 29,1 %. El paso 2 de Jhon es incorrecto porque restó porcentajes de bases diferentes.",
+"tip": "En finanzas personales, calcula en pesos y convierte a porcentaje solo al final.",
+"truco": "Bases distintas → nunca sumes ni restes porcentajes directamente.",
+"estrategia_icfes": "El ICFES presenta razonamientos «rápidos» con porcentajes. Rehaz el cálculo con cantidades reales; la opción correcta identifica el paso que falla y da el valor bien calculado.",
+"temas": [
+"porcentajes con bases distintas",
+"presupuesto personal",
+"detección de errores"
+],
+"gemela": {
+"enunciado": "Una persona gana $2.000.000 y gasta $1.500.000 (ahorra 25 %). Si su ingreso sube 20 % y sus gastos 10 %, ¿qué porcentaje del nuevo ingreso ahorrará?",
+"opciones": {
+"A": "35 %",
+"B": "31,25 %",
+"C": "37,5 %",
+"D": "25 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Nuevo ingreso: 2.400.000; nuevos gastos: 1.650.000. Paso 2: Ahorro: 750.000. Paso 3: 750.000 ÷ 2.400.000 = 0,3125 = 31,25 %."
+}
+},
+{
+"id": "P11-MAT-D054",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): encuentra el número de posibles resultados de experimentos aleatorios usando técnicas de conteo adecuadas y argumenta la selección realizada.",
+"lineamiento": "Pensamiento aleatorio (Lineamientos Curriculares MEN 1998). EBC 10°–11°: resuelvo y planteo problemas usando combinaciones y el principio multiplicativo.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el uso incorrecto del principio aditivo cuando se requiere el multiplicativo en un conteo por etapas.",
+"contexto": "Para una brigada ambiental en el río Pance se formará un equipo de 2 hombres y 2 mujeres, escogidos entre 5 hombres y 4 mujeres voluntarios. Luciana calcula el número de equipos posibles así: Paso 1: formas de escoger los hombres: C(5, 2) = 10. Paso 2: formas de escoger las mujeres: C(4, 2) = 6. Paso 3: total de equipos: 10 + 6 = 16.",
+"enunciado": "¿En qué paso se equivocó Luciana y cuál es el número correcto de equipos?",
+"opciones": {
+"A": "En el paso 1, porque C(5, 2) = 20; hay 26 equipos.",
+"B": "En el paso 2, porque C(4, 2) = 12; hay 22 equipos.",
+"C": "En el paso 3, porque debía calcular C(9, 4); hay 126 equipos.",
+"D": "En el paso 3, porque cada pareja de hombres se combina con cada pareja de mujeres; hay 10 × 6 = 60 equipos."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Contar parejas con orden",
+"porque": "Elegiste A porque calculaste 5 × 4 = 20, contando cada pareja de hombres dos veces.",
+"pregunta_guia": "¿La pareja Juan–Pedro es distinta de Pedro–Juan en el equipo?",
+"aprende": "C(5, 2) = 5 × 4 ÷ 2 = 10: el paso 1 es correcto."
+},
+"B": {
+"error": "Contar parejas con orden",
+"porque": "Elegiste B porque calculaste 4 × 3 = 12 sin dividir entre 2.",
+"pregunta_guia": "¿Importa el orden en que se eligen las dos mujeres?",
+"aprende": "C(4, 2) = 4 × 3 ÷ 2 = 6: el paso 2 es correcto."
+},
+"C": {
+"error": "Ignorar la composición exigida",
+"porque": "Elegiste C porque contaste todos los grupos de 4 personas, sin exigir 2 hombres y 2 mujeres.",
+"pregunta_guia": "¿Un grupo de 4 mujeres cumpliría la condición del equipo?",
+"aprende": "C(9, 4) incluye grupos que no tienen 2 hombres y 2 mujeres."
+}
+},
+"explicacion": "Paso 1: C(5, 2) = 10 es correcto. Paso 2: C(4, 2) = 6 es correcto. Paso 3: El equipo necesita una pareja de hombres Y una pareja de mujeres: elecciones simultáneas, se multiplica. Paso 4: Total = 10 × 6 = 60 equipos. Luciana se equivocó en el paso 3 al sumar.",
+"tip": "/detectaerror: cuando el resultado se arma en etapas que ocurren juntas, se multiplica.",
+"truco": "«Y» entre etapas → multiplicación; «o» entre casos excluyentes → suma.",
+"estrategia_icfes": "El ICFES presenta conteos por etapas con un error de principio (suma en vez de producto). Verifica cada paso y pregúntate si las etapas se combinan o son alternativas.",
+"temas": [
+"principio multiplicativo",
+"combinaciones",
+"validación de procedimientos"
+],
+"gemela": {
+"enunciado": "Para una comisión se elige 1 profesor de 3 y 2 estudiantes de 5. Un compañero calcula 3 + C(5, 2) = 13 comisiones. ¿Cuántas comisiones hay realmente?",
+"opciones": {
+"A": "13",
+"B": "30",
+"C": "56",
+"D": "15"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Profesor: 3 formas; estudiantes: C(5, 2) = 10. Paso 2: Se multiplican: 3 × 10 = 30."
+}
+},
+{
+"id": "P11-MAT-D055",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta tablas de frecuencias con datos agrupados y las usa para estimar probabilidades.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: interpreto información de tablas de frecuencias e infiero probabilidades a partir de frecuencias relativas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta intervalos de una tabla de datos agrupados y calcula una frecuencia relativa acumulada.",
+"contexto": "Se registró el tiempo que tardan 50 estudiantes de CENTEC en llegar al colegio. Los datos se agruparon en la tabla; el intervalo [a, b) incluye a y no incluye b. Se elige un estudiante al azar.",
+"tabla": {
+"titulo": "Tiempo de desplazamiento al colegio",
+"cols": [
+"Tiempo (minutos)",
+"Número de estudiantes"
+],
+"filas": [
+[
+"[0, 10)",
+"8"
+],
+[
+"[10, 20)",
+"17"
+],
+[
+"[20, 30)",
+"15"
+],
+[
+"[30, 40)",
+"7"
+],
+[
+"[40, 50)",
+"3"
+]
+]
+},
+"enunciado": "¿Cuál es la probabilidad de que el estudiante elegido tarde 20 minutos o más en llegar?",
+"opciones": {
+"A": "0,50",
+"B": "0,30",
+"C": "0,20",
+"D": "0,34"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tomar solo un intervalo",
+"porque": "Elegiste 0,30 porque contaste solo el intervalo [20, 30), olvidando los que tardan más de 30 minutos.",
+"pregunta_guia": "¿Un estudiante que tarda 35 minutos tarda «20 minutos o más»?",
+"aprende": "«20 o más» incluye todos los intervalos desde 20: 15 + 7 + 3."
+},
+"C": {
+"error": "Excluir el intervalo que empieza en 20",
+"porque": "Elegiste 0,20 porque contaste solo desde 30 minutos (7 + 3).",
+"pregunta_guia": "¿El intervalo [20, 30) incluye a quienes tardan exactamente 20 minutos?",
+"aprende": "El corchete «[» indica que 20 está incluido."
+},
+"D": {
+"error": "Leer el intervalo equivocado",
+"porque": "Elegiste 0,34 porque tomaste el intervalo [10, 20), que contiene el número 20 en su notación.",
+"pregunta_guia": "¿El intervalo [10, 20) incluye el 20?",
+"aprende": "En [10, 20) el 20 no está incluido; esos estudiantes tardan menos de 20 minutos."
+}
+},
+"explicacion": "Paso 1: «20 minutos o más» corresponde a los intervalos [20, 30), [30, 40) y [40, 50). Paso 2: Frecuencia: 15 + 7 + 3 = 25 estudiantes. Paso 3: Total: 8 + 17 + 15 + 7 + 3 = 50. Paso 4: P = 25/50 = 0,50.",
+"tip": "Lee la notación de intervalos: «[» incluye el extremo y «)» lo excluye.",
+"truco": "«O más» = suma desde ese intervalo hasta el final.",
+"estrategia_icfes": "El ICFES usa tablas de datos agrupados con preguntas de «al menos», «menos de» o «entre». Marca los intervalos que cumplen la condición antes de sumar.",
+"temas": [
+"datos agrupados",
+"frecuencia relativa",
+"probabilidad empírica"
+],
+"gemela": {
+"contexto": "En otro curso de 20 estudiantes, los tiempos de desplazamiento fueron: [0, 10): 5; [10, 20): 9; [20, 30): 4; [30, 40): 2.",
+"enunciado": "¿Cuál es la probabilidad de que un estudiante de ese curso, elegido al azar, tarde menos de 20 minutos?",
+"opciones": {
+"A": "0,45",
+"B": "0,70",
+"C": "0,25",
+"D": "0,20"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Menos de 20 minutos: [0, 10) y [10, 20): 5 + 9 = 14. Paso 2: P = 14/20 = 0,70."
+}
+}
+]

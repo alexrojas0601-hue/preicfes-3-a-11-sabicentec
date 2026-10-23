@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body>
+<title>SABI PREICFES CENTEC</title>
+<meta name="description" content="Entrenamiento tipo Saber 11 con Ruta del Error · CENTEC Córdoba">
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1A2D7A"><link rel="icon" href="assets/icono.png"><link rel="apple-touch-icon" href="assets/icono.png">
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: una columna de trabajo (máx. 760px) con barra superior institucional; tarjetas solo para la pregunta y los pasos de la Ruta */
+:root{
+  --navy:#1A2D7A; --navy-ink:#0f1f3d; --orange:#F47C20; --gold:#F5C518;
+  --bg:#f4f6fb; --surface:#ffffff; --surface-2:#eef1f9; --line:#d7ddec;
+  --fg:#16203d; --muted:#56607e; --accent:var(--navy); --accent-fg:#ffffff;
+  --ok:#1b8a4b; --ok-bg:#e3f5ea; --bad:#c2410c; --bad-bg:#fdeee3; --warn-bg:#fff6d6;
+  --font:"Nunito","Nunito Sans","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1328; --surface:#141d3a; --surface-2:#1b2648; --line:#2b3863;
+  --fg:#e8ecf8; --muted:#a3acc8; --accent:#6f86e8; --accent-fg:#0c1328;
+  --ok:#5fd394; --ok-bg:#12352a; --bad:#ff9a5c; --bad-bg:#3a2216; --warn-bg:#3a3214; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1328; --surface:#141d3a; --surface-2:#1b2648; --line:#2b3863;
+  --fg:#e8ecf8; --muted:#a3acc8; --accent:#6f86e8; --accent-fg:#0c1328;
+  --ok:#5fd394; --ok-bg:#12352a; --bad:#ff9a5c; --bad-bg:#3a2216; --warn-bg:#3a3214; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16px;line-height:1.55}
+.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--orange)}
+.top .in{max-width:760px;margin:0 auto;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:900;letter-spacing:.04em;font-size:1.05rem}
+.brand small{display:block;font-weight:600;letter-spacing:.02em;font-size:.72rem;color:var(--gold)}
+.top .sp{flex:1}
+.top button{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+main{max-width:760px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:1.75rem;font-weight:900}
+h2{font-size:1.3rem;font-weight:800}
+h3{font-size:1.05rem;font-weight:800}
+p{margin:0}
+.muted{color:var(--muted)}
+.eyebrow{font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+button,.btn{font:inherit;font-weight:800;cursor:pointer;border-radius:10px;padding:10px 16px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+button.primary{background:var(--orange);border-color:var(--orange);color:#1b0f02}
+button.navy{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,label.opt:focus-within{outline:3px solid var(--gold);outline-offset:2px}
+button:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.avatar{display:block;width:100%;height:auto;border-radius:14px}
+.avwrap{width:100%;max-width:240px}
+.face{border-radius:50%;object-fit:cover;border:2px solid var(--gold);background:#fff;flex:none}
+.hero{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:center}
+@media (max-width:560px){.hero{grid-template-columns:1fr;justify-items:center;text-align:center}}
+.motto{border-left:4px solid var(--gold);padding:8px 14px;background:var(--warn-bg);border-radius:0 10px 10px 0;font-weight:700;font-style:italic}
+label.f{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:.9rem}
+input,select,textarea{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);width:100%}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:560px){.grid2{grid-template-columns:1fr}}
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media (max-width:560px){.modes{grid-template-columns:1fr 1fr}}
+.mode{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer;font-weight:700;font-size:.92rem}
+.mode input{width:auto}
+.mode:has(input:checked){border-color:var(--orange);background:var(--warn-bg)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:.74rem;font-weight:800;padding:3px 9px;border-radius:999px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.chip.lv-Mínimo{background:var(--warn-bg);color:var(--fg)}
+.chip.lv-Satisfactorio{background:var(--ok-bg);color:var(--ok)}
+.chip.lv-Avanzado{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.ctx{background:var(--surface-2);border-radius:12px;padding:14px;white-space:pre-line;font-size:.97rem}
+.stem{font-weight:800;font-size:1.08rem;white-space:pre-line}
+.opts{display:flex;flex-direction:column;gap:8px}
+label.opt{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;background:var(--surface)}
+label.opt input{position:absolute;opacity:0;pointer-events:none}
+label.opt .L{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--line);font-weight:900}
+label.opt:has(input:checked){border-color:var(--accent);background:var(--surface-2)}
+label.opt:has(input:checked) .L{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+label.opt.is-ok{border-color:var(--ok);background:var(--ok-bg)}
+label.opt.is-bad{border-color:var(--bad);background:var(--bad-bg)}
+.prog{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--orange)}
+.dots{display:flex;gap:6px;flex-wrap:wrap}
+.dots button{width:34px;height:34px;padding:0;border-radius:8px;font-size:.85rem}
+.dots button.ans{background:var(--surface-2);border-color:var(--accent)}
+.dots button.cur{outline:2px solid var(--orange)}
+.dots button.flag::after{content:"?";font-size:.65rem;color:var(--orange);margin-left:1px}
+details summary{cursor:pointer;font-weight:800;font-size:.85rem;color:var(--muted)}
+details .meta{font-size:.85rem;display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.score{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}
+@media (max-width:560px){.score{grid-template-columns:1fr;text-align:center;justify-items:center}}
+.big{font-size:3.4rem;font-weight:900;line-height:1;font-variant-numeric:tabular-nums;color:var(--orange)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) 120px 48px;gap:10px;align-items:center;font-size:.9rem}
+@media (max-width:560px){.bar{grid-template-columns:minmax(0,1fr) 80px 44px}}
+.bar .t{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--accent)}
+.bar b{font-variant-numeric:tabular-nums;text-align:right}
+.errlist{display:flex;flex-direction:column;gap:8px}
+.erritem{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;text-align:left;width:100%;padding:12px 14px}
+.st{font-size:.72rem;font-weight:900;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.st.p{background:var(--bad-bg);color:var(--bad)}
+.st.e{background:var(--warn-bg);color:var(--fg)}
+.st.f{background:var(--ok-bg);color:var(--ok)}
+.st.d{background:var(--surface-2);color:var(--muted)}
+.steps{display:flex;gap:6px}
+.steps span{flex:1;height:6px;border-radius:99px;background:var(--surface-2)}
+.steps span.on{background:var(--orange)}
+.box{border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.box.bad{background:var(--bad-bg)}
+.box.ok{background:var(--ok-bg)}
+.box.q{background:var(--warn-bg)}
+.box.n{background:var(--surface-2)}
+.pre{white-space:pre-line}
+.tt{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){.tt{grid-template-columns:1fr}}
+.doubts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:560px){.doubts{grid-template-columns:1fr}}
+.doubts button{text-align:left;font-weight:700}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--navy-ink);color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;z-index:9}
+@media (prefers-reduced-motion:no-preference){.pop{animation:pop .45s ease}@keyframes pop{0%{transform:scale(.96);opacity:.6}100%{transform:none;opacity:1}}}
+.chartwrap{margin:0;display:flex;flex-direction:column;gap:6px}
+.chart{width:100%;height:auto;color:var(--fg);background:var(--surface-2);border-radius:12px}
+.chart text{fill:currentColor;font-size:11px;font-family:var(--font)}.chart .ct{font-weight:800;font-size:13px}
+.chart .gl{stroke:var(--line);stroke-width:1}.chart .ax{stroke:var(--muted);stroke-width:1.2}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.85rem}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+caption{font-weight:800;text-align:left;padding:6px 0;caption-side:top}
+</style>
+
+<header class="top"><div class="in">
+  <img class="face" id="hdrFace" alt="" width="40" height="40">
+  <div class="brand">SABI PREICFES · Ruta del Error<small>CENTEC Córdoba · Entrenamiento Saber 11</small></div>
+  <div class="sp"></div>
+  <button id="btnHome" type="button">Inicio</button>
+  <button id="btnGuia" type="button">Guía ICFES</button>
+  <button id="btnDocente" type="button">Panel docente</button>
+</div></header>
+<main id="app"></main>
+<div id="toast" class="toast" hidden></div>
+
+<script>
+(function(){
+"use strict";
+let BANK = []; const LOADED = {}; let INDEX = null;
+async function loadIndex(){ if(INDEX) return INDEX; try{ INDEX = await (await fetch("banco/indice.json",{cache:"no-cache"})).json(); }catch(e){ INDEX = {version:"0",total:0,files:{}}; } return INDEX; }
+async function loadGrade(g){ const idx = await loadIndex();
+  const fs = Object.keys(idx.files).filter(k=>k.split("-")[0]===String(g) && !LOADED[k]);
+  await Promise.all(fs.map(async k=>{ try{ const arr = await (await fetch("banco/"+k+".json?v="+idx.version)).json(); if(!LOADED[k]){ LOADED[k]=1; BANK = BANK.concat(arr); } }catch(e){} })); }
+const AREAS = {matematicas:"Matemáticas",lenguaje:"Lenguaje / Lectura crítica",ciencias:"Ciencias Naturales",sociales:"Sociales y Ciudadanas",ingles:"Inglés"};
+const ORDER = Object.keys(AREAS);
+const MOTTO = "El error no nos detiene, nos enseña, nos fortalece y nos hace crecer.";
+const KEY = "sabi_preicfes_ruta_v1";
+const REAL11 = {matematicas:50,lenguaje:41,sociales:50,ciencias:58,ingles:55};
+const DOC_PIN = "CENTEC2026";
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{hist:[]}}catch(e){return{hist:[]}}}
+function save(db){try{localStorage.setItem(KEY,JSON.stringify(db))}catch(e){}}
+function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,2600)}
+
+const AV_POSTER = "assets/avatar_sabi.jpg", AV_FACE = "assets/avatar_face.jpg";
+const AVATAR = `<img class="avatar" src="${AV_POSTER}" alt="SABI, tu amigo del saber CENTEC" width="520" height="650">`;
+/* Estructura oficial ICFES (Guía Saber 11 2026-2 e Informe Saber 3-5-7-9) */
+const SABER = {
+  9:{areas:["matematicas","lenguaje","sociales","ciencias","ingles"],real:"Saber 9 evalúa Matemáticas (36), Lectura (36) y Ciencias o Pensamiento Ciudadano (36). En CENTEC entrenas desde 9° con la forma de Saber 11, incluido Inglés"},
+  10:{areas:["matematicas","lenguaje","sociales","ciencias","ingles"],real:"Pre-Saber 11 con la estructura real: Matemáticas 50 · Lectura Crítica 41 · Sociales y Ciudadanas 50 · Ciencias Naturales 58 · Inglés 55"},
+  11:{areas:["matematicas","lenguaje","sociales","ciencias","ingles"],real:"Saber 11: Matemáticas 50 · Lectura Crítica 41 · Sociales y Ciudadanas 50 · Ciencias Naturales 58 · Inglés 55 (7 partes), en dos sesiones"}
+};
+function areaName(a,g){
+  if(a==="lenguaje") return "Lectura Crítica";
+  if(a==="sociales") return "Sociales y Ciudadanas";
+  return AREAS[a];
+}
+const normName = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/\s+/g," ").trim();
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+/* Selección sin repetir: primero lo que el estudiante no ha visto; equilibra niveles; mantiene juntas las preguntas de un mismo texto */
+function pick(name,g,area,k){
+  const db=load(); db.seen=db.seen||{};
+  const key=normName(name)+"|"+g+"|"+area; let seen=db.seen[key]||[], note="";
+  const all=BANK.filter(q=>q.grado===g&&q.area===area);
+  let pool=all.filter(q=>!seen.includes(q.id));
+  if(pool.length<Math.min(k,all.length)){ note=areaName(area,g); seen=[]; pool=all.slice(); }
+  const byLv={}; shuffle(pool).forEach(q=>(byLv[q.nivel]=byLv[q.nivel]||[]).push(q));
+  const lvs=["Mínimo","Satisfactorio","Avanzado"].filter(l=>byLv[l]); const out=[];
+  while(out.length<Math.min(k,pool.length)){ for(const l of lvs){ const q=byLv[l]&&byLv[l].shift(); if(q&&out.length<k) out.push(q); } if(lvs.every(l=>!byLv[l]||!byLv[l].length))break; }
+  const ctxOrder={}; out.forEach((q,i)=>{const c=q.contexto||q.id; if(!(c in ctxOrder))ctxOrder[c]=i});
+  out.sort((a,b)=>ctxOrder[a.contexto||a.id]-ctxOrder[b.contexto||b.id]);
+  db.seen[key]=seen.concat(out.map(q=>q.id)); save(db);
+  return {items:out,note};
+}
+
+let S = null; // sesión activa
+
+/* ---------- INICIO ---------- */
+function home(){
+  S=null;
+  const grades=[9,10,11], db=load();
+  app.innerHTML=`
+  <section class="card hero pop">
+    <div class="avwrap">${AVATAR}</div>
+    <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+      <span class="eyebrow">Hola, soy SABI, tu amigo del saber</span>
+      <h1>Entrena como en Saber 11. Tus errores se vuelven tu mejor maestro.</h1>
+      <p class="motto">“${MOTTO}”</p>
+      <p class="muted" style="font-size:.9rem"><b id="nBank">Más de 2.500</b> preguntas tipo ICFES por competencias, DBA y lineamientos. Cada vez que presentas, SABI te muestra preguntas que no has visto: aquí no se memoriza, se aprende.</p>
+      <div class="row"><button type="button" id="goGuia">Cómo pregunta el ICFES</button></div>
+    </div>
+  </section>
+  <form class="card" id="fStart" novalidate>
+    <h2>¿Quién presenta hoy?</h2>
+    <div class="grid2">
+      <label class="f">Nombre y apellido<input id="inName" autocomplete="name" placeholder="Ej.: Valentina Mosquera" value="${esc(db.lastName||"")}" required></label>
+      <label class="f">Grado<select id="inGrade">${grades.map(g=>`<option value="${g}" ${g===(db.lastGrade||11)?"selected":""}>${g}°</option>`).join("")}</select></label>
+    </div>
+    <div id="modes"></div>
+    <label class="f">Duración<select id="inSize">
+      <option value="0.2">Corta · práctica rápida</option>
+      <option value="0.4" selected>Estándar · entrenamiento</option>
+      <option value="1">Completa · igual que el ICFES</option></select></label>
+    <div id="info"></div>
+    <p class="muted" style="font-size:.9rem">Si dudas en una pregunta, márcala con <b>“Tengo duda”</b>: también la revisaremos al final. En Saber 11 una respuesta en blanco cuenta como incorrecta y no hay penalización por intentar.</p>
+    <p id="startErr" class="muted" style="color:var(--bad)" hidden>Escribe tu nombre para empezar.</p>
+    <div class="row"><button class="primary" type="submit">Comenzar</button><button type="button" class="navy" id="goRep">Repasar mis errores</button></div>
+  </form>`;
+  loadIndex().then(i=>{ if(i.total) $("#nBank").textContent=i.total.toLocaleString("es-CO"); });
+  const drawModes=()=>{
+    const g=+$("#inGrade").value, sb=SABER[g];
+    $("#modes").innerHTML=`<div style="display:flex;flex-direction:column;gap:6px"><b style="font-size:.9rem">¿Qué vas a presentar?</b><div class="modes">
+      <label class="mode"><input type="radio" name="mode" value="mixto" checked> Simulacro Saber 11 (5 pruebas)</label>
+      ${sb.areas.map(a=>`<label class="mode"><input type="radio" name="mode" value="${a}"> ${areaName(a,g)}</label>`).join("")}</div></div>`;
+    $("#info").innerHTML=`<div class="box n"><span class="eyebrow">Así es la prueba real</span><span>${sb.real}. Selección múltiple con única respuesta; en Inglés varias partes tienen 3 opciones (A, B, C). Tiempo de referencia: unos 2 minutos por pregunta.</span></div>`;
+  };
+  $("#inGrade").addEventListener("change",drawModes); drawModes();
+  $("#goGuia").onclick=guia;
+  $("#goRep").onclick=()=>{ const name=$("#inName").value.trim(); if(!name){$("#startErr").hidden=false;$("#inName").focus();return} repaso(name); };
+  $("#fStart").addEventListener("submit",async e=>{
+    e.preventDefault();
+    const name=$("#inName").value.trim(); if(!name){$("#startErr").hidden=false;$("#inName").focus();return}
+    const g=+$("#inGrade").value, mode=document.querySelector('input[name="mode"]:checked').value, size=+$("#inSize").value;
+    const btn=e.submitter||$("#fStart button[type=submit]"); btn.disabled=true; btn.textContent="Preparando tus preguntas…";
+    await loadGrade(g);
+    const areas=mode==="mixto"?SABER[g].areas:[mode];
+    let items=[],notes=[];
+    areas.forEach(a=>{const k=Math.max(5,Math.round(REAL11[a]*size*(mode==="mixto"?1:1.25)));const r=pick(name,g,a,mode==="mixto"?k:Math.min(REAL11[a],Math.max(10,k)));items=items.concat(r.items);if(r.note)notes.push(r.note)});
+    if(!items.length){btn.disabled=false;btn.textContent="Comenzar";toast("No pude cargar el banco. Conéctate una vez a internet para descargarlo.");return}
+    const db2=load(); db2.lastName=name; db2.lastGrade=g; save(db2);
+    S={name,grado:g,mode,items,ans:{},flag:{},i:0,ruta:{},start:Date.now()};
+    quiz();
+    if(notes.length)toast("Ya viste todo el banco de "+notes.join(", ")+". Empieza un nuevo ciclo.");
+  });
+}
+
+/* ---------- REPASO ESPACIADO DE ERRORES ---------- */
+async function repaso(name){
+  const db=load(); const P=(db.pend||{})[normName(name)]||{}; const ids=Object.keys(P);
+  if(!ids.length){toast("No tienes errores pendientes. ¡Presenta una evaluación!");return}
+  for(const g of [...new Set(ids.map(i=>P[i].g))]) await loadGrade(g);
+  const items=shuffle(BANK.filter(q=>P[q.id])).slice(0,20);
+  if(!items.length){toast("No pude cargar tus preguntas pendientes.");return}
+  S={name,grado:items[0].grado,mode:"repaso",items,ans:{},flag:{},i:0,ruta:{},start:Date.now()};
+  quiz(); toast("Repaso: vuelves a las preguntas que fallaste. Si aciertas, salen de tu lista.");
+}
+
+/* ---------- GUÍA: CÓMO PREGUNTA EL ICFES ---------- */
+function guia(){
+  if(S&&!S.end&&Object.keys(S.ans).length){toast("Termina primero la evaluación en curso.");return}
+  const C=[["Matemáticas","50 preguntas","Interpretación y representación · Formulación y ejecución · Argumentación","Estadística, Geometría, Álgebra y cálculo. Cerca de la mitad son situaciones cotidianas (porcentajes, proporciones, lectura de tablas y gráficas)."],
+   ["Lectura Crítica","41 preguntas","Identificar y entender los contenidos locales · Comprender cómo se articulan las partes del texto · Reflexionar y evaluar su contenido","Textos continuos (literarios, informativos, filosóficos, argumentativos) y discontinuos (tablas, infografías, caricaturas)."],
+   ["Sociales y Ciudadanas","50 preguntas","Pensamiento social · Interpretación y análisis de perspectivas · Pensamiento reflexivo y sistémico","Constitución de 1991, historia, geografía, economía y dilemas ciudadanos analizados desde distintos actores."],
+   ["Ciencias Naturales","58 preguntas","Uso comprensivo del conocimiento científico · Explicación de fenómenos · Indagación","Componentes biológico, químico, físico y ciencia, tecnología y sociedad; muchos ítems parten de experimentos con tablas y gráficas."],
+   ["Inglés","55 preguntas","Lingüística · Pragmática · Sociolingüística","7 partes: avisos, vocabulario, conversaciones, textos con espacios y comprensión de lectura. Resultado en niveles A-, A1, A2, B1 y B+."]];
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Dot Tutor · Guía ICFES</span><h2>Así está construido Saber 11</h2>
+  <p>Son 5 pruebas en dos sesiones. Cada prueba da un puntaje de 0 a 100 y el <b>puntaje global va de 0 a 500</b>: Matemáticas, Lectura Crítica, Sociales y Ciencias pesan 3 cada una e Inglés pesa 1. Por eso subir 5 puntos en una prueba de peso 3 mueve el global mucho más que en Inglés.</p>
+  <div class="tbl"><table><thead><tr><th>Prueba</th><th>Preguntas</th><th>Competencias</th><th>Qué encuentras</th></tr></thead><tbody>${C.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>
+  <section class="card"><h3>La forma de cada pregunta</h3>
+  <p>Todas son de selección múltiple con única respuesta. Cada una nace de una <b>afirmación</b> (lo que el ICFES quiere saber que puedes hacer) y una <b>evidencia</b> (lo que haces para demostrarlo). Las opciones incorrectas no son al azar: cada una representa un error típico. Por eso en SABI cada error tiene nombre, causa y corrección.</p>
+  <div class="tt"><div class="box q"><span class="eyebrow">Proceso en 4 pasos</span><span class="pre">1. Lee primero el enunciado: ¿qué verbo usa? (identificar, calcular, inferir, evaluar)
+2. Vuelve al contexto y subraya solo lo que necesitas.
+3. Resuelve o anticipa tu respuesta antes de mirar las opciones.
+4. Descarta: busca en cada opción el error típico y quédate con la que responde exactamente lo preguntado.</span></div>
+  <div class="box q"><span class="eyebrow">Manejo del tiempo</span><span class="pre">Unos 2 minutos por pregunta.
+Si una te bloquea, márcala y sigue: vuelve al final.
+Nunca dejes respuestas en blanco: no restan.
+Lee las gráficas por sus ejes, unidades y título antes de los datos.</span></div></div></section>
+  <section class="card"><h3>Niveles de desempeño</h3><p>Además del puntaje, el ICFES ubica a cada estudiante en niveles (1 a 4; en Inglés A-, A1, A2, B1, B+). En SABI cada pregunta indica su exigencia (Mínimo, Satisfactorio, Avanzado) para que veas en qué nivel ya respondes con seguridad y cuál es tu siguiente reto.</p>
+  <p class="motto">“${MOTTO}”</p><div class="row"><button class="primary" type="button" id="gBack">Empezar a entrenar</button></div></section>`;
+  $("#gBack").onclick=home; window.scrollTo({top:0});
+}
+
+/* ---------- TABLAS Y GRÁFICAS ---------- */
+const fmt=v=>Math.abs(v)>=1000?Math.round(v).toLocaleString("es-CO"):(Math.round(v*100)/100).toLocaleString("es-CO");
+function tablaHTML(t){return `<div class="tbl"><table>${t.titulo?`<caption>${esc(t.titulo)}</caption>`:""}<thead><tr>${t.cols.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${t.filas.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`}
+function graficaHTML(g){
+  const W=560,H=290,L=54,R=12,T=30,B=46,cw=W-L-R,ch=H-T-B,C=["#1A2D7A","#F47C20","#2a9d8f","#b8860b"];
+  const all=g.series.flatMap(s=>s.datos); let mx=Math.max(...all,0), mn=Math.min(...all,0);
+  const nice=v=>{if(v<=0)return 0;const p=Math.pow(10,Math.floor(Math.log10(v)));return Math.ceil(v/p*2)/2*p};
+  mx=nice(mx)||1; if(mn<0)mn=-nice(-mn);
+  const y=v=>T+ch-(v-mn)/(mx-mn)*ch, n=g.etiquetas.length, bw=cw/n, k=g.series.length, lab=n*k<=14;
+  let s=`<svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="${esc(g.titulo||"Gráfica")}">`;
+  if(g.titulo) s+=`<text x="${W/2}" y="16" text-anchor="middle" class="ct">${esc(g.titulo)}</text>`;
+  for(let i=0;i<=4;i++){const v=mn+(mx-mn)*i/4,yy=y(v);s+=`<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" class="gl"/><text x="${L-6}" y="${yy+4}" text-anchor="end" class="tk">${fmt(v)}</text>`}
+  if(g.ejeY) s+=`<text x="12" y="${T+ch/2}" transform="rotate(-90 12 ${T+ch/2})" text-anchor="middle" class="tk">${esc(g.ejeY)}</text>`;
+  g.etiquetas.forEach((e,i)=>{s+=`<text x="${L+bw*i+bw/2}" y="${H-B+16}" text-anchor="middle" class="tk">${esc(e)}</text>`});
+  g.series.forEach((se,j)=>{const c=C[j%4];
+    if(g.tipo==="barras"){const w=bw*0.7/k;se.datos.forEach((v,i)=>{const x=L+bw*i+bw*0.15+w*j,y0=y(0),yv=y(v);
+      s+=`<rect x="${x}" y="${Math.min(y0,yv)}" width="${Math.max(1,w-2)}" height="${Math.abs(y0-yv)}" fill="${c}" rx="2"><title>${esc(se.nombre||"")} ${esc(g.etiquetas[i])}: ${fmt(v)}</title></rect>`;
+      if(lab)s+=`<text x="${x+(w-2)/2}" y="${(v>=0?yv-4:yv+12)}" text-anchor="middle" class="tk">${fmt(v)}</text>`})}
+    else{s+=`<polyline points="${se.datos.map((v,i)=>`${L+bw*i+bw/2},${y(v)}`).join(" ")}" fill="none" stroke="${c}" stroke-width="2.5"/>`;
+      se.datos.forEach((v,i)=>{s+=`<circle cx="${L+bw*i+bw/2}" cy="${y(v)}" r="3.5" fill="${c}"><title>${esc(g.etiquetas[i])}: ${fmt(v)}</title></circle>`;if(lab)s+=`<text x="${L+bw*i+bw/2}" y="${y(v)-8}" text-anchor="middle" class="tk">${fmt(v)}</text>`})}});
+  s+=`<line x1="${L}" x2="${W-R}" y1="${y(0)}" y2="${y(0)}" class="ax"/></svg>`;
+  const leg=(k>1||g.series[0].nombre)?`<div class="legend">${g.series.map((se,j)=>`<span><i style="background:${C[j%4]}"></i>${esc(se.nombre||"")}</span>`).join("")}</div>`:"";
+  return `<figure class="chartwrap">${s}${leg}</figure>`;
+}
+function ctxHTML(q){return `${q.contexto?`<div class="ctx">${esc(q.contexto)}</div>`:""}${q.tabla?tablaHTML(q.tabla):""}${q.grafica?graficaHTML(q.grafica):""}`}
+
+/* ---------- PRUEBA ---------- */
+function metaBlock(q){
+  return `<details><summary>Lo que evalúa esta pregunta</summary><div class="meta">
+  <div><b>Competencia:</b> ${esc(q.competencia)}</div>
+  <div><b>Componente:</b> ${esc(q.componente)}</div>
+  <div><b>Afirmación:</b> ${esc(q.afirmacion)}</div>
+  <div><b>Evidencia:</b> ${esc(q.evidencia)}</div>
+  <div><b>DBA:</b> ${esc(q.dba)}</div>
+  <div><b>Lineamiento / estándar:</b> ${esc(q.lineamiento)}</div>
+  ${q.mcer?`<div><b>MCER:</b> ${esc(q.mcer)}</div>`:""}</div></details>`;
+}
+function quiz(){
+  const n=S.items.length,i=S.i,q=S.items[i],answered=Object.keys(S.ans).length;
+  app.innerHTML=`
+  <section class="card">
+    <div class="row" style="justify-content:space-between"><span class="eyebrow">${esc(S.name)} · ${S.grado}° · Pregunta ${i+1} de ${n}</span><span class="muted" style="font-size:.85rem">${answered}/${n} respondidas · <span id="tmr"></span> de ~${n*2} min</span></div>
+    <div class="prog" aria-hidden="true"><i style="width:${answered/n*100}%"></i></div>
+    <div class="dots">${S.items.map((x,k)=>`<button type="button" data-go="${k}" class="${S.ans[x.id]?"ans":""} ${k===i?"cur":""} ${S.flag[x.id]?"flag":""}" aria-label="Ir a pregunta ${k+1}">${k+1}</button>`).join("")}</div>
+  </section>
+  <section class="card pop">
+    <div class="chips"><span class="chip">${areaName(q.area,q.grado)}</span><span class="chip lv-${esc(q.nivel)}">Nivel ${esc(q.nivel)}</span><span class="chip">${esc(q.competencia)}</span>${q.prueba?`<span class="chip">${esc(q.prueba)}</span>`:""}</div>
+    ${ctxHTML(q)}
+    <p class="stem">${esc(q.enunciado)}</p>
+    <div class="opts" role="radiogroup">${Object.entries(q.opciones).map(([L,t])=>`
+      <label class="opt"><input type="radio" name="op" value="${L}" ${S.ans[q.id]===L?"checked":""}><span class="L">${L}</span><span>${esc(t)}</span></label>`).join("")}</div>
+    <label class="row" style="font-weight:700;font-size:.92rem;cursor:pointer"><input type="checkbox" id="flag" style="width:auto" ${S.flag[q.id]?"checked":""}> Tengo duda en esta pregunta</label>
+    ${q.estrategia_icfes?`<details><summary>Estrategia ICFES para este tipo de pregunta</summary><div class="meta"><span>${esc(q.estrategia_icfes)}</span></div></details>`:""}
+    ${metaBlock(q)}
+    <div class="row" style="justify-content:space-between">
+      <button type="button" id="prev" ${i===0?"disabled":""}>Anterior</button>
+      ${i<n-1?`<button type="button" class="navy" id="next">Siguiente</button>`:`<button type="button" class="primary" id="finish">Entregar evaluación</button>`}
+    </div>
+    <div id="confirm"></div>
+  </section>`;
+  app.querySelectorAll('input[name="op"]').forEach(r=>r.addEventListener("change",()=>{S.ans[q.id]=r.value;
+    const answered=Object.keys(S.ans).length;app.querySelector(".prog i").style.width=(answered/n*100)+"%";
+    app.querySelector(`[data-go="${i}"]`).classList.add("ans")}));
+  $("#flag").addEventListener("change",e=>{S.flag[q.id]=e.target.checked;app.querySelector(`[data-go="${i}"]`).classList.toggle("flag",e.target.checked)});
+  app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{S.i=+b.dataset.go;quiz()});
+  $("#prev").onclick=()=>{S.i--;quiz()};
+  if($("#next"))$("#next").onclick=()=>{S.i++;quiz()};
+  if($("#finish"))$("#finish").onclick=()=>{
+    const miss=S.items.filter(x=>!S.ans[x.id]).length;
+    if(!miss) return grade();
+    $("#confirm").innerHTML=`<div class="box q"><b>Te faltan ${miss} pregunta(s) sin responder.</b><span>En Saber, una pregunta en blanco cuenta como incorrecta. ¿Quieres entregar así?</span>
+      <div class="row"><button type="button" id="cNo" class="navy">Volver a revisar</button><button type="button" id="cYes">Entregar de todos modos</button></div></div>`;
+    $("#cNo").onclick=()=>{S.i=S.items.findIndex(x=>!S.ans[x.id]);quiz()};
+    $("#cYes").onclick=grade;
+  };
+  window.scrollTo({top:0});
+}
+
+/* ---------- CALIFICACIÓN ---------- */
+function levelOf(p){return p<=35?"Insuficiente":p<=50?"Mínimo":p<=70?"Satisfactorio":"Avanzado"}
+function grade(){
+  S.end=Date.now();
+  S.items.forEach(q=>{
+    const a=S.ans[q.id], ok=a===q.correcta;
+    if(!ok) S.ruta[q.id]={kind:"error",state:"p"};
+    else if(S.flag[q.id]) S.ruta[q.id]={kind:"duda",state:"d"};
+  });
+  const db=load(), pk=normName(S.name); db.pend=db.pend||{}; const P=db.pend[pk]=db.pend[pk]||{};
+  S.items.forEach(q=>{ if(S.ans[q.id]===q.correcta) delete P[q.id]; else P[q.id]={g:q.grado,a:q.area,t:Date.now()}; });
+  save(db); persist(); results();
+}
+function stats(){
+  const n=S.items.length, ok=S.items.filter(q=>S.ans[q.id]===q.correcta).length;
+  const by=(key)=>{const m={};S.items.forEach(q=>{const k=key(q);m[k]=m[k]||{t:0,o:0};m[k].t++;if(S.ans[q.id]===q.correcta)m[k].o++});return m};
+  return {n,ok,pct:Math.round(ok/n*100),area:by(q=>areaName(q.area,q.grado)),comp:by(q=>q.competencia),niv:by(q=>q.nivel)};
+}
+function bars(m){return Object.entries(m).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><span class="t"><i style="width:${v.o/v.t*100}%"></i></span><b>${v.o}/${v.t}</b></div>`).join("")}
+function rutaCounts(){const v=Object.values(S.ruta);return{err:v.filter(x=>x.kind==="error").length,conv:v.filter(x=>x.kind==="error"&&x.state==="f").length,dud:v.filter(x=>x.kind==="duda").length,dudOk:v.filter(x=>x.kind==="duda"&&x.state==="f").length}}
+function puntajeHTML(){
+  const Wt={matematicas:3,lenguaje:3,sociales:3,ciencias:3,ingles:1}, by={};
+  S.items.forEach(q=>{by[q.area]=by[q.area]||{t:0,o:0};by[q.area].t++;if(S.ans[q.id]===q.correcta)by[q.area].o++});
+  const areas=ORDER.filter(a=>by[a]), pa=a=>Math.round(by[a].o/by[a].t*100);
+  const glob=areas.length===5?Math.round(areas.reduce((x,a)=>x+pa(a)*Wt[a],0)/13*5):0;
+  return `<section class="card"><span class="eyebrow">Proyección tipo Saber 11</span><h3>${glob?`Puntaje global estimado: ${glob} de 500`:"Puntaje estimado de la prueba"}</h3>
+  <div class="bars">${areas.map(a=>`<div class="bar"><span>${esc(areaName(a,S.grado))}${a==="ingles"?" (peso 1)":" (peso 3)"}</span><span class="t"><i style="width:${pa(a)}%"></i></span><b>${pa(a)}/100</b></div>`).join("")}</div>
+  <p class="muted" style="font-size:.85rem">Estimación SABI: tu porcentaje de acierto en escala 0–100 por prueba y el global con la ponderación oficial (Matemáticas, Lectura Crítica, Sociales y Ciencias ×3; Inglés ×1). El ICFES usa un modelo estadístico propio: úsala para ver tu tendencia, no como puntaje oficial.</p></section>`;
+}
+function results(){
+  const st=stats(), rc=rutaCounts(), lv=levelOf(st.pct);
+  app.innerHTML=`
+  <section class="card score pop">
+    <div><div class="big">${st.pct}</div><div class="muted" style="font-size:.85rem">de 100 · ${st.ok}/${st.n} correctas</div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <span class="eyebrow">Resultado de ${esc(S.name)} · ${S.grado}°</span>
+      <h2>Nivel de desempeño de referencia: ${lv}</h2>
+      <p class="muted" style="font-size:.9rem">Escala institucional SABI inspirada en los 4 niveles Saber (Insuficiente, Mínimo, Satisfactorio, Avanzado). No reemplaza el puntaje oficial del ICFES.</p>
+    </div>
+  </section>
+  ${S.mode!=="repaso"?puntajeHTML():""}
+  ${rc.err+rc.dud?`<section class="card" style="border:2px solid var(--orange)">
+    <span class="eyebrow">Tu siguiente paso</span>
+    <h2>Tienes ${rc.err} error(es) y ${rc.dud} duda(s) listos para convertirse en aprendizaje.</h2>
+    <p class="motto">“${MOTTO}”</p>
+    <div class="row"><button class="primary" type="button" id="goRuta">Empezar mi Ruta del Error</button></div>
+  </section>`:`<section class="card"><h2>¡Todo correcto y sin dudas!</h2><p>Reta tu nivel: presenta el simulacro de un grado superior o explica a un compañero cómo resolviste las preguntas Avanzadas.</p></section>`}
+  <section class="card"><h3>Por área</h3><div class="bars">${bars(st.area)}</div></section>
+  <section class="card"><h3>Por competencia</h3><div class="bars">${bars(st.comp)}</div></section>
+  <section class="card"><h3>Por nivel de exigencia de la pregunta</h3><div class="bars">${bars(st.niv)}</div></section>`;
+  if($("#goRuta"))$("#goRuta").onclick=ruta;
+  window.scrollTo({top:0});
+}
+
+/* ---------- RUTA DEL ERROR ---------- */
+const STL={p:["p","Por resolver"],e:["e","En camino"],f:["f","Fortaleza"],d:["d","Duda por aclarar"]};
+function ruta(){
+  const rc=rutaCounts(), ids=Object.keys(S.ruta);
+  const total=rc.err+rc.dud, done=rc.conv+rc.dudOk;
+  const all=done===total&&total>0;
+  app.innerHTML=`
+  <section class="card">
+    <span class="eyebrow">Ruta del Error · ${esc(S.name)}</span>
+    <h2>${all?"¡Convertiste cada error en fortaleza!":"Elige un error y conviértelo en aprendizaje"}</h2>
+    <div class="prog" aria-hidden="true"><i style="width:${total?done/total*100:0}%"></i></div>
+    <p class="muted">${done} de ${total} convertidos en fortaleza.</p>
+  </section>
+  ${all?`<section class="card pop" style="border:2px solid var(--ok)">
+    <div class="row" style="flex-wrap:nowrap"><img class="face" src="${AV_FACE}" alt="SABI" width="56" height="56"><h3>Cierre de tu ruta</h3></div>
+    <p>Hoy demostraste lo que dice nuestro lema: <b>“${MOTTO}”</b></p>
+    <label class="f">Antes de irte: ¿qué harás distinto en tu próxima evaluación?<textarea id="meta" rows="3" placeholder="Ej.: leer dos veces la pregunta antes de mirar las opciones">${esc(S.meta||"")}</textarea></label>
+    <div class="row"><button class="primary" id="saveMeta" type="button">Guardar mi compromiso</button><button type="button" id="again">Nueva evaluación</button></div>
+  </section>`:""}
+  <section class="card"><div class="errlist">${ids.map(id=>{const q=S.items.find(x=>x.id===id),r=S.ruta[id],s=STL[r.state];
+    return `<button type="button" class="erritem" data-id="${id}"><span class="chip">${areaName(q.area,q.grado).split(" ")[0]}</span><span style="min-width:0">${esc(q.enunciado.slice(0,90))}${q.enunciado.length>90?"…":""}<br><span class="muted" style="font-size:.8rem;font-weight:700">${r.kind==="error"?"Error: "+esc((q.errores[S.ans[q.id]]||{}).error||"Pregunta sin responder"):"Acertaste, pero dudaste"}</span></span><span class="st ${s[0]}">${s[1]}</span></button>`}).join("")}</div>
+    <div class="row"><button type="button" id="back">Ver mis resultados</button></div></section>`;
+  app.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>step(b.dataset.id,1));
+  $("#back").onclick=results;
+  if($("#saveMeta"))$("#saveMeta").onclick=()=>{S.meta=$("#meta").value.trim();persist();toast("Compromiso guardado")};
+  if($("#again"))$("#again").onclick=home;
+  window.scrollTo({top:0});
+}
+
+function step(id,k){
+  const q=S.items.find(x=>x.id===id), r=S.ruta[id], chosen=S.ans[id], e=q.errores[chosen];
+  if(r.state==="p")r.state="e";
+  const isDuda=r.kind==="duda";
+  const titles=["Lo que tu error revela","Piénsalo tú primero","Aprende y resuelve tus dudas","Reto gemelo"];
+  if(isDuda)titles[0]="Acertaste, pero dudaste";
+  let body="";
+  if(k===1){
+    body=`${ctxHTML(q)}<p class="stem">${esc(q.enunciado)}</p>
+    ${isDuda?`<div class="box ok"><b>Elegiste ${chosen}: ${esc(q.opciones[chosen])}. ¡Es correcta!</b><span>Marcaste que tenías duda. Vamos a asegurar que la próxima vez respondas con certeza.</span></div>`
+    : chosen?`<div class="box bad"><b>Elegiste ${chosen}: ${esc(q.opciones[chosen])}</b><span class="chip" style="align-self:flex-start">${esc(e.error)}</span><span>${esc(e.porque)}</span></div>`
+    :`<div class="box bad"><b>Dejaste esta pregunta en blanco.</b><span>Una respuesta en blanco no nos dice nada; un intento sí nos enseña. Vamos a construirla juntos.</span></div>`}
+    <p class="muted">Equivocarse aquí no es fallar: es encontrar exactamente qué ajustar.</p>`;
+  } else if(k===2){
+    const guide=isDuda||!chosen? (Object.values(q.errores)[0]||{}).pregunta_guia : e.pregunta_guia;
+    body=`<div class="box q"><span class="eyebrow">Pregunta guía</span><b class="pre">${esc(guide)}</b></div>
+    <label class="f">Escribe lo que descubriste (opcional)<textarea id="refl" rows="3" placeholder="Me di cuenta de que…">${esc(r.refl||"")}</textarea></label>
+    <p class="muted" style="font-size:.9rem">Tómate un minuto. Descubrirlo tú vale más que leer la respuesta.</p>`;
+  } else if(k===3){
+    body=`${(!isDuda&&chosen)?`<div class="box n"><span class="eyebrow">Corrige tu error</span><span>${esc(e.aprende)}</span></div>`:""}
+    <div class="box ok"><b>La respuesta correcta es ${q.correcta}: ${esc(q.opciones[q.correcta])}</b><span class="pre">${esc(q.explicacion)}</span></div>
+    <div class="tt"><div class="box q"><span class="eyebrow">Tip de SABI</span><span>${esc(q.tip)}</span></div><div class="box q"><span class="eyebrow">Truco</span><span>${esc(q.truco)}</span></div></div>
+    ${q.estrategia_icfes?`<div class="box n"><span class="eyebrow">Así pregunta el ICFES</span><span>${esc(q.estrategia_icfes)}</span></div>`:""}
+    <div class="chips">${(q.temas||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join("")}</div>
+    <h3>¿Te queda alguna duda?</h3>
+    <div class="doubts">
+      <button type="button" data-d="q">No entendí qué me preguntaban</button>
+      <button type="button" data-d="o">Dudé entre dos opciones</button>
+      <button type="button" data-d="t">No conozco un tema o palabra</button>
+      <button type="button" data-d="w">¿Para qué me sirve esto?</button>
+    </div>
+    <div id="dAns"></div>`;
+  } else {
+    const g=q.gemela, ga=r.gAns;
+    body=`<p class="muted">Mismo concepto, otros datos. Demuéstrate que ya lo dominas.</p>
+    ${ctxHTML(g)}<p class="stem">${esc(g.enunciado)}</p>
+    <div class="opts">${Object.entries(g.opciones).map(([L,t])=>`<label class="opt ${ga?(L===g.correcta?"is-ok":(L===ga?"is-bad":"")):""}"><input type="radio" name="gop" value="${L}" ${ga===L?"checked":""} ${r.state==="f"?"disabled":""}><span class="L">${L}</span><span>${esc(t)}</span></label>`).join("")}</div>
+    <div id="gRes">${ga?gemelaMsg(q,ga):""}</div>`;
+  }
+  app.innerHTML=`
+  <section class="card pop">
+    <div class="row" style="justify-content:space-between"><span class="eyebrow">Paso ${k} de 4 · ${areaName(q.area,q.grado)} · ${S.grado}°</span><span class="chip lv-${esc(q.nivel)}">Nivel ${esc(q.nivel)}</span></div>
+    <div class="steps" aria-hidden="true">${[1,2,3,4].map(x=>`<span class="${x<=k?"on":""}"></span>`).join("")}</div>
+    <h2>${titles[k-1]}</h2>
+    ${body}
+    ${k>1?metaBlock(q):""}
+    <div class="row" style="justify-content:space-between">
+      <button type="button" id="sBack">${k===1?"Volver a mi ruta":"Anterior"}</button>
+      ${k<4?`<button type="button" class="navy" id="sNext">${k===2?"Ya lo pensé, quiero aprender":"Siguiente"}</button>`:`<button type="button" id="sRuta">Volver a mi ruta</button>`}
+    </div>
+  </section>`;
+  $("#sBack").onclick=()=>{saveRefl(r);k===1?ruta():step(id,k-1)};
+  if($("#sNext"))$("#sNext").onclick=()=>{saveRefl(r);step(id,k+1)};
+  if($("#sRuta"))$("#sRuta").onclick=ruta;
+  if($("#retry"))$("#retry").onclick=()=>{r.gAns=null;persist();step(id,4)};
+  if($("#review"))$("#review").onclick=()=>step(id,3);
+  app.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>doubt(q,b.dataset.d,chosen));
+  app.querySelectorAll('input[name="gop"]').forEach(x=>x.addEventListener("change",()=>{
+    r.gAns=x.value; r.tries=(r.tries||0)+1;
+    if(x.value===q.gemela.correcta){r.state="f";toast(r.kind==="error"?"¡Error convertido en fortaleza!":"¡Duda resuelta!")}
+    persist(); step(id,4);
+  }));
+  window.scrollTo({top:0});
+}
+function saveRefl(r){const t=$("#refl");if(t){r.refl=t.value.trim();persist()}}
+function gemelaMsg(q,ga){
+  const g=q.gemela;
+  if(ga===g.correcta) return `<div class="box ok pop"><b>¡Correcto! Este error ya es una fortaleza.</b><span class="pre">${esc(g.explicacion)}</span><span>“${MOTTO}”</span></div>`;
+  return `<div class="box bad"><b>Todavía no. Y está bien: cada intento te acerca.</b><span class="pre">${esc(g.explicacion)}</span>
+  <div class="row"><button type="button" class="navy" id="review">Repasar la explicación</button><button type="button" id="retry">Intentar de nuevo</button></div></div>`;
+}
+function doubt(q,d,chosen){
+  let h="";
+  if(d==="q") h=`<div class="box n"><b>Volvamos a la pregunta, por partes.</b><span><b>Qué se busca:</b> ${esc(q.afirmacion)}</span><span><b>Qué debes hacer:</b> ${esc(q.evidencia)}</span><span>Truco de lectura: subraya el verbo de la pregunta (identificar, calcular, inferir, explicar) y lo que te piden encontrar, antes de leer las opciones.</span></div>`;
+  if(d==="o"){const rows=Object.keys(q.opciones).filter(L=>L!==q.correcta).map(L=>`<tr><td><b>${L}</b></td><td>${esc(q.opciones[L])}</td><td>${esc(q.errores[L].error)}: ${esc(q.errores[L].aprende)}</td></tr>`).join("");
+    h=`<div class="box n"><b>Por qué cada opción incorrecta no funciona</b><div class="tbl"><table><thead><tr><th>Opción</th><th>Dice</th><th>Por qué no</th></tr></thead><tbody>${rows}</tbody></table></div><span>La correcta (${q.correcta}) es la única que cumple todo lo que pide la pregunta.</span></div>`}
+  if(d==="t") h=`<div class="box n"><b>Temas para repasar</b><div class="chips">${(q.temas||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join("")}</div><span>${esc(q.dba)}</span><span>Pídele a tu docente o a SABI Tutor una explicación de estos temas con un ejemplo distinto. Luego vuelve y haz el reto gemelo.</span></div>`;
+  if(d==="w") h=`<div class="box n"><b>Para qué te sirve</b><span>${esc(q.afirmacion)}</span><span>Esta habilidad aparece en las pruebas Saber de ${S.grado<=5?"3° y 5°":S.grado<=9?"7° y 9°":"11°"} y, sobre todo, en decisiones reales: leer bien, calcular bien y argumentar bien.</span></div>`;
+  $("#dAns").innerHTML=h;
+}
+
+/* ---------- PERSISTENCIA Y PANEL DOCENTE ---------- */
+function persist(){
+  if(!S||!S.end)return;
+  const db=load(), st=stats(), rc=rutaCounts();
+  const rec={sid:S.start,name:S.name,grado:S.grado,mode:S.mode,fecha:new Date(S.start).toISOString(),pct:st.pct,ok:st.ok,n:st.n,
+    err:rc.err,conv:rc.conv,dud:rc.dud,meta:S.meta||"",
+    fallos:S.items.filter(q=>S.ans[q.id]!==q.correcta).map(q=>({id:q.id,area:q.area,comp:q.competencia,elig:S.ans[q.id]||"—",error:(q.errores[S.ans[q.id]]||{}).error||"En blanco",conv:(S.ruta[q.id]||{}).state==="f"}))};
+  const i=db.hist.findIndex(h=>h.sid===rec.sid); if(i>=0)db.hist[i]=rec; else db.hist.push(rec);
+  save(db);
+}
+function docente(){
+  const db=load(), H=db.hist.slice().reverse();
+  const freq={}; db.hist.forEach(h=>h.fallos.forEach(f=>{const k=f.id+"|"+f.error;freq[k]=freq[k]||{id:f.id,area:f.area,error:f.error,n:0,c:0};freq[k].n++;if(f.conv)freq[k].c++}));
+  const top=Object.values(freq).sort((a,b)=>b.n-a.n).slice(0,12);
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Panel docente</span><h2>Errores más frecuentes y su conversión</h2>
+  <p class="muted" style="font-size:.9rem">Datos guardados en este dispositivo. Para consolidar el colegio, copia el CSV y pégalo en la hoja de cálculo del área.</p>
+  ${top.length?`<div class="tbl"><table><thead><tr><th>Ítem</th><th>Área</th><th>Error conceptual</th><th>Veces</th><th>Convertidos</th></tr></thead><tbody>${top.map(t=>`<tr><td>${esc(t.id)}</td><td>${AREAS[t.area]}</td><td>${esc(t.error)}</td><td>${t.n}</td><td>${t.c}</td></tr>`).join("")}</tbody></table></div>`:`<p>Aún no hay evaluaciones en este dispositivo. Cuando un estudiante termine, aparecerán aquí sus errores y cuántos convirtió en fortaleza.</p>`}
+  </section>
+  <section class="card"><h3>Evaluaciones presentadas (${H.length})</h3>
+  ${H.length?`<div class="tbl"><table><thead><tr><th>Fecha</th><th>Estudiante</th><th>Grado</th><th>Prueba</th><th>Puntaje</th><th>Errores convertidos</th><th>Compromiso</th></tr></thead><tbody>${H.map(h=>`<tr><td>${h.fecha.slice(0,10)}</td><td>${esc(h.name)}</td><td>${h.grado}°</td><td>${h.mode==="mixto"?"Simulacro":h.mode==="repaso"?"Repaso":AREAS[h.mode]}</td><td>${h.pct}</td><td>${h.conv}/${h.err}</td><td>${esc(h.meta)}</td></tr>`).join("")}</tbody></table></div>
+  <div class="row"><button type="button" class="navy" id="csv">Copiar CSV</button></div><textarea id="csvBox" rows="4" hidden readonly></textarea>`:""}
+  </section>
+  <section class="card"><h3>Banco cargado</h3><p class="muted">${(INDEX&&INDEX.total||BANK.length).toLocaleString("es-CO")} preguntas tipo Saber 11 (grados 9° a 11°, 5 pruebas), cada una con competencia, DBA, lineamiento, diagnóstico por opción incorrecta y reto gemelo. Versión del banco: ${INDEX?INDEX.version:"—"}.</p></section>`;
+  if($("#csv"))$("#csv").onclick=()=>{
+    const rows=[["fecha","estudiante","grado","prueba","puntaje","correctas","total","errores","convertidos","dudas","item","area","competencia","opcion_elegida","error_conceptual","convertido"]];
+    db.hist.forEach(h=>(h.fallos.length?h.fallos:[{}]).forEach(f=>rows.push([h.fecha,h.name,h.grado,h.mode,h.pct,h.ok,h.n,h.err,h.conv,h.dud,f.id||"",f.area||"",f.comp||"",f.elig||"",f.error||"",f.conv===undefined?"":f.conv?"sí":"no"])));
+    const csv=rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(",")).join("\n");
+    const box=$("#csvBox");box.value=csv;
+    navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(csv).then(()=>toast("CSV copiado"),()=>{box.hidden=false;box.select();toast("Selecciona y copia el texto")}):(box.hidden=false,box.select());
+  };
+  window.scrollTo({top:0});
+}
+
+$("#btnHome").onclick=()=>{if(S&&!S.end&&Object.keys(S.ans).length){toast("Tu evaluación sigue abierta. Entrégala o recarga para salir.");return}home()};
+$("#btnDocente").onclick=()=>{if(S&&!S.end&&Object.keys(S.ans).length){toast("Termina primero la evaluación en curso.");return}
+  let ok=false;try{ok=sessionStorage.getItem("sabi_doc")==="1"}catch(e){}
+  if(!ok){const p=prompt("Clave del panel docente");if((p||"").trim().toUpperCase()!==DOC_PIN){toast("Clave incorrecta");return}try{sessionStorage.setItem("sabi_doc","1")}catch(e){}}
+  loadIndex().then(docente)};
+$("#btnGuia").onclick=guia;
+setInterval(()=>{const el=document.getElementById("tmr");if(el&&S&&!S.end){const s=Math.floor((Date.now()-S.start)/1000);el.textContent=Math.floor(s/60)+":"+String(s%60).padStart(2,"0")}},1000);
+if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+$("#hdrFace").src=AV_FACE;
+home();
+})();
+</script>
+
+</body></html>

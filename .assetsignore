@@ -3,3 +3,7 @@ wrangler.jsonc
 .git
 .nojekyll
 README.md
+preicfes/wrangler.jsonc
+preicfes/.assetsignore
+preicfes/tools
+preicfes/banco_raw

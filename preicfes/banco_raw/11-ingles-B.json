@@ -1,0 +1,2761 @@
+[
+{
+"id": "P11-ING-B001",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones sencillas sobre temas de su entorno, usando fórmulas sociales adecuadas para saludar, presentarse y despedirse.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Elige la fórmula social que corresponde a una presentación personal.",
+"contexto": "On the first day of classes, Samuel meets a new classmate in the school hallway.",
+"enunciado": "Samuel: \"Hi, I'm Samuel. Nice to meet you.\" Which is the best reply?",
+"opciones": {
+"A": "I'm fine, thank you.",
+"B": "Nice to meet you too.",
+"C": "Yes, I meet you."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir presentación con saludo de estado",
+"porque": "Elegiste A porque probablemente asociaste cualquier saludo con 'How are you?' y respondiste cómo estás.",
+"pregunta_guia": "¿Samuel te preguntó cómo estás o te dijo que le alegra conocerte?",
+"aprende": "'Nice to meet you' se responde con 'Nice to meet you too'; 'I'm fine, thank you' responde a 'How are you?'."
+},
+"C": {
+"error": "Traducción literal palabra por palabra",
+"porque": "Elegiste C porque probablemente repetiste el verbo 'meet' del enunciado pensando que así respondías.",
+"pregunta_guia": "¿Un hablante de inglés diría 'Yes, I meet you' al conocer a alguien?",
+"aprende": "Repetir palabras del enunciado no garantiza una respuesta adecuada; en inglés hay fórmulas fijas para presentarse."
+}
+},
+"explicacion": "Paso 1: Identifica la función de la frase de Samuel: es una presentación ('I'm Samuel') con una fórmula de cortesía ('Nice to meet you'). Paso 2: La respuesta esperada a esa fórmula es devolverla: 'Nice to meet you too'. Paso 3: A responde a otra pregunta ('How are you?') y C es una construcción que no se usa. Paso 4: La respuesta adecuada es B.",
+"tip": "Las fórmulas sociales se responden con su pareja: Nice to meet you → Nice to meet you too.",
+"truco": "Si te dicen algo amable, devuélvelo con 'too' al final.",
+"estrategia_icfes": "En la Parte 3 el ICFES presenta una intervención corta y tres respuestas; solo una cumple el propósito comunicativo. Identifica primero la función (presentarse, saludar, agradecer) y luego busca la respuesta que un hablante real daría, no la que repite palabras.",
+"temas": [
+"Fórmulas sociales",
+"Presentaciones personales",
+"Saludos en inglés"
+],
+"gemela": {
+"enunciado": "Teacher: \"Good morning, everyone!\" Which is the best reply?",
+"opciones": {
+"A": "Good night, teacher!",
+"B": "Fine, thanks!",
+"C": "Good morning!"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Es un saludo de la mañana. Paso 2: Se responde con el mismo saludo: 'Good morning!'. 'Good night' es para despedirse en la noche y 'Fine, thanks' responde a 'How are you?'."
+}
+},
+{
+"id": "P11-ING-B002",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones sencillas sobre temas de su entorno y responde de forma adecuada a preguntas y ofrecimientos cotidianos.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta de elección (or) escogiendo una de las alternativas ofrecidas.",
+"contexto": "At the school cafeteria, the cashier talks to Juliana during the break.",
+"enunciado": "Cashier: \"Would you like a juice or a soda?\" Which is the best reply?",
+"opciones": {
+"A": "A juice, please.",
+"B": "Yes, I would like.",
+"C": "I like it very much."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Responder sí/no a una pregunta de elección",
+"porque": "Elegiste B porque probablemente creíste que toda pregunta con 'Would you...?' se responde con 'Yes'.",
+"pregunta_guia": "Si te ofrecen dos cosas unidas por 'or', ¿basta con decir 'sí'?",
+"aprende": "Las preguntas con 'or' piden escoger una opción: 'A juice, please' o 'A soda, please'."
+},
+"C": {
+"error": "Confundir 'would like' con 'like'",
+"porque": "Elegiste C porque probablemente entendiste 'like' como 'gustar en general' y no como 'querer ahora'.",
+"pregunta_guia": "¿Te preguntan qué te gusta en general o qué quieres tomar en este momento?",
+"aprende": "'Would you like...?' = ¿Quieres/Te gustaría...? (ofrecimiento). 'I like it' expresa un gusto general."
+}
+},
+"explicacion": "Paso 1: La pregunta contiene 'or', así que es una pregunta de elección. Paso 2: 'Would you like' es un ofrecimiento educado (¿qué deseas?). Paso 3: La respuesta adecuada nombra una opción y agrega cortesía: 'A juice, please'. Paso 4: B responde sí/no y además está incompleta; C habla de gustos generales. Respuesta: A.",
+"tip": "Cuando escuches 'or', tu respuesta debe contener una de las dos opciones.",
+"truco": "OR = escoge; no digas solo YES.",
+"estrategia_icfes": "El ICFES suele incluir distractores que empiezan con 'Yes' para atrapar a quien responde por reflejo. Analiza el tipo de pregunta (sí/no, wh-, elección) antes de mirar las opciones.",
+"temas": [
+"Ofrecimientos con would like",
+"Preguntas de elección",
+"Cortesía en restaurantes"
+],
+"gemela": {
+"enunciado": "Waiter: \"Do you want your empanadas with or without hot sauce?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I want.",
+"B": "Without, thanks.",
+"C": "I want very much."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Es una pregunta de elección (with or without). Paso 2: Se responde escogiendo: 'Without, thanks'. A y C no eligen ninguna opción."
+}
+},
+{
+"id": "P11-ING-B003",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): comprende preguntas sobre información personal y de su entorno inmediato y responde con información pertinente.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: uso mi conocimiento previo para participar en una conversación.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Identifica el tipo de información que solicita una pregunta con 'whose'.",
+"contexto": "After the English class, the teacher finds a notebook on a desk and asks the students about it.",
+"enunciado": "Teacher: \"Whose notebook is this?\" Which is the best reply?",
+"opciones": {
+"A": "It's on the desk.",
+"B": "It's a blue notebook.",
+"C": "It's Mariana's."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'whose' con 'where'",
+"porque": "Elegiste A porque probablemente entendiste la pregunta como '¿dónde está el cuaderno?'.",
+"pregunta_guia": "¿La profesora quiere saber dónde está el cuaderno o de quién es?",
+"aprende": "'Whose' pregunta por el dueño (¿de quién?). Se responde con un posesivo: Mariana's, mine, his."
+},
+"B": {
+"error": "Confundir 'whose' con 'what kind'",
+"porque": "Elegiste B porque probablemente describiste el objeto en lugar de decir a quién pertenece.",
+"pregunta_guia": "Si la profesora ya tiene el cuaderno en la mano, ¿necesita saber de qué color es?",
+"aprende": "Describir el objeto no responde a 'whose'; se necesita un poseedor: It's Mariana's."
+}
+},
+"explicacion": "Paso 1: 'Whose' significa '¿de quién?'. Paso 2: La respuesta debe indicar un dueño con posesivo ('s, mine, yours, his, hers). Paso 3: 'It's Mariana's' indica la dueña. Paso 4: A indica lugar y B describe el objeto. Respuesta: C.",
+"tip": "Whose → dueño; Where → lugar; What → cosa o característica.",
+"truco": "Whose suena a 'who' + 's': ¿quién + posesión?",
+"estrategia_icfes": "Muchos ítems de la Parte 3 evalúan si reconoces la palabra interrogativa. Subraya mentalmente la wh-word y descarta las respuestas que contestan otra wh-word.",
+"temas": [
+"Wh-questions",
+"Genitivo sajón ('s)",
+"Pronombres posesivos"
+],
+"gemela": {
+"enunciado": "Classmate: \"Whose bag is that on the chair?\" Which is the best reply?",
+"opciones": {
+"A": "I think it's Tomás's.",
+"B": "It's very heavy.",
+"C": "It's next to the door."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Whose' pregunta por el dueño. Paso 2: Solo A nombra un dueño (Tomás's). B describe y C indica lugar."
+}
+},
+{
+"id": "P11-ING-B004",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones sobre temas de su interés expresando sentimientos y reaccionando de forma empática a lo que dice su interlocutor.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce una mala noticia y responde con una expresión de apoyo.",
+"contexto": "Camilo looks sad when he meets his best friend at the school gate.",
+"enunciado": "Camilo: \"I failed my maths quiz today.\" Which is the best reply?",
+"opciones": {
+"A": "Don't worry, you'll do better next time.",
+"B": "Congratulations, that's great news!",
+"C": "Yes, I had my maths quiz today too."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "No reconocer el significado de 'fail'",
+"porque": "Elegiste B porque probablemente no conocías 'failed' (reprobé) y supusiste que era una buena noticia.",
+"pregunta_guia": "Camilo se ve triste: ¿qué significa 'I failed'?",
+"aprende": "'Fail a test' = perder/reprobar un examen; 'pass a test' = aprobarlo. Ante una mala noticia se muestra apoyo."
+},
+"C": {
+"error": "Responder al tema y no a la intención",
+"porque": "Elegiste C porque probablemente te fijaste en las palabras 'maths quiz' y no en el sentimiento de Camilo.",
+"pregunta_guia": "¿Camilo quiere información sobre tu examen o necesita apoyo?",
+"aprende": "En una conversación responde a la intención del hablante (aquí, desahogarse), no solo al tema."
+}
+},
+"explicacion": "Paso 1: 'I failed my maths quiz' significa 'perdí el quiz de matemáticas': es una mala noticia. Paso 2: La reacción natural es consolar o animar. Paso 3: 'Don't worry, you'll do better next time' anima a Camilo. Paso 4: B felicita (contradice la situación) y C ignora su sentimiento. Respuesta: A.",
+"tip": "Antes de responder pregúntate: ¿la noticia es buena o mala?",
+"truco": "Fail = falla = mala noticia → consuela.",
+"estrategia_icfes": "El ICFES evalúa la adecuación social: la respuesta correcta reacciona al sentimiento del otro. Clasifica la intervención como buena noticia, mala noticia, pregunta o petición, y elige la reacción coherente.",
+"temas": [
+"Expresar empatía",
+"Vocabulario escolar (pass/fail)",
+"Reacciones a noticias"
+],
+"gemela": {
+"enunciado": "Sofía: \"I passed my driving test this morning!\" Which is the best reply?",
+"opciones": {
+"A": "Oh no, I'm so sorry.",
+"B": "That's fantastic! Well done!",
+"C": "I drive a car every day."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Pass a test' = aprobar: es buena noticia. Paso 2: Se felicita: 'That's fantastic! Well done!'. A lamenta y C cambia el tema."
+}
+},
+{
+"id": "P11-ING-B005",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información sobre lugares de su ciudad y su entorno, dando indicaciones sencillas a otras personas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta con 'how far' indicando una distancia o tiempo de desplazamiento.",
+"contexto": "A tourist stops Valeria in a park in the west of Cali and asks her for information.",
+"enunciado": "Tourist: \"Excuse me, how far is the Cristo Rey statue from here?\" Which is the best reply?",
+"opciones": {
+"A": "It's very beautiful.",
+"B": "About twenty minutes by car.",
+"C": "Yes, it's from here."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir 'how far' con 'what is it like'",
+"porque": "Elegiste A porque probablemente describiste el lugar en vez de dar la distancia.",
+"pregunta_guia": "¿El turista quiere saber cómo es el Cristo Rey o qué tan lejos está?",
+"aprende": "'How far...?' = ¿qué tan lejos? Se responde con distancia o tiempo: 'About 5 kilometres', 'Twenty minutes by car'."
+},
+"C": {
+"error": "Responder sí/no a una pregunta wh-",
+"porque": "Elegiste C porque probablemente respondiste con 'Yes' por reflejo y repetiste 'from here'.",
+"pregunta_guia": "¿Una pregunta que empieza con 'how' se puede responder con 'yes'?",
+"aprende": "Las preguntas con wh-/how piden información, no sí/no."
+}
+},
+"explicacion": "Paso 1: 'How far' pregunta por distancia. Paso 2: Una respuesta adecuada da distancia o tiempo de viaje. Paso 3: 'About twenty minutes by car' cumple. Paso 4: A describe y C responde sí/no a una pregunta abierta. Respuesta: B.",
+"tip": "How far → distancia; How long → duración; How often → frecuencia.",
+"truco": "FAR = lejos → responde con km o minutos.",
+"estrategia_icfes": "Las preguntas con 'how + adjetivo/adverbio' son frecuentes en la Parte 3. Traduce mentalmente 'how far', 'how long', 'how much' y busca la opción con el tipo de dato correcto.",
+"temas": [
+"Preguntas con how",
+"Dar indicaciones",
+"Distancias y transporte"
+],
+"gemela": {
+"enunciado": "Visitor: \"How far is the bus station from your school?\" Which is the best reply?",
+"opciones": {
+"A": "It's about two kilometres.",
+"B": "It's very big and modern.",
+"C": "Yes, it's far from school."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'How far' pide distancia. Paso 2: Solo A da una distancia ('about two kilometres'). B describe; C responde sí/no."
+}
+},
+{
+"id": "P11-ING-B006",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones cotidianas haciendo y respondiendo peticiones de manera cortés.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce una petición con 'Could you lend me...?' y la acepta de forma natural.",
+"contexto": "Five minutes before a physics test, Daniela realizes she forgot her calculator at home.",
+"enunciado": "Daniela: \"Could you lend me your calculator for the test?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I'd love to borrow it.",
+"B": "No, thanks. I have one.",
+"C": "Sure, here you are."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'lend' (prestar) con 'borrow' (pedir prestado)",
+"porque": "Elegiste A porque probablemente pensaste que 'lend' y 'borrow' significan lo mismo.",
+"pregunta_guia": "Si tú entregas la calculadora, ¿la estás prestando (lend) o la estás pidiendo prestada (borrow)?",
+"aprende": "Lend = dar en préstamo; borrow = recibir en préstamo. Quien entrega no dice 'borrow'."
+},
+"B": {
+"error": "Interpretar una petición como un ofrecimiento",
+"porque": "Elegiste B porque probablemente entendiste que Daniela te ofrecía su calculadora.",
+"pregunta_guia": "¿Quién necesita la calculadora: Daniela o tú?",
+"aprende": "'Could you...?' es una petición: el otro te pide algo. 'No, thanks' se usa para rechazar ofrecimientos."
+}
+},
+"explicacion": "Paso 1: 'Could you lend me...?' es una petición cortés: Daniela pide que le prestes la calculadora. Paso 2: La respuesta natural para aceptar es 'Sure, here you are' (claro, aquí tienes). Paso 3: A confunde lend/borrow y B trata la petición como un ofrecimiento. Respuesta: C.",
+"tip": "'Here you are' / 'Here you go' se dicen al entregar algo.",
+"truco": "LEND: Lo Entrego; BORROW: lo Busco prestado.",
+"estrategia_icfes": "El ICFES contrasta peticiones (Could you...?), ofrecimientos (Would you like...?) y sugerencias (Why don't we...?). Identifica quién necesita algo antes de elegir la respuesta.",
+"temas": [
+"Peticiones con could",
+"Lend vs borrow",
+"Respuestas corteses"
+],
+"gemela": {
+"enunciado": "Your brother: \"Can I borrow your headphones for a minute?\" Which is the best reply?",
+"opciones": {
+"A": "Of course. Here they are.",
+"B": "Yes, you can lend me.",
+"C": "No, thank you, I don't want."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Tu hermano pide prestados los audífonos (borrow). Paso 2: Aceptas y los entregas: 'Of course. Here they are'. B confunde lend/borrow; C rechaza como si fuera un ofrecimiento."
+}
+},
+{
+"id": "P11-ING-B007",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información sobre experiencias personales y actividades que realiza, ubicándolas en el tiempo.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: uso mi conocimiento previo para participar en una conversación.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta con 'How long have you been...?' indicando el punto de inicio de una actividad.",
+"contexto": "During a tryout for the school football team, the coach interviews each player.",
+"enunciado": "Coach: \"How long have you been playing football?\" Which is the best reply?",
+"opciones": {
+"A": "For two years ago.",
+"B": "Since I was eight years old.",
+"C": "I play every Saturday."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Mezclar 'for' con 'ago'",
+"porque": "Elegiste A porque probablemente tradujiste 'desde hace dos años' combinando 'for' y 'ago'.",
+"pregunta_guia": "¿'Ago' se usa con el presente perfecto o con el pasado simple?",
+"aprende": "Con presente perfecto: 'for two years' o 'since 2023'. 'Ago' va con pasado simple: 'I started two years ago'."
+},
+"C": {
+"error": "Confundir 'how long' con 'how often'",
+"porque": "Elegiste C porque probablemente entendiste que el entrenador preguntaba con qué frecuencia juegas.",
+"pregunta_guia": "¿El entrenador quiere saber cada cuánto juegas o desde cuándo?",
+"aprende": "How long (have you been...) = duración hasta hoy; How often = frecuencia."
+}
+},
+"explicacion": "Paso 1: 'How long have you been playing...?' pregunta por la duración de una actividad que empezó en el pasado y continúa. Paso 2: Se responde con 'for + periodo' o 'since + punto de inicio'. Paso 3: 'Since I was eight years old' indica el inicio. Paso 4: A mezcla for y ago; C da frecuencia. Respuesta: B.",
+"tip": "For + cantidad de tiempo (for two years); since + punto de inicio (since 2020, since I was eight).",
+"truco": "FOR = cuánto tiempo; SINCE = desde cuándo; AGO = hace (solo pasado).",
+"estrategia_icfes": "El ICFES evalúa la coherencia entre el tiempo verbal de la pregunta y la respuesta. Fíjate en el tiempo verbal (presente perfecto) y en la palabra interrogativa para descartar opciones.",
+"temas": [
+"Presente perfecto continuo",
+"For / since / ago",
+"Deportes"
+],
+"gemela": {
+"enunciado": "New friend: \"How long have you lived in Palmira?\" Which is the best reply?",
+"opciones": {
+"A": "I live with my parents.",
+"B": "For five years ago.",
+"C": "For about five years."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'How long have you lived' pide duración. Paso 2: 'For about five years' es correcto. A responde con quién vives y B mezcla for con ago."
+}
+},
+{
+"id": "P11-ING-B008",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información sobre su rutina y horarios en conversaciones sencillas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta con 'What time...?' indicando una hora.",
+"contexto": "Andrea's mother is preparing breakfast and wants to know Andrea's schedule.",
+"enunciado": "Mother: \"What time does your English class start?\" Which is the best reply?",
+"opciones": {
+"A": "At seven thirty.",
+"B": "For one hour.",
+"C": "On the second floor."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir 'what time' con 'how long'",
+"porque": "Elegiste B porque probablemente pensaste en cuánto dura la clase.",
+"pregunta_guia": "¿La mamá quiere saber a qué hora empieza o cuánto dura la clase?",
+"aprende": "'What time...?' pide una hora exacta: 'At 7:30'. 'For one hour' responde a 'How long...?'."
+},
+"C": {
+"error": "Confundir 'what time' con 'where'",
+"porque": "Elegiste C porque probablemente respondiste dónde es la clase.",
+"pregunta_guia": "¿'On the second floor' indica un momento o un lugar?",
+"aprende": "Las respuestas de lugar responden a 'Where...?'; para horas se usa 'at'."
+}
+},
+"explicacion": "Paso 1: 'What time' = ¿a qué hora?. Paso 2: Las horas se expresan con la preposición 'at': 'At seven thirty'. Paso 3: B indica duración y C lugar. Respuesta: A.",
+"tip": "At + hora (at 7:30), on + día (on Monday), in + mes (in May).",
+"truco": "What TIME → reloj ⏰ → AT.",
+"estrategia_icfes": "En la Parte 3 a menudo las tres opciones son gramaticalmente correctas; la diferencia está en qué pregunta responden. Pregúntate: ¿esta opción respondería a la wh-word del enunciado?",
+"temas": [
+"Decir la hora",
+"Preposiciones de tiempo",
+"Rutinas"
+],
+"gemela": {
+"enunciado": "Friend: \"What time does the movie finish?\" Which is the best reply?",
+"opciones": {
+"A": "In the shopping centre.",
+"B": "At about nine o'clock.",
+"C": "For two hours."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'What time' pide una hora. Paso 2: 'At about nine o'clock' da la hora. A es lugar y C duración."
+}
+},
+{
+"id": "P11-ING-B009",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones espontáneas en situaciones de servicio, reconociendo expresiones idiomáticas y respondiendo con alternativas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: utilizo estrategias como el parafraseo para compensar dificultades en la comunicación.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Interpreta la expresión 'I'm afraid' como forma cortés de dar una mala noticia y reacciona con una alternativa.",
+"contexto": "Martín calls a restaurant in the Granada neighbourhood of Cali to book a table for his parents' anniversary.",
+"enunciado": "Manager: \"I'm afraid we're fully booked tonight.\" Which is the best reply?",
+"opciones": {
+"A": "Great, a table for four, then.",
+"B": "Don't be afraid, it's not dangerous.",
+"C": "What a pity. Is tomorrow possible?"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No comprender 'fully booked'",
+"porque": "Elegiste A porque probablemente entendiste 'fully booked' como algo positivo o disponible.",
+"pregunta_guia": "Si el restaurante está 'fully booked', ¿quedan mesas libres?",
+"aprende": "'Fully booked' = completamente reservado, sin cupo. No se puede pedir una mesa para esa noche."
+},
+"B": {
+"error": "Interpretación literal de 'I'm afraid'",
+"porque": "Elegiste B porque probablemente tradujiste 'I'm afraid' como 'tengo miedo'.",
+"pregunta_guia": "¿El administrador siente miedo o está dando una mala noticia con cortesía?",
+"aprende": "'I'm afraid...' al inicio de una frase significa 'Lo siento, pero...' / 'Me temo que...'."
+}
+},
+"explicacion": "Paso 1: 'I'm afraid' introduce de manera cortés una noticia negativa (me temo que...). Paso 2: 'Fully booked' significa que no hay cupo. Paso 3: La reacción adecuada lamenta y busca una alternativa: 'What a pity. Is tomorrow possible?'. Paso 4: A pide mesa como si hubiera cupo; B toma 'afraid' literalmente. Respuesta: C.",
+"tip": "'I'm afraid (that)...' = 'Lo siento, pero...'; no tiene que ver con miedo en este uso.",
+"truco": "Afraid al inicio de la frase = mala noticia educada.",
+"estrategia_icfes": "En niveles B1 el ICFES usa expresiones idiomáticas cuyo sentido no es literal. Si una opción solo funciona con la traducción palabra por palabra, desconfía de ella.",
+"temas": [
+"Expresiones idiomáticas",
+"Reservas en restaurantes",
+"Proponer alternativas"
+],
+"gemela": {
+"enunciado": "Receptionist: \"I'm afraid the doctor isn't available this morning.\" Which is the best reply?",
+"opciones": {
+"A": "Oh, OK. Can I come this afternoon?",
+"B": "Why are you afraid of the doctor?",
+"C": "Perfect, I'll see him now."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'I'm afraid' anuncia una mala noticia: el médico no está disponible. Paso 2: Se acepta y se propone otra hora (A). B toma 'afraid' literalmente y C ignora la noticia."
+}
+},
+{
+"id": "P11-ING-B010",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones con sus compañeros para planear actividades, aceptando o rechazando sugerencias.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce que 'Why don't we...?' es una sugerencia y no una pregunta por una razón.",
+"contexto": "Two classmates are worried about the Saber 11 test and talk after class.",
+"enunciado": "Classmate: \"Why don't we study together for the Saber test this weekend?\" Which is the best reply?",
+"opciones": {
+"A": "Because I don't have the book.",
+"B": "Good idea. Is Saturday OK for you?",
+"C": "We don't study because it's Sunday."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Tomar una sugerencia como pregunta por la causa",
+"porque": "Elegiste A porque probablemente viste 'Why' y respondiste con 'Because'.",
+"pregunta_guia": "¿Tu compañero quiere saber una razón o te está proponiendo un plan?",
+"aprende": "'Why don't we...?' = '¿Por qué no...?' como propuesta. Se responde aceptando ('Good idea') o rechazando con cortesía."
+},
+"C": {
+"error": "Respuesta literal e incoherente",
+"porque": "Elegiste C porque probablemente repetiste la estructura 'we don't study' del enunciado.",
+"pregunta_guia": "¿Esa respuesta acepta o rechaza el plan de forma clara y lógica?",
+"aprende": "Repetir la estructura del enunciado no produce una respuesta coherente; responde a la función: proponer un plan."
+}
+},
+"explicacion": "Paso 1: 'Why don't we + verbo?' es una forma de sugerir un plan. Paso 2: Una respuesta adecuada acepta y continúa el plan: 'Good idea. Is Saturday OK for you?'. Paso 3: A responde con 'because' como si fuera una pregunta de causa; C es incoherente. Respuesta: B.",
+"tip": "Sugerencias comunes: Why don't we...?, Let's..., How about...? Respuestas: Good idea! / Sounds great! / Sorry, I can't.",
+"truco": "Why don't we = Let's.",
+"estrategia_icfes": "Este es uno de los distractores favoritos del ICFES: 'Why...?' seguido de 'Because...'. Antes de responder, identifica si la pregunta es real o una forma de proponer.",
+"temas": [
+"Hacer sugerencias",
+"Aceptar y rechazar planes",
+"Funciones comunicativas"
+],
+"gemela": {
+"enunciado": "Friend: \"How about going to the Jardín Botánico on Sunday?\" Which is the best reply?",
+"opciones": {
+"A": "Sounds great! What time?",
+"B": "By bus, I think.",
+"C": "Because it's very green."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'How about + -ing?' es una sugerencia. Paso 2: Se acepta y se continúa el plan: 'Sounds great! What time?'. B responde a 'how' como medio de transporte y C da una razón que nadie pidió."
+}
+},
+{
+"id": "P11-ING-B011",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones en las que responde a peticiones formales de manera cortés y coherente con las normas de convivencia.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Interpreta correctamente una petición con 'Would you mind + -ing?' y acepta con la fórmula adecuada.",
+"contexto": "It is 10 p.m. Mateo is listening to loud music in his apartment when his neighbour knocks on the door.",
+"enunciado": "Neighbour: \"Would you mind turning the music down a little?\" Which is the best reply?",
+"opciones": {
+"A": "Not at all. Sorry about that.",
+"B": "Yes, I would mind doing that.",
+"C": "I don't mind the music, thanks."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Responder 'Yes' a 'Would you mind...?'",
+"porque": "Elegiste B porque probablemente pensaste que empezar con 'Yes' siempre significa aceptar una petición.",
+"pregunta_guia": "Si 'mind' significa 'molestar', ¿qué estás diciendo al responder 'Yes, I would mind'?",
+"aprende": "'Would you mind...?' = '¿Te molestaría...?'. 'Not at all' / 'No, of course not' significa 'no me molesta, lo hago'. 'Yes' indicaría que sí te molesta."
+},
+"C": {
+"error": "Malinterpretar quién hace la acción",
+"porque": "Elegiste C porque probablemente entendiste que el vecino preguntaba si a ti te molesta la música.",
+"pregunta_guia": "¿El vecino pregunta tu opinión sobre la música o te pide bajarle el volumen?",
+"aprende": "'Would you mind + -ing' es una petición: el otro quiere que TÚ hagas la acción (turning down)."
+}
+},
+"explicacion": "Paso 1: 'Would you mind + verbo-ing?' es una petición muy cortés: '¿Te molestaría bajarle un poco a la música?'. Paso 2: Para aceptar se niega la molestia: 'Not at all'. Paso 3: Agregar 'Sorry about that' muestra respeto por el vecino. Paso 4: B dice literalmente que sí molesta, y C responde a otra pregunta. Respuesta: A.",
+"tip": "Would you mind...? → acepta con 'Not at all' o 'No, not at all'.",
+"truco": "MIND = molestar → NO me molesta = SÍ lo hago.",
+"estrategia_icfes": "El ICFES incluye peticiones formales cuyas respuestas son contraintuitivas para hispanohablantes. Traduce el verbo clave (mind = molestar) y comprueba qué significa realmente 'yes' o 'no' en ese contexto.",
+"temas": [
+"Peticiones formales",
+"Would you mind + -ing",
+"Convivencia y cortesía"
+],
+"gemela": {
+"enunciado": "Passenger on the bus: \"Do you mind if I open the window?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I do. Open it, please.",
+"B": "No, go ahead.",
+"C": "I don't open windows."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Do you mind if I...?' = '¿Te molesta si...?'. Paso 2: Para permitirlo se dice 'No, go ahead' (no me molesta, adelante). A, con 'Yes', diría que sí molesta; C no responde la petición."
+}
+},
+{
+"id": "P11-ING-B012",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información personal sobre su ubicación y actividades en conversaciones telefónicas sencillas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta con 'Where...?' indicando un lugar.",
+"contexto": "Kevin's aunt calls him on the phone because she wants to pick him up.",
+"enunciado": "Aunt: \"Where are you now?\" Which is the best reply?",
+"opciones": {
+"A": "I'm fine, and you?",
+"B": "I'm going by bus.",
+"C": "I'm at the shopping mall."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'Where are you?' con 'How are you?'",
+"porque": "Elegiste A porque probablemente oíste 'are you' y respondiste el saludo más conocido.",
+"pregunta_guia": "¿La tía pregunta cómo estás o dónde estás?",
+"aprende": "Where = dónde. 'Where are you?' se responde con un lugar: 'I'm at home', 'I'm at the mall'."
+},
+"B": {
+"error": "Confundir lugar con medio de transporte",
+"porque": "Elegiste B porque probablemente respondiste cómo te desplazas en lugar de dónde estás.",
+"pregunta_guia": "Si la tía quiere recogerte, ¿qué información necesita: el lugar o el medio de transporte?",
+"aprende": "'By bus' responde a 'How do you go...?'. Para 'Where are you?' se indica un lugar con 'at/in'."
+}
+},
+"explicacion": "Paso 1: 'Where' pregunta por un lugar. Paso 2: 'I'm at the shopping mall' indica dónde está Kevin. Paso 3: A responde a 'How are you?' y B indica el transporte. Respuesta: C.",
+"tip": "Where → lugar; How → manera o estado; When → tiempo.",
+"truco": "WHERE tiene 'here' adentro: aquí, allá → lugar.",
+"estrategia_icfes": "En la Parte 3 los distractores suelen compartir palabras con la pregunta ('are you', 'going'). Ubica la wh-word y verifica que la opción entregue ese tipo de dato.",
+"temas": [
+"Wh-questions",
+"Preposiciones de lugar at/in",
+"Conversaciones telefónicas"
+],
+"gemela": {
+"enunciado": "Friend on the phone: \"Where are you having lunch today?\" Which is the best reply?",
+"opciones": {
+"A": "At my grandmother's house.",
+"B": "At one o'clock.",
+"C": "Rice and chicken."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Where' pide un lugar. Paso 2: 'At my grandmother's house' es un lugar. B es una hora y C es lo que vas a comer."
+}
+},
+{
+"id": "P11-ING-B013",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): usa fórmulas sociales para felicitar, agradecer y responder a felicitaciones en situaciones cotidianas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una felicitación de cumpleaños con un agradecimiento.",
+"contexto": "It is Luisa's sixteenth birthday and a friend greets her when she arrives at school.",
+"enunciado": "Friend: \"Happy birthday, Luisa!\" Which is the best reply?",
+"opciones": {
+"A": "You're welcome.",
+"B": "Thank you so much!",
+"C": "Happy birthday to you too!"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir 'You're welcome' con 'Thank you'",
+"porque": "Elegiste A porque probablemente creíste que 'You're welcome' significa 'gracias' o 'bienvenido'.",
+"pregunta_guia": "¿'You're welcome' se dice para agradecer o para responder a un agradecimiento?",
+"aprende": "'You're welcome' = 'de nada'. Ante una felicitación se agradece: 'Thank you!'."
+},
+"C": {
+"error": "Devolver una fórmula que no aplica",
+"porque": "Elegiste C porque probablemente aplicaste la regla de devolver el saludo, como con 'Nice to meet you too'.",
+"pregunta_guia": "¿Es también el cumpleaños de tu amigo?",
+"aprende": "Algunas fórmulas se devuelven ('Have a nice day!' – 'You too!'), pero la felicitación de cumpleaños se agradece."
+}
+},
+"explicacion": "Paso 1: 'Happy birthday' es una felicitación dirigida solo a Luisa. Paso 2: La respuesta adecuada es agradecer: 'Thank you so much!'. Paso 3: A significa 'de nada' y C felicitaría a alguien que no cumple años. Respuesta: B.",
+"tip": "Felicitación → agradecimiento. Agradecimiento → 'You're welcome'.",
+"truco": "Te dan algo bonito (felicitación, regalo, cumplido) → THANK YOU.",
+"estrategia_icfes": "El ICFES evalúa si conoces las parejas de fórmulas sociales. Construye tu lista: thank you / you're welcome; sorry / that's OK; happy birthday / thank you.",
+"temas": [
+"Fórmulas sociales",
+"Agradecer y felicitar",
+"Celebraciones"
+],
+"gemela": {
+"enunciado": "Teacher: \"Congratulations on your excellent project!\" Which is the best reply?",
+"opciones": {
+"A": "Thanks a lot!",
+"B": "Congratulations to you!",
+"C": "Not at all, sorry."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Es una felicitación por tu proyecto. Paso 2: Se agradece: 'Thanks a lot!'. B devuelve la felicitación sin sentido y C responde como a una petición."
+}
+},
+{
+"id": "P11-ING-B014",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): participa en intercambios de servicio sencillos (compras) expresando lo que necesita.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a un ofrecimiento de ayuda en una tienda expresando lo que busca.",
+"contexto": "Natalia walks into a clothes shop in Chipichape shopping centre. A shop assistant comes to her.",
+"enunciado": "Shop assistant: \"Can I help you?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I'm looking for a jacket.",
+"B": "No, I can't help you.",
+"C": "Yes, I help you now."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Invertir quién ofrece la ayuda",
+"porque": "Elegiste B porque probablemente entendiste que te pedían ayuda a ti.",
+"pregunta_guia": "¿Quién ofrece ayuda en esta situación: la vendedora o Natalia?",
+"aprende": "'Can I help you?' es un ofrecimiento: la vendedora ofrece ayuda. Se responde diciendo qué buscas o 'No, thanks, I'm just looking'."
+},
+"C": {
+"error": "Repetir el verbo sin entender la función",
+"porque": "Elegiste C porque probablemente copiaste 'help you' del enunciado.",
+"pregunta_guia": "¿Natalia debe ayudar a la vendedora o recibir su ayuda?",
+"aprende": "Para aceptar el ofrecimiento se dice lo que necesitas: 'I'm looking for...'."
+}
+},
+"explicacion": "Paso 1: 'Can I help you?' es el ofrecimiento típico de un vendedor. Paso 2: Para aceptarlo se explica qué se busca: 'Yes, I'm looking for a jacket'. Paso 3: B y C invierten los papeles. Respuesta: A.",
+"tip": "Para rechazar con cortesía: 'No, thanks. I'm just looking'.",
+"truco": "Can I...? = yo ofrezco; Can you...? = yo pido.",
+"estrategia_icfes": "Fíjate en el sujeto del enunciado (I / you): define quién ofrece y quién pide. Los distractores del ICFES a menudo invierten esos papeles.",
+"temas": [
+"Ofrecimientos",
+"Compras",
+"Look for"
+],
+"gemela": {
+"enunciado": "Pharmacist: \"What can I do for you?\" Which is the best reply?",
+"opciones": {
+"A": "You can do your homework.",
+"B": "I need something for a headache.",
+"C": "I can do it for you."
+},
+"correcta": "B",
+"explicacion": "Paso 1: El farmacéutico ofrece ayuda. Paso 2: Se responde con lo que necesitas: 'I need something for a headache'. A y C invierten los papeles."
+}
+},
+{
+"id": "P11-ING-B015",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): responde a observaciones y críticas en contextos académicos, reconociendo errores y explicando sus causas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: uso mi conocimiento previo para participar en una conversación.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce que 'should have + participio' expresa una crítica sobre el pasado y responde aceptándola con una razón.",
+"contexto": "Manuela receives her English essay back. It has many spelling mistakes, and the teacher talks to her.",
+"enunciado": "Teacher: \"You should have revised your essay before handing it in.\" Which is the best reply?",
+"opciones": {
+"A": "Thanks, I'm glad you liked it.",
+"B": "Yes, I should revise it yesterday.",
+"C": "You're right. I was in a hurry."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Leer una crítica como un elogio",
+"porque": "Elegiste A porque probablemente no reconociste que 'should have' expresa algo que debió hacerse y no se hizo.",
+"pregunta_guia": "Si el ensayo tiene muchos errores, ¿la profesora te está felicitando?",
+"aprende": "'You should have + participio' = 'Debiste haber...': es una crítica o un consejo sobre el pasado."
+},
+"B": {
+"error": "Mezclar modal presente con marcador de pasado",
+"porque": "Elegiste B porque probablemente quisiste aceptar la crítica pero usaste 'should revise' con 'yesterday'.",
+"pregunta_guia": "¿Se puede usar 'should + verbo base' con 'yesterday'?",
+"aprende": "Para el pasado se usa 'should have revised'. Además, la respuesta natural es admitir y explicar, no repetir."
+}
+},
+"explicacion": "Paso 1: 'You should have revised' significa 'Debiste haber revisado': la profesora critica que no revisaste. Paso 2: Una respuesta adecuada acepta la crítica y da una razón: 'You're right. I was in a hurry'. Paso 3: A malinterpreta la crítica y B es gramaticalmente incorrecta. Respuesta: C.",
+"tip": "Should have + participio = arrepentimiento o crítica sobre algo pasado.",
+"truco": "SHOULD HAVE = 'debí haber' → ya pasó, ya no se puede cambiar.",
+"estrategia_icfes": "En el nivel B1 el ICFES usa modales perfectos (should have, could have). Identifica si la frase critica, aconseja o especula, y elige la respuesta emocionalmente coherente. En CENTEC el error se convierte en aprendizaje: aceptarlo es la respuesta madura.",
+"temas": [
+"Modales perfectos",
+"Aceptar críticas",
+"Escritura académica"
+],
+"gemela": {
+"enunciado": "Coach: \"You should have warmed up before the race.\" Which is the best reply?",
+"opciones": {
+"A": "I know. My legs hurt now.",
+"B": "Thanks, it was a great race.",
+"C": "Yes, I should warm up last week."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Should have warmed up' es una crítica sobre el pasado. Paso 2: A la acepta y muestra la consecuencia. B la toma como elogio y C mezcla tiempos."
+}
+},
+{
+"id": "P11-ING-B016",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información sobre experiencias personales y lugares de Colombia que conoce o quiere conocer.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta sobre experiencias de vida con 'Have you ever...?'.",
+"contexto": "Two students are looking at photos of the Caribbean Sea on a tablet during the break.",
+"enunciado": "Friend: \"Have you ever been to San Andrés?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I go there next month.",
+"B": "No, never, but I'd love to go.",
+"C": "Yes, it's an island."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar un plan futuro para una pregunta de experiencia",
+"porque": "Elegiste A porque probablemente pensaste que mencionar un viaje bastaba, sin importar el tiempo.",
+"pregunta_guia": "Si vas el próximo mes, ¿ya has estado allá?",
+"aprende": "'Have you ever...?' pregunta por experiencias hasta hoy. Un viaje futuro no es una experiencia vivida."
+},
+"C": {
+"error": "Responder a otra pregunta",
+"porque": "Elegiste C porque probablemente reconociste 'San Andrés' y diste un dato del lugar.",
+"pregunta_guia": "¿Tu amigo quiere saber qué es San Andrés o si tú has ido?",
+"aprende": "Responde a la pregunta sobre tu experiencia: 'Yes, I have' / 'No, never'."
+}
+},
+"explicacion": "Paso 1: 'Have you ever been to...?' pregunta si alguna vez has visitado un lugar. Paso 2: La respuesta puede ser 'Yes, I have' o 'No, never'. Paso 3: 'No, never, but I'd love to go' responde y añade un deseo coherente. Paso 4: A habla del futuro y C describe el lugar. Respuesta: B.",
+"tip": "Have you ever...? → Yes, I have. / No, I haven't. / No, never.",
+"truco": "EVER = alguna vez en la vida.",
+"estrategia_icfes": "El ICFES verifica que reconozcas el presente perfecto de experiencia. Busca la opción que responda sí/no a la experiencia y complemente con información lógica.",
+"temas": [
+"Presente perfecto de experiencia",
+"Viajes en Colombia",
+"Expresar deseos con would love"
+],
+"gemela": {
+"enunciado": "Cousin: \"Have you ever tried lulada?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, it's from Cali.",
+"B": "Yes, I'll try it tomorrow.",
+"C": "Yes, many times. It's delicious!"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Pregunta por la experiencia de probar lulada. Paso 2: C responde a la experiencia y la valora. A da un dato y B habla del futuro."
+}
+},
+{
+"id": "P11-ING-B017",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): expresa y justifica sus intereses académicos y profesionales en conversaciones sobre su proyecto de vida.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Monólogos: expreso de manera oral mis opiniones y gustos con una pronunciación clara y adecuada; Conversación: sustento mis opiniones.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta sobre motivaciones ('What made you...?') con una razón personal.",
+"contexto": "Isabella has an interview to enter a technical program in solar energy offered by SENA in the Valle del Cauca.",
+"enunciado": "Interviewer: \"What made you choose this technical program?\" Which is the best reply?",
+"opciones": {
+"A": "I've always been interested in clean energy.",
+"B": "I made it with my own hands last year.",
+"C": "The program starts in February, I think."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Interpretar 'made' literalmente como 'fabricar'",
+"porque": "Elegiste B porque probablemente tradujiste 'What made you...?' como '¿Qué hiciste...?'.",
+"pregunta_guia": "¿El entrevistador pregunta qué fabricaste o por qué elegiste el programa?",
+"aprende": "'What made you + verbo?' = '¿Qué te llevó a...?' / '¿Por qué...?'. Pide una motivación."
+},
+"C": {
+"error": "Dar información sin relación con la motivación",
+"porque": "Elegiste C porque probablemente diste un dato del programa que conocías.",
+"pregunta_guia": "¿La fecha de inicio explica por qué lo escogiste?",
+"aprende": "En una entrevista responde la intención de la pregunta; aquí se busca tu razón personal."
+}
+},
+"explicacion": "Paso 1: 'What made you choose...?' equivale a 'Why did you choose...?'. Paso 2: Se espera una razón personal. Paso 3: 'I've always been interested in clean energy' explica la motivación y conecta con un programa de energía solar. Paso 4: B entiende 'made' como fabricar y C da un dato irrelevante. Respuesta: A.",
+"tip": "What made you...? = Why...? → responde con tu motivación.",
+"truco": "MAKE + persona + verbo = hacer que alguien haga algo (causa).",
+"estrategia_icfes": "En niveles B1 el ICFES usa preguntas indirectas o con verbos causativos. Reformula la pregunta con palabras más simples (Why...?) antes de evaluar las opciones.",
+"temas": [
+"Verbos causativos (make)",
+"Entrevistas",
+"Proyecto de vida y formación SENA"
+],
+"sabic": "Técnico SENA",
+"gemela": {
+"enunciado": "Journalist: \"What made you start recycling at your school?\" Which is the best reply?",
+"opciones": {
+"A": "We made a big box of plastic.",
+"B": "We saw how much plastic ended up in the river.",
+"C": "We recycle every Monday."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'What made you start...?' pregunta por la causa. Paso 2: B explica la razón. A toma 'made' literalmente y C da una frecuencia."
+}
+},
+{
+"id": "P11-ING-B018",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): participa en intercambios de servicio en restaurantes, solicitando tiempo o información de forma cortés.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a la pregunta de un mesero pidiendo más tiempo de manera cortés.",
+"contexto": "Simón and his family have just sat down in a restaurant. They are still reading the menu when the waiter arrives.",
+"enunciado": "Waiter: \"Are you ready to order?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I'm ready since an hour.",
+"B": "Yes, the order was delicious.",
+"C": "Not yet. Could we have a few more minutes?"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Calco del español con 'since'",
+"porque": "Elegiste A porque probablemente tradujiste 'estoy listo desde hace una hora'.",
+"pregunta_guia": "Si todavía están leyendo el menú, ¿están listos? ¿'since' va con 'an hour'?",
+"aprende": "'Since' va con un punto de inicio (since 7 p.m.), no con duraciones. Además, la familia aún no ha decidido."
+},
+"B": {
+"error": "Confundir el momento de la conversación",
+"porque": "Elegiste B porque probablemente asociaste 'order' con la comida ya servida.",
+"pregunta_guia": "¿Ya comieron o apenas van a pedir?",
+"aprende": "'Ready to order' = listos para pedir; la comida aún no ha llegado, así que no puedes valorarla."
+}
+},
+"explicacion": "Paso 1: El mesero pregunta si están listos para pedir. Paso 2: El contexto dice que aún leen el menú, así que no están listos. Paso 3: La respuesta adecuada y cortés es 'Not yet. Could we have a few more minutes?'. Paso 4: A tiene un error gramatical y contradice el contexto; B habla de comida que aún no llega. Respuesta: C.",
+"tip": "Para pedir más tiempo: 'Not yet, thanks' / 'Could we have a few more minutes?'.",
+"truco": "Lee el contexto: te dice si la respuesta es sí o no.",
+"estrategia_icfes": "El contexto de la Parte 3 no es decorativo: muchas veces define si la respuesta correcta es afirmativa o negativa. Léelo con atención antes de mirar las opciones.",
+"temas": [
+"Restaurantes",
+"Not yet",
+"Peticiones con could"
+],
+"gemela": {
+"enunciado": "Your mother (you are still wearing pyjamas): \"Are you ready to leave for school?\" Which is the best reply?",
+"opciones": {
+"A": "Almost. Give me five minutes to get dressed.",
+"B": "Yes, I left school at noon.",
+"C": "Yes, I'm ready since six."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Aún estás en pijama: no estás listo. Paso 2: A pide tiempo de forma coherente. B usa el pasado sin sentido y C contradice el contexto y usa mal 'since'."
+}
+},
+{
+"id": "P11-ING-B019",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información personal básica, como nombres y datos de identificación, en situaciones de trámite.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una solicitud de deletrear un apellido.",
+"contexto": "Alejandro is registering for an international online English course and talks to the coordinator on a video call.",
+"enunciado": "Coordinator: \"How do you spell your last name?\" Which is the best reply?",
+"opciones": {
+"A": "R-O-J-A-S.",
+"B": "My last name is long.",
+"C": "I spell it every day."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Describir en lugar de deletrear",
+"porque": "Elegiste B porque probablemente no conocías el verbo 'spell' y diste un comentario sobre el apellido.",
+"pregunta_guia": "¿Qué significa 'spell'? ¿Qué necesita escribir el coordinador?",
+"aprende": "'Spell' = deletrear. Se responde letra por letra: R-O-J-A-S."
+},
+"C": {
+"error": "Confundir 'how' de manera con frecuencia",
+"porque": "Elegiste C porque probablemente entendiste la pregunta como '¿con qué frecuencia lo deletreas?'.",
+"pregunta_guia": "¿La pregunta empieza con 'How often' o con 'How do you spell'?",
+"aprende": "'How do you spell...?' pide las letras. 'How often...?' pide frecuencia."
+}
+},
+"explicacion": "Paso 1: 'Spell' significa deletrear. Paso 2: El coordinador necesita las letras para escribir el apellido. Paso 3: 'R-O-J-A-S' deletrea el apellido. Paso 4: B y C no dan las letras. Respuesta: A.",
+"tip": "Practica el alfabeto en inglés: la J se dice /dʒeɪ/ y la G /dʒiː/.",
+"truco": "Spell = letra por letra.",
+"estrategia_icfes": "Los ítems de nivel Mínimo evalúan vocabulario funcional de alta frecuencia (spell, borrow, order). Si dudas del verbo, analiza qué necesita hacer la otra persona con tu respuesta.",
+"temas": [
+"Alfabeto en inglés",
+"Datos personales",
+"Verbo spell"
+],
+"gemela": {
+"enunciado": "Librarian: \"Can you spell your first name for me, please?\" Which is the best reply?",
+"opciones": {
+"A": "It's a beautiful name.",
+"B": "Sure. It's Y-U-L-I.",
+"C": "My first name is Yuli."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Te piden deletrear el nombre. Paso 2: B da las letras. A opina y C dice el nombre, pero no lo deletrea."
+}
+},
+{
+"id": "P11-ING-B020",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): sostiene conversaciones en las que reacciona con empatía cuando alguien rechaza una invitación, usando expresiones idiomáticas frecuentes.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: utilizo estrategias como el parafraseo para compensar dificultades en la comunicación.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Interpreta 'I can't make it' como un rechazo y reacciona de manera cordial.",
+"contexto": "Paula invited her classmates to her end-of-year party. One of them sends her a voice message.",
+"enunciado": "Classmate: \"I can't make it to the party on Friday, I'm sorry.\" Which is the best reply?",
+"opciones": {
+"A": "Perfect, see you on Friday then.",
+"B": "That's a shame. Maybe next time.",
+"C": "Great, you can make the cake."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No reconocer el rechazo",
+"porque": "Elegiste A porque probablemente no entendiste 'can't make it' y supusiste que tu compañero sí iría.",
+"pregunta_guia": "Si tu compañero dice 'I'm sorry', ¿te está dando una buena o una mala noticia?",
+"aprende": "'Make it (to a place/event)' = lograr asistir. 'I can't make it' = no puedo ir."
+},
+"C": {
+"error": "Interpretación literal de 'make'",
+"porque": "Elegiste C porque probablemente tradujiste 'make' como 'hacer/preparar'.",
+"pregunta_guia": "¿Tu compañero habla de preparar algo o de asistir a la fiesta?",
+"aprende": "En 'make it to...', make no significa fabricar; es una expresión de asistencia o logro."
+}
+},
+"explicacion": "Paso 1: 'I can't make it to the party' significa 'No puedo ir a la fiesta'. Paso 2: 'I'm sorry' confirma que es una disculpa. Paso 3: La reacción cordial lamenta y deja la puerta abierta: 'That's a shame. Maybe next time'. Paso 4: A no reconoce el rechazo y C toma 'make' literalmente. Respuesta: B.",
+"tip": "Make it = llegar/lograr asistir. 'We made it!' = ¡Lo logramos!",
+"truco": "Can't make it = can't come.",
+"estrategia_icfes": "Las expresiones con make, get y take son frecuentes en el nivel B1. Si una opción solo funciona con el significado básico del verbo, probablemente es el distractor.",
+"temas": [
+"Expresiones con make",
+"Rechazar invitaciones",
+"Reaccionar con empatía"
+],
+"gemela": {
+"enunciado": "Friend: \"Sorry, I won't make it to the cinema. My bus broke down.\" Which is the best reply?",
+"opciones": {
+"A": "Don't worry. We can go another day.",
+"B": "Great, make some popcorn.",
+"C": "OK, see you at the cinema in ten minutes."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'I won't make it' = no voy a poder llegar. Paso 2: A tranquiliza y propone otro día. B toma 'make' literalmente y C ignora el rechazo."
+}
+},
+{
+"id": "P11-ING-B021",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): intercambia información sobre hábitos de vida saludable y rutinas en conversaciones sencillas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una pregunta con 'How often...?' indicando una frecuencia.",
+"contexto": "Juan Pablo has a medical check-up at a health centre in Cali. The doctor asks him about his habits.",
+"enunciado": "Doctor: \"How often do you exercise?\" Which is the best reply?",
+"opciones": {
+"A": "For thirty minutes.",
+"B": "Yes, I exercise a lot.",
+"C": "Three times a week."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir 'how often' con 'how long'",
+"porque": "Elegiste A porque probablemente respondiste cuánto dura cada sesión de ejercicio.",
+"pregunta_guia": "¿El médico pregunta cuánto tiempo dura tu ejercicio o cada cuánto lo haces?",
+"aprende": "'How often' = ¿con qué frecuencia? Se responde con 'once a day', 'twice a week', 'three times a week', 'every day'."
+},
+"B": {
+"error": "Responder sí/no a una pregunta wh-",
+"porque": "Elegiste B porque probablemente respondiste por reflejo con 'Yes'.",
+"pregunta_guia": "¿La pregunta '¿Con qué frecuencia...?' se contesta con 'sí'?",
+"aprende": "Las preguntas con 'how' piden información concreta; 'a lot' no indica una frecuencia exacta."
+}
+},
+"explicacion": "Paso 1: 'How often' pregunta por la frecuencia. Paso 2: Las respuestas de frecuencia tienen la forma 'número + times + a + periodo'. Paso 3: 'Three times a week' cumple esa forma. Paso 4: A da duración y B responde sí/no. Respuesta: C.",
+"tip": "Once (1 vez), twice (2 veces), three times (3 veces) + a day/a week/a month.",
+"truco": "OFTEN = a menudo → responde con 'veces'.",
+"estrategia_icfes": "Las preguntas con how + palabra (often, long, far, much, many) son clásicas en la Parte 3. Memoriza qué tipo de dato pide cada una y descarta por tipo de dato.",
+"temas": [
+"Adverbios y expresiones de frecuencia",
+"Hábitos saludables",
+"Preguntas con how"
+],
+"gemela": {
+"enunciado": "Friend: \"How often do you visit your grandparents in Jamundí?\" Which is the best reply?",
+"opciones": {
+"A": "By car with my dad.",
+"B": "Almost every Sunday.",
+"C": "For the whole afternoon."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'How often' pide frecuencia. Paso 2: 'Almost every Sunday' es una frecuencia. A indica medio de transporte y C duración."
+}
+},
+{
+"id": "P11-ING-B022",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): reconoce normas de convivencia expresadas en inglés y responde de forma respetuosa cuando se le hace una observación.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce una prohibición expresada con 'can't' y responde con una disculpa.",
+"contexto": "Gabriela is eating a sandwich while she reads in the city library. The librarian walks over to her table.",
+"enunciado": "Librarian: \"I'm sorry, but you can't eat in here.\" Which is the best reply?",
+"opciones": {
+"A": "Thanks, I'm not very hungry.",
+"B": "Oh, sorry. I didn't know.",
+"C": "Don't worry, I can eat a lot."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Leer una prohibición como un ofrecimiento",
+"porque": "Elegiste A porque probablemente entendiste que la bibliotecaria te ofrecía algo de comer.",
+"pregunta_guia": "¿'You can't eat in here' te ofrece comida o te prohíbe comer?",
+"aprende": "'You can't + verbo' expresa prohibición. Ante una norma, lo adecuado es disculparse y obedecer."
+},
+"C": {
+"error": "Interpretar 'can't' como capacidad",
+"porque": "Elegiste C porque probablemente entendiste 'can't' como 'no eres capaz de comer'.",
+"pregunta_guia": "¿La bibliotecaria habla de tu capacidad o de una regla del lugar?",
+"aprende": "'Can/can't' expresa capacidad, pero también permiso o prohibición. El contexto (una biblioteca) indica que es una regla."
+}
+},
+"explicacion": "Paso 1: 'I'm sorry, but...' introduce una observación cortés. Paso 2: 'You can't eat in here' es una prohibición (no está permitido comer aquí). Paso 3: La respuesta respetuosa es disculparse: 'Oh, sorry. I didn't know'. Paso 4: A la confunde con un ofrecimiento y C interpreta 'can't' como capacidad. Respuesta: B.",
+"tip": "Can = capacidad, permiso o posibilidad. El contexto decide el significado.",
+"truco": "Lugar público + can't = regla.",
+"estrategia_icfes": "El ICFES evalúa la adecuación social: ante una norma o queja, la respuesta correcta suele incluir disculpa o aceptación. Usa el contexto para decidir el significado de los modales.",
+"temas": [
+"Modal can para permiso y prohibición",
+"Normas en lugares públicos",
+"Disculparse"
+],
+"gemela": {
+"enunciado": "Security guard at a museum: \"Excuse me, you can't take photos here.\" Which is the best reply?",
+"opciones": {
+"A": "Sorry, I'll put my phone away.",
+"B": "Yes, I can take good photos.",
+"C": "Thanks, I don't want any photos."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Es una prohibición. Paso 2: A se disculpa y cumple la norma. B entiende 'can't' como capacidad y C como un ofrecimiento."
+}
+},
+{
+"id": "P11-ING-B023",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): describe de forma sencilla el clima y las características de su entorno en conversaciones cotidianas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a 'What's the weather like?' describiendo el clima.",
+"contexto": "Emily, a friend from Canada, is coming to visit next week. She sends Santiago a message.",
+"enunciado": "Emily: \"What's the weather like in Cali today?\" Which is the best reply?",
+"opciones": {
+"A": "It's hot and sunny.",
+"B": "I like it very much.",
+"C": "It's Monday today."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir 'like' preposición con 'like' verbo",
+"porque": "Elegiste B porque probablemente entendiste 'like' como 'gustar'.",
+"pregunta_guia": "En 'What's the weather like?', ¿'like' significa 'gustar' o 'cómo'?",
+"aprende": "'What is X like?' = '¿Cómo es X?'. Aquí 'like' no es el verbo gustar; se responde describiendo."
+},
+"C": {
+"error": "Confundir 'weather' con día o fecha",
+"porque": "Elegiste C porque probablemente te fijaste en 'today' y diste el día de la semana.",
+"pregunta_guia": "¿Qué significa 'weather'?",
+"aprende": "'Weather' = clima/tiempo atmosférico: sunny, rainy, cloudy, hot, cold."
+}
+},
+"explicacion": "Paso 1: 'Weather' significa clima. Paso 2: 'What's ... like?' pide una descripción. Paso 3: 'It's hot and sunny' describe el clima. Paso 4: B confunde 'like' con gustar y C da el día. Respuesta: A.",
+"tip": "What's he like? (¿cómo es él?) / What does he like? (¿qué le gusta?).",
+"truco": "WHAT'S ... LIKE = ¿CÓMO ES...? → describe.",
+"estrategia_icfes": "El ICFES usa palabras con doble función (like, so, as). Si una opción usa la palabra con su significado más común, verifica si encaja en la estructura de la pregunta.",
+"temas": [
+"Clima",
+"What is ... like?",
+"Adjetivos descriptivos"
+],
+"gemela": {
+"enunciado": "Tourist: \"What's your new school like?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I like it.",
+"B": "It's big and has a modern library.",
+"C": "It's at eight o'clock."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'What's ... like?' pide una descripción. Paso 2: B describe el colegio. A interpreta 'like' como gustar y C da una hora."
+}
+},
+{
+"id": "P11-ING-B024",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): expresa opiniones sobre temas de actualidad como la tecnología y las redes sociales, sustentándolas con razones sencillas.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: sustento mis opiniones, planes y proyectos.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Responde a una petición de opinión con una postura y una razón.",
+"contexto": "In a digital education class, students are discussing the effects of mobile phones on learning.",
+"enunciado": "Classmate: \"Do you think social media affects our concentration?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, I use Instagram every day.",
+"B": "I think social media is a website.",
+"C": "I'd say so. Notifications distract us."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Dar un hábito en lugar de una opinión",
+"porque": "Elegiste A porque probablemente viste 'Yes' y una red social conocida y pensaste que respondía la pregunta.",
+"pregunta_guia": "¿Decir que usas Instagram explica si las redes afectan la concentración?",
+"aprende": "'Do you think...?' pide una opinión sobre una relación causa-efecto; un hábito personal no la sustenta."
+},
+"B": {
+"error": "Responder con una definición",
+"porque": "Elegiste B porque probablemente te quedaste con 'I think' y lo completaste con una definición.",
+"pregunta_guia": "¿Tu compañero preguntó qué son las redes sociales o qué efecto tienen?",
+"aprende": "Una opinión responde a la pregunta concreta (¿afecta o no?) y se apoya en una razón."
+}
+},
+"explicacion": "Paso 1: 'Do you think...?' pide tu opinión sobre si las redes afectan la concentración. Paso 2: Una buena respuesta toma postura y da una razón. Paso 3: 'I'd say so' (diría que sí) + 'Notifications distract us' cumple ambas condiciones. Paso 4: A cuenta un hábito y B define. Respuesta: C.",
+"tip": "Expresiones para opinar: I'd say so / I don't think so / In my opinion... + razón.",
+"truco": "Opinión = postura + porque.",
+"estrategia_icfes": "En el nivel B1 el ICFES pide reconocer respuestas argumentadas. Descarta las opciones que contienen palabras del tema pero no responden a la relación que plantea la pregunta.",
+"temas": [
+"Expresar opiniones",
+"Redes sociales y concentración",
+"I'd say so / I don't think so"
+],
+"sabic": "Educación digital e IA",
+"gemela": {
+"enunciado": "Teacher: \"Do you think homework should be online only?\" Which is the best reply?",
+"opciones": {
+"A": "Not really. Some students don't have internet at home.",
+"B": "Yes, I do my homework at night.",
+"C": "I think homework is an activity."
+},
+"correcta": "A",
+"explicacion": "Paso 1: Piden una opinión. Paso 2: A toma postura (Not really) y da una razón. B cuenta un hábito y C define la tarea."
+}
+},
+{
+"id": "P11-ING-B025",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones cortas",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): responde de manera cortés a ofrecimientos de ayuda de personas de su familia y su comunidad.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Conversación: respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+"afirmacion": "Comprende y usa el inglés adecuadamente en intercambios conversacionales cortos de la vida cotidiana.",
+"evidencia": "Reconoce que 'Shall I...?' es un ofrecimiento y lo acepta con agradecimiento.",
+"contexto": "Laura is moving to a new apartment. She is carrying heavy boxes when her grandfather arrives.",
+"enunciado": "Grandfather: \"Shall I help you carry those boxes?\" Which is the best reply?",
+"opciones": {
+"A": "Yes, you shall.",
+"B": "That's very kind of you, thanks.",
+"C": "No, I shall not carry them."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Repetir el modal de la pregunta",
+"porque": "Elegiste A porque probablemente aplicaste la regla de respuesta corta (Can you? – Yes, I can) a 'Shall I...?'.",
+"pregunta_guia": "¿Un hablante responde 'Yes, you shall' a un ofrecimiento de su abuelo?",
+"aprende": "'Shall I...?' es un ofrecimiento. Se acepta con 'Yes, please' o 'That's very kind of you', no repitiendo 'shall'."
+},
+"C": {
+"error": "Confundir ofrecimiento con pregunta sobre tus planes",
+"porque": "Elegiste C porque probablemente entendiste que el abuelo preguntaba si tú cargarías las cajas.",
+"pregunta_guia": "¿Quién ofrece cargar las cajas: el abuelo o Laura?",
+"aprende": "'Shall I + verbo?' = '¿Quieres que yo...?'. La acción la haría quien pregunta."
+}
+},
+"explicacion": "Paso 1: 'Shall I help you...?' significa '¿Quieres que te ayude...?': es un ofrecimiento. Paso 2: Laura tiene cajas pesadas, así que lo lógico es aceptar con cortesía. Paso 3: 'That's very kind of you, thanks' agradece el ofrecimiento. Paso 4: A repite el modal de forma artificial y C confunde quién hace la acción. Respuesta: B.",
+"tip": "Shall I...? (ofrezco) / Shall we...? (sugiero). Respuestas: Yes, please / No, thanks / That's kind of you.",
+"truco": "SHALL I = ¿Quieres que YO...?",
+"estrategia_icfes": "El ICFES evalúa la cortesía con familiares y desconocidos. Identifica la función (ofrecimiento) y elige la respuesta que agradece o rechaza amablemente.",
+"temas": [
+"Ofrecimientos con shall",
+"Agradecer",
+"Respuestas cortas"
+],
+"gemela": {
+"enunciado": "Neighbour: \"Shall I water your plants while you're away?\" Which is the best reply?",
+"opciones": {
+"A": "No, I shall not water.",
+"B": "Yes, you shall water.",
+"C": "Yes, please. That would be great."
+},
+"correcta": "C",
+"explicacion": "Paso 1: El vecino ofrece regar las plantas. Paso 2: C acepta con cortesía. A y B repiten 'shall' de forma artificial y confunden quién hace la acción."
+}
+},
+{
+"id": "P11-ING-B026",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): escribe y comprende textos sencillos sobre sí mismo y su entorno usando estructuras gramaticales básicas con concordancia sujeto-verbo.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige la forma del verbo 'to be' que concuerda con el sujeto 'I' al expresar la edad.",
+"contexto": "Hi Kevin, My name is Sara and I (26) ______ fifteen years old. I live in Cali with my parents and my little brother. My school (27) ______ in the Ciudad Córdoba neighbourhood, very near my house. I go there (28) ______ bus every morning with my best friend. In my free time I like to dance salsa, and on Saturdays I (29) ______ to classes at a dance academy. Cali is famous for its salsa, so many people from other countries come here to learn. What about you? Do you like music? Write soon! Sara",
+"enunciado": "Which option correctly completes gap (26)?",
+"opciones": {
+"A": "am",
+"B": "is",
+"C": "have"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Concordancia sujeto-verbo",
+"porque": "Elegiste B porque probablemente recordaste 'is' como la forma más común de 'to be' sin mirar el sujeto.",
+"pregunta_guia": "¿Cuál es el sujeto del espacio (26) y qué forma de 'to be' le corresponde?",
+"aprende": "I am, you are, he/she/it is. Con 'I' siempre se usa 'am'."
+},
+"C": {
+"error": "Calco del español 'tengo ... años'",
+"porque": "Elegiste C porque probablemente tradujiste 'tengo quince años'.",
+"pregunta_guia": "En inglés, ¿la edad se 'tiene' o se 'es'?",
+"aprende": "En inglés la edad se expresa con 'to be': 'I am fifteen years old'."
+}
+},
+"explicacion": "Paso 1: El sujeto del espacio (26) es 'I'. Paso 2: La edad en inglés se expresa con el verbo 'to be', no con 'have'. Paso 3: La forma de 'to be' para 'I' es 'am'. Paso 4: 'I am fifteen years old'. Respuesta: A.",
+"tip": "Edad, nombre, nacionalidad y estados de ánimo usan 'to be': I'm 15, I'm Colombian, I'm happy.",
+"truco": "En inglés no 'tienes' años: los 'eres'.",
+"estrategia_icfes": "En la Parte 4 el ICFES presenta un texto con espacios numerados y tres opciones por espacio que evalúan gramática. Lee la oración completa, identifica el sujeto y la expresión fija, y prueba cada opción.",
+"temas": [
+"Verbo to be",
+"Expresar la edad",
+"Concordancia sujeto-verbo"
+],
+"gemela": {
+"enunciado": "Complete: \"My brother ______ twelve years old and he loves football.\"",
+"opciones": {
+"A": "has",
+"B": "is",
+"C": "are"
+},
+"correcta": "B",
+"explicacion": "Paso 1: El sujeto es 'my brother' (he). Paso 2: La edad usa 'to be' y con 'he' es 'is'. 'Has' es calco del español y 'are' no concuerda."
+}
+},
+{
+"id": "P11-ING-B027",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): escribe y comprende textos sencillos sobre sí mismo y su entorno usando estructuras gramaticales básicas con concordancia sujeto-verbo.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige la forma de 'to be' que concuerda con un sujeto singular de tercera persona para indicar ubicación.",
+"contexto": "Hi Kevin, My name is Sara and I (26) ______ fifteen years old. I live in Cali with my parents and my little brother. My school (27) ______ in the Ciudad Córdoba neighbourhood, very near my house. I go there (28) ______ bus every morning with my best friend. In my free time I like to dance salsa, and on Saturdays I (29) ______ to classes at a dance academy. Cali is famous for its salsa, so many people from other countries come here to learn. What about you? Do you like music? Write soon! Sara",
+"enunciado": "Which option correctly completes gap (27)?",
+"opciones": {
+"A": "are",
+"B": "be",
+"C": "is"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Concordancia con sujeto singular",
+"porque": "Elegiste A porque probablemente pensaste que 'school' es plural o que 'are' sirve para cualquier sujeto.",
+"pregunta_guia": "¿'My school' es una o varias cosas? ¿Qué pronombre lo reemplaza: it o they?",
+"aprende": "'My school' = it → 'is'. 'Are' se usa con you, we, they."
+},
+"B": {
+"error": "Usar el verbo en infinitivo sin conjugar",
+"porque": "Elegiste B porque probablemente usaste la forma base del verbo como en el diccionario.",
+"pregunta_guia": "¿En una oración afirmativa en presente se puede dejar 'be' sin conjugar?",
+"aprende": "'Be' debe conjugarse: am, is, are. La forma base 'be' va después de modales (will be, can be)."
+}
+},
+"explicacion": "Paso 1: El sujeto del espacio (27) es 'My school'. Paso 2: 'My school' es singular y equivale a 'it'. Paso 3: 'To be' con 'it' en presente es 'is'. Paso 4: 'My school is in the Ciudad Córdoba neighbourhood'. Respuesta: C.",
+"tip": "Reemplaza el sujeto por un pronombre (it, they) para saber cómo conjugar.",
+"truco": "Una cosa = IT = IS.",
+"estrategia_icfes": "La concordancia sujeto-verbo es lo más evaluado en la Parte 4. Ubica el núcleo del sujeto, reemplázalo por un pronombre y luego conjuga.",
+"temas": [
+"Verbo to be",
+"Concordancia sujeto-verbo",
+"Preposiciones de lugar"
+],
+"gemela": {
+"enunciado": "Complete: \"The Jardín Botánico de Cali ______ near the Cali River.\"",
+"opciones": {
+"A": "is",
+"B": "are",
+"C": "be"
+},
+"correcta": "A",
+"explicacion": "Paso 1: El sujeto 'The Jardín Botánico' es singular (it). Paso 2: Con 'it' se usa 'is'. 'Are' es plural y 'be' no está conjugado."
+}
+},
+{
+"id": "P11-ING-B028",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): escribe y comprende textos sencillos sobre su rutina usando preposiciones y expresiones de uso frecuente.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige la preposición correcta para expresar el medio de transporte.",
+"contexto": "Hi Kevin, My name is Sara and I (26) ______ fifteen years old. I live in Cali with my parents and my little brother. My school (27) ______ in the Ciudad Córdoba neighbourhood, very near my house. I go there (28) ______ bus every morning with my best friend. In my free time I like to dance salsa, and on Saturdays I (29) ______ to classes at a dance academy. Cali is famous for its salsa, so many people from other countries come here to learn. What about you? Do you like music? Write soon! Sara",
+"enunciado": "Which option correctly completes gap (28)?",
+"opciones": {
+"A": "on",
+"B": "by",
+"C": "with"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir 'by bus' con 'on the bus'",
+"porque": "Elegiste A porque probablemente recordaste 'on the bus' (dentro del bus), que necesita artículo.",
+"pregunta_guia": "¿En el texto aparece 'the' antes de 'bus'?",
+"aprende": "Medio de transporte sin artículo: by bus, by car, by bike. Con artículo: on the bus, in the car. Excepción: on foot."
+},
+"C": {
+"error": "Calco del español 'con'",
+"porque": "Elegiste C porque probablemente pensaste en 'voy con el bus' o en la palabra 'with' que aparece después.",
+"pregunta_guia": "¿'With' indica el medio de transporte o la compañía?",
+"aprende": "'With' indica compañía o instrumento (with my friend). Para el transporte se usa 'by'."
+}
+},
+"explicacion": "Paso 1: El espacio (28) va antes de 'bus', sin artículo. Paso 2: Para expresar el medio de transporte en general se usa 'by + vehículo'. Paso 3: 'I go there by bus every morning'. Paso 4: 'On' necesitaría 'the bus' y 'with' indica compañía. Respuesta: B.",
+"tip": "By bus, by car, by plane, by MIO… pero on foot (a pie).",
+"truco": "BY + Bus = la B se repite.",
+"estrategia_icfes": "Las preposiciones son frecuentes en la Parte 4. Observa la palabra que sigue al espacio y si lleva artículo; muchas preposiciones forman expresiones fijas.",
+"temas": [
+"Preposiciones",
+"Medios de transporte",
+"Rutinas"
+],
+"gemela": {
+"enunciado": "Complete: \"My father travels to Bogotá ______ plane twice a month.\"",
+"opciones": {
+"A": "in",
+"B": "with",
+"C": "by"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Después del espacio está 'plane', sin artículo. Paso 2: El medio de transporte se expresa con 'by': 'by plane'."
+}
+},
+{
+"id": "P11-ING-B029",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): escribe y comprende textos sencillos sobre sus hábitos usando el presente simple con concordancia.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige la forma del presente simple que concuerda con 'I' en una rutina semanal.",
+"contexto": "Hi Kevin, My name is Sara and I (26) ______ fifteen years old. I live in Cali with my parents and my little brother. My school (27) ______ in the Ciudad Córdoba neighbourhood, very near my house. I go there (28) ______ bus every morning with my best friend. In my free time I like to dance salsa, and on Saturdays I (29) ______ to classes at a dance academy. Cali is famous for its salsa, so many people from other countries come here to learn. What about you? Do you like music? Write soon! Sara",
+"enunciado": "Which option correctly completes gap (29)?",
+"opciones": {
+"A": "go",
+"B": "goes",
+"C": "going"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Agregar -s con el sujeto 'I'",
+"porque": "Elegiste B porque probablemente generalizaste la -s del presente simple a todas las personas.",
+"pregunta_guia": "¿La -s del presente simple se agrega con 'I' o solo con he/she/it?",
+"aprende": "Presente simple: I go, you go, he/she goes. La -s/-es solo va con tercera persona singular."
+},
+"C": {
+"error": "Usar -ing sin auxiliar",
+"porque": "Elegiste C porque probablemente pensaste en 'estoy yendo' o en el gerundio como forma general.",
+"pregunta_guia": "¿Hay un 'am' antes del espacio para formar el presente continuo?",
+"aprende": "La forma -ing necesita 'to be' (I am going). Para rutinas ('on Saturdays') se usa el presente simple."
+}
+},
+"explicacion": "Paso 1: 'On Saturdays' indica una rutina, por eso va presente simple. Paso 2: El sujeto es 'I'. Paso 3: Con 'I' el verbo queda en forma base: 'go'. Paso 4: 'On Saturdays I go to classes'. Respuesta: A.",
+"tip": "Every day, on Saturdays, usually, always → presente simple.",
+"truco": "He, she, it: la S se pone ahí; con I, you, we, they: ¡la S se va!",
+"estrategia_icfes": "Busca marcadores temporales cerca del espacio (on Saturdays, yesterday, now). Ellos determinan el tiempo verbal; luego el sujeto determina la forma.",
+"temas": [
+"Presente simple",
+"Rutinas y tiempo libre",
+"Tercera persona -s"
+],
+"gemela": {
+"enunciado": "Complete: \"Every afternoon, my friends and I ______ basketball in the park.\"",
+"opciones": {
+"A": "plays",
+"B": "play",
+"C": "playing"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Every afternoon' indica rutina: presente simple. Paso 2: El sujeto 'my friends and I' = we → 'play' sin -s."
+}
+},
+{
+"id": "P11-ING-B030",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): narra experiencias pasadas en textos cortos usando el pasado simple de verbos regulares e irregulares.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos narrativos sobre experiencias personales, usando secuencias temporales y una ortografía aceptable.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el pasado simple de un verbo irregular a partir del marcador 'Last August'.",
+"contexto": "Last August, my family and I (30) ______ a trip to the Pacific coast. We travelled to Juanchaco, a small town near Buenaventura. The boat trip was long, but the views were amazing. On the second day, we (31) ______ humpback whales jumping out of the water! My father took many photos, but he (32) ______ get a good one because the whales moved too fast. In the evening we ate fresh fish with coconut rice, (33) ______ was the most delicious meal of the trip. I hope we can go back next year.",
+"enunciado": "Which option correctly completes gap (30)?",
+"opciones": {
+"A": "take",
+"B": "taking",
+"C": "took"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Ignorar el marcador de pasado",
+"porque": "Elegiste A porque probablemente no relacionaste 'Last August' con el pasado.",
+"pregunta_guia": "¿'Last August' habla del pasado, del presente o del futuro?",
+"aprende": "'Last + periodo' (last week, last year) exige pasado simple: took."
+},
+"B": {
+"error": "Usar -ing sin auxiliar",
+"porque": "Elegiste B porque probablemente pensaste en 'tomando un viaje' como acción en desarrollo.",
+"pregunta_guia": "¿Hay un 'were' antes del espacio que forme el pasado continuo?",
+"aprende": "El -ing solo funciona con 'to be' (we were taking). Aquí se narra un hecho terminado: 'took'."
+}
+},
+"explicacion": "Paso 1: 'Last August' indica un momento terminado del pasado. Paso 2: Se usa pasado simple. Paso 3: 'Take' es irregular: take → took → taken. Paso 4: 'My family and I took a trip'. Respuesta: C.",
+"tip": "Take a trip = hacer un viaje. Pasado: took a trip.",
+"truco": "Last, ago, yesterday → ¡pasado ya!",
+"estrategia_icfes": "En textos narrativos la Parte 4 evalúa el pasado simple, sobre todo de verbos irregulares. Identifica el marcador temporal de la primera oración: suele marcar el tiempo de todo el texto.",
+"temas": [
+"Pasado simple",
+"Verbos irregulares",
+"Narrar viajes"
+],
+"gemela": {
+"enunciado": "Complete: \"Two years ago, my class ______ a trip to the Malpelo exhibition at the museum.\"",
+"opciones": {
+"A": "takes",
+"B": "took",
+"C": "taking"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Two years ago' indica pasado terminado. Paso 2: El pasado de 'take' es 'took'."
+}
+},
+{
+"id": "P11-ING-B031",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): narra experiencias pasadas en textos cortos usando el pasado simple de verbos regulares e irregulares.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos narrativos sobre experiencias personales, usando secuencias temporales y una ortografía aceptable.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Mantiene el pasado simple en una narración y elige la forma irregular correcta de 'see'.",
+"contexto": "Last August, my family and I (30) ______ a trip to the Pacific coast. We travelled to Juanchaco, a small town near Buenaventura. The boat trip was long, but the views were amazing. On the second day, we (31) ______ humpback whales jumping out of the water! My father took many photos, but he (32) ______ get a good one because the whales moved too fast. In the evening we ate fresh fish with coconut rice, (33) ______ was the most delicious meal of the trip. I hope we can go back next year.",
+"enunciado": "Which option correctly completes gap (31)?",
+"opciones": {
+"A": "see",
+"B": "saw",
+"C": "seen"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Cambiar de tiempo verbal dentro de la narración",
+"porque": "Elegiste A porque probablemente no notaste que todo el relato está en pasado (travelled, was, took).",
+"pregunta_guia": "¿En qué tiempo están los demás verbos del texto: travelled, was, took?",
+"aprende": "Una narración mantiene el mismo tiempo. 'On the second day' sigue en el pasado del viaje: saw."
+},
+"C": {
+"error": "Confundir pasado simple con participio",
+"porque": "Elegiste C porque probablemente recordaste 'seen' como 'vio' sin notar que necesita 'have/has'.",
+"pregunta_guia": "¿Hay un 'have' o 'had' antes del espacio?",
+"aprende": "See – saw – seen: 'saw' es pasado simple; 'seen' es participio y va con have/has/had."
+}
+},
+"explicacion": "Paso 1: El texto narra un viaje terminado ('Last August'). Paso 2: Los verbos alrededor están en pasado: travelled, was, took. Paso 3: El pasado simple de 'see' es 'saw' (see–saw–seen). Paso 4: 'We saw humpback whales jumping out of the water!'. Respuesta: B.",
+"tip": "Aprende los verbos irregulares en tríos: see–saw–seen, take–took–taken, eat–ate–eaten.",
+"truco": "Participio solo = cojo: necesita el bastón 'have'.",
+"estrategia_icfes": "Cuando hay varios espacios en un mismo texto, usa los verbos que ya aparecen conjugados como pista del tiempo verbal. El ICFES pone el participio como distractor del pasado simple.",
+"temas": [
+"Pasado simple",
+"Verbos irregulares",
+"Fauna del Pacífico colombiano"
+],
+"gemela": {
+"enunciado": "Complete: \"Yesterday we ______ a beautiful sunset from the Cerro de las Tres Cruces.\"",
+"opciones": {
+"A": "seen",
+"B": "see",
+"C": "saw"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'Yesterday' exige pasado simple. Paso 2: El pasado de 'see' es 'saw'; 'seen' necesita 'have'."
+}
+},
+{
+"id": "P11-ING-B032",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): narra experiencias pasadas en textos cortos usando el pasado simple en forma afirmativa y negativa.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos narrativos sobre experiencias personales, usando secuencias temporales y una ortografía aceptable.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Forma la negación del pasado simple con el auxiliar 'did not' seguido de verbo base.",
+"contexto": "Last August, my family and I (30) ______ a trip to the Pacific coast. We travelled to Juanchaco, a small town near Buenaventura. The boat trip was long, but the views were amazing. On the second day, we (31) ______ humpback whales jumping out of the water! My father took many photos, but he (32) ______ get a good one because the whales moved too fast. In the evening we ate fresh fish with coconut rice, (33) ______ was the most delicious meal of the trip. I hope we can go back next year.",
+"enunciado": "Which option correctly completes gap (32)?",
+"opciones": {
+"A": "didn't",
+"B": "doesn't",
+"C": "wasn't"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Auxiliar en presente dentro de un relato pasado",
+"porque": "Elegiste B porque probablemente recordaste que 'doesn't' va con 'he', sin fijarte en el tiempo.",
+"pregunta_guia": "¿La acción de tomar fotos ocurrió en el pasado o pasa siempre?",
+"aprende": "En pasado la negación es 'didn't + verbo base' para todas las personas: he didn't get."
+},
+"C": {
+"error": "Usar 'to be' como auxiliar de un verbo base",
+"porque": "Elegiste C porque probablemente pensaste que 'wasn't' es la negación general del pasado.",
+"pregunta_guia": "Después del espacio viene 'get' (forma base). ¿Qué auxiliar acompaña a un verbo base en pasado?",
+"aprende": "'Wasn't' va con adjetivos, sustantivos o -ing (he wasn't happy / wasn't getting). Con verbo base se usa 'didn't'."
+}
+},
+"explicacion": "Paso 1: El relato está en pasado ('My father took many photos'). Paso 2: Después del espacio viene 'get', un verbo en forma base. Paso 3: La negación del pasado simple con verbo base es 'didn't + verbo'. Paso 4: 'He didn't get a good one'. Respuesta: A.",
+"tip": "Did/didn't ya marcan el pasado: el verbo principal vuelve a su forma base (didn't get, no didn't got).",
+"truco": "DID se lleva el pasado; el verbo queda 'desnudo'.",
+"estrategia_icfes": "Mira la palabra que sigue al espacio: si es un verbo base, necesitas un auxiliar do/does/did o un modal; si es -ing o adjetivo, necesitas 'to be'.",
+"temas": [
+"Pasado simple negativo",
+"Auxiliar did",
+"Conector but"
+],
+"gemela": {
+"enunciado": "Complete: \"Mariana studied hard, but she ______ finish the test on time.\"",
+"opciones": {
+"A": "wasn't",
+"B": "didn't",
+"C": "doesn't"
+},
+"correcta": "B",
+"explicacion": "Paso 1: El contexto está en pasado (studied). Paso 2: Después viene 'finish' (verbo base). Paso 3: Se usa 'didn't + verbo base'."
+}
+},
+{
+"id": "P11-ING-B033",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): produce y comprende textos narrativos y descriptivos que integran oraciones complejas mediante pronombres relativos y conectores.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos de diferentes tipos teniendo en cuenta a mi posible lector, utilizando elementos de cohesión.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el pronombre relativo adecuado para referirse a una cosa en una cláusula explicativa.",
+"contexto": "Last August, my family and I (30) ______ a trip to the Pacific coast. We travelled to Juanchaco, a small town near Buenaventura. The boat trip was long, but the views were amazing. On the second day, we (31) ______ humpback whales jumping out of the water! My father took many photos, but he (32) ______ get a good one because the whales moved too fast. In the evening we ate fresh fish with coconut rice, (33) ______ was the most delicious meal of the trip. I hope we can go back next year.",
+"enunciado": "Which option correctly completes gap (33)?",
+"opciones": {
+"A": "who",
+"B": "where",
+"C": "which"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar 'who' para cosas",
+"porque": "Elegiste A porque probablemente tradujiste 'que/quien' sin pensar si el antecedente es persona o cosa.",
+"pregunta_guia": "¿Lo que 'fue la comida más deliciosa' es una persona o una cosa?",
+"aprende": "'Who' se refiere a personas; 'which' a cosas o animales; 'that' a ambos (pero no después de coma)."
+},
+"B": {
+"error": "Usar 'where' sin referirse a un lugar",
+"porque": "Elegiste B porque probablemente pensaste en el lugar donde comieron.",
+"pregunta_guia": "¿El pronombre se refiere a un lugar o a la comida (fish with coconut rice)?",
+"aprende": "'Where' introduce cláusulas sobre lugares (the town where we stayed). Aquí el antecedente es la comida."
+}
+},
+"explicacion": "Paso 1: El espacio (33) va después de una coma y se refiere a 'fresh fish with coconut rice'. Paso 2: El antecedente es una cosa, no una persona ni un lugar. Paso 3: En una cláusula explicativa (con coma) se usa 'which' para cosas. Paso 4: '..., which was the most delicious meal of the trip'. Respuesta: C.",
+"tip": "Después de coma no se usa 'that': ', which' para cosas y ', who' para personas.",
+"truco": "WHO = humano; WHICH = cosa; WHERE = lugar; WHEN = tiempo.",
+"estrategia_icfes": "Para pronombres relativos, el ICFES te obliga a identificar el antecedente. Señala con el dedo la palabra a la que se refiere el espacio y clasifícala: persona, cosa, lugar o tiempo.",
+"temas": [
+"Pronombres relativos",
+"Cláusulas explicativas",
+"Gastronomía del Pacífico"
+],
+"gemela": {
+"enunciado": "Complete: \"We visited the Museo La Tertulia, ______ has a great collection of modern art.\"",
+"opciones": {
+"A": "which",
+"B": "who",
+"C": "when"
+},
+"correcta": "A",
+"explicacion": "Paso 1: El antecedente es un museo (una cosa/institución). Paso 2: Después de coma, para cosas se usa 'which'."
+}
+},
+{
+"id": "P11-ING-B034",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos informativos sobre temas ambientales y de su región, usando comparativos y superlativos.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Forma el superlativo de un adjetivo largo con 'the most' en la estructura 'one of the...'.",
+"contexto": "Colombia is one of the (34) ______ biodiverse countries in the world. In the Valle del Cauca, the Farallones de Cali National Natural Park protects forests, rivers and many species of birds. Scientists (35) ______ studied this area for many years, and they have found plants that do not exist anywhere else. However, the park faces serious problems. Illegal mining (36) ______ polluted some rivers, and some visitors leave rubbish on the trails. For this reason, park rangers ask tourists to follow the rules. If everyone (37) ______ the park, future generations will enjoy it too.",
+"enunciado": "Which option correctly completes gap (34)?",
+"opciones": {
+"A": "more",
+"B": "most",
+"C": "much"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir comparativo con superlativo",
+"porque": "Elegiste A porque probablemente pensaste en 'más biodiverso' sin notar que se compara con todo el mundo.",
+"pregunta_guia": "¿Hay un 'than' que compare dos cosas, o aparecen 'the' e 'in the world'?",
+"aprende": "Comparativo: more ... than (dos elementos). Superlativo: the most ... in/of (un grupo completo)."
+},
+"C": {
+"error": "Usar un cuantificador en lugar de un grado del adjetivo",
+"porque": "Elegiste C porque probablemente tradujiste 'muy' o 'mucho' como intensificador.",
+"pregunta_guia": "¿'The much biodiverse' es una forma correcta en inglés?",
+"aprende": "'Much' acompaña sustantivos incontables (much water) o comparativos (much bigger), no forma superlativos."
+}
+},
+"explicacion": "Paso 1: La estructura 'one of the ___ ... in the world' compara a Colombia con todos los países. Paso 2: Eso exige un superlativo. Paso 3: 'Biodiverse' es un adjetivo largo, así que el superlativo es 'the most biodiverse'. Paso 4: 'One of the most biodiverse countries in the world'. Respuesta: B.",
+"tip": "'One of the + superlativo + sustantivo plural': one of the best players, one of the most important cities.",
+"truco": "THE + IN THE WORLD = superlativo → MOST.",
+"estrategia_icfes": "En la Parte 4 busca pistas a ambos lados del espacio: 'the' antes y 'in the world' después indican superlativo; 'than' después indica comparativo.",
+"temas": [
+"Superlativos",
+"Comparativos",
+"Biodiversidad de Colombia"
+],
+"gemela": {
+"enunciado": "Complete: \"The Cali River is one of the ______ important rivers for the city.\"",
+"opciones": {
+"A": "more",
+"B": "much",
+"C": "most"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'One of the ... rivers' indica superlativo. Paso 2: 'Important' es largo: 'the most important'."
+}
+},
+{
+"id": "P11-ING-B035",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos informativos que relacionan acciones del pasado con el presente usando el presente perfecto.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el auxiliar 'have' que concuerda con un sujeto plural en presente perfecto.",
+"contexto": "Colombia is one of the (34) ______ biodiverse countries in the world. In the Valle del Cauca, the Farallones de Cali National Natural Park protects forests, rivers and many species of birds. Scientists (35) ______ studied this area for many years, and they have found plants that do not exist anywhere else. However, the park faces serious problems. Illegal mining (36) ______ polluted some rivers, and some visitors leave rubbish on the trails. For this reason, park rangers ask tourists to follow the rules. If everyone (37) ______ the park, future generations will enjoy it too.",
+"enunciado": "Which option correctly completes gap (35)?",
+"opciones": {
+"A": "have",
+"B": "has",
+"C": "are"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Concordancia del auxiliar con sujeto plural",
+"porque": "Elegiste B porque probablemente no notaste que 'Scientists' es plural.",
+"pregunta_guia": "¿'Scientists' es un científico o varios? ¿Qué pronombre lo reemplaza?",
+"aprende": "Presente perfecto: I/you/we/they have + participio; he/she/it has + participio. Scientists = they → have."
+},
+"C": {
+"error": "Formar una voz pasiva sin sentido",
+"porque": "Elegiste C porque probablemente asociaste 'are' con sujetos plurales y 'studied' con un participio.",
+"pregunta_guia": "¿Los científicos son estudiados o ellos estudian el área?",
+"aprende": "'Are studied' es voz pasiva (son estudiados). Los científicos realizan la acción: 'have studied'."
+}
+},
+"explicacion": "Paso 1: 'For many years' indica una acción que empezó en el pasado y continúa: presente perfecto. Paso 2: El presente perfecto se forma con have/has + participio (studied). Paso 3: 'Scientists' es plural (they) → 'have'. Paso 4: La misma oración confirma la estructura: 'they have found'. Respuesta: A.",
+"tip": "For + periodo / since + inicio son pistas fuertes del presente perfecto.",
+"truco": "Plural → HAVE; he/she/it → HAS.",
+"estrategia_icfes": "El ICFES suele dejar en el mismo texto una pista de la estructura correcta (aquí 'they have found'). Lee la oración completa antes de responder.",
+"temas": [
+"Presente perfecto",
+"For y since",
+"Concordancia sujeto-verbo"
+],
+"gemela": {
+"enunciado": "Complete: \"My parents ______ lived in Yumbo for fifteen years.\"",
+"opciones": {
+"A": "has",
+"B": "are",
+"C": "have"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'For fifteen years' + participio 'lived' → presente perfecto. Paso 2: 'My parents' = they → 'have lived'."
+}
+},
+{
+"id": "P11-ING-B036",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos informativos sobre problemas ambientales, relacionando causas pasadas con efectos presentes.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Identifica que un sustantivo incontable ('mining') funciona como sujeto singular y elige 'has'.",
+"contexto": "Colombia is one of the (34) ______ biodiverse countries in the world. In the Valle del Cauca, the Farallones de Cali National Natural Park protects forests, rivers and many species of birds. Scientists (35) ______ studied this area for many years, and they have found plants that do not exist anywhere else. However, the park faces serious problems. Illegal mining (36) ______ polluted some rivers, and some visitors leave rubbish on the trails. For this reason, park rangers ask tourists to follow the rules. If everyone (37) ______ the park, future generations will enjoy it too.",
+"enunciado": "Which option correctly completes gap (36)?",
+"opciones": {
+"A": "have",
+"B": "having",
+"C": "has"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Concordar con la palabra más cercana",
+"porque": "Elegiste A porque probablemente pensaste en 'rivers' (plural) o creíste que 'mining' es plural.",
+"pregunta_guia": "¿Cuál es el sujeto que contamina: los ríos o la minería?",
+"aprende": "El sujeto es 'Illegal mining', una actividad incontable = it → has. 'Rivers' es el objeto."
+},
+"B": {
+"error": "Usar -ing sin verbo conjugado",
+"porque": "Elegiste B porque probablemente confundiste la terminación -ing de 'mining' y la repetiste.",
+"pregunta_guia": "Si pones 'having', ¿la oración tiene un verbo conjugado?",
+"aprende": "Toda oración necesita un verbo conjugado. 'Having polluted' no funciona como verbo principal aquí."
+}
+},
+"explicacion": "Paso 1: El sujeto de la oración es 'Illegal mining' (la minería ilegal). Paso 2: 'Mining' es un sustantivo incontable que se reemplaza por 'it'. Paso 3: El participio 'polluted' indica presente perfecto: has + participio. Paso 4: 'Illegal mining has polluted some rivers'. Respuesta: C.",
+"tip": "Los sustantivos terminados en -ing que nombran actividades (mining, fishing, recycling) son singulares.",
+"truco": "Pregunta '¿QUÉ contamina?' → la minería (it) → HAS.",
+"estrategia_icfes": "En el nivel B1 el ICFES usa sujetos engañosos (incontables, gerundios, sujetos largos). Pregúntate quién hace la acción y reemplázalo por un pronombre antes de conjugar.",
+"temas": [
+"Presente perfecto",
+"Sustantivos incontables",
+"Minería ilegal y medio ambiente"
+],
+"gemela": {
+"enunciado": "Complete: \"Plastic pollution ______ affected many beaches on the Pacific coast.\"",
+"opciones": {
+"A": "has",
+"B": "have",
+"C": "having"
+},
+"correcta": "A",
+"explicacion": "Paso 1: El sujeto 'plastic pollution' es incontable (it). Paso 2: Presente perfecto con 'it' → 'has affected'."
+}
+},
+{
+"id": "P11-ING-B037",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): expresa condiciones y consecuencias sobre temas de su entorno usando oraciones condicionales.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Usa el presente simple con -s en la cláusula 'if' del primer condicional con el sujeto 'everyone'.",
+"contexto": "Colombia is one of the (34) ______ biodiverse countries in the world. In the Valle del Cauca, the Farallones de Cali National Natural Park protects forests, rivers and many species of birds. Scientists (35) ______ studied this area for many years, and they have found plants that do not exist anywhere else. However, the park faces serious problems. Illegal mining (36) ______ polluted some rivers, and some visitors leave rubbish on the trails. For this reason, park rangers ask tourists to follow the rules. If everyone (37) ______ the park, future generations will enjoy it too.",
+"enunciado": "Which option correctly completes gap (37)?",
+"opciones": {
+"A": "respects",
+"B": "respect",
+"C": "will respect"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tratar 'everyone' como plural",
+"porque": "Elegiste B porque probablemente pensaste que 'everyone' (todos) es plural.",
+"pregunta_guia": "Gramaticalmente, ¿'everyone' se reemplaza por 'he/she' o por 'they' al conjugar?",
+"aprende": "Everyone, everybody, someone, nobody son singulares: everyone respects, everybody knows."
+},
+"C": {
+"error": "Usar 'will' en la cláusula if",
+"porque": "Elegiste C porque probablemente tradujiste 'si todos respetarán' o viste 'will enjoy' y lo repetiste.",
+"pregunta_guia": "En el primer condicional, ¿dónde va 'will': en la parte del 'if' o en la consecuencia?",
+"aprende": "Primer condicional: If + presente simple, will + verbo base. 'Will' va solo en la consecuencia (will enjoy)."
+}
+},
+"explicacion": "Paso 1: La oración es un primer condicional: 'If ..., future generations will enjoy it'. Paso 2: En la cláusula con 'if' se usa presente simple. Paso 3: 'Everyone' es gramaticalmente singular (como he/she), así que lleva -s. Paso 4: 'If everyone respects the park'. Respuesta: A.",
+"tip": "Primer condicional = situación posible: If + presente, will + verbo.",
+"truco": "IF y WILL no se sientan juntos.",
+"estrategia_icfes": "El ICFES combina dos reglas en un solo espacio (aquí condicional + concordancia). Revisa primero la estructura de la oración y después la persona gramatical.",
+"temas": [
+"Primer condicional",
+"Pronombres indefinidos",
+"Cuidado de parques naturales"
+],
+"gemela": {
+"enunciado": "Complete: \"If nobody ______ the lights, we will waste a lot of energy.\"",
+"opciones": {
+"A": "turn off",
+"B": "turns off",
+"C": "will turn off"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Primer condicional: if + presente simple. Paso 2: 'Nobody' es singular → 'turns off'. 'Will' va en la consecuencia."
+}
+},
+{
+"id": "P11-ING-B038",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos sobre planes y metas personales usando el presente simple y expresiones de necesidad.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Conjuga 'need' en presente simple con sujeto de tercera persona singular.",
+"contexto": "Andrés is sixteen and he wants to buy a laptop for his technical course at SENA. The laptop costs 1,800,000 pesos, so he (38) ______ to save money every month. He works at his uncle's bakery on weekends and earns 150,000 pesos a month. If he saves all of it, he will need twelve months to buy the laptop. His sister gave him some advice: \"You (39) ______ spend money on snacks every day. Write down your expenses in a notebook.\" Andrés followed her advice, and now he knows exactly (40) ______ money he spends. He is (41) ______ organized than before, and he feels proud of himself.",
+"enunciado": "Which option correctly completes gap (38)?",
+"opciones": {
+"A": "need",
+"B": "needs",
+"C": "needing"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Omitir la -s de tercera persona",
+"porque": "Elegiste A porque probablemente olvidaste que 'he' exige -s en presente simple.",
+"pregunta_guia": "¿Cuál es el sujeto del espacio (38)? Mira cómo aparecen 'wants', 'costs', 'works' en el texto.",
+"aprende": "He/she/it + verbo + s: he needs, he wants, he works."
+},
+"C": {
+"error": "Usar -ing sin auxiliar",
+"porque": "Elegiste C porque probablemente pensaste en 'está necesitando'.",
+"pregunta_guia": "¿Hay 'is' antes del espacio? ¿'Need' suele usarse en forma continua?",
+"aprende": "'Need' es un verbo de estado y casi no se usa en -ing; además, -ing exige 'to be'."
+}
+},
+"explicacion": "Paso 1: El sujeto del espacio (38) es 'he' (Andrés). Paso 2: El texto está en presente simple (wants, costs, works). Paso 3: Con 'he' se agrega -s: 'needs'. Paso 4: 'So he needs to save money every month'. Respuesta: B.",
+"tip": "Verbos de estado (need, want, know, like) prefieren el presente simple, no el continuo.",
+"truco": "Mira los verbos vecinos: si ellos llevan -s, el tuyo también.",
+"estrategia_icfes": "En textos con varios espacios, el ICFES evalúa la concordancia con sujetos que ya aparecen en el texto. Identifica el sujeto y compara con otros verbos conjugados del mismo párrafo.",
+"temas": [
+"Presente simple",
+"Verbos de estado",
+"Ahorro y metas financieras"
+],
+"sabic": "Matemática financiera",
+"gemela": {
+"enunciado": "Complete: \"Valentina ______ to pay 45,000 pesos for her new English book.\"",
+"opciones": {
+"A": "has",
+"B": "having",
+"C": "have"
+},
+"correcta": "A",
+"explicacion": "Paso 1: El sujeto 'Valentina' = she. Paso 2: 'Have to' en presente con 'she' es 'has to': 'Valentina has to pay'."
+}
+},
+{
+"id": "P11-ING-B039",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): da y comprende consejos sobre temas de su vida cotidiana, como el manejo del dinero, usando verbos modales.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el modal de consejo negativo coherente con el propósito de ahorrar y con la forma gramatical correcta.",
+"contexto": "Andrés is sixteen and he wants to buy a laptop for his technical course at SENA. The laptop costs 1,800,000 pesos, so he (38) ______ to save money every month. He works at his uncle's bakery on weekends and earns 150,000 pesos a month. If he saves all of it, he will need twelve months to buy the laptop. His sister gave him some advice: \"You (39) ______ spend money on snacks every day. Write down your expenses in a notebook.\" Andrés followed her advice, and now he knows exactly (40) ______ money he spends. He is (41) ______ organized than before, and he feels proud of himself.",
+"enunciado": "Which option correctly completes gap (39)?",
+"opciones": {
+"A": "should",
+"B": "must to",
+"C": "shouldn't"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Elegir la forma correcta pero con sentido contrario",
+"porque": "Elegiste A porque probablemente revisaste solo la gramática y no el sentido del consejo.",
+"pregunta_guia": "Si Andrés quiere ahorrar, ¿su hermana le aconsejaría gastar en mecato todos los días?",
+"aprende": "En la Parte 4 la opción debe ser correcta gramaticalmente Y coherente con el texto. Para ahorrar, el consejo es NO gastar: shouldn't."
+},
+"B": {
+"error": "Agregar 'to' después de un modal",
+"porque": "Elegiste B porque probablemente lo confundiste con 'have to'.",
+"pregunta_guia": "¿Los modales (must, should, can) llevan 'to' antes del verbo?",
+"aprende": "Modal + verbo base sin 'to': you must spend, you should save. 'Have to' sí lleva 'to'."
+}
+},
+"explicacion": "Paso 1: El espacio va antes de 'spend' (verbo base), así que necesitamos un modal. Paso 2: 'Must to' es incorrecto porque los modales no llevan 'to'. Paso 3: Entre 'should' y 'shouldn't', el sentido decide: la hermana quiere que Andrés ahorre y le pide anotar sus gastos. Paso 4: El consejo lógico es 'You shouldn't spend money on snacks every day'. Respuesta: C.",
+"tip": "Should = es buena idea; shouldn't = no es buena idea. Ambos van con verbo base.",
+"truco": "Modal + TO = ¡error! (excepto ought to y have to).",
+"estrategia_icfes": "Cuando dos opciones son gramaticalmente correctas, el ICFES evalúa la coherencia con el texto. Relee la idea anterior y la siguiente para decidir si va afirmativo o negativo.",
+"temas": [
+"Modales de consejo",
+"Finanzas personales",
+"Coherencia textual"
+],
+"sabic": "Matemática financiera",
+"gemela": {
+"enunciado": "Complete: \"You want to improve your Saber 11 score, so you ______ practise with real-format questions every week.\"",
+"opciones": {
+"A": "should",
+"B": "shouldn't",
+"C": "should to"
+},
+"correcta": "A",
+"explicacion": "Paso 1: El objetivo es mejorar el puntaje. Paso 2: El consejo coherente es afirmativo: 'should practise'. 'Should to' es incorrecto."
+}
+},
+{
+"id": "P11-ING-B040",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos sobre el manejo del dinero usando cuantificadores con sustantivos contables e incontables.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige 'how much' para un sustantivo incontable ('money').",
+"contexto": "Andrés is sixteen and he wants to buy a laptop for his technical course at SENA. The laptop costs 1,800,000 pesos, so he (38) ______ to save money every month. He works at his uncle's bakery on weekends and earns 150,000 pesos a month. If he saves all of it, he will need twelve months to buy the laptop. His sister gave him some advice: \"You (39) ______ spend money on snacks every day. Write down your expenses in a notebook.\" Andrés followed her advice, and now he knows exactly (40) ______ money he spends. He is (41) ______ organized than before, and he feels proud of himself.",
+"enunciado": "Which option correctly completes gap (40)?",
+"opciones": {
+"A": "how much",
+"B": "how many",
+"C": "how long"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tratar 'money' como contable",
+"porque": "Elegiste B porque probablemente pensaste que el dinero se cuenta (billetes, pesos).",
+"pregunta_guia": "¿Se dice 'one money, two moneys'? ¿'Money' tiene plural?",
+"aprende": "'Money' es incontable → how much money. 'Pesos' sí es contable → how many pesos."
+},
+"C": {
+"error": "Confundir cantidad con duración",
+"porque": "Elegiste C porque probablemente recordaste que el texto habla de 'twelve months'.",
+"pregunta_guia": "Después del espacio viene 'money'. ¿Se mide el dinero en tiempo?",
+"aprende": "'How long' pregunta duración. Para cantidad de algo incontable se usa 'how much'."
+}
+},
+"explicacion": "Paso 1: Después del espacio aparece 'money'. Paso 2: 'Money' es un sustantivo incontable (no tiene plural). Paso 3: Con incontables se usa 'how much'. Paso 4: 'Now he knows exactly how much money he spends'. Respuesta: A.",
+"tip": "How much + incontable (money, water, time); how many + plural contable (pesos, books).",
+"truco": "MUCH Money: dos M.",
+"estrategia_icfes": "Mira el sustantivo que viene después del espacio y decide si es contable o incontable. El ICFES usa 'money', 'information', 'advice' y 'homework' porque en español sí son contables.",
+"temas": [
+"Contables e incontables",
+"How much / how many",
+"Control de gastos"
+],
+"sabic": "Matemática financiera",
+"gemela": {
+"enunciado": "Complete: \"Do you know ______ information the app collects about you?\"",
+"opciones": {
+"A": "how many",
+"B": "how much",
+"C": "how often"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Information' es incontable en inglés. Paso 2: Se usa 'how much information'."
+}
+},
+{
+"id": "P11-ING-B041",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): describe cambios personales y compara situaciones del pasado y del presente usando comparativos.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Forma el comparativo de superioridad de un adjetivo largo con 'more ... than'.",
+"contexto": "Andrés is sixteen and he wants to buy a laptop for his technical course at SENA. The laptop costs 1,800,000 pesos, so he (38) ______ to save money every month. He works at his uncle's bakery on weekends and earns 150,000 pesos a month. If he saves all of it, he will need twelve months to buy the laptop. His sister gave him some advice: \"You (39) ______ spend money on snacks every day. Write down your expenses in a notebook.\" Andrés followed her advice, and now he knows exactly (40) ______ money he spends. He is (41) ______ organized than before, and he feels proud of himself.",
+"enunciado": "Which option correctly completes gap (41)?",
+"opciones": {
+"A": "most",
+"B": "more",
+"C": "much"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar superlativo en una comparación de dos momentos",
+"porque": "Elegiste A porque probablemente pensaste en 'el más organizado' sin ver el 'than'.",
+"pregunta_guia": "¿Qué palabra aparece después de 'organized'? ¿Se comparan dos cosas o un grupo completo?",
+"aprende": "'Than' indica comparativo: more + adjetivo largo + than. 'Most' va con 'the' en superlativos."
+},
+"C": {
+"error": "Usar 'much' sin comparativo",
+"porque": "Elegiste C porque probablemente tradujiste 'mucho más organizado' y dejaste solo 'much'.",
+"pregunta_guia": "¿'He is much organized than before' tiene un comparativo?",
+"aprende": "'Much' puede intensificar un comparativo (much more organized), pero no lo reemplaza."
+}
+},
+"explicacion": "Paso 1: Después del espacio aparece 'organized than before': se comparan dos momentos (antes y ahora). Paso 2: 'Organized' es un adjetivo largo. Paso 3: El comparativo de adjetivos largos es 'more + adjetivo + than'. Paso 4: 'He is more organized than before'. Respuesta: B.",
+"tip": "Adjetivo corto: -er than (taller than). Adjetivo largo: more ... than (more organized than).",
+"truco": "THAN pide MORE (o -er); THE pide MOST (o -est).",
+"estrategia_icfes": "Busca 'than' o 'the ... in/of' alrededor del espacio: el ICFES siempre deja una pista que diferencia comparativo de superlativo.",
+"temas": [
+"Comparativos",
+"Adjetivos largos y cortos",
+"Hábitos financieros"
+],
+"sabic": "Inteligencia emocional",
+"gemela": {
+"enunciado": "Complete: \"This year the Saber 11 practice tests seem ______ difficult than last year's.\"",
+"opciones": {
+"A": "more",
+"B": "most",
+"C": "much"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Than' indica comparativo. Paso 2: 'Difficult' es largo → 'more difficult than'."
+}
+},
+{
+"id": "P11-ING-B042",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y produce textos informativos sobre tecnología usando estructuras como la voz pasiva para destacar la acción.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos de diferentes tipos teniendo en cuenta a mi posible lector, utilizando elementos de cohesión.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Reconoce una construcción pasiva por la presencia de 'by + agente' y elige 'are used'.",
+"contexto": "Artificial intelligence is changing the way students learn. Today, many apps (42) ______ by teenagers to practise languages and solve maths problems. These tools can be very useful, but teachers say that students should avoid (43) ______ them just to copy answers. Instead, they recommend using AI to ask questions, get examples and understand their mistakes. In some schools in Cali, students (44) ______ already learning how to write good instructions for AI and how to check if the information is true. In this way, technology becomes a tutor and not a shortcut.",
+"enunciado": "Which option correctly completes gap (42)?",
+"opciones": {
+"A": "use",
+"B": "are using",
+"C": "are used"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Voz activa con sujeto que no realiza la acción",
+"porque": "Elegiste A porque probablemente pensaste 'las apps usan' sin preguntarte quién usa a quién.",
+"pregunta_guia": "¿Las apps usan a los adolescentes o los adolescentes usan las apps?",
+"aprende": "Si el sujeto recibe la acción y aparece 'by + agente', se usa voz pasiva: be + participio (are used by)."
+},
+"B": {
+"error": "Presente continuo en lugar de pasiva",
+"porque": "Elegiste B porque probablemente viste 'Today' y pensaste en una acción en progreso.",
+"pregunta_guia": "Si escribes 'apps are using by teenagers', ¿quién hace la acción de usar?",
+"aprende": "Are + -ing es voz activa (las apps estarían usando). Con 'by teenagers' se necesita 'are used'."
+}
+},
+"explicacion": "Paso 1: El sujeto es 'many apps' y después del espacio aparece 'by teenagers'. Paso 2: Los adolescentes son quienes usan las apps; las apps reciben la acción. Paso 3: Eso exige voz pasiva: be + participio. Paso 4: Con sujeto plural en presente: 'many apps are used by teenagers'. Respuesta: C.",
+"tip": "Voz pasiva = to be (conjugado) + participio (+ by + quien hace la acción).",
+"truco": "Si ves BY + persona después del espacio, piensa en PASIVA.",
+"estrategia_icfes": "En el nivel B1 el ICFES evalúa la voz pasiva. Pregúntate quién hace la acción: si no es el sujeto gramatical, la respuesta es pasiva.",
+"temas": [
+"Voz pasiva",
+"Inteligencia artificial en educación",
+"Participios"
+],
+"sabic": "Educación digital e IA",
+"gemela": {
+"enunciado": "Complete: \"Every day, thousands of messages ______ by students on school platforms.\"",
+"opciones": {
+"A": "are sent",
+"B": "send",
+"C": "are sending"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'By students' indica quién hace la acción. Paso 2: Los mensajes reciben la acción → pasiva: 'are sent'."
+}
+},
+{
+"id": "P11-ING-B043",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos sobre el uso responsable de la tecnología empleando correctamente gerundios e infinitivos.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Usa el gerundio después del verbo 'avoid'.",
+"contexto": "Artificial intelligence is changing the way students learn. Today, many apps (42) ______ by teenagers to practise languages and solve maths problems. These tools can be very useful, but teachers say that students should avoid (43) ______ them just to copy answers. Instead, they recommend using AI to ask questions, get examples and understand their mistakes. In some schools in Cali, students (44) ______ already learning how to write good instructions for AI and how to check if the information is true. In this way, technology becomes a tutor and not a shortcut.",
+"enunciado": "Which option correctly completes gap (43)?",
+"opciones": {
+"A": "using",
+"B": "to use",
+"C": "use"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Infinitivo después de 'avoid'",
+"porque": "Elegiste B porque probablemente tradujiste 'evitar usar' y pusiste 'to' como en 'want to use'.",
+"pregunta_guia": "¿'Avoid' va seguido de 'to + verbo' o de 'verbo + -ing'?",
+"aprende": "Avoid, enjoy, finish, mind, keep, recommend + -ing. Want, decide, need, hope + to + verbo."
+},
+"C": {
+"error": "Verbo base después de un verbo que no es modal",
+"porque": "Elegiste C porque probablemente viste 'should' antes y pensaste que el siguiente verbo también va en forma base.",
+"pregunta_guia": "'Should' ya acompaña a 'avoid'. ¿Qué forma necesita el verbo que sigue a 'avoid'?",
+"aprende": "El modal 'should' afecta solo al primer verbo (avoid). El segundo depende de 'avoid': -ing."
+}
+},
+"explicacion": "Paso 1: El espacio va después de 'avoid'. Paso 2: 'Avoid' siempre va seguido de gerundio (-ing). Paso 3: 'Should' afecta solo a 'avoid' (should avoid). Paso 4: 'Students should avoid using them just to copy answers'. El mismo texto usa 'recommend using', otra pista del patrón. Respuesta: A.",
+"tip": "Verbos + -ing frecuentes en el ICFES: avoid, enjoy, finish, keep, mind, recommend, suggest.",
+"truco": "Avoid Ing: 'evito' algo que estoy haciendo → -ING.",
+"estrategia_icfes": "El ICFES evalúa patrones verbo + gerundio / verbo + infinitivo. Mira solo el verbo inmediatamente anterior al espacio para decidir.",
+"temas": [
+"Gerundios e infinitivos",
+"Uso ético de la IA",
+"Patrones verbales"
+],
+"sabic": "Educación digital e IA",
+"gemela": {
+"enunciado": "Complete: \"My cousin enjoys ______ salsa videos with his friends.\"",
+"opciones": {
+"A": "to make",
+"B": "making",
+"C": "make"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Enjoy' va seguido de gerundio. Paso 2: 'enjoys making'."
+}
+},
+{
+"id": "P11-ING-B044",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos sobre actividades en curso usando el presente continuo con concordancia.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el auxiliar 'are' del presente continuo con sujeto plural.",
+"contexto": "Artificial intelligence is changing the way students learn. Today, many apps (42) ______ by teenagers to practise languages and solve maths problems. These tools can be very useful, but teachers say that students should avoid (43) ______ them just to copy answers. Instead, they recommend using AI to ask questions, get examples and understand their mistakes. In some schools in Cali, students (44) ______ already learning how to write good instructions for AI and how to check if the information is true. In this way, technology becomes a tutor and not a shortcut.",
+"enunciado": "Which option correctly completes gap (44)?",
+"opciones": {
+"A": "is",
+"B": "are",
+"C": "be"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Concordar con 'Cali' o con 'school'",
+"porque": "Elegiste A porque probablemente concordaste el verbo con la palabra anterior ('Cali') y no con el sujeto.",
+"pregunta_guia": "¿Quiénes están aprendiendo: Cali o los estudiantes?",
+"aprende": "El sujeto es 'students' (plural) → they are learning."
+},
+"C": {
+"error": "Dejar 'be' sin conjugar",
+"porque": "Elegiste C porque probablemente usaste la forma del diccionario.",
+"pregunta_guia": "¿Hay un modal antes del espacio que permita usar 'be'?",
+"aprende": "Sin modal, 'to be' se conjuga: am/is/are. 'Be' solo va después de modales o 'to'."
+}
+},
+"explicacion": "Paso 1: Después del espacio aparece 'already learning' (-ing): presente continuo. Paso 2: El presente continuo se forma con am/is/are + -ing. Paso 3: El sujeto es 'students', plural → 'are'. Paso 4: 'Students are already learning'. Respuesta: B.",
+"tip": "Presente continuo: I am / he is / they are + verbo-ing.",
+"truco": "Sujeto en plural (termina en -s) → ARE.",
+"estrategia_icfes": "Cuando la oración empieza con una frase de lugar (In some schools in Cali), el sujeto viene después. Sáltate esa frase y busca quién hace la acción.",
+"temas": [
+"Presente continuo",
+"Concordancia sujeto-verbo",
+"Alfabetización digital"
+],
+"sabic": "Educación digital e IA",
+"gemela": {
+"enunciado": "Complete: \"At the moment, my classmates ______ preparing a project about the Cauca River.\"",
+"opciones": {
+"A": "be",
+"B": "is",
+"C": "are"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'Preparing' + 'at the moment' → presente continuo. Paso 2: 'My classmates' = they → 'are'."
+}
+},
+{
+"id": "P11-ING-B045",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Mínimo",
+"mcer": "A1",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe textos sobre manifestaciones culturales de su región usando el presente simple con concordancia.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos expositivos sobre temas de mi entorno y mis intereses, con una ortografía y una puntuación aceptables.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Conjuga el presente simple con un sujeto plural ('thousands of people').",
+"contexto": "Every year in August, Cali hosts the Petronio Álvarez Festival, a celebration of the music of the Colombian Pacific. Thousands of people (45) ______ to listen to marimba bands and traditional singers. Visitors can also taste typical drinks and dishes from the region. My cousin Yeison plays the marimba in a group from Guapi. He (46) ______ practising with his group since he was ten, and he dreams of becoming a professional musician. Last year, his band (47) ______ second place in the competition, and the whole family celebrated with a big party.",
+"enunciado": "Which option correctly completes gap (45)?",
+"opciones": {
+"A": "comes",
+"B": "coming",
+"C": "come"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Tratar 'people' como singular",
+"porque": "Elegiste A porque probablemente pensaste que 'people' es singular, como 'gente' en español.",
+"pregunta_guia": "En inglés, ¿se dice 'people is' o 'people are'?",
+"aprende": "'People' es plural en inglés: people come, people are. Por eso no lleva -s."
+},
+"B": {
+"error": "Usar -ing sin auxiliar",
+"porque": "Elegiste B porque probablemente pensaste en 'miles de personas viniendo'.",
+"pregunta_guia": "Si pones 'coming', ¿la oración tiene un verbo conjugado?",
+"aprende": "Toda oración necesita verbo conjugado. Para algo que pasa cada año se usa presente simple: come."
+}
+},
+"explicacion": "Paso 1: 'Every year' indica un hecho habitual: presente simple. Paso 2: El sujeto es 'thousands of people', plural. Paso 3: Con sujeto plural el verbo va sin -s: 'come'. Paso 4: 'Thousands of people come to listen to marimba bands'. Respuesta: C.",
+"tip": "People, police y children son plurales en inglés aunque no terminen en -s.",
+"truco": "People = they → sin S.",
+"estrategia_icfes": "El ICFES usa sujetos que en español son singulares (la gente, la policía) para evaluar concordancia. Piensa en el pronombre inglés que los reemplaza.",
+"temas": [
+"Presente simple",
+"Sustantivos plurales irregulares",
+"Festival Petronio Álvarez"
+],
+"gemela": {
+"enunciado": "Complete: \"Many children in Buenaventura ______ traditional dances at school.\"",
+"opciones": {
+"A": "learns",
+"B": "learn",
+"C": "learning"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Children' es plural (they). Paso 2: Presente simple sin -s: 'learn'."
+}
+},
+{
+"id": "P11-ING-B046",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): narra experiencias y procesos que comenzaron en el pasado y continúan, usando el presente perfecto continuo.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos narrativos sobre experiencias personales, usando secuencias temporales y una ortografía aceptable.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el presente perfecto continuo a partir del marcador 'since'.",
+"contexto": "Every year in August, Cali hosts the Petronio Álvarez Festival, a celebration of the music of the Colombian Pacific. Thousands of people (45) ______ to listen to marimba bands and traditional singers. Visitors can also taste typical drinks and dishes from the region. My cousin Yeison plays the marimba in a group from Guapi. He (46) ______ practising with his group since he was ten, and he dreams of becoming a professional musician. Last year, his band (47) ______ second place in the competition, and the whole family celebrated with a big party.",
+"enunciado": "Which option correctly completes gap (46)?",
+"opciones": {
+"A": "has been",
+"B": "is",
+"C": "was"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Calco del español 'está practicando desde'",
+"porque": "Elegiste B porque probablemente tradujiste 'practica desde los diez años' con presente continuo.",
+"pregunta_guia": "Si la acción empezó en el pasado y sigue hoy, ¿qué tiempo exige 'since' en inglés?",
+"aprende": "Con 'since/for' y acciones que continúan se usa presente perfecto (continuo): has been practising, no 'is practising since'."
+},
+"C": {
+"error": "Usar pasado para una acción que continúa",
+"porque": "Elegiste C porque probablemente viste 'he was ten' y pensaste que toda la oración va en pasado.",
+"pregunta_guia": "¿Yeison dejó de practicar o todavía practica (sueña con ser profesional)?",
+"aprende": "'Since he was ten' marca el inicio; la acción principal sigue hasta hoy, así que va en presente perfecto continuo."
+}
+},
+"explicacion": "Paso 1: 'Since he was ten' indica el punto de inicio de una acción. Paso 2: El texto muestra que Yeison sigue tocando (plays, dreams). Paso 3: Una acción que empezó en el pasado y continúa se expresa con presente perfecto continuo: has/have been + -ing. Paso 4: 'He has been practising with his group since he was ten'. Respuesta: A.",
+"tip": "Since + momento → presente perfecto en la oración principal, aunque la cláusula con since esté en pasado.",
+"truco": "SINCE no se lleva bien con IS ni con WAS: pide HAS BEEN.",
+"estrategia_icfes": "En B1 el ICFES evalúa la interferencia del español ('desde hace', 'desde que'). Si ves since o for, descarta primero los tiempos simples.",
+"temas": [
+"Presente perfecto continuo",
+"Since y for",
+"Música del Pacífico"
+],
+"gemela": {
+"enunciado": "Complete: \"Laura ______ learning French since she started secondary school.\"",
+"opciones": {
+"A": "is",
+"B": "has been",
+"C": "was"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 'Since she started' marca el inicio de una acción que continúa. Paso 2: Presente perfecto continuo: 'has been learning'."
+}
+},
+{
+"id": "P11-ING-B047",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): narra hechos pasados en textos cortos distinguiendo el pasado simple del presente perfecto.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos narrativos sobre experiencias personales, usando secuencias temporales y una ortografía aceptable.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Elige el pasado simple irregular por el marcador de tiempo terminado 'Last year'.",
+"contexto": "Every year in August, Cali hosts the Petronio Álvarez Festival, a celebration of the music of the Colombian Pacific. Thousands of people (45) ______ to listen to marimba bands and traditional singers. Visitors can also taste typical drinks and dishes from the region. My cousin Yeison plays the marimba in a group from Guapi. He (46) ______ practising with his group since he was ten, and he dreams of becoming a professional musician. Last year, his band (47) ______ second place in the competition, and the whole family celebrated with a big party.",
+"enunciado": "Which option correctly completes gap (47)?",
+"opciones": {
+"A": "win",
+"B": "won",
+"C": "has won"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Ignorar el marcador de pasado",
+"porque": "Elegiste A porque probablemente no relacionaste 'Last year' con el pasado simple.",
+"pregunta_guia": "¿'Last year' habla de un tiempo terminado? ¿Qué tiempo tiene 'celebrated' en la misma oración?",
+"aprende": "Last year + pasado simple. 'Win' es irregular: win – won – won."
+},
+"C": {
+"error": "Presente perfecto con tiempo terminado",
+"porque": "Elegiste C porque probablemente acababas de usar el presente perfecto en el espacio anterior y lo repetiste.",
+"pregunta_guia": "¿Se puede usar 'has won' con una fecha terminada como 'last year'?",
+"aprende": "El presente perfecto no se usa con marcadores de tiempo terminado (last year, yesterday, in 2020). Con ellos va pasado simple."
+}
+},
+"explicacion": "Paso 1: 'Last year' indica un periodo terminado. Paso 2: Con tiempo terminado se usa pasado simple, no presente perfecto. Paso 3: 'Win' es irregular: el pasado es 'won'. Paso 4: La misma oración tiene 'celebrated' (pasado), lo que confirma: 'his band won second place'. Respuesta: B.",
+"tip": "Presente perfecto = sin fecha o hasta hoy; pasado simple = con fecha terminada.",
+"truco": "LAST, AGO, YESTERDAY, IN 2020 → pasado simple, nunca 'has'.",
+"estrategia_icfes": "Cuando dos espacios seguidos evalúan tiempos verbales, el ICFES busca que no te dejes llevar por el anterior. Analiza cada espacio con sus propios marcadores.",
+"temas": [
+"Pasado simple vs. presente perfecto",
+"Verbos irregulares",
+"Concursos culturales"
+],
+"gemela": {
+"enunciado": "Complete: \"In 2019, our school team ______ the regional robotics competition.\"",
+"opciones": {
+"A": "has won",
+"B": "wins",
+"C": "won"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 'In 2019' es tiempo terminado. Paso 2: Pasado simple de 'win': 'won'."
+}
+},
+{
+"id": "P11-ING-B048",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Satisfactorio",
+"mcer": "A2",
+"dba": "DBA Inglés 11° (MEN 2016): comprende y escribe avisos y mensajes institucionales sobre planes y eventos futuros.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos de diferentes tipos teniendo en cuenta a mi posible lector, utilizando elementos de cohesión.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Forma correctamente el futuro con 'be going to + verbo base'.",
+"contexto": "Dear students, Next Friday, our school (48) ______ organize a sports day at the city sports complex. All students must wear their uniform and bring a bottle of water and a cap. Remember that it is important to drink water (49) ______ you exercise, especially on hot and sunny days. The buses will leave at 7:00 a.m., so please don't be late. If it (50) ______ on Friday, the event will be moved to the following week. We hope to see you all there! The Physical Education Department",
+"enunciado": "Which option correctly completes gap (48)?",
+"opciones": {
+"A": "is going",
+"B": "will to",
+"C": "is going to"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Omitir 'to' en 'be going to'",
+"porque": "Elegiste A porque probablemente recordaste la estructura incompleta 'is going' + verbo.",
+"pregunta_guia": "¿Se puede decir 'is going organize' sin 'to'?",
+"aprende": "El futuro de planes es 'be going TO + verbo base': is going to organize."
+},
+"B": {
+"error": "Agregar 'to' después de 'will'",
+"porque": "Elegiste B porque probablemente mezclaste 'will' con 'going to'.",
+"pregunta_guia": "¿'Will' es un modal? ¿Los modales llevan 'to'?",
+"aprende": "'Will' es modal: will + verbo base (will organize), sin 'to'."
+}
+},
+"explicacion": "Paso 1: 'Next Friday' indica un plan futuro. Paso 2: Después del espacio viene 'organize' (verbo base). Paso 3: Las estructuras correctas serían 'will organize' o 'is going to organize'; entre las opciones solo aparece completa 'is going to'. Paso 4: 'Our school is going to organize a sports day'. Respuesta: C.",
+"tip": "Planes decididos: be going to + verbo. Decisiones o predicciones: will + verbo.",
+"truco": "GOING siempre viaja con TO; WILL viaja solo.",
+"estrategia_icfes": "En la Parte 4, cuando las opciones tienen varias palabras, el ICFES evalúa si la estructura está completa. Lee la opción dentro de la oración, palabra por palabra.",
+"temas": [
+"Futuro con going to",
+"Futuro con will",
+"Avisos institucionales"
+],
+"gemela": {
+"enunciado": "Complete: \"Tomorrow my parents ______ visit my school for the family meeting.\"",
+"opciones": {
+"A": "are going to",
+"B": "are going",
+"C": "will to"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 'Tomorrow' indica futuro. Paso 2: 'Are going to visit' es la estructura completa; B omite 'to' y C agrega 'to' a 'will'."
+}
+},
+{
+"id": "P11-ING-B049",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): produce y comprende textos con conectores de tiempo y contraste para relacionar ideas de manera coherente.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos de diferentes tipos teniendo en cuenta a mi posible lector, utilizando elementos de cohesión.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Distingue entre 'while' (seguido de cláusula) y 'during' (seguido de sustantivo).",
+"contexto": "Dear students, Next Friday, our school (48) ______ organize a sports day at the city sports complex. All students must wear their uniform and bring a bottle of water and a cap. Remember that it is important to drink water (49) ______ you exercise, especially on hot and sunny days. The buses will leave at 7:00 a.m., so please don't be late. If it (50) ______ on Friday, the event will be moved to the following week. We hope to see you all there! The Physical Education Department",
+"enunciado": "Which option correctly completes gap (49)?",
+"opciones": {
+"A": "while",
+"B": "during",
+"C": "despite"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "'During' seguido de una cláusula",
+"porque": "Elegiste B porque probablemente tradujiste 'durante' y no viste que después viene sujeto + verbo (you exercise).",
+"pregunta_guia": "¿Lo que viene después del espacio es un sustantivo (exercise) o una oración (you exercise)?",
+"aprende": "'During' + sustantivo (during the race); 'while' + sujeto + verbo (while you exercise)."
+},
+"C": {
+"error": "Conector de contraste sin sentido lógico",
+"porque": "Elegiste C porque probablemente no conocías el significado de 'despite' o lo confundiste con un conector de tiempo.",
+"pregunta_guia": "¿Tomar agua y hacer ejercicio son ideas opuestas?",
+"aprende": "'Despite' (a pesar de) expresa contraste y va con sustantivo o -ing. Aquí la relación es de simultaneidad."
+}
+},
+"explicacion": "Paso 1: Después del espacio viene 'you exercise': sujeto + verbo (una cláusula). Paso 2: La relación es de tiempo simultáneo: tomar agua mientras haces ejercicio. Paso 3: 'While' expresa simultaneidad y va seguido de cláusula. Paso 4: 'During' necesitaría un sustantivo y 'despite' expresa contraste. Respuesta: A.",
+"tip": "While/when/because + sujeto + verbo. During/despite/because of + sustantivo.",
+"truco": "WHILE = mientras (y viene una oración completa).",
+"estrategia_icfes": "Para conectores, el ICFES evalúa dos cosas: la relación lógica (tiempo, causa, contraste) y la estructura que sigue (cláusula o sustantivo). Revisa ambas.",
+"temas": [
+"Conectores de tiempo",
+"While vs. during",
+"Hidratación y actividad física"
+],
+"gemela": {
+"enunciado": "Complete: \"Please keep your phones off ______ the Saber 11 practice test.\"",
+"opciones": {
+"A": "while",
+"B": "despite",
+"C": "during"
+},
+"correcta": "C",
+"explicacion": "Paso 1: Después del espacio viene un sustantivo (the practice test). Paso 2: La relación es de tiempo → 'during'."
+}
+},
+{
+"id": "P11-ING-B050",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Lingüística",
+"componente": "Parte 4 · Texto con espacios (gramática)",
+"nivel": "Avanzado",
+"mcer": "B1",
+"dba": "DBA Inglés 11° (MEN 2016): expresa condiciones y consecuencias en mensajes y avisos usando oraciones condicionales.",
+"lineamiento": "EBC Lenguas Extranjeras: Inglés (Guía 22, MEN 2006), grados 10–11, Escritura: escribo textos de diferentes tipos teniendo en cuenta a mi posible lector, utilizando elementos de cohesión.",
+"afirmacion": "Reconoce y usa en contexto elementos gramaticales del inglés propios de textos sencillos.",
+"evidencia": "Usa el presente simple en la cláusula 'if' de un primer condicional referido al futuro.",
+"contexto": "Dear students, Next Friday, our school (48) ______ organize a sports day at the city sports complex. All students must wear their uniform and bring a bottle of water and a cap. Remember that it is important to drink water (49) ______ you exercise, especially on hot and sunny days. The buses will leave at 7:00 a.m., so please don't be late. If it (50) ______ on Friday, the event will be moved to the following week. We hope to see you all there! The Physical Education Department",
+"enunciado": "Which option correctly completes gap (50)?",
+"opciones": {
+"A": "will rain",
+"B": "rains",
+"C": "rained"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar 'will' en la cláusula if",
+"porque": "Elegiste A porque probablemente pensaste que, como el viernes es futuro, el verbo debía llevar 'will'.",
+"pregunta_guia": "En el primer condicional, ¿'will' va en la condición (if...) o en la consecuencia?",
+"aprende": "If + presente simple (if it rains), will + verbo (the event will be moved). Aunque hable del futuro, la condición va en presente."
+},
+"C": {
+"error": "Usar pasado en una condición futura posible",
+"porque": "Elegiste C porque probablemente recordaste el segundo condicional (if it rained) sin ver que la consecuencia usa 'will'.",
+"pregunta_guia": "Si la consecuencia es 'will be moved', ¿qué tipo de condicional es?",
+"aprende": "If + pasado va con 'would' (segundo condicional, situación hipotética). Con 'will' se usa presente simple."
+}
+},
+"explicacion": "Paso 1: La consecuencia es 'the event will be moved': hay 'will', así que es primer condicional. Paso 2: En el primer condicional, la cláusula 'if' va en presente simple. Paso 3: El sujeto 'it' (para el clima) exige -s: 'rains'. Paso 4: 'If it rains on Friday, the event will be moved to the following week'. Respuesta: B.",
+"tip": "Primer condicional: If + presente, will. Segundo: If + pasado, would.",
+"truco": "Mira la otra mitad: si tiene WILL, el IF va en presente.",
+"estrategia_icfes": "En oraciones condicionales, el ICFES deja la pista en la otra cláusula. Identifica 'will' o 'would' en la consecuencia y deduce la forma de la condición.",
+"temas": [
+"Primer condicional",
+"Clima",
+"Avisos institucionales"
+],
+"gemela": {
+"enunciado": "Complete: \"If you ______ early, we will catch the first MIO bus.\"",
+"opciones": {
+"A": "will arrive",
+"B": "arrived",
+"C": "arrive"
+},
+"correcta": "C",
+"explicacion": "Paso 1: La consecuencia tiene 'will catch': primer condicional. Paso 2: La condición va en presente simple: 'If you arrive early'."
+}
+}
+]

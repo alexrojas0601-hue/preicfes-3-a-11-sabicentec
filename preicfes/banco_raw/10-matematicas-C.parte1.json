@@ -1,0 +1,439 @@
+[
+ {
+  "id": "P10-MAT-C001",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Formulación y ejecución",
+  "componente": "Geometría",
+  "nivel": "Mínimo",
+  "dba": "DBA Matemáticas 10° (MEN 2016): utiliza el plano cartesiano y la fórmula de distancia entre dos puntos para resolver problemas de ubicación y medida.",
+  "lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos geométricos y el plano cartesiano para resolver problemas de distancias.",
+  "afirmacion": "Ejecuta un procedimiento geométrico en el plano cartesiano para calcular la distancia entre dos puntos.",
+  "evidencia": "Aplica d = √((x₂ − x₁)² + (y₂ − y₁)²) a dos puntos dados por sus coordenadas.",
+  "contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+  "enunciado": "¿Cuál es la distancia en línea recta entre el colegio y la estación?",
+  "opciones": {"A": "14 km", "B": "10 km", "C": "100 km", "D": "√200 km"},
+  "correcta": "B",
+  "errores": {
+   "A": {"error": "Sumar las diferencias en lugar de usar Pitágoras", "porque": "Elegiste 14 km porque probablemente sumaste 6 + 8, que es lo que recorrerías por calles en forma de L, no en línea recta.", "pregunta_guia": "Si te mueves 6 km al oriente y 8 km al norte, ¿el camino directo es más corto o igual que la suma?", "aprende": "La línea recta es la hipotenusa del triángulo rectángulo de catetos 6 y 8: √(6² + 8²)."},
+   "C": {"error": "Olvidar la raíz cuadrada", "porque": "Elegiste 100 km porque probablemente calculaste 6² + 8² = 100 y no sacaste la raíz.", "pregunta_guia": "En el teorema de Pitágoras, ¿100 es la hipotenusa o el cuadrado de la hipotenusa?", "aprende": "d² = 100, entonces d = √100 = 10 km."},
+   "D": {"error": "Sumar coordenadas en lugar de restarlas", "porque": "Elegiste √200 km porque probablemente hiciste (8 + 2)² + (9 + 1)² = 200.", "pregunta_guia": "¿La distancia depende de la suma de las coordenadas o de cuánto cambian de un punto a otro?", "aprende": "Se restan las coordenadas: Δx = 8 − 2 = 6 y Δy = 9 − 1 = 8."}
+  },
+  "explicacion": "Paso 1: Calcula el cambio horizontal: Δx = 8 − 2 = 6. Paso 2: Calcula el cambio vertical: Δy = 9 − 1 = 8. Paso 3: Aplica la fórmula de distancia: d = √(6² + 8²) = √(36 + 64) = √100. Paso 4: d = 10; como cada unidad es 1 km, la distancia es 10 km.",
+  "tip": "Dibuja el triángulo rectángulo entre los dos puntos: la distancia siempre es la hipotenusa.",
+  "truco": "Triángulo 6-8-10 (el doble del famoso 3-4-5): reconócelo y ahorras cálculos.",
+  "estrategia_icfes": "El ICFES presenta mapas o planos con coordenadas y pide distancias reales. Identifica los dos puntos, resta coordenadas, aplica Pitágoras y no olvides convertir con la escala. Los distractores típicos son la suma de catetos y el valor sin raíz.",
+  "temas": ["distancia entre dos puntos", "teorema de Pitágoras", "plano cartesiano"],
+  "gemela": {
+   "enunciado": "En otro mapa con la misma escala, una biblioteca está en (1, −2) y un parque en (6, 10). ¿Cuál es la distancia en línea recta entre ellos?",
+   "opciones": {"A": "17 km", "B": "13 km", "C": "169 km", "D": "12 km"},
+   "correcta": "B",
+   "explicacion": "Paso 1: Δx = 6 − 1 = 5 y Δy = 10 − (−2) = 12. Paso 2: d = √(25 + 144) = √169 = 13 km."
+  }
+ },
+ {
+  "id": "P10-MAT-C002",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y representación",
+  "componente": "Geometría",
+  "nivel": "Mínimo",
+  "dba": "DBA Matemáticas 10° (MEN 2016): representa y ubica puntos en el plano cartesiano y determina el punto medio de un segmento a partir de las coordenadas de sus extremos.",
+  "lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): identifico en forma visual, gráfica y algebraica algunas propiedades de los segmentos en el plano cartesiano.",
+  "afirmacion": "Representa en el plano cartesiano un punto que cumple una condición geométrica dada.",
+  "evidencia": "Identifica las coordenadas del punto medio de un segmento como el promedio de las coordenadas de sus extremos.",
+  "contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+  "enunciado": "Los estudiantes quieren ubicar un punto de encuentro exactamente en la mitad del segmento que une el colegio con la estación. ¿Qué coordenadas representan ese punto?",
+  "opciones": {"A": "(3, 4)", "B": "(6, 8)", "C": "(5, 5)", "D": "(10, 10)"},
+  "correcta": "C",
+  "errores": {
+   "A": {"error": "Tomar la mitad de las diferencias", "porque": "Elegiste (3, 4) porque probablemente dividiste entre 2 los cambios Δx = 6 y Δy = 8, sin sumarlos al punto de partida.", "pregunta_guia": "Si sales de C(2, 1) y avanzas la mitad del camino, ¿desde qué coordenadas empiezas a contar?", "aprende": "Mitad del cambio sumada al inicio: (2 + 3, 1 + 4) = (5, 5); o directamente el promedio de las coordenadas."},
+   "B": {"error": "Confundir punto medio con diferencias", "porque": "Elegiste (6, 8) porque probablemente restaste las coordenadas: 8 − 2 y 9 − 1.", "pregunta_guia": "¿El punto (6, 8) queda entre C y E, o está más cerca de E?", "aprende": "El punto medio no es la diferencia; es el promedio: ((x₁ + x₂)/2, (y₁ + y₂)/2)."},
+   "D": {"error": "Olvidar dividir entre 2", "porque": "Elegiste (10, 10) porque probablemente sumaste las coordenadas y no dividiste entre 2.", "pregunta_guia": "¿El punto (10, 10) está entre el colegio y la estación o fuera del segmento?", "aprende": "Sumar las coordenadas es solo la mitad del procedimiento: hay que dividir entre 2."}
+  },
+  "explicacion": "Paso 1: El punto medio se obtiene promediando las coordenadas. Paso 2: x = (2 + 8)/2 = 10/2 = 5. Paso 3: y = (1 + 9)/2 = 10/2 = 5. Paso 4: El punto de encuentro es (5, 5). Comprobación: su distancia a C y a E es √(9 + 16) = 5 km en ambos casos.",
+  "tip": "Comprueba siempre: el punto medio debe quedar a la misma distancia de los dos extremos.",
+  "truco": "Punto medio = «promedio de x, promedio de y».",
+  "estrategia_icfes": "El ICFES pregunta por ubicaciones equidistantes (un punto de encuentro, un repetidor, un centro). Reconoce que «en la mitad» exige el punto medio y verifica que la opción quede dentro del segmento.",
+  "temas": ["punto medio", "plano cartesiano", "promedio"],
+  "gemela": {
+   "enunciado": "¿Cuál es el punto medio del segmento que une A(−4, 6) y B(2, −2)?",
+   "opciones": {"A": "(−3, 4)", "B": "(−1, 2)", "C": "(−2, 4)", "D": "(3, −4)"},
+   "correcta": "B",
+   "explicacion": "Paso 1: x = (−4 + 2)/2 = −1. Paso 2: y = (6 + (−2))/2 = 2. Paso 3: punto medio (−1, 2)."
+  }
+ },
+ {
+  "id": "P10-MAT-C003",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Argumentación",
+  "componente": "Geometría",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Matemáticas 10° (MEN 2016): reconoce la pendiente de una recta como razón de cambio y la calcula a partir de dos puntos.",
+  "lineamiento": "Pensamiento variacional y pensamiento espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto la noción de pendiente y la relaciono con la razón de cambio.",
+  "afirmacion": "Valida o refuta procedimientos y conclusiones sobre la pendiente de una recta en el plano cartesiano.",
+  "evidencia": "Evalúa el cálculo de una pendiente identificando si se dividió el cambio vertical entre el cambio horizontal.",
+  "contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+  "enunciado": "Andrés afirma: «La pendiente del segmento que va del colegio a la estación es 3/4, porque la distancia horizontal es 6 y la vertical es 8». ¿Qué argumento evalúa correctamente la afirmación de Andrés?",
+  "opciones": {
+   "A": "Es correcta, porque 6/8 = 3/4 y la pendiente relaciona los dos desplazamientos.",
+   "B": "Es incorrecta, porque la pendiente es la distancia entre los puntos, es decir, 10.",
+   "C": "Es incorrecta, porque la pendiente debe ser negativa, ya que la x y la y aumentan.",
+   "D": "Es incorrecta, porque la pendiente es el cambio en y entre el cambio en x: 8/6 = 4/3."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {"error": "Invertir la razón de la pendiente", "porque": "Elegiste A porque probablemente aceptaste que basta con relacionar los dos desplazamientos sin importar el orden.", "pregunta_guia": "En m = Δy/Δx, ¿qué va en el numerador: lo que sube o lo que avanza?", "aprende": "El orden importa: m = Δy/Δx = 8/6 = 4/3, no 6/8."},
+   "B": {"error": "Confundir pendiente con distancia", "porque": "Elegiste B porque probablemente mezclaste dos conceptos: la longitud del segmento (10 km) y su inclinación.", "pregunta_guia": "¿Dos segmentos de 10 km pueden tener inclinaciones distintas?", "aprende": "La distancia mide longitud; la pendiente mide inclinación (cuánto sube por cada unidad que avanza)."},
+   "C": {"error": "Error en el signo de la pendiente", "porque": "Elegiste C porque probablemente recordaste que hay pendientes negativas, pero no cuándo ocurren.", "pregunta_guia": "Si al avanzar a la derecha la recta sube, ¿la pendiente es positiva o negativa?", "aprende": "Si x y y aumentan juntas, la pendiente es positiva; es negativa cuando una aumenta y la otra disminuye."}
+  },
+  "explicacion": "Paso 1: Recuerda la definición: m = (y₂ − y₁)/(x₂ − x₁). Paso 2: Δy = 9 − 1 = 8 y Δx = 8 − 2 = 6. Paso 3: m = 8/6 = 4/3. Paso 4: Andrés invirtió la razón (calculó Δx/Δy), por eso su afirmación es incorrecta y el argumento correcto es D.",
+  "tip": "Lee la pendiente como «sube tanto por cada unidad que avanza».",
+  "truco": "Pendiente = «subida sobre avance»: primero la y (arriba en la fracción), luego la x.",
+  "estrategia_icfes": "En Argumentación, el ICFES muestra el razonamiento de un personaje y pide evaluarlo. Primero resuelve tú el cálculo; luego busca la opción que diga si es correcto Y que dé la razón verdadera. Descarta opciones con conclusión correcta pero justificación falsa.",
+  "temas": ["pendiente de una recta", "razón de cambio", "validación de procedimientos"],
+  "gemela": {
+   "enunciado": "Camila dice que la pendiente de la recta que pasa por (−2, 5) y (4, −7) es −1/2. ¿Tiene razón?",
+   "opciones": {
+    "A": "Sí, porque 6/(−12) = −1/2.",
+    "B": "No, porque la pendiente es −12/6 = −2.",
+    "C": "No, porque la pendiente es 12/6 = 2.",
+    "D": "Sí, porque la recta baja y por eso la pendiente es −1/2."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: Δy = −7 − 5 = −12. Paso 2: Δx = 4 − (−2) = 6. Paso 3: m = −12/6 = −2. Camila invirtió la razón."
+  }
+ },
+ {
+  "id": "P10-MAT-C004",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y representación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Matemáticas 10° (MEN 2016): modela situaciones de variación constante mediante funciones lineales y las representa algebraicamente.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): modelo situaciones de variación con funciones polinómicas.",
+  "afirmacion": "Representa una situación de variación lineal mediante una expresión algebraica.",
+  "evidencia": "Identifica la ecuación de la recta que describe un proceso a partir de dos datos (valor inicial y valor en otro instante).",
+  "contexto": "El tanque de agua de una finca en Dagua (Valle del Cauca) se vacía a un ritmo constante para regar un cultivo. Al iniciar el riego (t = 0 horas) el tanque tiene 1.200 litros y 5 horas después tiene 800 litros.",
+  "enunciado": "¿Cuál de las siguientes expresiones representa el volumen V de agua (en litros) que hay en el tanque t horas después de iniciar el riego?",
+  "opciones": {"A": "V = 1.200 − 80t", "B": "V = 1.200 + 80t", "C": "V = 800 − 80t", "D": "V = 1.200 − 400t"},
+  "correcta": "A",
+  "errores": {
+   "B": {"error": "Signo de la pendiente", "porque": "Elegiste B porque probablemente calculaste bien el ritmo de 80 L/h, pero no tuviste en cuenta que el agua disminuye.", "pregunta_guia": "Con V = 1.200 + 80t, ¿cuánta agua habría a las 5 horas? ¿Coincide con 800 L?", "aprende": "Si la cantidad disminuye con el tiempo, la pendiente es negativa: −80 L/h."},
+   "C": {"error": "Confundir el valor inicial", "porque": "Elegiste C porque probablemente usaste los 800 litros como punto de partida.", "pregunta_guia": "¿Cuánta agua había cuando t = 0?", "aprende": "El término independiente es el valor cuando t = 0: 1.200 litros."},
+   "D": {"error": "No dividir entre el tiempo", "porque": "Elegiste D porque probablemente tomaste los 400 litros que salieron en total como si salieran en una sola hora.", "pregunta_guia": "Los 400 litros salieron en 5 horas; ¿cuántos salen en 1 hora?", "aprende": "Ritmo = 400 L ÷ 5 h = 80 L/h."}
+  },
+  "explicacion": "Paso 1: Valor inicial (t = 0): 1.200 L. Paso 2: Cambio total: 800 − 1.200 = −400 L en 5 horas. Paso 3: Razón de cambio: −400/5 = −80 L/h. Paso 4: Modelo lineal V = 1.200 − 80t. Comprobación: V(5) = 1.200 − 400 = 800 L.",
+  "tip": "Antes de elegir, reemplaza los datos del enunciado en la expresión: debe cumplirlos todos.",
+  "truco": "V = (inicio) + (ritmo) × t; el ritmo es negativo si algo se vacía o se gasta.",
+  "estrategia_icfes": "El ICFES pide elegir la expresión que modela una situación. La estrategia más segura es verificar: reemplaza t = 0 y t = 5 en cada opción y descarta las que no den 1.200 y 800.",
+  "temas": ["función lineal", "pendiente como razón de cambio", "modelación"],
+  "gemela": {
+   "enunciado": "La batería de un celular está al 100 % a las 0 horas y al 70 % a las 2 horas, descargándose a ritmo constante. ¿Qué expresión da el porcentaje B después de t horas?",
+   "opciones": {"A": "B = 100 − 30t", "B": "B = 70 − 15t", "C": "B = 100 − 15t", "D": "B = 100 + 15t"},
+   "correcta": "C",
+   "explicacion": "Paso 1: valor inicial 100. Paso 2: ritmo = (70 − 100)/2 = −15 % por hora. Paso 3: B = 100 − 15t; B(2) = 70."
+  }
+ },
+ {
+  "id": "P10-MAT-C005",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y representación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Mínimo",
+  "dba": "DBA Matemáticas 10° (MEN 2016): interpreta los puntos de corte de la gráfica de una función lineal con los ejes en el contexto de una situación.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto el significado de los elementos de una función en contextos de variación.",
+  "afirmacion": "Interpreta el significado de un punto particular de una función lineal en el contexto de la situación.",
+  "evidencia": "Relaciona el instante en que el tanque queda vacío con el corte de la recta con el eje del tiempo (V = 0).",
+  "contexto": "El tanque de agua de una finca en Dagua (Valle del Cauca) se vacía a un ritmo constante para regar un cultivo. Al iniciar el riego (t = 0 horas) el tanque tiene 1.200 litros y 5 horas después tiene 800 litros.",
+  "enunciado": "Si el riego continúa al mismo ritmo, ¿cuántas horas después de iniciado el riego quedará vacío el tanque?",
+  "opciones": {"A": "10 horas", "B": "3 horas", "C": "15 horas", "D": "20 horas"},
+  "correcta": "C",
+  "errores": {
+   "A": {"error": "Usar la cantidad restante como si fuera la inicial", "porque": "Elegiste 10 horas porque probablemente calculaste 800 ÷ 80 = 10, que es lo que falta a partir de la hora 5, y no lo contaste desde el inicio.", "pregunta_guia": "Las 10 horas que calculaste, ¿se cuentan desde t = 0 o desde t = 5?", "aprende": "Desde el inicio: 1.200 ÷ 80 = 15 horas (5 que ya pasaron + 10 que faltan)."},
+   "B": {"error": "Usar el total vaciado en 5 horas como ritmo por hora", "porque": "Elegiste 3 horas porque probablemente dividiste 1.200 entre 400, como si salieran 400 litros cada hora.", "pregunta_guia": "¿Cuántos litros salen en una sola hora?", "aprende": "Salen 400 L en 5 h, es decir, 80 L por hora."},
+   "D": {"error": "Sumar dos veces el tiempo transcurrido", "porque": "Elegiste 20 horas porque probablemente calculaste bien las 15 horas desde el inicio y luego les sumaste otra vez las 5 horas ya pasadas.", "pregunta_guia": "¿Las 15 horas ya incluyen las primeras 5 horas de riego?", "aprende": "Resolviendo 1.200 − 80t = 0 se obtiene el tiempo total desde el inicio: t = 15."}
+  },
+  "explicacion": "Paso 1: El modelo es V = 1.200 − 80t. Paso 2: El tanque está vacío cuando V = 0. Paso 3: 1.200 − 80t = 0 ⇒ 80t = 1.200 ⇒ t = 15. Paso 4: En la gráfica, es el punto donde la recta corta el eje t: (15, 0).",
+  "tip": "«Vacío», «agotado» o «llega a cero» significan que debes igualar la función a 0.",
+  "truco": "Tiempo para agotar = cantidad inicial ÷ ritmo de gasto.",
+  "estrategia_icfes": "El ICFES pregunta qué significa un corte con los ejes. Traduce la condición verbal (vacío) a una ecuación (V = 0) y revisa desde qué momento se mide el tiempo.",
+  "temas": ["cortes con los ejes", "función lineal", "ecuaciones lineales"],
+  "gemela": {
+   "enunciado": "Con el modelo B = 100 − 15t para la batería de un celular (t en horas), ¿después de cuántas horas la batería llega al 25 %?",
+   "opciones": {"A": "5 horas", "B": "6,7 horas", "C": "1,7 horas", "D": "4 horas"},
+   "correcta": "A",
+   "explicacion": "Paso 1: 100 − 15t = 25. Paso 2: 15t = 75. Paso 3: t = 5 horas."
+  }
+ },
+ {
+  "id": "P10-MAT-C006",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Formulación y ejecución",
+  "componente": "Geometría",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Matemáticas 10° (MEN 2016): identifica rectas paralelas y perpendiculares a partir de sus pendientes y determina la ecuación de una recta con una condición dada.",
+  "lineamiento": "Pensamiento espacial y sistemas geométricos; pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas en los que se usen las propiedades de rectas paralelas y perpendiculares.",
+  "afirmacion": "Plantea y ejecuta un procedimiento para hallar la ecuación de una recta perpendicular a otra que pasa por un punto dado.",
+  "evidencia": "Usa la condición m₁ · m₂ = −1 y el punto dado para obtener la ecuación pedida.",
+  "contexto": "En el plano de un barrio de Cali, una avenida sigue la recta y = 2x + 3. La alcaldía quiere construir una ciclorruta perpendicular a la avenida que pase por el parque, ubicado en el punto P(4, 1).",
+  "enunciado": "¿Cuál es la ecuación de la recta que debe seguir la ciclorruta?",
+  "opciones": {"A": "y = 2x − 7", "B": "y = −2x + 9", "C": "y = −(1/2)x + 3", "D": "y = (1/2)x − 1"},
+  "correcta": "C",
+  "errores": {
+   "A": {"error": "Confundir perpendicular con paralela", "porque": "Elegiste A porque probablemente usaste la misma pendiente 2 de la avenida; esa recta pasa por P pero es paralela.", "pregunta_guia": "Si dos rectas tienen la misma pendiente, ¿se cortan formando ángulo recto o nunca se cortan?", "aprende": "Paralelas: igual pendiente. Perpendiculares: pendientes recíprocas y de signo contrario."},
+   "B": {"error": "Cambiar solo el signo de la pendiente", "porque": "Elegiste B porque probablemente cambiaste el signo de 2 pero olvidaste invertir el número.", "pregunta_guia": "¿Cuánto da 2 × (−2)? ¿Es igual a −1?", "aprende": "La pendiente perpendicular a 2 es −1/2, porque 2 × (−1/2) = −1."},
+   "D": {"error": "Invertir sin cambiar el signo", "porque": "Elegiste D porque probablemente invertiste la pendiente (1/2) pero olvidaste el signo negativo.", "pregunta_guia": "¿Cuánto da 2 × (1/2)? ¿Cumple la condición de perpendicularidad?", "aprende": "2 × (1/2) = 1, no −1: falta el signo negativo."}
+  },
+  "explicacion": "Paso 1: La pendiente de la avenida es m₁ = 2. Paso 2: Para ser perpendicular, m₂ = −1/m₁ = −1/2. Paso 3: Usa el punto P(4, 1): y − 1 = −(1/2)(x − 4). Paso 4: y = −(1/2)x + 2 + 1 = −(1/2)x + 3. Comprobación: con x = 4, y = −2 + 3 = 1 ✓ y 2 × (−1/2) = −1 ✓.",
+  "tip": "Las cuatro opciones pasan por P: lo que decide es la pendiente. ¡Revisa la condición m₁·m₂ = −1!",
+  "truco": "Perpendicular: «voltea y cambia el signo» (2 → −1/2).",
+  "estrategia_icfes": "El ICFES diseña distractores que cumplen una sola de las dos condiciones (pasar por el punto o tener la pendiente correcta). Verifica ambas condiciones en la opción elegida.",
+  "temas": ["rectas perpendiculares", "ecuación punto-pendiente", "pendiente"],
+  "gemela": {
+   "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = −3x + 1 que pasa por (3, 4)?",
+   "opciones": {"A": "y = −3x + 13", "B": "y = (1/3)x + 3", "C": "y = 3x − 5", "D": "y = −(1/3)x + 5"},
+   "correcta": "B",
+   "explicacion": "Paso 1: m₂ = −1/(−3) = 1/3. Paso 2: y − 4 = (1/3)(x − 3) ⇒ y = (1/3)x + 3. Paso 3: comprobación: (1/3)(3) + 3 = 4."
+  }
+ },
+ {
+  "id": "P10-MAT-C007",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Argumentación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Avanzado",
+  "dba": "DBA Matemáticas 10° (MEN 2016): analiza la posición relativa de dos rectas (secantes, paralelas o coincidentes) a partir de sus ecuaciones y la relaciona con las soluciones de un sistema lineal.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico resultados obtenidos mediante procesos de aproximación y uso de propiedades algebraicas.",
+  "afirmacion": "Justifica la posición relativa de dos rectas a partir de sus pendientes y sus interceptos.",
+  "evidencia": "Despeja y en ambas ecuaciones, compara pendientes e interceptos y concluye si el sistema tiene solución.",
+  "contexto": "En un proyecto STEAM, dos estudiantes programan en un software de geometría las trayectorias de dos robots seguidores de línea. La trayectoria del robot 1 es 3x − 2y = 6 y la del robot 2 es 6x − 4y = 5.",
+  "enunciado": "Sofía afirma que los dos robots se van a encontrar en algún punto porque las ecuaciones tienen coeficientes distintos. ¿Cuál de las siguientes afirmaciones evalúa correctamente lo que dice Sofía?",
+  "opciones": {
+   "A": "Sofía se equivoca: ambas rectas tienen pendiente 3/2 pero cortan el eje y en puntos distintos, así que son paralelas y nunca se cruzan.",
+   "B": "Sofía se equivoca: la segunda ecuación es el doble de la primera, así que las trayectorias son la misma recta y los robots siempre coinciden.",
+   "C": "Sofía tiene razón: como los coeficientes son diferentes, las rectas tienen pendientes distintas y se cortan en un único punto.",
+   "D": "Sofía tiene razón: las rectas son perpendiculares, porque el producto de los coeficientes de x es 18, y por eso se cortan."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {"error": "Multiplicar solo una parte de la ecuación", "porque": "Elegiste B porque probablemente viste que 6x − 4y es el doble de 3x − 2y y no revisaste el término independiente.", "pregunta_guia": "Si duplicas toda la ecuación 3x − 2y = 6, ¿el lado derecho queda 5 o 12?", "aprende": "Para que sean la misma recta, toda la ecuación debe ser múltiplo: 6x − 4y = 12. Como da 5, son rectas distintas."},
+   "C": {"error": "Creer que coeficientes distintos implican pendientes distintas", "porque": "Elegiste C porque probablemente comparaste los números de las ecuaciones sin despejar y.", "pregunta_guia": "Si despejas y en ambas ecuaciones, ¿qué número acompaña a x en cada una?", "aprende": "La pendiente es −a/b: 3/2 en la primera y 6/4 = 3/2 en la segunda. Son iguales."},
+   "D": {"error": "Usar una condición falsa de perpendicularidad", "porque": "Elegiste D porque probablemente inventaste una regla con los coeficientes en lugar de usar las pendientes.", "pregunta_guia": "¿Qué producto debe dar −1 para que dos rectas sean perpendiculares?", "aprende": "Perpendiculares: m₁ · m₂ = −1. Aquí (3/2)(3/2) = 9/4, así que no lo son."}
+  },
+  "explicacion": "Paso 1: Robot 1: 3x − 2y = 6 ⇒ y = (3/2)x − 3. Paso 2: Robot 2: 6x − 4y = 5 ⇒ y = (3/2)x − 5/4. Paso 3: Igual pendiente (3/2) e interceptos distintos (−3 y −5/4). Paso 4: Son rectas paralelas: el sistema no tiene solución y los robots nunca se encuentran. Sofía se equivoca.",
+  "tip": "Para comparar rectas, llévalas siempre a la forma y = mx + b.",
+  "truco": "Igual m y distinta b → paralelas; igual m e igual b → la misma recta; distinta m → se cortan.",
+  "estrategia_icfes": "El ICFES pide justificar si un sistema tiene solución. No te dejes llevar por la apariencia de los coeficientes: despeja, compara pendientes e interceptos y elige la opción cuya razón sea matemáticamente cierta.",
+  "temas": ["rectas paralelas", "sistemas de ecuaciones lineales", "forma pendiente-intercepto"],
+  "gemela": {
+   "enunciado": "Las rectas 2x + y = 4 y 4x + 2y = 8, ¿cómo son entre sí?",
+   "opciones": {
+    "A": "Paralelas, porque tienen igual pendiente y distinto intercepto.",
+    "B": "Secantes, porque los coeficientes son distintos.",
+    "C": "Perpendiculares, porque una es el doble de la otra.",
+    "D": "Coincidentes, porque la segunda ecuación es exactamente el doble de la primera."
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: y = −2x + 4 en ambas (la segunda: 2y = −4x + 8 ⇒ y = −2x + 4). Paso 2: igual pendiente e igual intercepto: es la misma recta, con infinitas soluciones."
+  }
+ },
+ {
+  "id": "P10-MAT-C008",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Formulación y ejecución",
+  "componente": "Geometría",
+  "nivel": "Avanzado",
+  "dba": "DBA Matemáticas 10° (MEN 2016): resuelve problemas de distancias en el plano cartesiano usando las ecuaciones de la recta.",
+  "lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas en los que se usen las propiedades geométricas de figuras en el plano cartesiano de manera algebraica.",
+  "afirmacion": "Ejecuta un procedimiento para calcular la distancia mínima de un punto a una recta.",
+  "evidencia": "Aplica d = |Ax₀ + By₀ + C| / √(A² + B²) con la ecuación general de la recta.",
+  "contexto": "En un plano de la zona rural de Jamundí, en el que cada unidad equivale a 1 km, un tramo recto de carretera sigue la recta 3x + 4y − 12 = 0. Una finca está ubicada en el punto F(4, 5) y su dueña quiere construir el camino más corto posible desde la finca hasta la carretera.",
+  "enunciado": "¿Cuál es la longitud del camino más corto entre la finca y la carretera?",
+  "opciones": {"A": "6,4 km", "B": "4 km", "C": "20 km", "D": "2,86 km"},
+  "correcta": "B",
+  "errores": {
+   "A": {"error": "Omitir el término independiente", "porque": "Elegiste 6,4 km porque probablemente calculaste |3·4 + 4·5| = 32 y olvidaste el −12 de la ecuación.", "pregunta_guia": "En la fórmula |Ax₀ + By₀ + C|, ¿cuál es el valor de C en esta recta?", "aprende": "Se reemplaza en toda la expresión: |12 + 20 − 12| = 20."},
+   "C": {"error": "No dividir entre la norma", "porque": "Elegiste 20 km porque probablemente calculaste bien el numerador, pero no dividiste entre √(A² + B²).", "pregunta_guia": "¿Qué parte de la fórmula convierte el valor 20 en una distancia real?", "aprende": "d = 20 / √(9 + 16) = 20/5 = 4 km."},
+   "D": {"error": "Dividir entre la suma de coeficientes", "porque": "Elegiste 2,86 km porque probablemente dividiste 20 entre 3 + 4 = 7 en lugar de √(3² + 4²).", "pregunta_guia": "¿El denominador es A + B o √(A² + B²)?", "aprende": "El denominador sale de Pitágoras: √(3² + 4²) = 5."}
+  },
+  "explicacion": "Paso 1: El camino más corto es perpendicular a la carretera. Paso 2: Identifica A = 3, B = 4, C = −12 y el punto (4, 5). Paso 3: Numerador: |3·4 + 4·5 − 12| = |12 + 20 − 12| = 20. Paso 4: Denominador: √(3² + 4²) = 5. Paso 5: d = 20/5 = 4 km.",
+  "tip": "«El camino más corto hasta una recta» siempre es el segmento perpendicular.",
+  "truco": "Con 3 y 4 como coeficientes, el denominador es 5 (triángulo 3-4-5).",
+  "estrategia_icfes": "El ICFES contextualiza la distancia punto-recta con caminos, tuberías o cables. Reconoce la palabra «más corto», escribe la recta en forma general Ax + By + C = 0 y reemplaza con cuidado los signos.",
+  "temas": ["distancia de un punto a una recta", "ecuación general de la recta", "perpendicularidad"],
+  "gemela": {
+   "enunciado": "¿Cuál es la distancia del punto (1, 2) a la recta 5x − 12y + 6 = 0?",
+   "opciones": {"A": "13", "B": "25/13", "C": "1", "D": "13/7"},
+   "correcta": "C",
+   "explicacion": "Paso 1: |5·1 − 12·2 + 6| = |5 − 24 + 6| = 13. Paso 2: √(25 + 144) = 13. Paso 3: d = 13/13 = 1."
+  }
+ },
+ {
+  "id": "P10-MAT-C009",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y representación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Mínimo",
+  "sabic": "Matemática financiera",
+  "dba": "DBA Matemáticas 10° (MEN 2016): interpreta la pendiente y el intercepto de una función lineal en contextos de costos y tarifas.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto los parámetros de funciones lineales en situaciones de la vida cotidiana.",
+  "afirmacion": "Interpreta el significado de los parámetros de una función lineal en un contexto de costos.",
+  "evidencia": "Relaciona la pendiente con el costo por unidad adicional y el intercepto con el cargo fijo.",
+  "contexto": "Un servicio de bicicletas compartidas en Cali cobra según los minutos de uso. La tabla muestra algunos valores, que corresponden a la expresión C = 500m + 2.000, donde C es el costo en pesos y m los minutos de uso.",
+  "tabla": {"titulo": "Costo del servicio de bicicletas", "cols": ["Minutos de uso (m)", "Costo C (pesos)"], "filas": [["0", "2.000"], ["10", "7.000"], ["20", "12.000"], ["30", "17.000"]]},
+  "enunciado": "En la expresión C = 500m + 2.000, ¿qué representa el número 500?",
+  "opciones": {
+   "A": "El valor fijo que se paga por desbloquear la bicicleta.",
+   "B": "El costo total de un recorrido de 10 minutos.",
+   "C": "El número máximo de minutos que se puede usar la bicicleta.",
+   "D": "El aumento en el costo por cada minuto adicional de uso."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {"error": "Confundir pendiente con intercepto", "porque": "Elegiste A porque probablemente confundiste el número que multiplica a m con el valor que se paga aunque m sea 0.", "pregunta_guia": "Si usas la bicicleta 0 minutos, ¿cuánto pagas según la tabla?", "aprende": "El cargo fijo es el intercepto (2.000); el 500 es lo que aumenta por minuto."},
+   "B": {"error": "Asociar la pendiente con un valor de la tabla", "porque": "Elegiste B porque probablemente pensaste que 500 era el costo de un tramo de la tabla.", "pregunta_guia": "Según la tabla, ¿cuánto cuesta un recorrido de 10 minutos?", "aprende": "10 minutos cuestan 7.000; la diferencia entre filas (5.000 por 10 minutos) da 500 por minuto."},
+   "C": {"error": "Interpretar un parámetro como límite", "porque": "Elegiste C porque probablemente creíste que el número indicaba una restricción del servicio.", "pregunta_guia": "¿La tabla muestra algún límite de tiempo, o muestra cómo crece el costo?", "aprende": "El coeficiente de m es una razón de cambio: pesos por minuto."}
+  },
+  "explicacion": "Paso 1: En C = 500m + 2.000, 500 multiplica a los minutos. Paso 2: De la tabla: de 0 a 10 minutos el costo sube 7.000 − 2.000 = 5.000. Paso 3: 5.000 ÷ 10 = 500 pesos por minuto. Paso 4: El 500 es la pendiente: el aumento del costo por cada minuto adicional.",
+  "tip": "En toda tarifa lineal: número que acompaña a la variable = costo por unidad; número solo = cargo fijo.",
+  "truco": "«Pendiente = por cada; intercepto = desde el inicio».",
+  "estrategia_icfes": "El ICFES pregunta qué significa un número de la fórmula en el contexto. Calcula la diferencia entre dos filas de la tabla y divídela entre el cambio de la variable: ese es el significado de la pendiente.",
+  "temas": ["pendiente e intercepto", "función lineal", "tarifas"],
+  "gemela": {
+   "enunciado": "Un plan de datos cobra C = 1.200g + 20.000, donde g son las gigas adicionales consumidas. ¿Qué representa 20.000?",
+   "opciones": {"A": "El costo de cada giga adicional.", "B": "El cargo fijo que se paga aunque no se consuman gigas adicionales.", "C": "El número de gigas incluidas en el plan.", "D": "El costo total de 20 gigas."},
+   "correcta": "B",
+   "explicacion": "Paso 1: Si g = 0, C = 20.000. Paso 2: 20.000 es el intercepto: el cargo fijo del plan."
+  }
+ },
+ {
+  "id": "P10-MAT-C010",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Argumentación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Satisfactorio",
+  "sabic": "Matemática financiera",
+  "dba": "DBA Matemáticas 10° (MEN 2016): compara funciones lineales y usa desigualdades para tomar decisiones en contextos de consumo.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos algebraicos para justificar la elección entre alternativas.",
+  "afirmacion": "Justifica decisiones de consumo comparando dos modelos lineales de costo.",
+  "evidencia": "Plantea y resuelve una desigualdad entre dos funciones lineales para refutar una generalización.",
+  "contexto": "Un servicio de bicicletas compartidas en Cali cobra según los minutos de uso. La tabla muestra algunos valores, que corresponden a la expresión C = 500m + 2.000, donde C es el costo en pesos y m los minutos de uso.",
+  "tabla": {"titulo": "Costo del servicio de bicicletas", "cols": ["Minutos de uso (m)", "Costo C (pesos)"], "filas": [["0", "2.000"], ["10", "7.000"], ["20", "12.000"], ["30", "17.000"]]},
+  "enunciado": "Otra empresa cobra C = 300m + 4.000. Pedro afirma: «La segunda empresa siempre es más cara, porque su cargo fijo es el doble». ¿Qué argumento evalúa correctamente la afirmación de Pedro?",
+  "opciones": {
+   "A": "Es falsa: para recorridos de más de 10 minutos la segunda empresa es más barata, porque cobra menos por minuto.",
+   "B": "Es verdadera: como 4.000 es mayor que 2.000, la segunda empresa cobra más en cualquier recorrido.",
+   "C": "Es falsa: la segunda empresa es más barata solo para recorridos de menos de 10 minutos.",
+   "D": "Es falsa: la segunda empresa solo es más barata en recorridos de más de 20 minutos."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {"error": "Comparar solo el cargo fijo", "porque": "Elegiste B porque probablemente miraste solo el número independiente y no cómo crece cada costo con los minutos.", "pregunta_guia": "Para un recorrido de 30 minutos, ¿cuánto cobra cada empresa?", "aprende": "A 30 minutos: 17.000 frente a 13.000. La pendiente menor hace que la segunda sea más barata en recorridos largos."},
+   "C": {"error": "Invertir el sentido de la desigualdad", "porque": "Elegiste C porque probablemente hallaste bien el punto de corte (10 min) pero te confundiste de lado.", "pregunta_guia": "Para 5 minutos, ¿cuánto cobra cada empresa? ¿Cuál es más barata?", "aprende": "Con 5 minutos: 4.500 frente a 5.500, la primera es más barata. La segunda gana después de 10 minutos."},
+   "D": {"error": "Plantear mal la ecuación del punto de corte", "porque": "Elegiste D porque probablemente dividiste 4.000 entre 200 y no tuviste en cuenta el cargo fijo de 2.000 de la primera empresa.", "pregunta_guia": "Al igualar 500m + 2.000 = 300m + 4.000, ¿qué número queda a la derecha después de restar 2.000?", "aprende": "200m = 2.000 ⇒ m = 10 minutos."}
+  },
+  "explicacion": "Paso 1: Plantea cuándo la segunda es más barata: 300m + 4.000 < 500m + 2.000. Paso 2: Resta 300m y 2.000: 2.000 < 200m. Paso 3: m > 10. Paso 4: Comprueba con 30 min: primera 17.000, segunda 13.000. Paso 5: La afirmación de Pedro es falsa; la opción A da la razón correcta.",
+  "tip": "Un cargo fijo alto puede compensarse con un costo por unidad bajo: compara siempre ambas cosas.",
+  "truco": "Iguala los costos para hallar el «punto de empate»; después prueba un valor a cada lado.",
+  "estrategia_icfes": "El ICFES usa afirmaciones con «siempre» o «nunca» para evaluar argumentación. Basta encontrar un caso que contradiga la afirmación; luego elige la opción con el intervalo correcto.",
+  "temas": ["desigualdades lineales", "comparación de funciones", "decisiones de consumo"],
+  "gemela": {
+   "enunciado": "Plan 1: C = 700m + 1.500. Plan 2: C = 500m + 5.500. ¿Para cuántos minutos el plan 2 es más barato?",
+   "opciones": {"A": "Para menos de 20 minutos.", "B": "Para más de 8 minutos.", "C": "Para más de 20 minutos.", "D": "Para más de 27,5 minutos."},
+   "correcta": "C",
+   "explicacion": "Paso 1: 500m + 5.500 < 700m + 1.500. Paso 2: 4.000 < 200m. Paso 3: m > 20 minutos."
+  }
+ },
+ {
+  "id": "P10-MAT-C011",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Interpretación y representación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Matemáticas 10° (MEN 2016): interpreta gráficas de funciones lineales que describen movimientos y determina el punto de intersección de dos de ellas.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto la información presentada en gráficas cartesianas de funciones.",
+  "afirmacion": "Interpreta la intersección de dos gráficas lineales en el contexto de un movimiento.",
+  "evidencia": "Lee en la gráfica el instante en que las dos funciones toman el mismo valor.",
+  "contexto": "Durante la ciclovía dominical de Cali, Mariana (A) y su tío Jaime (B) recorren la misma vía en el mismo sentido a velocidad constante. Jaime salió 4 km adelante. La gráfica muestra la distancia de cada uno al punto de partida de Mariana.",
+  "grafica": {"tipo": "lineas", "titulo": "Distancia recorrida en la ciclovía", "etiquetas": ["0 min", "10 min", "20 min", "30 min", "40 min"], "series": [{"nombre": "Mariana (A)", "datos": [0, 3, 6, 9, 12]}, {"nombre": "Jaime (B)", "datos": [4, 6, 8, 10, 12]}], "ejeY": "km"},
+  "enunciado": "Según la gráfica, ¿en qué momento Mariana alcanza a Jaime?",
+  "opciones": {"A": "A los 12 minutos.", "B": "A los 20 minutos.", "C": "A los 40 minutos.", "D": "A los 4 minutos."},
+  "correcta": "C",
+  "errores": {
+   "A": {"error": "Confundir el eje vertical con el horizontal", "porque": "Elegiste 12 minutos porque probablemente leíste el valor de la distancia (12 km) del punto de encuentro como si fuera el tiempo.", "pregunta_guia": "En la gráfica, ¿el tiempo se lee en el eje horizontal o en el vertical?", "aprende": "El encuentro es el punto (40 min, 12 km): el tiempo es 40 min y la distancia 12 km."},
+   "B": {"error": "Elegir un punto donde las rectas no se cortan", "porque": "Elegiste 20 minutos porque probablemente viste que a mitad del recorrido las líneas se acercan.", "pregunta_guia": "A los 20 minutos, ¿Mariana está en 6 km y Jaime en 8 km, o en el mismo lugar?", "aprende": "Alcanzar significa estar a la misma distancia: las dos series deben tener el mismo valor."},
+   "D": {"error": "Usar la ventaja inicial como tiempo", "porque": "Elegiste 4 minutos porque probablemente tomaste los 4 km de ventaja de Jaime como si fueran minutos.", "pregunta_guia": "¿Las unidades de esa ventaja son kilómetros o minutos?", "aprende": "La ventaja es 4 km; Mariana la recupera a razón de 0,1 km por minuto (0,3 − 0,2), lo que tarda 40 minutos."}
+  },
+  "explicacion": "Paso 1: Busca el punto en que ambas series tienen el mismo valor. Paso 2: A los 40 minutos, Mariana está en 12 km y Jaime también en 12 km. Paso 3: Comprobación algebraica: Mariana d = 0,3t, Jaime d = 4 + 0,2t; 0,3t = 4 + 0,2t ⇒ 0,1t = 4 ⇒ t = 40 min.",
+  "tip": "«Alcanzar», «igualar» o «encontrarse» en una gráfica = el punto donde se cruzan las líneas.",
+  "truco": "Tiempo de alcance = ventaja ÷ diferencia de velocidades.",
+  "estrategia_icfes": "En gráficas con dos series, el ICFES pregunta por cruces, máximos o diferencias. Ubica qué eje responde la pregunta (aquí, el tiempo) antes de leer el valor.",
+  "temas": ["intersección de rectas", "lectura de gráficas", "movimiento uniforme"],
+  "gemela": {
+   "enunciado": "Un ciclista sigue d = 5t y otro, que lleva 6 km de ventaja, sigue d = 6 + 2t (d en km, t en horas). ¿Cuándo se encuentran?",
+   "opciones": {"A": "A las 2 horas, a 10 km del inicio.", "B": "A las 6 horas, a 30 km del inicio.", "C": "A las 3 horas, a 15 km del inicio.", "D": "A 1,2 horas, a 6 km del inicio."},
+   "correcta": "A",
+   "explicacion": "Paso 1: 5t = 6 + 2t ⇒ 3t = 6 ⇒ t = 2 h. Paso 2: d = 5 × 2 = 10 km."
+  }
+ },
+ {
+  "id": "P10-MAT-C012",
+  "area": "matematicas",
+  "grado": 10,
+  "prueba": "Saber 11",
+  "competencia": "Argumentación",
+  "componente": "Álgebra y cálculo",
+  "nivel": "Satisfactorio",
+  "dba": "DBA Matemáticas 10° (MEN 2016): relaciona la pendiente de una recta con la rapidez de cambio de una magnitud respecto al tiempo.",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): analizo las relaciones y propiedades entre las expresiones algebraicas y las gráficas de funciones.",
+  "afirmacion": "Valida o refuta conclusiones sobre la rapidez de cambio a partir de la gráfica de funciones lineales.",
+  "evidencia": "Distingue entre el valor inicial (intercepto) y la rapidez (pendiente) al comparar dos rectas.",
+  "contexto": "Durante la ciclovía dominical de Cali, Mariana (A) y su tío Jaime (B) recorren la misma vía en el mismo sentido a velocidad constante. Jaime salió 4 km adelante. La gráfica muestra la distancia de cada uno al punto de partida de Mariana.",
+  "grafica": {"tipo": "lineas", "titulo": "Distancia recorrida en la ciclovía", "etiquetas": ["0 min", "10 min", "20 min", "30 min", "40 min"], "series": [{"nombre": "Mariana (A)", "datos": [0, 3, 6, 9, 12]}, {"nombre": "Jaime (B)", "datos": [4, 6, 8, 10, 12]}], "ejeY": "km"},
+  "enunciado": "Camila observa la gráfica y afirma: «Jaime es más rápido que Mariana, porque su línea siempre está por encima o igual». ¿Cuál de las siguientes afirmaciones sobre lo que dice Camila es correcta?",
+  "opciones": {
+   "A": "Tiene razón, porque a los 30 minutos Jaime está en 10 km y Mariana solo en 9 km.",
+   "B": "No tiene razón: estar más arriba indica la ventaja inicial; la rapidez es la pendiente, y Mariana avanza 0,3 km/min frente a 0,2 km/min de Jaime.",
+   "C": "Tiene razón, porque Jaime empezó en 4 km y por eso su velocidad es 4 km/min.",
+   "D": "No tiene razón, porque los dos van igual de rápido: ambos llegan a 12 km a los 40 minutos."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {"error": "Confundir posición con rapidez", "porque": "Elegiste A porque probablemente comparaste dónde está cada uno en un instante, no cuánto avanza cada uno por minuto.", "pregunta_guia": "Entre los 0 y los 10 minutos, ¿cuántos kilómetros avanzó cada uno?", "aprende": "Mariana avanza 3 km cada 10 min; Jaime, 2 km. Estar adelante no es ir más rápido."},
+   "C": {"error": "Tomar el intercepto como velocidad", "porque": "Elegiste C porque probablemente creíste que el valor inicial de la recta indica su velocidad.", "pregunta_guia": "Los 4 km del inicio, ¿Jaime los recorrió en un minuto o ya los tenía al empezar?", "aprende": "El intercepto (4 km) es la posición inicial; la velocidad es Δd/Δt = 2/10 = 0,2 km/min."},
+   "D": {"error": "Concluir igualdad de rapidez por un punto común", "porque": "Elegiste D porque probablemente pensaste que llegar al mismo punto al mismo tiempo implica ir a la misma velocidad.", "pregunta_guia": "Si los dos van igual de rápido y Jaime empezó adelante, ¿podría Mariana alcanzarlo?", "aprende": "Mariana lo alcanza precisamente porque es más rápida: recupera 0,1 km cada minuto."}
+  },
+  "explicacion": "Paso 1: Rapidez de Mariana: (12 − 0)/40 = 0,3 km/min. Paso 2: Rapidez de Jaime: (12 − 4)/40 = 0,2 km/min. Paso 3: La línea de Jaime está arriba por su ventaja inicial de 4 km (intercepto), no por ir más rápido. Paso 4: La línea de Mariana es más empinada: ella es más rápida. Camila no tiene razón; la opción B lo explica correctamente.",
+  "tip": "En una gráfica distancia-tiempo, mira la inclinación de la línea, no su altura.",
+  "truco": "Más empinada = más rápida; más alta = más adelante.",
+  "estrategia_icfes": "El ICFES suele presentar conclusiones que confunden altura con inclinación. Calcula la pendiente de cada recta con dos puntos y elige la justificación basada en la razón de cambio.",
+  "temas": ["pendiente como rapidez", "gráficas distancia-tiempo", "intercepto"],
+  "gemela": {
+   "enunciado": "Dos tanques se llenan a ritmo constante. T1 tiene 0, 40, 80 y 120 litros a los 0, 1, 2 y 3 minutos; T2 tiene 100, 120, 140 y 160 litros en esos mismos tiempos. ¿Cuál se llena más rápido?",
+   "opciones": {"A": "T2, porque siempre tiene más agua.", "B": "Los dos igual, porque ambos aumentan cada minuto.", "C": "T2, porque empezó con 100 litros.", "D": "T1, porque aumenta 40 L/min y T2 solo 20 L/min."},
+   "correcta": "D",
+   "explicacion": "Paso 1: T1: 40 L/min. Paso 2: T2: 20 L/min. Paso 3: la rapidez la da la pendiente: T1 se llena más rápido."
+  }
+ }
+]

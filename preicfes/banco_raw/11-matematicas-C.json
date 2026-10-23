@@ -1,0 +1,3475 @@
+[
+{
+"id": "P11-MAT-C001",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: utiliza escalas y relaciones de proporcionalidad para calcular medidas reales de longitud y área a partir de planos y representaciones.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Convierte las medidas de un plano a medidas reales con la escala y luego calcula el área del terreno.",
+"contexto": "La familia de Valentina compró un lote rectangular en Jamundí. En el plano, dibujado a escala 1:500, el lote mide 8 cm de largo y 6 cm de ancho.",
+"enunciado": "¿Cuál es el área real del lote?",
+"opciones": {
+"A": "2,4 m²",
+"B": "140 m",
+"C": "1.200 m²",
+"D": "600 m²"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Aplicar la escala lineal al área",
+"porque": "Elegiste 2,4 m² porque probablemente calculaste el área del plano (48 cm²) y la multiplicaste por 500 una sola vez.",
+"pregunta_guia": "Si cada centímetro del plano equivale a 500 cm reales, ¿por cuánto se multiplica el largo y por cuánto el ancho?",
+"aprende": "La escala se aplica a cada longitud: 8 cm → 40 m y 6 cm → 30 m. El área se multiplica por 500², no por 500."
+},
+"B": {
+"error": "Confundir área con perímetro",
+"porque": "Elegiste 140 m porque sumaste los cuatro lados reales (40 + 30 + 40 + 30) en lugar de multiplicar largo por ancho.",
+"pregunta_guia": "¿La pregunta pide el borde del lote o la superficie que encierra? ¿En qué unidades se mide cada uno?",
+"aprende": "El perímetro se mide en metros; el área, en metros cuadrados: A = largo × ancho."
+},
+"D": {
+"error": "Usar la fórmula del triángulo",
+"porque": "Elegiste 600 m² porque dividiste entre 2 el producto 40 × 30, como si el lote fuera triangular.",
+"pregunta_guia": "¿Qué figura tiene el lote? ¿Cuándo se divide entre 2 el producto base × altura?",
+"aprende": "Solo el triángulo usa (b × h)/2; el rectángulo usa b × h."
+}
+},
+"explicacion": "Paso 1: la escala 1:500 indica que 1 cm del plano equivale a 500 cm = 5 m reales. Paso 2: largo real = 8 × 5 = 40 m; ancho real = 6 × 5 = 30 m. Paso 3: área = 40 m × 30 m = 1.200 m². Paso 4: comprobación: área del plano 48 cm² × 500² = 12.000.000 cm² = 1.200 m².",
+"tip": "Primero convierte cada medida a la realidad y después calcula: así evitas el error del factor de escala.",
+"truco": "Escala k: longitudes × k, áreas × k², volúmenes × k³.",
+"estrategia_icfes": "El ICFES presenta planos o mapas con escala y pregunta medidas reales. Identifica si te piden longitud, área o volumen, convierte unidades (cm → m) y revisa que la unidad de la respuesta coincida (m² para área).",
+"temas": [
+"escalas",
+"área del rectángulo",
+"conversión de unidades"
+],
+"gemela": {
+"enunciado": "En un plano a escala 1:200, un salón rectangular mide 5 cm por 4 cm. ¿Cuál es su área real?",
+"opciones": {
+"A": "40 m²",
+"B": "80 m²",
+"C": "36 m",
+"D": "0,4 m²"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 1 cm del plano = 2 m reales. Paso 2: 5 cm → 10 m y 4 cm → 8 m. Paso 3: área = 10 × 8 = 80 m²."
+}
+},
+{
+"id": "P11-MAT-C002",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: usa el teorema de Pitágoras para calcular longitudes desconocidas en situaciones que se modelan con triángulos rectángulos.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Identifica el triángulo rectángulo que forman la escalera, el muro y el piso, y despeja un cateto con el teorema de Pitágoras.",
+"contexto": "Don Efraín, pintor de fachadas en el barrio San Antonio de Cali, apoya una escalera de 5 m de largo contra un muro vertical. El pie de la escalera queda a 1,4 m de la base del muro, sobre piso horizontal.",
+"enunciado": "¿A qué altura del muro llega el extremo superior de la escalera?",
+"opciones": {
+"A": "4,8 m",
+"B": "3,6 m",
+"C": "5,19 m",
+"D": "6,4 m"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Restar longitudes en vez de cuadrados",
+"porque": "Elegiste 3,6 m porque restaste 5 − 1,4 directamente, sin elevar al cuadrado.",
+"pregunta_guia": "En el teorema de Pitágoras, ¿se relacionan los lados o los cuadrados de los lados?",
+"aprende": "h² = 5² − 1,4² = 25 − 1,96 = 23,04, y luego se saca raíz: h = 4,8 m."
+},
+"C": {
+"error": "Tratar la escalera como cateto",
+"porque": "Elegiste 5,19 m porque sumaste los cuadrados (25 + 1,96) como si la escalera fuera un cateto y no la hipotenusa.",
+"pregunta_guia": "¿Cuál lado está frente al ángulo recto entre el muro y el piso? ¿Puede la altura ser mayor que la escalera?",
+"aprende": "La escalera es la hipotenusa, el lado más largo; por eso se resta: cateto² = hipotenusa² − otro cateto²."
+},
+"D": {
+"error": "Sumar longitudes",
+"porque": "Elegiste 6,4 m porque sumaste 5 + 1,4, sin plantear el triángulo rectángulo.",
+"pregunta_guia": "¿Puede la escalera llegar más alto que su propia longitud?",
+"aprende": "Ningún cateto puede superar a la hipotenusa; plantea siempre a² + b² = c²."
+}
+},
+"explicacion": "Paso 1: muro, piso y escalera forman un triángulo rectángulo; la escalera (5 m) es la hipotenusa y la distancia al muro (1,4 m) es un cateto. Paso 2: h² + 1,4² = 5². Paso 3: h² = 25 − 1,96 = 23,04. Paso 4: h = √23,04 = 4,8 m.",
+"tip": "Antes de calcular, identifica la hipotenusa: es el lado opuesto al ángulo recto y siempre el mayor.",
+"truco": "Hipotenusa conocida: resta cuadrados. Hipotenusa desconocida: suma cuadrados.",
+"estrategia_icfes": "El ICFES esconde el triángulo rectángulo en escaleras, rampas, cables o pantallas. Haz un dibujo rápido, marca el ángulo recto y descarta opciones imposibles (un cateto mayor que la hipotenusa).",
+"temas": [
+"teorema de Pitágoras",
+"triángulo rectángulo",
+"raíz cuadrada"
+],
+"gemela": {
+"enunciado": "Una escalera de 6,5 m se apoya en un muro con su pie a 2,5 m de la base. ¿A qué altura llega?",
+"opciones": {
+"A": "4 m",
+"B": "6,96 m",
+"C": "6 m",
+"D": "9 m"
+},
+"correcta": "C",
+"explicacion": "Paso 1: h² = 6,5² − 2,5² = 42,25 − 6,25 = 36. Paso 2: h = √36 = 6 m."
+}
+},
+{
+"id": "P11-MAT-C003",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 10°–11°: usa el plano cartesiano para representar ubicaciones y calcular distancias entre puntos mediante la fórmula de la distancia.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Lee las coordenadas de dos puntos en un mapa cuadriculado y calcula la distancia en línea recta entre ellos.",
+"contexto": "En un mapa cuadriculado de Cali, cada unidad equivale a 1 km. Un estadio está ubicado en el punto E(−2, 3) y una universidad en el punto U(4, −5).",
+"enunciado": "¿Cuál es la distancia en línea recta entre el estadio y la universidad?",
+"opciones": {
+"A": "14 km",
+"B": "10 km",
+"C": "100 km",
+"D": "8,2 km"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar desplazamientos",
+"porque": "Elegiste 14 km porque sumaste el desplazamiento horizontal (6) y el vertical (8), como si fueras por las calles.",
+"pregunta_guia": "Si caminas 6 km al este y 8 km al sur, ¿el camino directo es igual a 6 + 8?",
+"aprende": "La distancia en línea recta es la hipotenusa: √(6² + 8²) = 10 km."
+},
+"C": {
+"error": "Olvidar la raíz cuadrada",
+"porque": "Elegiste 100 km porque calculaste 6² + 8² = 100 y no sacaste la raíz.",
+"pregunta_guia": "¿100 es la distancia o el cuadrado de la distancia?",
+"aprende": "d = √((x₂ − x₁)² + (y₂ − y₁)²); el último paso siempre es la raíz."
+},
+"D": {
+"error": "Error de signos al restar",
+"porque": "Elegiste 8,2 km porque calculaste 4 − 2 = 2 en lugar de 4 − (−2) = 6.",
+"pregunta_guia": "¿Cuántas unidades hay entre x = −2 y x = 4 en la recta numérica?",
+"aprende": "Restar un negativo es sumar: 4 − (−2) = 6."
+}
+},
+"explicacion": "Paso 1: diferencia en x: 4 − (−2) = 6. Paso 2: diferencia en y: −5 − 3 = −8. Paso 3: d = √(6² + (−8)²) = √(36 + 64) = √100. Paso 4: d = 10 unidades = 10 km.",
+"tip": "La fórmula de la distancia es Pitágoras con coordenadas: dibuja el triángulo y verás los catetos.",
+"truco": "Triple 6-8-10 (doble del 3-4-5): reconócelo y ahorras tiempo.",
+"estrategia_icfes": "El ICFES da coordenadas en mapas o planos y pide distancias. Cuida los signos al restar y distingue entre distancia en línea recta y recorrido por cuadras.",
+"temas": [
+"plano cartesiano",
+"distancia entre puntos",
+"teorema de Pitágoras"
+],
+"gemela": {
+"enunciado": "En el mismo mapa, una biblioteca está en B(1, −1) y un parque en P(−4, 11). ¿Cuál es la distancia en línea recta entre ellos?",
+"opciones": {
+"A": "17 km",
+"B": "13 km",
+"C": "169 km",
+"D": "11,2 km"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Δx = −4 − 1 = −5; Δy = 11 − (−1) = 12. Paso 2: d = √(25 + 144) = √169 = 13 km."
+}
+},
+{
+"id": "P11-MAT-C004",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: justifica cómo cambian el área y el volumen de figuras y sólidos cuando sus dimensiones se multiplican por un factor.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Evalúa una afirmación sobre el cambio de volumen de un cubo y elige la justificación correcta.",
+"contexto": "En la clase de tecnología, Samuel diseña cajas cúbicas para empacar café del Valle. Afirma: «Si duplico la arista del cubo, la caja tendrá el doble de capacidad».",
+"enunciado": "¿Cuál de las siguientes razones muestra correctamente si Samuel tiene o no razón?",
+"opciones": {
+"A": "Tiene razón, porque el volumen es directamente proporcional a la arista.",
+"B": "No tiene razón, porque el volumen se multiplica por 4, ya que se duplican el largo y el ancho.",
+"C": "No tiene razón, porque el volumen se multiplica por 6, ya que el cubo tiene 6 caras.",
+"D": "No tiene razón, porque (2a)³ = 8a³, así que el volumen se multiplica por 8."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Suponer proporcionalidad directa",
+"porque": "Elegiste A porque pensaste que si la arista se duplica, todo lo demás también se duplica.",
+"pregunta_guia": "El volumen del cubo es a × a × a. Si cambias a por 2a, ¿cuántas veces aparece el 2?",
+"aprende": "El volumen depende del cubo de la arista: (2a)³ = 2³ · a³ = 8a³."
+},
+"B": {
+"error": "Aplicar el factor solo a dos dimensiones",
+"porque": "Elegiste B porque duplicaste el largo y el ancho, pero olvidaste que la altura también se duplica.",
+"pregunta_guia": "¿Cuántas dimensiones tiene un cubo? ¿Cambian todas al duplicar la arista?",
+"aprende": "Factor 4 = 2² corresponde al área; para el volumen el factor es 2³ = 8."
+},
+"C": {
+"error": "Confundir caras con dimensiones",
+"porque": "Elegiste C porque relacionaste el factor con el número de caras del cubo.",
+"pregunta_guia": "¿El número de caras cambia cuando agrandas el cubo? ¿Qué cambia realmente?",
+"aprende": "El número de caras es fijo; lo que se multiplica son las tres longitudes: 2 × 2 × 2 = 8."
+}
+},
+"explicacion": "Paso 1: volumen original V = a³. Paso 2: con arista 2a, V' = (2a)³ = 2a · 2a · 2a = 8a³. Paso 3: V' = 8V, así que la capacidad se multiplica por 8, no por 2. Paso 4: ejemplo: arista 10 cm → 1.000 cm³; arista 20 cm → 8.000 cm³.",
+"tip": "Prueba con números sencillos (arista 1 y arista 2) para verificar cualquier afirmación sobre escalas.",
+"truco": "Longitud × k, área × k², volumen × k³.",
+"estrategia_icfes": "En Argumentación el ICFES presenta la afirmación de una persona y pide la razón válida. Lee cada razón completa: a veces la conclusión (tiene/no tiene razón) es correcta, pero la justificación no.",
+"temas": [
+"volumen del cubo",
+"factor de escala",
+"proporcionalidad"
+],
+"gemela": {
+"enunciado": "Lucía afirma que si triplica el lado de una baldosa cuadrada, su área se triplica. ¿Cuál razón es correcta?",
+"opciones": {
+"A": "Tiene razón, porque el área es proporcional al lado.",
+"B": "No tiene razón, porque (3l)² = 9l², el área se multiplica por 9.",
+"C": "No tiene razón, porque el área se multiplica por 27.",
+"D": "No tiene razón, porque el área se multiplica por 6."
+},
+"correcta": "B",
+"explicacion": "Paso 1: A = l². Paso 2: A' = (3l)² = 9l². Paso 3: el área se multiplica por 9 (27 sería para el volumen de un cubo)."
+}
+},
+{
+"id": "P11-MAT-C005",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: aplica criterios de semejanza de triángulos para calcular longitudes inaccesibles.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: aplico y justifico criterios de congruencias y semejanza entre triángulos en la resolución y formulación de problemas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Plantea una proporción entre alturas y sombras de dos triángulos semejantes y calcula la altura desconocida.",
+"contexto": "A las 3 de la tarde, en el parque de un barrio de Palmira, un poste de alumbrado proyecta una sombra de 6 m. Al mismo tiempo, Mateo, que mide 1,6 m, proyecta una sombra de 1,2 m. El suelo es horizontal.",
+"enunciado": "¿Cuál es la altura del poste?",
+"opciones": {
+"A": "4,5 m",
+"B": "6,4 m",
+"C": "8 m",
+"D": "7,2 m"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Invertir la proporción",
+"porque": "Elegiste 4,5 m porque calculaste 6 × 1,2 ÷ 1,6, poniendo la sombra donde iba la altura.",
+"pregunta_guia": "Si Mateo es más alto que su sombra, ¿el poste debe ser más alto o más bajo que su sombra?",
+"aprende": "Plantea altura/sombra igual en ambos: h/6 = 1,6/1,2."
+},
+"B": {
+"error": "Razonamiento aditivo",
+"porque": "Elegiste 6,4 m porque notaste que Mateo mide 0,4 m más que su sombra y sumaste 0,4 a la sombra del poste.",
+"pregunta_guia": "Si el poste fuera muy alto, ¿su altura superaría a la sombra solo por 0,4 m o en la misma proporción?",
+"aprende": "La semejanza conserva razones (multiplicar), no diferencias (sumar)."
+},
+"D": {
+"error": "Multiplicar datos sin plantear razón",
+"porque": "Elegiste 7,2 m porque multiplicaste 6 × 1,2 sin establecer la proporción.",
+"pregunta_guia": "¿Qué cantidades del poste y de Mateo se corresponden entre sí?",
+"aprende": "Se comparan magnitudes correspondientes: altura con altura, sombra con sombra."
+}
+},
+"explicacion": "Paso 1: los rayos del sol son paralelos, así que el triángulo poste-sombra y el triángulo Mateo-sombra son semejantes (ángulo recto y mismo ángulo de los rayos). Paso 2: h/6 = 1,6/1,2. Paso 3: h = 6 × 1,6 ÷ 1,2 = 9,6 ÷ 1,2. Paso 4: h = 8 m.",
+"tip": "Escribe la proporción con palabras primero: altura del poste es a su sombra como altura de Mateo es a su sombra.",
+"truco": "Razón de Mateo: 1,6/1,2 = 4/3. El poste mide 4/3 de su sombra: 6 × 4/3 = 8.",
+"estrategia_icfes": "El ICFES usa sombras, maquetas y fotografías para evaluar semejanza. Identifica los dos triángulos, empareja lados correspondientes y verifica que el resultado tenga sentido.",
+"temas": [
+"semejanza de triángulos",
+"proporciones",
+"teorema de Tales"
+],
+"gemela": {
+"enunciado": "Un árbol proyecta una sombra de 9 m y, al mismo tiempo, una varilla vertical de 2 m proyecta una sombra de 3 m. ¿Cuánto mide el árbol?",
+"opciones": {
+"A": "13,5 m",
+"B": "6 m",
+"C": "8 m",
+"D": "18 m"
+},
+"correcta": "B",
+"explicacion": "Paso 1: h/9 = 2/3. Paso 2: h = 9 × 2 ÷ 3 = 6 m."
+}
+},
+{
+"id": "P11-MAT-C006",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), 10°: usa las razones trigonométricas seno, coseno y tangente para resolver problemas con triángulos rectángulos.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Selecciona la razón trigonométrica que relaciona la hipotenusa con el cateto opuesto y calcula la altura.",
+"contexto": "En el Festival de Cometas de agosto en el Valle del Cauca, Isabela sostiene el hilo de su cometa a ras del suelo. El hilo, tenso y recto, mide 50 m y forma un ángulo de elevación de 30° con el suelo horizontal. Usa sen 30° = 0,5; cos 30° ≈ 0,866; tan 30° ≈ 0,577.",
+"enunciado": "¿A qué altura sobre el suelo está la cometa?",
+"opciones": {
+"A": "43,3 m",
+"B": "28,9 m",
+"C": "100 m",
+"D": "25 m"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar coseno en lugar de seno",
+"porque": "Elegiste 43,3 m porque multiplicaste 50 × cos 30°, que da la distancia horizontal, no la altura.",
+"pregunta_guia": "La altura, ¿es el cateto opuesto o el adyacente al ángulo de 30°?",
+"aprende": "sen θ = opuesto/hipotenusa; la altura es opuesta al ángulo de elevación: h = 50 × sen 30°."
+},
+"B": {
+"error": "Usar tangente con la hipotenusa",
+"porque": "Elegiste 28,9 m porque multiplicaste 50 × tan 30°, como si 50 m fuera la distancia horizontal.",
+"pregunta_guia": "¿El hilo de 50 m es un cateto o la hipotenusa?",
+"aprende": "La tangente relaciona los dos catetos; con la hipotenusa conocida usa seno o coseno."
+},
+"C": {
+"error": "Dividir en lugar de multiplicar",
+"porque": "Elegiste 100 m porque dividiste 50 ÷ 0,5 al despejar mal sen θ = h/50.",
+"pregunta_guia": "¿Puede la cometa estar más alta que la longitud del hilo?",
+"aprende": "De sen 30° = h/50 se despeja h = 50 × sen 30° = 25 m."
+}
+},
+"explicacion": "Paso 1: el hilo es la hipotenusa (50 m) y la altura es el cateto opuesto al ángulo de 30°. Paso 2: sen 30° = h/50. Paso 3: h = 50 × 0,5. Paso 4: h = 25 m.",
+"tip": "Marca el ángulo y nombra los lados: opuesto, adyacente e hipotenusa. Así eliges la razón sin dudar.",
+"truco": "SOH-CAH-TOA: Seno = Opuesto/Hipotenusa, Coseno = Adyacente/Hipotenusa, Tangente = Opuesto/Adyacente.",
+"estrategia_icfes": "El ICFES entrega los valores de seno, coseno y tangente en el enunciado; tu trabajo es elegir la razón correcta. Descarta resultados mayores que la hipotenusa.",
+"temas": [
+"razones trigonométricas",
+"ángulo de elevación",
+"triángulo rectángulo"
+],
+"gemela": {
+"enunciado": "El hilo de otra cometa mide 80 m y forma un ángulo de 60° con el suelo (sen 60° ≈ 0,866; cos 60° = 0,5; tan 60° ≈ 1,732). ¿A qué altura está la cometa?",
+"opciones": {
+"A": "40 m",
+"B": "69,3 m",
+"C": "138,6 m",
+"D": "92,4 m"
+},
+"correcta": "B",
+"explicacion": "Paso 1: h = 80 × sen 60°. Paso 2: h = 80 × 0,866 ≈ 69,3 m."
+}
+},
+{
+"id": "P11-MAT-C007",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: describe y representa transformaciones rígidas (traslaciones, reflexiones y rotaciones) en el plano cartesiano.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 6°–7° y 8°–9°: predigo y comparo los resultados de aplicar transformaciones rígidas sobre figuras bidimensionales en situaciones matemáticas y en el arte.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Determina las coordenadas de la imagen de un punto al reflejarlo respecto al eje y.",
+"contexto": "Para un logotipo simétrico del grupo de robótica, Camila dibuja en el plano cartesiano el triángulo de vértices A(2, 1), B(5, 1) y C(2, 4). Luego lo refleja respecto al eje y para obtener el triángulo A'B'C'.",
+"enunciado": "¿Cuáles son las coordenadas del vértice C'?",
+"opciones": {
+"A": "(2, −4)",
+"B": "(−2, 4)",
+"C": "(−2, −4)",
+"D": "(4, 2)"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Reflejar respecto al eje x",
+"porque": "Elegiste (2, −4) porque cambiaste el signo de la coordenada y, que corresponde a reflejar respecto al eje x.",
+"pregunta_guia": "Si el espejo es el eje y (vertical), ¿el punto se mueve hacia los lados o hacia arriba y abajo?",
+"aprende": "Reflexión respecto al eje y: (x, y) → (−x, y)."
+},
+"C": {
+"error": "Reflejar respecto al origen",
+"porque": "Elegiste (−2, −4) porque cambiaste el signo de ambas coordenadas, lo que equivale a una rotación de 180°.",
+"pregunta_guia": "Al reflejar en un espejo vertical, ¿cambia la altura del punto?",
+"aprende": "Solo cambia el signo de la coordenada perpendicular al eje de reflexión."
+},
+"D": {
+"error": "Intercambiar coordenadas",
+"porque": "Elegiste (4, 2) porque intercambiaste x y y, que es la reflexión respecto a la recta y = x.",
+"pregunta_guia": "¿Cuál es el eje de reflexión indicado en el problema?",
+"aprende": "Intercambiar coordenadas corresponde a la recta y = x, no al eje y."
+}
+},
+"explicacion": "Paso 1: al reflejar respecto al eje y, la distancia al eje se conserva pero el punto pasa al otro lado. Paso 2: la regla es (x, y) → (−x, y). Paso 3: C(2, 4) → C'(−2, 4).",
+"tip": "Imagina el eje como un espejo: el punto queda a la misma distancia, del otro lado, a la misma altura.",
+"truco": "Espejo en y: cambia la x. Espejo en x: cambia la y.",
+"estrategia_icfes": "El ICFES describe transformaciones con coordenadas y pide la imagen de un punto. Identifica el tipo de transformación y aplica su regla a un solo punto antes de revisar las opciones.",
+"temas": [
+"reflexiones",
+"plano cartesiano",
+"simetría axial"
+],
+"gemela": {
+"enunciado": "El punto P(−3, 5) se refleja respecto al eje x. ¿Cuáles son las coordenadas de P'?",
+"opciones": {
+"A": "(3, 5)",
+"B": "(3, −5)",
+"C": "(−3, −5)",
+"D": "(5, −3)"
+},
+"correcta": "C",
+"explicacion": "Paso 1: reflexión respecto al eje x: (x, y) → (x, −y). Paso 2: P(−3, 5) → P'(−3, −5)."
+}
+},
+{
+"id": "P11-MAT-C008",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula volúmenes de cuerpos redondos y relaciona unidades de volumen con unidades de capacidad.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula el volumen de un cilindro a partir del diámetro y la altura, y lo convierte a litros.",
+"contexto": "En una finca de Dagua se instaló un tanque cilíndrico para recoger agua lluvia. El tanque tiene 2 m de diámetro y 1,5 m de altura. Usa π ≈ 3,14 y recuerda que 1 m³ = 1.000 L.",
+"enunciado": "¿Cuántos litros de agua caben en el tanque lleno?",
+"opciones": {
+"A": "4.710 L",
+"B": "18.840 L",
+"C": "9.420 L",
+"D": "471 L"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar el diámetro como radio",
+"porque": "Elegiste 18.840 L porque usaste r = 2 m, cuando 2 m es el diámetro.",
+"pregunta_guia": "¿Qué relación hay entre el diámetro y el radio?",
+"aprende": "r = d/2 = 1 m. Usar el diámetro multiplica el volumen por 4."
+},
+"C": {
+"error": "Calcular el área lateral",
+"porque": "Elegiste 9.420 L porque calculaste 2πrh = 9,42, que es el área lateral en m², no el volumen.",
+"pregunta_guia": "¿La capacidad se mide con la superficie de la pared o con el espacio interior?",
+"aprende": "Volumen del cilindro: V = π r² h (área de la base por la altura)."
+},
+"D": {
+"error": "Conversión errada de unidades",
+"porque": "Elegiste 471 L porque convertiste 1 m³ como si fuera 100 L.",
+"pregunta_guia": "Un cubo de 1 m de lado mide 10 dm por lado. ¿Cuántos dm³ (litros) contiene?",
+"aprende": "1 m³ = 10 × 10 × 10 dm³ = 1.000 dm³ = 1.000 L."
+}
+},
+"explicacion": "Paso 1: radio r = 2 ÷ 2 = 1 m. Paso 2: V = π r² h = 3,14 × 1² × 1,5 = 4,71 m³. Paso 3: 4,71 m³ × 1.000 L/m³ = 4.710 L.",
+"tip": "Subraya si te dan radio o diámetro: es la trampa más común en cilindros, conos y esferas.",
+"truco": "1 litro = 1 dm³ = 1.000 cm³; 1 m³ = 1.000 L.",
+"estrategia_icfes": "El ICFES combina volumen con conversión de unidades. Calcula en una sola unidad (m³) y convierte al final; revisa que el orden de magnitud sea razonable.",
+"temas": [
+"volumen del cilindro",
+"capacidad",
+"conversión de unidades"
+],
+"gemela": {
+"enunciado": "Un tanque cilíndrico tiene radio 0,5 m y altura 2 m (π ≈ 3,14). ¿Cuántos litros caben?",
+"opciones": {
+"A": "6.280 L",
+"B": "1.570 L",
+"C": "3.140 L",
+"D": "157 L"
+},
+"correcta": "B",
+"explicacion": "Paso 1: V = 3,14 × 0,5² × 2 = 3,14 × 0,25 × 2 = 1,57 m³. Paso 2: 1,57 × 1.000 = 1.570 L."
+}
+},
+{
+"id": "P11-MAT-C009",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: relaciona sólidos con sus desarrollos planos y justifica si un desarrollo permite construir un sólido.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso representaciones geométricas para resolver y formular problemas en las matemáticas y en otras disciplinas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica cuál desarrollo plano permite armar un cubo, anticipando cómo se pliegan las caras.",
+"contexto": "En el taller de empaques, Laura y Juan recortan cartulina para armar cajas cúbicas. Laura usa 6 cuadrados iguales en forma de cruz: una columna de 4 cuadrados y un cuadrado pegado a cada lado del segundo cuadrado de la columna. Juan usa 6 cuadrados iguales unidos en una sola fila.",
+"enunciado": "¿Cuál afirmación sobre los desarrollos es correcta?",
+"opciones": {
+"A": "Ambos arman el cubo, porque los dos desarrollos tienen 6 cuadrados iguales.",
+"B": "Solo Laura arma el cubo, porque en la fila de Juan los cuadrados quinto y sexto se superponen a los dos primeros y quedan dos caras abiertas.",
+"C": "Solo Juan arma el cubo, porque la fila se enrolla formando un tubo cerrado por todos lados.",
+"D": "Ninguno de los dos arma el cubo, porque un cubo necesita 8 cuadrados, uno por cada vértice."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Contar caras sin verificar el plegado",
+"porque": "Elegiste A porque pensaste que basta con tener 6 cuadrados iguales para armar un cubo.",
+"pregunta_guia": "Si enrollas la fila de 6 cuadrados, ¿qué cara queda encima del primer cuadrado después de 4 pliegues?",
+"aprende": "No basta el número de caras: su disposición debe permitir cubrir las 6 posiciones sin superponerse."
+},
+"C": {
+"error": "Olvidar las tapas del cubo",
+"porque": "Elegiste C porque al enrollar la fila imaginaste un tubo y no notaste que quedan sin cubrir las dos bocas.",
+"pregunta_guia": "Al enrollar la fila, ¿qué cuadrado cierra los extremos del tubo?",
+"aprende": "Una fila enrollada forma solo las 4 caras laterales; las 2 restantes se repiten encima de otras."
+},
+"D": {
+"error": "Confundir caras con vértices",
+"porque": "Elegiste D porque relacionaste el número de cuadrados con los 8 vértices del cubo.",
+"pregunta_guia": "¿Cuántas caras tiene un dado? ¿Cada cara es un cuadrado o un vértice?",
+"aprende": "El cubo tiene 6 caras, 8 vértices y 12 aristas; el desarrollo usa una pieza por cara."
+}
+},
+"explicacion": "Paso 1: un cubo tiene 6 caras cuadradas, así que ambos usan la cantidad correcta. Paso 2: en la cruz de Laura, la columna de 4 forma las caras laterales y los dos cuadrados laterales cierran arriba y abajo. Paso 3: en la fila de Juan, después de 4 pliegues el quinto cuadrado cae sobre el primero y el sexto sobre el segundo. Paso 4: quedan dos caras abiertas, así que solo Laura arma el cubo.",
+"tip": "Pliega mentalmente paso a paso: elige una cara como base y dobla las demás hacia arriba una por una.",
+"truco": "Un desarrollo de cubo nunca tiene más de 4 cuadrados en fila.",
+"estrategia_icfes": "El ICFES describe o muestra desarrollos planos y pregunta qué sólido forman o si son válidos. Fija una cara como base y sigue cada pliegue; descarta los que superponen caras.",
+"temas": [
+"desarrollos planos",
+"cubo",
+"visualización espacial"
+],
+"gemela": {
+"enunciado": "Para armar un prisma triangular cerrado, Ana recorta 2 triángulos y 3 rectángulos; Pedro recorta 2 triángulos y 2 rectángulos. ¿Cuál afirmación es correcta?",
+"opciones": {
+"A": "Ambos lo arman, porque tienen 2 triángulos.",
+"B": "Solo Pedro, porque con 2 rectángulos basta para unir los triángulos.",
+"C": "Solo Ana, porque el prisma triangular tiene 3 caras laterales rectangulares, una por cada lado del triángulo.",
+"D": "Ninguno, porque el prisma necesita 3 triángulos."
+},
+"correcta": "C",
+"explicacion": "Paso 1: un prisma triangular tiene 2 bases triangulares. Paso 2: cada lado del triángulo genera una cara lateral: 3 rectángulos. Paso 3: total 5 caras; solo Ana tiene las piezas correctas."
+}
+},
+{
+"id": "P11-MAT-C010",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: interpreta escalas en mapas y planos para estimar distancias reales.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: selecciono y uso técnicas e instrumentos para medir longitudes con niveles de precisión apropiados.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta la escala numérica de un mapa y convierte la distancia medida a kilómetros.",
+"contexto": "En un mapa del Valle del Cauca dibujado a escala 1:500.000, Tomás mide con la regla 13 cm en línea recta entre dos municipios.",
+"enunciado": "¿Cuál es la distancia real en línea recta entre los dos municipios?",
+"opciones": {
+"A": "6,5 km",
+"B": "650 km",
+"C": "65 km",
+"D": "0,65 km"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Error al convertir centímetros a kilómetros",
+"porque": "Elegiste 6,5 km porque dividiste 6.500.000 cm entre 1.000.000 en lugar de entre 100.000.",
+"pregunta_guia": "¿Cuántos centímetros tiene un metro y cuántos metros tiene un kilómetro?",
+"aprende": "1 km = 1.000 m = 100.000 cm; 6.500.000 ÷ 100.000 = 65 km."
+},
+"B": {
+"error": "Dividir entre muy poco",
+"porque": "Elegiste 650 km porque dividiste 6.500.000 cm solo entre 10.000.",
+"pregunta_guia": "¿Es posible que dos municipios del mismo departamento estén a 650 km?",
+"aprende": "Verifica con el sentido común: el Valle del Cauca mide unos pocos cientos de kilómetros de largo."
+},
+"D": {
+"error": "Convertir dos veces",
+"porque": "Elegiste 0,65 km porque dividiste de más al pasar de centímetros a kilómetros.",
+"pregunta_guia": "¿13 cm del mapa pueden representar menos de 1 km con una escala de 1:500.000?",
+"aprende": "Cada centímetro del mapa son 500.000 cm = 5 km reales: 13 × 5 = 65 km."
+}
+},
+"explicacion": "Paso 1: la escala 1:500.000 indica que 1 cm del mapa equivale a 500.000 cm reales. Paso 2: 500.000 cm = 5.000 m = 5 km. Paso 3: 13 cm × 5 km/cm = 65 km.",
+"tip": "Traduce la escala a «1 cm equivale a … km» antes de multiplicar.",
+"truco": "Para pasar de cm a km quita cinco ceros: 500.000 cm = 5 km.",
+"estrategia_icfes": "El ICFES usa escalas numéricas (1:n) y gráficas. Convierte primero la equivalencia de 1 cm y luego multiplica; usa el sentido común para descartar distancias absurdas.",
+"temas": [
+"escalas",
+"conversión de unidades",
+"proporcionalidad directa"
+],
+"gemela": {
+"enunciado": "En un mapa a escala 1:200.000, la distancia entre dos veredas es 7,5 cm. ¿Cuál es la distancia real?",
+"opciones": {
+"A": "1,5 km",
+"B": "15 km",
+"C": "150 km",
+"D": "0,15 km"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 1 cm = 200.000 cm = 2 km. Paso 2: 7,5 × 2 = 15 km."
+}
+},
+{
+"id": "P11-MAT-C011",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°: resuelve problemas con triángulos no rectángulos usando la ley del coseno y la ley del seno.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Reconoce que el triángulo no es rectángulo y aplica la ley del coseno para hallar el lado desconocido.",
+"contexto": "Dos lanchas salen al mismo tiempo del muelle de Buenaventura en línea recta. Cuando la primera ha recorrido 3 km y la segunda 5 km, sus trayectorias forman un ángulo de 60° en el muelle. Usa cos 60° = 0,5.",
+"enunciado": "¿Cuál es, aproximadamente, la distancia entre las dos lanchas en ese momento?",
+"opciones": {
+"A": "5,83 km",
+"B": "7 km",
+"C": "2 km",
+"D": "4,36 km"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Aplicar Pitágoras a un triángulo no rectángulo",
+"porque": "Elegiste 5,83 km porque calculaste √(3² + 5²), como si el ángulo fuera de 90°.",
+"pregunta_guia": "¿El ángulo entre las trayectorias es de 90°? ¿Qué término agrega la ley del coseno?",
+"aprende": "Pitágoras solo vale con ángulo recto; en general c² = a² + b² − 2ab cos C."
+},
+"B": {
+"error": "Error de signo en la ley del coseno",
+"porque": "Elegiste 7 km porque sumaste el término 2ab cos C en lugar de restarlo: 9 + 25 + 15 = 49.",
+"pregunta_guia": "Si el ángulo es menor de 90°, ¿la distancia debe ser menor o mayor que la que daría Pitágoras?",
+"aprende": "c² = a² + b² − 2ab cos C; con ángulo agudo se resta."
+},
+"C": {
+"error": "Restar las distancias",
+"porque": "Elegiste 2 km porque restaste 5 − 3, como si las lanchas fueran en la misma dirección.",
+"pregunta_guia": "¿Cuándo la distancia entre las lanchas sería exactamente 5 − 3?",
+"aprende": "5 − 3 solo vale si el ángulo es 0°; con 60° hay que usar la ley del coseno."
+}
+},
+"explicacion": "Paso 1: el muelle y las dos lanchas forman un triángulo con lados 3 km y 5 km y ángulo de 60° entre ellos. Paso 2: ley del coseno: d² = 3² + 5² − 2(3)(5) cos 60°. Paso 3: d² = 9 + 25 − 30 × 0,5 = 34 − 15 = 19. Paso 4: d = √19 ≈ 4,36 km.",
+"tip": "Si conoces dos lados y el ángulo entre ellos, piensa de inmediato en la ley del coseno.",
+"truco": "Ley del coseno = Pitágoras «corregido»: c² = a² + b² − 2ab cos C. Con C = 90°, cos C = 0 y vuelves a Pitágoras.",
+"estrategia_icfes": "En nivel avanzado el ICFES plantea triángulos oblicuángulos con datos de navegación o topografía. Identifica qué datos tienes (LAL → coseno; ALA o LLA → seno) y estima el rango posible de la respuesta.",
+"temas": [
+"ley del coseno",
+"triángulos oblicuángulos",
+"trigonometría"
+],
+"gemela": {
+"enunciado": "Dos caminos parten de un mismo punto formando 60°. Sobre ellos hay dos casas a 4 km y a 6 km del punto. ¿Cuál es la distancia aproximada entre las casas?",
+"opciones": {
+"A": "7,21 km",
+"B": "8,72 km",
+"C": "5,29 km",
+"D": "2 km"
+},
+"correcta": "C",
+"explicacion": "Paso 1: d² = 4² + 6² − 2(4)(6)(0,5). Paso 2: d² = 16 + 36 − 24 = 28. Paso 3: d = √28 ≈ 5,29 km."
+}
+},
+{
+"id": "P11-MAT-C012",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula áreas de figuras compuestas descomponiéndolas en figuras conocidas representadas en el plano cartesiano.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta las coordenadas de los vértices de una figura en forma de L y la descompone en rectángulos para hallar su área.",
+"contexto": "El plano de una huerta escolar en forma de L tiene, en orden, los vértices (0, 0), (6, 0), (6, 2), (2, 2), (2, 5) y (0, 5). Cada unidad del plano equivale a 1 m.",
+"enunciado": "¿Cuál es el área de la huerta?",
+"opciones": {
+"A": "30 m²",
+"B": "15 m²",
+"C": "22 m²",
+"D": "18 m²"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Tomar el rectángulo envolvente",
+"porque": "Elegiste 30 m² porque calculaste 6 × 5, el rectángulo completo, sin restar la esquina vacía.",
+"pregunta_guia": "Al unir los vértices en orden, ¿queda cubierta la región entre x = 2 y x = 6 por encima de y = 2?",
+"aprende": "Una L es un rectángulo grande menos un rectángulo vacío: 30 − 4 × 3 = 18."
+},
+"B": {
+"error": "Usar la fórmula del triángulo",
+"porque": "Elegiste 15 m² porque calculaste (6 × 5)/2, como si la figura fuera un triángulo.",
+"pregunta_guia": "¿Cuántos lados tiene la figura cuando unes los 6 vértices?",
+"aprende": "La L es un hexágono con ángulos rectos; se descompone en rectángulos."
+},
+"C": {
+"error": "Contar dos veces una región",
+"porque": "Elegiste 22 m² porque sumaste 6 × 2 y 2 × 5, contando dos veces el cuadrado de 2 × 2 de la esquina.",
+"pregunta_guia": "¿Los rectángulos 6 × 2 y 2 × 5 se superponen? ¿En qué región?",
+"aprende": "Al descomponer, las partes no deben superponerse: 6 × 2 + 2 × 3 = 18."
+}
+},
+"explicacion": "Paso 1: ubica los vértices; la figura es una L. Paso 2: divídela en un rectángulo inferior de 6 m × 2 m (de y = 0 a y = 2) y un rectángulo superior de 2 m × 3 m (de y = 2 a y = 5, entre x = 0 y x = 2). Paso 3: áreas: 12 m² y 6 m². Paso 4: total = 12 + 6 = 18 m².",
+"tip": "Dibuja los puntos en una cuadrícula rápida: ver la figura evita la mitad de los errores.",
+"truco": "Figura compuesta = sumar piezas que no se tocan, o restar a un rectángulo grande lo que sobra.",
+"estrategia_icfes": "El ICFES describe regiones con coordenadas o cuadrículas. Dibuja, descompón en rectángulos y triángulos, y verifica el resultado con otra descomposición.",
+"temas": [
+"áreas de figuras compuestas",
+"plano cartesiano",
+"descomposición de figuras"
+],
+"gemela": {
+"enunciado": "Una figura en L tiene vértices (0, 0), (8, 0), (8, 3), (3, 3), (3, 6) y (0, 6), en metros. ¿Cuál es su área?",
+"opciones": {
+"A": "48 m²",
+"B": "24 m²",
+"C": "33 m²",
+"D": "42 m²"
+},
+"correcta": "C",
+"explicacion": "Paso 1: rectángulo inferior 8 × 3 = 24 m². Paso 2: rectángulo superior 3 × 3 = 9 m². Paso 3: total 33 m²."
+}
+},
+{
+"id": "P11-MAT-C013",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula áreas de triángulos ubicados en el plano cartesiano identificando base y altura.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Lee en las coordenadas la base horizontal y la altura de un triángulo y calcula su área.",
+"contexto": "Para una señal de tránsito, un diseñador dibuja en el plano cartesiano un triángulo con vértices A(1, 2), B(7, 2) y C(4, 6). Las unidades están en decímetros.",
+"enunciado": "¿Cuál es el área del triángulo ABC?",
+"opciones": {
+"A": "12 dm²",
+"B": "24 dm²",
+"C": "16 dm²",
+"D": "10 dm²"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "No dividir entre 2",
+"porque": "Elegiste 24 dm² porque multiplicaste base por altura (6 × 4) y olvidaste dividir entre 2.",
+"pregunta_guia": "¿Qué parte del rectángulo de 6 × 4 ocupa el triángulo?",
+"aprende": "Área del triángulo = (base × altura)/2."
+},
+"C": {
+"error": "Confundir área con perímetro",
+"porque": "Elegiste 16 dm² porque sumaste los lados AB = 6, AC = 5 y BC = 5.",
+"pregunta_guia": "¿La suma de los lados mide el borde o la superficie?",
+"aprende": "El perímetro (16 dm) no es el área; el área usa base y altura."
+},
+"D": {
+"error": "Usar un lado inclinado como base con la altura equivocada",
+"porque": "Elegiste 10 dm² porque tomaste el lado AC = 5 como base con la altura 4, que no es perpendicular a ese lado.",
+"pregunta_guia": "¿La altura de 4 es perpendicular a AB o a AC?",
+"aprende": "Base y altura deben ser perpendiculares: AB = 6 es horizontal y la altura vertical desde C es 4."
+}
+},
+"explicacion": "Paso 1: A y B tienen la misma ordenada (y = 2), así que AB es horizontal y mide 7 − 1 = 6 dm. Paso 2: la altura es la distancia vertical de C a esa base: 6 − 2 = 4 dm. Paso 3: área = (6 × 4)/2 = 12 dm².",
+"tip": "Busca dos vértices con la misma x o la misma y: ese lado es una base fácil de medir.",
+"truco": "Base horizontal: resta las x. Altura vertical: resta las y.",
+"estrategia_icfes": "El ICFES ubica figuras en el plano para que leas medidas sin regla. Identifica lados paralelos a los ejes y recuerda que la altura siempre es perpendicular a la base.",
+"temas": [
+"área del triángulo",
+"plano cartesiano",
+"base y altura"
+],
+"gemela": {
+"enunciado": "Un triángulo tiene vértices (−2, 0), (6, 0) y (2, 5), en metros. ¿Cuál es su área?",
+"opciones": {
+"A": "40 m²",
+"B": "20 m²",
+"C": "13 m²",
+"D": "10 m²"
+},
+"correcta": "B",
+"explicacion": "Paso 1: base = 6 − (−2) = 8 m. Paso 2: altura = 5 m. Paso 3: área = (8 × 5)/2 = 20 m²."
+}
+},
+{
+"id": "P11-MAT-C014",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: justifica la semejanza de triángulos usando criterios (AA, LAL, LLL).",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: aplico y justifico criterios de congruencias y semejanza entre triángulos en la resolución y formulación de problemas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Usa la suma de ángulos internos y el criterio ángulo-ángulo para decidir si dos triángulos son semejantes.",
+"contexto": "En un diseño de vitral para la capilla del colegio, el triángulo T₁ tiene dos ángulos de 40° y 60°. El triángulo T₂, mucho más grande, tiene dos ángulos de 60° y 80°.",
+"enunciado": "¿Cuál afirmación sobre los triángulos es correcta?",
+"opciones": {
+"A": "No son semejantes, porque sus lados tienen longitudes diferentes.",
+"B": "No son semejantes, porque los ángulos dados no son los mismos en ambos triángulos.",
+"C": "Son semejantes, porque el tercer ángulo de T₁ mide 80° y el de T₂ mide 40°, así que sus tres ángulos coinciden.",
+"D": "Son semejantes, porque ambos tienen un ángulo de 60° y eso basta."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir semejanza con congruencia",
+"porque": "Elegiste A porque pensaste que los triángulos semejantes deben tener lados iguales.",
+"pregunta_guia": "Una foto ampliada de un triángulo, ¿tiene los mismos lados o los mismos ángulos que el original?",
+"aprende": "Semejantes: misma forma (ángulos iguales, lados proporcionales). Congruentes: misma forma y mismo tamaño."
+},
+"B": {
+"error": "No calcular el tercer ángulo",
+"porque": "Elegiste B porque comparaste solo los ángulos escritos sin hallar el que falta en cada triángulo.",
+"pregunta_guia": "Si dos ángulos de un triángulo miden 40° y 60°, ¿cuánto mide el tercero?",
+"aprende": "Los ángulos internos suman 180°; calcula siempre el tercero antes de comparar."
+},
+"D": {
+"error": "Usar un solo ángulo como criterio",
+"porque": "Elegiste D porque creíste que un ángulo igual es suficiente para la semejanza.",
+"pregunta_guia": "¿Dos triángulos con un ángulo de 60° pueden tener formas muy distintas?",
+"aprende": "El criterio AA exige dos pares de ángulos iguales; con uno solo no basta."
+}
+},
+"explicacion": "Paso 1: en T₁, el tercer ángulo es 180° − 40° − 60° = 80°; sus ángulos son 40°, 60° y 80°. Paso 2: en T₂, el tercer ángulo es 180° − 60° − 80° = 40°; sus ángulos son 40°, 60° y 80°. Paso 3: tienen dos (de hecho tres) pares de ángulos iguales. Paso 4: por el criterio AA son semejantes, aunque tengan tamaños distintos.",
+"tip": "Antes de comparar triángulos, completa sus tres ángulos.",
+"truco": "Criterio AA: dos ángulos iguales = triángulos semejantes.",
+"estrategia_icfes": "El ICFES presenta datos incompletos a propósito. En argumentación, revisa que la razón usada sea un criterio válido de semejanza y no una característica irrelevante.",
+"temas": [
+"semejanza de triángulos",
+"criterio AA",
+"suma de ángulos internos"
+],
+"gemela": {
+"enunciado": "Un triángulo tiene ángulos de 50° y 70°; otro tiene ángulos de 50° y 65°. ¿Son semejantes?",
+"opciones": {
+"A": "Sí, porque ambos tienen un ángulo de 50°.",
+"B": "No, porque sus terceros ángulos miden 60° y 65°, y los ángulos no coinciden.",
+"C": "Sí, porque los ángulos suman 180° en ambos.",
+"D": "No, porque uno es más grande que el otro."
+},
+"correcta": "B",
+"explicacion": "Paso 1: tercer ángulo del primero: 180 − 50 − 70 = 60°. Paso 2: tercer ángulo del segundo: 180 − 50 − 65 = 65°. Paso 3: ángulos 50-60-70 y 50-65-65: no coinciden, no son semejantes."
+}
+},
+{
+"id": "P11-MAT-C015",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula el efecto de ampliaciones y reducciones sobre longitudes y áreas de figuras.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso representaciones geométricas para resolver y formular problemas en las matemáticas y en otras disciplinas.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica un porcentaje de ampliación a cada dimensión y calcula el área de la figura ampliada.",
+"contexto": "En una papelería de Cali, Andrea amplía al 150 % la fotocopia de un plano. En el original aparece un rectángulo de 4 cm de ancho y 6 cm de largo.",
+"enunciado": "¿Cuál es el área del rectángulo en la copia ampliada?",
+"opciones": {
+"A": "36 cm²",
+"B": "54 cm²",
+"C": "30 cm²",
+"D": "48 cm²"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Aplicar el porcentaje al área",
+"porque": "Elegiste 36 cm² porque multiplicaste el área original (24 cm²) por 1,5.",
+"pregunta_guia": "La fotocopiadora amplía el ancho y también el largo. ¿Cuántas veces se aplica el 1,5?",
+"aprende": "El área se multiplica por 1,5² = 2,25: 24 × 2,25 = 54 cm²."
+},
+"C": {
+"error": "Calcular el perímetro",
+"porque": "Elegiste 30 cm² porque sumaste los lados de la copia: 2(6 + 9) = 30.",
+"pregunta_guia": "¿La pregunta pide el contorno o la superficie?",
+"aprende": "Área del rectángulo = ancho × largo = 6 × 9."
+},
+"D": {
+"error": "Interpretar 150 % como duplicar",
+"porque": "Elegiste 48 cm² porque duplicaste el área original, como si la ampliación fuera del 200 % en área.",
+"pregunta_guia": "¿Qué número multiplica a cada medida cuando se amplía al 150 %?",
+"aprende": "150 % significa multiplicar cada longitud por 1,5."
+}
+},
+"explicacion": "Paso 1: ampliar al 150 % es multiplicar cada longitud por 1,5. Paso 2: nuevo ancho = 4 × 1,5 = 6 cm; nuevo largo = 6 × 1,5 = 9 cm. Paso 3: área = 6 × 9 = 54 cm². Paso 4: comprobación: 24 cm² × 1,5² = 24 × 2,25 = 54 cm².",
+"tip": "Un porcentaje de ampliación siempre actúa sobre las longitudes, nunca directamente sobre el área.",
+"truco": "Ampliación k en longitudes → área × k².",
+"estrategia_icfes": "El ICFES usa fotocopias, pantallas y maquetas. Transforma el porcentaje en factor (150 % = 1,5), aplícalo a las longitudes y luego calcula.",
+"temas": [
+"homotecia",
+"porcentajes",
+"área del rectángulo"
+],
+"gemela": {
+"enunciado": "Se reduce al 50 % un dibujo que contiene un rectángulo de 10 cm por 8 cm. ¿Cuál es el área del rectángulo reducido?",
+"opciones": {
+"A": "40 cm²",
+"B": "18 cm²",
+"C": "20 cm²",
+"D": "80 cm²"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 10 × 0,5 = 5 cm; 8 × 0,5 = 4 cm. Paso 2: área = 5 × 4 = 20 cm² (la cuarta parte de 80)."
+}
+},
+{
+"id": "P11-MAT-C016",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 10°–11°: determina el punto medio de un segmento en el plano cartesiano.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Calcula las coordenadas del punto medio entre dos ubicaciones dadas en un plano.",
+"contexto": "Una empresa de telecomunicaciones del Pacífico tiene dos antenas ubicadas, en un plano cuyas unidades son kilómetros, en los puntos M(−3, 4) y N(5, −2). Quiere instalar un repetidor exactamente en el punto medio entre ellas.",
+"enunciado": "¿En qué coordenadas debe instalarse el repetidor?",
+"opciones": {
+"A": "(4, −3)",
+"B": "(2, 2)",
+"C": "(1, 3)",
+"D": "(1, 1)"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Restar en lugar de sumar",
+"porque": "Elegiste (4, −3) porque calculaste la mitad de las diferencias: (5 − (−3))/2 y (−2 − 4)/2.",
+"pregunta_guia": "El punto medio, ¿es un promedio de las coordenadas o la mitad de la distancia entre ellas?",
+"aprende": "Punto medio = ((x₁ + x₂)/2, (y₁ + y₂)/2): se suman las coordenadas."
+},
+"B": {
+"error": "No dividir entre 2",
+"porque": "Elegiste (2, 2) porque sumaste las coordenadas pero olvidaste dividir entre 2.",
+"pregunta_guia": "¿Qué operación completa un promedio después de sumar?",
+"aprende": "(−3 + 5)/2 = 1 y (4 + (−2))/2 = 1."
+},
+"C": {
+"error": "Error de signo en y",
+"porque": "Elegiste (1, 3) porque sumaste 4 + 2 en lugar de 4 + (−2).",
+"pregunta_guia": "¿La ordenada de N es 2 o −2?",
+"aprende": "Conserva los signos: 4 + (−2) = 2, y 2/2 = 1."
+}
+},
+"explicacion": "Paso 1: x del punto medio = (−3 + 5)/2 = 2/2 = 1. Paso 2: y del punto medio = (4 + (−2))/2 = 2/2 = 1. Paso 3: el repetidor va en (1, 1).",
+"tip": "El punto medio es el promedio de las x y el promedio de las y.",
+"truco": "Medio = suma entre dos, coordenada por coordenada.",
+"estrategia_icfes": "El ICFES pide ubicar puntos de equilibrio, repetidores o centros. Aplica el promedio y verifica que el punto quede entre los dos extremos en ambos ejes.",
+"temas": [
+"punto medio",
+"plano cartesiano",
+"números enteros"
+],
+"gemela": {
+"enunciado": "Dos puntos de una ciclorruta están en (−6, 2) y (2, 8). ¿Cuál es el punto medio?",
+"opciones": {
+"A": "(−2, 5)",
+"B": "(4, 3)",
+"C": "(−4, 10)",
+"D": "(−2, 3)"
+},
+"correcta": "A",
+"explicacion": "Paso 1: x = (−6 + 2)/2 = −2. Paso 2: y = (2 + 8)/2 = 5. Paso 3: punto medio (−2, 5)."
+}
+},
+{
+"id": "P11-MAT-C017",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: usa el recíproco del teorema de Pitágoras para justificar si un triángulo es rectángulo.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica con el recíproco del teorema de Pitágoras que un ángulo es recto a partir de tres medidas.",
+"contexto": "Un carpintero de Tuluá quiere comprobar que la esquina de una mesa forma un ángulo recto. Desde la esquina marca 60 cm sobre un borde y 80 cm sobre el otro, y la distancia entre las dos marcas es de 100 cm.",
+"enunciado": "¿Cuál justificación es válida?",
+"opciones": {
+"A": "El ángulo es recto, porque 60² + 80² = 3.600 + 6.400 = 10.000 = 100².",
+"B": "El ángulo no es recto, porque 60 + 80 = 140 y no es igual a 100.",
+"C": "El ángulo es recto, porque 60, 80 y 100 son múltiplos de 10.",
+"D": "No se puede saber sin medir el ángulo con un transportador."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Comparar suma de lados",
+"porque": "Elegiste B porque sumaste las longitudes en lugar de sus cuadrados.",
+"pregunta_guia": "El teorema de Pitágoras, ¿relaciona los lados o los cuadrados de los lados?",
+"aprende": "Un triángulo es rectángulo si y solo si a² + b² = c², con c el lado mayor."
+},
+"C": {
+"error": "Justificación irrelevante",
+"porque": "Elegiste C porque relacionaste el ángulo recto con que los números sean redondos.",
+"pregunta_guia": "Los lados 10, 20 y 30 también son múltiplos de 10. ¿Forman un triángulo rectángulo?",
+"aprende": "Lo que importa es la relación a² + b² = c², no el tipo de número."
+},
+"D": {
+"error": "Desconocer el recíproco de Pitágoras",
+"porque": "Elegiste D porque pensaste que solo un instrumento de ángulos permite decidir.",
+"pregunta_guia": "Si los lados cumplen a² + b² = c², ¿qué puedes concluir del ángulo opuesto a c?",
+"aprende": "El recíproco de Pitágoras permite verificar ángulos rectos solo con longitudes (es el método 3-4-5 de los constructores)."
+}
+},
+"explicacion": "Paso 1: el lado mayor es 100 cm. Paso 2: 60² + 80² = 3.600 + 6.400 = 10.000. Paso 3: 100² = 10.000. Paso 4: como a² + b² = c², por el recíproco del teorema de Pitágoras el ángulo entre los bordes de 60 y 80 cm es recto.",
+"tip": "Los maestros de obra usan el truco 3-4-5 (o 60-80-100) para escuadrar esquinas.",
+"truco": "a² + b² = c² → recto; a² + b² > c² → agudo; a² + b² < c² → obtuso.",
+"estrategia_icfes": "En argumentación el ICFES pide elegir la justificación que valida una conclusión. La razón debe usar una propiedad matemática pertinente, no una coincidencia numérica.",
+"temas": [
+"recíproco del teorema de Pitágoras",
+"triángulo rectángulo",
+"justificación"
+],
+"gemela": {
+"enunciado": "Otro carpintero mide 50 cm, 120 cm y 125 cm entre las marcas. ¿Cuál justificación es válida?",
+"opciones": {
+"A": "Es recto, porque 50 + 120 > 125.",
+"B": "No es recto, porque 50² + 120² = 16.900 y 125² = 15.625, que son distintos.",
+"C": "Es recto, porque las tres medidas son múltiplos de 5.",
+"D": "No se puede saber sin transportador."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 50² + 120² = 2.500 + 14.400 = 16.900. Paso 2: 125² = 15.625. Paso 3: no son iguales, así que el ángulo no es recto (para serlo, la diagonal debería medir 130 cm)."
+}
+},
+{
+"id": "P11-MAT-C018",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula volúmenes de conos, cilindros y esferas en situaciones cotidianas.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Obtiene el radio a partir del diámetro y aplica la fórmula del volumen del cono.",
+"contexto": "Una heladería de Cali vende conos de galleta con forma de cono circular recto. Cada cono tiene 6 cm de diámetro en la boca y 10 cm de profundidad. Usa π ≈ 3,14.",
+"enunciado": "¿Cuál es el volumen interior de cada cono?",
+"opciones": {
+"A": "282,6 cm³",
+"B": "94,2 cm³",
+"C": "376,8 cm³",
+"D": "31,4 cm³"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar la fórmula del cilindro",
+"porque": "Elegiste 282,6 cm³ porque calculaste π r² h sin dividir entre 3.",
+"pregunta_guia": "¿Cuántos conos de igual base y altura se necesitan para llenar un cilindro?",
+"aprende": "V cono = (1/3) π r² h: un tercio del cilindro."
+},
+"C": {
+"error": "Usar el diámetro como radio",
+"porque": "Elegiste 376,8 cm³ porque usaste r = 6 cm en lugar de r = 3 cm.",
+"pregunta_guia": "Si la boca mide 6 cm de lado a lado, ¿cuánto mide del centro al borde?",
+"aprende": "r = d/2 = 3 cm."
+},
+"D": {
+"error": "No elevar el radio al cuadrado",
+"porque": "Elegiste 31,4 cm³ porque multiplicaste (1/3) × 3,14 × 3 × 10, sin elevar el radio al cuadrado.",
+"pregunta_guia": "El área de la base circular, ¿es π r o π r²?",
+"aprende": "El área del círculo es π r² = 3,14 × 9 = 28,26 cm²."
+}
+},
+"explicacion": "Paso 1: radio r = 6 ÷ 2 = 3 cm. Paso 2: área de la base = π r² = 3,14 × 9 = 28,26 cm². Paso 3: V = (1/3) × 28,26 × 10 = 282,6 ÷ 3. Paso 4: V = 94,2 cm³.",
+"tip": "En conos y pirámides no olvides el 1/3; en cilindros y prismas no va.",
+"truco": "Puntiagudo (cono, pirámide) → divide entre 3.",
+"estrategia_icfes": "En nivel avanzado el ICFES combina dos trampas: diámetro en lugar de radio y la fracción de la fórmula. Escribe la fórmula antes de reemplazar y subraya cada dato.",
+"temas": [
+"volumen del cono",
+"radio y diámetro",
+"cuerpos redondos"
+],
+"gemela": {
+"enunciado": "Un embudo cónico tiene 4 cm de diámetro y 9 cm de altura (π ≈ 3,14). ¿Cuál es su volumen?",
+"opciones": {
+"A": "113,04 cm³",
+"B": "150,72 cm³",
+"C": "18,84 cm³",
+"D": "37,68 cm³"
+},
+"correcta": "D",
+"explicacion": "Paso 1: r = 2 cm. Paso 2: π r² = 3,14 × 4 = 12,56 cm². Paso 3: V = (1/3) × 12,56 × 9 = 37,68 cm³."
+}
+},
+{
+"id": "P11-MAT-C019",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: describe traslaciones en el plano mediante un vector de desplazamiento y halla las imágenes de puntos.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: predigo y comparo los resultados de aplicar transformaciones rígidas (traslaciones, rotaciones, reflexiones) sobre figuras bidimensionales.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Deduce el vector de una traslación a partir de un punto y su imagen, y lo aplica a otro vértice.",
+"contexto": "En un videojuego que programan estudiantes de CENTEC, una nave triangular tiene vértices P(1, 2), Q(3, 2) y R(2, 5). Al moverse en línea recta sin girar, el vértice P llega al punto (4, −1).",
+"enunciado": "¿A qué punto llega el vértice R?",
+"opciones": {
+"A": "(5, 8)",
+"B": "(−1, 8)",
+"C": "(5, 2)",
+"D": "(6, 2)"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Error de signo en el desplazamiento vertical",
+"porque": "Elegiste (5, 8) porque sumaste 3 a la ordenada, cuando P bajó 3 unidades.",
+"pregunta_guia": "P pasó de y = 2 a y = −1. ¿Subió o bajó? ¿Cuántas unidades?",
+"aprende": "El vector es (4 − 1, −1 − 2) = (3, −3): 3 a la derecha y 3 hacia abajo."
+},
+"B": {
+"error": "Aplicar el vector opuesto",
+"porque": "Elegiste (−1, 8) porque moviste R en sentido contrario al de P.",
+"pregunta_guia": "En una traslación, ¿todos los puntos se mueven en la misma dirección o en direcciones distintas?",
+"aprende": "Todos los puntos se desplazan con el mismo vector (3, −3)."
+},
+"D": {
+"error": "Sumar coordenadas de la imagen",
+"porque": "Elegiste (6, 2) porque sumaste a la x de R la x de la imagen de P (2 + 4) en lugar del desplazamiento.",
+"pregunta_guia": "¿Cuánto se movió P horizontalmente: 4 unidades o 4 − 1?",
+"aprende": "El desplazamiento es la diferencia entre imagen y punto original."
+}
+},
+"explicacion": "Paso 1: el vector de traslación es imagen − original: (4 − 1, −1 − 2) = (3, −3). Paso 2: se aplica el mismo vector a R: (2 + 3, 5 + (−3)). Paso 3: R' = (5, 2).",
+"tip": "En una traslación la figura no gira ni cambia de tamaño: todos los puntos se mueven igual.",
+"truco": "Vector = llegada − salida.",
+"estrategia_icfes": "El ICFES da un punto y su imagen para que deduzcas la transformación. Calcula el vector y aplícalo; verifica con otro vértice que la figura conserve su forma.",
+"temas": [
+"traslaciones",
+"vectores en el plano",
+"transformaciones rígidas"
+],
+"gemela": {
+"enunciado": "En una traslación, el punto (−2, 1) pasa a (1, 4). ¿A dónde pasa el punto (0, −2)?",
+"opciones": {
+"A": "(3, 1)",
+"B": "(−3, −5)",
+"C": "(3, −5)",
+"D": "(1, 2)"
+},
+"correcta": "A",
+"explicacion": "Paso 1: vector = (1 − (−2), 4 − 1) = (3, 3). Paso 2: (0 + 3, −2 + 3) = (3, 1)."
+}
+},
+{
+"id": "P11-MAT-C020",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°: resuelve problemas de ángulos de elevación y depresión con razones trigonométricas.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Modela una situación de ángulo de depresión con un triángulo rectángulo y despeja la distancia horizontal con la tangente.",
+"contexto": "Desde la terraza de un edificio de 30 m de altura en el centro de Cali, Julián observa un carro estacionado en la calle con un ángulo de depresión de 35°. El suelo es horizontal. Usa sen 35° ≈ 0,57; cos 35° ≈ 0,82; tan 35° ≈ 0,70.",
+"enunciado": "¿A qué distancia horizontal aproximada de la base del edificio está el carro?",
+"opciones": {
+"A": "21,0 m",
+"B": "52,6 m",
+"C": "36,6 m",
+"D": "42,9 m"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Multiplicar en lugar de dividir",
+"porque": "Elegiste 21,0 m porque calculaste 30 × tan 35°, poniendo la altura como cateto adyacente.",
+"pregunta_guia": "En el triángulo con vértice en el carro, ¿la altura del edificio es opuesta o adyacente al ángulo de 35°?",
+"aprende": "tan 35° = 30/d, así que d = 30 ÷ 0,70."
+},
+"B": {
+"error": "Usar el seno",
+"porque": "Elegiste 52,6 m porque calculaste 30 ÷ sen 35°, que es la línea de visión (hipotenusa), no la distancia horizontal.",
+"pregunta_guia": "¿La pregunta pide la distancia por el aire hasta el carro o por el suelo?",
+"aprende": "La distancia horizontal es un cateto; se relaciona con la altura mediante la tangente."
+},
+"C": {
+"error": "Usar el coseno",
+"porque": "Elegiste 36,6 m porque dividiste 30 entre cos 35°, mezclando razones.",
+"pregunta_guia": "¿Qué razón relaciona el cateto opuesto con el cateto adyacente?",
+"aprende": "tan θ = opuesto/adyacente; coseno usa la hipotenusa."
+}
+},
+"explicacion": "Paso 1: el ángulo de depresión desde la terraza es igual al ángulo de elevación desde el carro (ángulos alternos internos): 35°. Paso 2: en el triángulo con vértice en el carro, la altura (30 m) es el cateto opuesto y la distancia d es el adyacente. Paso 3: tan 35° = 30/d. Paso 4: d = 30 ÷ 0,70 ≈ 42,9 m.",
+"tip": "Pasa el ángulo de depresión al suelo: es igual al de elevación por ser alternos internos entre paralelas.",
+"truco": "Altura y distancia horizontal = catetos → tangente.",
+"estrategia_icfes": "El ICFES usa ángulos de depresión para confundir la ubicación del ángulo. Dibuja la horizontal desde el observador, traslada el ángulo al suelo y elige la razón.",
+"temas": [
+"ángulo de depresión",
+"tangente",
+"ángulos alternos internos"
+],
+"gemela": {
+"enunciado": "Desde un mirador de 20 m de altura se ve una bicicleta con un ángulo de depresión de 40° (sen 40° ≈ 0,64; cos 40° ≈ 0,77; tan 40° ≈ 0,84). ¿A qué distancia horizontal está la bicicleta?",
+"opciones": {
+"A": "16,8 m",
+"B": "23,8 m",
+"C": "31,3 m",
+"D": "26,0 m"
+},
+"correcta": "B",
+"explicacion": "Paso 1: tan 40° = 20/d. Paso 2: d = 20 ÷ 0,84 ≈ 23,8 m."
+}
+},
+{
+"id": "P11-MAT-C021",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: diferencia perímetro y área, y usa contraejemplos para refutar generalizaciones.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 6°–7°: analizo y explico relaciones de dependencia entre cantidades que varían, como el área y el perímetro de figuras.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Selecciona un contraejemplo válido que refuta una generalización sobre perímetro y área.",
+"contexto": "En una reunión de la junta de acción comunal, un vecino afirma: «Si dos lotes rectangulares necesitan la misma cantidad de malla para cercarse, entonces tienen la misma área». Las medidas están en metros.",
+"enunciado": "¿Cuál par de lotes es un contraejemplo que demuestra que la afirmación es falsa?",
+"opciones": {
+"A": "Un lote de 10 × 10 y otro de 20 × 5.",
+"B": "Un lote de 10 × 10 y otro de 15 × 5.",
+"C": "Un lote de 8 × 12 y otro de 6 × 16.",
+"D": "Un lote de 4 × 9 y otro de 6 × 6."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No verificar la hipótesis",
+"porque": "Elegiste A porque las áreas son iguales (100 m²) y no revisaste que los perímetros son distintos (40 m y 50 m).",
+"pregunta_guia": "Para refutar la afirmación, ¿qué debe ser igual en los dos lotes y qué debe ser distinto?",
+"aprende": "Un contraejemplo debe cumplir la condición (igual perímetro) y fallar la conclusión (distinta área)."
+},
+"C": {
+"error": "Elegir un caso que no cumple la condición",
+"porque": "Elegiste C porque los lotes se ven distintos, pero tienen perímetros diferentes (40 m y 44 m) y la misma área (96 m²).",
+"pregunta_guia": "¿Cuánta malla necesita cada lote? ¿Es la misma?",
+"aprende": "Si la condición no se cumple, el ejemplo no dice nada sobre la afirmación."
+},
+"D": {
+"error": "Confundir los papeles de perímetro y área",
+"porque": "Elegiste D porque notaste una diferencia, pero ahí los perímetros son distintos (26 m y 24 m) y las áreas iguales (36 m²).",
+"pregunta_guia": "¿La afirmación parte de igual perímetro o de igual área?",
+"aprende": "Lee bien el «si…, entonces…»: la condición es el perímetro igual."
+}
+},
+"explicacion": "Paso 1: lote 10 × 10: perímetro 2(10 + 10) = 40 m; área 100 m². Paso 2: lote 15 × 5: perímetro 2(15 + 5) = 40 m; área 75 m². Paso 3: necesitan la misma malla pero tienen áreas diferentes. Paso 4: el par B cumple la condición y contradice la conclusión, por eso refuta la afirmación.",
+"tip": "Para refutar «si P entonces Q» busca un caso con P verdadero y Q falso.",
+"truco": "Con perímetro fijo, el rectángulo de mayor área es el cuadrado.",
+"estrategia_icfes": "El ICFES pide identificar contraejemplos. Verifica en cada opción la condición y la conclusión por separado; solo sirve la que cumple la primera y falla la segunda.",
+"temas": [
+"perímetro y área",
+"contraejemplos",
+"razonamiento lógico"
+],
+"gemela": {
+"enunciado": "Alguien afirma: «El rectángulo de mayor perímetro siempre tiene mayor área». ¿Cuál par la refuta (medidas en metros)?",
+"opciones": {
+"A": "2 × 3 y 4 × 5.",
+"B": "3 × 3 y 3 × 6.",
+"C": "5 × 5 y 4 × 6.",
+"D": "1 × 20 y 6 × 6."
+},
+"correcta": "D",
+"explicacion": "Paso 1: 1 × 20 tiene perímetro 42 m y área 20 m². Paso 2: 6 × 6 tiene perímetro 24 m y área 36 m². Paso 3: el de mayor perímetro tiene menor área: la afirmación es falsa."
+}
+},
+{
+"id": "P11-MAT-C022",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: identifica y cuenta los elementos (caras, aristas y vértices) de prismas y pirámides.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 6°–7°: represento objetos tridimensionales desde diferentes posiciones y vistas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Relaciona la forma de la base de un prisma con su número de aristas.",
+"contexto": "Una empresa de empaques de Yumbo fabrica cajas de regalo con forma de prisma hexagonal recto: dos bases hexagonales iguales unidas por caras laterales rectangulares. Para reforzar los bordes, pega cinta en cada arista.",
+"enunciado": "¿Cuántas aristas debe reforzar en cada caja?",
+"opciones": {
+"A": "12",
+"B": "8",
+"C": "18",
+"D": "24"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Contar vértices en lugar de aristas",
+"porque": "Elegiste 12 porque contaste los vértices (6 arriba y 6 abajo).",
+"pregunta_guia": "¿Un vértice es una esquina o un borde?",
+"aprende": "Las aristas son los bordes donde se unen dos caras; los vértices son las esquinas."
+},
+"B": {
+"error": "Contar caras",
+"porque": "Elegiste 8 porque contaste las caras: 2 bases y 6 laterales.",
+"pregunta_guia": "¿La cinta se pega sobre las caras o sobre los bordes?",
+"aprende": "Caras = 8, vértices = 12, aristas = 18."
+},
+"D": {
+"error": "Contar cada arista dos veces",
+"porque": "Elegiste 24 porque contaste 4 bordes por cada cara lateral (6 × 4), repitiendo los que comparten caras vecinas.",
+"pregunta_guia": "Dos caras laterales vecinas, ¿comparten un borde?",
+"aprende": "Aristas: 6 de la base superior + 6 de la inferior + 6 laterales = 18."
+}
+},
+"explicacion": "Paso 1: cada base hexagonal tiene 6 aristas: 6 + 6 = 12. Paso 2: las aristas laterales unen los vértices correspondientes de las bases: 6. Paso 3: total = 12 + 6 = 18 aristas. Paso 4: comprobación con Euler: C + V − A = 8 + 12 − 18 = 2.",
+"tip": "En un prisma de base con n lados: aristas = 3n, vértices = 2n, caras = n + 2.",
+"truco": "Fórmula de Euler para poliedros convexos: C + V − A = 2.",
+"estrategia_icfes": "El ICFES pregunta por elementos de sólidos en contextos de empaques o construcción. Cuenta por grupos (bases y laterales) y verifica con la fórmula de Euler.",
+"temas": [
+"prismas",
+"elementos de los poliedros",
+"fórmula de Euler"
+],
+"gemela": {
+"enunciado": "Una lámpara tiene forma de pirámide de base pentagonal. ¿Cuántas aristas tiene?",
+"opciones": {
+"A": "6",
+"B": "10",
+"C": "5",
+"D": "15"
+},
+"correcta": "B",
+"explicacion": "Paso 1: la base tiene 5 aristas. Paso 2: del vértice superior salen 5 aristas hacia la base. Paso 3: total 10 (Euler: 6 caras + 6 vértices − 10 = 2)."
+}
+},
+{
+"id": "P11-MAT-C023",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula áreas de regiones circulares y de coronas circulares como diferencia de áreas.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Plantea el área de un camino circular como la diferencia entre dos círculos concéntricos.",
+"contexto": "En un parque de Cali hay una fuente circular de 3 m de radio. Alrededor de ella se construirá un camino de adoquines de 1 m de ancho que la rodea completamente. Usa π ≈ 3,14.",
+"enunciado": "¿Cuál es el área del camino de adoquines?",
+"opciones": {
+"A": "21,98 m²",
+"B": "3,14 m²",
+"C": "50,24 m²",
+"D": "28,26 m²"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar el ancho como radio",
+"porque": "Elegiste 3,14 m² porque calculaste π × 1², como si el camino fuera un círculo de radio 1 m.",
+"pregunta_guia": "El camino, ¿es un círculo pequeño o un anillo alrededor de la fuente?",
+"aprende": "El anillo es el círculo grande (r = 4) menos el círculo de la fuente (r = 3)."
+},
+"C": {
+"error": "No restar la fuente",
+"porque": "Elegiste 50,24 m² porque calculaste el área del círculo completo de radio 4 m, incluyendo la fuente.",
+"pregunta_guia": "¿Se ponen adoquines sobre el agua de la fuente?",
+"aprende": "Área del camino = π(4²) − π(3²)."
+},
+"D": {
+"error": "Calcular solo la fuente",
+"porque": "Elegiste 28,26 m² porque calculaste π × 3², que es el área de la fuente.",
+"pregunta_guia": "¿Qué región se va a cubrir con adoquines?",
+"aprende": "La fuente se resta; el camino está entre r = 3 y r = 4."
+}
+},
+"explicacion": "Paso 1: radio exterior = 3 + 1 = 4 m. Paso 2: área del círculo exterior = 3,14 × 16 = 50,24 m². Paso 3: área de la fuente = 3,14 × 9 = 28,26 m². Paso 4: área del camino = 50,24 − 28,26 = 21,98 m² (equivale a π(16 − 9) = 7π).",
+"tip": "Para anillos, factoriza: π(R² − r²) ahorra cálculos.",
+"truco": "Corona circular: área grande − área pequeña.",
+"estrategia_icfes": "El ICFES plantea caminos, marcos o bordes alrededor de figuras. Identifica la figura exterior y la interior y resta; no confundas el ancho del borde con un radio.",
+"temas": [
+"área del círculo",
+"corona circular",
+"diferencia de áreas"
+],
+"gemela": {
+"enunciado": "Una fuente circular de 2 m de radio se rodea con un camino de 1 m de ancho (π ≈ 3,14). ¿Cuál es el área del camino?",
+"opciones": {
+"A": "28,26 m²",
+"B": "15,7 m²",
+"C": "3,14 m²",
+"D": "12,56 m²"
+},
+"correcta": "B",
+"explicacion": "Paso 1: radio exterior 3 m. Paso 2: área = 3,14 × (9 − 4) = 3,14 × 5 = 15,7 m²."
+}
+},
+{
+"id": "P11-MAT-C024",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 10°–11°: clasifica cuadriláteros ubicados en el plano cartesiano a partir de las longitudes y direcciones de sus lados.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Analiza las coordenadas de los vértices para decidir qué tipo de cuadrilátero forman.",
+"contexto": "Un arquitecto representa la planta de una terraza con los vértices, en orden, K(0, 0), L(4, 0), M(5, 3) y N(1, 3), con unidades en metros.",
+"enunciado": "¿Qué tipo de cuadrilátero es KLMN?",
+"opciones": {
+"A": "Un rectángulo.",
+"B": "Un cuadrado.",
+"C": "Un rombo.",
+"D": "Un paralelogramo que no es rectángulo."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Suponer ángulos rectos por tener lados horizontales",
+"porque": "Elegiste A porque KL y NM son horizontales y supusiste que los otros lados son verticales.",
+"pregunta_guia": "Del punto L(4, 0) al punto M(5, 3), ¿el lado sube recto o se inclina?",
+"aprende": "LM se desplaza 1 a la derecha y 3 arriba: es inclinado, así que no hay ángulos rectos."
+},
+"B": {
+"error": "Suponer lados iguales y ángulos rectos",
+"porque": "Elegiste B porque pensaste que todos los lados miden lo mismo.",
+"pregunta_guia": "¿Cuánto mide KL y cuánto mide LM?",
+"aprende": "KL = 4 m y LM = √(1² + 3²) = √10 ≈ 3,16 m: no son iguales."
+},
+"C": {
+"error": "Suponer los cuatro lados iguales",
+"porque": "Elegiste C porque viste lados opuestos paralelos y supusiste que los cuatro lados son iguales.",
+"pregunta_guia": "¿Basta que los lados opuestos sean paralelos para que sea rombo?",
+"aprende": "Un rombo exige cuatro lados iguales; aquí hay dos medidas distintas (4 y √10)."
+}
+},
+"explicacion": "Paso 1: KL va de (0, 0) a (4, 0): horizontal, mide 4. NM va de (1, 3) a (5, 3): horizontal, mide 4. Paso 2: LM va de (4, 0) a (5, 3): desplazamiento (1, 3), mide √10. KN va de (0, 0) a (1, 3): desplazamiento (1, 3), mide √10. Paso 3: los lados opuestos son paralelos e iguales: es un paralelogramo. Paso 4: los lados son inclinados respecto a la base y miden distinto, así que no es rectángulo, ni cuadrado, ni rombo.",
+"tip": "Compara los desplazamientos (Δx, Δy) de lados opuestos: si son iguales, los lados son paralelos y congruentes.",
+"truco": "Iguales desplazamientos en lados opuestos → paralelogramo.",
+"estrategia_icfes": "El ICFES describe figuras con coordenadas y pide clasificarlas. Calcula longitudes y direcciones de los lados y aplica las definiciones de cada cuadrilátero.",
+"temas": [
+"cuadriláteros",
+"plano cartesiano",
+"paralelismo"
+],
+"gemela": {
+"enunciado": "Los vértices de un patio son (1, 1), (4, 1), (4, 5) y (1, 5), en metros. ¿Qué cuadrilátero forman?",
+"opciones": {
+"A": "Un cuadrado.",
+"B": "Un rectángulo que no es cuadrado.",
+"C": "Un rombo.",
+"D": "Un trapecio con un solo par de lados paralelos."
+},
+"correcta": "B",
+"explicacion": "Paso 1: lados horizontales de 3 m y verticales de 4 m. Paso 2: ángulos rectos y lados distintos: rectángulo que no es cuadrado."
+}
+},
+{
+"id": "P11-MAT-C025",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: justifica la relación entre la escala lineal de un plano y la razón entre las áreas.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: justifico la pertinencia de utilizar unidades de medida estandarizadas en situaciones tomadas de distintas ciencias.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta un procedimiento que aplica la escala lineal a un área y elige la justificación correcta.",
+"contexto": "En un plano a escala 1:100 de la biblioteca del colegio, la sala de lectura ocupa 20 cm². Pedro concluye: «Como la escala es 1:100, el área real es 20 × 100 = 2.000 cm²».",
+"enunciado": "¿Cuál afirmación evalúa correctamente el razonamiento de Pedro?",
+"opciones": {
+"A": "Pedro tiene razón, porque la escala indica que todo se multiplica por 100.",
+"B": "Pedro se equivoca, porque el área se multiplica por 100² = 10.000; el área real es 200.000 cm² = 20 m².",
+"C": "Pedro se equivoca, porque debía dividir entre 100; el área real es 0,2 cm².",
+"D": "Pedro se equivoca, porque el área se multiplica por 200, ya que tiene dos dimensiones; el área real es 4.000 cm²."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Aplicar la escala lineal a la superficie",
+"porque": "Elegiste A porque pensaste que la escala se aplica igual a longitudes y áreas.",
+"pregunta_guia": "Un cuadrado de 1 cm × 1 cm en el plano, ¿cuánto mide de lado en la realidad? ¿Cuál es su área real?",
+"aprende": "1 cm² del plano = 100 cm × 100 cm = 10.000 cm² reales."
+},
+"C": {
+"error": "Invertir la escala",
+"porque": "Elegiste C porque pensaste que la realidad es más pequeña que el plano.",
+"pregunta_guia": "¿La sala real es más grande o más pequeña que su dibujo?",
+"aprende": "En 1:100 la realidad es 100 veces más grande en cada longitud."
+},
+"D": {
+"error": "Sumar factores en vez de multiplicarlos",
+"porque": "Elegiste D porque reconociste las dos dimensiones, pero sumaste 100 + 100 en lugar de multiplicar 100 × 100.",
+"pregunta_guia": "Si el largo se multiplica por 100 y el ancho también, ¿por cuánto se multiplica largo × ancho?",
+"aprende": "Factor de área = factor lineal al cuadrado: 100 × 100 = 10.000."
+}
+},
+"explicacion": "Paso 1: en escala 1:100, cada longitud real es 100 veces la del plano. Paso 2: el área depende de dos longitudes, así que se multiplica por 100 × 100 = 10.000. Paso 3: área real = 20 cm² × 10.000 = 200.000 cm². Paso 4: como 1 m² = 10.000 cm², el área real es 20 m². Pedro se equivocó al usar el factor 100.",
+"tip": "Verifica con un cuadradito de 1 cm del plano: te muestra el factor de área sin errores.",
+"truco": "Escala 1:k → áreas × k², volúmenes × k³.",
+"estrategia_icfes": "El ICFES presenta un procedimiento con un error y pide evaluarlo. Fíjate que la opción correcta diga por qué falla y dé el cálculo correcto.",
+"temas": [
+"escalas",
+"razón entre áreas",
+"conversión de unidades de área"
+],
+"gemela": {
+"enunciado": "Una maqueta a escala 1:50 de un tanque de agua tiene un volumen de 30 cm³. ¿Cuál es el volumen real del tanque?",
+"opciones": {
+"A": "1.500 cm³",
+"B": "75.000 cm³",
+"C": "3,75 m³",
+"D": "0,6 cm³"
+},
+"correcta": "C",
+"explicacion": "Paso 1: factor de volumen = 50³ = 125.000. Paso 2: 30 × 125.000 = 3.750.000 cm³. Paso 3: 1 m³ = 1.000.000 cm³, así que el volumen es 3,75 m³."
+}
+},
+{
+"id": "P11-MAT-C026",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula el área superficial de prismas a partir de su desarrollo plano en situaciones de diseño de empaques.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Identifica las caras que forman una caja sin tapa y suma sus áreas.",
+"contexto": "En el taller de emprendimiento SENA del colegio, un grupo diseña bandejas de cartón para frutas del Valle: cajas con forma de prisma rectangular sin tapa, de 20 cm de largo, 15 cm de ancho y 10 cm de alto. No se cuentan pestañas ni solapas.",
+"enunciado": "¿Cuántos centímetros cuadrados de cartón se necesitan para cada bandeja?",
+"opciones": {
+"A": "1.300 cm²",
+"B": "3.000 cm²",
+"C": "1.000 cm²",
+"D": "700 cm²"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Incluir la tapa",
+"porque": "Elegiste 1.300 cm² porque sumaste las 6 caras del prisma, incluida la tapa que la bandeja no tiene.",
+"pregunta_guia": "¿Cuántas caras tiene una caja sin tapa?",
+"aprende": "Sin tapa: 5 caras (base y 4 laterales)."
+},
+"B": {
+"error": "Calcular el volumen",
+"porque": "Elegiste 3.000 cm² porque multiplicaste 20 × 15 × 10, que es el volumen en cm³.",
+"pregunta_guia": "¿El cartón cubre la superficie o llena el espacio interior?",
+"aprende": "El material de un empaque se calcula con el área superficial (cm²), no con el volumen (cm³)."
+},
+"D": {
+"error": "Olvidar la base",
+"porque": "Elegiste 700 cm² porque sumaste solo las 4 caras laterales.",
+"pregunta_guia": "¿Las frutas quedarían sostenidas sin el fondo?",
+"aprende": "Base (20 × 15 = 300) + laterales (700) = 1.000 cm²."
+}
+},
+"explicacion": "Paso 1: base: 20 × 15 = 300 cm². Paso 2: dos caras laterales largas: 2 × (20 × 10) = 400 cm². Paso 3: dos caras laterales cortas: 2 × (15 × 10) = 300 cm². Paso 4: total = 300 + 400 + 300 = 1.000 cm².",
+"tip": "Dibuja el desarrollo plano: verás exactamente cuántas caras hay y sus medidas.",
+"truco": "Caja cerrada: 2(la + lh + ah). Sin tapa: resta una vez largo × ancho.",
+"estrategia_icfes": "El ICFES usa empaques para evaluar área superficial. Lee si la caja tiene tapa, cuenta las caras y no confundas cm² con cm³.",
+"temas": [
+"área superficial",
+"prismas",
+"desarrollos planos"
+],
+"sabic": "Técnico SENA",
+"gemela": {
+"enunciado": "Una caja sin tapa mide 30 cm de largo, 20 cm de ancho y 10 cm de alto. ¿Cuánto cartón se necesita?",
+"opciones": {
+"A": "2.200 cm²",
+"B": "1.600 cm²",
+"C": "6.000 cm²",
+"D": "1.000 cm²"
+},
+"correcta": "B",
+"explicacion": "Paso 1: base 30 × 20 = 600 cm². Paso 2: laterales 2(30 × 10) + 2(20 × 10) = 600 + 400 = 1.000 cm². Paso 3: total 1.600 cm²."
+}
+},
+{
+"id": "P11-MAT-C027",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°–11°: representa la circunferencia en el plano cartesiano mediante su ecuación y reconoce los puntos que le pertenecen.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico en forma visual, gráfica y algebraica algunas propiedades de las curvas que se observan en los bordes obtenidos por cortes longitudinales, diagonales y transversales en un cilindro y en un cono.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Verifica qué punto está a una distancia igual al radio del centro de una circunferencia.",
+"contexto": "Un aspersor de riego en una cancha de Candelaria está ubicado en el punto C(2, −1) de un plano con unidades en metros. Su chorro moja exactamente el borde de una circunferencia de 5 m de radio con centro en el aspersor.",
+"enunciado": "¿Cuál de los siguientes puntos está exactamente sobre el borde mojado?",
+"opciones": {
+"A": "(1, 5)",
+"B": "(3, 1)",
+"C": "(4, 2)",
+"D": "(5, 3)"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Cambiar los signos del centro",
+"porque": "Elegiste (1, 5) porque usaste (x + 2)² + (y − 1)² = 25, con el centro en (−2, 1).",
+"pregunta_guia": "Si el centro es (2, −1), ¿la ecuación lleva (x − 2) o (x + 2)?",
+"aprende": "Centro (h, k): (x − h)² + (y − k)² = r². Con k = −1 queda (y + 1)²."
+},
+"B": {
+"error": "No elevar el radio al cuadrado",
+"porque": "Elegiste (3, 1) porque comprobaste que (3 − 2)² + (1 + 1)² = 5, comparando con r en lugar de r².",
+"pregunta_guia": "En la ecuación de la circunferencia, ¿el lado derecho es r o r²?",
+"aprende": "Para r = 5, el lado derecho es 25; (3, 1) está a √5 ≈ 2,24 m del centro."
+},
+"C": {
+"error": "Sumar distancias sin Pitágoras",
+"porque": "Elegiste (4, 2) porque sumaste los desplazamientos 2 + 3 = 5 sin elevar al cuadrado.",
+"pregunta_guia": "¿La distancia en línea recta se obtiene sumando los desplazamientos o con √(Δx² + Δy²)?",
+"aprende": "La distancia real es √(2² + 3²) = √13 ≈ 3,6 m, menor que 5."
+}
+},
+"explicacion": "Paso 1: la ecuación de la circunferencia es (x − 2)² + (y + 1)² = 25. Paso 2: prueba con (5, 3): (5 − 2)² + (3 + 1)² = 9 + 16 = 25. Paso 3: el punto (5, 3) está a 5 m del aspersor, justo en el borde. Paso 4: los otros dan 37, 5 y 13, distintos de 25.",
+"tip": "Pertenecer a la circunferencia es estar exactamente a distancia r del centro.",
+"truco": "Triple pitagórico 3-4-5: desplazamientos de 3 y 4 desde el centro dan distancia 5.",
+"estrategia_icfes": "El ICFES pide verificar puntos en curvas. Sustituye cada opción en la ecuación; cuida los signos del centro y no olvides elevar el radio al cuadrado.",
+"temas": [
+"ecuación de la circunferencia",
+"distancia entre puntos",
+"plano cartesiano"
+],
+"gemela": {
+"enunciado": "Una circunferencia tiene centro (−1, 2) y radio 5. ¿Cuál punto está sobre ella?",
+"opciones": {
+"A": "(1, 3)",
+"B": "(2, 4)",
+"C": "(2, 6)",
+"D": "(3, 2)"
+},
+"correcta": "C",
+"explicacion": "Paso 1: ecuación (x + 1)² + (y − 2)² = 25. Paso 2: (2 + 1)² + (6 − 2)² = 9 + 16 = 25. Paso 3: (2, 6) pertenece; los demás dan 5, 13 y 16."
+}
+},
+{
+"id": "P11-MAT-C028",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), 10°: reconoce que las razones trigonométricas no son proporcionales a la medida del ángulo y justifica sus valores en ángulos notables.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Refuta un razonamiento proporcional aplicado a la función seno.",
+"contexto": "Mariana razona así para hallar la altura de una rampa: «sen 30° = 0,5. Como 60° es el doble de 30°, entonces sen 60° = 2 × 0,5 = 1».",
+"enunciado": "¿Cuál afirmación evalúa correctamente el razonamiento de Mariana?",
+"opciones": {
+"A": "Es incorrecto: sen 60° ≈ 0,87, porque el seno no es proporcional a la medida del ángulo.",
+"B": "Es correcto: el seno crece en la misma proporción que el ángulo.",
+"C": "Es incorrecto: sen 60° = 0,25, porque al duplicar el ángulo el seno se reduce a la mitad.",
+"D": "Es incorrecto: sen 60° = 0,5, porque sen 60° = cos 30° y ese valor es 0,5."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Suponer proporcionalidad",
+"porque": "Elegiste B porque pensaste que duplicar el ángulo duplica el seno.",
+"pregunta_guia": "Si fuera proporcional, ¿cuánto valdría sen 90°? ¿Y sen 180°? ¿Puede el seno superar a 1?",
+"aprende": "En un triángulo rectángulo el cateto nunca supera a la hipotenusa: sen θ ≤ 1. sen 90° = 1 y sen 180° = 0."
+},
+"C": {
+"error": "Inventar una relación inversa",
+"porque": "Elegiste C porque supusiste que el seno disminuye cuando el ángulo aumenta.",
+"pregunta_guia": "Entre 0° y 90°, al levantar más una rampa de igual longitud, ¿su altura aumenta o disminuye?",
+"aprende": "De 0° a 90° el seno crece, pero no proporcionalmente: de 0,5 a ≈ 0,87."
+},
+"D": {
+"error": "Confundir valores de seno y coseno",
+"porque": "Elegiste D porque recordaste que cos 60° = 0,5 y lo atribuiste a cos 30°.",
+"pregunta_guia": "En el triángulo 30-60-90, ¿cuál cateto es la mitad de la hipotenusa?",
+"aprende": "sen 60° = cos 30° = √3/2 ≈ 0,87; el valor 0,5 corresponde a sen 30° = cos 60°."
+}
+},
+"explicacion": "Paso 1: en el triángulo 30°-60°-90° de hipotenusa 2, los catetos miden 1 y √3. Paso 2: sen 30° = 1/2 = 0,5. Paso 3: sen 60° = √3/2 ≈ 0,87, no 1. Paso 4: el seno no es proporcional al ángulo; por eso el razonamiento de Mariana es incorrecto.",
+"tip": "Ten a mano el triángulo 30-60-90 (lados 1, √3, 2) y el 45-45-90 (lados 1, 1, √2).",
+"truco": "sen 0°, 30°, 45°, 60°, 90° = √0/2, √1/2, √2/2, √3/2, √4/2.",
+"estrategia_icfes": "El ICFES evalúa si un razonamiento matemático es válido. Busca un caso que lo contradiga (sen 90° = 1, no 1,5) y elige la opción que explique la causa del error.",
+"temas": [
+"razones trigonométricas",
+"ángulos notables",
+"proporcionalidad"
+],
+"gemela": {
+"enunciado": "Simón dice: «cos 0° = 1 y cos 90° = 0, así que cos 45° = 0,5, el punto medio». ¿Cuál evaluación es correcta?",
+"opciones": {
+"A": "Es correcto, porque el coseno baja de manera uniforme.",
+"B": "Es incorrecto: cos 45° = 1, igual que cos 0°.",
+"C": "Es incorrecto: cos 45° = √2/2 ≈ 0,71, porque el coseno no varía de manera lineal con el ángulo.",
+"D": "Es incorrecto: cos 45° = 0, igual que cos 90°."
+},
+"correcta": "C",
+"explicacion": "Paso 1: en el triángulo 45-45-90 de catetos 1, la hipotenusa es √2. Paso 2: cos 45° = 1/√2 = √2/2 ≈ 0,71. Paso 3: el coseno no cambia linealmente."
+}
+},
+{
+"id": "P11-MAT-C029",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: aplica el teorema de Tales y la semejanza de triángulos para calcular longitudes en estructuras.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Identifica los triángulos semejantes formados por una recta paralela a un lado y plantea la proporción con los lados completos.",
+"contexto": "La estructura triangular ABC de un techo tiene una viga DE paralela a la base BC; D está sobre el lado AB y E sobre el lado AC. Se sabe que AD = 4 m, DB = 6 m y que la viga DE mide 5 m.",
+"enunciado": "¿Cuánto mide la base BC de la estructura?",
+"opciones": {
+"A": "7,5 m",
+"B": "12,5 m",
+"C": "11 m",
+"D": "3,3 m"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar el segmento DB en lugar de AB",
+"porque": "Elegiste 7,5 m porque planteaste DE/BC = AD/DB, comparando con el segmento DB y no con el lado completo AB.",
+"pregunta_guia": "¿Qué triángulo es semejante a ADE: el que tiene lado DB o el que tiene lado AB?",
+"aprende": "ADE ~ ABC, así que DE/BC = AD/AB, con AB = 4 + 6 = 10 m."
+},
+"C": {
+"error": "Razonamiento aditivo",
+"porque": "Elegiste 11 m porque sumaste DE + DB = 5 + 6.",
+"pregunta_guia": "¿La semejanza conserva sumas o razones?",
+"aprende": "En figuras semejantes los lados son proporcionales: se multiplica por la razón de semejanza."
+},
+"D": {
+"error": "Invertir la razón",
+"porque": "Elegiste 3,3 m porque calculaste 5 × 4 ÷ 6, obteniendo una base menor que la viga.",
+"pregunta_guia": "¿La base BC debe ser mayor o menor que la viga DE, que está más cerca del vértice A?",
+"aprende": "BC es el lado del triángulo grande; debe superar a DE."
+}
+},
+"explicacion": "Paso 1: como DE ∥ BC, los triángulos ADE y ABC son semejantes (comparten el ángulo A y tienen ángulos correspondientes iguales). Paso 2: AB = AD + DB = 4 + 6 = 10 m. Paso 3: DE/BC = AD/AB → 5/BC = 4/10. Paso 4: BC = 5 × 10 ÷ 4 = 12,5 m.",
+"tip": "En la configuración de Tales, compara siempre el triángulo pequeño con el triángulo grande completo.",
+"truco": "Razón de semejanza = AD/AB = 4/10 = 0,4; BC = DE ÷ 0,4.",
+"estrategia_icfes": "En nivel avanzado el ICFES da segmentos parciales (AD y DB) para provocar el error. Separa los dos triángulos semejantes, escribe sus lados correspondientes y plantea la proporción.",
+"temas": [
+"teorema de Tales",
+"semejanza de triángulos",
+"proporciones"
+],
+"gemela": {
+"enunciado": "En un triángulo ABC, DE ∥ BC con D en AB y E en AC. Si AD = 3 m, DB = 9 m y DE = 4 m, ¿cuánto mide BC?",
+"opciones": {
+"A": "12 m",
+"B": "13 m",
+"C": "16 m",
+"D": "1,3 m"
+},
+"correcta": "C",
+"explicacion": "Paso 1: AB = 3 + 9 = 12 m. Paso 2: 4/BC = 3/12. Paso 3: BC = 4 × 12 ÷ 3 = 16 m."
+}
+},
+{
+"id": "P11-MAT-C030",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: relaciona el cilindro con su desarrollo plano e identifica las medidas del rectángulo lateral.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso representaciones geométricas para resolver y formular problemas en las matemáticas y en otras disciplinas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica que un lado del rectángulo lateral del cilindro es la altura y el otro es la longitud de la circunferencia de la base.",
+"contexto": "Una fábrica de Palmira imprime la etiqueta que cubre exactamente la superficie lateral de una lata cilíndrica de jugo de lulo, sin superposición. La lata tiene 4 cm de radio y 12 cm de altura. Usa π ≈ 3,14.",
+"enunciado": "¿Qué medidas tiene la etiqueta rectangular?",
+"opciones": {
+"A": "12 cm × 8 cm",
+"B": "12 cm × 12,56 cm",
+"C": "12 cm × 25,12 cm",
+"D": "12 cm × 50,24 cm"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar el diámetro como largo",
+"porque": "Elegiste 12 cm × 8 cm porque pensaste que el largo de la etiqueta es el diámetro de la lata.",
+"pregunta_guia": "Si enrollas la etiqueta alrededor de la lata, ¿cubre el ancho de la lata o le da toda la vuelta?",
+"aprende": "La etiqueta da una vuelta completa: su largo es la circunferencia 2πr."
+},
+"B": {
+"error": "Calcular media circunferencia",
+"porque": "Elegiste 12 cm × 12,56 cm porque calculaste π × r = 3,14 × 4, que es solo media vuelta.",
+"pregunta_guia": "¿La fórmula de la longitud de la circunferencia es πr o 2πr?",
+"aprende": "Longitud = 2πr = πd = 3,14 × 8 = 25,12 cm."
+},
+"D": {
+"error": "Confundir longitud con área",
+"porque": "Elegiste 12 cm × 50,24 cm porque calculaste π r² = 50,24, que es el área de la base, no una longitud.",
+"pregunta_guia": "Para el largo de la etiqueta, ¿necesitas una longitud (cm) o un área (cm²)?",
+"aprende": "π r² es el área del círculo; el contorno es 2πr."
+}
+},
+"explicacion": "Paso 1: al desenrollar la superficie lateral del cilindro se obtiene un rectángulo. Paso 2: un lado es la altura de la lata: 12 cm. Paso 3: el otro lado es la longitud de la circunferencia de la base: 2 × 3,14 × 4 = 25,12 cm. Paso 4: la etiqueta mide 12 cm × 25,12 cm.",
+"tip": "Imagina que despegas la etiqueta: el largo es lo que mide «una vuelta» a la lata.",
+"truco": "Desarrollo del cilindro = 2 círculos + 1 rectángulo de (2πr) × h.",
+"estrategia_icfes": "El ICFES relaciona sólidos con sus desarrollos planos. Identifica qué borde del desarrollo se une con cuál al armar el sólido.",
+"temas": [
+"desarrollo plano del cilindro",
+"longitud de la circunferencia",
+"área lateral"
+],
+"gemela": {
+"enunciado": "Un tubo cilíndrico de cartón tiene 3 cm de radio y 10 cm de altura (π ≈ 3,14). ¿Qué medidas tiene el rectángulo de su superficie lateral?",
+"opciones": {
+"A": "10 cm × 9,42 cm",
+"B": "10 cm × 18,84 cm",
+"C": "10 cm × 6 cm",
+"D": "10 cm × 28,26 cm"
+},
+"correcta": "B",
+"explicacion": "Paso 1: altura 10 cm. Paso 2: circunferencia 2 × 3,14 × 3 = 18,84 cm. Paso 3: rectángulo de 10 cm × 18,84 cm."
+}
+},
+{
+"id": "P11-MAT-C031",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula el volumen de la esfera y lo distingue de su área superficial.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Aplica la fórmula V = (4/3) π r³ con el radio dado.",
+"contexto": "Un balón de fútbol de la escuela deportiva del barrio tiene forma esférica con un radio de 11 cm. Usa π ≈ 3,14.",
+"enunciado": "¿Cuál es, aproximadamente, el volumen de aire que contiene el balón?",
+"opciones": {
+"A": "1.519,8 cm³",
+"B": "4.179,3 cm³",
+"C": "506,6 cm³",
+"D": "5.572,5 cm³"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Calcular el área superficial",
+"porque": "Elegiste 1.519,8 cm³ porque usaste 4πr², que es el área de la superficie del balón.",
+"pregunta_guia": "¿Qué potencia del radio aparece en una fórmula de volumen?",
+"aprende": "Área de la esfera: 4πr² (cm²). Volumen: (4/3)πr³ (cm³)."
+},
+"B": {
+"error": "Omitir el factor 4/3",
+"porque": "Elegiste 4.179,3 cm³ porque calculaste π r³ sin multiplicar por 4/3.",
+"pregunta_guia": "¿Qué fracción acompaña a π r³ en la fórmula del volumen de la esfera?",
+"aprende": "V = (4/3) π r³: el 4/3 es indispensable."
+},
+"C": {
+"error": "Elevar el radio al cuadrado",
+"porque": "Elegiste 506,6 cm³ porque calculaste (4/3) π r², con el radio al cuadrado en lugar de al cubo.",
+"pregunta_guia": "Un volumen se mide en unidades cúbicas. ¿Cuántas veces debe multiplicarse el radio?",
+"aprende": "r³ = 11 × 11 × 11 = 1.331."
+}
+},
+"explicacion": "Paso 1: r³ = 11³ = 1.331 cm³. Paso 2: π r³ = 3,14 × 1.331 = 4.179,34. Paso 3: V = (4/3) × 4.179,34 ≈ 5.572,45. Paso 4: V ≈ 5.572,5 cm³ (unos 5,6 litros).",
+"tip": "Revisa las unidades: cm² delata una fórmula de área; cm³, una de volumen.",
+"truco": "Esfera: «cuatro tercios pi erre al cubo».",
+"estrategia_icfes": "El ICFES pone como distractores las fórmulas parecidas (área, π r³). Escribe la fórmula, sustituye y estima: el resultado debe ser cercano a la mitad del cubo que la contiene (22³ ≈ 10.648 cm³).",
+"temas": [
+"volumen de la esfera",
+"área de la esfera",
+"potencias"
+],
+"gemela": {
+"enunciado": "Una pelota de tenis de mesa gigante, para una feria, tiene 6 cm de radio (π ≈ 3,14). ¿Cuál es su volumen?",
+"opciones": {
+"A": "452,16 cm³",
+"B": "904,32 cm³",
+"C": "678,24 cm³",
+"D": "150,72 cm³"
+},
+"correcta": "B",
+"explicacion": "Paso 1: r³ = 216. Paso 2: V = (4/3) × 3,14 × 216 = 904,32 cm³."
+}
+},
+{
+"id": "P11-MAT-C032",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: usa el teorema de Pitágoras para completar medidas de figuras y validar el cálculo de perímetros.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Identifica el error en el cálculo del perímetro de un triángulo rectángulo y propone la corrección.",
+"contexto": "Un parque de Ciudad Córdoba tiene forma de triángulo rectángulo; sus catetos miden 30 m y 40 m. Andrés quiere cercar todo el borde y calcula: «Necesito 30 + 40 = 70 m de malla».",
+"enunciado": "¿Cuál afirmación sobre el cálculo de Andrés es correcta?",
+"opciones": {
+"A": "Es insuficiente, porque falta el lado mayor, que mide 50 m; se necesitan 120 m.",
+"B": "Es insuficiente, porque cercar es calcular el área: se necesitan 30 × 40 = 1.200 m.",
+"C": "Es insuficiente, porque se debe calcular 30 × 40 ÷ 2 = 600 m.",
+"D": "Es insuficiente, porque el lado que falta mide 40 − 30 = 10 m; se necesitan 80 m."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir perímetro con área",
+"porque": "Elegiste B porque asociaste «cercar» con multiplicar las medidas.",
+"pregunta_guia": "La malla rodea el borde. ¿Se mide en metros o en metros cuadrados?",
+"aprende": "Cercar = perímetro (suma de lados, en m); cubrir = área (en m²)."
+},
+"C": {
+"error": "Usar la fórmula del área del triángulo",
+"porque": "Elegiste C porque calculaste el área del triángulo (600 m²) y la usaste como longitud de malla.",
+"pregunta_guia": "¿600 es una longitud o una superficie?",
+"aprende": "El área del parque es 600 m², pero la malla necesaria es el perímetro: 120 m."
+},
+"D": {
+"error": "Restar catetos para hallar la hipotenusa",
+"porque": "Elegiste D porque restaste los catetos para hallar el lado faltante.",
+"pregunta_guia": "¿Puede el lado opuesto al ángulo recto medir menos que los catetos?",
+"aprende": "La hipotenusa es el lado mayor: √(30² + 40²) = √2.500 = 50 m."
+}
+},
+"explicacion": "Paso 1: Andrés sumó solo los dos catetos; le falta el tercer lado. Paso 2: el lado faltante es la hipotenusa: √(30² + 40²) = √(900 + 1.600) = √2.500 = 50 m. Paso 3: perímetro = 30 + 40 + 50 = 120 m. Paso 4: se necesitan 120 m de malla.",
+"tip": "Un triángulo tiene tres lados: si solo sumas dos, falta borde por cercar.",
+"truco": "Triple 30-40-50 = 10 × (3-4-5).",
+"estrategia_icfes": "El ICFES muestra cálculos de otras personas para que los evalúes. Identifica qué falta o qué se confundió y elige la opción con la corrección completa.",
+"temas": [
+"perímetro",
+"teorema de Pitágoras",
+"validación de procedimientos"
+],
+"gemela": {
+"enunciado": "Un jardín en forma de triángulo rectángulo tiene catetos de 9 m y 12 m. Sara dice que el borde mide 21 m. ¿Cuál afirmación es correcta?",
+"opciones": {
+"A": "Es correcto, porque el borde es la suma de los catetos.",
+"B": "Es incorrecto, porque falta la hipotenusa de 15 m; el borde mide 36 m.",
+"C": "Es incorrecto, porque el borde es 9 × 12 ÷ 2 = 54 m.",
+"D": "Es incorrecto, porque falta un lado de 3 m; el borde mide 24 m."
+},
+"correcta": "B",
+"explicacion": "Paso 1: hipotenusa = √(81 + 144) = √225 = 15 m. Paso 2: perímetro = 9 + 12 + 15 = 36 m."
+}
+},
+{
+"id": "P11-MAT-C033",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: justifica qué polígonos regulares pueden cubrir el plano a partir de la medida de sus ángulos internos.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: conjeturo y verifico propiedades de congruencias y semejanzas entre figuras bidimensionales y entre objetos tridimensionales en la solución de problemas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Usa la medida del ángulo interno de un polígono regular para justificar si tesela el plano.",
+"contexto": "Un artesano de Cali quiere cubrir un piso sin dejar huecos ni superponer piezas, usando baldosas iguales con forma de pentágono regular. Sabe que con hexágonos regulares sí es posible hacerlo.",
+"enunciado": "¿Cuál razón explica por qué no puede cubrir el piso solo con pentágonos regulares?",
+"opciones": {
+"A": "Porque los pentágonos tienen un número impar de lados.",
+"B": "Porque su ángulo interno mide 108° y 360° no es múltiplo de 108°, así que alrededor de cada vértice quedan huecos o superposiciones.",
+"C": "Porque los pentágonos regulares sí cubren el piso, ya que todos sus lados son iguales.",
+"D": "Porque la suma de sus ángulos internos es 540°, que no es múltiplo de 360°."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar una propiedad irrelevante",
+"porque": "Elegiste A porque relacionaste la teselación con la paridad del número de lados.",
+"pregunta_guia": "Los triángulos equiláteros tienen 3 lados (impar). ¿Cubren el plano?",
+"aprende": "Los triángulos equiláteros sí teselan; la paridad no es la causa."
+},
+"C": {
+"error": "Suponer que lados iguales bastan",
+"porque": "Elegiste C porque pensaste que basta con que el polígono sea regular.",
+"pregunta_guia": "Si juntas 3 pentágonos en un vértice, ¿cuántos grados ocupan? ¿Y si juntas 4?",
+"aprende": "3 × 108° = 324° (queda hueco) y 4 × 108° = 432° (se superponen)."
+},
+"D": {
+"error": "Usar la suma de ángulos en lugar del ángulo en el vértice",
+"porque": "Elegiste D porque usaste la suma total de los ángulos internos y no lo que ocurre en cada vértice.",
+"pregunta_guia": "El triángulo suma 180°, que no es múltiplo de 360°. ¿Por eso no tesela?",
+"aprende": "La condición se revisa en cada vértice: el ángulo interno debe dividir exactamente a 360°."
+}
+},
+"explicacion": "Paso 1: ángulo interno de un polígono regular de n lados = 180°(n − 2)/n. Para n = 5: 180° × 3 ÷ 5 = 108°. Paso 2: alrededor de un vértice los ángulos deben sumar exactamente 360°. Paso 3: 360° ÷ 108° ≈ 3,33, no es entero. Paso 4: 3 pentágonos dejan un hueco de 36° y 4 se superponen; por eso no teselan. El hexágono (120°) sí: 3 × 120° = 360°.",
+"tip": "Solo tres polígonos regulares teselan solos: triángulo (60°), cuadrado (90°) y hexágono (120°).",
+"truco": "Tesela si 360 ÷ (ángulo interno) es entero.",
+"estrategia_icfes": "El ICFES pide justificar propiedades geométricas. La razón correcta usa la propiedad que realmente decide el fenómeno; descarta razones verdaderas pero irrelevantes.",
+"temas": [
+"ángulos internos de polígonos",
+"teselaciones",
+"polígonos regulares"
+],
+"gemela": {
+"enunciado": "¿Se puede cubrir un piso solo con octágonos regulares iguales? ¿Por qué?",
+"opciones": {
+"A": "Sí, porque tiene número par de lados.",
+"B": "Sí, porque 8 es múltiplo de 4.",
+"C": "No, porque su ángulo interno mide 135° y 360 ÷ 135 no es entero.",
+"D": "No, porque sus lados son demasiado cortos."
+},
+"correcta": "C",
+"explicacion": "Paso 1: ángulo interno = 180 × 6 ÷ 8 = 135°. Paso 2: 360 ÷ 135 ≈ 2,67, no es entero. Paso 3: no tesela solo (por eso los pisos con octágonos llevan cuadrados entre ellos)."
+}
+},
+{
+"id": "P11-MAT-C034",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: interpreta planos cuadriculados con escala y calcula distancias reales entre ubicaciones.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Traduce posiciones en una cuadrícula a desplazamientos, calcula la distancia en línea recta y la convierte con la escala.",
+"contexto": "En un plano cuadriculado del barrio Ciudad Córdoba, cada cuadro equivale a 50 m. El colegio está en la posición (2, 3) y el parque en la posición (6, 6), medidas en cuadros.",
+"enunciado": "¿Cuál es la distancia real en línea recta entre el colegio y el parque?",
+"opciones": {
+"A": "250 m",
+"B": "350 m",
+"C": "5 m",
+"D": "1.250 m"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Sumar desplazamientos por cuadras",
+"porque": "Elegiste 350 m porque sumaste 4 + 3 = 7 cuadros, que es el recorrido por las calles, no la línea recta.",
+"pregunta_guia": "¿Un dron que vuela directo recorre lo mismo que una persona que camina por las calles?",
+"aprende": "La línea recta es la hipotenusa: √(4² + 3²) = 5 cuadros."
+},
+"C": {
+"error": "No aplicar la escala",
+"porque": "Elegiste 5 m porque calculaste bien 5 cuadros pero no los convertiste a metros.",
+"pregunta_guia": "¿Cuántos metros representa cada cuadro?",
+"aprende": "5 cuadros × 50 m = 250 m."
+},
+"D": {
+"error": "Olvidar la raíz cuadrada",
+"porque": "Elegiste 1.250 m porque multiplicaste 4² + 3² = 25 por 50 sin sacar la raíz.",
+"pregunta_guia": "¿25 es la distancia en cuadros o su cuadrado?",
+"aprende": "√25 = 5 cuadros; luego se aplica la escala."
+}
+},
+"explicacion": "Paso 1: desplazamiento horizontal = 6 − 2 = 4 cuadros; vertical = 6 − 3 = 3 cuadros. Paso 2: distancia en el plano = √(4² + 3²) = √25 = 5 cuadros. Paso 3: distancia real = 5 × 50 m = 250 m.",
+"tip": "Primero calcula en cuadros y al final convierte con la escala: menos operaciones, menos errores.",
+"truco": "Desplazamientos 3 y 4 → distancia 5.",
+"estrategia_icfes": "El ICFES combina cuadrículas, escalas y distancias. Distingue entre recorrido por calles y línea recta, y aplica la escala al final.",
+"temas": [
+"distancia entre puntos",
+"escalas",
+"teorema de Pitágoras"
+],
+"gemela": {
+"enunciado": "En otro plano, cada cuadro equivale a 20 m. ¿Cuál es la distancia en línea recta entre (1, 1) y (7, 9)?",
+"opciones": {
+"A": "280 m",
+"B": "200 m",
+"C": "10 m",
+"D": "2.000 m"
+},
+"correcta": "B",
+"explicacion": "Paso 1: desplazamientos 6 y 8 cuadros. Paso 2: √(36 + 64) = 10 cuadros. Paso 3: 10 × 20 = 200 m."
+}
+},
+{
+"id": "P11-MAT-C035",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: justifica fórmulas de área de polígonos a partir de la composición y descomposición de figuras.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Elige la justificación geométrica correcta de la fórmula del área del trapecio.",
+"contexto": "Mariana calcula el área de un terreno con forma de trapecio en Florida (Valle), con bases de 12 m y 20 m y altura de 8 m. Usa la fórmula A = (B + b) × h ÷ 2 y obtiene 128 m². Su hermano le pregunta por qué esa fórmula funciona.",
+"enunciado": "¿Cuál argumento justifica correctamente la fórmula que usó Mariana?",
+"opciones": {
+"A": "El trapecio es la mitad de un rectángulo cuyos lados miden B y b.",
+"B": "El área del trapecio es su perímetro multiplicado por la altura y dividido entre 2.",
+"C": "Dos trapecios iguales, uno invertido junto al otro, forman un paralelogramo de base B + b y altura h; el trapecio es la mitad.",
+"D": "Al área del rectángulo de base B y altura h se le resta la mitad del rectángulo de base b y altura h."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir bases con lados de un rectángulo",
+"porque": "Elegiste A porque relacionaste las dos bases con los lados de un rectángulo, sin tener en cuenta la altura.",
+"pregunta_guia": "Si el trapecio fuera muy bajito, ¿su área seguiría siendo la mitad de B × b?",
+"aprende": "El área depende de la altura h; B × b no la incluye."
+},
+"B": {
+"error": "Usar el perímetro en una fórmula de área",
+"porque": "Elegiste B porque mezclaste perímetro y área en una sola fórmula.",
+"pregunta_guia": "¿Los lados inclinados del trapecio aparecen en la fórmula (B + b) × h ÷ 2?",
+"aprende": "La fórmula solo usa las bases y la altura, no los lados inclinados."
+},
+"D": {
+"error": "Descomposición mal planteada",
+"porque": "Elegiste D porque intentaste restar una parte del rectángulo, pero la parte restada no corresponde a los triángulos que sobran.",
+"pregunta_guia": "Calcula B × h − (b × h)/2 con los datos. ¿Da 128 m²?",
+"aprende": "20 × 8 − 12 × 8 ÷ 2 = 160 − 48 = 112 ≠ 128; lo que sobra del rectángulo es (B − b) × h ÷ 2."
+}
+},
+"explicacion": "Paso 1: copia el trapecio y gira la copia 180°. Paso 2: al unirla al original, se forma un paralelogramo cuya base es B + b y cuya altura es h. Paso 3: el área del paralelogramo es (B + b) × h. Paso 4: cada trapecio es la mitad: A = (B + b) × h ÷ 2. Con los datos: (20 + 12) × 8 ÷ 2 = 128 m².",
+"tip": "Muchas fórmulas de área se justifican duplicando la figura o cortándola y reacomodando las piezas.",
+"truco": "Trapecio = promedio de las bases × altura: (B + b)/2 × h.",
+"estrategia_icfes": "En argumentación el ICFES pide justificar fórmulas o procedimientos. Pon a prueba cada argumento con los números del problema: el correcto reproduce el resultado.",
+"temas": [
+"área del trapecio",
+"composición de figuras",
+"justificación de fórmulas"
+],
+"gemela": {
+"enunciado": "¿Por qué el área de un triángulo es (base × altura) ÷ 2?",
+"opciones": {
+"A": "Porque el triángulo tiene la mitad de lados que un hexágono.",
+"B": "Porque dos triángulos iguales, uno girado 180°, forman un paralelogramo de igual base y altura.",
+"C": "Porque la altura de un triángulo siempre es la mitad de su base.",
+"D": "Porque se suman los tres lados y se divide entre 2."
+},
+"correcta": "B",
+"explicacion": "Paso 1: dos copias del triángulo forman un paralelogramo de base b y altura h. Paso 2: el paralelogramo mide b × h. Paso 3: cada triángulo es la mitad: b × h ÷ 2."
+}
+},
+{
+"id": "P11-MAT-C036",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: analiza cómo varía el volumen de un cilindro cuando cambian su radio y su altura.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 10°–11°: diseño estrategias para abordar situaciones de medición que requieran grados de precisión específicos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica el efecto combinado de duplicar el radio y reducir la altura a la mitad sobre el volumen de un cilindro.",
+"contexto": "Una cooperativa lechera de Andalucía (Valle) cambia el diseño de sus tanques cilíndricos: el nuevo tanque tendrá el doble del radio del anterior y la mitad de su altura. El gerente cree que la capacidad no cambiará porque «lo que se gana en ancho se pierde en alto».",
+"enunciado": "¿Cuál afirmación sobre la capacidad del nuevo tanque es correcta?",
+"opciones": {
+"A": "Se mantiene igual, porque duplicar y reducir a la mitad se compensan.",
+"B": "Se cuadruplica, porque el radio está al cuadrado en la fórmula.",
+"C": "Se reduce a la mitad, porque la altura es la que define cuánto cabe.",
+"D": "Se duplica, porque π(2r)²(h/2) = 2πr²h."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Suponer que los factores se compensan",
+"porque": "Elegiste A porque pensaste que ×2 en el radio y ÷2 en la altura se anulan.",
+"pregunta_guia": "En V = π r² h, ¿el radio aparece una vez o dos veces multiplicando?",
+"aprende": "El radio está al cuadrado: ×2 en el radio produce ×4 en el volumen; con ÷2 en la altura queda ×2."
+},
+"B": {
+"error": "Ignorar el cambio de la altura",
+"porque": "Elegiste B porque aplicaste el efecto del radio (×4) y olvidaste que la altura se redujo a la mitad.",
+"pregunta_guia": "Después de multiplicar por 4 por el radio, ¿qué hace la altura a la mitad?",
+"aprende": "4 × (1/2) = 2."
+},
+"C": {
+"error": "Ignorar el cambio del radio",
+"porque": "Elegiste C porque solo tuviste en cuenta la reducción de la altura.",
+"pregunta_guia": "Un tanque mucho más ancho, ¿no gana capacidad?",
+"aprende": "Ambos cambios afectan: el radio multiplica por 4 y la altura divide entre 2."
+}
+},
+"explicacion": "Paso 1: volumen original V = π r² h. Paso 2: nuevo volumen V' = π (2r)² (h/2). Paso 3: V' = π · 4r² · h/2 = 2 π r² h. Paso 4: V' = 2V; la capacidad se duplica, así que el gerente se equivoca.",
+"tip": "Para ver cómo cambia una fórmula, reemplaza cada variable por su versión modificada y simplifica.",
+"truco": "Factor total = (factor del radio)² × (factor de la altura) = 2² × 1/2 = 2.",
+"estrategia_icfes": "El ICFES evalúa la variación de magnitudes en fórmulas. Prueba con números (r = 1, h = 2) si dudas: V = 2π y V' = π · 4 · 1 = 4π.",
+"temas": [
+"volumen del cilindro",
+"variación proporcional",
+"factor de escala"
+],
+"gemela": {
+"enunciado": "Si a un cilindro se le triplica la altura y se le reduce el radio a la mitad, ¿qué pasa con su volumen?",
+"opciones": {
+"A": "Se reduce a 3/4 del original, porque π(r/2)²(3h) = (3/4)πr²h.",
+"B": "Aumenta 1,5 veces, porque 3 ÷ 2 = 1,5.",
+"C": "Se triplica, porque solo importa la altura.",
+"D": "Se mantiene igual."
+},
+"correcta": "A",
+"explicacion": "Paso 1: V' = π (r/2)² (3h) = π · r²/4 · 3h. Paso 2: V' = (3/4) π r² h. Paso 3: el volumen queda en el 75 % del original."
+}
+},
+{
+"id": "P11-MAT-C037",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), 10°: reconoce las razones trigonométricas como cocientes entre lados de un triángulo rectángulo.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Identifica el cateto adyacente y la hipotenusa respecto a un ángulo y expresa el coseno como cociente.",
+"contexto": "Un cable tensor sostiene una antena de radio comunitaria en Buenaventura. El cable se amarra a la antena a 9 m de altura y al suelo a 12 m de la base de la antena; el cable mide 15 m. Sea θ el ángulo que forma el cable con el suelo.",
+"enunciado": "¿Cuál es el valor de cos θ?",
+"opciones": {
+"A": "9/15",
+"B": "12/15",
+"C": "9/12",
+"D": "15/12"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calcular el seno",
+"porque": "Elegiste 9/15 porque dividiste el cateto opuesto entre la hipotenusa, que es sen θ.",
+"pregunta_guia": "Desde el ángulo θ en el suelo, ¿la altura de 9 m está al frente o junto al ángulo?",
+"aprende": "cos θ = adyacente/hipotenusa; el adyacente a θ es la distancia en el suelo (12 m)."
+},
+"C": {
+"error": "Calcular la tangente",
+"porque": "Elegiste 9/12 porque dividiste los dos catetos, que es tan θ.",
+"pregunta_guia": "¿Qué razón usa la hipotenusa en el denominador junto al cateto adyacente?",
+"aprende": "tan θ = opuesto/adyacente; cos θ = adyacente/hipotenusa."
+},
+"D": {
+"error": "Invertir el cociente",
+"porque": "Elegiste 15/12 porque pusiste la hipotenusa arriba, lo que da un valor mayor que 1.",
+"pregunta_guia": "¿Puede el coseno de un ángulo agudo ser mayor que 1?",
+"aprende": "En un triángulo rectángulo el coseno es menor que 1 porque el cateto es menor que la hipotenusa."
+}
+},
+"explicacion": "Paso 1: el triángulo rectángulo lo forman la antena (9 m), el suelo (12 m) y el cable (15 m, hipotenusa). Paso 2: θ está en el suelo; su cateto adyacente es la distancia de 12 m y su opuesto es la altura de 9 m. Paso 3: cos θ = adyacente/hipotenusa = 12/15 = 0,8.",
+"tip": "Ubícate en el vértice del ángulo: el cateto que «toca» el ángulo es el adyacente.",
+"truco": "CAH: Coseno = Adyacente / Hipotenusa.",
+"estrategia_icfes": "El ICFES pide expresar razones trigonométricas a partir de un dibujo o descripción. Ubica el ángulo, nombra los lados y escribe el cociente antes de mirar las opciones.",
+"temas": [
+"razones trigonométricas",
+"coseno",
+"triángulo rectángulo"
+],
+"gemela": {
+"enunciado": "Una rampa sube 8 m de altura en 15 m de recorrido horizontal y mide 17 m de largo. Si θ es el ángulo con el suelo, ¿cuánto vale tan θ?",
+"opciones": {
+"A": "8/17",
+"B": "15/17",
+"C": "8/15",
+"D": "15/8"
+},
+"correcta": "C",
+"explicacion": "Paso 1: opuesto a θ: 8 m; adyacente: 15 m. Paso 2: tan θ = 8/15."
+}
+},
+{
+"id": "P11-MAT-C038",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula áreas de sectores circulares como fracción del círculo según el ángulo central.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula el área de un sector circular a partir del ángulo de giro y el radio.",
+"contexto": "En un cultivo de caña de un ingenio del Valle, un aspersor gira de un lado a otro barriendo un ángulo de 120° y su chorro alcanza 6 m. Usa π ≈ 3,14.",
+"enunciado": "¿Qué área del cultivo moja el aspersor?",
+"opciones": {
+"A": "37,68 m²",
+"B": "113,04 m²",
+"C": "12,56 m²",
+"D": "75,36 m²"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Calcular el círculo completo",
+"porque": "Elegiste 113,04 m² porque calculaste π × 6² sin tener en cuenta que el aspersor solo gira 120°.",
+"pregunta_guia": "¿Qué fracción de una vuelta completa son 120°?",
+"aprende": "120°/360° = 1/3 del círculo."
+},
+"C": {
+"error": "Calcular la longitud del arco",
+"porque": "Elegiste 12,56 m² porque calculaste (1/3) × 2π × 6, que es la longitud del borde mojado, no el área.",
+"pregunta_guia": "¿Necesitas el contorno (en m) o la superficie (en m²)?",
+"aprende": "Arco = (θ/360°) × 2πr; sector = (θ/360°) × πr²."
+},
+"D": {
+"error": "Usar la fracción complementaria",
+"porque": "Elegiste 75,36 m² porque calculaste la parte que no moja (240°).",
+"pregunta_guia": "¿El aspersor recorre 120° o los 240° restantes?",
+"aprende": "Usa directamente el ángulo barrido: 120°."
+}
+},
+"explicacion": "Paso 1: fracción del círculo = 120°/360° = 1/3. Paso 2: área del círculo completo = 3,14 × 6² = 113,04 m². Paso 3: área del sector = 113,04 ÷ 3 = 37,68 m².",
+"tip": "Un sector es una «tajada de pizza»: calcula la pizza entera y toma la fracción.",
+"truco": "Sector = (ángulo/360) × π r².",
+"estrategia_icfes": "El ICFES usa aspersores, relojes y gráficos circulares para evaluar sectores. Convierte el ángulo en fracción y aplícala al área; no la confundas con la longitud del arco.",
+"temas": [
+"sector circular",
+"área del círculo",
+"fracciones"
+],
+"gemela": {
+"enunciado": "Un aspersor gira 90° y alcanza 4 m (π ≈ 3,14). ¿Qué área moja?",
+"opciones": {
+"A": "50,24 m²",
+"B": "6,28 m²",
+"C": "12,56 m²",
+"D": "37,68 m²"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 90°/360° = 1/4. Paso 2: π × 4² = 50,24 m². Paso 3: 50,24 ÷ 4 = 12,56 m²."
+}
+},
+{
+"id": "P11-MAT-C039",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 10°–11°: aplica el teorema de Pitágoras en tres dimensiones para calcular la diagonal de un prisma rectangular.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica si un objeto cabe en una caja comparando su longitud con la diagonal interior del prisma.",
+"contexto": "Una tienda de deportes de Cali debe enviar una varilla rígida de 125 cm en una caja con forma de prisma rectangular de 120 cm de largo, 30 cm de ancho y 30 cm de alto. La varilla es muy delgada y no se puede doblar.",
+"enunciado": "¿Cuál afirmación sobre si la varilla cabe en la caja está correctamente justificada?",
+"opciones": {
+"A": "No cabe, porque la arista más larga de la caja mide 120 cm, menos que la varilla.",
+"B": "No cabe, porque la diagonal de la cara más grande mide aproximadamente 123,7 cm, menos que la varilla.",
+"C": "Sí cabe, porque la diagonal interior, de una esquina a la opuesta, mide √(120² + 30² + 30²) ≈ 127,3 cm.",
+"D": "Sí cabe, porque la suma de las aristas 120 + 30 + 30 = 180 cm supera a la varilla."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Considerar solo las aristas",
+"porque": "Elegiste A porque comparaste la varilla solo con la arista más larga, sin pensar en ponerla en diagonal.",
+"pregunta_guia": "¿Un lápiz cabe en un estuche más corto si lo pones inclinado de esquina a esquina?",
+"aprende": "La mayor longitud que cabe en una caja es su diagonal interior."
+},
+"B": {
+"error": "Quedarse en dos dimensiones",
+"porque": "Elegiste B porque calculaste la diagonal de una cara, sin usar también la altura de la caja.",
+"pregunta_guia": "Si inclinas la varilla desde una esquina del fondo hasta la esquina opuesta de arriba, ¿gana longitud?",
+"aprende": "Diagonal interior: d = √(l² + a² + h²), que es mayor que cualquier diagonal de cara."
+},
+"D": {
+"error": "Justificar con una suma sin sentido geométrico",
+"porque": "Elegiste D porque sumaste las aristas; la conclusión coincide, pero la razón es inválida.",
+"pregunta_guia": "¿La varilla puede ir doblada por las tres aristas?",
+"aprende": "La varilla es rígida y recta: solo importa la mayor distancia en línea recta dentro de la caja."
+}
+},
+"explicacion": "Paso 1: la mayor distancia en línea recta dentro de la caja es la diagonal interior. Paso 2: diagonal de la base: √(120² + 30²) = √15.300 ≈ 123,7 cm. Paso 3: diagonal interior: √(123,7² + 30²) = √(14.400 + 900 + 900) = √16.200 ≈ 127,3 cm. Paso 4: como 127,3 cm > 125 cm, la varilla cabe inclinada de una esquina a la opuesta.",
+"tip": "En 3D, aplica Pitágoras dos veces: primero en la base y luego con la altura.",
+"truco": "Diagonal de la caja: d² = largo² + ancho² + alto².",
+"estrategia_icfes": "En nivel avanzado el ICFES pide justificar con la propiedad correcta. Dos opciones pueden llegar a la misma conclusión: elige la que tiene la razón matemática válida.",
+"temas": [
+"Pitágoras en el espacio",
+"diagonal del prisma",
+"visualización espacial"
+],
+"gemela": {
+"enunciado": "Una caja mide 2 m × 1 m × 2 m. ¿Cabe una varilla rígida de 2,9 m?",
+"opciones": {
+"A": "Sí, porque la diagonal interior mide √(4 + 1 + 4) = 3 m.",
+"B": "No, porque la arista mayor mide 2 m.",
+"C": "No, porque la diagonal de la cara mayor mide ≈ 2,83 m.",
+"D": "Sí, porque 2 + 1 + 2 = 5 m."
+},
+"correcta": "A",
+"explicacion": "Paso 1: d² = 2² + 1² + 2² = 9. Paso 2: d = 3 m > 2,9 m. Paso 3: cabe en diagonal interior."
+}
+},
+{
+"id": "P11-MAT-C040",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: representa homotecias (ampliaciones y reducciones) en el plano cartesiano con centro en el origen.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: conjeturo y verifico propiedades de congruencias y semejanzas entre figuras bidimensionales.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Aplica una homotecia de centro en el origen y razón 2 a las coordenadas de un vértice.",
+"contexto": "En un programa de diseño, Sebastián amplía un triángulo de vértices (1, 1), (3, 1) y (1, 4) mediante una homotecia con centro en el origen (0, 0) y razón 2, para hacer un afiche de la feria de ciencias.",
+"enunciado": "¿Cuáles son las coordenadas de la imagen del vértice (1, 4)?",
+"opciones": {
+"A": "(3, 6)",
+"B": "(2, 4)",
+"C": "(2, 8)",
+"D": "(0,5; 2)"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Sumar en lugar de multiplicar",
+"porque": "Elegiste (3, 6) porque sumaste 2 a cada coordenada, lo que es una traslación.",
+"pregunta_guia": "Una ampliación al doble, ¿suma 2 o multiplica por 2 las distancias al centro?",
+"aprende": "Homotecia de centro el origen y razón k: (x, y) → (kx, ky)."
+},
+"B": {
+"error": "Multiplicar solo una coordenada",
+"porque": "Elegiste (2, 4) porque multiplicaste por 2 solo la x.",
+"pregunta_guia": "Si solo cambia la x, ¿la figura conserva su forma o se estira hacia un lado?",
+"aprende": "Ambas coordenadas se multiplican por la razón para conservar la forma."
+},
+"D": {
+"error": "Dividir entre la razón",
+"porque": "Elegiste (0,5; 2) porque dividiste entre 2, lo que reduce la figura.",
+"pregunta_guia": "Razón 2 con centro en el origen, ¿aleja o acerca los puntos al origen?",
+"aprende": "Razón mayor que 1 amplía; razón entre 0 y 1 reduce."
+}
+},
+"explicacion": "Paso 1: en una homotecia de centro (0, 0) y razón 2, cada punto se aleja del origen al doble de distancia. Paso 2: la regla es (x, y) → (2x, 2y). Paso 3: (1, 4) → (2 × 1, 2 × 4) = (2, 8).",
+"tip": "La homotecia produce una figura semejante: mismos ángulos y lados multiplicados por la razón.",
+"truco": "Centro en el origen: multiplica las dos coordenadas por k.",
+"estrategia_icfes": "El ICFES pide imágenes de puntos bajo transformaciones. Identifica si es traslación (suma), reflexión (cambio de signo), rotación o homotecia (multiplicación).",
+"temas": [
+"homotecia",
+"semejanza",
+"plano cartesiano"
+],
+"gemela": {
+"enunciado": "Con una homotecia de centro el origen y razón 3, ¿cuál es la imagen de (2, −1)?",
+"opciones": {
+"A": "(5, 2)",
+"B": "(6, −3)",
+"C": "(6, −1)",
+"D": "(2/3, −1/3)"
+},
+"correcta": "B",
+"explicacion": "Paso 1: regla (x, y) → (3x, 3y). Paso 2: (2, −1) → (6, −3)."
+}
+},
+{
+"id": "P11-MAT-C041",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: usa la longitud de la circunferencia y la conversión de unidades para resolver problemas de movimiento circular.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: selecciono y uso técnicas e instrumentos para medir longitudes, áreas de superficies, volúmenes y ángulos con niveles de precisión apropiados.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Relaciona la distancia recorrida con el número de vueltas de una rueda mediante su circunferencia, con conversión de unidades.",
+"contexto": "La rueda de la bicicleta de Daniela tiene 35 cm de radio. Ella recorre 1.099 m por la ciclorruta de la avenida Cañasgordas sin que la rueda resbale. Usa π ≈ 3,14.",
+"enunciado": "¿Cuántas vueltas completas da la rueda en ese recorrido?",
+"opciones": {
+"A": "1.000",
+"B": "5",
+"C": "250",
+"D": "500"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar πr como circunferencia",
+"porque": "Elegiste 1.000 porque usaste 3,14 × 35 = 109,9 cm como una vuelta, que es solo media circunferencia.",
+"pregunta_guia": "¿La longitud de una vuelta completa es πr o 2πr?",
+"aprende": "Una vuelta = 2πr = 2 × 3,14 × 35 = 219,8 cm."
+},
+"B": {
+"error": "No convertir metros a centímetros",
+"porque": "Elegiste 5 porque dividiste 1.099 (metros) entre 219,8 (centímetros) sin igualar unidades.",
+"pregunta_guia": "¿Ambas cantidades están en la misma unidad antes de dividir?",
+"aprende": "1.099 m = 109.900 cm; 109.900 ÷ 219,8 = 500."
+},
+"C": {
+"error": "Usar el diámetro como radio",
+"porque": "Elegiste 250 porque tomaste 70 cm como radio, duplicando la circunferencia.",
+"pregunta_guia": "¿El dato de 35 cm es el radio o el diámetro?",
+"aprende": "Con r = 35 cm, el diámetro es 70 cm y la circunferencia πd = 219,8 cm."
+}
+},
+"explicacion": "Paso 1: longitud de una vuelta = 2πr = 2 × 3,14 × 35 = 219,8 cm. Paso 2: distancia recorrida = 1.099 m = 109.900 cm. Paso 3: número de vueltas = 109.900 ÷ 219,8 = 500.",
+"tip": "Antes de dividir, pon distancia y circunferencia en la misma unidad.",
+"truco": "Vueltas = distancia ÷ (2πr).",
+"estrategia_icfes": "En nivel avanzado el ICFES combina fórmula y conversión de unidades. Escribe las unidades junto a cada número y verifica el orden de magnitud: una vuelta de unos 2,2 m en 1,1 km da cerca de 500 vueltas.",
+"temas": [
+"longitud de la circunferencia",
+"conversión de unidades",
+"movimiento circular"
+],
+"gemela": {
+"enunciado": "Una rueda de 30 cm de radio recorre 1.884 m sin resbalar (π ≈ 3,14). ¿Cuántas vueltas da?",
+"opciones": {
+"A": "2.000",
+"B": "1.000",
+"C": "10",
+"D": "500"
+},
+"correcta": "B",
+"explicacion": "Paso 1: una vuelta = 2 × 3,14 × 30 = 188,4 cm. Paso 2: 1.884 m = 188.400 cm. Paso 3: 188.400 ÷ 188,4 = 1.000 vueltas."
+}
+},
+{
+"id": "P11-MAT-C042",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: usa la suma de los ángulos internos de un triángulo para decidir si un triángulo puede existir.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 6°–7°: clasifico polígonos en relación con sus propiedades.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica la imposibilidad de un triángulo usando la suma de sus ángulos internos.",
+"contexto": "En la clase de dibujo técnico, Sofía quiere construir un triángulo que tenga un ángulo de 100° y otro de 85°.",
+"enunciado": "¿Cuál afirmación sobre el triángulo de Sofía es correcta?",
+"opciones": {
+"A": "Sí se puede construir, porque solo uno de los dos ángulos es obtuso.",
+"B": "No se puede construir, porque 100° + 85° = 185°, que ya supera los 180° que suman los tres ángulos.",
+"C": "Sí se puede construir, y su tercer ángulo mide 175°.",
+"D": "No se puede construir, porque ningún triángulo puede tener un ángulo mayor de 90°."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Revisar solo una condición necesaria",
+"porque": "Elegiste A porque recordaste que un triángulo tiene a lo sumo un ángulo obtuso, pero no sumaste los ángulos.",
+"pregunta_guia": "¿Cuánto suman 100° y 85°? ¿Cuánto queda para el tercer ángulo?",
+"aprende": "Además de tener máximo un ángulo obtuso, los tres ángulos deben sumar exactamente 180°."
+},
+"C": {
+"error": "Usar 360° como suma de ángulos del triángulo",
+"porque": "Elegiste C porque calculaste 360° − 185° = 175°, que corresponde a la suma de ángulos de un cuadrilátero.",
+"pregunta_guia": "¿Los ángulos internos de un triángulo suman 180° o 360°?",
+"aprende": "Triángulo: 180°. Cuadrilátero: 360°."
+},
+"D": {
+"error": "Desconocer los triángulos obtusángulos",
+"porque": "Elegiste D porque pensaste que todo ángulo de un triángulo debe ser agudo o recto.",
+"pregunta_guia": "¿Existe un triángulo con ángulos de 120°, 30° y 30°?",
+"aprende": "Existen triángulos obtusángulos; lo que falla aquí es la suma."
+}
+},
+"explicacion": "Paso 1: los ángulos internos de todo triángulo suman 180°. Paso 2: 100° + 85° = 185°. Paso 3: el tercer ángulo tendría que medir 180° − 185° = −5°, lo cual es imposible. Paso 4: el triángulo no se puede construir.",
+"tip": "Antes de dibujar, suma los ángulos conocidos: si llegan a 180° o más, no hay triángulo.",
+"truco": "Triángulo = 180°; cada lado extra en un polígono suma otros 180°.",
+"estrategia_icfes": "El ICFES pide decidir si una figura existe y por qué. La justificación correcta usa la propiedad que realmente falla, no una regla falsa.",
+"temas": [
+"suma de ángulos internos",
+"clasificación de triángulos",
+"argumentación geométrica"
+],
+"gemela": {
+"enunciado": "¿Se puede construir un triángulo con un ángulo de 95° y otro de 80°?",
+"opciones": {
+"A": "No, porque tiene un ángulo obtuso.",
+"B": "No, porque 95 + 80 supera 90°.",
+"C": "Sí, y el tercer ángulo mide 185°.",
+"D": "Sí, y el tercer ángulo mide 5°, porque 95° + 80° + 5° = 180°."
+},
+"correcta": "D",
+"explicacion": "Paso 1: 95° + 80° = 175° < 180°. Paso 2: tercer ángulo = 180° − 175° = 5°. Paso 3: el triángulo existe."
+}
+},
+{
+"id": "P11-MAT-C043",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°: resuelve triángulos oblicuángulos con la ley del seno.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Plantea la ley del seno emparejando cada lado con su ángulo opuesto y despeja el lado pedido.",
+"contexto": "Un topógrafo mide un terreno triangular ABC cerca del río Cauca. El ángulo en A mide 30°, el ángulo en B mide 45° y el lado BC, opuesto al ángulo A, mide 10 m. Usa sen 30° = 0,5 y sen 45° ≈ 0,7071.",
+"enunciado": "¿Cuánto mide, aproximadamente, el lado AC, opuesto al ángulo B?",
+"opciones": {
+"A": "14,14 m",
+"B": "7,07 m",
+"C": "15 m",
+"D": "20 m"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Invertir los ángulos en la ley del seno",
+"porque": "Elegiste 7,07 m porque calculaste 10 × sen 30° ÷ sen 45°, emparejando cada lado con el ángulo que no le corresponde.",
+"pregunta_guia": "El lado opuesto al ángulo mayor, ¿debe ser mayor o menor?",
+"aprende": "a/sen A = b/sen B: el lado AC (b) va con sen 45°."
+},
+"C": {
+"error": "Suponer lados proporcionales a los ángulos",
+"porque": "Elegiste 15 m porque calculaste 10 × 45 ÷ 30, como si los lados fueran proporcionales a las medidas de los ángulos.",
+"pregunta_guia": "¿La ley del seno usa los ángulos o los senos de los ángulos?",
+"aprende": "Los lados son proporcionales a los senos de los ángulos opuestos, no a los ángulos."
+},
+"D": {
+"error": "Dividir solo entre el seno de A",
+"porque": "Elegiste 20 m porque calculaste 10 ÷ sen 30° y olvidaste multiplicar por sen 45°.",
+"pregunta_guia": "Después de hallar a/sen A = 20, ¿qué falta para obtener b?",
+"aprende": "b = (a/sen A) × sen B = 20 × 0,7071 ≈ 14,14 m."
+}
+},
+"explicacion": "Paso 1: ley del seno: a/sen A = b/sen B, con a = BC = 10 m y b = AC. Paso 2: 10/sen 30° = b/sen 45°. Paso 3: 10/0,5 = 20, así que b = 20 × 0,7071. Paso 4: b ≈ 14,14 m.",
+"tip": "Cada lado se empareja con el ángulo que tiene en frente; nunca mezcles parejas.",
+"truco": "Ángulo mayor ↔ lado mayor: como 45° > 30°, AC debe ser mayor que 10 m.",
+"estrategia_icfes": "El ICFES usa la ley del seno cuando conoces dos ángulos y un lado. Verifica la respuesta con el orden de los ángulos: el lado más largo está frente al ángulo más grande.",
+"temas": [
+"ley del seno",
+"triángulos oblicuángulos",
+"trigonometría"
+],
+"gemela": {
+"enunciado": "En un triángulo, A = 30°, B = 60° y el lado a (opuesto a A) mide 8 m (sen 30° = 0,5; sen 60° ≈ 0,866). ¿Cuánto mide el lado b?",
+"opciones": {
+"A": "4,62 m",
+"B": "16 m",
+"C": "13,86 m",
+"D": "9,24 m"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 8/0,5 = 16. Paso 2: b = 16 × 0,866 ≈ 13,86 m."
+}
+},
+{
+"id": "P11-MAT-C044",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: compara volúmenes y capacidades expresados en distintas unidades del sistema métrico.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: justifico la pertinencia de utilizar unidades de medida estandarizadas en situaciones tomadas de distintas ciencias.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta una tabla con capacidades en unidades distintas y las convierte a una misma unidad para compararlas.",
+"contexto": "Para la feria de emprendimiento, el grupo de 11° compara cuatro recipientes para vender jugo de mango. La tabla muestra la capacidad de cada uno, registrada por distintos estudiantes.",
+"tabla": {
+"titulo": "Capacidad de los recipientes",
+"cols": [
+"Recipiente",
+"Capacidad"
+],
+"filas": [
+[
+"R1",
+"2,5 L"
+],
+[
+"R2",
+"2,4 dm³"
+],
+[
+"R3",
+"0,0026 m³"
+],
+[
+"R4",
+"2.450 mL"
+]
+]
+},
+"enunciado": "¿Cuál recipiente tiene la mayor capacidad?",
+"opciones": {
+"A": "R1",
+"B": "R2",
+"C": "R4",
+"D": "R3"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Convertir mal los metros cúbicos",
+"porque": "Elegiste R1 porque convertiste 0,0026 m³ como si 1 m³ fueran 100 L (0,26 L) y así R1 quedó como el mayor.",
+"pregunta_guia": "Un cubo de 1 m de lado mide 10 dm por lado. ¿Cuántos litros caben?",
+"aprende": "1 m³ = 1.000 L, así que 0,0026 m³ = 2,6 L."
+},
+"B": {
+"error": "Creer que el dm³ es mayor que el litro",
+"porque": "Elegiste R2 porque pensaste que 1 dm³ equivale a 10 L.",
+"pregunta_guia": "¿Cuánto mide de lado un cubo de 1 dm³? ¿Cuánto líquido le cabe?",
+"aprende": "1 dm³ = 1 L; R2 tiene 2,4 L."
+},
+"C": {
+"error": "Comparar números sin convertir unidades",
+"porque": "Elegiste R4 porque 2.450 es el número más grande de la tabla.",
+"pregunta_guia": "¿2.450 mL es más o menos que 2,5 L?",
+"aprende": "2.450 mL = 2,45 L. Antes de comparar, lleva todo a la misma unidad."
+}
+},
+"explicacion": "Paso 1: lleva todo a litros. R1 = 2,5 L. Paso 2: R2 = 2,4 dm³ = 2,4 L (1 dm³ = 1 L). Paso 3: R3 = 0,0026 m³ × 1.000 = 2,6 L. Paso 4: R4 = 2.450 mL ÷ 1.000 = 2,45 L. Paso 5: el mayor es R3 con 2,6 L.",
+"tip": "Elige una unidad de referencia (el litro) y convierte todas las cantidades antes de comparar.",
+"truco": "1 m³ = 1.000 L; 1 dm³ = 1 L; 1 cm³ = 1 mL.",
+"estrategia_icfes": "El ICFES presenta tablas con unidades mezcladas para evaluar conversión. No compares cifras sueltas: convierte primero y luego ordena.",
+"temas": [
+"unidades de volumen y capacidad",
+"conversión de unidades",
+"lectura de tablas"
+],
+"sabic": "Técnico SENA",
+"gemela": {
+"enunciado": "Otros cuatro recipientes miden 1,2 L; 1.150 cm³; 0,0011 m³ y 1.250 mL. ¿Cuál tiene mayor capacidad?",
+"opciones": {
+"A": "El de 1,2 L",
+"B": "El de 1.150 cm³",
+"C": "El de 1.250 mL",
+"D": "El de 0,0011 m³"
+},
+"correcta": "C",
+"explicacion": "Paso 1: en litros: 1,2; 1,15; 1,1 y 1,25. Paso 2: el mayor es 1.250 mL = 1,25 L."
+}
+},
+{
+"id": "P11-MAT-C045",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°: calcula el área de un triángulo a partir de dos lados y el ángulo comprendido usando la razón seno.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y en otras ciencias.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Obtiene la altura de un triángulo con el seno del ángulo comprendido y calcula el área.",
+"contexto": "Un lote triangular en El Cerrito tiene dos linderos de 40 m y 30 m que se unen formando un ángulo de 30°. Usa sen 30° = 0,5 y cos 30° ≈ 0,866.",
+"enunciado": "¿Cuál es el área del lote?",
+"opciones": {
+"A": "300 m²",
+"B": "600 m²",
+"C": "519,6 m²",
+"D": "1.200 m²"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar un lado como altura",
+"porque": "Elegiste 600 m² porque calculaste (40 × 30)/2, como si el ángulo fuera recto y 30 m fuera la altura.",
+"pregunta_guia": "Si el lindero de 30 m está inclinado 30°, ¿su altura sobre el otro lindero es 30 m?",
+"aprende": "La altura es 30 × sen 30° = 15 m; área = (40 × 15)/2."
+},
+"C": {
+"error": "Usar coseno en lugar de seno",
+"porque": "Elegiste 519,6 m² porque multiplicaste por cos 30°, que da la proyección horizontal y no la altura.",
+"pregunta_guia": "¿La altura es el cateto opuesto o el adyacente al ángulo de 30°?",
+"aprende": "Área = ½ · a · b · sen C."
+},
+"D": {
+"error": "Multiplicar los lados sin más",
+"porque": "Elegiste 1.200 m² porque multiplicaste 40 × 30, como si fuera un rectángulo.",
+"pregunta_guia": "¿El lote es un rectángulo o un triángulo con un ángulo de 30°?",
+"aprende": "Un triángulo nunca ocupa más que la mitad del paralelogramo formado por sus lados."
+}
+},
+"explicacion": "Paso 1: toma el lindero de 40 m como base. Paso 2: la altura es la distancia del otro extremo del lindero de 30 m a la base: h = 30 × sen 30° = 30 × 0,5 = 15 m. Paso 3: área = (40 × 15)/2 = 300 m². Paso 4: equivale a la fórmula A = ½ · 40 · 30 · sen 30° = 300 m².",
+"tip": "Si conoces dos lados y el ángulo entre ellos, el seno te da la altura.",
+"truco": "Área = ½ · a · b · sen C.",
+"estrategia_icfes": "En nivel avanzado el ICFES da triángulos no rectángulos. Dibuja la altura, identifica el triángulo rectángulo que forma y usa el seno; descarta opciones que tratan el ángulo como recto.",
+"temas": [
+"área del triángulo",
+"razón seno",
+"trigonometría aplicada"
+],
+"gemela": {
+"enunciado": "Un triángulo tiene lados de 20 m y 10 m que forman un ángulo de 30° (sen 30° = 0,5; cos 30° ≈ 0,866). ¿Cuál es su área?",
+"opciones": {
+"A": "100 m²",
+"B": "50 m²",
+"C": "86,6 m²",
+"D": "200 m²"
+},
+"correcta": "B",
+"explicacion": "Paso 1: A = ½ · 20 · 10 · sen 30°. Paso 2: A = ½ · 200 · 0,5 = 50 m²."
+}
+},
+{
+"id": "P11-MAT-C046",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: ubica figuras en el plano cartesiano y completa sus vértices a partir de sus propiedades.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Determina el cuarto vértice de un rectángulo con lados paralelos a los ejes a partir de tres vértices.",
+"contexto": "En el plano de una cancha múltiple, tres esquinas del rectángulo que la forma están en los puntos (−2, 1), (4, 1) y (4, −3). Los lados de la cancha son paralelos a los ejes.",
+"enunciado": "¿Cuáles son las coordenadas de la cuarta esquina?",
+"opciones": {
+"A": "(−3, −2)",
+"B": "(−2, −3)",
+"C": "(2, −3)",
+"D": "(−2, 3)"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Intercambiar abscisa y ordenada",
+"porque": "Elegiste (−3, −2) porque escribiste primero la y y luego la x.",
+"pregunta_guia": "En un par ordenado (x, y), ¿qué coordenada va primero?",
+"aprende": "Primero la x (horizontal), luego la y (vertical)."
+},
+"C": {
+"error": "Perder el signo de la abscisa",
+"porque": "Elegiste (2, −3) porque tomaste x = 2 en lugar de x = −2.",
+"pregunta_guia": "La esquina que falta, ¿está alineada verticalmente con (−2, 1) o con (2, 1)?",
+"aprende": "La cuarta esquina comparte la x de (−2, 1) y la y de (4, −3)."
+},
+"D": {
+"error": "Perder el signo de la ordenada",
+"porque": "Elegiste (−2, 3) porque tomaste y = 3 en lugar de y = −3.",
+"pregunta_guia": "¿La esquina inferior está por encima o por debajo del eje x?",
+"aprende": "La esquina está a la misma altura que (4, −3): y = −3."
+}
+},
+"explicacion": "Paso 1: (−2, 1) y (4, 1) forman el lado superior (misma y). Paso 2: (4, 1) y (4, −3) forman el lado derecho (misma x). Paso 3: la esquina que falta está debajo de (−2, 1) y a la altura de (4, −3). Paso 4: sus coordenadas son (−2, −3).",
+"tip": "En rectángulos con lados paralelos a los ejes, cada esquina repite una x y una y de sus vecinas.",
+"truco": "Cuarta esquina: x de un vecino, y del otro.",
+"estrategia_icfes": "El ICFES pide completar figuras en el plano. Dibuja los puntos, traza los lados conocidos y cuida el orden y los signos de las coordenadas.",
+"temas": [
+"plano cartesiano",
+"rectángulo",
+"pares ordenados"
+],
+"gemela": {
+"enunciado": "Tres vértices de un cuadrado son (1, 2), (5, 2) y (5, 6). ¿Cuál es el cuarto vértice?",
+"opciones": {
+"A": "(6, 1)",
+"B": "(1, 6)",
+"C": "(6, 5)",
+"D": "(−1, 6)"
+},
+"correcta": "B",
+"explicacion": "Paso 1: el cuarto vértice tiene la x de (1, 2) y la y de (5, 6). Paso 2: es (1, 6)."
+}
+},
+{
+"id": "P11-MAT-C047",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: justifica cuándo dos figuras son semejantes usando la igualdad de ángulos y la proporcionalidad de lados.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: conjeturo y verifico propiedades de congruencias y semejanzas entre figuras bidimensionales y entre objetos tridimensionales en la solución de problemas.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Evalúa afirmaciones generales sobre semejanza de familias de figuras y elige la verdadera con su justificación.",
+"contexto": "En un concurso de matemáticas del colegio, se discute qué familias de figuras son siempre semejantes entre sí, sin importar su tamaño.",
+"enunciado": "¿Cuál de las siguientes afirmaciones es verdadera?",
+"opciones": {
+"A": "Todos los rectángulos son semejantes, porque todos tienen cuatro ángulos de 90°.",
+"B": "Todos los triángulos isósceles son semejantes, porque tienen dos lados iguales.",
+"C": "Todos los cuadrados son semejantes, porque tienen ángulos iguales y la razón entre sus lados es la misma en todos los lados.",
+"D": "Todos los rombos son semejantes, porque tienen sus cuatro lados iguales."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Revisar solo los ángulos en cuadriláteros",
+"porque": "Elegiste A porque aplicaste a los rectángulos el criterio de ángulos que solo basta en triángulos.",
+"pregunta_guia": "Un rectángulo de 2 × 4 y otro de 3 × 5, ¿tienen lados proporcionales (2/3 y 4/5)?",
+"aprende": "En polígonos de más de 3 lados se necesitan ángulos iguales y lados proporcionales."
+},
+"B": {
+"error": "Confundir una propiedad con semejanza",
+"porque": "Elegiste B porque pensaste que tener dos lados iguales fija la forma del triángulo.",
+"pregunta_guia": "Un isósceles con ángulo de 20° en el vértice y otro con 100°, ¿tienen la misma forma?",
+"aprende": "Los isósceles pueden tener ángulos muy distintos; no siempre son semejantes."
+},
+"D": {
+"error": "Revisar solo los lados",
+"porque": "Elegiste D porque los rombos tienen lados iguales, pero no revisaste sus ángulos.",
+"pregunta_guia": "Un rombo casi aplastado y un cuadrado, ¿tienen la misma forma?",
+"aprende": "Los rombos pueden tener ángulos distintos; la proporción de lados sola no basta."
+}
+},
+"explicacion": "Paso 1: para que dos polígonos sean semejantes se necesitan ángulos correspondientes iguales y lados proporcionales. Paso 2: todos los cuadrados tienen cuatro ángulos de 90° y lados iguales. Paso 3: entre un cuadrado de lado a y otro de lado b, todos los lados están en razón a/b. Paso 4: por tanto, todos los cuadrados son semejantes. Rectángulos, isósceles y rombos fallan en alguna de las dos condiciones.",
+"tip": "Para refutar una semejanza general basta un contraejemplo: rectángulo 1 × 1 y rectángulo 1 × 10.",
+"truco": "Siempre semejantes: cuadrados, triángulos equiláteros, círculos y, en general, polígonos regulares con igual número de lados.",
+"estrategia_icfes": "El ICFES evalúa si sabes qué condiciones definen un concepto. Pon a prueba cada afirmación general con un ejemplo extremo.",
+"temas": [
+"semejanza de polígonos",
+"contraejemplos",
+"propiedades de cuadriláteros"
+],
+"gemela": {
+"enunciado": "¿Cuál par de figuras es SIEMPRE semejante, sin importar su tamaño?",
+"opciones": {
+"A": "Dos triángulos rectángulos.",
+"B": "Dos paralelogramos.",
+"C": "Dos triángulos escalenos.",
+"D": "Dos triángulos equiláteros."
+},
+"correcta": "D",
+"explicacion": "Paso 1: todo triángulo equilátero tiene ángulos de 60°, 60° y 60°. Paso 2: por el criterio AA, dos equiláteros siempre son semejantes. Paso 3: los otros pares pueden tener ángulos distintos."
+}
+},
+{
+"id": "P11-MAT-C048",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula perímetros de figuras compuestas por segmentos y arcos de circunferencia.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Identifica los tramos que forman el borde exterior de una figura compuesta y suma segmentos y arco.",
+"contexto": "Una ventana de la casa de la cultura de Ginebra (Valle) está formada por un rectángulo de 1,2 m de ancho y 1,5 m de alto, con un semicírculo encima cuyo diámetro es el lado superior del rectángulo. Se colocará un marco de aluminio solo en el borde exterior de la ventana. Usa π ≈ 3,14.",
+"enunciado": "¿Cuántos metros de marco se necesitan?",
+"opciones": {
+"A": "7,28 m",
+"B": "6,08 m",
+"C": "7,97 m",
+"D": "4,77 m"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Incluir un segmento interior",
+"porque": "Elegiste 7,28 m porque sumaste también el lado superior del rectángulo (1,2 m), que queda dentro de la ventana.",
+"pregunta_guia": "El diámetro donde se une el semicírculo con el rectángulo, ¿está en el borde exterior?",
+"aprende": "El borde exterior es: base + dos lados + arco; el diámetro interior no se cuenta."
+},
+"C": {
+"error": "Usar la circunferencia completa",
+"porque": "Elegiste 7,97 m porque sumaste la circunferencia completa 2πr en lugar de la mitad.",
+"pregunta_guia": "¿Qué parte de una circunferencia es un semicírculo?",
+"aprende": "Arco del semicírculo = πr = 3,14 × 0,6 = 1,884 m."
+},
+"D": {
+"error": "Usar el área del semicírculo",
+"porque": "Elegiste 4,77 m porque usaste πr²/2 = 0,565, que es un área y no una longitud.",
+"pregunta_guia": "¿Para un marco necesitas una longitud o una superficie?",
+"aprende": "Longitud de arco: πr; área del semicírculo: πr²/2."
+}
+},
+"explicacion": "Paso 1: tramos rectos del borde: base (1,2 m) + dos lados (1,5 m cada uno) = 4,2 m. Paso 2: radio del semicírculo = 1,2 ÷ 2 = 0,6 m. Paso 3: arco = π × r = 3,14 × 0,6 = 1,884 m. Paso 4: marco total = 4,2 + 1,884 = 6,084 ≈ 6,08 m.",
+"tip": "Recorre el borde con el dedo: solo cuentas lo que tocas por fuera.",
+"truco": "Semicircunferencia = π × r (la mitad de 2πr).",
+"estrategia_icfes": "En figuras compuestas el ICFES incluye segmentos interiores para confundir. Haz el recorrido del borde exterior y distingue fórmulas de longitud y de área.",
+"temas": [
+"perímetro de figuras compuestas",
+"longitud de arco",
+"semicírculo"
+],
+"gemela": {
+"enunciado": "Una puerta es un rectángulo de 2 m de ancho y 1 m de alto con un semicírculo encima sobre el lado de 2 m (π ≈ 3,14). ¿Cuánto mide su borde exterior?",
+"opciones": {
+"A": "9,14 m",
+"B": "10,28 m",
+"C": "7,14 m",
+"D": "5,57 m"
+},
+"correcta": "C",
+"explicacion": "Paso 1: tramos rectos: 2 + 1 + 1 = 4 m. Paso 2: arco: π × 1 = 3,14 m. Paso 3: total = 7,14 m."
+}
+},
+{
+"id": "P11-MAT-C049",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: describe rotaciones de 90° y 180° alrededor del origen mediante reglas en coordenadas.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: predigo y comparo los resultados de aplicar transformaciones rígidas (traslaciones, rotaciones, reflexiones) sobre figuras bidimensionales.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Aplica la regla de una rotación de 90° en sentido antihorario alrededor del origen.",
+"contexto": "En una aplicación de robótica, un brazo mecánico gira alrededor del origen (0, 0). Su punta está en el punto (3, 1) y el brazo rota 90° en sentido contrario a las manecillas del reloj.",
+"enunciado": "¿Dónde queda la punta del brazo después del giro?",
+"opciones": {
+"A": "(−1, 3)",
+"B": "(1, −3)",
+"C": "(−3, −1)",
+"D": "(1, 3)"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Girar en sentido horario",
+"porque": "Elegiste (1, −3) porque aplicaste la regla de 90° en el sentido de las manecillas del reloj.",
+"pregunta_guia": "Si giras desde el primer cuadrante en sentido antihorario, ¿a qué cuadrante llegas?",
+"aprende": "Antihorario 90°: (x, y) → (−y, x). Horario 90°: (x, y) → (y, −x)."
+},
+"C": {
+"error": "Girar 180°",
+"porque": "Elegiste (−3, −1) porque cambiaste el signo de ambas coordenadas, que corresponde a media vuelta.",
+"pregunta_guia": "¿90° es un cuarto de vuelta o media vuelta?",
+"aprende": "180°: (x, y) → (−x, −y); 90° intercambia coordenadas y cambia un signo."
+},
+"D": {
+"error": "Intercambiar sin cambiar signo",
+"porque": "Elegiste (1, 3) porque intercambiaste las coordenadas pero no cambiaste el signo; eso es una reflexión respecto a y = x.",
+"pregunta_guia": "¿(1, 3) está en el mismo cuadrante que (3, 1)? ¿Un giro de 90° puede dejarte ahí?",
+"aprende": "Un giro de 90° antihorario lleva el primer cuadrante al segundo: x negativa."
+}
+},
+"explicacion": "Paso 1: la regla de rotación de 90° antihoraria alrededor del origen es (x, y) → (−y, x). Paso 2: con (3, 1): (−1, 3). Paso 3: comprobación: la distancia al origen se conserva (√10) y el punto pasa del primer al segundo cuadrante.",
+"tip": "Verifica con el cuadrante: un giro antihorario de 90° avanza un cuadrante (I → II → III → IV).",
+"truco": "Antihorario: (x, y) → (−y, x). «Cambia de lugar y niega la nueva x».",
+"estrategia_icfes": "El ICFES pide imágenes de rotaciones. Usa la regla y comprueba con el cuadrante y la distancia al centro, que no cambia.",
+"temas": [
+"rotaciones",
+"plano cartesiano",
+"transformaciones rígidas"
+],
+"gemela": {
+"enunciado": "El punto (2, 5) gira 90° en el sentido de las manecillas del reloj alrededor del origen. ¿Dónde queda?",
+"opciones": {
+"A": "(−5, 2)",
+"B": "(5, −2)",
+"C": "(−2, −5)",
+"D": "(5, 2)"
+},
+"correcta": "B",
+"explicacion": "Paso 1: regla horaria de 90°: (x, y) → (y, −x). Paso 2: (2, 5) → (5, −2)."
+}
+},
+{
+"id": "P11-MAT-C050",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: justifica la relación entre el volumen de la pirámide y el del prisma de igual base y altura.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Elige la justificación experimental correcta del factor 1/3 en el volumen de la pirámide.",
+"contexto": "En el laboratorio, Juliana tiene una pirámide hueca y un prisma hueco, ambos con base cuadrada de 6 cm de lado y 10 cm de altura. Llena la pirámide con arena y la vacía en el prisma; repite hasta llenarlo. Luego afirma que el volumen de la pirámide es 120 cm³.",
+"enunciado": "¿Cuál argumento justifica correctamente la conclusión de Juliana?",
+"opciones": {
+"A": "La pirámide tiene 5 caras y el prisma 6, así que su volumen es 5/6 del prisma: 300 cm³.",
+"B": "La altura de la pirámide es la tercera parte de la del prisma, así que su volumen es menor.",
+"C": "Con tres pirámides llenas se llena exactamente el prisma; por eso V = (36 × 10) ÷ 3 = 120 cm³.",
+"D": "La pirámide es la mitad del prisma por ser puntiaguda, así que su volumen es 180 cm³."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Relacionar volumen con número de caras",
+"porque": "Elegiste A porque comparaste el número de caras, que no determina el volumen.",
+"pregunta_guia": "¿Cuántas veces vació Juliana la pirámide en el prisma para llenarlo?",
+"aprende": "El volumen se relaciona con cuántas veces cabe un sólido en otro, no con el número de caras."
+},
+"B": {
+"error": "Contradecir los datos",
+"porque": "Elegiste B porque pensaste que la pirámide es más baja, pero ambos sólidos tienen 10 cm de altura.",
+"pregunta_guia": "¿Qué altura tienen la pirámide y el prisma según el enunciado?",
+"aprende": "Con igual base y altura, la pirámide ocupa 1/3 del prisma."
+},
+"D": {
+"error": "Suponer un factor de 1/2",
+"porque": "Elegiste D porque generalizaste la fórmula del triángulo (mitad del rectángulo) a los sólidos.",
+"pregunta_guia": "Si fuera la mitad, ¿con cuántas pirámides se llenaría el prisma?",
+"aprende": "En el plano, triángulo = ½ rectángulo; en el espacio, pirámide = ⅓ prisma."
+}
+},
+"explicacion": "Paso 1: volumen del prisma = área de la base × altura = 6 × 6 × 10 = 360 cm³. Paso 2: el experimento muestra que tres pirámides llenas equivalen a un prisma de igual base y altura. Paso 3: volumen de la pirámide = 360 ÷ 3 = 120 cm³. Paso 4: la conclusión de Juliana es correcta y el argumento válido es el de las tres llenadas.",
+"tip": "Recuerda el experimento de la arena: tres llenadas de pirámide (o de cono) llenan el prisma (o el cilindro).",
+"truco": "Pirámide = ⅓ · área de la base · altura.",
+"estrategia_icfes": "El ICFES pide validar conclusiones a partir de experimentos. Busca la razón que conecta el dato observado (tres llenadas) con la conclusión.",
+"temas": [
+"volumen de la pirámide",
+"volumen del prisma",
+"justificación experimental"
+],
+"gemela": {
+"enunciado": "Un cono y un cilindro tienen la misma base y la misma altura. ¿Qué afirmación sobre sus volúmenes es correcta?",
+"opciones": {
+"A": "El cono tiene la mitad del volumen del cilindro.",
+"B": "Con tres conos llenos se llena el cilindro, así que el cono tiene un tercio de su volumen.",
+"C": "Tienen el mismo volumen, porque la base y la altura son iguales.",
+"D": "El cono tiene dos tercios del volumen, porque le falta la tapa."
+},
+"correcta": "B",
+"explicacion": "Paso 1: V cilindro = π r² h. Paso 2: V cono = (1/3) π r² h. Paso 3: tres conos llenan el cilindro."
+}
+},
+{
+"id": "P11-MAT-C051",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), 10°: diseña y valida procedimientos con razones trigonométricas para medir alturas y distancias inaccesibles.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: diseño estrategias para abordar situaciones de medición que requieran grados de precisión específicos.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Evalúa distintos procedimientos para calcular una altura con un clinómetro y elige el válido.",
+"contexto": "Para su proyecto STEAM, un grupo de 11° quiere calcular la altura de la torre de una iglesia de Cali. Con un clinómetro, a la altura de sus ojos (1,5 m sobre el suelo), miden el ángulo de elevación θ hasta la punta de la torre, y con una cinta miden la distancia horizontal d desde donde están hasta la base de la torre. El terreno es plano.",
+"enunciado": "¿Cuál procedimiento permite calcular correctamente la altura de la torre?",
+"opciones": {
+"A": "Calcular d × sen θ y sumarle 1,5 m.",
+"B": "Calcular d ÷ tan θ y sumarle 1,5 m.",
+"C": "Calcular d × tan θ, sin sumar nada más.",
+"D": "Calcular d × tan θ y sumarle 1,5 m."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Tratar la distancia horizontal como hipotenusa",
+"porque": "Elegiste A porque usaste el seno, que requiere la hipotenusa (la línea de visión), no la distancia horizontal.",
+"pregunta_guia": "¿La distancia d medida con cinta es un cateto o la línea de visión?",
+"aprende": "d es el cateto adyacente; con el opuesto (altura) se relaciona por la tangente."
+},
+"B": {
+"error": "Despejar mal la tangente",
+"porque": "Elegiste B porque de tan θ = h/d despejaste h = d ÷ tan θ.",
+"pregunta_guia": "Si tan θ = h/d, ¿qué operación con d deja sola a h?",
+"aprende": "Se multiplica por d en ambos lados: h = d × tan θ."
+},
+"C": {
+"error": "Olvidar la altura del observador",
+"porque": "Elegiste C porque calculaste la altura desde los ojos y no desde el suelo.",
+"pregunta_guia": "El ángulo se midió desde los ojos, a 1,5 m. ¿La altura calculada empieza en el suelo o en los ojos?",
+"aprende": "Altura total = d × tan θ + altura de los ojos."
+}
+},
+"explicacion": "Paso 1: desde los ojos se forma un triángulo rectángulo: cateto adyacente d (horizontal), cateto opuesto h' (de los ojos a la punta). Paso 2: tan θ = h'/d, así que h' = d × tan θ. Paso 3: como la medición se hizo a 1,5 m del suelo, la altura total es H = d × tan θ + 1,5 m. Paso 4: el procedimiento D es el único completo y correcto.",
+"tip": "En problemas reales, revisa desde qué altura se mide el ángulo: el ojo no está en el suelo.",
+"truco": "Altura inaccesible = distancia × tangente + altura del observador.",
+"estrategia_icfes": "El ICFES presenta procedimientos casi iguales que difieren en un detalle. Revisa la razón trigonométrica, el despeje y si se incluyen todos los datos del contexto.",
+"temas": [
+"razón tangente",
+"ángulo de elevación",
+"medición indirecta"
+],
+"sabic": "STEAM",
+"gemela": {
+"enunciado": "Desde lo alto de un faro de altura h (medida hasta los ojos del observador) se ve un barco con ángulo de depresión θ. ¿Cómo se calcula la distancia horizontal d al barco?",
+"opciones": {
+"A": "d = h × tan θ",
+"B": "d = h ÷ tan θ",
+"C": "d = h × sen θ",
+"D": "d = h ÷ cos θ"
+},
+"correcta": "B",
+"explicacion": "Paso 1: el ángulo de depresión es igual al de elevación desde el barco. Paso 2: tan θ = h/d. Paso 3: d = h ÷ tan θ."
+}
+},
+{
+"id": "P11-MAT-C052",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 6°–9°: identifica caras, vértices y aristas de poliedros y verifica la relación de Euler.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso representaciones geométricas para resolver y formular problemas en las matemáticas y en otras disciplinas.",
+"afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+"evidencia": "Interpreta una tabla de datos de poliedros y detecta el registro que no cumple C + V − A = 2.",
+"contexto": "En la clase de geometría, Nicolás registró en una tabla el número de caras (C), vértices (V) y aristas (A) de cuatro poliedros convexos. En uno de los registros cometió un error.",
+"tabla": {
+"titulo": "Elementos de algunos poliedros",
+"cols": [
+"Poliedro",
+"Caras (C)",
+"Vértices (V)",
+"Aristas (A)"
+],
+"filas": [
+[
+"Cubo",
+"6",
+"8",
+"12"
+],
+[
+"Prisma triangular",
+"5",
+"6",
+"9"
+],
+[
+"Pirámide de base cuadrada",
+"5",
+"5",
+"8"
+],
+[
+"Octaedro regular",
+"8",
+"6",
+"10"
+]
+]
+},
+"enunciado": "¿En cuál fila de la tabla hay un error?",
+"opciones": {
+"A": "Octaedro regular",
+"B": "Cubo",
+"C": "Prisma triangular",
+"D": "Pirámide de base cuadrada"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir vértices con caras del cubo",
+"porque": "Elegiste Cubo porque pensaste que el cubo tiene tantos vértices como caras (6).",
+"pregunta_guia": "Cuenta las esquinas de un dado: ¿cuántas hay arriba y cuántas abajo?",
+"aprende": "Cubo: 6 caras, 8 vértices, 12 aristas; 6 + 8 − 12 = 2 ✓."
+},
+"C": {
+"error": "Contar mal las caras del prisma",
+"porque": "Elegiste Prisma triangular porque contaste solo sus 3 caras laterales o pensaste que tiene 6 caras como el cubo.",
+"pregunta_guia": "Además de las 3 caras laterales, ¿qué otras caras tiene el prisma?",
+"aprende": "Prisma triangular: 2 bases + 3 laterales = 5 caras; 5 + 6 − 9 = 2 ✓."
+},
+"D": {
+"error": "Contar mal las caras de la pirámide",
+"porque": "Elegiste Pirámide de base cuadrada porque olvidaste contar la base como cara.",
+"pregunta_guia": "¿La base de la pirámide también es una cara?",
+"aprende": "Pirámide cuadrada: 4 triángulos + 1 base = 5 caras; 5 + 5 − 8 = 2 ✓."
+}
+},
+"explicacion": "Paso 1: en todo poliedro convexo se cumple C + V − A = 2. Paso 2: cubo: 6 + 8 − 12 = 2 ✓. Prisma triangular: 5 + 6 − 9 = 2 ✓. Pirámide cuadrada: 5 + 5 − 8 = 2 ✓. Paso 3: octaedro: 8 + 6 − 10 = 4 ✗. Paso 4: el octaedro tiene 12 aristas (8 triángulos × 3 lados ÷ 2, porque cada arista la comparten dos caras); el error está en esa fila.",
+"tip": "La fórmula de Euler es un detector de errores: si no da 2, algo se contó mal.",
+"truco": "Aristas = (suma de lados de todas las caras) ÷ 2.",
+"estrategia_icfes": "El ICFES usa tablas para que verifiques regularidades. Aplica la misma prueba a cada fila y señala la que no cumple.",
+"temas": [
+"fórmula de Euler",
+"poliedros",
+"lectura de tablas"
+],
+"gemela": {
+"enunciado": "Otra tabla registra: tetraedro (C 4, V 4, A 6); prisma pentagonal (C 7, V 10, A 15); pirámide hexagonal (C 7, V 7, A 12); prisma hexagonal (C 8, V 12, A 16). ¿Cuál registro es erróneo?",
+"opciones": {
+"A": "Tetraedro",
+"B": "Prisma pentagonal",
+"C": "Pirámide hexagonal",
+"D": "Prisma hexagonal"
+},
+"correcta": "D",
+"explicacion": "Paso 1: tetraedro 4 + 4 − 6 = 2; prisma pentagonal 7 + 10 − 15 = 2; pirámide hexagonal 7 + 7 − 12 = 2. Paso 2: prisma hexagonal 8 + 12 − 16 = 4 ✗; en realidad tiene 18 aristas."
+}
+},
+{
+"id": "P11-MAT-C053",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: aplica el teorema de Pitágoras para calcular la diagonal de un cuadrado.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Calcula la diagonal de un cuadrado como hipotenusa de un triángulo rectángulo isósceles.",
+"contexto": "Para regar una huerta cuadrada de 20 m de lado en Rozo (Palmira), don Aurelio tenderá una manguera recta de una esquina a la esquina opuesta. Usa √2 ≈ 1,414.",
+"enunciado": "¿Qué longitud mínima debe tener la manguera?",
+"opciones": {
+"A": "40 m",
+"B": "28,28 m",
+"C": "14,14 m",
+"D": "400 m"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar dos lados",
+"porque": "Elegiste 40 m porque sumaste dos lados, como si la manguera fuera por el borde.",
+"pregunta_guia": "¿La manguera va por el borde o atraviesa la huerta en diagonal?",
+"aprende": "La diagonal es más corta que dos lados: d = √(20² + 20²)."
+},
+"C": {
+"error": "Dividir entre √2",
+"porque": "Elegiste 14,14 m porque dividiste 20 entre √2 en lugar de multiplicar.",
+"pregunta_guia": "¿La diagonal de un cuadrado es más larga o más corta que su lado?",
+"aprende": "La diagonal es la hipotenusa: siempre mayor que el lado. d = l√2."
+},
+"D": {
+"error": "Calcular el área",
+"porque": "Elegiste 400 m porque calculaste 20 × 20, que es el área en m².",
+"pregunta_guia": "¿La manguera se mide en metros o en metros cuadrados?",
+"aprende": "El área es 400 m²; la longitud de la diagonal es 20√2 ≈ 28,28 m."
+}
+},
+"explicacion": "Paso 1: la diagonal divide el cuadrado en dos triángulos rectángulos con catetos de 20 m. Paso 2: d² = 20² + 20² = 400 + 400 = 800. Paso 3: d = √800 = 20√2. Paso 4: d ≈ 20 × 1,414 = 28,28 m.",
+"tip": "La diagonal de un cuadrado siempre es el lado multiplicado por √2 (≈ 1,41).",
+"truco": "Diagonal del cuadrado = lado × 1,414.",
+"estrategia_icfes": "El ICFES usa diagonales de terrenos, pantallas y baldosas. Reconoce el triángulo rectángulo isósceles y descarta opciones menores que el lado o en unidades de área.",
+"temas": [
+"diagonal del cuadrado",
+"teorema de Pitágoras",
+"raíces cuadradas"
+],
+"gemela": {
+"enunciado": "Un salón cuadrado tiene 15 m de lado (√2 ≈ 1,414). ¿Cuánto mide su diagonal?",
+"opciones": {
+"A": "30 m",
+"B": "10,61 m",
+"C": "21,21 m",
+"D": "225 m"
+},
+"correcta": "C",
+"explicacion": "Paso 1: d = 15√2. Paso 2: d ≈ 15 × 1,414 = 21,21 m."
+}
+},
+{
+"id": "P11-MAT-C054",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 10°–11°: clasifica triángulos en el plano cartesiano calculando las longitudes de sus lados.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11°: identifico características de localización de objetos geométricos en sistemas de representación cartesiana.",
+"afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+"evidencia": "Justifica la clasificación de un triángulo con la fórmula de la distancia entre puntos.",
+"contexto": "En la cubierta de un kiosco, una cercha triangular tiene vértices en P(0, 0), Q(4, 0) y R(2, 3), con unidades en metros. Varios estudiantes discuten cómo clasificarla.",
+"enunciado": "¿Cuál afirmación sobre el triángulo PQR está correctamente justificada?",
+"opciones": {
+"A": "Es equilátero, porque R está exactamente sobre el punto medio de PQ.",
+"B": "Es rectángulo, porque uno de sus lados está sobre el eje x.",
+"C": "Es isósceles, porque PR y QR miden √13 m cada uno y PQ mide 4 m.",
+"D": "Es escaleno, porque sus tres vértices tienen coordenadas distintas."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Concluir equilátero sin medir",
+"porque": "Elegiste A porque R está sobre la mediatriz de PQ, lo que garantiza dos lados iguales, pero no tres.",
+"pregunta_guia": "¿Cuánto mide PR comparado con PQ = 4?",
+"aprende": "PR = √(2² + 3²) = √13 ≈ 3,6 m ≠ 4 m: no es equilátero."
+},
+"B": {
+"error": "Asociar un lado horizontal con ángulo recto",
+"porque": "Elegiste B porque pensaste que un lado sobre el eje x implica un ángulo de 90°.",
+"pregunta_guia": "¿Se cumple PR² + QR² = PQ²? ¿13 + 13 = 16?",
+"aprende": "Para que sea rectángulo debe cumplirse Pitágoras; 26 ≠ 16."
+},
+"D": {
+"error": "Clasificar por las coordenadas y no por los lados",
+"porque": "Elegiste D porque relacionaste coordenadas distintas con lados distintos.",
+"pregunta_guia": "¿La clasificación por lados depende de las coordenadas o de las longitudes?",
+"aprende": "Se clasifica por las longitudes; aquí dos lados son iguales."
+}
+},
+"explicacion": "Paso 1: PQ = 4 − 0 = 4 m. Paso 2: PR = √((2 − 0)² + (3 − 0)²) = √13 m. Paso 3: QR = √((2 − 4)² + (3 − 0)²) = √(4 + 9) = √13 m. Paso 4: dos lados iguales (√13) y uno distinto (4): el triángulo es isósceles.",
+"tip": "Para clasificar un triángulo en el plano, calcula siempre las tres distancias.",
+"truco": "Si un vértice está sobre la mediatriz del lado opuesto, el triángulo es isósceles.",
+"estrategia_icfes": "En argumentación el ICFES ofrece clasificaciones con razones diferentes. Calcula las longitudes y elige la opción cuya razón esté respaldada por el cálculo.",
+"temas": [
+"clasificación de triángulos",
+"distancia entre puntos",
+"plano cartesiano"
+],
+"gemela": {
+"enunciado": "Un triángulo tiene vértices (0, 0), (6, 0) y (0, 8). ¿Cuál afirmación es correcta?",
+"opciones": {
+"A": "Es isósceles, porque dos vértices están sobre los ejes.",
+"B": "Es equilátero, porque comparte el origen.",
+"C": "Es rectángulo, porque 6² + 8² = 10², donde 10 es la distancia entre (6, 0) y (0, 8).",
+"D": "Es obtusángulo, porque el lado mayor mide 14."
+},
+"correcta": "C",
+"explicacion": "Paso 1: lados 6, 8 y √(36 + 64) = 10. Paso 2: 36 + 64 = 100 = 10². Paso 3: es rectángulo, con el ángulo recto en el origen."
+}
+},
+{
+"id": "P11-MAT-C055",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas (MEN 2016), ciclo 8°–11°: calcula volúmenes de sólidos compuestos descomponiéndolos en cuerpos geométricos conocidos.",
+"lineamiento": "Pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+"afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+"evidencia": "Descompone un silo en cilindro y cono, calcula cada volumen y los suma.",
+"contexto": "Un silo para almacenar maíz en una finca de Buga está formado por un cilindro de 2 m de radio y 6 m de altura, coronado por un cono del mismo radio y 1,5 m de altura. Usa π ≈ 3,14.",
+"enunciado": "¿Cuál es el volumen total del silo?",
+"opciones": {
+"A": "81,64 m³",
+"B": "94,20 m³",
+"C": "75,36 m³",
+"D": "326,56 m³"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Olvidar el 1/3 del cono",
+"porque": "Elegiste 94,20 m³ porque calculaste el cono como si fuera un cilindro (π r² h sin dividir entre 3).",
+"pregunta_guia": "¿Qué fracción del cilindro de igual base y altura ocupa un cono?",
+"aprende": "V cono = (1/3) π r² h = (1/3) × 3,14 × 4 × 1,5 = 6,28 m³."
+},
+"C": {
+"error": "Omitir una parte del sólido",
+"porque": "Elegiste 75,36 m³ porque calculaste solo el cilindro y olvidaste el techo cónico.",
+"pregunta_guia": "¿El silo termina en el cilindro o tiene algo encima?",
+"aprende": "Sólido compuesto = suma de los volúmenes de sus partes."
+},
+"D": {
+"error": "Usar el diámetro como radio",
+"porque": "Elegiste 326,56 m³ porque usaste r = 4 m en ambos cuerpos.",
+"pregunta_guia": "¿El dato de 2 m es el radio o el diámetro?",
+"aprende": "Con r = 2, r² = 4; usar 4 como radio multiplica el volumen por 4."
+}
+},
+"explicacion": "Paso 1: volumen del cilindro = π r² h = 3,14 × 2² × 6 = 3,14 × 24 = 75,36 m³. Paso 2: volumen del cono = (1/3) π r² h = (1/3) × 3,14 × 4 × 1,5 = 3,14 × 2 = 6,28 m³. Paso 3: volumen total = 75,36 + 6,28 = 81,64 m³ (equivale a 26π).",
+"tip": "Divide el sólido compuesto en piezas conocidas, calcula cada una y suma (o resta si hay huecos).",
+"truco": "Factoriza π: 24π + 2π = 26π ≈ 81,64.",
+"estrategia_icfes": "En nivel avanzado el ICFES usa sólidos compuestos (silos, tanques, trofeos). Identifica cada cuerpo, escribe su fórmula y suma; cada distractor suele omitir una parte o un factor.",
+"temas": [
+"sólidos compuestos",
+"volumen del cilindro",
+"volumen del cono"
+],
+"gemela": {
+"enunciado": "Un tanque es un cilindro de 1 m de radio y 3 m de altura con una semiesfera de 1 m de radio encima (π ≈ 3,14). ¿Cuál es su volumen total?",
+"opciones": {
+"A": "13,61 m³",
+"B": "9,42 m³",
+"C": "11,51 m³",
+"D": "10,47 m³"
+},
+"correcta": "C",
+"explicacion": "Paso 1: cilindro = 3,14 × 1 × 3 = 9,42 m³. Paso 2: semiesfera = (2/3) × 3,14 × 1³ ≈ 2,09 m³. Paso 3: total ≈ 11,51 m³."
+}
+}
+]

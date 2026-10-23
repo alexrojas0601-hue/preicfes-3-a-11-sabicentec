@@ -1,0 +1,3858 @@
+[
+{
+"id": "P11-MAT-B001",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta y modela situaciones de variación con funciones, reconociendo el significado de los parámetros de su expresión algebraica.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico la relación entre los cambios en los parámetros de la representación algebraica de una familia de funciones y los cambios en las gráficas que las representan.",
+"afirmacion": "Interpreta el significado de los parámetros de una función lineal en un contexto.",
+"evidencia": "Reconoce que la pendiente de C(x) = mx + b representa el cambio de C por cada unidad de x.",
+"contexto": "Una plataforma de transporte en Cali cobra un valor fijo por servicio más un valor por cada kilómetro recorrido. El costo C, en pesos, de un viaje de x kilómetros es C(x) = 1.800x + 5.000.",
+"enunciado": "¿Qué representa el número 1.800 en esta situación?",
+"opciones": {
+"A": "El valor fijo que se cobra por cada servicio.",
+"B": "El aumento del costo por cada kilómetro adicional recorrido.",
+"C": "El costo total de un viaje de un kilómetro.",
+"D": "La cantidad de kilómetros que se recorren con $5.000."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir pendiente con intercepto",
+"porque": "Elegiste esta opción porque probablemente pensaste que el primer número de la fórmula es el valor fijo.",
+"pregunta_guia": "Si x = 0 (no se recorre ningún kilómetro), ¿cuánto vale C? ¿Qué número queda?",
+"aprende": "El valor fijo es el término independiente (5.000); el número que multiplica a x (1.800) es la tasa por kilómetro."
+},
+"C": {
+"error": "Confundir tasa con valor de la función",
+"porque": "Elegiste esta opción porque probablemente creíste que 1.800 es lo que cuesta un viaje de 1 km.",
+"pregunta_guia": "¿Cuánto da C(1) = 1.800·1 + 5.000? ¿Es igual a 1.800?",
+"aprende": "Un viaje de 1 km cuesta C(1) = $6.800. El 1.800 es solo lo que aumenta el costo por cada km."
+},
+"D": {
+"error": "Invertir la razón",
+"porque": "Elegiste esta opción porque probablemente relacionaste los dos números de la fórmula como si uno dividiera al otro.",
+"pregunta_guia": "¿En qué unidades está 1.800: en kilómetros o en pesos por kilómetro?",
+"aprende": "1.800 está en pesos por kilómetro: es la razón de cambio del costo respecto a la distancia."
+}
+},
+"explicacion": "Paso 1: identifica la forma C(x) = mx + b, con m = 1.800 y b = 5.000. Paso 2: si x aumenta en 1 km, C aumenta en 1.800 pesos (por ejemplo, C(3) − C(2) = 10.400 − 8.600 = 1.800). Paso 3: por tanto 1.800 es el aumento del costo por cada kilómetro adicional; 5.000 es el valor fijo.",
+"tip": "Pregúntate siempre en qué unidades está cada número: eso revela su significado.",
+"truco": "En y = mx + b: «m se mueve con x», «b se queda quieto».",
+"estrategia_icfes": "El ICFES presenta una fórmula en contexto y pide interpretar un parámetro. Reemplaza valores sencillos (x = 0, x = 1, x = 2) y observa qué cambia; descarta opciones que confunden valor fijo con tasa.",
+"temas": [
+"función lineal",
+"pendiente como razón de cambio",
+"intercepto"
+],
+"gemela": {
+"enunciado": "Un plan de datos cuesta P(g) = 3.500g + 20.000 pesos, donde g es el número de gigas adicionales que se compran. ¿Qué representa el número 20.000?",
+"opciones": {
+"A": "El costo de cada giga adicional.",
+"B": "El valor del plan cuando no se compran gigas adicionales.",
+"C": "El costo total al comprar una giga adicional.",
+"D": "El número de gigas incluidas en el plan."
+},
+"correcta": "B",
+"explicacion": "Paso 1: si g = 0, P(0) = 20.000. Paso 2: ese es el valor fijo del plan, sin gigas adicionales; 3.500 es el costo de cada giga extra."
+}
+},
+{
+"id": "P11-MAT-B002",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de variación constante con funciones lineales a partir de datos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para calcular la pendiente de una recta que representa situaciones de variación.",
+"afirmacion": "Construye la expresión algebraica de una función lineal a partir de dos datos.",
+"evidencia": "Calcula la razón de cambio entre dos puntos y el valor inicial para escribir L(t) = b + mt.",
+"contexto": "El tanque de agua de una finca en Dagua se vacía a ritmo constante. A las 2 horas de abrir la llave tiene 820 litros y a las 5 horas tiene 520 litros.",
+"enunciado": "¿Cuál expresión da los litros L de agua en el tanque t horas después de abrir la llave?",
+"opciones": {
+"A": "L = 820 − 100t",
+"B": "L = 1.020 + 100t",
+"C": "L = 1.020 − 300t",
+"D": "L = 1.020 − 100t"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Tomar un dato intermedio como valor inicial",
+"porque": "Elegiste esta opción porque probablemente usaste 820 litros como si fuera el contenido en t = 0.",
+"pregunta_guia": "¿820 litros es lo que había al abrir la llave o a las 2 horas?",
+"aprende": "Para hallar L(0) retrocede 2 horas: 820 + 2·100 = 1.020 litros."
+},
+"B": {
+"error": "Error de signo en la pendiente",
+"porque": "Elegiste esta opción porque probablemente calculaste bien la magnitud pero olvidaste que el tanque se vacía.",
+"pregunta_guia": "Si el agua disminuye con el tiempo, ¿la pendiente es positiva o negativa?",
+"aprende": "m = (520 − 820)/(5 − 2) = −100: el signo negativo indica que el volumen baja."
+},
+"C": {
+"error": "No dividir entre el intervalo de tiempo",
+"porque": "Elegiste esta opción porque probablemente tomaste la diferencia de 300 litros como cambio por hora.",
+"pregunta_guia": "¿En cuántas horas se perdieron esos 300 litros?",
+"aprende": "La razón de cambio es diferencia de litros ÷ diferencia de horas: −300 ÷ 3 = −100 L/h."
+}
+},
+"explicacion": "Paso 1: razón de cambio m = (520 − 820) ÷ (5 − 2) = −300 ÷ 3 = −100 L/h. Paso 2: valor inicial: L(2) = 820, así que L(0) = 820 + 2·100 = 1.020. Paso 3: L = 1.020 − 100t. Paso 4: comprobación: L(5) = 1.020 − 500 = 520 ✓.",
+"tip": "Comprueba la expresión con los dos datos del enunciado antes de marcar.",
+"truco": "Pendiente = «lo que cambia y» ÷ «lo que cambia x», con signo.",
+"estrategia_icfes": "En estos ítems el ICFES da dos estados de una variación constante. Calcula la pendiente, halla el valor en cero y verifica reemplazando: la opción correcta debe cumplir ambos datos.",
+"temas": [
+"función lineal",
+"pendiente entre dos puntos",
+"modelación"
+],
+"gemela": {
+"enunciado": "Una vela mide 18 cm a los 10 minutos de encendida y 12 cm a los 30 minutos, y se consume a ritmo constante. ¿Qué expresión da su altura h (cm) a los t minutos?",
+"opciones": {
+"A": "h = 18 − 0,3t",
+"B": "h = 21 − 0,3t",
+"C": "h = 21 − 6t",
+"D": "h = 21 + 0,3t"
+},
+"correcta": "B",
+"explicacion": "Paso 1: m = (12 − 18) ÷ (30 − 10) = −0,3 cm/min. Paso 2: h(0) = 18 + 10·0,3 = 21. Paso 3: h = 21 − 0,3t; h(30) = 21 − 9 = 12 ✓."
+}
+},
+{
+"id": "P11-MAT-B003",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): compara modelos lineales y justifica decisiones a partir de sus intersecciones y razones de cambio.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para solucionar sistemas de ecuaciones lineales.",
+"afirmacion": "Valida o refuta afirmaciones sobre la comparación de dos funciones lineales.",
+"evidencia": "Halla el punto de corte de dos modelos y justifica qué ocurre antes y después de él.",
+"contexto": "Una empresa de telefonía ofrece dos planes mensuales. Plan Pacífico: $25.000 de cargo fijo más $150 por cada minuto. Plan Farallones: $40.000 de cargo fijo más $50 por cada minuto. Camila afirma que el plan Farallones es más económico para quien habla más de 150 minutos al mes.",
+"enunciado": "¿Es correcta la afirmación de Camila?",
+"opciones": {
+"A": "Sí, porque a partir de 150 minutos el costo del plan Farallones crece más despacio y queda por debajo del otro.",
+"B": "No, porque el plan Farallones tiene un cargo fijo mayor y por eso siempre será más costoso.",
+"C": "No, porque los dos planes cuestan lo mismo para cualquier cantidad mayor de 150 minutos.",
+"D": "Sí, porque el plan Farallones es más económico para cualquier cantidad de minutos."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Mirar solo el cargo fijo",
+"porque": "Elegiste esta opción porque probablemente comparaste solo los cargos fijos y no el costo por minuto.",
+"pregunta_guia": "¿Cuánto cuesta cada plan si hablas 300 minutos?",
+"aprende": "A 300 min: Pacífico = 70.000 y Farallones = 55.000. Un cargo fijo mayor se compensa con una tasa menor."
+},
+"C": {
+"error": "Confundir el punto de corte con un intervalo",
+"porque": "Elegiste esta opción porque probablemente encontraste que en 150 minutos cuestan igual y lo extendiste a todos los valores mayores.",
+"pregunta_guia": "Si las rectas tienen pendientes distintas, ¿cuántas veces pueden cortarse?",
+"aprende": "Dos rectas con pendientes distintas se cortan en un solo punto; después de él se separan."
+},
+"D": {
+"error": "Generalizar sin revisar valores pequeños",
+"porque": "Elegiste esta opción porque probablemente no revisaste qué pasa con pocos minutos.",
+"pregunta_guia": "Con 0 minutos, ¿cuál plan es más barato?",
+"aprende": "Con menos de 150 minutos conviene Pacífico (por ejemplo, con 0 min cuesta 25.000 frente a 40.000)."
+}
+},
+"explicacion": "Paso 1: modelos: P(m) = 25.000 + 150m y F(m) = 40.000 + 50m. Paso 2: igualdad: 25.000 + 150m = 40.000 + 50m → 100m = 15.000 → m = 150. Paso 3: para m > 150, por ejemplo m = 200: P = 55.000 y F = 50.000, así que F < P. Paso 4: como F crece $50 por minuto y P crece $150, después del corte F siempre queda por debajo. La afirmación es correcta.",
+"tip": "Para comparar dos planes, encuentra dónde cuestan igual y prueba un valor a cada lado.",
+"truco": "Gana a largo plazo la recta con menor pendiente; gana al inicio la de menor intercepto.",
+"estrategia_icfes": "En Argumentación el ICFES da una afirmación y opciones con «Sí/No, porque…». Primero decide si es verdadera con un cálculo; luego elige la justificación que explica la razón matemática real, no solo un dato aislado.",
+"temas": [
+"sistemas de ecuaciones lineales",
+"comparación de funciones lineales",
+"punto de equilibrio"
+],
+"gemela": {
+"enunciado": "El gimnasio A cobra $60.000 de inscripción y $50.000 al mes; el gimnasio B no cobra inscripción y cobra $65.000 al mes. ¿Para cuántos meses resulta más económico el gimnasio A?",
+"opciones": {
+"A": "Desde el primer mes.",
+"B": "Para más de 4 meses.",
+"C": "Para menos de 4 meses.",
+"D": "Nunca, porque su inscripción es mayor."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 60.000 + 50.000n < 65.000n → 60.000 < 15.000n → n > 4. Paso 2: con 4 meses cuestan igual (260.000); desde 5 meses A es más económico."
+}
+},
+{
+"id": "P11-MAT-B004",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta la razón de cambio en representaciones gráficas de situaciones de variación.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones y propiedades entre las expresiones algebraicas y las gráficas de funciones.",
+"afirmacion": "Lee e interpreta información de una gráfica cartesiana que representa una variación.",
+"evidencia": "Compara los cambios de la variable dependiente en intervalos iguales de tiempo.",
+"contexto": "Valentina recorrió en bicicleta la vía Cali–Jamundí y registró la distancia total acumulada cada hora. La gráfica muestra sus datos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Distancia acumulada de Valentina",
+"etiquetas": [
+"0 h",
+"1 h",
+"2 h",
+"3 h",
+"4 h"
+],
+"series": [
+{
+"nombre": "Distancia",
+"datos": [
+0,
+20,
+40,
+40,
+65
+]
+}
+],
+"ejeY": "km"
+},
+"enunciado": "¿En qué intervalo de tiempo la distancia recorrida aumentó más rápido?",
+"opciones": {
+"A": "Entre 0 y 1 hora.",
+"B": "Entre 2 y 3 horas.",
+"C": "Entre 3 y 4 horas.",
+"D": "Entre 1 y 2 horas."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Elegir el primer tramo por costumbre",
+"porque": "Elegiste esta opción porque probablemente asumiste que al inicio se va más rápido.",
+"pregunta_guia": "¿Cuántos km avanzó entre 0 y 1 h y cuántos entre 3 y 4 h?",
+"aprende": "Entre 0 y 1 h avanzó 20 km; entre 3 y 4 h avanzó 25 km."
+},
+"B": {
+"error": "Confundir altura de la gráfica con inclinación",
+"porque": "Elegiste esta opción porque probablemente miraste dónde la gráfica está alta y no dónde sube más.",
+"pregunta_guia": "Entre 2 y 3 h, ¿la distancia cambió?",
+"aprende": "Un tramo horizontal indica cambio cero: allí Valentina estuvo detenida."
+},
+"D": {
+"error": "Comparar valores y no cambios",
+"porque": "Elegiste esta opción porque probablemente te fijaste en que a las 2 h ya llevaba 40 km.",
+"pregunta_guia": "¿La pregunta pide la mayor distancia acumulada o el mayor aumento?",
+"aprende": "La rapidez se mide con el aumento por intervalo: 40 − 20 = 20 km, menor que 25 km."
+}
+},
+"explicacion": "Paso 1: calcula el cambio en cada intervalo: 0–1 h: 20 km; 1–2 h: 20 km; 2–3 h: 0 km; 3–4 h: 65 − 40 = 25 km. Paso 2: el mayor aumento por hora es 25 km, entre 3 y 4 horas. Paso 3: en la gráfica corresponde al tramo más inclinado.",
+"tip": "Rapidez en una gráfica = inclinación del tramo, no altura del punto.",
+"truco": "Más empinado = cambia más rápido; plano = no cambia.",
+"estrategia_icfes": "El ICFES pregunta por razones de cambio leídas en gráficas. Resta valores consecutivos y compara; no te dejes llevar por el punto más alto.",
+"temas": [
+"tasa de cambio",
+"lectura de gráficas",
+"variación"
+],
+"gemela": {
+"enunciado": "Los ahorros acumulados de Óscar fueron: enero $100 mil, febrero $160 mil, marzo $190 mil y abril $290 mil. ¿Entre qué meses aumentaron más sus ahorros?",
+"opciones": {
+"A": "Entre enero y febrero.",
+"B": "Entre febrero y marzo.",
+"C": "Entre marzo y abril.",
+"D": "Todos los meses aumentaron lo mismo."
+},
+"correcta": "C",
+"explicacion": "Paso 1: aumentos: 60, 30 y 100 mil. Paso 2: el mayor es 100 mil, entre marzo y abril."
+}
+},
+{
+"id": "P11-MAT-B005",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): modela situaciones de variación lineal en contextos financieros, como el interés simple.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): resuelvo problemas en los que se usan proporciones y porcentajes; modelo situaciones de variación con funciones.",
+"afirmacion": "Calcula el monto de un préstamo con interés simple.",
+"evidencia": "Aplica I = C·i·n y M = C + I identificando capital, tasa y número de periodos.",
+"contexto": "Don Hernán, comerciante de la galería Alameda, recibe un préstamo de $3.000.000 a interés simple del 2 % mensual durante 8 meses.",
+"enunciado": "¿Cuánto debe pagar en total al final del plazo?",
+"opciones": {
+"A": "$3.480.000",
+"B": "$480.000",
+"C": "$3.514.978",
+"D": "$3.060.000"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Olvidar sumar el capital",
+"porque": "Elegiste esta opción porque calculaste bien el interés, pero no le sumaste lo prestado.",
+"pregunta_guia": "¿La pregunta pide el interés o el total que se paga?",
+"aprende": "Monto = capital + interés = 3.000.000 + 480.000."
+},
+"C": {
+"error": "Usar interés compuesto",
+"porque": "Elegiste esta opción porque probablemente aplicaste 3.000.000·(1,02)⁸, que es la fórmula del interés compuesto.",
+"pregunta_guia": "En interés simple, ¿el 2 % se calcula sobre el capital inicial o sobre el saldo que va creciendo?",
+"aprende": "En interés simple el interés de cada mes es siempre 2 % de 3.000.000 = 60.000."
+},
+"D": {
+"error": "Calcular un solo periodo",
+"porque": "Elegiste esta opción porque probablemente calculaste el interés de un solo mes.",
+"pregunta_guia": "¿Durante cuántos meses se cobra el interés?",
+"aprende": "Se multiplica por los 8 meses: 60.000 × 8 = 480.000."
+}
+},
+"explicacion": "Paso 1: interés de un mes: 3.000.000 × 0,02 = 60.000. Paso 2: interés de 8 meses: I = 60.000 × 8 = 480.000. Paso 3: monto total: M = 3.000.000 + 480.000 = $3.480.000.",
+"tip": "Antes de calcular, identifica si el interés es simple o compuesto: cambia toda la fórmula.",
+"truco": "Simple: I = C·i·n («C-I-N, como cine»). Total = C + I.",
+"estrategia_icfes": "El ICFES incluye distractores con el interés solo, con un periodo y con interés compuesto. Escribe C, i y n antes de operar y revisa si te piden interés o monto.",
+"temas": [
+"interés simple",
+"porcentajes",
+"educación financiera"
+],
+"gemela": {
+"enunciado": "Se prestan $1.500.000 al 1,5 % mensual de interés simple durante 10 meses. ¿Cuál es el monto que se paga al final?",
+"opciones": {
+"A": "$225.000",
+"B": "$1.522.500",
+"C": "$1.725.000",
+"D": "$1.740.811"
+},
+"correcta": "C",
+"explicacion": "Paso 1: interés mensual: 1.500.000 × 0,015 = 22.500. Paso 2: I = 22.500 × 10 = 225.000. Paso 3: M = 1.500.000 + 225.000 = $1.725.000."
+}
+},
+{
+"id": "P11-MAT-B006",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): modela fenómenos de crecimiento con funciones exponenciales, como el interés compuesto.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones exponenciales.",
+"afirmacion": "Calcula el monto de una inversión a interés compuesto.",
+"evidencia": "Aplica M = C(1 + i)ⁿ con capitalización anual.",
+"contexto": "Luisa abre un CDT en Cali por $5.000.000 con una tasa del 8 % efectivo anual; los intereses se capitalizan (se suman al capital) cada año.",
+"enunciado": "¿Cuánto dinero tendrá Luisa al cabo de 3 años?",
+"opciones": {
+"A": "$6.200.000",
+"B": "$1.298.560",
+"C": "$5.400.000",
+"D": "$6.298.560"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar interés simple",
+"porque": "Elegiste esta opción porque probablemente calculaste 8 % de 5.000.000 = 400.000 y lo sumaste tres veces.",
+"pregunta_guia": "En el segundo año, ¿el 8 % se calcula sobre 5.000.000 o sobre 5.400.000?",
+"aprende": "En interés compuesto el interés también genera interés: se multiplica por 1,08 cada año."
+},
+"B": {
+"error": "Dar solo el interés",
+"porque": "Elegiste esta opción porque calculaste el interés ganado, pero la pregunta pide el total.",
+"pregunta_guia": "¿Cuánto dinero hay en el CDT: solo lo ganado o lo ganado más lo invertido?",
+"aprende": "Monto = 5.000.000 + 1.298.560 = 6.298.560."
+},
+"C": {
+"error": "Calcular un solo año",
+"porque": "Elegiste esta opción porque probablemente aplicaste la tasa una sola vez.",
+"pregunta_guia": "¿Cuántas veces se capitalizan los intereses en 3 años?",
+"aprende": "Se aplica (1,08) tres veces: (1,08)³ = 1,259712."
+}
+},
+"explicacion": "Paso 1: año 1: 5.000.000 × 1,08 = 5.400.000. Paso 2: año 2: 5.400.000 × 1,08 = 5.832.000. Paso 3: año 3: 5.832.000 × 1,08 = 6.298.560. Paso 4: equivale a M = 5.000.000 × (1,08)³ = $6.298.560.",
+"tip": "El interés compuesto premia al que ahorra temprano y por más tiempo.",
+"truco": "M = C × (1 + i)ⁿ: el exponente n cuenta los periodos de capitalización.",
+"estrategia_icfes": "El ICFES contrasta interés simple y compuesto. Si los intereses «se suman al capital», usa potencias; luego descarta opciones que solo dan el interés o un periodo.",
+"temas": [
+"interés compuesto",
+"función exponencial",
+"CDT y ahorro"
+],
+"gemela": {
+"enunciado": "Se invierten $2.000.000 al 6 % efectivo anual con capitalización anual durante 2 años. ¿Cuál es el monto final?",
+"opciones": {
+"A": "$2.240.000",
+"B": "$2.247.200",
+"C": "$247.200",
+"D": "$2.120.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: M = 2.000.000 × (1,06)². Paso 2: (1,06)² = 1,1236. Paso 3: M = $2.247.200."
+}
+},
+{
+"id": "P11-MAT-B007",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): compara modelos de variación lineal y exponencial en contextos financieros y justifica cuál es más conveniente.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones lineales y exponenciales y comparo sus comportamientos.",
+"afirmacion": "Justifica, con cálculos, cuál de dos inversiones es más conveniente.",
+"evidencia": "Compara montos con interés simple y compuesto en un mismo plazo y refuta un razonamiento basado solo en la tasa.",
+"contexto": "Andrés tiene $1.000.000 para invertir durante 5 años. El Banco A le ofrece 12 % anual de interés simple y el Banco B, 10 % anual de interés compuesto. Andrés dice: «El Banco A siempre conviene más porque su tasa es mayor».",
+"enunciado": "¿Cuál de los siguientes argumentos sobre la inversión a 5 años es válido?",
+"opciones": {
+"A": "El Banco A conviene más en cualquier plazo, porque 12 % es mayor que 10 %.",
+"B": "A 5 años conviene el Banco B, porque el interés compuesto genera intereses sobre intereses y supera los $600.000 del Banco A.",
+"C": "El Banco B conviene en cualquier plazo, incluso a 1 año, porque el interés compuesto siempre gana.",
+"D": "A 5 años conviene el Banco A, porque acumula 60 % de interés frente a 50 % del Banco B."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Comparar solo tasas nominales",
+"porque": "Elegiste esta opción porque probablemente comparaste los porcentajes sin calcular los montos.",
+"pregunta_guia": "¿Cuánto da 1.000.000 × (1,10)⁵? ¿Es mayor o menor que 1.600.000?",
+"aprende": "Con compuesto: 1.610.510 > 1.600.000. La forma de calcular el interés importa tanto como la tasa."
+},
+"C": {
+"error": "Sobregeneralizar el interés compuesto",
+"porque": "Elegiste esta opción porque probablemente creíste que el compuesto siempre es mejor sin revisar plazos cortos.",
+"pregunta_guia": "A 1 año, ¿cuánto gana cada banco?",
+"aprende": "A 1 año: A gana 120.000 y B gana 100.000; el compuesto supera al simple solo después de varios periodos."
+},
+"D": {
+"error": "Tratar el compuesto como simple",
+"porque": "Elegiste esta opción porque probablemente multiplicaste 10 % × 5 = 50 % para el Banco B.",
+"pregunta_guia": "En el Banco B, ¿el 10 % del año 2 se calcula sobre 1.000.000 o sobre 1.100.000?",
+"aprende": "En compuesto el interés acumulado a 5 años es (1,10)⁵ − 1 ≈ 61,05 %, no 50 %."
+}
+},
+"explicacion": "Paso 1: Banco A (simple): I = 1.000.000 × 0,12 × 5 = 600.000 → M = 1.600.000. Paso 2: Banco B (compuesto): M = 1.000.000 × (1,10)⁵ = 1.610.510 → I = 610.510. Paso 3: a 5 años B da 10.510 más. Paso 4: el argumento válido es que el interés compuesto acumula intereses sobre intereses y supera al simple en ese plazo.",
+"tip": "Nunca decidas una inversión solo por la tasa: calcula el monto en el plazo real.",
+"truco": "Simple suma siempre lo mismo; compuesto multiplica: al principio gana el simple con tasa mayor, con el tiempo puede ganar el compuesto.",
+"estrategia_icfes": "En Argumentación el ICFES pide elegir la justificación correcta. Calcula ambos escenarios y descarta las opciones que generalizan («siempre», «cualquier plazo») sin verificar.",
+"temas": [
+"interés simple vs. compuesto",
+"crecimiento lineal y exponencial",
+"toma de decisiones financieras"
+],
+"gemela": {
+"enunciado": "Con $1.000.000 durante 3 años, ¿qué conviene más: 9 % anual simple u 8 % anual compuesto?",
+"opciones": {
+"A": "El de 8 % compuesto, porque el compuesto siempre gana.",
+"B": "El de 9 % simple, porque genera $270.000 frente a $259.712.",
+"C": "Ambos generan exactamente lo mismo.",
+"D": "El de 8 % compuesto, porque genera $280.000."
+},
+"correcta": "B",
+"explicacion": "Paso 1: simple: 1.000.000 × 0,09 × 3 = 270.000. Paso 2: compuesto: 1.000.000 × (1,08)³ − 1.000.000 = 259.712. Paso 3: a 3 años conviene el simple de 9 %."
+}
+},
+{
+"id": "P11-MAT-B008",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones con funciones cuadráticas y analiza sus valores máximos o mínimos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): modelo situaciones de variación con funciones polinómicas.",
+"afirmacion": "Determina el valor máximo de una función cuadrática en contexto.",
+"evidencia": "Calcula el vértice con t = −b/(2a) y evalúa la función.",
+"contexto": "En un partido en el estadio Pascual Guerrero, un portero patea el balón desde el suelo. La altura h del balón, en metros, t segundos después del saque es h(t) = −5t² + 20t.",
+"enunciado": "¿Cuál es la altura máxima que alcanza el balón?",
+"opciones": {
+"A": "2 m",
+"B": "4 m",
+"C": "20 m",
+"D": "60 m"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Dar el tiempo en lugar de la altura",
+"porque": "Elegiste esta opción porque calculaste bien t = 2 s del vértice, pero no lo reemplazaste en h(t).",
+"pregunta_guia": "¿2 es un tiempo o una altura? ¿Qué falta hacer con ese valor?",
+"aprende": "El vértice da el instante; la altura máxima es h(2) = 20 m."
+},
+"B": {
+"error": "Confundir el cero con el máximo",
+"porque": "Elegiste esta opción porque probablemente resolviste h(t) = 0 y tomaste t = 4.",
+"pregunta_guia": "¿Qué ocurre con el balón en t = 4 s: está arriba o vuelve al suelo?",
+"aprende": "Los ceros (t = 0 y t = 4) indican cuándo el balón está en el suelo, no la altura máxima."
+},
+"D": {
+"error": "Error de signo al evaluar",
+"porque": "Elegiste esta opción porque probablemente calculaste −5·(2)² como +20.",
+"pregunta_guia": "¿Cuánto vale −5·4?",
+"aprende": "h(2) = −5·4 + 20·2 = −20 + 40 = 20."
+}
+},
+"explicacion": "Paso 1: a = −5 y b = 20; como a < 0 la parábola abre hacia abajo y tiene máximo. Paso 2: t del vértice = −b/(2a) = −20/(−10) = 2 s. Paso 3: h(2) = −5(2)² + 20(2) = −20 + 40 = 20 m.",
+"tip": "Separa siempre «cuándo» (t del vértice) de «cuánto» (h del vértice).",
+"truco": "Vértice: x = −b/2a y luego «reemplaza para la altura».",
+"estrategia_icfes": "El ICFES usa tiros parabólicos para preguntar por máximos y ceros. Identifica si piden tiempo o altura y verifica el signo al evaluar.",
+"temas": [
+"función cuadrática",
+"vértice de la parábola",
+"movimiento parabólico"
+],
+"gemela": {
+"enunciado": "La altura de un balón es h(t) = −5t² + 30t (metros, t en segundos). ¿Cuál es su altura máxima?",
+"opciones": {
+"A": "3 m",
+"B": "45 m",
+"C": "6 m",
+"D": "135 m"
+},
+"correcta": "B",
+"explicacion": "Paso 1: t = −30/(−10) = 3 s. Paso 2: h(3) = −45 + 90 = 45 m."
+}
+},
+{
+"id": "P11-MAT-B009",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta los ceros de una función cuadrática en el contexto de una situación.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): analizo en representaciones gráficas y algebraicas los comportamientos de cambio de funciones polinómicas.",
+"afirmacion": "Interpreta los ceros de una función cuadrática en un contexto.",
+"evidencia": "Resuelve h(t) = 0 e identifica cuál solución responde a la pregunta.",
+"contexto": "En un partido en el estadio Pascual Guerrero, un portero patea el balón desde el suelo. La altura h del balón, en metros, t segundos después del saque es h(t) = −5t² + 20t.",
+"enunciado": "¿Cuánto tiempo permanece el balón en el aire antes de tocar el suelo?",
+"opciones": {
+"A": "4 s",
+"B": "2 s",
+"C": "20 s",
+"D": "5 s"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir el vértice con el cero",
+"porque": "Elegiste esta opción porque probablemente tomaste el instante de altura máxima.",
+"pregunta_guia": "A los 2 s, ¿el balón está en el suelo o en lo más alto?",
+"aprende": "A los 2 s el balón está a 20 m; el tiempo de vuelo es el doble: 4 s, por la simetría de la parábola."
+},
+"C": {
+"error": "Leer un coeficiente como respuesta",
+"porque": "Elegiste esta opción porque probablemente tomaste el coeficiente 20 de la fórmula.",
+"pregunta_guia": "Si t = 20, ¿cuánto da h(20)? ¿Tiene sentido una altura negativa?",
+"aprende": "Los coeficientes no son respuestas; hay que resolver h(t) = 0."
+},
+"D": {
+"error": "Despejar mal al factorizar",
+"porque": "Elegiste esta opción porque probablemente tomaste el 5 del coeficiente −5 como solución.",
+"pregunta_guia": "Al factorizar −5t(t − 4) = 0, ¿qué valores de t anulan cada factor?",
+"aprende": "−5t = 0 → t = 0; t − 4 = 0 → t = 4."
+}
+},
+"explicacion": "Paso 1: el balón toca el suelo cuando h(t) = 0. Paso 2: −5t² + 20t = 0 → −5t(t − 4) = 0. Paso 3: t = 0 (momento del saque) o t = 4. Paso 4: el balón permanece 4 s en el aire.",
+"tip": "Cuando una solución es t = 0, normalmente es el instante inicial: busca la otra.",
+"truco": "Si no hay término independiente, saca factor común t.",
+"estrategia_icfes": "El ICFES pregunta en un mismo contexto por máximos y ceros. Asocia «toca el suelo» con h = 0 y «altura máxima» con el vértice.",
+"temas": [
+"ceros de una función cuadrática",
+"factorización",
+"movimiento parabólico"
+],
+"gemela": {
+"enunciado": "La altura de una pelota es h(t) = −5t² + 15t (metros, t en segundos). ¿Cuánto tiempo permanece en el aire?",
+"opciones": {
+"A": "1,5 s",
+"B": "3 s",
+"C": "15 s",
+"D": "5 s"
+},
+"correcta": "B",
+"explicacion": "Paso 1: −5t(t − 3) = 0. Paso 2: t = 0 o t = 3. Paso 3: permanece 3 s en el aire."
+}
+},
+{
+"id": "P11-MAT-B010",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): justifica procedimientos con porcentajes sucesivos usando la composición de variaciones multiplicativas.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): justifico procedimientos aritméticos utilizando las relaciones y propiedades de las operaciones.",
+"afirmacion": "Refuta una afirmación sobre porcentajes encadenados con un argumento válido.",
+"evidencia": "Reconoce que aumentar y disminuir el mismo porcentaje equivale a multiplicar por 1,20 × 0,80 = 0,96.",
+"contexto": "Una tienda de tecnología del sur de Cali sube 20 % el precio de un portátil en noviembre y en enero lo rebaja 20 %. Sebastián afirma que, después de los dos cambios, el portátil quedó con su precio original.",
+"enunciado": "¿Por qué la afirmación de Sebastián es incorrecta?",
+"opciones": {
+"A": "Porque el aumento se aplica sobre un precio mayor, y el precio final queda 4 % por encima del original.",
+"B": "Porque los porcentajes se suman, y el precio final queda 40 % por debajo del original.",
+"C": "Porque solo cuenta la rebaja, y el precio final queda 20 % por debajo del original.",
+"D": "Porque la rebaja se aplica sobre un precio mayor, y el precio final queda 4 % por debajo del original."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir el sentido del cambio neto",
+"porque": "Elegiste esta opción porque intuiste el 4 % pero no revisaste si el precio subió o bajó.",
+"pregunta_guia": "¿Cuánto es 1,20 × 0,80? ¿Es mayor o menor que 1?",
+"aprende": "1,20 × 0,80 = 0,96 < 1: el precio final es 4 % menor."
+},
+"B": {
+"error": "Sumar porcentajes de bases distintas",
+"porque": "Elegiste esta opción porque probablemente sumaste 20 % + 20 %.",
+"pregunta_guia": "Si un precio de $100 sube 20 % y luego baja 20 %, ¿termina en $60?",
+"aprende": "$100 → $120 → $96; los porcentajes sucesivos se multiplican, no se suman."
+},
+"C": {
+"error": "Ignorar el primer cambio",
+"porque": "Elegiste esta opción porque probablemente tuviste en cuenta solo la rebaja final.",
+"pregunta_guia": "¿Sobre qué precio se aplica la rebaja de enero?",
+"aprende": "La rebaja se aplica sobre el precio ya aumentado ($120 por cada $100)."
+}
+},
+"explicacion": "Paso 1: precio original P. Paso 2: tras el aumento: 1,20P. Paso 3: tras la rebaja: 0,80 × 1,20P = 0,96P. Paso 4: el precio final es 4 % menor que el original, porque el 20 % de la rebaja se calcula sobre un precio mayor que el original.",
+"tip": "Prueba con un precio de $100: es la forma más rápida de ver porcentajes encadenados.",
+"truco": "Porcentajes en cadena se multiplican: (1 + a)(1 − b).",
+"estrategia_icfes": "El ICFES pregunta por afirmaciones intuitivas pero falsas con porcentajes. Usa factores multiplicativos y elige la justificación que explica el porqué, no solo el resultado.",
+"temas": [
+"porcentajes encadenados",
+"factor multiplicativo",
+"precios y descuentos"
+],
+"gemela": {
+"enunciado": "Un producto sube 10 % y luego baja 10 %. ¿Cómo queda su precio respecto al original?",
+"opciones": {
+"A": "Queda igual.",
+"B": "Baja 1 %.",
+"C": "Sube 1 %.",
+"D": "Baja 20 %."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 1,10 × 0,90 = 0,99. Paso 2: el precio final es 99 % del original: baja 1 %."
+}
+},
+{
+"id": "P11-MAT-B011",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): resuelve problemas con porcentajes en contextos comerciales, planteando y resolviendo ecuaciones lineales.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): resuelvo problemas y simplifico cálculos usando propiedades y relaciones de los números reales.",
+"afirmacion": "Calcula la base gravable a partir de un valor con IVA incluido.",
+"evidencia": "Plantea 1,19·B = total y despeja B dividiendo, en lugar de restar el porcentaje al total.",
+"contexto": "Supón que la tarifa del IVA es del 19 %. La factura de una papelería de Cali muestra un total de $59.500 por un pedido de cuadernos, con el IVA ya incluido.",
+"enunciado": "¿Cuál era el precio de los cuadernos antes de IVA?",
+"opciones": {
+"A": "$48.195",
+"B": "$50.000",
+"C": "$9.500",
+"D": "$70.805"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Restar el porcentaje al total",
+"porque": "Elegiste esta opción porque probablemente calculaste el 19 % de $59.500 y se lo restaste.",
+"pregunta_guia": "El 19 % se calculó sobre el precio sin IVA, ¿o sobre el total?",
+"aprende": "El IVA es 19 % de la base, no del total. Por eso se divide: 59.500 ÷ 1,19."
+},
+"C": {
+"error": "Dar el valor del IVA",
+"porque": "Elegiste esta opción porque calculaste el impuesto, pero la pregunta pide el precio sin IVA.",
+"pregunta_guia": "¿Qué parte de la factura pide la pregunta: el impuesto o la base?",
+"aprende": "IVA = 59.500 − 50.000 = 9.500; la base es $50.000."
+},
+"D": {
+"error": "Sumar el IVA otra vez",
+"porque": "Elegiste esta opción porque probablemente multiplicaste el total por 1,19.",
+"pregunta_guia": "Si el total ya incluye el IVA, ¿el precio sin IVA debe ser mayor o menor?",
+"aprende": "Quitar el IVA es la operación inversa de agregarlo: se divide entre 1,19."
+}
+},
+"explicacion": "Paso 1: si B es el precio sin IVA, el total es B + 0,19B = 1,19B. Paso 2: 1,19B = 59.500. Paso 3: B = 59.500 ÷ 1,19 = 50.000. Paso 4: comprobación: 50.000 × 0,19 = 9.500 y 50.000 + 9.500 = 59.500 ✓.",
+"tip": "Quitar un porcentaje que ya fue agregado es dividir, nunca restar el mismo porcentaje.",
+"truco": "Con IVA incluido: base = total ÷ 1,19.",
+"estrategia_icfes": "El ICFES incluye el distractor de restar el 19 % del total. Plantea la ecuación con la base como incógnita y verifica sumando el IVA.",
+"temas": [
+"IVA",
+"porcentajes",
+"ecuaciones lineales"
+],
+"gemela": {
+"enunciado": "Con IVA del 19 % incluido, una compra costó $35.700. ¿Cuál era el precio antes de IVA?",
+"opciones": {
+"A": "$28.917",
+"B": "$5.700",
+"C": "$30.000",
+"D": "$42.483"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 1,19B = 35.700. Paso 2: B = 35.700 ÷ 1,19 = $30.000."
+}
+},
+{
+"id": "P11-MAT-B012",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): reconoce y representa algebraicamente situaciones de crecimiento exponencial a partir de tablas de datos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones entre las representaciones tabulares, gráficas y algebraicas de funciones exponenciales.",
+"afirmacion": "Identifica la expresión algebraica que corresponde a datos de crecimiento exponencial.",
+"evidencia": "Reconoce un factor multiplicativo constante entre datos consecutivos de una tabla.",
+"contexto": "En un laboratorio de biología se registró el número de bacterias de un cultivo cada hora.",
+"tabla": {
+"titulo": "Bacterias en el cultivo",
+"cols": [
+"Tiempo t (horas)",
+"Número de bacterias N"
+],
+"filas": [
+[
+"0",
+"500"
+],
+[
+"1",
+"1.000"
+],
+[
+"2",
+"2.000"
+],
+[
+"3",
+"4.000"
+]
+]
+},
+"enunciado": "¿Qué expresión modela el número de bacterias N después de t horas?",
+"opciones": {
+"A": "N = 500 + 500t",
+"B": "N = 500 · t²",
+"C": "N = 500 · 2ᵗ",
+"D": "N = 2 · 500ᵗ"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Suponer crecimiento lineal",
+"porque": "Elegiste esta opción porque probablemente miraste solo el primer aumento (de 500 a 1.000).",
+"pregunta_guia": "¿Cuánto da 500 + 500·3? ¿Coincide con 4.000?",
+"aprende": "Los aumentos son 500, 1.000, 2.000: no son constantes. Lo constante es el factor ×2."
+},
+"B": {
+"error": "Confundir exponencial con potencia",
+"porque": "Elegiste esta opción porque viste una potencia y no comprobaste el valor inicial.",
+"pregunta_guia": "¿Cuánto da 500·0² cuando t = 0? ¿Coincide con la tabla?",
+"aprende": "En una función exponencial la variable está en el exponente: N = a·bᵗ."
+},
+"D": {
+"error": "Intercambiar valor inicial y base",
+"porque": "Elegiste esta opción porque usaste los números correctos pero en lugares invertidos.",
+"pregunta_guia": "Cuando t = 0, ¿cuánto da 2·500⁰?",
+"aprende": "En N = a·bᵗ, a es el valor inicial (500) y b el factor de cambio (2)."
+}
+},
+"explicacion": "Paso 1: divide datos consecutivos: 1.000/500 = 2; 2.000/1.000 = 2; 4.000/2.000 = 2. Paso 2: factor constante b = 2 → crecimiento exponencial. Paso 3: valor inicial a = 500 (t = 0). Paso 4: N = 500·2ᵗ; comprobación: N(3) = 500·8 = 4.000 ✓.",
+"tip": "Si los datos se restan y da constante: lineal. Si se dividen y da constante: exponencial.",
+"truco": "a·bᵗ: «a arranca, b multiplica».",
+"estrategia_icfes": "El ICFES presenta tablas y pide el modelo. Prueba cada opción con t = 0 y con el último dato: descarta rápido las que no cumplen.",
+"temas": [
+"función exponencial",
+"factor de crecimiento",
+"representación tabular"
+],
+"gemela": {
+"enunciado": "Una tabla muestra los valores 3, 9, 27 y 81 para t = 0, 1, 2 y 3. ¿Qué expresión los modela?",
+"opciones": {
+"A": "y = 3 + 6t",
+"B": "y = 3 · 3ᵗ",
+"C": "y = 3ᵗ",
+"D": "y = 3t³"
+},
+"correcta": "B",
+"explicacion": "Paso 1: factor constante 9/3 = 3. Paso 2: valor inicial 3. Paso 3: y = 3·3ᵗ; para t = 3 da 81 ✓."
+}
+},
+{
+"id": "P11-MAT-B013",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): modela situaciones de decrecimiento con funciones exponenciales, como la depreciación de bienes.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones exponenciales.",
+"afirmacion": "Calcula el valor de un bien que se deprecia a una tasa porcentual constante.",
+"evidencia": "Aplica V = V₀(1 − d)ⁿ.",
+"contexto": "Una empresa de mensajería de Cali compra una moto por $12.000.000. Su valor comercial disminuye 15 % cada año respecto al valor del año anterior.",
+"enunciado": "¿Cuál será el valor de la moto después de 2 años?",
+"opciones": {
+"A": "$8.670.000",
+"B": "$8.400.000",
+"C": "$10.200.000",
+"D": "$3.330.000"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar depreciación lineal",
+"porque": "Elegiste esta opción porque probablemente restaste 15 % de 12.000.000 dos veces (30 % en total).",
+"pregunta_guia": "En el segundo año, ¿el 15 % se calcula sobre 12.000.000 o sobre 10.200.000?",
+"aprende": "El 15 % se aplica al valor del año anterior: se multiplica por 0,85 cada año."
+},
+"C": {
+"error": "Calcular un solo año",
+"porque": "Elegiste esta opción porque aplicaste la disminución una vez.",
+"pregunta_guia": "¿Cuántos años pasan en la pregunta?",
+"aprende": "Dos años: 12.000.000 × 0,85 × 0,85."
+},
+"D": {
+"error": "Dar la pérdida en lugar del valor",
+"porque": "Elegiste esta opción porque calculaste cuánto valor perdió la moto, no cuánto vale.",
+"pregunta_guia": "¿La pregunta pide cuánto vale o cuánto perdió?",
+"aprende": "Pérdida = 3.330.000; valor = 12.000.000 − 3.330.000 = 8.670.000."
+}
+},
+"explicacion": "Paso 1: perder 15 % equivale a conservar 85 %: factor 0,85. Paso 2: año 1: 12.000.000 × 0,85 = 10.200.000. Paso 3: año 2: 10.200.000 × 0,85 = 8.670.000. Paso 4: V = 12.000.000·(0,85)² = $8.670.000.",
+"tip": "Disminuir un porcentaje p es multiplicar por (1 − p).",
+"truco": "Depreciación exponencial: V = V₀(1 − d)ⁿ, «lo que queda» elevado a los años.",
+"estrategia_icfes": "El ICFES distingue «disminuye 15 % del valor inicial» (lineal) de «15 % respecto al año anterior» (exponencial). Subraya esa frase antes de calcular.",
+"temas": [
+"depreciación",
+"función exponencial decreciente",
+"porcentajes"
+],
+"gemela": {
+"enunciado": "Un computador cuesta $4.000.000 y pierde 20 % de su valor cada año respecto al año anterior. ¿Cuánto vale después de 2 años?",
+"opciones": {
+"A": "$2.400.000",
+"B": "$3.200.000",
+"C": "$1.440.000",
+"D": "$2.560.000"
+},
+"correcta": "D",
+"explicacion": "Paso 1: factor 0,80. Paso 2: 4.000.000 × 0,8² = 4.000.000 × 0,64 = $2.560.000."
+}
+},
+{
+"id": "P11-MAT-B014",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta gráficas de funciones lineales en contextos y extrapola su comportamiento.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): interpreto la noción de razón de cambio en situaciones representadas gráficamente.",
+"afirmacion": "Interpreta la pendiente y el corte con el eje de una función lineal decreciente representada gráficamente.",
+"evidencia": "Calcula la depreciación anual a partir de la gráfica y determina cuándo el valor llega a cero.",
+"contexto": "Un taller de confecciones de Cali registra el valor en libros de una máquina industrial, que se deprecia de forma lineal. La gráfica muestra ese valor durante los primeros 5 años.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Valor en libros de la máquina",
+"etiquetas": [
+"Año 0",
+"Año 1",
+"Año 2",
+"Año 3",
+"Año 4",
+"Año 5"
+],
+"series": [
+{
+"nombre": "Valor",
+"datos": [
+30,
+26,
+22,
+18,
+14,
+10
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "Según la gráfica, ¿cuál es la depreciación anual y en cuántos años el valor llegaría a cero si sigue el mismo ritmo?",
+"opciones": {
+"A": "$4 millones por año; en 5 años.",
+"B": "$6 millones por año; en 5 años.",
+"C": "$4 millones por año; en 10 años.",
+"D": "$4 millones por año; en 7,5 años."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Tomar el último año mostrado como final",
+"porque": "Elegiste esta opción porque la gráfica termina en el año 5 y lo asumiste como el momento en que el valor es cero.",
+"pregunta_guia": "En el año 5, ¿la máquina vale cero o vale $10 millones?",
+"aprende": "Hay que extrapolar: 30 ÷ 4 = 7,5 años."
+},
+"B": {
+"error": "Dividir el valor inicial entre los años mostrados",
+"porque": "Elegiste esta opción porque probablemente calculaste 30 ÷ 5 = 6.",
+"pregunta_guia": "¿Cuánto baja el valor de un año al siguiente en la gráfica?",
+"aprende": "La pendiente se lee con dos puntos: (26 − 30)/1 = −4 millones por año."
+},
+"C": {
+"error": "Confundir un valor del eje Y con años",
+"porque": "Elegiste esta opción porque probablemente tomaste el último valor (10) como número de años.",
+"pregunta_guia": "¿El 10 de la gráfica está en millones o en años?",
+"aprende": "El 10 es el valor en millones en el año 5; el valor llega a cero en 30 ÷ 4 = 7,5 años."
+}
+},
+"explicacion": "Paso 1: depreciación anual = 30 − 26 = 4 millones (igual en todos los años). Paso 2: modelo V(t) = 30 − 4t. Paso 3: V(t) = 0 → 4t = 30 → t = 7,5 años. Paso 4: depreciación de $4 millones por año; valor cero a los 7,5 años.",
+"tip": "Extrapolar es extender la recta más allá de los datos con la misma pendiente.",
+"truco": "Tiempo hasta cero = valor inicial ÷ disminución por año.",
+"estrategia_icfes": "El ICFES pide leer pendientes y cortes en gráficas. Usa dos puntos claros para la pendiente y plantea la ecuación V = 0 para el corte con el eje horizontal.",
+"temas": [
+"depreciación lineal",
+"pendiente negativa",
+"corte con el eje"
+],
+"gemela": {
+"enunciado": "Un equipo de $18 millones se deprecia linealmente $1,5 millones por año. ¿Cuál es su valor a los 4 años?",
+"opciones": {
+"A": "$12 millones",
+"B": "$6 millones",
+"C": "$16,5 millones",
+"D": "$10,5 millones"
+},
+"correcta": "A",
+"explicacion": "Paso 1: V(t) = 18 − 1,5t. Paso 2: V(4) = 18 − 6 = $12 millones."
+}
+},
+{
+"id": "P11-MAT-B015",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): usa los logaritmos y sus propiedades para resolver ecuaciones exponenciales en contextos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones exponenciales y logarítmicas.",
+"afirmacion": "Plantea el procedimiento para despejar el exponente de una ecuación exponencial.",
+"evidencia": "Aísla la potencia y aplica logaritmos a ambos lados para despejar t.",
+"contexto": "En un laboratorio de la Universidad del Valle una población de microalgas crece según P(t) = 400·(1,5)ᵗ, donde t es el tiempo en días.",
+"enunciado": "¿Cuál expresión permite calcular el número de días t para que la población llegue a 2.000 microalgas?",
+"opciones": {
+"A": "t = 5 ÷ 1,5",
+"B": "t = log 5 ÷ log 1,5",
+"C": "t = log (5 ÷ 1,5)",
+"D": "t = log 2.000 ÷ log 600"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Despejar el exponente dividiendo",
+"porque": "Elegiste esta opción porque trataste el exponente como si fuera un factor.",
+"pregunta_guia": "Si 1,5ᵗ = 5, ¿t es 5 ÷ 1,5? Comprueba: ¿1,5 elevado a 3,33 da 5?",
+"aprende": "Para bajar un exponente se usan logaritmos: log(1,5ᵗ) = t·log 1,5."
+},
+"C": {
+"error": "Aplicar mal la propiedad del cociente",
+"porque": "Elegiste esta opción porque probablemente confundiste log a ÷ log b con log(a ÷ b).",
+"pregunta_guia": "¿Es lo mismo log 5 ÷ log 1,5 que log(5 ÷ 1,5)?",
+"aprende": "log(a ÷ b) = log a − log b; es distinto de log a ÷ log b."
+},
+"D": {
+"error": "Multiplicar coeficiente y base antes de la potencia",
+"porque": "Elegiste esta opción porque probablemente calculaste 400 × 1,5 = 600 antes de aplicar el exponente.",
+"pregunta_guia": "En 400·(1,5)ᵗ, ¿el exponente afecta a 400 o solo a 1,5?",
+"aprende": "Primero se divide entre 400: (1,5)ᵗ = 5. La potencia se resuelve antes que el producto."
+}
+},
+"explicacion": "Paso 1: 400·(1,5)ᵗ = 2.000. Paso 2: divide entre 400: (1,5)ᵗ = 5. Paso 3: aplica logaritmo a ambos lados: log(1,5ᵗ) = log 5. Paso 4: propiedad de la potencia: t·log 1,5 = log 5. Paso 5: t = log 5 ÷ log 1,5 ≈ 3,97 días.",
+"tip": "Primero aísla la potencia; solo después aplica logaritmos.",
+"truco": "log(bᵗ) = t·log b: el logaritmo «baja» el exponente.",
+"estrategia_icfes": "El ICFES suele pedir la expresión que resuelve el problema, no el número. Sigue el orden: aislar la potencia, aplicar log, despejar; compara con las opciones.",
+"temas": [
+"ecuaciones exponenciales",
+"propiedades de los logaritmos",
+"crecimiento poblacional"
+],
+"gemela": {
+"enunciado": "Un cultivo crece según C(t) = 300·2ᵗ. ¿Qué expresión da el tiempo t para que C llegue a 1.500?",
+"opciones": {
+"A": "t = log 5 ÷ log 2",
+"B": "t = 5 ÷ 2",
+"C": "t = log (5 ÷ 2)",
+"D": "t = log 1.500 ÷ log 600"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 2ᵗ = 1.500 ÷ 300 = 5. Paso 2: t·log 2 = log 5. Paso 3: t = log 5 ÷ log 2 ≈ 2,32."
+}
+},
+{
+"id": "P11-MAT-B016",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica procedimientos de solución de ecuaciones exponenciales usando propiedades de los logaritmos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): justifico procedimientos utilizando propiedades de las funciones exponenciales y logarítmicas.",
+"afirmacion": "Identifica y explica el error en un procedimiento algebraico.",
+"evidencia": "Detecta el paso en el que se viola una propiedad de los logaritmos y la corrige.",
+"contexto": "Para resolver la ecuación 3ˣ = 20, Mariana escribió: Paso 1: log 3ˣ = log 20. Paso 2: x · log 3 = log 20. Paso 3: x = log 20 − log 3. Paso 4: x ≈ 0,82.",
+"enunciado": "¿En qué paso cometió Mariana un error y por qué?",
+"opciones": {
+"A": "En el paso 1, porque no se puede aplicar logaritmo a ambos lados de una igualdad.",
+"B": "En el paso 2, porque log 3ˣ es igual a (log 3)ˣ y no a x · log 3.",
+"C": "En el paso 3, porque para despejar x debe dividir log 20 entre log 3, no restarlos.",
+"D": "En el paso 4, porque log 20 − log 3 es aproximadamente 1,30 y no 0,82."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Desconocer que se puede operar igual en ambos lados",
+"porque": "Elegiste esta opción porque creíste que aplicar logaritmo a ambos lados no es válido.",
+"pregunta_guia": "Si dos números positivos son iguales, ¿sus logaritmos son iguales?",
+"aprende": "Aplicar la misma función a ambos lados de una igualdad conserva la igualdad (si los números son positivos)."
+},
+"B": {
+"error": "Confundir la propiedad de la potencia",
+"porque": "Elegiste esta opción porque probablemente confundiste log(3ˣ) con (log 3)ˣ.",
+"pregunta_guia": "¿Cuánto vale log(10²)? ¿Es 2·log 10 = 2 o (log 10)² = 1?",
+"aprende": "log(10²) = log 100 = 2 = 2·log 10: la propiedad del paso 2 es correcta."
+},
+"D": {
+"error": "Calcular mal el valor numérico",
+"porque": "Elegiste esta opción porque probablemente creíste que el error estaba en la calculadora.",
+"pregunta_guia": "¿Cuánto es log 20 − log 3 ≈ 1,301 − 0,477?",
+"aprende": "log 20 − log 3 ≈ 0,82, así que el cálculo del paso 4 sí corresponde al paso 3; el error está antes."
+}
+},
+"explicacion": "Paso 1: los pasos 1 y 2 son correctos (logaritmo a ambos lados y log 3ˣ = x·log 3). Paso 2: en el paso 3, x está multiplicado por log 3, así que se despeja dividiendo: x = log 20 ÷ log 3. Paso 3: x ≈ 1,301 ÷ 0,477 ≈ 2,73. Paso 4: comprobación: 3^2,73 ≈ 20 ✓, mientras que 3^0,82 ≈ 2,5 ✗.",
+"tip": "Verifica tu respuesta elevando: si 3ˣ no da 20, hay un error.",
+"truco": "Lo que multiplica, pasa a dividir; los logaritmos no cambian esa regla.",
+"estrategia_icfes": "El ICFES presenta procedimientos con un error y pide ubicarlo. Revisa paso a paso qué propiedad se usa y comprueba el resultado final en la ecuación original.",
+"temas": [
+"propiedades de los logaritmos",
+"ecuaciones exponenciales",
+"/detectaerror"
+],
+"gemela": {
+"enunciado": "¿Cuál es el valor aproximado de x en 2ˣ = 12?",
+"opciones": {
+"A": "x ≈ 3,58",
+"B": "x ≈ 0,78",
+"C": "x = 6",
+"D": "x ≈ 0,32"
+},
+"correcta": "A",
+"explicacion": "Paso 1: x·log 2 = log 12. Paso 2: x = log 12 ÷ log 2 ≈ 1,079 ÷ 0,301 ≈ 3,58. Paso 3: 2^3,58 ≈ 12 ✓."
+}
+},
+{
+"id": "P11-MAT-B017",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): interpreta información de tablas en contextos financieros, como los créditos con cuotas fijas.",
+"lineamiento": "Pensamiento variacional y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): interpreto y comparo resultados de cálculos con porcentajes en situaciones de variación.",
+"afirmacion": "Interpreta la variación de los componentes de una cuota en una tabla de amortización.",
+"evidencia": "Describe cómo cambian el interés y el abono a capital y relaciona el cambio con el saldo.",
+"contexto": "Rosa toma un crédito de $3.000.000 para su emprendimiento de postres en el barrio Ciudad Córdoba. Lo paga en 3 cuotas mensuales iguales con un interés del 2 % mensual sobre el saldo. La tabla muestra la amortización.",
+"tabla": {
+"titulo": "Tabla de amortización (valores en pesos)",
+"cols": [
+"Mes",
+"Saldo inicial",
+"Interés (2 %)",
+"Abono a capital",
+"Cuota",
+"Saldo final"
+],
+"filas": [
+[
+"1",
+"3.000.000",
+"60.000",
+"980.264",
+"1.040.264",
+"2.019.736"
+],
+[
+"2",
+"2.019.736",
+"40.395",
+"999.869",
+"1.040.264",
+"1.019.867"
+],
+[
+"3",
+"1.019.867",
+"20.397",
+"1.019.867",
+"1.040.264",
+"0"
+]
+]
+},
+"enunciado": "¿Qué ocurre con el interés y con el abono a capital a medida que se pagan las cuotas?",
+"opciones": {
+"A": "El interés disminuye y el abono a capital aumenta, porque el interés se calcula sobre un saldo cada vez menor.",
+"B": "El interés y el abono a capital se mantienen iguales, porque la cuota es la misma cada mes.",
+"C": "El interés aumenta y el abono a capital disminuye, porque la deuda acumula intereses.",
+"D": "El interés y el abono a capital disminuyen, porque la cuota se reduce cada mes."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir cuota fija con componentes fijos",
+"porque": "Elegiste esta opción porque viste que la cuota no cambia y supusiste que sus partes tampoco.",
+"pregunta_guia": "Compara la columna «Interés» del mes 1 y del mes 3: ¿son iguales?",
+"aprende": "La cuota es fija, pero se reparte distinto: menos interés y más capital cada mes."
+},
+"C": {
+"error": "Invertir el sentido de la variación",
+"porque": "Elegiste esta opción porque probablemente pensaste que una deuda siempre «crece» con los intereses.",
+"pregunta_guia": "¿El saldo inicial sube o baja de un mes al siguiente?",
+"aprende": "Como el saldo baja, el 2 % de ese saldo también baja."
+},
+"D": {
+"error": "No leer la columna de la cuota",
+"porque": "Elegiste esta opción porque probablemente no revisaste que la cuota es la misma los tres meses.",
+"pregunta_guia": "¿Cuánto vale la cuota en cada mes según la tabla?",
+"aprende": "Cuota = interés + abono. Si la cuota es constante y el interés baja, el abono debe subir."
+}
+},
+"explicacion": "Paso 1: columna interés: 60.000 → 40.395 → 20.397 (disminuye). Paso 2: columna abono: 980.264 → 999.869 → 1.019.867 (aumenta). Paso 3: el interés es 2 % del saldo inicial, y el saldo baja cada mes. Paso 4: como la cuota es fija (cuota = interés + abono), lo que deja de ir a interés va a capital.",
+"tip": "En un crédito de cuota fija, abonar a capital al inicio reduce mucho los intereses.",
+"truco": "Cuota fija = interés que baja + capital que sube.",
+"estrategia_icfes": "El ICFES usa tablas con varias columnas. Lee los encabezados, sigue cada columna de arriba abajo y relaciona los cambios con una regla (aquí: interés = 2 % del saldo).",
+"temas": [
+"créditos y cuotas",
+"tabla de amortización",
+"lectura de tablas"
+],
+"gemela": {
+"enunciado": "En un crédito de cuota fija de $500.000, el interés de la primera cuota fue $120.000 y el de la segunda $105.000. ¿Cuánto se abona a capital en la segunda cuota?",
+"opciones": {
+"A": "$380.000",
+"B": "$395.000",
+"C": "$605.000",
+"D": "$105.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: abono = cuota − interés. Paso 2: 500.000 − 105.000 = $395.000."
+}
+},
+{
+"id": "P11-MAT-B018",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): resuelve problemas en contextos financieros que involucran créditos, cuotas e intereses.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): resuelvo problemas con números reales e interpreto los resultados en el contexto.",
+"afirmacion": "Calcula el costo financiero total de un crédito a partir de su tabla de amortización.",
+"evidencia": "Suma los intereses de todas las cuotas o resta el capital al total pagado.",
+"contexto": "Rosa toma un crédito de $3.000.000 para su emprendimiento de postres en el barrio Ciudad Córdoba. Lo paga en 3 cuotas mensuales iguales con un interés del 2 % mensual sobre el saldo. La tabla muestra la amortización.",
+"tabla": {
+"titulo": "Tabla de amortización (valores en pesos)",
+"cols": [
+"Mes",
+"Saldo inicial",
+"Interés (2 %)",
+"Abono a capital",
+"Cuota",
+"Saldo final"
+],
+"filas": [
+[
+"1",
+"3.000.000",
+"60.000",
+"980.264",
+"1.040.264",
+"2.019.736"
+],
+[
+"2",
+"2.019.736",
+"40.395",
+"999.869",
+"1.040.264",
+"1.019.867"
+],
+[
+"3",
+"1.019.867",
+"20.397",
+"1.019.867",
+"1.040.264",
+"0"
+]
+]
+},
+"enunciado": "¿Cuánto paga Rosa en total por intereses?",
+"opciones": {
+"A": "$180.000",
+"B": "$60.000",
+"C": "$3.120.792",
+"D": "$120.792"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Calcular interés simple sobre el capital inicial",
+"porque": "Elegiste esta opción porque probablemente calculaste 2 % de 3.000.000 durante 3 meses.",
+"pregunta_guia": "¿El interés del mes 2 se calcula sobre 3.000.000 o sobre el saldo que queda?",
+"aprende": "En este crédito el interés se calcula sobre el saldo, que disminuye: 60.000 + 40.395 + 20.397."
+},
+"B": {
+"error": "Tomar un solo mes",
+"porque": "Elegiste esta opción porque leíste solo el interés del primer mes.",
+"pregunta_guia": "¿Cuántas cuotas tienen intereses?",
+"aprende": "Hay que sumar los intereses de las tres cuotas."
+},
+"C": {
+"error": "Confundir intereses con total pagado",
+"porque": "Elegiste esta opción porque calculaste todo lo que Rosa pagó, incluido el capital.",
+"pregunta_guia": "De lo que pagó Rosa, ¿cuánto era el dinero prestado?",
+"aprende": "Intereses = total pagado − capital = 3.120.792 − 3.000.000."
+}
+},
+"explicacion": "Paso 1: suma la columna de intereses: 60.000 + 40.395 + 20.397 = 120.792. Paso 2: comprobación: total pagado = 3 × 1.040.264 = 3.120.792; menos el capital: 3.120.792 − 3.000.000 = 120.792. Paso 3: Rosa paga $120.792 de intereses.",
+"tip": "El costo real de un crédito es lo que pagas por encima de lo que te prestaron.",
+"truco": "Intereses totales = (cuota × número de cuotas) − capital.",
+"estrategia_icfes": "El ICFES puede pedir el mismo dato por dos caminos. Calcula de una forma y verifica con la otra; si coinciden, marca con seguridad.",
+"temas": [
+"créditos y cuotas",
+"costo financiero",
+"interés sobre saldo"
+],
+"gemela": {
+"enunciado": "Por un crédito de $1.000.000 se pagaron 12 cuotas de $95.000. ¿Cuánto se pagó en intereses?",
+"opciones": {
+"A": "$140.000",
+"B": "$1.140.000",
+"C": "$11.667",
+"D": "$95.000"
+},
+"correcta": "A",
+"explicacion": "Paso 1: total pagado = 12 × 95.000 = 1.140.000. Paso 2: intereses = 1.140.000 − 1.000.000 = $140.000."
+}
+},
+{
+"id": "P11-MAT-B019",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): plantea y resuelve ecuaciones con porcentajes sucesivos en contextos comerciales.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): construyo expresiones algebraicas equivalentes y resuelvo ecuaciones lineales.",
+"afirmacion": "Resuelve un problema con descuento e IVA encadenados hallando el valor inicial.",
+"evidencia": "Plantea P·0,75·1,19 = total y despeja P.",
+"contexto": "En un almacén de Cali, un televisor tiene un precio de lista P. Primero se aplica un descuento del 25 % y luego se cobra IVA del 19 % sobre el precio con descuento. El cliente pagó $1.785.000.",
+"enunciado": "¿Cuál es el precio de lista P del televisor?",
+"opciones": {
+"A": "$1.898.936",
+"B": "$1.500.000",
+"C": "$2.000.000",
+"D": "$2.380.000"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Sumar porcentajes de bases distintas",
+"porque": "Elegiste esta opción porque probablemente combinaste −25 % y +19 % como −6 % y dividiste entre 0,94.",
+"pregunta_guia": "¿El 19 % se aplica sobre P o sobre el precio ya rebajado?",
+"aprende": "Los porcentajes sucesivos se multiplican: 0,75 × 1,19 = 0,8925."
+},
+"B": {
+"error": "Olvidar el descuento",
+"porque": "Elegiste esta opción porque quitaste el IVA, pero no deshiciste el descuento.",
+"pregunta_guia": "$1.500.000 es el precio con descuento sin IVA: ¿cuál era antes del descuento?",
+"aprende": "Falta dividir entre 0,75: 1.500.000 ÷ 0,75 = 2.000.000."
+},
+"D": {
+"error": "Olvidar el IVA",
+"porque": "Elegiste esta opción porque deshiciste solo el descuento.",
+"pregunta_guia": "¿Lo que pagó el cliente incluye IVA?",
+"aprende": "Primero se quita el IVA (÷ 1,19) y luego el descuento (÷ 0,75)."
+}
+},
+"explicacion": "Paso 1: precio con descuento: 0,75P. Paso 2: con IVA: 1,19 × 0,75P = 0,8925P. Paso 3: 0,8925P = 1.785.000 → P = 1.785.000 ÷ 0,8925 = 2.000.000. Paso 4: comprobación: 2.000.000 × 0,75 = 1.500.000; 1.500.000 × 1,19 = 1.785.000 ✓.",
+"tip": "Para devolverte en una cadena de porcentajes, deshaz cada paso en orden inverso.",
+"truco": "Cadena hacia adelante: multiplica factores. Hacia atrás: divide entre el producto de factores.",
+"estrategia_icfes": "El ICFES combina descuentos e impuestos para ver si el estudiante multiplica factores. Escribe la cadena completa con factores y verifica con la opción elegida.",
+"temas": [
+"porcentajes encadenados",
+"IVA y descuentos",
+"ecuaciones lineales"
+],
+"gemela": {
+"enunciado": "Un artículo tiene 10 % de descuento y luego se le cobra IVA del 19 % sobre el precio rebajado. Si se pagaron $107.100, ¿cuál era el precio de lista?",
+"opciones": {
+"A": "$90.000",
+"B": "$100.000",
+"C": "$119.000",
+"D": "$98.257"
+},
+"correcta": "B",
+"explicacion": "Paso 1: P × 0,90 × 1,19 = 1,071P. Paso 2: P = 107.100 ÷ 1,071 = $100.000."
+}
+},
+{
+"id": "P11-MAT-B020",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta el comportamiento de funciones exponenciales decrecientes en gráficas de fenómenos naturales.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo en representaciones gráficas cartesianas los comportamientos de cambio de funciones exponenciales.",
+"afirmacion": "Describe el tipo de variación representada en una gráfica.",
+"evidencia": "Distingue entre disminución por cantidad constante y por factor constante.",
+"contexto": "En un estudio del Hospital Universitario del Valle se midió la concentración de un medicamento en la sangre de un paciente cada 2 horas después de aplicarlo.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Concentración del medicamento",
+"etiquetas": [
+"0 h",
+"2 h",
+"4 h",
+"6 h",
+"8 h"
+],
+"series": [
+{
+"nombre": "Concentración",
+"datos": [
+80,
+40,
+20,
+10,
+5
+]
+}
+],
+"ejeY": "mg/L"
+},
+"enunciado": "¿Cuál afirmación describe correctamente la variación de la concentración?",
+"opciones": {
+"A": "La concentración disminuye 20 mg/L cada 2 horas.",
+"B": "La concentración se reduce a la mitad cada 2 horas.",
+"C": "La concentración disminuye 10 mg/L cada hora.",
+"D": "La concentración se reduce a la mitad cada hora."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Suponer disminución lineal",
+"porque": "Elegiste esta opción porque probablemente miraste un solo tramo (40 → 20) y lo generalizaste.",
+"pregunta_guia": "Entre 0 y 2 h, ¿cuánto disminuyó? ¿Y entre 6 y 8 h?",
+"aprende": "Las disminuciones son 40, 20, 10, 5: no son iguales; lo constante es el factor 1/2."
+},
+"C": {
+"error": "Promediar una variación no lineal",
+"porque": "Elegiste esta opción porque probablemente calculaste una disminución fija por hora.",
+"pregunta_guia": "Si bajara 10 mg/L por hora, ¿cuánto habría a las 8 h?",
+"aprende": "Con 10 mg/L por hora quedaría 0 a las 8 h, pero quedan 5 mg/L: el modelo no es lineal."
+},
+"D": {
+"error": "Leer mal la escala del tiempo",
+"porque": "Elegiste esta opción porque identificaste la mitad, pero no revisaste que los datos son cada 2 horas.",
+"pregunta_guia": "¿Cada cuánto tiempo están los puntos de la gráfica?",
+"aprende": "La concentración pasa de 80 a 40 en 2 horas: vida media de 2 h."
+}
+},
+"explicacion": "Paso 1: cocientes consecutivos: 40/80 = 20/40 = 10/20 = 5/10 = 1/2. Paso 2: el factor constante es 1/2 cada 2 horas. Paso 3: la concentración se reduce a la mitad cada 2 horas: C(t) = 80·(1/2)^(t/2).",
+"tip": "Si la curva baja cada vez menos, sospecha de una variación exponencial.",
+"truco": "Restas constantes → lineal; cocientes constantes → exponencial.",
+"estrategia_icfes": "En gráficas, el ICFES pide distinguir tipos de variación. Calcula diferencias y cocientes entre puntos consecutivos y revisa la escala del eje horizontal.",
+"temas": [
+"decrecimiento exponencial",
+"vida media",
+"lectura de gráficas"
+],
+"gemela": {
+"enunciado": "Una sustancia tiene 900 g en t = 0 h, 300 g en t = 1 h y 100 g en t = 2 h. ¿Qué describe su variación?",
+"opciones": {
+"A": "Disminuye 300 g cada hora.",
+"B": "Se reduce a la tercera parte cada hora.",
+"C": "Se reduce a la mitad cada hora.",
+"D": "Disminuye 600 g cada hora."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 300/900 = 100/300 = 1/3. Paso 2: el factor constante es 1/3 por hora."
+}
+},
+{
+"id": "P11-MAT-B021",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): plantea y resuelve sistemas de ecuaciones lineales que modelan situaciones cotidianas.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para solucionar sistemas de ecuaciones lineales.",
+"afirmacion": "Resuelve un sistema de dos ecuaciones lineales en un contexto.",
+"evidencia": "Usa reducción (resta de ecuaciones) para hallar una incógnita.",
+"contexto": "En la tienda escolar de CENTEC, 3 empanadas y 2 jugos cuestan $11.000, y 1 empanada y 2 jugos cuestan $7.000.",
+"enunciado": "¿Cuánto cuesta una empanada?",
+"opciones": {
+"A": "$2.500",
+"B": "$4.000",
+"C": "$2.200",
+"D": "$2.000"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Responder la otra incógnita",
+"porque": "Elegiste esta opción porque hallaste el precio del jugo, no el de la empanada.",
+"pregunta_guia": "¿Qué representa cada letra en tu sistema y cuál pide la pregunta?",
+"aprende": "Jugo = $2.500 y empanada = $2.000; lee de nuevo qué se pregunta."
+},
+"B": {
+"error": "No dividir entre el coeficiente",
+"porque": "Elegiste esta opción porque restaste las ecuaciones (2e = 4.000) pero no dividiste entre 2.",
+"pregunta_guia": "Si 2 empanadas cuestan $4.000, ¿cuánto cuesta una?",
+"aprende": "2e = 4.000 → e = 2.000."
+},
+"C": {
+"error": "Promediar sin plantear el sistema",
+"porque": "Elegiste esta opción porque probablemente dividiste $11.000 entre 5 productos.",
+"pregunta_guia": "¿Las empanadas y los jugos cuestan lo mismo?",
+"aprende": "Los productos tienen precios distintos; hace falta un sistema de dos ecuaciones."
+}
+},
+"explicacion": "Paso 1: sea e el precio de la empanada y j el del jugo: 3e + 2j = 11.000 y e + 2j = 7.000. Paso 2: resta la segunda de la primera: 2e = 4.000. Paso 3: e = 2.000. Paso 4: comprobación: 2.000 + 2j = 7.000 → j = 2.500; 3(2.000) + 2(2.500) = 11.000 ✓.",
+"tip": "Si dos ecuaciones tienen el mismo coeficiente en una incógnita, réstalas.",
+"truco": "Reducción: «igualo, resto y despejo».",
+"estrategia_icfes": "El ICFES plantea compras combinadas. Nombra las incógnitas, escribe el sistema y, al final, verifica que respondes la incógnita que piden.",
+"temas": [
+"sistemas de ecuaciones lineales",
+"método de reducción",
+"modelación"
+],
+"gemela": {
+"enunciado": "2 cuadernos y 1 lápiz cuestan $9.000; 1 cuaderno y 1 lápiz cuestan $5.500. ¿Cuánto cuesta un lápiz?",
+"opciones": {
+"A": "$3.500",
+"B": "$2.000",
+"C": "$3.000",
+"D": "$5.500"
+},
+"correcta": "B",
+"explicacion": "Paso 1: restando: cuaderno = 3.500. Paso 2: lápiz = 5.500 − 3.500 = $2.000."
+}
+},
+{
+"id": "P11-MAT-B022",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica el número de soluciones de un sistema de ecuaciones lineales a partir de sus representaciones algebraica y gráfica.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para solucionar sistemas de ecuaciones lineales y analizo sus soluciones.",
+"afirmacion": "Argumenta sobre la existencia de soluciones de un sistema lineal.",
+"evidencia": "Reconoce ecuaciones incompatibles (rectas paralelas) mediante una transformación equivalente.",
+"contexto": "En una clase de matemáticas, Tomás y Samuel analizan el sistema: x + y = 10 ; 2x + 2y = 18.",
+"enunciado": "¿Cuál de las siguientes afirmaciones sobre el sistema es correcta?",
+"opciones": {
+"A": "No tiene solución, porque al multiplicar la primera ecuación por 2 se obtiene 2x + 2y = 20, que contradice 2x + 2y = 18.",
+"B": "Tiene infinitas soluciones, porque la segunda ecuación es el doble de la primera.",
+"C": "Tiene una única solución, x = 5 y y = 4, porque satisface ambas ecuaciones.",
+"D": "Tiene una única solución, porque tiene dos ecuaciones y dos incógnitas."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Revisar solo el lado izquierdo",
+"porque": "Elegiste esta opción porque notaste que 2x + 2y es el doble de x + y, pero no revisaste el lado derecho.",
+"pregunta_guia": "¿18 es el doble de 10?",
+"aprende": "Para infinitas soluciones la ecuación completa debe ser múltiplo: 2(x + y) = 2(10) = 20, no 18."
+},
+"C": {
+"error": "No verificar la solución propuesta",
+"porque": "Elegiste esta opción porque probablemente revisaste solo la segunda ecuación (2·5 + 2·4 = 18).",
+"pregunta_guia": "¿Cuánto da 5 + 4? ¿Cumple x + y = 10?",
+"aprende": "Una solución debe cumplir TODAS las ecuaciones: 5 + 4 = 9 ≠ 10."
+},
+"D": {
+"error": "Creer que dos ecuaciones siempre bastan",
+"porque": "Elegiste esta opción porque recordaste la regla «dos ecuaciones, dos incógnitas» sin sus condiciones.",
+"pregunta_guia": "¿Dos rectas paralelas se cortan?",
+"aprende": "Un sistema 2×2 puede tener una, ninguna o infinitas soluciones según las rectas."
+}
+},
+"explicacion": "Paso 1: multiplica la primera ecuación por 2: 2x + 2y = 20. Paso 2: la segunda dice 2x + 2y = 18. Paso 3: una misma expresión no puede valer 20 y 18 a la vez: el sistema es incompatible. Paso 4: gráficamente, y = 10 − x y y = 9 − x son rectas paralelas (misma pendiente −1, distinto corte): no se cortan.",
+"tip": "Compara pendientes y cortes: misma pendiente y distinto corte significa rectas paralelas.",
+"truco": "Proporcionales a la izquierda y no a la derecha → sin solución; proporcionales en todo → infinitas.",
+"estrategia_icfes": "El ICFES pregunta por el número de soluciones con justificación. Transforma una ecuación para compararla con la otra y verifica cualquier solución propuesta en ambas.",
+"temas": [
+"sistemas incompatibles",
+"rectas paralelas",
+"argumentación algebraica"
+],
+"gemela": {
+"enunciado": "¿Cuántas soluciones tiene el sistema 2x − y = 3 ; 4x − 2y = 6?",
+"opciones": {
+"A": "Ninguna, porque las rectas son paralelas.",
+"B": "Una sola, x = 2 y y = 1.",
+"C": "Infinitas, porque la segunda ecuación es el doble de la primera en ambos lados.",
+"D": "Una sola, porque hay dos ecuaciones."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 2(2x − y) = 2(3) da 4x − 2y = 6, igual a la segunda. Paso 2: es la misma recta: infinitas soluciones."
+}
+},
+{
+"id": "P11-MAT-B023",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de orden de los números reales para plantear y resolver inecuaciones lineales en contextos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): resuelvo problemas en los que se usan las propiedades de orden de los números reales.",
+"afirmacion": "Plantea y resuelve una inecuación lineal que modela una restricción de presupuesto.",
+"evidencia": "Escribe 18.000n + 24.000 ≤ 150.000 e interpreta la solución en números enteros.",
+"contexto": "Juliana tiene $150.000 para una salida al Zoológico de Cali con un grupo de amigos (ella incluida). La entrada cuesta $18.000 por persona y el transporte compartido cuesta $24.000 en total para todo el grupo.",
+"enunciado": "¿Cuál es el máximo número de personas que pueden ir a la salida?",
+"opciones": {
+"A": "8",
+"B": "7",
+"C": "9",
+"D": "3"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Ignorar el costo fijo",
+"porque": "Elegiste esta opción porque dividiste 150.000 entre 18.000 sin descontar el transporte.",
+"pregunta_guia": "Si van 8 personas, ¿cuánto cuestan entradas más transporte?",
+"aprende": "8 personas: 144.000 + 24.000 = 168.000 > 150.000. Primero se descuenta el costo fijo."
+},
+"C": {
+"error": "Sumar el costo fijo en lugar de restarlo",
+"porque": "Elegiste esta opción porque probablemente despejaste n sumando 24.000 al presupuesto.",
+"pregunta_guia": "Al pasar +24.000 al otro lado de la desigualdad, ¿se suma o se resta?",
+"aprende": "18.000n ≤ 150.000 − 24.000 = 126.000."
+},
+"D": {
+"error": "Tratar el costo fijo como costo por persona",
+"porque": "Elegiste esta opción porque probablemente sumaste 18.000 + 24.000 por cada persona.",
+"pregunta_guia": "¿El transporte se paga por persona o una sola vez por el grupo?",
+"aprende": "El transporte es un costo fijo: aparece una sola vez en la inecuación."
+}
+},
+"explicacion": "Paso 1: si n es el número de personas: 18.000n + 24.000 ≤ 150.000. Paso 2: 18.000n ≤ 126.000. Paso 3: n ≤ 7. Paso 4: comprobación: 7 personas cuestan 126.000 + 24.000 = 150.000 ✓; 8 personas superan el presupuesto.",
+"tip": "En problemas de presupuesto, separa costos fijos (una vez) y variables (por unidad).",
+"truco": "«Hasta», «máximo», «no más de» → ≤.",
+"estrategia_icfes": "El ICFES pregunta por máximos con restricciones. Plantea la inecuación, resuelve y verifica el entero obtenido y el siguiente.",
+"temas": [
+"inecuaciones lineales",
+"costos fijos y variables",
+"presupuesto"
+],
+"gemela": {
+"enunciado": "Un grupo tiene $100.000. El bus cuesta $16.000 en total y cada entrada $12.000. ¿Cuántas personas pueden ir como máximo?",
+"opciones": {
+"A": "8",
+"B": "9",
+"C": "7",
+"D": "3"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 12.000n + 16.000 ≤ 100.000. Paso 2: 12.000n ≤ 84.000 → n ≤ 7."
+}
+},
+{
+"id": "P11-MAT-B024",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): resuelve inecuaciones cuadráticas usando las propiedades de orden y la factorización, e interpreta los intervalos solución.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): uso argumentos geométricos y algebraicos para resolver problemas con funciones polinómicas.",
+"afirmacion": "Resuelve una inecuación cuadrática en un contexto económico.",
+"evidencia": "Factoriza, identifica las raíces y determina el intervalo donde la función es positiva, invirtiendo el sentido al multiplicar por un negativo.",
+"contexto": "Una microempresa de arequipe de Palmira modela su utilidad mensual, en miles de pesos, con U(x) = −2x² + 80x − 600, donde x es el número de cajas vendidas en el mes.",
+"enunciado": "¿Para qué valores de x la utilidad de la microempresa es positiva?",
+"opciones": {
+"A": "x < 10 o x > 30",
+"B": "x = 10 o x = 30",
+"C": "x > 20",
+"D": "10 < x < 30"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "No invertir la desigualdad",
+"porque": "Elegiste esta opción porque probablemente dividiste entre −2 sin cambiar el sentido de la desigualdad.",
+"pregunta_guia": "Si x = 0, ¿cuánto vale U(0)? ¿Es positiva?",
+"aprende": "U(0) = −600 < 0. Al dividir entre −2 se invierte: x² − 40x + 300 < 0."
+},
+"B": {
+"error": "Confundir raíces con intervalo",
+"porque": "Elegiste esta opción porque hallaste bien las raíces, pero allí la utilidad es cero, no positiva.",
+"pregunta_guia": "¿Cuánto vale U(10)? ¿Cero es positivo?",
+"aprende": "Las raíces son los bordes del intervalo; la utilidad es positiva entre ellas."
+},
+"C": {
+"error": "Usar solo el vértice",
+"porque": "Elegiste esta opción porque probablemente tomaste el vértice x = 20 como frontera.",
+"pregunta_guia": "Si x = 40, ¿la utilidad es positiva?",
+"aprende": "U(40) = −600 < 0. El vértice es el máximo, no el borde del intervalo."
+}
+},
+"explicacion": "Paso 1: U(x) > 0 → −2x² + 80x − 600 > 0. Paso 2: divide entre −2 e invierte: x² − 40x + 300 < 0. Paso 3: factoriza: (x − 10)(x − 30) < 0. Paso 4: el producto es negativo cuando los factores tienen signos opuestos: 10 < x < 30. Paso 5: comprobación con x = 20: U(20) = −800 + 1.600 − 600 = 200 > 0 ✓.",
+"tip": "Si la parábola abre hacia abajo, es positiva entre sus raíces.",
+"truco": "Multiplicar o dividir por negativo → «da la vuelta» la desigualdad.",
+"estrategia_icfes": "El ICFES presenta utilidades cuadráticas y pregunta por intervalos. Halla las raíces, decide hacia dónde abre la parábola y prueba un valor de cada zona.",
+"temas": [
+"inecuaciones cuadráticas",
+"factorización",
+"utilidad y punto de equilibrio"
+],
+"gemela": {
+"enunciado": "Si la utilidad de un negocio es U(x) = −x² + 14x − 40, ¿para qué valores de x es positiva?",
+"opciones": {
+"A": "4 < x < 10",
+"B": "x < 4 o x > 10",
+"C": "x = 4 o x = 10",
+"D": "x > 7"
+},
+"correcta": "A",
+"explicacion": "Paso 1: x² − 14x + 40 < 0. Paso 2: (x − 4)(x − 10) < 0. Paso 3: 4 < x < 10."
+}
+},
+{
+"id": "P11-MAT-B025",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): determina máximos de funciones cuadráticas que modelan situaciones de optimización.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones entre las expresiones algebraicas y las gráficas de funciones polinómicas.",
+"afirmacion": "Calcula el valor de la variable que maximiza una función cuadrática y el valor máximo.",
+"evidencia": "Aplica x = −b/(2a) y evalúa U en ese valor.",
+"contexto": "Una microempresa de arequipe de Palmira modela su utilidad mensual, en miles de pesos, con U(x) = −2x² + 80x − 600, donde x es el número de cajas vendidas en el mes.",
+"enunciado": "¿Con cuántas cajas vendidas se obtiene la utilidad máxima y cuál es esa utilidad?",
+"opciones": {
+"A": "20 cajas; $200 mil.",
+"B": "30 cajas; $0.",
+"C": "20 cajas; $1.800 mil.",
+"D": "10 cajas; $0."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir raíz con máximo",
+"porque": "Elegiste esta opción porque tomaste una de las raíces de U(x).",
+"pregunta_guia": "Si la utilidad en 30 cajas es cero, ¿puede ser la máxima si en 20 cajas es positiva?",
+"aprende": "En las raíces la utilidad es cero; el máximo está en el punto medio, x = 20."
+},
+"C": {
+"error": "Error de signo al evaluar",
+"porque": "Elegiste esta opción porque probablemente calculaste −2(20)² como +800.",
+"pregunta_guia": "¿Cuánto vale −2·400?",
+"aprende": "U(20) = −800 + 1.600 − 600 = 200."
+},
+"D": {
+"error": "Tomar la primera raíz",
+"porque": "Elegiste esta opción porque usaste la raíz menor como si fuera el óptimo.",
+"pregunta_guia": "¿Qué pasa con la utilidad entre 10 y 20 cajas: sube o baja?",
+"aprende": "Entre las raíces la utilidad sube hasta el vértice y luego baja."
+}
+},
+"explicacion": "Paso 1: a = −2, b = 80: x = −80 ÷ (2·(−2)) = 20 cajas. Paso 2: U(20) = −2(400) + 80(20) − 600 = −800 + 1.600 − 600 = 200. Paso 3: la utilidad máxima es $200 mil con 20 cajas. Paso 4: coincide con el punto medio de las raíces 10 y 30.",
+"tip": "El vértice está justo en la mitad de las dos raíces.",
+"truco": "x del vértice = (raíz 1 + raíz 2) ÷ 2.",
+"estrategia_icfes": "El ICFES pide valor óptimo y el valor de la función. Calcula ambos y verifica con la simetría de la parábola.",
+"temas": [
+"vértice de una parábola",
+"optimización",
+"utilidad"
+],
+"gemela": {
+"enunciado": "Para U(x) = −x² + 14x − 40, ¿en qué x se obtiene la utilidad máxima y cuál es?",
+"opciones": {
+"A": "x = 14; U = −40",
+"B": "x = 4; U = 0",
+"C": "x = 7; U = 9",
+"D": "x = 7; U = 107"
+},
+"correcta": "C",
+"explicacion": "Paso 1: x = −14 ÷ (−2) = 7. Paso 2: U(7) = −49 + 98 − 40 = 9."
+}
+},
+{
+"id": "P11-MAT-B026",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): reconoce patrones en sucesiones aritméticas y los expresa con su término general.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): uso procesos inductivos y lenguaje algebraico para formular y poner a prueba conjeturas.",
+"afirmacion": "Calcula un término de una sucesión aritmética en contexto.",
+"evidencia": "Aplica aₙ = a₁ + (n − 1)d.",
+"contexto": "Para prepararse para una carrera atlética en Cali, Andrés corre 2 km el primer día de entrenamiento y cada día agrega 0,5 km a lo que corrió el día anterior.",
+"enunciado": "¿Cuántos kilómetros corre Andrés el día 15?",
+"opciones": {
+"A": "9,5 km",
+"B": "7,5 km",
+"C": "9 km",
+"D": "30 km"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Contar un incremento de más",
+"porque": "Elegiste esta opción porque probablemente sumaste 15 incrementos en lugar de 14.",
+"pregunta_guia": "El día 1 corre 2 km sin ningún incremento: ¿cuántos incrementos hay hasta el día 15?",
+"aprende": "Entre el día 1 y el día 15 hay 14 incrementos: 2 + 14·0,5."
+},
+"B": {
+"error": "Olvidar el término inicial",
+"porque": "Elegiste esta opción porque multiplicaste 15 × 0,5 sin sumar los 2 km iniciales.",
+"pregunta_guia": "¿Cuánto corre el día 1 según tu fórmula? ¿Coincide con 2 km?",
+"aprende": "aₙ = a₁ + (n − 1)d incluye el valor inicial a₁ = 2."
+},
+"D": {
+"error": "Multiplicar el término inicial",
+"porque": "Elegiste esta opción porque probablemente calculaste 2 × 15.",
+"pregunta_guia": "¿Andrés corre lo mismo todos los días?",
+"aprende": "La distancia no se repite: aumenta 0,5 km por día."
+}
+},
+"explicacion": "Paso 1: sucesión aritmética con a₁ = 2 y d = 0,5. Paso 2: aₙ = 2 + (n − 1)·0,5. Paso 3: a₁₅ = 2 + 14·0,5 = 2 + 7 = 9 km.",
+"tip": "Prueba tu fórmula con n = 1: debe dar el primer término.",
+"truco": "Del día 1 al día n hay (n − 1) saltos.",
+"estrategia_icfes": "El ICFES usa rutinas que crecen de forma constante. Identifica el primer término y la diferencia y cuida el conteo de saltos.",
+"temas": [
+"sucesiones aritméticas",
+"término general",
+"patrones"
+],
+"gemela": {
+"enunciado": "En la sucesión 5, 8, 11, 14, …, ¿cuál es el término 20?",
+"opciones": {
+"A": "65",
+"B": "62",
+"C": "60",
+"D": "100"
+},
+"correcta": "B",
+"explicacion": "Paso 1: a₁ = 5, d = 3. Paso 2: a₂₀ = 5 + 19·3 = 62."
+}
+},
+{
+"id": "P11-MAT-B027",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): reconoce sucesiones geométricas y su relación con las funciones exponenciales.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo representaciones tabulares de situaciones de variación exponencial.",
+"afirmacion": "Identifica la regla de formación de una sucesión presentada en una tabla.",
+"evidencia": "Calcula la razón entre términos consecutivos y la describe verbalmente.",
+"contexto": "Sara se propuso un plan de ahorro para su emprendimiento de accesorios. La tabla muestra lo que ahorró en cada uno de los primeros cuatro meses.",
+"tabla": {
+"titulo": "Plan de ahorro de Sara",
+"cols": [
+"Mes",
+"Ahorro del mes"
+],
+"filas": [
+[
+"1",
+"$20.000"
+],
+[
+"2",
+"$30.000"
+],
+[
+"3",
+"$45.000"
+],
+[
+"4",
+"$67.500"
+]
+]
+},
+"enunciado": "¿Qué regla describe la forma en que ahorra Sara?",
+"opciones": {
+"A": "Cada mes ahorra $10.000 más que el mes anterior.",
+"B": "Cada mes ahorra el doble de lo del mes anterior.",
+"C": "Cada mes ahorra $15.000 más que el mes anterior.",
+"D": "Cada mes ahorra 1,5 veces lo del mes anterior."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Generalizar desde el primer cambio",
+"porque": "Elegiste esta opción porque miraste solo el paso del mes 1 al mes 2.",
+"pregunta_guia": "Del mes 2 al mes 3, ¿aumentó $10.000?",
+"aprende": "Los aumentos son 10.000, 15.000 y 22.500: no son constantes."
+},
+"B": {
+"error": "Suponer duplicación",
+"porque": "Elegiste esta opción porque viste que el ahorro crece cada vez más y pensaste en el doble.",
+"pregunta_guia": "¿Cuánto es el doble de $20.000? ¿Es lo del mes 2?",
+"aprende": "30.000 ÷ 20.000 = 1,5, no 2."
+},
+"C": {
+"error": "Usar una diferencia intermedia",
+"porque": "Elegiste esta opción porque tomaste el aumento del mes 2 al 3 como si fuera constante.",
+"pregunta_guia": "¿Del mes 3 al 4 aumentó $15.000?",
+"aprende": "Lo constante es el cociente 1,5, no la diferencia."
+}
+},
+"explicacion": "Paso 1: cocientes: 30.000/20.000 = 1,5; 45.000/30.000 = 1,5; 67.500/45.000 = 1,5. Paso 2: la razón es constante: sucesión geométrica con r = 1,5. Paso 3: término general aₙ = 20.000·(1,5)ⁿ⁻¹.",
+"tip": "Si las diferencias crecen, calcula los cocientes: puede ser una sucesión geométrica.",
+"truco": "Aritmética suma la misma cantidad; geométrica multiplica por el mismo número.",
+"estrategia_icfes": "El ICFES presenta tablas y pide la regla. Prueba primero diferencias y luego cocientes con todos los datos, no solo con el primer par.",
+"temas": [
+"sucesiones geométricas",
+"razón común",
+"ahorro"
+],
+"gemela": {
+"enunciado": "¿Qué regla genera la sucesión 4, 12, 36, 108?",
+"opciones": {
+"A": "Sumar 8 cada vez.",
+"B": "Multiplicar por 3 cada vez.",
+"C": "Sumar 24 cada vez.",
+"D": "Multiplicar por 4 cada vez."
+},
+"correcta": "B",
+"explicacion": "Paso 1: 12/4 = 36/12 = 108/36 = 3. Paso 2: se multiplica por 3."
+}
+},
+{
+"id": "P11-MAT-B028",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica resultados sobre sumas de sucesiones aritméticas en contextos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): uso argumentos algebraicos para justificar propiedades de sucesiones y series.",
+"afirmacion": "Valida una afirmación sobre la suma de los términos de una sucesión aritmética.",
+"evidencia": "Usa Sₙ = n(a₁ + aₙ)/2 para comparar con una cantidad dada.",
+"contexto": "Daniel, estudiante de grado 11, propone un reto de ahorro: «Si ahorro $1.000 la primera semana, $2.000 la segunda, $3.000 la tercera y así sucesivamente, en 52 semanas habré ahorrado más de $1.000.000».",
+"enunciado": "¿Es válida la afirmación de Daniel?",
+"opciones": {
+"A": "No, porque en la semana 52 solo ahorra $52.000, mucho menos que $1.000.000.",
+"B": "Sí, porque la suma es 1.000 × (52 × 53 ÷ 2) = $1.378.000.",
+"C": "No, porque la suma es 52 × 1.000 = $52.000.",
+"D": "Sí, porque la suma es 52 × 52.000 = $2.704.000."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir último término con suma",
+"porque": "Elegiste esta opción porque calculaste lo que ahorra la última semana, no el total acumulado.",
+"pregunta_guia": "¿La afirmación habla de lo de una semana o de lo acumulado en todas?",
+"aprende": "Hay que sumar las 52 semanas: 1.000 + 2.000 + … + 52.000."
+},
+"C": {
+"error": "Suponer un ahorro constante",
+"porque": "Elegiste esta opción porque multiplicaste 52 semanas por $1.000, como si ahorrara siempre lo mismo.",
+"pregunta_guia": "¿Daniel ahorra $1.000 todas las semanas?",
+"aprende": "El ahorro aumenta $1.000 por semana: es una sucesión aritmética."
+},
+"D": {
+"error": "Multiplicar por el último término",
+"porque": "Elegiste esta opción porque supusiste que todas las semanas ahorra $52.000.",
+"pregunta_guia": "¿Qué valor representa mejor todas las semanas: el último o el promedio?",
+"aprende": "Sₙ = n × (primero + último) ÷ 2: se usa el promedio 26.500, no el último."
+}
+},
+"explicacion": "Paso 1: ahorros semanales: 1.000, 2.000, …, 52.000 (aritmética, d = 1.000). Paso 2: S₅₂ = 52 × (1.000 + 52.000) ÷ 2 = 52 × 26.500 = 1.378.000. Paso 3: equivale a 1.000 × (1 + 2 + … + 52) = 1.000 × 1.378. Paso 4: 1.378.000 > 1.000.000: la afirmación es válida.",
+"tip": "Ahorrar poco pero de forma creciente y constante produce grandes resultados.",
+"truco": "Gauss: suma = cantidad de términos × (primero + último) ÷ 2.",
+"estrategia_icfes": "En Argumentación el ICFES ofrece justificaciones con cálculos distintos. Descarta las que confunden un término con la suma y verifica la fórmula usada.",
+"temas": [
+"suma de sucesiones aritméticas",
+"argumentación",
+"hábitos de ahorro"
+],
+"gemela": {
+"enunciado": "Lucía ahorra $500 la primera semana y cada semana $500 más que la anterior. ¿Supera $100.000 en 20 semanas?",
+"opciones": {
+"A": "No, solo ahorra $10.000.",
+"B": "Sí, ahorra $105.000.",
+"C": "No, ahorra $52.500.",
+"D": "Sí, ahorra $200.000."
+},
+"correcta": "B",
+"explicacion": "Paso 1: último término: 500 × 20 = 10.000. Paso 2: S₂₀ = 20 × (500 + 10.000) ÷ 2 = 105.000 > 100.000."
+}
+},
+{
+"id": "P11-MAT-B029",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta la tasa de cambio promedio de una función en un intervalo a partir de una tabla de datos.",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): interpreto la noción de razón de cambio en situaciones de variación.",
+"afirmacion": "Calcula e interpreta la tasa de cambio promedio en un intervalo.",
+"evidencia": "Divide el cambio de la variable dependiente entre el cambio de la independiente en el intervalo pedido.",
+"contexto": "Una estación meteorológica de Cali registró la temperatura durante un día soleado.",
+"tabla": {
+"titulo": "Temperatura registrada",
+"cols": [
+"Hora",
+"Temperatura (°C)"
+],
+"filas": [
+[
+"6:00",
+"18"
+],
+[
+"9:00",
+"23"
+],
+[
+"12:00",
+"29"
+],
+[
+"15:00",
+"30"
+]
+]
+},
+"enunciado": "¿Cuál fue la tasa de cambio promedio de la temperatura entre las 6:00 y las 12:00?",
+"opciones": {
+"A": "Aproximadamente 1,8 °C por hora.",
+"B": "11 °C por hora.",
+"C": "2 °C por hora.",
+"D": "Aproximadamente 0,55 °C por hora."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "No dividir entre el tiempo",
+"porque": "Elegiste esta opción porque calculaste el cambio total de temperatura, pero no lo dividiste entre las horas.",
+"pregunta_guia": "¿En cuántas horas subió la temperatura 11 °C?",
+"aprende": "Tasa = 11 °C ÷ 6 h ≈ 1,8 °C/h."
+},
+"C": {
+"error": "Usar un subintervalo",
+"porque": "Elegiste esta opción porque calculaste la tasa entre 9:00 y 12:00 (6 °C ÷ 3 h).",
+"pregunta_guia": "¿El intervalo pedido empieza a las 6:00 o a las 9:00?",
+"aprende": "La tasa promedio usa los extremos del intervalo pedido: 6:00 y 12:00."
+},
+"D": {
+"error": "Invertir el cociente",
+"porque": "Elegiste esta opción porque dividiste el tiempo entre la temperatura (6 ÷ 11).",
+"pregunta_guia": "Las unidades «°C por hora», ¿qué cantidad ponen en el numerador?",
+"aprende": "Tasa = cambio en °C ÷ cambio en horas."
+}
+},
+"explicacion": "Paso 1: cambio de temperatura: 29 − 18 = 11 °C. Paso 2: cambio de tiempo: 12:00 − 6:00 = 6 h. Paso 3: tasa promedio = 11 ÷ 6 ≈ 1,83 °C por hora. Paso 4: en promedio la temperatura subió cerca de 1,8 °C cada hora.",
+"tip": "Las unidades de la respuesta te dicen qué dividir: °C por hora = °C ÷ horas.",
+"truco": "Tasa promedio = (f(b) − f(a)) ÷ (b − a).",
+"estrategia_icfes": "El ICFES pide tasas en intervalos específicos. Subraya los extremos del intervalo y usa solo esos dos datos.",
+"temas": [
+"tasa de cambio promedio",
+"lectura de tablas",
+"variación"
+],
+"gemela": {
+"enunciado": "Un municipio tenía 40.000 habitantes en 2010 y 52.000 en 2020. ¿Cuál fue la tasa de cambio promedio de la población?",
+"opciones": {
+"A": "12.000 habitantes por año.",
+"B": "1.200 habitantes por año.",
+"C": "120 habitantes por año.",
+"D": "5.200 habitantes por año."
+},
+"correcta": "B",
+"explicacion": "Paso 1: cambio: 12.000 habitantes. Paso 2: 12.000 ÷ 10 años = 1.200 por año."
+}
+},
+{
+"id": "P11-MAT-B030",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta la derivada como razón de cambio instantánea y la calcula en funciones polinómicas.",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): interpreto la noción de derivada como razón de cambio instantánea en contextos.",
+"afirmacion": "Calcula la razón de cambio instantánea de una función de posición.",
+"evidencia": "Deriva un polinomio y lo evalúa en un instante.",
+"contexto": "Un dron que toma fotografías de los Farallones de Cali se mueve en línea recta. Su posición, en metros, es s(t) = t³ − 6t² + 15t, donde t es el tiempo en segundos.",
+"enunciado": "¿Cuál es la velocidad del dron en t = 2 s?",
+"opciones": {
+"A": "14 m/s",
+"B": "7 m/s",
+"C": "3 m/s",
+"D": "−12 m/s"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir posición con velocidad",
+"porque": "Elegiste esta opción porque calculaste s(2), que es la posición, no la velocidad.",
+"pregunta_guia": "¿La velocidad es dónde está el dron o qué tan rápido cambia su posición?",
+"aprende": "La velocidad instantánea es la derivada: v(t) = s'(t)."
+},
+"B": {
+"error": "Usar la velocidad promedio",
+"porque": "Elegiste esta opción porque dividiste la posición s(2) = 14 m entre 2 s.",
+"pregunta_guia": "¿Te piden la velocidad en un instante o el promedio desde t = 0?",
+"aprende": "14 ÷ 2 = 7 m/s es la velocidad promedio entre 0 y 2 s; en el instante t = 2 se usa s'(2)."
+},
+"D": {
+"error": "Derivar mal el término lineal",
+"porque": "Elegiste esta opción porque probablemente derivaste 15t como 0.",
+"pregunta_guia": "¿Cuál es la derivada de 15t?",
+"aprende": "La derivada de 15t es 15; la derivada de una constante sola es 0."
+}
+},
+"explicacion": "Paso 1: v(t) = s'(t) = 3t² − 12t + 15. Paso 2: v(2) = 3(4) − 12(2) + 15 = 12 − 24 + 15 = 3. Paso 3: la velocidad del dron en t = 2 s es 3 m/s.",
+"tip": "Velocidad instantánea = derivada de la posición.",
+"truco": "Regla de la potencia: (tⁿ)' = n·tⁿ⁻¹; «el exponente baja y se resta uno».",
+"estrategia_icfes": "El ICFES diferencia tasa promedio de tasa instantánea. Si dice «en t =», deriva y evalúa; si dice «entre t = a y t = b», usa el cociente de diferencias.",
+"temas": [
+"derivada como razón de cambio",
+"velocidad instantánea",
+"funciones polinómicas"
+],
+"gemela": {
+"enunciado": "La posición de un carro es s(t) = 2t² + 3t (metros, t en segundos). ¿Cuál es su velocidad en t = 4 s?",
+"opciones": {
+"A": "44 m/s",
+"B": "11 m/s",
+"C": "19 m/s",
+"D": "16 m/s"
+},
+"correcta": "C",
+"explicacion": "Paso 1: v(t) = 4t + 3. Paso 2: v(4) = 16 + 3 = 19 m/s."
+}
+},
+{
+"id": "P11-MAT-B031",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): compara tasas de interés con distintas capitalizaciones usando modelos exponenciales.",
+"lineamiento": "Pensamiento variacional y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones exponenciales y justifico decisiones con ellas.",
+"afirmacion": "Justifica cuál de dos tasas de interés es más rentable al convertirlas a tasa efectiva anual.",
+"evidencia": "Calcula (1,01)¹² − 1 y lo compara con una tasa efectiva anual dada.",
+"contexto": "Para ahorrar durante un año, Isabela compara dos opciones. Cooperativa del Valle: 12 % nominal anual capitalizable mensualmente (1 % cada mes). Banco Pacífico: 12,5 % efectivo anual.",
+"enunciado": "¿Cuál opción da más rendimiento en un año y por qué?",
+"opciones": {
+"A": "El Banco Pacífico, porque 12,5 % es mayor que 12 %.",
+"B": "Las dos dan lo mismo, porque 1 % mensual durante 12 meses equivale a 12 % anual.",
+"C": "El Banco Pacífico, porque la capitalización mensual reduce el interés ganado.",
+"D": "La Cooperativa del Valle, porque al capitalizar cada mes la tasa efectiva anual es cerca de 12,68 %, mayor que 12,5 %."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Comparar tasa nominal con efectiva",
+"porque": "Elegiste esta opción porque comparaste los números 12 y 12,5 sin convertirlos al mismo tipo de tasa.",
+"pregunta_guia": "¿Cuánto crece $100 en un año si cada mes se multiplica por 1,01?",
+"aprende": "$100 × (1,01)¹² ≈ $112,68: la tasa efectiva es 12,68 %."
+},
+"B": {
+"error": "Tratar la capitalización mensual como interés simple",
+"porque": "Elegiste esta opción porque multiplicaste 1 % × 12 = 12 %.",
+"pregunta_guia": "En el mes 2, ¿el 1 % se calcula sobre $100 o sobre $101?",
+"aprende": "Al capitalizar, el interés gana interés: (1,01)¹² ≠ 1,12."
+},
+"C": {
+"error": "Creer que capitalizar más seguido reduce el rendimiento",
+"porque": "Elegiste esta opción porque probablemente pensaste que dividir la tasa en meses hace perder intereses.",
+"pregunta_guia": "¿Qué pasa con los intereses de enero en febrero si se capitalizan?",
+"aprende": "Capitalizar con más frecuencia aumenta la tasa efectiva, porque los intereses se reinvierten antes."
+}
+},
+"explicacion": "Paso 1: tasa efectiva de la cooperativa: (1 + 0,01)¹² − 1. Paso 2: (1,01)¹² ≈ 1,1268 → tasa efectiva ≈ 12,68 %. Paso 3: compara: 12,68 % > 12,5 %. Paso 4: la Cooperativa del Valle rinde más, porque al capitalizar cada mes los intereses también generan intereses.",
+"tip": "Para comparar tasas, conviértelas todas a efectiva anual (EA).",
+"truco": "EA = (1 + i mensual)¹² − 1.",
+"estrategia_icfes": "El ICFES pone opciones con «porque…». Primero calcula para saber cuál rinde más; luego elige la razón matemáticamente correcta, no la intuitiva.",
+"temas": [
+"tasa nominal y efectiva",
+"interés compuesto",
+"decisiones de ahorro"
+],
+"gemela": {
+"enunciado": "¿Qué rinde más en un año: 24 % nominal anual capitalizable mensualmente (2 % mensual) o 26 % efectivo anual?",
+"opciones": {
+"A": "26 % EA, porque es mayor que 24 %.",
+"B": "24 % capitalizable mensualmente, porque su tasa efectiva es cerca de 26,8 %.",
+"C": "Rinden lo mismo.",
+"D": "26 % EA, porque capitalizar cada mes reduce el interés."
+},
+"correcta": "B",
+"explicacion": "Paso 1: (1,02)¹² ≈ 1,2682. Paso 2: tasa efectiva ≈ 26,8 % > 26 %."
+}
+},
+{
+"id": "P11-MAT-B032",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): resuelve problemas con porcentajes sucesivos usando factores multiplicativos.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): resuelvo problemas y simplifico cálculos usando propiedades de los números reales.",
+"afirmacion": "Calcula el efecto de dos aumentos porcentuales consecutivos.",
+"evidencia": "Multiplica el valor inicial por 1,05 y luego por 1,06.",
+"contexto": "Una familia del barrio Ciudad Córdoba paga $800.000 de arriendo. El contrato establece que el arriendo sube 5 % al terminar el primer año y 6 % al terminar el segundo, siempre sobre el valor vigente.",
+"enunciado": "¿Cuál será el arriendo después de los dos aumentos?",
+"opciones": {
+"A": "$888.000",
+"B": "$890.400",
+"C": "$848.000",
+"D": "$90.400"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar porcentajes",
+"porque": "Elegiste esta opción porque sumaste 5 % + 6 % = 11 % y lo aplicaste al valor inicial.",
+"pregunta_guia": "El 6 % del segundo año, ¿se calcula sobre $800.000 o sobre $840.000?",
+"aprende": "Los aumentos sucesivos se multiplican: 1,05 × 1,06 = 1,113."
+},
+"C": {
+"error": "Aplicar solo un aumento",
+"porque": "Elegiste esta opción porque aplicaste solo el 6 %.",
+"pregunta_guia": "¿Cuántos aumentos hay en el contrato?",
+"aprende": "Hay que aplicar los dos factores: 1,05 y 1,06."
+},
+"D": {
+"error": "Dar el aumento en lugar del arriendo",
+"porque": "Elegiste esta opción porque calculaste cuánto subió, no cuánto se paga.",
+"pregunta_guia": "¿La pregunta pide el aumento o el nuevo arriendo?",
+"aprende": "Nuevo arriendo = 800.000 + 90.400 = 890.400."
+}
+},
+"explicacion": "Paso 1: primer año: 800.000 × 1,05 = 840.000. Paso 2: segundo año: 840.000 × 1,06 = 890.400. Paso 3: el arriendo queda en $890.400 (aumento total de 11,3 %).",
+"tip": "Un aumento de p % se aplica multiplicando por (1 + p/100).",
+"truco": "Aumentos en cadena: multiplica factores; nunca sumes porcentajes de bases diferentes.",
+"estrategia_icfes": "El ICFES ofrece el distractor de sumar porcentajes. Escribe los factores y multiplícalos en orden; revisa si piden el valor nuevo o el aumento.",
+"temas": [
+"porcentajes encadenados",
+"factor multiplicativo",
+"finanzas del hogar"
+],
+"gemela": {
+"enunciado": "Un salario de $1.200.000 sube 10 % y luego 4 % sobre el nuevo valor. ¿Cuál es el salario final?",
+"opciones": {
+"A": "$1.368.000",
+"B": "$1.248.000",
+"C": "$1.372.800",
+"D": "$172.800"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 1.200.000 × 1,10 = 1.320.000. Paso 2: 1.320.000 × 1,04 = $1.372.800."
+}
+},
+{
+"id": "P11-MAT-B033",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta escalas logarítmicas en fenómenos físicos usando las propiedades de los logaritmos.",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones logarítmicas.",
+"afirmacion": "Interpreta el efecto de un cambio multiplicativo en una magnitud medida en escala logarítmica.",
+"evidencia": "Usa log(100·x) = 2 + log x para traducir un factor en un aumento aditivo.",
+"contexto": "En una campaña sobre contaminación auditiva en Cali se explica que el nivel de un sonido, en decibeles (dB), es L = 10·log(I/I₀), donde I es la intensidad del sonido e I₀ es una intensidad de referencia constante.",
+"enunciado": "Si la intensidad de un sonido se multiplica por 100, ¿cómo cambia su nivel en decibeles?",
+"opciones": {
+"A": "Aumenta 20 dB.",
+"B": "Se multiplica por 100.",
+"C": "Aumenta 100 dB.",
+"D": "Se multiplica por 2."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Pensar que la escala es lineal",
+"porque": "Elegiste esta opción porque supusiste que L cambia en la misma proporción que I.",
+"pregunta_guia": "¿Cuánto vale log 100? ¿Y log 1?",
+"aprende": "El logaritmo convierte productos en sumas: log(100x) = log 100 + log x = 2 + log x."
+},
+"C": {
+"error": "Confundir el factor con el aumento",
+"porque": "Elegiste esta opción porque sumaste directamente el factor 100.",
+"pregunta_guia": "¿Qué se suma al multiplicar por 100 dentro de un logaritmo: 100 o log 100?",
+"aprende": "Se suma 10·log 100 = 10·2 = 20 dB."
+},
+"D": {
+"error": "Multiplicar en lugar de sumar",
+"porque": "Elegiste esta opción porque obtuviste log 100 = 2 y lo usaste como factor del nivel.",
+"pregunta_guia": "¿La propiedad es log(ab) = log a · log b o log a + log b?",
+"aprende": "log(ab) = log a + log b: el nivel aumenta en 20 dB, no se duplica."
+}
+},
+"explicacion": "Paso 1: nivel inicial: L₁ = 10·log(I/I₀). Paso 2: nuevo nivel: L₂ = 10·log(100I/I₀) = 10·[log 100 + log(I/I₀)]. Paso 3: L₂ = 10·2 + L₁ = L₁ + 20. Paso 4: el nivel aumenta 20 dB.",
+"tip": "En escalas logarítmicas, multiplicar la intensidad se traduce en sumar al nivel.",
+"truco": "Cada ×10 en intensidad suma 10 dB; ×100 suma 20 dB.",
+"estrategia_icfes": "El ICFES usa escalas logarítmicas (decibeles, pH, Richter) para evaluar propiedades. Aplica log(ab) = log a + log b y traduce el resultado al contexto.",
+"temas": [
+"función logarítmica",
+"propiedades de los logaritmos",
+"escala de decibeles"
+],
+"gemela": {
+"enunciado": "Si pH = −log[H⁺] y la concentración [H⁺] de una solución se multiplica por 10, ¿cómo cambia el pH?",
+"opciones": {
+"A": "Aumenta 1.",
+"B": "Disminuye 1.",
+"C": "Se multiplica por 10.",
+"D": "Disminuye 10."
+},
+"correcta": "B",
+"explicacion": "Paso 1: −log(10[H⁺]) = −1 − log[H⁺]. Paso 2: el pH disminuye 1 unidad."
+}
+},
+{
+"id": "P11-MAT-B034",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): compara gráficamente el crecimiento lineal y el exponencial en contextos de ahorro.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo en representaciones gráficas cartesianas los comportamientos de cambio de funciones lineales y exponenciales.",
+"afirmacion": "Interpreta gráficas que comparan crecimiento lineal y exponencial.",
+"evidencia": "Describe cómo cambian los aumentos anuales en cada serie de la gráfica.",
+"contexto": "Una cooperativa de Cali muestra a sus asociados dos planes de ahorro que inician con $100 mil. La gráfica presenta el saldo de cada plan durante 5 años.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Saldo de los planes de ahorro",
+"etiquetas": [
+"Año 0",
+"Año 1",
+"Año 2",
+"Año 3",
+"Año 4",
+"Año 5"
+],
+"series": [
+{
+"nombre": "Plan Lineal",
+"datos": [
+100,
+120,
+140,
+160,
+180,
+200
+]
+},
+{
+"nombre": "Plan Exponencial",
+"datos": [
+100,
+115,
+132.2,
+152.1,
+174.9,
+201.1
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿Cuál afirmación describe correctamente la gráfica?",
+"opciones": {
+"A": "El plan Lineal siempre tiene un saldo mayor que el plan Exponencial.",
+"B": "El plan Exponencial siempre tiene un saldo mayor que el plan Lineal.",
+"C": "El plan Lineal aumenta la misma cantidad cada año, mientras que el plan Exponencial aumenta cada vez más.",
+"D": "Los dos planes aumentan la misma cantidad cada año."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "No revisar el final de la gráfica",
+"porque": "Elegiste esta opción porque en los primeros años el plan Lineal está por encima.",
+"pregunta_guia": "En el año 5, ¿cuál saldo es mayor: 200 o 201,1?",
+"aprende": "En el año 5 el plan Exponencial ya supera al Lineal; «siempre» es falso."
+},
+"B": {
+"error": "Generalizar desde el final",
+"porque": "Elegiste esta opción porque al final el plan Exponencial queda arriba.",
+"pregunta_guia": "En el año 1, ¿cuál saldo es mayor: 120 o 115?",
+"aprende": "Durante los primeros 4 años el plan Lineal tiene más saldo."
+},
+"D": {
+"error": "Suponer que todas las variaciones son iguales",
+"porque": "Elegiste esta opción porque las dos curvas suben y parecen parecidas.",
+"pregunta_guia": "¿Cuánto aumenta el plan Exponencial del año 0 al 1 y del año 4 al 5?",
+"aprende": "El exponencial aumenta 15 y luego 26,2: cada vez más, porque gana 15 % del saldo actual."
+}
+},
+"explicacion": "Paso 1: plan Lineal: aumentos de 20 cada año (100, 120, 140…). Paso 2: plan Exponencial: aumentos de 15; 17,2; 19,9; 22,8; 26,2 (crecen). Paso 3: el Lineal suma una cantidad fija y el Exponencial multiplica por 1,15. Paso 4: por eso la opción C es la correcta; A y B fallan porque las curvas se cruzan entre los años 4 y 5.",
+"tip": "Una curva que se vuelve cada vez más empinada indica crecimiento exponencial.",
+"truco": "Lineal = recta (suma fija). Exponencial = curva que «despega» (porcentaje fijo).",
+"estrategia_icfes": "Desconfía de las opciones con «siempre» en gráficas con dos series: busca si las líneas se cruzan.",
+"temas": [
+"crecimiento lineal y exponencial",
+"lectura de gráficas",
+"ahorro"
+],
+"gemela": {
+"enunciado": "El plan A tiene saldos 50, 60, 70, 80 y el plan B, 50, 60, 72, 86,4. ¿Qué plan crece por un porcentaje constante?",
+"opciones": {
+"A": "El plan A, porque suma 10 cada vez.",
+"B": "El plan B, porque multiplica por 1,2 cada vez.",
+"C": "Los dos planes, porque empiezan igual.",
+"D": "El plan A, porque multiplica por 1,2 cada vez."
+},
+"correcta": "B",
+"explicacion": "Paso 1: B: 60/50 = 72/60 = 86,4/72 = 1,2. Paso 2: crece 20 % constante; A suma 10 (lineal)."
+}
+},
+{
+"id": "P11-MAT-B035",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica propiedades de las funciones cuadráticas (vértice, concavidad, raíces) a partir de su expresión algebraica.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): uso argumentos algebraicos para justificar propiedades de funciones polinómicas.",
+"afirmacion": "Elige la justificación correcta de una propiedad de una función cuadrática.",
+"evidencia": "Relaciona el signo de a y la fórmula del vértice con la existencia de un mínimo.",
+"contexto": "Pedro afirma que la función f(x) = x² − 4x + 3 alcanza su valor mínimo cuando x = 2.",
+"enunciado": "¿Cuál de las siguientes razones justifica correctamente la afirmación de Pedro?",
+"opciones": {
+"A": "El vértice está en x = −b/(2a) = 4/2 = 2 y la parábola abre hacia arriba porque a = 1 > 0.",
+"B": "f(2) = 0, y el valor mínimo de una parábola siempre es cero.",
+"C": "Las raíces de la función son 2 y 3, y el mínimo está en la raíz menor.",
+"D": "La parábola abre hacia abajo y su vértice está en x = 2."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Evaluar mal y suponer mínimo cero",
+"porque": "Elegiste esta opción porque probablemente creíste que el mínimo de una parábola es donde corta el eje x.",
+"pregunta_guia": "¿Cuánto da f(2) = 4 − 8 + 3?",
+"aprende": "f(2) = −1. El mínimo es el vértice, que puede estar por debajo del eje x."
+},
+"C": {
+"error": "Calcular mal las raíces",
+"porque": "Elegiste esta opción porque probablemente factorizaste mal la expresión.",
+"pregunta_guia": "¿(x − 2)(x − 3) da x² − 4x + 3?",
+"aprende": "x² − 4x + 3 = (x − 1)(x − 3): raíces 1 y 3; el vértice está en la mitad, x = 2."
+},
+"D": {
+"error": "Confundir la concavidad",
+"porque": "Elegiste esta opción porque ubicaste bien el vértice pero no revisaste el signo de a.",
+"pregunta_guia": "Si una parábola abre hacia abajo, ¿su vértice es máximo o mínimo?",
+"aprende": "Con a > 0 abre hacia arriba y el vértice es mínimo; con a < 0 sería máximo."
+}
+},
+"explicacion": "Paso 1: a = 1, b = −4, c = 3. Paso 2: x del vértice = −(−4)/(2·1) = 2. Paso 3: como a = 1 > 0, la parábola abre hacia arriba y el vértice es un mínimo. Paso 4: el mínimo es f(2) = 4 − 8 + 3 = −1, en x = 2. La justificación A es la correcta.",
+"tip": "El signo de a decide si el vértice es máximo o mínimo.",
+"truco": "a > 0: «sonrisa» (mínimo); a < 0: «tristeza» (máximo).",
+"estrategia_icfes": "En Argumentación con funciones, cada opción mezcla un cálculo y una propiedad. Verifica ambos: un cálculo correcto con una propiedad falsa sigue siendo incorrecto.",
+"temas": [
+"función cuadrática",
+"vértice y concavidad",
+"argumentación"
+],
+"gemela": {
+"enunciado": "¿Qué afirmación es correcta sobre g(x) = −x² + 6x − 5?",
+"opciones": {
+"A": "Tiene un mínimo en x = 3, porque abre hacia arriba.",
+"B": "Tiene un máximo en x = 3, porque a < 0 y −b/(2a) = 3.",
+"C": "Tiene un máximo en x = −3.",
+"D": "Tiene un máximo en x = 5, porque es una raíz."
+},
+"correcta": "B",
+"explicacion": "Paso 1: a = −1 < 0: abre hacia abajo. Paso 2: x = −6/(−2) = 3: máximo g(3) = 4."
+}
+},
+{
+"id": "P11-MAT-B036",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): despeja variables en fórmulas de interés simple para resolver problemas financieros.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): construyo expresiones algebraicas equivalentes a una expresión dada y despejo variables.",
+"afirmacion": "Despeja la tasa de interés en la fórmula de interés simple.",
+"evidencia": "Calcula I = M − C y luego i = I/(C·n).",
+"contexto": "Esteban prestó $4.000.000 a un familiar con interés simple. Después de 6 meses recibió en total $4.360.000.",
+"enunciado": "¿Cuál fue la tasa de interés simple mensual del préstamo?",
+"opciones": {
+"A": "9 % mensual",
+"B": "0,15 % mensual",
+"C": "1,38 % mensual",
+"D": "1,5 % mensual"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "No dividir entre el número de meses",
+"porque": "Elegiste esta opción porque calculaste la tasa total de los 6 meses (360.000 ÷ 4.000.000).",
+"pregunta_guia": "¿9 % corresponde a un mes o a los 6 meses juntos?",
+"aprende": "9 % ÷ 6 meses = 1,5 % mensual."
+},
+"B": {
+"error": "Error al convertir decimal a porcentaje",
+"porque": "Elegiste esta opción porque obtuviste 0,015 y no lo multiplicaste por 100.",
+"pregunta_guia": "¿0,015 a cuánto porcentaje equivale?",
+"aprende": "0,015 × 100 = 1,5 %."
+},
+"C": {
+"error": "Usar el monto en lugar del capital",
+"porque": "Elegiste esta opción porque dividiste el interés entre 4.360.000 en vez de 4.000.000.",
+"pregunta_guia": "¿Sobre qué valor se calcula el interés simple: lo prestado o lo devuelto?",
+"aprende": "El interés simple se calcula sobre el capital inicial: 4.000.000."
+}
+},
+"explicacion": "Paso 1: interés ganado: I = 4.360.000 − 4.000.000 = 360.000. Paso 2: I = C·i·n → 360.000 = 4.000.000 · i · 6. Paso 3: i = 360.000 ÷ 24.000.000 = 0,015. Paso 4: i = 1,5 % mensual. Comprobación: 4.000.000 × 0,015 × 6 = 360.000 ✓.",
+"tip": "Antes de despejar, separa el interés del monto total.",
+"truco": "i = I ÷ (C × n): «interés entre capital por tiempo».",
+"estrategia_icfes": "El ICFES pide despejar la variable desconocida de una fórmula conocida. Escribe la fórmula, reemplaza lo que sabes y despeja; cuida la conversión decimal-porcentaje.",
+"temas": [
+"interés simple",
+"despeje de fórmulas",
+"tasa de interés"
+],
+"gemela": {
+"enunciado": "Un préstamo de $2.000.000 se convirtió en $2.240.000 en 4 meses con interés simple. ¿Cuál fue la tasa mensual?",
+"opciones": {
+"A": "12 %",
+"B": "3 %",
+"C": "0,3 %",
+"D": "2,68 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: I = 240.000. Paso 2: i = 240.000 ÷ (2.000.000 × 4) = 0,03 = 3 % mensual."
+}
+},
+{
+"id": "P11-MAT-B037",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): argumenta decisiones de compra comparando el costo total de pagos de contado y a crédito.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): justifico decisiones a partir de cálculos con porcentajes y números reales en contextos.",
+"afirmacion": "Refuta una afirmación sobre el costo de un crédito con un argumento cuantitativo.",
+"evidencia": "Calcula el total pagado a crédito y lo compara con el precio de contado con descuento.",
+"contexto": "Para comprar una nevera con precio de lista de $2.400.000, un almacén ofrece dos opciones. Opción 1: pago de contado con 10 % de descuento. Opción 2: 12 cuotas mensuales de $230.000, sin cuota inicial. Natalia dice que la opción 2 «no cobra intereses porque las cuotas son pequeñas».",
+"enunciado": "¿Cuál argumento refuta correctamente la afirmación de Natalia?",
+"opciones": {
+"A": "Con la opción 2 se pagan $2.760.000, solo $360.000 más que el precio de lista, lo que equivale a no cobrar intereses.",
+"B": "Con la opción 2 se pagan $2.760.000, es decir, $600.000 más que el precio de contado de $2.160.000; esa diferencia es el costo financiero.",
+"C": "Con la opción 2 se pagan $230.000 × 10 = $2.300.000, menos que el precio de lista.",
+"D": "Con la opción 1 se pagan solo $240.000 menos, así que las dos opciones cuestan casi lo mismo."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Minimizar el sobrecosto",
+"porque": "Elegiste esta opción porque calculaste bien el total, pero consideraste que pagar más no implica intereses.",
+"pregunta_guia": "Si pagas más de lo que cuesta el producto, ¿qué es esa diferencia?",
+"aprende": "Todo lo que se paga por encima del precio de contado es costo financiero (intereses)."
+},
+"C": {
+"error": "Contar mal las cuotas",
+"porque": "Elegiste esta opción porque multiplicaste por 10 cuotas en lugar de 12.",
+"pregunta_guia": "¿Cuántas cuotas ofrece la opción 2?",
+"aprende": "12 × 230.000 = 2.760.000."
+},
+"D": {
+"error": "Comparar con el valor equivocado",
+"porque": "Elegiste esta opción porque calculaste el descuento (240.000) pero no lo comparaste con el total a crédito.",
+"pregunta_guia": "¿Cuánto se paga en total con la opción 2? ¿Cuál es la diferencia con la opción 1?",
+"aprende": "Contado: 2.160.000; crédito: 2.760.000; diferencia: 600.000."
+}
+},
+"explicacion": "Paso 1: contado: 2.400.000 × 0,90 = 2.160.000. Paso 2: crédito: 12 × 230.000 = 2.760.000. Paso 3: diferencia: 2.760.000 − 2.160.000 = 600.000. Paso 4: ese sobrecosto equivale a casi 28 % sobre el valor de contado; por tanto la opción 2 sí cobra intereses, aunque las cuotas parezcan pequeñas.",
+"tip": "Antes de comprar a cuotas, multiplica cuota × número de cuotas y compáralo con el precio de contado.",
+"truco": "Costo del crédito = (cuota × n) − precio de contado.",
+"estrategia_icfes": "En contextos financieros el ICFES evalúa si el estudiante compara el valor correcto. Identifica la referencia (precio de contado) y calcula totales completos.",
+"temas": [
+"créditos y cuotas",
+"costo financiero",
+"consumo responsable"
+],
+"gemela": {
+"enunciado": "Un celular de $1.000.000 se ofrece de contado con 5 % de descuento o en 6 cuotas de $190.000. ¿Cuánto más se paga a cuotas que de contado?",
+"opciones": {
+"A": "$140.000",
+"B": "$190.000",
+"C": "$50.000",
+"D": "$0"
+},
+"correcta": "B",
+"explicacion": "Paso 1: contado: 950.000. Paso 2: cuotas: 6 × 190.000 = 1.140.000. Paso 3: diferencia: $190.000."
+}
+},
+{
+"id": "P11-MAT-B038",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): resuelve ecuaciones e inecuaciones exponenciales en contextos financieros usando tablas o logaritmos.",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones exponenciales y logarítmicas.",
+"afirmacion": "Determina el tiempo necesario para que una inversión a interés compuesto supere un valor.",
+"evidencia": "Resuelve (1,1)ⁿ > 2 por logaritmos o por tanteo y redondea al entero adecuado.",
+"contexto": "Un fondo de ahorro paga 10 % efectivo anual con capitalización anual. Daniel deposita $1.000.000 y no hace retiros.",
+"enunciado": "¿Después de cuántos años completos el saldo supera por primera vez $2.000.000?",
+"opciones": {
+"A": "8 años",
+"B": "10 años",
+"C": "7 años",
+"D": "20 años"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar interés simple",
+"porque": "Elegiste esta opción porque pensaste que 10 % por año durante 10 años da 100 %.",
+"pregunta_guia": "¿Cuánto vale (1,1)⁸? ¿Ya supera 2?",
+"aprende": "Con interés compuesto se duplica antes: (1,1)⁸ ≈ 2,14."
+},
+"C": {
+"error": "Redondear hacia abajo",
+"porque": "Elegiste esta opción porque obtuviste n ≈ 7,27 y tomaste el entero menor.",
+"pregunta_guia": "¿Cuánto vale (1,1)⁷? ¿Supera 2?",
+"aprende": "(1,1)⁷ ≈ 1,95 < 2; para «superar» se necesita el siguiente entero: 8."
+},
+"D": {
+"error": "Dividir sin sentido",
+"porque": "Elegiste esta opción porque probablemente dividiste 2 entre 0,1.",
+"pregunta_guia": "¿Qué representa 2 ÷ 0,1 en este problema?",
+"aprende": "El tiempo se halla resolviendo (1,1)ⁿ = 2 con logaritmos: n = log 2 ÷ log 1,1."
+}
+},
+"explicacion": "Paso 1: condición: 1.000.000·(1,1)ⁿ > 2.000.000 → (1,1)ⁿ > 2. Paso 2: n > log 2 ÷ log 1,1 ≈ 0,3010 ÷ 0,0414 ≈ 7,27. Paso 3: comprobación: (1,1)⁷ ≈ 1,949 (no supera) y (1,1)⁸ ≈ 2,144 (supera). Paso 4: se necesitan 8 años completos.",
+"tip": "Cuando la pregunta dice «años completos» y «supera», redondea hacia arriba y comprueba.",
+"truco": "Regla del 72: tiempo para duplicar ≈ 72 ÷ tasa (72 ÷ 10 ≈ 7,2 años).",
+"estrategia_icfes": "El ICFES pide tiempos en ecuaciones exponenciales. Resuelve con logaritmos y comprueba los enteros vecinos; la pregunta define si redondeas arriba o abajo.",
+"temas": [
+"interés compuesto",
+"ecuaciones exponenciales",
+"logaritmos"
+],
+"gemela": {
+"enunciado": "Con una tasa de 20 % efectivo anual, ¿cuántos años completos se necesitan para que una inversión se duplique?",
+"opciones": {
+"A": "5 años",
+"B": "3 años",
+"C": "4 años",
+"D": "10 años"
+},
+"correcta": "C",
+"explicacion": "Paso 1: (1,2)³ = 1,728 < 2. Paso 2: (1,2)⁴ = 2,0736 ≥ 2. Paso 3: 4 años."
+}
+},
+{
+"id": "P11-MAT-B039",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): representa algebraicamente funciones definidas a trozos que modelan tarifas.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones entre representaciones verbales, tabulares y algebraicas de funciones.",
+"afirmacion": "Traduce una tarifa escalonada a una expresión algebraica.",
+"evidencia": "Identifica el costo fijo del primer tramo y el costo variable del excedente.",
+"contexto": "Una empresa de energía de una ciudad del Valle del Cauca cobra a los hogares con la siguiente tarifa.",
+"tabla": {
+"titulo": "Tarifa de energía",
+"cols": [
+"Consumo mensual",
+"Valor"
+],
+"filas": [
+[
+"Primeros 130 kWh",
+"$600 por kWh"
+],
+[
+"Cada kWh por encima de 130",
+"$900 por kWh"
+]
+]
+},
+"enunciado": "¿Qué expresión da el costo C de un consumo de x kWh cuando x es mayor que 130?",
+"opciones": {
+"A": "C(x) = 900x",
+"B": "C(x) = 600x + 900x",
+"C": "C(x) = 600·130 + 900x",
+"D": "C(x) = 78.000 + 900(x − 130)"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Aplicar la tarifa alta a todo el consumo",
+"porque": "Elegiste esta opción porque cobraste $900 por todos los kWh.",
+"pregunta_guia": "¿Los primeros 130 kWh se cobran a $600 o a $900?",
+"aprende": "Solo el excedente (x − 130) se cobra a $900."
+},
+"B": {
+"error": "Cobrar dos veces el consumo",
+"porque": "Elegiste esta opción porque sumaste las dos tarifas aplicadas a todo el consumo.",
+"pregunta_guia": "Si x = 200, ¿estarías cobrando 200 kWh dos veces?",
+"aprende": "Cada kWh se cobra una sola vez, con la tarifa de su tramo."
+},
+"C": {
+"error": "No restar el primer tramo del excedente",
+"porque": "Elegiste esta opción porque calculaste bien el primer tramo pero cobraste todos los x kWh a $900.",
+"pregunta_guia": "¿Cuántos kWh están por encima de 130?",
+"aprende": "El excedente es x − 130, no x."
+}
+},
+"explicacion": "Paso 1: primer tramo: 130 kWh × 600 = 78.000. Paso 2: excedente: (x − 130) kWh × 900. Paso 3: C(x) = 78.000 + 900(x − 130) para x > 130. Paso 4: comprobación con x = 200: 78.000 + 900·70 = 78.000 + 63.000 = 141.000.",
+"tip": "En tarifas por tramos, cada unidad se cobra con el precio de su tramo.",
+"truco": "Costo = «tramo lleno» + tarifa × «lo que sobra».",
+"estrategia_icfes": "El ICFES usa facturas de servicios públicos para evaluar funciones a trozos. Prueba cada opción con un valor concreto (por ejemplo, 200 kWh) y compara con el cálculo directo.",
+"temas": [
+"funciones a trozos",
+"tarifas escalonadas",
+"servicios públicos"
+],
+"gemela": {
+"enunciado": "Un parqueadero cobra $3.000 la primera hora y $2.000 cada hora adicional. ¿Qué expresión da el costo de h horas (h ≥ 1)?",
+"opciones": {
+"A": "C(h) = 3.000h",
+"B": "C(h) = 3.000 + 2.000h",
+"C": "C(h) = 3.000 + 2.000(h − 1)",
+"D": "C(h) = 2.000h"
+},
+"correcta": "C",
+"explicacion": "Paso 1: primera hora: 3.000. Paso 2: horas adicionales: h − 1, a 2.000 cada una. Paso 3: C(h) = 3.000 + 2.000(h − 1)."
+}
+},
+{
+"id": "P11-MAT-B040",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica si una relación entre variables es lineal a partir de su razón de cambio.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico relaciones entre propiedades de las gráficas y propiedades de las ecuaciones algebraicas.",
+"afirmacion": "Justifica que una relación es lineal mediante la razón de cambio constante.",
+"evidencia": "Verifica que los incrementos de y son constantes para incrementos iguales de x.",
+"contexto": "Lina registró en una tabla dos variables de un experimento de clase.",
+"tabla": {
+"titulo": "Datos del experimento",
+"cols": [
+"x",
+"y"
+],
+"filas": [
+[
+"1",
+"7"
+],
+[
+"2",
+"10"
+],
+[
+"3",
+"13"
+],
+[
+"4",
+"16"
+]
+]
+},
+"enunciado": "Lina afirma que los datos corresponden a una función lineal. ¿Qué argumento es válido?",
+"opciones": {
+"A": "Sí, porque y siempre aumenta cuando x aumenta.",
+"B": "No, porque los valores de y no son múltiplos de x.",
+"C": "Sí, porque cada vez que x aumenta 1, y aumenta 3; la razón de cambio es constante.",
+"D": "No, porque la recta no pasa por el origen."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir creciente con lineal",
+"porque": "Elegiste esta opción porque notaste que y aumenta, pero eso también ocurre en funciones no lineales.",
+"pregunta_guia": "Los valores 2, 4, 8, 16 también aumentan: ¿son lineales?",
+"aprende": "Lineal significa que los aumentos son iguales, no solo que hay aumento."
+},
+"B": {
+"error": "Confundir lineal con proporcional",
+"porque": "Elegiste esta opción porque pensaste que una función lineal debe ser de la forma y = kx.",
+"pregunta_guia": "¿y = 3x + 4 es una función lineal?",
+"aprende": "y = mx + b es lineal aunque b ≠ 0; la proporcional es solo el caso b = 0."
+},
+"D": {
+"error": "Exigir que pase por el origen",
+"porque": "Elegiste esta opción porque creíste que toda recta debe pasar por (0, 0).",
+"pregunta_guia": "¿Dónde corta el eje y la recta y = 3x + 4?",
+"aprende": "Una recta puede cortar el eje y en cualquier punto (aquí en 4)."
+}
+},
+"explicacion": "Paso 1: diferencias de y: 10 − 7 = 3; 13 − 10 = 3; 16 − 13 = 3. Paso 2: x aumenta de 1 en 1, así que la razón de cambio es 3 en todos los tramos. Paso 3: una razón de cambio constante caracteriza a una función lineal: y = 3x + 4. Paso 4: comprobación: 3(1) + 4 = 7 ✓, 3(4) + 4 = 16 ✓.",
+"tip": "Para probar linealidad, calcula todos los cambios, no solo uno.",
+"truco": "Lineal ⇔ «mismos saltos» en y para «mismos saltos» en x.",
+"estrategia_icfes": "El ICFES evalúa si el estudiante distingue lineal de proporcional y de creciente. Elige la justificación que usa la propiedad definitoria (razón de cambio constante).",
+"temas": [
+"función lineal",
+"razón de cambio constante",
+"proporcionalidad"
+],
+"gemela": {
+"enunciado": "Una tabla muestra x = 0, 1, 2, 3 y y = 2, 4, 8, 16. ¿Es una relación lineal?",
+"opciones": {
+"A": "Sí, porque y siempre aumenta.",
+"B": "Sí, porque empieza en 2.",
+"C": "No, porque los aumentos 2, 4, 8 no son constantes; y se duplica.",
+"D": "No, porque no pasa por el origen."
+},
+"correcta": "C",
+"explicacion": "Paso 1: diferencias: 2, 4, 8 (no constantes). Paso 2: cocientes iguales a 2: es exponencial, no lineal."
+}
+},
+{
+"id": "P11-MAT-B041",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): reconoce en tablas el tipo de interés (simple o compuesto) a partir del patrón de variación.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo representaciones tabulares de situaciones de variación lineal y exponencial.",
+"afirmacion": "Identifica el tipo de interés y su tasa a partir de una tabla de saldos.",
+"evidencia": "Reconoce aumentos constantes como interés simple y calcula la tasa sobre el capital.",
+"contexto": "Martín revisa en su aplicación bancaria el saldo de un ahorro programado durante los primeros meses.",
+"tabla": {
+"titulo": "Saldo del ahorro (miles de pesos)",
+"cols": [
+"Mes",
+"Saldo"
+],
+"filas": [
+[
+"0",
+"500"
+],
+[
+"1",
+"510"
+],
+[
+"2",
+"520"
+],
+[
+"3",
+"530"
+],
+[
+"4",
+"540"
+]
+]
+},
+"enunciado": "¿Qué tipo de interés y qué tasa mensual representa la tabla?",
+"opciones": {
+"A": "Interés compuesto, 2 % mensual.",
+"B": "Interés simple, 2 % mensual.",
+"C": "Interés simple, 10 % mensual.",
+"D": "Interés compuesto, 10 % mensual."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir simple con compuesto",
+"porque": "Elegiste esta opción porque calculaste bien la tasa, pero no revisaste si el interés crece.",
+"pregunta_guia": "¿El aumento de cada mes es siempre 10 o va creciendo?",
+"aprende": "Si el aumento es siempre igual, el interés es simple; en compuesto aumentaría cada mes."
+},
+"C": {
+"error": "Confundir el aumento con la tasa",
+"porque": "Elegiste esta opción porque tomaste los 10 mil de aumento como si fueran 10 %.",
+"pregunta_guia": "¿10 mil es qué porcentaje de 500 mil?",
+"aprende": "10 ÷ 500 = 0,02 = 2 %."
+},
+"D": {
+"error": "Doble error: tipo y tasa",
+"porque": "Elegiste esta opción porque tomaste el aumento como porcentaje y supusiste interés compuesto.",
+"pregunta_guia": "Si fuera 10 % compuesto, ¿cuánto habría en el mes 1?",
+"aprende": "Con 10 % habría 550 en el mes 1; la tabla muestra 510."
+}
+},
+"explicacion": "Paso 1: aumentos mensuales: 10, 10, 10, 10 (constantes) → interés simple. Paso 2: tasa = 10 ÷ 500 = 0,02 = 2 % mensual sobre el capital inicial. Paso 3: modelo: S(n) = 500 + 500·0,02·n.",
+"tip": "Interés simple: la tabla sube «de a lo mismo». Compuesto: cada vez sube un poco más.",
+"truco": "Tasa = aumento ÷ capital inicial.",
+"estrategia_icfes": "El ICFES presenta tablas financieras para identificar el modelo. Calcula diferencias (simple) y cocientes (compuesto) y luego la tasa.",
+"temas": [
+"interés simple",
+"interés compuesto",
+"lectura de tablas"
+],
+"gemela": {
+"enunciado": "Una tabla muestra saldos de 1.000; 1.050; 1.102,50 y 1.157,63. ¿Qué tipo de interés y tasa representa?",
+"opciones": {
+"A": "Simple, 5 %.",
+"B": "Simple, 50 %.",
+"C": "Compuesto, 5 %.",
+"D": "Compuesto, 50 %."
+},
+"correcta": "C",
+"explicacion": "Paso 1: cocientes: 1.050/1.000 = 1.102,50/1.050 = 1,05. Paso 2: aumentos crecientes con factor 1,05: compuesto al 5 %."
+}
+},
+{
+"id": "P11-MAT-B042",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 11° (MEN 2016): utiliza las propiedades de orden de los números reales para justificar procedimientos de solución de inecuaciones.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): utilizo las propiedades de orden de los números reales para resolver inecuaciones.",
+"afirmacion": "Evalúa la validez de un procedimiento para resolver una inecuación lineal.",
+"evidencia": "Identifica que al dividir entre un número negativo se invierte el sentido de la desigualdad.",
+"contexto": "Al resolver la inecuación −3x + 6 > 12, Julián escribió: −3x > 6, por lo tanto x > −2.",
+"enunciado": "¿Cuál afirmación sobre la solución de Julián es correcta?",
+"opciones": {
+"A": "Es incorrecta, porque al dividir entre −3 debía invertir el sentido de la desigualdad: x < −2.",
+"B": "Es correcta, porque al dividir 6 entre −3 se obtiene −2 y el sentido se conserva.",
+"C": "Es incorrecta, porque la solución es x > 2.",
+"D": "Es incorrecta, porque la solución es x < 6."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "No invertir la desigualdad",
+"porque": "Elegiste esta opción porque aplicaste la regla de las ecuaciones a una inecuación.",
+"pregunta_guia": "Prueba x = 0: ¿cumple −3(0) + 6 > 12?",
+"aprende": "x = 0 cumple x > −2 pero no la inecuación; al dividir entre negativo el sentido se invierte."
+},
+"C": {
+"error": "Error de signo al dividir",
+"porque": "Elegiste esta opción porque dividiste 6 entre 3 en lugar de entre −3.",
+"pregunta_guia": "¿Cuánto es 6 ÷ (−3)?",
+"aprende": "6 ÷ (−3) = −2; además el sentido se invierte: x < −2."
+},
+"D": {
+"error": "No completar el despeje",
+"porque": "Elegiste esta opción porque te quedaste con el 6 del lado derecho sin dividir entre −3.",
+"pregunta_guia": "Después de −3x > 6, ¿qué falta para despejar x?",
+"aprende": "Falta dividir entre −3 e invertir: x < −2."
+}
+},
+"explicacion": "Paso 1: −3x + 6 > 12 → −3x > 6 (restando 6, correcto). Paso 2: al dividir entre −3, el sentido se invierte: x < −2. Paso 3: comprobación con x = −3: −3(−3) + 6 = 15 > 12 ✓; con x = 0: 6 > 12 ✗. Paso 4: Julián se equivocó al no invertir el sentido.",
+"tip": "Comprueba la solución de una inecuación con un valor de prueba.",
+"truco": "Dividir o multiplicar por negativo «voltea» el signo: > se vuelve <.",
+"estrategia_icfes": "El ICFES presenta procedimientos con errores típicos. Prueba un número de la solución propuesta en la inecuación original: si no la cumple, hay un error.",
+"temas": [
+"inecuaciones lineales",
+"propiedades de orden",
+"/detectaerror"
+],
+"gemela": {
+"enunciado": "¿Cuál es la solución de −2x − 4 ≤ 10?",
+"opciones": {
+"A": "x ≤ −7",
+"B": "x ≥ −7",
+"C": "x ≥ 7",
+"D": "x ≤ 3"
+},
+"correcta": "B",
+"explicacion": "Paso 1: −2x ≤ 14. Paso 2: dividir entre −2 e invertir: x ≥ −7."
+}
+},
+{
+"id": "P11-MAT-B043",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 11° (MEN 2016): compara modelos lineales y exponenciales y argumenta sobre su comportamiento a largo plazo.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones de variación con funciones y comparo su crecimiento.",
+"afirmacion": "Refuta una afirmación sobre la comparación entre crecimiento lineal y exponencial.",
+"evidencia": "Calcula valores de ambos modelos y explica por qué el exponencial termina superando al lineal.",
+"contexto": "Una aplicación educativa creada en Cali tiene hoy 1.000 usuarios. El equipo analiza dos escenarios: Modelo A: gana 300 usuarios por mes. Modelo B: crece 20 % mensual respecto al mes anterior. Valeria afirma: «El modelo A siempre tendrá más usuarios, porque 300 es más que el 20 % de 1.000, que es 200».",
+"enunciado": "¿Por qué la afirmación de Valeria es incorrecta?",
+"opciones": {
+"A": "Porque el modelo B supera al A desde el primer mes, pues 20 % es mayor que 300 usuarios.",
+"B": "Porque los dos modelos crecen igual, ya que ambos suman una cantidad fija cada mes.",
+"C": "Porque el modelo A deja de crecer después de algunos meses.",
+"D": "Porque en el modelo B el aumento es el 20 % del valor actual, que crece cada mes; desde el mes 6 el modelo B supera al A."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "No calcular los primeros meses",
+"porque": "Elegiste esta opción porque supusiste que el crecimiento porcentual gana de inmediato.",
+"pregunta_guia": "En el mes 1, ¿cuántos usuarios hay en A y en B?",
+"aprende": "Mes 1: A = 1.300 y B = 1.200; el exponencial empieza más lento."
+},
+"B": {
+"error": "Confundir porcentaje constante con cantidad constante",
+"porque": "Elegiste esta opción porque pensaste que 20 % siempre equivale a 200 usuarios.",
+"pregunta_guia": "En el mes 2, ¿el 20 % se calcula sobre 1.000 o sobre 1.200?",
+"aprende": "El 20 % se calcula sobre el valor actual: 200, 240, 288… los aumentos crecen."
+},
+"C": {
+"error": "Inventar una condición",
+"porque": "Elegiste esta opción porque supusiste que el crecimiento lineal se detiene.",
+"pregunta_guia": "¿El modelo A dice que deja de sumar 300 en algún momento?",
+"aprende": "El modelo A crece siempre 300; aun así el exponencial lo alcanza y lo supera."
+}
+},
+"explicacion": "Paso 1: A(n) = 1.000 + 300n; B(n) = 1.000·(1,2)ⁿ. Paso 2: mes 5: A = 2.500, B ≈ 2.488 (A aún gana). Paso 3: mes 6: A = 2.800, B ≈ 2.986 (B supera). Paso 4: el aumento de B es 20 % del valor actual, que crece cada mes; por eso, a largo plazo, el exponencial supera a cualquier crecimiento lineal.",
+"tip": "Lo que crece por porcentaje empieza lento, pero termina ganando.",
+"truco": "Lineal suma; exponencial multiplica: a la larga, multiplicar gana.",
+"estrategia_icfes": "El ICFES evalúa la comprensión del crecimiento exponencial con afirmaciones engañosas. Calcula varios periodos en una tabla rápida y elige la justificación que explica el mecanismo.",
+"temas": [
+"crecimiento lineal vs. exponencial",
+"modelación",
+"argumentación"
+],
+"gemela": {
+"enunciado": "El modelo A da 500 + 100n usuarios y el modelo B da 500·(1,25)ⁿ. ¿Desde qué mes B supera a A?",
+"opciones": {
+"A": "Desde el mes 1.",
+"B": "Desde el mes 5.",
+"C": "Nunca lo supera.",
+"D": "Desde el mes 4."
+},
+"correcta": "A",
+"explicacion": "Paso 1: mes 1: A = 600 y B = 625. Paso 2: B ya supera a A desde el mes 1."
+}
+},
+{
+"id": "P11-MAT-B044",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta la intersección de dos funciones lineales como solución de un sistema en contextos económicos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para solucionar sistemas de ecuaciones lineales, incluido el gráfico.",
+"afirmacion": "Interpreta el punto de corte de dos gráficas en un contexto de costos e ingresos.",
+"evidencia": "Reconoce el punto de equilibrio como el valor donde ingreso = costo.",
+"contexto": "Una panadería de Cali analiza la producción de pandebonos. La gráfica muestra el costo total y el ingreso según el número de pandebonos vendidos en un día.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Costo e ingreso diario",
+"etiquetas": [
+"0",
+"50",
+"100",
+"150",
+"200",
+"250"
+],
+"series": [
+{
+"nombre": "Costo",
+"datos": [
+200,
+250,
+300,
+350,
+400,
+450
+]
+},
+{
+"nombre": "Ingreso",
+"datos": [
+0,
+100,
+200,
+300,
+400,
+500
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿Qué representa el punto donde se cruzan las dos gráficas?",
+"opciones": {
+"A": "El número de pandebonos con el que se obtiene la máxima ganancia.",
+"B": "El costo fijo de producción de la panadería.",
+"C": "El punto de equilibrio: con 200 pandebonos el ingreso iguala al costo y la ganancia es cero.",
+"D": "El número de pandebonos a partir del cual la panadería tiene pérdidas."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir equilibrio con máximo",
+"porque": "Elegiste esta opción porque asociaste el cruce con el mejor resultado.",
+"pregunta_guia": "Con 250 pandebonos, ¿la ganancia es mayor o menor que con 200?",
+"aprende": "Con 250: ganancia = 500 − 450 = 50 > 0; en 200 la ganancia es 0."
+},
+"B": {
+"error": "Confundir el corte con el eje y",
+"porque": "Elegiste esta opción porque el costo fijo también es un punto importante de la gráfica.",
+"pregunta_guia": "¿Dónde se lee el costo fijo: cuando se venden 0 o 200 pandebonos?",
+"aprende": "El costo fijo es el costo con 0 unidades: $200 mil."
+},
+"D": {
+"error": "Invertir el sentido",
+"porque": "Elegiste esta opción porque no revisaste qué línea queda arriba después del cruce.",
+"pregunta_guia": "Después de 200 pandebonos, ¿qué es mayor: el ingreso o el costo?",
+"aprende": "Después del cruce el ingreso supera al costo: hay ganancias; antes hay pérdidas."
+}
+},
+"explicacion": "Paso 1: en 200 pandebonos, costo = 400 e ingreso = 400 (miles). Paso 2: ganancia = ingreso − costo = 0. Paso 3: antes de 200 hay pérdidas (costo > ingreso) y después hay ganancias. Paso 4: el cruce es el punto de equilibrio.",
+"tip": "Un negocio empieza a ganar cuando supera su punto de equilibrio.",
+"truco": "Equilibrio: ingreso = costo → ganancia cero.",
+"estrategia_icfes": "El ICFES usa gráficas de costo e ingreso. Ubica el cruce y mira qué línea queda arriba a cada lado para interpretar pérdidas y ganancias.",
+"temas": [
+"punto de equilibrio",
+"sistemas de ecuaciones gráficos",
+"costos e ingresos"
+],
+"gemela": {
+"enunciado": "El costo de producir x arepas es C = 100 + 2x y el ingreso es I = 6x (miles de pesos). ¿Cuántas arepas hay que vender para el punto de equilibrio?",
+"opciones": {
+"A": "50",
+"B": "25",
+"C": "12,5",
+"D": "16,7"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 6x = 100 + 2x. Paso 2: 4x = 100 → x = 25."
+}
+},
+{
+"id": "P11-MAT-B045",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): reconoce el dominio y el rango de una función en el contexto de una situación.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones y propiedades de funciones, incluidos su dominio y su rango en contextos.",
+"afirmacion": "Determina el rango de una función lineal con dominio restringido por el contexto.",
+"evidencia": "Evalúa la función en los extremos del dominio para obtener el conjunto de valores posibles.",
+"contexto": "Un parqueadero del centro de Cali cobra C(h) = 2.500h pesos, donde h es el tiempo de permanencia en horas. El parqueadero permite dejar un vehículo como máximo 12 horas seguidas.",
+"enunciado": "¿Cuál es el conjunto de valores posibles del cobro C?",
+"opciones": {
+"A": "0 ≤ C ≤ 12",
+"B": "0 ≤ C ≤ 30.000",
+"C": "0 ≤ C ≤ 2.500",
+"D": "C ≥ 30.000"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir dominio con rango",
+"porque": "Elegiste esta opción porque diste los valores posibles de h (las horas), no de C.",
+"pregunta_guia": "¿La pregunta pide los valores del tiempo o del cobro?",
+"aprende": "El dominio es 0 ≤ h ≤ 12; el rango son los valores de C que resultan: 0 a 30.000."
+},
+"C": {
+"error": "Tomar la tarifa como máximo",
+"porque": "Elegiste esta opción porque usaste el valor de una hora como cobro máximo.",
+"pregunta_guia": "Si el vehículo se queda 12 horas, ¿cuánto se cobra?",
+"aprende": "C(12) = 2.500 × 12 = 30.000."
+},
+"D": {
+"error": "Invertir el sentido de la desigualdad",
+"porque": "Elegiste esta opción porque calculaste bien el máximo, pero lo tomaste como mínimo.",
+"pregunta_guia": "¿Puede alguien pagar menos de $30.000?",
+"aprende": "Con 1 hora se paga 2.500: el cobro va de 0 hasta 30.000."
+}
+},
+"explicacion": "Paso 1: dominio: 0 ≤ h ≤ 12 (no hay tiempo negativo y el máximo es 12 h). Paso 2: C es creciente: C(0) = 0 y C(12) = 2.500 × 12 = 30.000. Paso 3: rango: 0 ≤ C ≤ 30.000.",
+"tip": "Dominio = valores de entrada; rango = valores de salida.",
+"truco": "Si la función es creciente, el rango va de f(mínimo) a f(máximo).",
+"estrategia_icfes": "El ICFES pregunta por dominio o rango en contexto. Identifica cuál variable piden y evalúa la función en los extremos permitidos.",
+"temas": [
+"dominio y rango",
+"función lineal",
+"restricciones del contexto"
+],
+"gemela": {
+"enunciado": "Un bus recorre d(t) = 40t km, con 0 ≤ t ≤ 3 horas. ¿Cuál es el rango de d?",
+"opciones": {
+"A": "0 ≤ d ≤ 3",
+"B": "0 ≤ d ≤ 40",
+"C": "0 ≤ d ≤ 120",
+"D": "d ≥ 120"
+},
+"correcta": "C",
+"explicacion": "Paso 1: d(0) = 0 y d(3) = 120. Paso 2: rango: 0 ≤ d ≤ 120 km."
+}
+},
+{
+"id": "P11-MAT-B046",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): justifica el cálculo de variaciones porcentuales identificando la cantidad de referencia.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): justifico procedimientos aritméticos utilizando las relaciones entre las operaciones.",
+"afirmacion": "Valida el cálculo de un aumento porcentual con base en el valor inicial.",
+"evidencia": "Calcula aumento ÷ valor inicial y descarta el cálculo con el valor final.",
+"contexto": "El precio de un pasaje en una ruta intermunicipal del Valle pasó de $2.400 a $2.700. Mateo dice que el precio subió 12,5 % y Sofía dice que subió 11,1 %.",
+"enunciado": "¿Quién tiene razón y por qué?",
+"opciones": {
+"A": "Sofía, porque el aumento de $300 se compara con el precio nuevo de $2.700.",
+"B": "Los dos, porque la diferencia entre sus cálculos se debe solo al redondeo.",
+"C": "Mateo, porque el aumento de $300 se compara con el precio inicial de $2.400.",
+"D": "Ambos se equivocan, porque el aumento es de 3 %."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar el valor final como referencia",
+"porque": "Elegiste esta opción porque dividiste el aumento entre el precio nuevo.",
+"pregunta_guia": "Un aumento porcentual, ¿se mide respecto a lo que había antes o después?",
+"aprende": "Variación % = (nuevo − inicial) ÷ inicial × 100."
+},
+"B": {
+"error": "Atribuir la diferencia al redondeo",
+"porque": "Elegiste esta opción porque los dos números son parecidos.",
+"pregunta_guia": "300 ÷ 2.400 y 300 ÷ 2.700, ¿son la misma operación?",
+"aprende": "No es redondeo: son divisiones con bases distintas y solo una es correcta."
+},
+"D": {
+"error": "Confundir pesos con porcentaje",
+"porque": "Elegiste esta opción porque probablemente leíste $300 como 3 %.",
+"pregunta_guia": "¿Qué parte de $2.400 son $300?",
+"aprende": "300 ÷ 2.400 = 0,125 = 12,5 %."
+}
+},
+"explicacion": "Paso 1: aumento: 2.700 − 2.400 = 300. Paso 2: el porcentaje se calcula sobre el valor inicial: 300 ÷ 2.400 = 0,125. Paso 3: 0,125 × 100 = 12,5 %. Paso 4: Mateo tiene razón; Sofía usó como base el precio nuevo.",
+"tip": "La base de un porcentaje de cambio siempre es el valor «de antes».",
+"truco": "% de cambio = (nuevo − viejo) ÷ viejo.",
+"estrategia_icfes": "El ICFES contrasta dos cálculos de estudiantes. Revisa qué base usó cada uno y elige la justificación que nombra la base correcta.",
+"temas": [
+"variación porcentual",
+"porcentajes",
+"argumentación"
+],
+"gemela": {
+"enunciado": "Un producto bajó de $50.000 a $40.000. ¿Qué porcentaje de descuento tuvo?",
+"opciones": {
+"A": "25 %",
+"B": "20 %",
+"C": "10 %",
+"D": "80 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: rebaja: 10.000. Paso 2: 10.000 ÷ 50.000 = 0,20 = 20 %."
+}
+},
+{
+"id": "P11-MAT-B047",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): plantea y resuelve ecuaciones lineales que modelan situaciones laborales y financieras.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): construyo expresiones algebraicas y resuelvo ecuaciones lineales en contextos.",
+"afirmacion": "Plantea y resuelve una ecuación lineal con porcentajes.",
+"evidencia": "Escribe 1.500.000 + 0,04v = 2.100.000 y despeja v.",
+"contexto": "Mónica trabaja como asesora comercial en un almacén de Cali. Gana un salario base de $1.500.000 al mes más una comisión del 4 % sobre el valor de sus ventas.",
+"enunciado": "¿Cuánto debe vender Mónica en un mes para ganar $2.100.000?",
+"opciones": {
+"A": "$600.000",
+"B": "$15.000.000",
+"C": "$52.500.000",
+"D": "$2.400.000"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Dar la comisión en lugar de las ventas",
+"porque": "Elegiste esta opción porque calculaste cuánto debe ganar en comisión, pero no las ventas necesarias.",
+"pregunta_guia": "Si $600.000 es el 4 % de las ventas, ¿cuánto son las ventas completas?",
+"aprende": "0,04v = 600.000 → v = 15.000.000."
+},
+"C": {
+"error": "Ignorar el salario base",
+"porque": "Elegiste esta opción porque dividiste todo el salario deseado entre 0,04.",
+"pregunta_guia": "¿Mónica recibe $1.500.000 aunque no venda nada?",
+"aprende": "Solo la parte que excede al salario base proviene de la comisión."
+},
+"D": {
+"error": "Multiplicar en lugar de dividir",
+"porque": "Elegiste esta opción porque multiplicaste 600.000 por 4.",
+"pregunta_guia": "¿4 % es lo mismo que multiplicar por 4?",
+"aprende": "4 % = 0,04; para despejar se divide: 600.000 ÷ 0,04."
+}
+},
+"explicacion": "Paso 1: si v son las ventas: 1.500.000 + 0,04v = 2.100.000. Paso 2: 0,04v = 600.000. Paso 3: v = 600.000 ÷ 0,04 = 15.000.000. Paso 4: comprobación: 4 % de 15.000.000 = 600.000; 1.500.000 + 600.000 = 2.100.000 ✓.",
+"tip": "Separa lo fijo (salario base) de lo variable (comisión) antes de despejar.",
+"truco": "Dividir entre 0,04 es lo mismo que multiplicar por 25.",
+"estrategia_icfes": "El ICFES modela salarios con parte fija y variable. Plantea la ecuación completa, despeja y verifica reemplazando.",
+"temas": [
+"ecuaciones lineales",
+"porcentajes",
+"salario y comisiones"
+],
+"gemela": {
+"enunciado": "Un vendedor gana $1.200.000 de base más 5 % de comisión sobre ventas. ¿Cuánto debe vender para ganar $1.700.000?",
+"opciones": {
+"A": "$500.000",
+"B": "$34.000.000",
+"C": "$2.500.000",
+"D": "$10.000.000"
+},
+"correcta": "D",
+"explicacion": "Paso 1: 0,05v = 500.000. Paso 2: v = 500.000 ÷ 0,05 = $10.000.000."
+}
+},
+{
+"id": "P11-MAT-B048",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): argumenta sobre el comportamiento a largo plazo de funciones exponenciales decrecientes (asíntotas).",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): utilizo las técnicas de aproximación en procesos infinitos numéricos.",
+"afirmacion": "Justifica que una función exponencial decreciente se acerca a cero sin alcanzarlo.",
+"evidencia": "Argumenta que el producto de números positivos es positivo y que la función tiende a cero.",
+"contexto": "El valor comercial de un carro se modela con V(t) = 40·(0,8)ᵗ millones de pesos, donde t son los años desde su compra. Julio afirma que, según el modelo, en algún momento el carro llegará a valer exactamente cero pesos.",
+"enunciado": "¿Qué argumento sobre la afirmación de Julio es correcto?",
+"opciones": {
+"A": "Tiene razón, porque cada año el carro pierde 8 millones y en 5 años su valor llega a cero.",
+"B": "No tiene razón, porque cada año el valor se multiplica por 0,8, que es positivo; el valor se acerca a cero pero nunca lo alcanza.",
+"C": "Tiene razón, porque 0,8 es menor que 1 y toda potencia de un número menor que 1 termina en cero.",
+"D": "No tiene razón, porque según el modelo el valor del carro aumenta con el tiempo."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Suponer depreciación lineal",
+"porque": "Elegiste esta opción porque calculaste la pérdida del primer año (8 millones) y la repetiste.",
+"pregunta_guia": "En el año 2, ¿el 20 % se calcula sobre 40 o sobre 32 millones?",
+"aprende": "La pérdida es 20 % del valor actual: 8; 6,4; 5,12… cada vez menor."
+},
+"C": {
+"error": "Confundir «tender a» con «llegar a»",
+"porque": "Elegiste esta opción porque sabes que las potencias de 0,8 se hacen muy pequeñas.",
+"pregunta_guia": "¿Existe algún t para el que (0,8)ᵗ sea exactamente 0?",
+"aprende": "(0,8)ᵗ > 0 para todo t; se acerca a cero (asíntota) pero nunca es cero."
+},
+"D": {
+"error": "Leer mal la base",
+"porque": "Elegiste esta opción porque probablemente pensaste que toda función exponencial crece.",
+"pregunta_guia": "¿Qué pasa al multiplicar un número por 0,8: aumenta o disminuye?",
+"aprende": "Si 0 < b < 1, la función exponencial es decreciente."
+}
+},
+"explicacion": "Paso 1: V(t) = 40·(0,8)ᵗ: cada año el valor se multiplica por 0,8 (pierde 20 % de lo que vale). Paso 2: 40 > 0 y (0,8)ᵗ > 0 para todo t, así que V(t) > 0 siempre. Paso 3: como 0,8 < 1, V(t) se hace cada vez más pequeño: V(10) ≈ 4,29; V(20) ≈ 0,46. Paso 4: el valor se acerca a cero (asíntota horizontal y = 0) sin llegar a él. Julio no tiene razón.",
+"tip": "Una función exponencial con base entre 0 y 1 nunca toca el eje x.",
+"truco": "Multiplicar por 0,8 una y otra vez: siempre queda «un poquito».",
+"estrategia_icfes": "El ICFES evalúa la comprensión de asíntotas con afirmaciones del tipo «llegará a cero». Distingue entre decrecer, tender a cero y ser cero.",
+"temas": [
+"función exponencial decreciente",
+"asíntota horizontal",
+"depreciación"
+],
+"gemela": {
+"enunciado": "Una sustancia sigue el modelo P(t) = 500·(1/2)ᵗ gramos. ¿Qué afirmación es correcta?",
+"opciones": {
+"A": "Después de muchas horas la cantidad se vuelve negativa.",
+"B": "La cantidad se acerca a 0 pero siempre es positiva.",
+"C": "La cantidad llega a 0 cuando t = 500.",
+"D": "La cantidad aumenta con el tiempo."
+},
+"correcta": "B",
+"explicacion": "Paso 1: (1/2)ᵗ > 0 para todo t. Paso 2: P(t) disminuye y tiende a 0 sin alcanzarlo."
+}
+},
+{
+"id": "P11-MAT-B049",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta los parámetros de funciones exponenciales en modelos de crecimiento poblacional.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): identifico la relación entre los cambios en los parámetros de la representación algebraica de una familia de funciones y sus comportamientos.",
+"afirmacion": "Interpreta el valor inicial y el factor de crecimiento en modelos exponenciales.",
+"evidencia": "Relaciona a con la población inicial y b = 1 + r con la tasa porcentual de crecimiento.",
+"contexto": "Un estudio proyecta la población de dos veredas del Valle del Cauca con los modelos P₁(t) = 3.000·(1,02)ᵗ y P₂(t) = 2.000·(1,05)ᵗ, donde t son los años desde el inicio del estudio.",
+"enunciado": "¿Cuál afirmación interpreta correctamente los modelos?",
+"opciones": {
+"A": "La vereda 1 crece más rápido porque su población inicial es mayor.",
+"B": "La vereda 2 crece 5 habitantes por año y la vereda 1 crece 2 habitantes por año.",
+"C": "La vereda 1 inicia con más habitantes, pero la vereda 2 crece a una tasa porcentual mayor: 5 % anual frente a 2 %.",
+"D": "La vereda 2 crece 105 % cada año y la vereda 1 crece 102 % cada año."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir valor inicial con rapidez de crecimiento",
+"porque": "Elegiste esta opción porque asociaste población mayor con crecimiento más rápido.",
+"pregunta_guia": "¿Qué parámetro del modelo indica qué tan rápido crece: el 3.000 o el 1,02?",
+"aprende": "El coeficiente a es el valor inicial; la rapidez la indica la base b."
+},
+"B": {
+"error": "Interpretar el porcentaje como cantidad fija",
+"porque": "Elegiste esta opción porque leíste el 0,05 y el 0,02 como habitantes.",
+"pregunta_guia": "¿Cuánto es el 5 % de 2.000?",
+"aprende": "Crecer 5 % significa ganar 5 de cada 100 habitantes: 100 el primer año, más los siguientes."
+},
+"D": {
+"error": "Confundir factor con tasa",
+"porque": "Elegiste esta opción porque tomaste la base completa como tasa de crecimiento.",
+"pregunta_guia": "Si una población se multiplica por 1,05, ¿aumenta 105 % o 5 %?",
+"aprende": "Factor 1,05 = 100 % + 5 %: la tasa de crecimiento es 5 %."
+}
+},
+"explicacion": "Paso 1: en P(t) = a·bᵗ, a es la población inicial y b = 1 + r, con r la tasa de crecimiento. Paso 2: vereda 1: a = 3.000 y r = 0,02 (2 % anual). Paso 3: vereda 2: a = 2.000 y r = 0,05 (5 % anual). Paso 4: la vereda 1 empieza con más habitantes, pero la vereda 2 crece a un ritmo porcentual mayor.",
+"tip": "En a·(1 + r)ᵗ: a = inicio; r = tasa de crecimiento.",
+"truco": "Base 1,05 → «+5 %»; base 0,95 → «−5 %».",
+"estrategia_icfes": "El ICFES pide interpretar parámetros sin calcular. Traduce cada número del modelo a su significado y descarta opciones que confunden factor con tasa.",
+"temas": [
+"función exponencial",
+"parámetros de un modelo",
+"crecimiento poblacional"
+],
+"gemela": {
+"enunciado": "¿Qué representa el modelo f(t) = 800·(0,9)ᵗ?",
+"opciones": {
+"A": "Una cantidad que crece 90 % cada periodo.",
+"B": "Una cantidad que disminuye 90 unidades cada periodo.",
+"C": "Una cantidad que inicia en 800 y disminuye 10 % cada periodo.",
+"D": "Una cantidad que disminuye 0,9 % cada periodo."
+},
+"correcta": "C",
+"explicacion": "Paso 1: a = 800 es el valor inicial. Paso 2: b = 0,9 = 1 − 0,1: disminuye 10 % por periodo."
+}
+},
+{
+"id": "P11-MAT-B050",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): plantea y resuelve sistemas de ecuaciones lineales en contextos de inversión.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): identifico diferentes métodos para solucionar sistemas de ecuaciones lineales.",
+"afirmacion": "Modela una distribución de inversiones con un sistema de ecuaciones y lo resuelve.",
+"evidencia": "Plantea x + y = 10.000.000 y 0,08x + 0,12y = 1.040.000 y resuelve por sustitución.",
+"contexto": "Laura invirtió $10.000.000 repartidos entre un CDT que paga 8 % anual y un fondo que paga 12 % anual, ambos con interés simple. Al cabo de un año ganó en total $1.040.000 de intereses.",
+"enunciado": "¿Cuánto dinero invirtió Laura en el CDT?",
+"opciones": {
+"A": "$4.000.000",
+"B": "$6.000.000",
+"C": "$5.000.000",
+"D": "$13.000.000"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Responder la otra incógnita",
+"porque": "Elegiste esta opción porque hallaste lo invertido en el fondo, no en el CDT.",
+"pregunta_guia": "¿Qué representa tu variable: el CDT o el fondo?",
+"aprende": "Fondo = 6.000.000 y CDT = 4.000.000; identifica bien cada incógnita."
+},
+"C": {
+"error": "Suponer reparto en partes iguales",
+"porque": "Elegiste esta opción porque repartiste el dinero por mitades sin usar el dato de intereses.",
+"pregunta_guia": "Si fuera mitad y mitad, ¿cuánto ganaría? ¿Da 1.040.000?",
+"aprende": "Mitad y mitad daría 400.000 + 600.000 = 1.000.000, no 1.040.000."
+},
+"D": {
+"error": "Usar una sola tasa",
+"porque": "Elegiste esta opción porque dividiste todos los intereses entre 0,08.",
+"pregunta_guia": "¿Puede el CDT tener más dinero que el total invertido?",
+"aprende": "Los intereses provienen de dos productos con tasas distintas: se necesita un sistema."
+}
+},
+"explicacion": "Paso 1: x = CDT, y = fondo: x + y = 10.000.000 y 0,08x + 0,12y = 1.040.000. Paso 2: sustituye y = 10.000.000 − x: 0,08x + 1.200.000 − 0,12x = 1.040.000. Paso 3: −0,04x = −160.000 → x = 4.000.000. Paso 4: y = 6.000.000. Comprobación: 320.000 + 720.000 = 1.040.000 ✓.",
+"tip": "Verifica que la respuesta tenga sentido: ninguna parte puede superar el total.",
+"truco": "Sistema de mezclas: una ecuación para «cuánto» y otra para «cuánto produce».",
+"estrategia_icfes": "El ICFES usa problemas de mezcla de inversiones. Plantea dos ecuaciones (cantidad y rendimiento), resuelve y comprueba con el dato de intereses.",
+"temas": [
+"sistemas de ecuaciones lineales",
+"interés simple",
+"inversión diversificada"
+],
+"gemela": {
+"enunciado": "Se invierten $6.000.000 en dos productos al 5 % y al 10 % anual simple; el interés total en un año es $420.000. ¿Cuánto se invirtió al 10 %?",
+"opciones": {
+"A": "$3.600.000",
+"B": "$2.400.000",
+"C": "$3.000.000",
+"D": "$4.200.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: x + y = 6.000.000; 0,05x + 0,10y = 420.000. Paso 2: 0,05x + 600.000 − 0,10x = 420.000 → x = 3.600.000. Paso 3: y = $2.400.000."
+}
+},
+{
+"id": "P11-MAT-B051",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 11° (MEN 2016): justifica la regla general de una sucesión a partir de sus primeros términos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 8°–9° (MEN 2006): uso procesos inductivos y lenguaje algebraico para formular y poner a prueba conjeturas.",
+"afirmacion": "Valida una conjetura sobre un término de una sucesión con un argumento general.",
+"evidencia": "Reconoce el patrón n² y lo usa para justificar el término 10.",
+"contexto": "En una actividad de patrones, se presenta la sucesión 1, 4, 9, 16, 25, … Daniela afirma que el término que ocupa la posición 10 es 100.",
+"enunciado": "¿Qué argumento sobre la afirmación de Daniela es correcto?",
+"opciones": {
+"A": "Es incorrecta, porque la sucesión siempre suma 3 y el término 10 es 28.",
+"B": "Es incorrecta, porque el término 10 es 10 × 4 = 40.",
+"C": "Es correcta, porque la sucesión siempre suma 5 a partir del término 2.",
+"D": "Es correcta, porque cada término es el cuadrado de su posición: 10² = 100."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Generalizar desde la primera diferencia",
+"porque": "Elegiste esta opción porque viste que de 1 a 4 se suma 3 y lo aplicaste siempre.",
+"pregunta_guia": "De 4 a 9, ¿se suma 3?",
+"aprende": "Las diferencias son 3, 5, 7, 9: crecen de 2 en 2; no es aritmética."
+},
+"B": {
+"error": "Usar un término como multiplicador",
+"porque": "Elegiste esta opción porque multiplicaste la posición por el segundo término.",
+"pregunta_guia": "Con tu regla, ¿el término 3 sería 12? ¿Coincide con 9?",
+"aprende": "Una regla debe funcionar para todos los términos conocidos."
+},
+"C": {
+"error": "Llegar a la conclusión correcta con una razón falsa",
+"porque": "Elegiste esta opción porque la conclusión coincide, pero la justificación no.",
+"pregunta_guia": "De 9 a 16, ¿se suma 5?",
+"aprende": "En Argumentación cuenta la razón: las diferencias no son constantes; la regla es n²."
+}
+},
+"explicacion": "Paso 1: observa: 1 = 1², 4 = 2², 9 = 3², 16 = 4², 25 = 5². Paso 2: regla general: aₙ = n². Paso 3: a₁₀ = 10² = 100. Paso 4: la afirmación es correcta y la justificación válida es la D.",
+"tip": "Compara cada término con su posición: a veces el patrón está ahí.",
+"truco": "Diferencias 3, 5, 7, 9… (impares) → cuadrados perfectos.",
+"estrategia_icfes": "En Argumentación el ICFES incluye opciones con la conclusión correcta pero la razón equivocada. Verifica que la justificación funcione con todos los términos.",
+"temas": [
+"sucesiones",
+"patrones numéricos",
+"cuadrados perfectos"
+],
+"gemela": {
+"enunciado": "En la sucesión 2, 5, 10, 17, …, ¿cuál es el término 8?",
+"opciones": {
+"A": "64",
+"B": "65",
+"C": "26",
+"D": "50"
+},
+"correcta": "B",
+"explicacion": "Paso 1: aₙ = n² + 1 (1+1, 4+1, 9+1, 16+1). Paso 2: a₈ = 64 + 1 = 65."
+}
+},
+{
+"id": "P11-MAT-B052",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): interpreta información de facturas e impuestos expresando relaciones como porcentajes de distintas bases.",
+"lineamiento": "Pensamiento numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): interpreto y uso porcentajes en contextos comerciales.",
+"afirmacion": "Interpreta qué porcentaje del total de una factura corresponde al impuesto.",
+"evidencia": "Calcula IVA ÷ total y lo diferencia de la tarifa (IVA ÷ base).",
+"contexto": "La factura de una ferretería de Cali muestra la siguiente información.",
+"tabla": {
+"titulo": "Factura de venta",
+"cols": [
+"Concepto",
+"Valor"
+],
+"filas": [
+[
+"Subtotal (antes de IVA)",
+"$200.000"
+],
+[
+"IVA (19 %)",
+"$38.000"
+],
+[
+"Total a pagar",
+"$238.000"
+]
+]
+},
+"enunciado": "¿Qué porcentaje del total pagado corresponde al IVA, aproximadamente?",
+"opciones": {
+"A": "16 %",
+"B": "19 %",
+"C": "84 %",
+"D": "38 %"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir la tarifa con la proporción del total",
+"porque": "Elegiste esta opción porque la factura dice 19 %, pero ese porcentaje es sobre el subtotal.",
+"pregunta_guia": "¿El 19 % se calculó sobre $200.000 o sobre $238.000?",
+"aprende": "El IVA es 19 % de la base, pero respecto al total es 38.000 ÷ 238.000 ≈ 16 %."
+},
+"C": {
+"error": "Calcular la parte complementaria",
+"porque": "Elegiste esta opción porque calculaste qué parte del total es el subtotal.",
+"pregunta_guia": "¿La pregunta pide el porcentaje del subtotal o del IVA?",
+"aprende": "200.000 ÷ 238.000 ≈ 84 % es el subtotal; el IVA es el 16 % restante."
+},
+"D": {
+"error": "Leer el valor como porcentaje",
+"porque": "Elegiste esta opción porque tomaste $38.000 como 38 %.",
+"pregunta_guia": "¿Un valor en pesos es lo mismo que un porcentaje?",
+"aprende": "Para obtener un porcentaje hay que dividir entre el total y multiplicar por 100."
+}
+},
+"explicacion": "Paso 1: IVA = $38.000 y total = $238.000. Paso 2: proporción: 38.000 ÷ 238.000 ≈ 0,1597. Paso 3: ≈ 16 % del total. Paso 4: la tarifa 19 % se refiere al subtotal; respecto al total, el IVA pesa menos porque el total es mayor.",
+"tip": "Antes de calcular un porcentaje, pregúntate: ¿porcentaje de qué?",
+"truco": "IVA dentro del total = 0,19 ÷ 1,19 ≈ 16 %.",
+"estrategia_icfes": "El ICFES cambia la base de un porcentaje para evaluar comprensión. Identifica la parte y el todo que pide la pregunta y divide.",
+"temas": [
+"IVA",
+"porcentajes con distinta base",
+"lectura de facturas"
+],
+"gemela": {
+"enunciado": "Una factura tiene subtotal $500.000, IVA (5 %) $25.000 y total $525.000. ¿Qué porcentaje del total es el IVA?",
+"opciones": {
+"A": "5 %",
+"B": "Aproximadamente 4,8 %",
+"C": "Aproximadamente 95,2 %",
+"D": "25 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: 25.000 ÷ 525.000 ≈ 0,0476. Paso 2: ≈ 4,8 % del total."
+}
+},
+{
+"id": "P11-MAT-B053",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 11° (MEN 2016): argumenta usando las propiedades de los logaritmos en escalas de medición de fenómenos naturales.",
+"lineamiento": "Pensamiento variacional y sistemas analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): modelo situaciones con funciones logarítmicas y justifico resultados.",
+"afirmacion": "Justifica la relación entre dos magnitudes en una escala logarítmica de base 10.",
+"evidencia": "Traduce una diferencia de 2 unidades en la escala en un factor de 10² en la amplitud.",
+"contexto": "En una clase sobre sismos en Colombia se explica que, en la escala de magnitud de Richter, aumentar una unidad significa que la amplitud de las ondas sísmicas registradas se multiplica por 10. Se comparan dos sismos: uno de magnitud 7 y otro de magnitud 5.",
+"enunciado": "¿Cuál afirmación sobre la amplitud de las ondas de los dos sismos es correcta?",
+"opciones": {
+"A": "La del sismo de magnitud 7 es 2 veces mayor, porque 7 − 5 = 2.",
+"B": "La del sismo de magnitud 7 es 1,4 veces mayor, porque 7 ÷ 5 = 1,4.",
+"C": "La del sismo de magnitud 7 es 100 veces mayor, porque la diferencia es de 2 unidades y 10² = 100.",
+"D": "La del sismo de magnitud 7 es 20 veces mayor, porque cada unidad equivale a 10 y hay 2 unidades: 10 × 2."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Tratar la escala como lineal",
+"porque": "Elegiste esta opción porque restaste las magnitudes como si la escala fuera lineal.",
+"pregunta_guia": "Si una unidad multiplica por 10, ¿qué hacen dos unidades?",
+"aprende": "Cada unidad multiplica por 10: dos unidades multiplican por 10 × 10 = 100."
+},
+"B": {
+"error": "Dividir las magnitudes",
+"porque": "Elegiste esta opción porque comparaste las magnitudes con un cociente.",
+"pregunta_guia": "¿La magnitud es la amplitud o el logaritmo de la amplitud?",
+"aprende": "La magnitud es un logaritmo: se comparan diferencias de magnitud, que se vuelven potencias de 10."
+},
+"D": {
+"error": "Sumar factores en lugar de multiplicarlos",
+"porque": "Elegiste esta opción porque sumaste o multiplicaste 10 por el número de unidades.",
+"pregunta_guia": "Aplicar ×10 y luego otra vez ×10, ¿da ×20 o ×100?",
+"aprende": "Factores sucesivos se multiplican: 10 · 10 = 10² = 100."
+}
+},
+"explicacion": "Paso 1: diferencia de magnitud: 7 − 5 = 2 unidades. Paso 2: cada unidad multiplica la amplitud por 10. Paso 3: dos unidades: 10 × 10 = 10² = 100. Paso 4: la amplitud del sismo de magnitud 7 es 100 veces la del sismo de magnitud 5.",
+"tip": "En escalas logarítmicas, las diferencias se convierten en potencias.",
+"truco": "Diferencia d en la escala → factor 10ᵈ.",
+"estrategia_icfes": "El ICFES usa escalas logarítmicas en contextos científicos. Calcula la diferencia en la escala y conviértela en potencia de 10; elige la justificación con esa idea.",
+"temas": [
+"escalas logarítmicas",
+"potencias de 10",
+"sismos"
+],
+"gemela": {
+"enunciado": "¿Cuántas veces mayor es la amplitud de un sismo de magnitud 6 que la de uno de magnitud 3?",
+"opciones": {
+"A": "3 veces",
+"B": "2 veces",
+"C": "30 veces",
+"D": "1.000 veces"
+},
+"correcta": "D",
+"explicacion": "Paso 1: diferencia: 3 unidades. Paso 2: 10³ = 1.000 veces."
+}
+},
+{
+"id": "P11-MAT-B054",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 11° (MEN 2016): interpreta gráficas de funciones cuadráticas en contextos económicos y usa su simetría para ubicar máximos.",
+"lineamiento": "Pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): analizo las relaciones y propiedades entre las expresiones algebraicas y las gráficas de funciones polinómicas.",
+"afirmacion": "Ubica el máximo de una función cuadrática a partir de su representación gráfica.",
+"evidencia": "Usa la simetría de los datos de la gráfica para identificar el vértice entre dos puntos de igual altura.",
+"contexto": "Un grupo de estudiantes de CENTEC vende jugos naturales en la feria escolar. Estimaron el ingreso diario según el precio de cada jugo y obtuvieron los datos de la gráfica, que siguen un modelo cuadrático.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Ingreso según el precio del jugo",
+"etiquetas": [
+"$2.000",
+"$4.000",
+"$6.000",
+"$8.000",
+"$10.000"
+],
+"series": [
+{
+"nombre": "Ingreso",
+"datos": [
+32,
+48,
+48,
+32,
+0
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "Según la gráfica, ¿qué precio maximiza el ingreso y por qué?",
+"opciones": {
+"A": "$4.000 o $6.000, porque allí la gráfica alcanza el mayor valor mostrado.",
+"B": "$5.000, porque el modelo es simétrico y el máximo está en el punto medio entre $4.000 y $6.000.",
+"C": "$10.000, porque es el precio más alto que se puede cobrar.",
+"D": "$2.000, porque el ingreso aumenta más rápido al inicio."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Quedarse con los datos mostrados",
+"porque": "Elegiste esta opción porque tomaste el mayor valor visible sin pensar en el modelo.",
+"pregunta_guia": "Si dos puntos de una parábola tienen la misma altura, ¿dónde está el vértice?",
+"aprende": "En una parábola, puntos de igual altura son simétricos respecto al vértice: está en $5.000."
+},
+"C": {
+"error": "Asociar precio alto con ingreso alto",
+"porque": "Elegiste esta opción porque pensaste que cobrar más siempre da más dinero.",
+"pregunta_guia": "¿Cuánto es el ingreso con $10.000 según la gráfica?",
+"aprende": "Con $10.000 el ingreso es 0: a ese precio nadie compra."
+},
+"D": {
+"error": "Confundir rapidez de cambio con máximo",
+"porque": "Elegiste esta opción porque la gráfica sube rápido al inicio.",
+"pregunta_guia": "¿El ingreso con $2.000 es el mayor de la gráfica?",
+"aprende": "Que una función crezca rápido en un tramo no significa que allí esté su máximo."
+}
+},
+"explicacion": "Paso 1: los datos siguen una parábola que abre hacia abajo. Paso 2: con $4.000 y $6.000 el ingreso es igual (48 mil); también con $2.000 y $8.000 (32 mil). Paso 3: por simetría, el eje de la parábola está en (4.000 + 6.000) ÷ 2 = $5.000. Paso 4: el modelo es I(p) = p(20 − 2p) con p en miles: I(5) = 5 × 10 = 50 mil, mayor que 48 mil.",
+"tip": "En una parábola, busca pares de puntos con la misma altura: el vértice está en su mitad.",
+"truco": "Vértice = promedio de dos x con igual y.",
+"estrategia_icfes": "El ICFES puede presentar gráficas con datos que no incluyen el vértice. Usa la simetría para ubicar el máximo en lugar de quedarte con el mayor valor visible.",
+"temas": [
+"función cuadrática",
+"simetría de la parábola",
+"optimización de ingresos"
+],
+"gemela": {
+"enunciado": "Una parábola pasa por (0, 0), (2, 16), (4, 16) y (6, 0). ¿En qué valor de x alcanza su máximo?",
+"opciones": {
+"A": "x = 2 o x = 4",
+"B": "x = 3",
+"C": "x = 6",
+"D": "x = 0"
+},
+"correcta": "B",
+"explicacion": "Paso 1: (2, 16) y (4, 16) son simétricos. Paso 2: el vértice está en x = (2 + 4) ÷ 2 = 3."
+}
+},
+{
+"id": "P11-MAT-B055",
+"area": "matematicas",
+"grado": 11,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10°–11° (MEN 2016): argumenta decisiones financieras sobre créditos comparando cuotas, plazos y costo total.",
+"lineamiento": "Pensamiento numérico y variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (MEN 2006): justifico decisiones a partir del análisis de modelos de variación exponencial en contextos financieros.",
+"afirmacion": "Evalúa una decisión sobre el plazo de un crédito con base en el costo total.",
+"evidencia": "Calcula el total pagado en cada plazo (cuota × número de cuotas) y compara los intereses.",
+"contexto": "Un banco ofrece a Felipe un crédito de $10.000.000 al 1,5 % mensual con cuotas fijas. A 12 meses la cuota es de $916.800 y a 36 meses es de $361.524. Felipe prefiere el plazo de 36 meses porque «la cuota es menor y así paga menos».",
+"enunciado": "¿Cuál argumento evalúa correctamente la decisión de Felipe?",
+"opciones": {
+"A": "Felipe tiene razón: al ser menor la cuota, el costo total del crédito también es menor.",
+"B": "A 36 meses paga menos intereses, porque la misma tasa mensual se reparte en más cuotas.",
+"C": "La cuota es menor, pero en total pagaría cerca de $13,0 millones frente a $11,0 millones a 12 meses; el plazo largo cuesta unos $2 millones más.",
+"D": "Los dos plazos cuestan lo mismo, porque se presta la misma cantidad a la misma tasa."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir cuota con costo total",
+"porque": "Elegiste esta opción porque comparaste solo el valor de cada cuota.",
+"pregunta_guia": "¿Cuánto paga en total con 36 cuotas de $361.524?",
+"aprende": "36 × 361.524 ≈ 13.014.864, más que 12 × 916.800 = 11.001.600."
+},
+"B": {
+"error": "Creer que repartir reduce el interés",
+"porque": "Elegiste esta opción porque pensaste que más cuotas «diluyen» los intereses.",
+"pregunta_guia": "Si la deuda dura más meses, ¿durante cuántos meses se cobra interés?",
+"aprende": "Con más plazo, el saldo baja más lento y se pagan intereses por más tiempo."
+},
+"D": {
+"error": "Ignorar el efecto del tiempo",
+"porque": "Elegiste esta opción porque el capital y la tasa son iguales en ambos casos.",
+"pregunta_guia": "¿El tiempo influye en el interés total que se paga?",
+"aprende": "El interés depende del capital, la tasa y el tiempo: a mayor plazo, más intereses."
+}
+},
+"explicacion": "Paso 1: total a 12 meses: 12 × 916.800 = 11.001.600 → intereses ≈ 1.001.600. Paso 2: total a 36 meses: 36 × 361.524 = 13.014.864 → intereses ≈ 3.014.864. Paso 3: diferencia ≈ 2.013.264. Paso 4: la cuota es menor a 36 meses, pero el costo total es mayor; la decisión debe considerar el costo total y la capacidad de pago.",
+"tip": "Una cuota baja alivia el mes, pero un plazo largo encarece el crédito.",
+"truco": "Costo total = cuota × número de cuotas; intereses = costo total − préstamo.",
+"estrategia_icfes": "El ICFES evalúa decisiones financieras con argumentos. Calcula totales en cada escenario y elige el argumento que compara lo que realmente importa: el costo total.",
+"temas": [
+"créditos y cuotas",
+"plazo e intereses",
+"decisiones financieras responsables"
+],
+"gemela": {
+"enunciado": "Un crédito de $5.000.000 al 1,5 % mensual se puede pagar en 6 cuotas de $877.626 o en 12 cuotas de $458.400. ¿Cuántos intereses de más se pagan a 12 meses?",
+"opciones": {
+"A": "$235.044",
+"B": "$5.500.800",
+"C": "$500.800",
+"D": "$419.226"
+},
+"correcta": "A",
+"explicacion": "Paso 1: total a 6 meses: 6 × 877.626 = 5.265.756. Paso 2: total a 12 meses: 12 × 458.400 = 5.500.800. Paso 3: diferencia: $235.044."
+}
+}
+]

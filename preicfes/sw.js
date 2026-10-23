@@ -1,5 +1,5 @@
 /* SABI PREICFES · funciona sin internet tras la primera visita */
-const V="sabi-preicfes-202610231020";
+const V="sabi-preicfes-202610231034";
 const SHELL=["./","index.html","manifest.json","assets/avatar_sabi.jpg","assets/avatar_face.jpg","assets/icono.png"];
 self.addEventListener("install",e=>{e.waitUntil((async()=>{
   const c=await caches.open(V); await c.addAll(SHELL);

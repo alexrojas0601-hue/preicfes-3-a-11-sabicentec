@@ -34,6 +34,12 @@ nleg = len(items)
 for f in sorted(glob.glob(os.path.join(ROOT, "banco_raw", "*.json"))):
     if ".parte" in f: continue
     items += json.load(open(f, encoding="utf-8"))
+_seen, _dedup = set(), []
+for q in items:
+    k = (re.sub(r"\s+", " ", q["enunciado"].strip().lower()), q["contexto"][:60])
+    if k in _seen: print("Duplicado descartado:", q["id"]); continue
+    _seen.add(k); _dedup.append(q)
+items = _dedup
 E, W = validate(items, "banco")
 if E:
     print("\n".join(E[:30])); sys.exit("Banco con errores: corrige antes de construir")

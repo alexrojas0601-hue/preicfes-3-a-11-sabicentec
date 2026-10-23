@@ -1,0 +1,335 @@
+[
+{
+"area": "matematicas",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 9° (MEN 2016): utiliza porcentajes y proporciones para resolver problemas en contextos financieros y cotidianos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas que requieren porcentajes, razones y proporciones.",
+"estrategia_icfes": "El ICFES plantea situaciones de compra, ahorro o crédito y pide calcular o comparar. Identifica la base sobre la que se aplica cada porcentaje antes de operar.",
+"id": "P09-MAT-Z001",
+"competencia": "Formulación y ejecución",
+"componente": "Numérico-variacional",
+"nivel": "Mínimo",
+"afirmacion": "Resuelve problemas que requieren calcular descuentos porcentuales.",
+"evidencia": "Calcula el precio final de un artículo con descuento.",
+"contexto": "En una papelería de Cali, una calculadora científica cuesta $80.000. Esta semana tiene un descuento del 15 %.",
+"enunciado": "¿Cuánto se paga por la calculadora con el descuento?",
+"opciones": {
+"A": "$12.000",
+"B": "$68.000",
+"C": "$65.000",
+"D": "$92.000"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir descuento con precio",
+"porque": "Elegiste $12.000 porque calculaste el valor del descuento, no lo que se paga.",
+"pregunta_guia": "¿La pregunta pide cuánto se descuenta o cuánto se paga?",
+"aprende": "Precio final = precio − descuento: $80.000 − $12.000."
+},
+"C": {
+"error": "Restar el porcentaje como pesos mal calculados",
+"porque": "Elegiste $65.000 porque probablemente restaste $15.000 en lugar del 15 %.",
+"pregunta_guia": "¿El 15 % de $80.000 es igual a $15.000?",
+"aprende": "15 % de 80.000 = 0,15 × 80.000 = 12.000."
+},
+"D": {
+"error": "Sumar en vez de restar",
+"porque": "Elegiste $92.000 porque sumaste el 15 % como si fuera un aumento.",
+"pregunta_guia": "¿Un descuento hace que el precio suba o baje?",
+"aprende": "Un descuento se resta; un aumento se suma."
+}
+},
+"explicacion": "Paso 1: 15 % de $80.000 = 0,15 × 80.000 = $12.000. Paso 2: precio final = $80.000 − $12.000 = $68.000.",
+"tip": "Pagar con 15 % de descuento es pagar el 85 %.",
+"truco": "Precio final = precio × (1 − descuento): 80.000 × 0,85.",
+"temas": [
+"porcentajes",
+"descuentos"
+],
+"gemela": {
+"enunciado": "Unos tenis cuestan $150.000 y tienen 20 % de descuento. ¿Cuánto se paga?",
+"opciones": {
+"A": "$30.000",
+"B": "$130.000",
+"C": "$120.000",
+"D": "$180.000"
+},
+"correcta": "C",
+"explicacion": "20 % de 150.000 = 30.000; 150.000 − 30.000 = $120.000."
+}
+},
+{
+"area": "matematicas",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 9° (MEN 2016): utiliza porcentajes y proporciones para resolver problemas en contextos financieros y cotidianos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas que requieren porcentajes, razones y proporciones.",
+"estrategia_icfes": "El ICFES plantea situaciones de compra, ahorro o crédito y pide calcular o comparar. Identifica la base sobre la que se aplica cada porcentaje antes de operar.",
+"id": "P09-MAT-Z002",
+"competencia": "Formulación y ejecución",
+"componente": "Numérico-variacional",
+"nivel": "Satisfactorio",
+"afirmacion": "Resuelve problemas de interés simple.",
+"evidencia": "Calcula el dinero acumulado con interés simple anual.",
+"contexto": "Mariana ahorra $500.000 en una cuenta que paga 6 % de interés simple anual.",
+"enunciado": "¿Cuánto dinero tendrá Mariana al cabo de 3 años?",
+"opciones": {
+"A": "$530.000",
+"B": "$590.000",
+"C": "$90.000",
+"D": "$680.000"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calcular un solo año",
+"porque": "Elegiste $530.000 porque calculaste el interés de un año ($30.000) y no de tres.",
+"pregunta_guia": "¿Cuántos años pasan? ¿Cuántas veces se gana el interés?",
+"aprende": "Interés simple: I = C × i × t = 500.000 × 0,06 × 3."
+},
+"C": {
+"error": "Dar solo el interés",
+"porque": "Elegiste $90.000 porque calculaste el interés, pero la pregunta pide el total.",
+"pregunta_guia": "¿Te preguntan cuánto ganó o cuánto tiene en total?",
+"aprende": "Total = capital + interés = 500.000 + 90.000."
+},
+"D": {
+"error": "Multiplicar el porcentaje mal",
+"porque": "Elegiste $680.000 porque probablemente usaste 6 × 3 = 18 como 36 % o sumaste de más.",
+"pregunta_guia": "¿Cuánto es el 6 % de 500.000?",
+"aprende": "6 % de 500.000 = 30.000 por año; en 3 años, 90.000."
+}
+},
+"explicacion": "Paso 1: interés anual = 0,06 × 500.000 = $30.000. Paso 2: en 3 años = 3 × 30.000 = $90.000. Paso 3: total = 500.000 + 90.000 = $590.000.",
+"tip": "En interés simple, el interés es el mismo cada año.",
+"truco": "Total = C × (1 + i·t) = 500.000 × 1,18.",
+"temas": [
+"interés simple",
+"porcentajes",
+"ahorro"
+],
+"gemela": {
+"enunciado": "Si se ahorran $200.000 al 5 % de interés simple anual durante 4 años, ¿cuánto se tiene al final?",
+"opciones": {
+"A": "$240.000",
+"B": "$210.000",
+"C": "$40.000",
+"D": "$243.101"
+},
+"correcta": "A",
+"explicacion": "Interés = 200.000 × 0,05 × 4 = 40.000; total = $240.000."
+}
+},
+{
+"area": "matematicas",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 9° (MEN 2016): utiliza porcentajes y proporciones para resolver problemas en contextos financieros y cotidianos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas que requieren porcentajes, razones y proporciones.",
+"estrategia_icfes": "El ICFES plantea situaciones de compra, ahorro o crédito y pide calcular o comparar. Identifica la base sobre la que se aplica cada porcentaje antes de operar.",
+"id": "P09-MAT-Z003",
+"competencia": "Argumentación",
+"componente": "Numérico-variacional",
+"nivel": "Avanzado",
+"afirmacion": "Valida o refuta afirmaciones sobre porcentajes encadenados.",
+"evidencia": "Explica por qué un aumento seguido de una rebaja del mismo porcentaje no regresa al valor inicial.",
+"contexto": "Un almacén subió 10 % el precio de un televisor de $1.000.000 en octubre. En diciembre lo rebajó 10 %. Andrés afirma: «Quedó otra vez en $1.000.000».",
+"enunciado": "¿Es correcta la afirmación de Andrés?",
+"opciones": {
+"A": "Sí, porque subir 10 % y bajar 10 % se cancelan.",
+"B": "No, porque la rebaja se aplica sobre $1.100.000 y el precio queda en $990.000.",
+"C": "No, porque el precio queda en $1.010.000.",
+"D": "Sí, porque en ambos casos la variación es de $100.000."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Creer que los porcentajes se cancelan",
+"porque": "Elegiste A porque sumaste +10 % y −10 % como si fueran sobre la misma base.",
+"pregunta_guia": "¿Sobre qué precio se calcula la rebaja de diciembre?",
+"aprende": "Cada porcentaje se aplica sobre el valor que hay en ese momento."
+},
+"C": {
+"error": "Invertir el efecto",
+"porque": "Elegiste C porque pensaste que el resultado queda por encima, pero 1,1 × 0,9 = 0,99.",
+"pregunta_guia": "¿1,1 × 0,9 es mayor o menor que 1?",
+"aprende": "1.000.000 × 1,1 × 0,9 = 990.000."
+},
+"D": {
+"error": "Suponer variaciones iguales en pesos",
+"porque": "Elegiste D porque creíste que ambas variaciones valen $100.000; la rebaja vale $110.000.",
+"pregunta_guia": "¿Cuánto es el 10 % de $1.100.000?",
+"aprende": "10 % de 1.100.000 = 110.000."
+}
+},
+"explicacion": "Paso 1: después del aumento: 1.000.000 × 1,10 = $1.100.000. Paso 2: la rebaja es 10 % de 1.100.000 = $110.000. Paso 3: precio final = $990.000. La afirmación es falsa.",
+"tip": "Porcentajes encadenados se multiplican, no se suman.",
+"truco": "Sube p % y baja p % → siempre queda por debajo del inicio.",
+"temas": [
+"porcentajes encadenados",
+"argumentación"
+],
+"gemela": {
+"enunciado": "Un artículo de $200.000 baja 20 % y luego sube 20 %. ¿Cuál es el precio final?",
+"opciones": {
+"A": "$200.000",
+"B": "$192.000",
+"C": "$208.000",
+"D": "$160.000"
+},
+"correcta": "B",
+"explicacion": "200.000 × 0,8 = 160.000; 160.000 × 1,2 = $192.000."
+}
+},
+{
+"area": "matematicas",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 9° (MEN 2016): utiliza porcentajes y proporciones para resolver problemas en contextos financieros y cotidianos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas que requieren porcentajes, razones y proporciones.",
+"estrategia_icfes": "El ICFES plantea situaciones de compra, ahorro o crédito y pide calcular o comparar. Identifica la base sobre la que se aplica cada porcentaje antes de operar.",
+"id": "P09-MAT-Z004",
+"competencia": "Interpretación y representación",
+"componente": "Aleatorio",
+"nivel": "Satisfactorio",
+"afirmacion": "Interpreta información presentada en tablas para tomar decisiones financieras.",
+"evidencia": "Compara el costo total de dos planes a partir de una tabla.",
+"contexto": "Una familia compara dos planes de celular para 6 meses.",
+"tabla": {
+"titulo": "Planes de celular",
+"cols": [
+"Plan",
+"Pago inicial",
+"Pago mensual"
+],
+"filas": [
+[
+"Plan Pacífico",
+"$0",
+"$45.000"
+],
+[
+"Plan Farallones",
+"$60.000",
+"$32.000"
+]
+]
+},
+"enunciado": "Para los 6 meses, ¿qué plan es más económico y por cuánto?",
+"opciones": {
+"A": "Pacífico, por $18.000",
+"B": "Farallones, por $18.000",
+"C": "Farallones, por $13.000",
+"D": "Pacífico, por $13.000"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Elegir el plan sin pago inicial",
+"porque": "Elegiste A porque pensaste que no pagar al inicio lo hace más barato.",
+"pregunta_guia": "¿Cuánto cuesta cada plan en total en 6 meses?",
+"aprende": "Compara totales: 6 × 45.000 = 270.000 frente a 60.000 + 6 × 32.000 = 252.000."
+},
+"C": {
+"error": "Comparar solo la cuota mensual",
+"porque": "Elegiste C porque restaste las cuotas (45.000 − 32.000) y olvidaste el plazo y el pago inicial.",
+"pregunta_guia": "¿La diferencia de un mes es la misma que la de 6 meses?",
+"aprende": "Diferencia total = 270.000 − 252.000 = 18.000."
+},
+"D": {
+"error": "Confundir plan y diferencia",
+"porque": "Elegiste D mezclando la diferencia mensual con el plan sin pago inicial.",
+"pregunta_guia": "¿Qué total es menor?",
+"aprende": "El menor total es el de Farallones."
+}
+},
+"explicacion": "Paso 1: Pacífico = 6 × 45.000 = $270.000. Paso 2: Farallones = 60.000 + 6 × 32.000 = $252.000. Paso 3: diferencia = $18.000 a favor de Farallones.",
+"tip": "Compara siempre el costo total en el mismo tiempo.",
+"truco": "Total = inicial + cuota × meses.",
+"temas": [
+"tablas",
+"presupuesto",
+"comparación de planes"
+],
+"gemela": {
+"enunciado": "Plan X: $0 inicial y $50.000/mes. Plan Y: $90.000 inicial y $35.000/mes. Para 6 meses, ¿cuál conviene?",
+"opciones": {
+"A": "X, por $0",
+"B": "Y, por $0",
+"C": "Cuestan lo mismo: $300.000",
+"D": "Y, por $15.000"
+},
+"correcta": "C",
+"explicacion": "X = 300.000; Y = 90.000 + 210.000 = 300.000. Cuestan lo mismo."
+}
+},
+{
+"area": "matematicas",
+"grado": 9,
+"prueba": "Saber 9 · ruta a Saber 11",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 9° (MEN 2016): utiliza porcentajes y proporciones para resolver problemas en contextos financieros y cotidianos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas que requieren porcentajes, razones y proporciones.",
+"estrategia_icfes": "El ICFES plantea situaciones de compra, ahorro o crédito y pide calcular o comparar. Identifica la base sobre la que se aplica cada porcentaje antes de operar.",
+"id": "P09-MAT-Z005",
+"competencia": "Formulación y ejecución",
+"componente": "Numérico-variacional",
+"nivel": "Avanzado",
+"afirmacion": "Resuelve problemas con IVA y precios antes de impuestos.",
+"evidencia": "Calcula el precio sin IVA a partir del precio con IVA.",
+"contexto": "En Colombia la tarifa general del IVA es 19 %. Un audífono cuesta $119.000 con IVA incluido.",
+"enunciado": "¿Cuál era su precio antes de IVA?",
+"opciones": {
+"A": "$96.390",
+"B": "$100.000",
+"C": "$22.610",
+"D": "$141.610"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Restar el 19 % del precio con IVA",
+"porque": "Elegiste $96.390 porque calculaste 19 % de 119.000 y lo restaste; el 19 % se aplica sobre el precio sin IVA.",
+"pregunta_guia": "¿Sobre qué valor se calculó originalmente el IVA?",
+"aprende": "Precio sin IVA = 119.000 ÷ 1,19."
+},
+"C": {
+"error": "Dar el valor del impuesto",
+"porque": "Elegiste $22.610 porque calculaste un impuesto, no el precio base.",
+"pregunta_guia": "¿Te piden el impuesto o el precio antes del impuesto?",
+"aprende": "Base × 1,19 = 119.000 → base = 100.000."
+},
+"D": {
+"error": "Sumar IVA otra vez",
+"porque": "Elegiste $141.610 porque agregaste IVA a un precio que ya lo incluía.",
+"pregunta_guia": "¿El precio dado ya tiene IVA?",
+"aprende": "Si ya incluye IVA, se divide entre 1,19."
+}
+},
+"explicacion": "Paso 1: precio con IVA = base × 1,19. Paso 2: base = 119.000 ÷ 1,19 = $100.000. Comprobación: 100.000 × 1,19 = 119.000.",
+"tip": "Para quitar un porcentaje ya incluido, divide; no restes.",
+"truco": "Con IVA ÷ 1,19 = sin IVA.",
+"temas": [
+"IVA",
+"porcentajes",
+"operaciones inversas"
+],
+"gemela": {
+"enunciado": "Un cuaderno cuesta $5.950 con IVA del 19 % incluido. ¿Cuál es su precio sin IVA?",
+"opciones": {
+"A": "$4.820",
+"B": "$5.000",
+"C": "$1.130",
+"D": "$7.081"
+},
+"correcta": "B",
+"explicacion": "5.950 ÷ 1,19 = $5.000."
+}
+}
+]

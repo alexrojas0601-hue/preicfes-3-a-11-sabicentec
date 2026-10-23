@@ -1,0 +1,2506 @@
+[
+{
+"id": "P10-MAT-C001",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 10° (MEN 2016): utiliza el plano cartesiano y la fórmula de distancia entre dos puntos para resolver problemas de ubicación y medida.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos geométricos y el plano cartesiano para resolver problemas de distancias.",
+"afirmacion": "Ejecuta un procedimiento geométrico en el plano cartesiano para calcular la distancia entre dos puntos.",
+"evidencia": "Aplica d = √((x₂ − x₁)² + (y₂ − y₁)²) a dos puntos dados por sus coordenadas.",
+"contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+"enunciado": "¿Cuál es la distancia en línea recta entre el colegio y la estación?",
+"opciones": {
+"A": "14 km",
+"B": "10 km",
+"C": "100 km",
+"D": "√200 km"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar las diferencias en lugar de usar Pitágoras",
+"porque": "Elegiste 14 km porque probablemente sumaste 6 + 8, que es lo que recorrerías por calles en forma de L, no en línea recta.",
+"pregunta_guia": "Si te mueves 6 km al oriente y 8 km al norte, ¿el camino directo es más corto o igual que la suma?",
+"aprende": "La línea recta es la hipotenusa del triángulo rectángulo de catetos 6 y 8: √(6² + 8²)."
+},
+"C": {
+"error": "Olvidar la raíz cuadrada",
+"porque": "Elegiste 100 km porque probablemente calculaste 6² + 8² = 100 y no sacaste la raíz.",
+"pregunta_guia": "En el teorema de Pitágoras, ¿100 es la hipotenusa o el cuadrado de la hipotenusa?",
+"aprende": "d² = 100, entonces d = √100 = 10 km."
+},
+"D": {
+"error": "Sumar coordenadas en lugar de restarlas",
+"porque": "Elegiste √200 km porque probablemente hiciste (8 + 2)² + (9 + 1)² = 200.",
+"pregunta_guia": "¿La distancia depende de la suma de las coordenadas o de cuánto cambian de un punto a otro?",
+"aprende": "Se restan las coordenadas: Δx = 8 − 2 = 6 y Δy = 9 − 1 = 8."
+}
+},
+"explicacion": "Paso 1: Calcula el cambio horizontal: Δx = 8 − 2 = 6. Paso 2: Calcula el cambio vertical: Δy = 9 − 1 = 8. Paso 3: Aplica la fórmula de distancia: d = √(6² + 8²) = √(36 + 64) = √100. Paso 4: d = 10; como cada unidad es 1 km, la distancia es 10 km.",
+"tip": "Dibuja el triángulo rectángulo entre los dos puntos: la distancia siempre es la hipotenusa.",
+"truco": "Triángulo 6-8-10 (el doble del famoso 3-4-5): reconócelo y ahorras cálculos.",
+"estrategia_icfes": "El ICFES presenta mapas o planos con coordenadas y pide distancias reales. Identifica los dos puntos, resta coordenadas, aplica Pitágoras y no olvides convertir con la escala. Los distractores típicos son la suma de catetos y el valor sin raíz.",
+"temas": [
+"distancia entre dos puntos",
+"teorema de Pitágoras",
+"plano cartesiano"
+],
+"gemela": {
+"enunciado": "En otro mapa con la misma escala, una biblioteca está en (1, −2) y un parque en (6, 10). ¿Cuál es la distancia en línea recta entre ellos?",
+"opciones": {
+"A": "17 km",
+"B": "13 km",
+"C": "169 km",
+"D": "12 km"
+},
+"correcta": "B",
+"explicacion": "Paso 1: Δx = 6 − 1 = 5 y Δy = 10 − (−2) = 12. Paso 2: d = √(25 + 144) = √169 = 13 km."
+}
+},
+{
+"id": "P10-MAT-C002",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 10° (MEN 2016): representa y ubica puntos en el plano cartesiano y determina el punto medio de un segmento a partir de las coordenadas de sus extremos.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): identifico en forma visual, gráfica y algebraica algunas propiedades de los segmentos en el plano cartesiano.",
+"afirmacion": "Representa en el plano cartesiano un punto que cumple una condición geométrica dada.",
+"evidencia": "Identifica las coordenadas del punto medio de un segmento como el promedio de las coordenadas de sus extremos.",
+"contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+"enunciado": "Los estudiantes quieren ubicar un punto de encuentro exactamente en la mitad del segmento que une el colegio con la estación. ¿Qué coordenadas representan ese punto?",
+"opciones": {
+"A": "(3, 4)",
+"B": "(6, 8)",
+"C": "(5, 5)",
+"D": "(10, 10)"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Tomar la mitad de las diferencias",
+"porque": "Elegiste (3, 4) porque probablemente dividiste entre 2 los cambios Δx = 6 y Δy = 8, sin sumarlos al punto de partida.",
+"pregunta_guia": "Si sales de C(2, 1) y avanzas la mitad del camino, ¿desde qué coordenadas empiezas a contar?",
+"aprende": "Mitad del cambio sumada al inicio: (2 + 3, 1 + 4) = (5, 5); o directamente el promedio de las coordenadas."
+},
+"B": {
+"error": "Confundir punto medio con diferencias",
+"porque": "Elegiste (6, 8) porque probablemente restaste las coordenadas: 8 − 2 y 9 − 1.",
+"pregunta_guia": "¿El punto (6, 8) queda entre C y E, o está más cerca de E?",
+"aprende": "El punto medio no es la diferencia; es el promedio: ((x₁ + x₂)/2, (y₁ + y₂)/2)."
+},
+"D": {
+"error": "Olvidar dividir entre 2",
+"porque": "Elegiste (10, 10) porque probablemente sumaste las coordenadas y no dividiste entre 2.",
+"pregunta_guia": "¿El punto (10, 10) está entre el colegio y la estación o fuera del segmento?",
+"aprende": "Sumar las coordenadas es solo la mitad del procedimiento: hay que dividir entre 2."
+}
+},
+"explicacion": "Paso 1: El punto medio se obtiene promediando las coordenadas. Paso 2: x = (2 + 8)/2 = 10/2 = 5. Paso 3: y = (1 + 9)/2 = 10/2 = 5. Paso 4: El punto de encuentro es (5, 5). Comprobación: su distancia a C y a E es √(9 + 16) = 5 km en ambos casos.",
+"tip": "Comprueba siempre: el punto medio debe quedar a la misma distancia de los dos extremos.",
+"truco": "Punto medio = «promedio de x, promedio de y».",
+"estrategia_icfes": "El ICFES pregunta por ubicaciones equidistantes (un punto de encuentro, un repetidor, un centro). Reconoce que «en la mitad» exige el punto medio y verifica que la opción quede dentro del segmento.",
+"temas": [
+"punto medio",
+"plano cartesiano",
+"promedio"
+],
+"gemela": {
+"enunciado": "¿Cuál es el punto medio del segmento que une A(−4, 6) y B(2, −2)?",
+"opciones": {
+"A": "(−3, 4)",
+"B": "(−1, 2)",
+"C": "(−2, 4)",
+"D": "(3, −4)"
+},
+"correcta": "B",
+"explicacion": "Paso 1: x = (−4 + 2)/2 = −1. Paso 2: y = (6 + (−2))/2 = 2. Paso 3: punto medio (−1, 2)."
+}
+},
+{
+"id": "P10-MAT-C003",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): reconoce la pendiente de una recta como razón de cambio y la calcula a partir de dos puntos.",
+"lineamiento": "Pensamiento variacional y pensamiento espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto la noción de pendiente y la relaciono con la razón de cambio.",
+"afirmacion": "Valida o refuta procedimientos y conclusiones sobre la pendiente de una recta en el plano cartesiano.",
+"evidencia": "Evalúa el cálculo de una pendiente identificando si se dividió el cambio vertical entre el cambio horizontal.",
+"contexto": "Un grupo de estudiantes de CENTEC elaboró un mapa del sur de Cali sobre un plano cartesiano en el que cada unidad equivale a 1 km. En el mapa, el colegio está en el punto C(2, 1) y una estación del MIO está en el punto E(8, 9).",
+"enunciado": "Andrés afirma: «La pendiente del segmento que va del colegio a la estación es 3/4, porque la distancia horizontal es 6 y la vertical es 8». ¿Qué argumento evalúa correctamente la afirmación de Andrés?",
+"opciones": {
+"A": "Es correcta, porque 6/8 = 3/4 y la pendiente relaciona los dos desplazamientos.",
+"B": "Es incorrecta, porque la pendiente es la distancia entre los puntos, es decir, 10.",
+"C": "Es incorrecta, porque la pendiente debe ser negativa, ya que la x y la y aumentan.",
+"D": "Es incorrecta, porque la pendiente es el cambio en y entre el cambio en x: 8/6 = 4/3."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Invertir la razón de la pendiente",
+"porque": "Elegiste A porque probablemente aceptaste que basta con relacionar los dos desplazamientos sin importar el orden.",
+"pregunta_guia": "En m = Δy/Δx, ¿qué va en el numerador: lo que sube o lo que avanza?",
+"aprende": "El orden importa: m = Δy/Δx = 8/6 = 4/3, no 6/8."
+},
+"B": {
+"error": "Confundir pendiente con distancia",
+"porque": "Elegiste B porque probablemente mezclaste dos conceptos: la longitud del segmento (10 km) y su inclinación.",
+"pregunta_guia": "¿Dos segmentos de 10 km pueden tener inclinaciones distintas?",
+"aprende": "La distancia mide longitud; la pendiente mide inclinación (cuánto sube por cada unidad que avanza)."
+},
+"C": {
+"error": "Error en el signo de la pendiente",
+"porque": "Elegiste C porque probablemente recordaste que hay pendientes negativas, pero no cuándo ocurren.",
+"pregunta_guia": "Si al avanzar a la derecha la recta sube, ¿la pendiente es positiva o negativa?",
+"aprende": "Si x y y aumentan juntas, la pendiente es positiva; es negativa cuando una aumenta y la otra disminuye."
+}
+},
+"explicacion": "Paso 1: Recuerda la definición: m = (y₂ − y₁)/(x₂ − x₁). Paso 2: Δy = 9 − 1 = 8 y Δx = 8 − 2 = 6. Paso 3: m = 8/6 = 4/3. Paso 4: Andrés invirtió la razón (calculó Δx/Δy), por eso su afirmación es incorrecta y el argumento correcto es D.",
+"tip": "Lee la pendiente como «sube tanto por cada unidad que avanza».",
+"truco": "Pendiente = «subida sobre avance»: primero la y (arriba en la fracción), luego la x.",
+"estrategia_icfes": "En Argumentación, el ICFES muestra el razonamiento de un personaje y pide evaluarlo. Primero resuelve tú el cálculo; luego busca la opción que diga si es correcto Y que dé la razón verdadera. Descarta opciones con conclusión correcta pero justificación falsa.",
+"temas": [
+"pendiente de una recta",
+"razón de cambio",
+"validación de procedimientos"
+],
+"gemela": {
+"enunciado": "Camila dice que la pendiente de la recta que pasa por (−2, 5) y (4, −7) es −1/2. ¿Tiene razón?",
+"opciones": {
+"A": "Sí, porque 6/(−12) = −1/2.",
+"B": "No, porque la pendiente es −12/6 = −2.",
+"C": "No, porque la pendiente es 12/6 = 2.",
+"D": "Sí, porque la recta baja y por eso la pendiente es −1/2."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Δy = −7 − 5 = −12. Paso 2: Δx = 4 − (−2) = 6. Paso 3: m = −12/6 = −2. Camila invirtió la razón."
+}
+},
+{
+"id": "P10-MAT-C004",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): modela situaciones de variación constante mediante funciones lineales y las representa algebraicamente.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): modelo situaciones de variación con funciones polinómicas.",
+"afirmacion": "Representa una situación de variación lineal mediante una expresión algebraica.",
+"evidencia": "Identifica la ecuación de la recta que describe un proceso a partir de dos datos (valor inicial y valor en otro instante).",
+"contexto": "El tanque de agua de una finca en Dagua (Valle del Cauca) se vacía a un ritmo constante para regar un cultivo. Al iniciar el riego (t = 0 horas) el tanque tiene 1.200 litros y 5 horas después tiene 800 litros.",
+"enunciado": "¿Cuál de las siguientes expresiones representa el volumen V de agua (en litros) que hay en el tanque t horas después de iniciar el riego?",
+"opciones": {
+"A": "V = 1.200 − 80t",
+"B": "V = 1.200 + 80t",
+"C": "V = 800 − 80t",
+"D": "V = 1.200 − 400t"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Signo de la pendiente",
+"porque": "Elegiste B porque probablemente calculaste bien el ritmo de 80 L/h, pero no tuviste en cuenta que el agua disminuye.",
+"pregunta_guia": "Con V = 1.200 + 80t, ¿cuánta agua habría a las 5 horas? ¿Coincide con 800 L?",
+"aprende": "Si la cantidad disminuye con el tiempo, la pendiente es negativa: −80 L/h."
+},
+"C": {
+"error": "Confundir el valor inicial",
+"porque": "Elegiste C porque probablemente usaste los 800 litros como punto de partida.",
+"pregunta_guia": "¿Cuánta agua había cuando t = 0?",
+"aprende": "El término independiente es el valor cuando t = 0: 1.200 litros."
+},
+"D": {
+"error": "No dividir entre el tiempo",
+"porque": "Elegiste D porque probablemente tomaste los 400 litros que salieron en total como si salieran en una sola hora.",
+"pregunta_guia": "Los 400 litros salieron en 5 horas; ¿cuántos salen en 1 hora?",
+"aprende": "Ritmo = 400 L ÷ 5 h = 80 L/h."
+}
+},
+"explicacion": "Paso 1: Valor inicial (t = 0): 1.200 L. Paso 2: Cambio total: 800 − 1.200 = −400 L en 5 horas. Paso 3: Razón de cambio: −400/5 = −80 L/h. Paso 4: Modelo lineal V = 1.200 − 80t. Comprobación: V(5) = 1.200 − 400 = 800 L.",
+"tip": "Antes de elegir, reemplaza los datos del enunciado en la expresión: debe cumplirlos todos.",
+"truco": "V = (inicio) + (ritmo) × t; el ritmo es negativo si algo se vacía o se gasta.",
+"estrategia_icfes": "El ICFES pide elegir la expresión que modela una situación. La estrategia más segura es verificar: reemplaza t = 0 y t = 5 en cada opción y descarta las que no den 1.200 y 800.",
+"temas": [
+"función lineal",
+"pendiente como razón de cambio",
+"modelación"
+],
+"gemela": {
+"enunciado": "La batería de un celular está al 100 % a las 0 horas y al 70 % a las 2 horas, descargándose a ritmo constante. ¿Qué expresión da el porcentaje B después de t horas?",
+"opciones": {
+"A": "B = 100 − 30t",
+"B": "B = 70 − 15t",
+"C": "B = 100 − 15t",
+"D": "B = 100 + 15t"
+},
+"correcta": "C",
+"explicacion": "Paso 1: valor inicial 100. Paso 2: ritmo = (70 − 100)/2 = −15 % por hora. Paso 3: B = 100 − 15t; B(2) = 70."
+}
+},
+{
+"id": "P10-MAT-C005",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta los puntos de corte de la gráfica de una función lineal con los ejes en el contexto de una situación.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto el significado de los elementos de una función en contextos de variación.",
+"afirmacion": "Interpreta el significado de un punto particular de una función lineal en el contexto de la situación.",
+"evidencia": "Relaciona el instante en que el tanque queda vacío con el corte de la recta con el eje del tiempo (V = 0).",
+"contexto": "El tanque de agua de una finca en Dagua (Valle del Cauca) se vacía a un ritmo constante para regar un cultivo. Al iniciar el riego (t = 0 horas) el tanque tiene 1.200 litros y 5 horas después tiene 800 litros.",
+"enunciado": "Si el riego continúa al mismo ritmo, ¿cuántas horas después de iniciado el riego quedará vacío el tanque?",
+"opciones": {
+"A": "10 horas",
+"B": "3 horas",
+"C": "15 horas",
+"D": "20 horas"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar la cantidad restante como si fuera la inicial",
+"porque": "Elegiste 10 horas porque probablemente calculaste 800 ÷ 80 = 10, que es lo que falta a partir de la hora 5, y no lo contaste desde el inicio.",
+"pregunta_guia": "Las 10 horas que calculaste, ¿se cuentan desde t = 0 o desde t = 5?",
+"aprende": "Desde el inicio: 1.200 ÷ 80 = 15 horas (5 que ya pasaron + 10 que faltan)."
+},
+"B": {
+"error": "Usar el total vaciado en 5 horas como ritmo por hora",
+"porque": "Elegiste 3 horas porque probablemente dividiste 1.200 entre 400, como si salieran 400 litros cada hora.",
+"pregunta_guia": "¿Cuántos litros salen en una sola hora?",
+"aprende": "Salen 400 L en 5 h, es decir, 80 L por hora."
+},
+"D": {
+"error": "Sumar dos veces el tiempo transcurrido",
+"porque": "Elegiste 20 horas porque probablemente calculaste bien las 15 horas desde el inicio y luego les sumaste otra vez las 5 horas ya pasadas.",
+"pregunta_guia": "¿Las 15 horas ya incluyen las primeras 5 horas de riego?",
+"aprende": "Resolviendo 1.200 − 80t = 0 se obtiene el tiempo total desde el inicio: t = 15."
+}
+},
+"explicacion": "Paso 1: El modelo es V = 1.200 − 80t. Paso 2: El tanque está vacío cuando V = 0. Paso 3: 1.200 − 80t = 0 ⇒ 80t = 1.200 ⇒ t = 15. Paso 4: En la gráfica, es el punto donde la recta corta el eje t: (15, 0).",
+"tip": "«Vacío», «agotado» o «llega a cero» significan que debes igualar la función a 0.",
+"truco": "Tiempo para agotar = cantidad inicial ÷ ritmo de gasto.",
+"estrategia_icfes": "El ICFES pregunta qué significa un corte con los ejes. Traduce la condición verbal (vacío) a una ecuación (V = 0) y revisa desde qué momento se mide el tiempo.",
+"temas": [
+"cortes con los ejes",
+"función lineal",
+"ecuaciones lineales"
+],
+"gemela": {
+"enunciado": "Con el modelo B = 100 − 15t para la batería de un celular (t en horas), ¿después de cuántas horas la batería llega al 25 %?",
+"opciones": {
+"A": "5 horas",
+"B": "6,7 horas",
+"C": "1,7 horas",
+"D": "4 horas"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 100 − 15t = 25. Paso 2: 15t = 75. Paso 3: t = 5 horas."
+}
+},
+{
+"id": "P10-MAT-C006",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): identifica rectas paralelas y perpendiculares a partir de sus pendientes y determina la ecuación de una recta con una condición dada.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos; pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas en los que se usen las propiedades de rectas paralelas y perpendiculares.",
+"afirmacion": "Plantea y ejecuta un procedimiento para hallar la ecuación de una recta perpendicular a otra que pasa por un punto dado.",
+"evidencia": "Usa la condición m₁ · m₂ = −1 y el punto dado para obtener la ecuación pedida.",
+"contexto": "En el plano de un barrio de Cali, una avenida sigue la recta y = 2x + 3. La alcaldía quiere construir una ciclorruta perpendicular a la avenida que pase por el parque, ubicado en el punto P(4, 1).",
+"enunciado": "¿Cuál es la ecuación de la recta que debe seguir la ciclorruta?",
+"opciones": {
+"A": "y = 2x − 7",
+"B": "y = −2x + 9",
+"C": "y = −(1/2)x + 3",
+"D": "y = (1/2)x − 1"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir perpendicular con paralela",
+"porque": "Elegiste A porque probablemente usaste la misma pendiente 2 de la avenida; esa recta pasa por P pero es paralela.",
+"pregunta_guia": "Si dos rectas tienen la misma pendiente, ¿se cortan formando ángulo recto o nunca se cortan?",
+"aprende": "Paralelas: igual pendiente. Perpendiculares: pendientes recíprocas y de signo contrario."
+},
+"B": {
+"error": "Cambiar solo el signo de la pendiente",
+"porque": "Elegiste B porque probablemente cambiaste el signo de 2 pero olvidaste invertir el número.",
+"pregunta_guia": "¿Cuánto da 2 × (−2)? ¿Es igual a −1?",
+"aprende": "La pendiente perpendicular a 2 es −1/2, porque 2 × (−1/2) = −1."
+},
+"D": {
+"error": "Invertir sin cambiar el signo",
+"porque": "Elegiste D porque probablemente invertiste la pendiente (1/2) pero olvidaste el signo negativo.",
+"pregunta_guia": "¿Cuánto da 2 × (1/2)? ¿Cumple la condición de perpendicularidad?",
+"aprende": "2 × (1/2) = 1, no −1: falta el signo negativo."
+}
+},
+"explicacion": "Paso 1: La pendiente de la avenida es m₁ = 2. Paso 2: Para ser perpendicular, m₂ = −1/m₁ = −1/2. Paso 3: Usa el punto P(4, 1): y − 1 = −(1/2)(x − 4). Paso 4: y = −(1/2)x + 2 + 1 = −(1/2)x + 3. Comprobación: con x = 4, y = −2 + 3 = 1 ✓ y 2 × (−1/2) = −1 ✓.",
+"tip": "Las cuatro opciones pasan por P: lo que decide es la pendiente. ¡Revisa la condición m₁·m₂ = −1!",
+"truco": "Perpendicular: «voltea y cambia el signo» (2 → −1/2).",
+"estrategia_icfes": "El ICFES diseña distractores que cumplen una sola de las dos condiciones (pasar por el punto o tener la pendiente correcta). Verifica ambas condiciones en la opción elegida.",
+"temas": [
+"rectas perpendiculares",
+"ecuación punto-pendiente",
+"pendiente"
+],
+"gemela": {
+"enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = −3x + 1 que pasa por (3, 4)?",
+"opciones": {
+"A": "y = −3x + 13",
+"B": "y = (1/3)x + 3",
+"C": "y = 3x − 5",
+"D": "y = −(1/3)x + 5"
+},
+"correcta": "B",
+"explicacion": "Paso 1: m₂ = −1/(−3) = 1/3. Paso 2: y − 4 = (1/3)(x − 3) ⇒ y = (1/3)x + 3. Paso 3: comprobación: (1/3)(3) + 3 = 4."
+}
+},
+{
+"id": "P10-MAT-C007",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° (MEN 2016): analiza la posición relativa de dos rectas (secantes, paralelas o coincidentes) a partir de sus ecuaciones y la relaciona con las soluciones de un sistema lineal.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico resultados obtenidos mediante procesos de aproximación y uso de propiedades algebraicas.",
+"afirmacion": "Justifica la posición relativa de dos rectas a partir de sus pendientes y sus interceptos.",
+"evidencia": "Despeja y en ambas ecuaciones, compara pendientes e interceptos y concluye si el sistema tiene solución.",
+"contexto": "En un proyecto STEAM, dos estudiantes programan en un software de geometría las trayectorias de dos robots seguidores de línea. La trayectoria del robot 1 es 3x − 2y = 6 y la del robot 2 es 6x − 4y = 5.",
+"enunciado": "Sofía afirma que los dos robots se van a encontrar en algún punto porque las ecuaciones tienen coeficientes distintos. ¿Cuál de las siguientes afirmaciones evalúa correctamente lo que dice Sofía?",
+"opciones": {
+"A": "Sofía se equivoca: ambas rectas tienen pendiente 3/2 pero cortan el eje y en puntos distintos, así que son paralelas y nunca se cruzan.",
+"B": "Sofía se equivoca: la segunda ecuación es el doble de la primera, así que las trayectorias son la misma recta y los robots siempre coinciden.",
+"C": "Sofía tiene razón: como los coeficientes son diferentes, las rectas tienen pendientes distintas y se cortan en un único punto.",
+"D": "Sofía tiene razón: las rectas son perpendiculares, porque el producto de los coeficientes de x es 18, y por eso se cortan."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Multiplicar solo una parte de la ecuación",
+"porque": "Elegiste B porque probablemente viste que 6x − 4y es el doble de 3x − 2y y no revisaste el término independiente.",
+"pregunta_guia": "Si duplicas toda la ecuación 3x − 2y = 6, ¿el lado derecho queda 5 o 12?",
+"aprende": "Para que sean la misma recta, toda la ecuación debe ser múltiplo: 6x − 4y = 12. Como da 5, son rectas distintas."
+},
+"C": {
+"error": "Creer que coeficientes distintos implican pendientes distintas",
+"porque": "Elegiste C porque probablemente comparaste los números de las ecuaciones sin despejar y.",
+"pregunta_guia": "Si despejas y en ambas ecuaciones, ¿qué número acompaña a x en cada una?",
+"aprende": "La pendiente es −a/b: 3/2 en la primera y 6/4 = 3/2 en la segunda. Son iguales."
+},
+"D": {
+"error": "Usar una condición falsa de perpendicularidad",
+"porque": "Elegiste D porque probablemente inventaste una regla con los coeficientes en lugar de usar las pendientes.",
+"pregunta_guia": "¿Qué producto debe dar −1 para que dos rectas sean perpendiculares?",
+"aprende": "Perpendiculares: m₁ · m₂ = −1. Aquí (3/2)(3/2) = 9/4, así que no lo son."
+}
+},
+"explicacion": "Paso 1: Robot 1: 3x − 2y = 6 ⇒ y = (3/2)x − 3. Paso 2: Robot 2: 6x − 4y = 5 ⇒ y = (3/2)x − 5/4. Paso 3: Igual pendiente (3/2) e interceptos distintos (−3 y −5/4). Paso 4: Son rectas paralelas: el sistema no tiene solución y los robots nunca se encuentran. Sofía se equivoca.",
+"tip": "Para comparar rectas, llévalas siempre a la forma y = mx + b.",
+"truco": "Igual m y distinta b → paralelas; igual m e igual b → la misma recta; distinta m → se cortan.",
+"estrategia_icfes": "El ICFES pide justificar si un sistema tiene solución. No te dejes llevar por la apariencia de los coeficientes: despeja, compara pendientes e interceptos y elige la opción cuya razón sea matemáticamente cierta.",
+"temas": [
+"rectas paralelas",
+"sistemas de ecuaciones lineales",
+"forma pendiente-intercepto"
+],
+"gemela": {
+"enunciado": "Las rectas 2x + y = 4 y 4x + 2y = 8, ¿cómo son entre sí?",
+"opciones": {
+"A": "Paralelas, porque tienen igual pendiente y distinto intercepto.",
+"B": "Secantes, porque los coeficientes son distintos.",
+"C": "Perpendiculares, porque una es el doble de la otra.",
+"D": "Coincidentes, porque la segunda ecuación es exactamente el doble de la primera."
+},
+"correcta": "D",
+"explicacion": "Paso 1: y = −2x + 4 en ambas (la segunda: 2y = −4x + 8 ⇒ y = −2x + 4). Paso 2: igual pendiente e igual intercepto: es la misma recta, con infinitas soluciones."
+}
+},
+{
+"id": "P10-MAT-C008",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° (MEN 2016): resuelve problemas de distancias en el plano cartesiano usando las ecuaciones de la recta.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas en los que se usen las propiedades geométricas de figuras en el plano cartesiano de manera algebraica.",
+"afirmacion": "Ejecuta un procedimiento para calcular la distancia mínima de un punto a una recta.",
+"evidencia": "Aplica d = |Ax₀ + By₀ + C| / √(A² + B²) con la ecuación general de la recta.",
+"contexto": "En un plano de la zona rural de Jamundí, en el que cada unidad equivale a 1 km, un tramo recto de carretera sigue la recta 3x + 4y − 12 = 0. Una finca está ubicada en el punto F(4, 5) y su dueña quiere construir el camino más corto posible desde la finca hasta la carretera.",
+"enunciado": "¿Cuál es la longitud del camino más corto entre la finca y la carretera?",
+"opciones": {
+"A": "6,4 km",
+"B": "4 km",
+"C": "20 km",
+"D": "2,86 km"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Omitir el término independiente",
+"porque": "Elegiste 6,4 km porque probablemente calculaste |3·4 + 4·5| = 32 y olvidaste el −12 de la ecuación.",
+"pregunta_guia": "En la fórmula |Ax₀ + By₀ + C|, ¿cuál es el valor de C en esta recta?",
+"aprende": "Se reemplaza en toda la expresión: |12 + 20 − 12| = 20."
+},
+"C": {
+"error": "No dividir entre la norma",
+"porque": "Elegiste 20 km porque probablemente calculaste bien el numerador, pero no dividiste entre √(A² + B²).",
+"pregunta_guia": "¿Qué parte de la fórmula convierte el valor 20 en una distancia real?",
+"aprende": "d = 20 / √(9 + 16) = 20/5 = 4 km."
+},
+"D": {
+"error": "Dividir entre la suma de coeficientes",
+"porque": "Elegiste 2,86 km porque probablemente dividiste 20 entre 3 + 4 = 7 en lugar de √(3² + 4²).",
+"pregunta_guia": "¿El denominador es A + B o √(A² + B²)?",
+"aprende": "El denominador sale de Pitágoras: √(3² + 4²) = 5."
+}
+},
+"explicacion": "Paso 1: El camino más corto es perpendicular a la carretera. Paso 2: Identifica A = 3, B = 4, C = −12 y el punto (4, 5). Paso 3: Numerador: |3·4 + 4·5 − 12| = |12 + 20 − 12| = 20. Paso 4: Denominador: √(3² + 4²) = 5. Paso 5: d = 20/5 = 4 km.",
+"tip": "«El camino más corto hasta una recta» siempre es el segmento perpendicular.",
+"truco": "Con 3 y 4 como coeficientes, el denominador es 5 (triángulo 3-4-5).",
+"estrategia_icfes": "El ICFES contextualiza la distancia punto-recta con caminos, tuberías o cables. Reconoce la palabra «más corto», escribe la recta en forma general Ax + By + C = 0 y reemplaza con cuidado los signos.",
+"temas": [
+"distancia de un punto a una recta",
+"ecuación general de la recta",
+"perpendicularidad"
+],
+"gemela": {
+"enunciado": "¿Cuál es la distancia del punto (1, 2) a la recta 5x − 12y + 6 = 0?",
+"opciones": {
+"A": "13",
+"B": "25/13",
+"C": "1",
+"D": "13/7"
+},
+"correcta": "C",
+"explicacion": "Paso 1: |5·1 − 12·2 + 6| = |5 − 24 + 6| = 13. Paso 2: √(25 + 144) = 13. Paso 3: d = 13/13 = 1."
+}
+},
+{
+"id": "P10-MAT-C009",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta la pendiente y el intercepto de una función lineal en contextos de costos y tarifas.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto los parámetros de funciones lineales en situaciones de la vida cotidiana.",
+"afirmacion": "Interpreta el significado de los parámetros de una función lineal en un contexto de costos.",
+"evidencia": "Relaciona la pendiente con el costo por unidad adicional y el intercepto con el cargo fijo.",
+"contexto": "Un servicio de bicicletas compartidas en Cali cobra según los minutos de uso. La tabla muestra algunos valores, que corresponden a la expresión C = 500m + 2.000, donde C es el costo en pesos y m los minutos de uso.",
+"tabla": {
+"titulo": "Costo del servicio de bicicletas",
+"cols": [
+"Minutos de uso (m)",
+"Costo C (pesos)"
+],
+"filas": [
+[
+"0",
+"2.000"
+],
+[
+"10",
+"7.000"
+],
+[
+"20",
+"12.000"
+],
+[
+"30",
+"17.000"
+]
+]
+},
+"enunciado": "En la expresión C = 500m + 2.000, ¿qué representa el número 500?",
+"opciones": {
+"A": "El valor fijo que se paga por desbloquear la bicicleta.",
+"B": "El costo total de un recorrido de 10 minutos.",
+"C": "El número máximo de minutos que se puede usar la bicicleta.",
+"D": "El aumento en el costo por cada minuto adicional de uso."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir pendiente con intercepto",
+"porque": "Elegiste A porque probablemente confundiste el número que multiplica a m con el valor que se paga aunque m sea 0.",
+"pregunta_guia": "Si usas la bicicleta 0 minutos, ¿cuánto pagas según la tabla?",
+"aprende": "El cargo fijo es el intercepto (2.000); el 500 es lo que aumenta por minuto."
+},
+"B": {
+"error": "Asociar la pendiente con un valor de la tabla",
+"porque": "Elegiste B porque probablemente pensaste que 500 era el costo de un tramo de la tabla.",
+"pregunta_guia": "Según la tabla, ¿cuánto cuesta un recorrido de 10 minutos?",
+"aprende": "10 minutos cuestan 7.000; la diferencia entre filas (5.000 por 10 minutos) da 500 por minuto."
+},
+"C": {
+"error": "Interpretar un parámetro como límite",
+"porque": "Elegiste C porque probablemente creíste que el número indicaba una restricción del servicio.",
+"pregunta_guia": "¿La tabla muestra algún límite de tiempo, o muestra cómo crece el costo?",
+"aprende": "El coeficiente de m es una razón de cambio: pesos por minuto."
+}
+},
+"explicacion": "Paso 1: En C = 500m + 2.000, 500 multiplica a los minutos. Paso 2: De la tabla: de 0 a 10 minutos el costo sube 7.000 − 2.000 = 5.000. Paso 3: 5.000 ÷ 10 = 500 pesos por minuto. Paso 4: El 500 es la pendiente: el aumento del costo por cada minuto adicional.",
+"tip": "En toda tarifa lineal: número que acompaña a la variable = costo por unidad; número solo = cargo fijo.",
+"truco": "«Pendiente = por cada; intercepto = desde el inicio».",
+"estrategia_icfes": "El ICFES pregunta qué significa un número de la fórmula en el contexto. Calcula la diferencia entre dos filas de la tabla y divídela entre el cambio de la variable: ese es el significado de la pendiente.",
+"temas": [
+"pendiente e intercepto",
+"función lineal",
+"tarifas"
+],
+"gemela": {
+"enunciado": "Un plan de datos cobra C = 1.200g + 20.000, donde g son las gigas adicionales consumidas. ¿Qué representa 20.000?",
+"opciones": {
+"A": "El costo de cada giga adicional.",
+"B": "El cargo fijo que se paga aunque no se consuman gigas adicionales.",
+"C": "El número de gigas incluidas en el plan.",
+"D": "El costo total de 20 gigas."
+},
+"correcta": "B",
+"explicacion": "Paso 1: Si g = 0, C = 20.000. Paso 2: 20.000 es el intercepto: el cargo fijo del plan."
+}
+},
+{
+"id": "P10-MAT-C010",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): compara funciones lineales y usa desigualdades para tomar decisiones en contextos de consumo.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos algebraicos para justificar la elección entre alternativas.",
+"afirmacion": "Justifica decisiones de consumo comparando dos modelos lineales de costo.",
+"evidencia": "Plantea y resuelve una desigualdad entre dos funciones lineales para refutar una generalización.",
+"contexto": "Un servicio de bicicletas compartidas en Cali cobra según los minutos de uso. La tabla muestra algunos valores, que corresponden a la expresión C = 500m + 2.000, donde C es el costo en pesos y m los minutos de uso.",
+"tabla": {
+"titulo": "Costo del servicio de bicicletas",
+"cols": [
+"Minutos de uso (m)",
+"Costo C (pesos)"
+],
+"filas": [
+[
+"0",
+"2.000"
+],
+[
+"10",
+"7.000"
+],
+[
+"20",
+"12.000"
+],
+[
+"30",
+"17.000"
+]
+]
+},
+"enunciado": "Otra empresa cobra C = 300m + 4.000. Pedro afirma: «La segunda empresa siempre es más cara, porque su cargo fijo es el doble». ¿Qué argumento evalúa correctamente la afirmación de Pedro?",
+"opciones": {
+"A": "Es falsa: para recorridos de más de 10 minutos la segunda empresa es más barata, porque cobra menos por minuto.",
+"B": "Es verdadera: como 4.000 es mayor que 2.000, la segunda empresa cobra más en cualquier recorrido.",
+"C": "Es falsa: la segunda empresa es más barata solo para recorridos de menos de 10 minutos.",
+"D": "Es falsa: la segunda empresa solo es más barata en recorridos de más de 20 minutos."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Comparar solo el cargo fijo",
+"porque": "Elegiste B porque probablemente miraste solo el número independiente y no cómo crece cada costo con los minutos.",
+"pregunta_guia": "Para un recorrido de 30 minutos, ¿cuánto cobra cada empresa?",
+"aprende": "A 30 minutos: 17.000 frente a 13.000. La pendiente menor hace que la segunda sea más barata en recorridos largos."
+},
+"C": {
+"error": "Invertir el sentido de la desigualdad",
+"porque": "Elegiste C porque probablemente hallaste bien el punto de corte (10 min) pero te confundiste de lado.",
+"pregunta_guia": "Para 5 minutos, ¿cuánto cobra cada empresa? ¿Cuál es más barata?",
+"aprende": "Con 5 minutos: 4.500 frente a 5.500, la primera es más barata. La segunda gana después de 10 minutos."
+},
+"D": {
+"error": "Plantear mal la ecuación del punto de corte",
+"porque": "Elegiste D porque probablemente dividiste 4.000 entre 200 y no tuviste en cuenta el cargo fijo de 2.000 de la primera empresa.",
+"pregunta_guia": "Al igualar 500m + 2.000 = 300m + 4.000, ¿qué número queda a la derecha después de restar 2.000?",
+"aprende": "200m = 2.000 ⇒ m = 10 minutos."
+}
+},
+"explicacion": "Paso 1: Plantea cuándo la segunda es más barata: 300m + 4.000 < 500m + 2.000. Paso 2: Resta 300m y 2.000: 2.000 < 200m. Paso 3: m > 10. Paso 4: Comprueba con 30 min: primera 17.000, segunda 13.000. Paso 5: La afirmación de Pedro es falsa; la opción A da la razón correcta.",
+"tip": "Un cargo fijo alto puede compensarse con un costo por unidad bajo: compara siempre ambas cosas.",
+"truco": "Iguala los costos para hallar el «punto de empate»; después prueba un valor a cada lado.",
+"estrategia_icfes": "El ICFES usa afirmaciones con «siempre» o «nunca» para evaluar argumentación. Basta encontrar un caso que contradiga la afirmación; luego elige la opción con el intervalo correcto.",
+"temas": [
+"desigualdades lineales",
+"comparación de funciones",
+"decisiones de consumo"
+],
+"gemela": {
+"enunciado": "Plan 1: C = 700m + 1.500. Plan 2: C = 500m + 5.500. ¿Para cuántos minutos el plan 2 es más barato?",
+"opciones": {
+"A": "Para menos de 20 minutos.",
+"B": "Para más de 8 minutos.",
+"C": "Para más de 20 minutos.",
+"D": "Para más de 27,5 minutos."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 500m + 5.500 < 700m + 1.500. Paso 2: 4.000 < 200m. Paso 3: m > 20 minutos."
+}
+},
+{
+"id": "P10-MAT-C011",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta gráficas de funciones lineales que describen movimientos y determina el punto de intersección de dos de ellas.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto la información presentada en gráficas cartesianas de funciones.",
+"afirmacion": "Interpreta la intersección de dos gráficas lineales en el contexto de un movimiento.",
+"evidencia": "Lee en la gráfica el instante en que las dos funciones toman el mismo valor.",
+"contexto": "Durante la ciclovía dominical de Cali, Mariana (A) y su tío Jaime (B) recorren la misma vía en el mismo sentido a velocidad constante. Jaime salió 4 km adelante. La gráfica muestra la distancia de cada uno al punto de partida de Mariana.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Distancia recorrida en la ciclovía",
+"etiquetas": [
+"0 min",
+"10 min",
+"20 min",
+"30 min",
+"40 min"
+],
+"series": [
+{
+"nombre": "Mariana (A)",
+"datos": [
+0,
+3,
+6,
+9,
+12
+]
+},
+{
+"nombre": "Jaime (B)",
+"datos": [
+4,
+6,
+8,
+10,
+12
+]
+}
+],
+"ejeY": "km"
+},
+"enunciado": "Según la gráfica, ¿en qué momento Mariana alcanza a Jaime?",
+"opciones": {
+"A": "A los 12 minutos.",
+"B": "A los 20 minutos.",
+"C": "A los 40 minutos.",
+"D": "A los 4 minutos."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir el eje vertical con el horizontal",
+"porque": "Elegiste 12 minutos porque probablemente leíste el valor de la distancia (12 km) del punto de encuentro como si fuera el tiempo.",
+"pregunta_guia": "En la gráfica, ¿el tiempo se lee en el eje horizontal o en el vertical?",
+"aprende": "El encuentro es el punto (40 min, 12 km): el tiempo es 40 min y la distancia 12 km."
+},
+"B": {
+"error": "Elegir un punto donde las rectas no se cortan",
+"porque": "Elegiste 20 minutos porque probablemente viste que a mitad del recorrido las líneas se acercan.",
+"pregunta_guia": "A los 20 minutos, ¿Mariana está en 6 km y Jaime en 8 km, o en el mismo lugar?",
+"aprende": "Alcanzar significa estar a la misma distancia: las dos series deben tener el mismo valor."
+},
+"D": {
+"error": "Usar la ventaja inicial como tiempo",
+"porque": "Elegiste 4 minutos porque probablemente tomaste los 4 km de ventaja de Jaime como si fueran minutos.",
+"pregunta_guia": "¿Las unidades de esa ventaja son kilómetros o minutos?",
+"aprende": "La ventaja es 4 km; Mariana la recupera a razón de 0,1 km por minuto (0,3 − 0,2), lo que tarda 40 minutos."
+}
+},
+"explicacion": "Paso 1: Busca el punto en que ambas series tienen el mismo valor. Paso 2: A los 40 minutos, Mariana está en 12 km y Jaime también en 12 km. Paso 3: Comprobación algebraica: Mariana d = 0,3t, Jaime d = 4 + 0,2t; 0,3t = 4 + 0,2t ⇒ 0,1t = 4 ⇒ t = 40 min.",
+"tip": "«Alcanzar», «igualar» o «encontrarse» en una gráfica = el punto donde se cruzan las líneas.",
+"truco": "Tiempo de alcance = ventaja ÷ diferencia de velocidades.",
+"estrategia_icfes": "En gráficas con dos series, el ICFES pregunta por cruces, máximos o diferencias. Ubica qué eje responde la pregunta (aquí, el tiempo) antes de leer el valor.",
+"temas": [
+"intersección de rectas",
+"lectura de gráficas",
+"movimiento uniforme"
+],
+"gemela": {
+"enunciado": "Un ciclista sigue d = 5t y otro, que lleva 6 km de ventaja, sigue d = 6 + 2t (d en km, t en horas). ¿Cuándo se encuentran?",
+"opciones": {
+"A": "A las 2 horas, a 10 km del inicio.",
+"B": "A las 6 horas, a 30 km del inicio.",
+"C": "A las 3 horas, a 15 km del inicio.",
+"D": "A 1,2 horas, a 6 km del inicio."
+},
+"correcta": "A",
+"explicacion": "Paso 1: 5t = 6 + 2t ⇒ 3t = 6 ⇒ t = 2 h. Paso 2: d = 5 × 2 = 10 km."
+}
+},
+{
+"id": "P10-MAT-C012",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): relaciona la pendiente de una recta con la rapidez de cambio de una magnitud respecto al tiempo.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): analizo las relaciones y propiedades entre las expresiones algebraicas y las gráficas de funciones.",
+"afirmacion": "Valida o refuta conclusiones sobre la rapidez de cambio a partir de la gráfica de funciones lineales.",
+"evidencia": "Distingue entre el valor inicial (intercepto) y la rapidez (pendiente) al comparar dos rectas.",
+"contexto": "Durante la ciclovía dominical de Cali, Mariana (A) y su tío Jaime (B) recorren la misma vía en el mismo sentido a velocidad constante. Jaime salió 4 km adelante. La gráfica muestra la distancia de cada uno al punto de partida de Mariana.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Distancia recorrida en la ciclovía",
+"etiquetas": [
+"0 min",
+"10 min",
+"20 min",
+"30 min",
+"40 min"
+],
+"series": [
+{
+"nombre": "Mariana (A)",
+"datos": [
+0,
+3,
+6,
+9,
+12
+]
+},
+{
+"nombre": "Jaime (B)",
+"datos": [
+4,
+6,
+8,
+10,
+12
+]
+}
+],
+"ejeY": "km"
+},
+"enunciado": "Camila observa la gráfica y afirma: «Jaime es más rápido que Mariana, porque su línea siempre está por encima o igual». ¿Cuál de las siguientes afirmaciones sobre lo que dice Camila es correcta?",
+"opciones": {
+"A": "Tiene razón, porque a los 30 minutos Jaime está en 10 km y Mariana solo en 9 km.",
+"B": "No tiene razón: estar más arriba indica la ventaja inicial; la rapidez es la pendiente, y Mariana avanza 0,3 km/min frente a 0,2 km/min de Jaime.",
+"C": "Tiene razón, porque Jaime empezó en 4 km y por eso su velocidad es 4 km/min.",
+"D": "No tiene razón, porque los dos van igual de rápido: ambos llegan a 12 km a los 40 minutos."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir posición con rapidez",
+"porque": "Elegiste A porque probablemente comparaste dónde está cada uno en un instante, no cuánto avanza cada uno por minuto.",
+"pregunta_guia": "Entre los 0 y los 10 minutos, ¿cuántos kilómetros avanzó cada uno?",
+"aprende": "Mariana avanza 3 km cada 10 min; Jaime, 2 km. Estar adelante no es ir más rápido."
+},
+"C": {
+"error": "Tomar el intercepto como velocidad",
+"porque": "Elegiste C porque probablemente creíste que el valor inicial de la recta indica su velocidad.",
+"pregunta_guia": "Los 4 km del inicio, ¿Jaime los recorrió en un minuto o ya los tenía al empezar?",
+"aprende": "El intercepto (4 km) es la posición inicial; la velocidad es Δd/Δt = 2/10 = 0,2 km/min."
+},
+"D": {
+"error": "Concluir igualdad de rapidez por un punto común",
+"porque": "Elegiste D porque probablemente pensaste que llegar al mismo punto al mismo tiempo implica ir a la misma velocidad.",
+"pregunta_guia": "Si los dos van igual de rápido y Jaime empezó adelante, ¿podría Mariana alcanzarlo?",
+"aprende": "Mariana lo alcanza precisamente porque es más rápida: recupera 0,1 km cada minuto."
+}
+},
+"explicacion": "Paso 1: Rapidez de Mariana: (12 − 0)/40 = 0,3 km/min. Paso 2: Rapidez de Jaime: (12 − 4)/40 = 0,2 km/min. Paso 3: La línea de Jaime está arriba por su ventaja inicial de 4 km (intercepto), no por ir más rápido. Paso 4: La línea de Mariana es más empinada: ella es más rápida. Camila no tiene razón; la opción B lo explica correctamente.",
+"tip": "En una gráfica distancia-tiempo, mira la inclinación de la línea, no su altura.",
+"truco": "Más empinada = más rápida; más alta = más adelante.",
+"estrategia_icfes": "El ICFES suele presentar conclusiones que confunden altura con inclinación. Calcula la pendiente de cada recta con dos puntos y elige la justificación basada en la razón de cambio.",
+"temas": [
+"pendiente como rapidez",
+"gráficas distancia-tiempo",
+"intercepto"
+],
+"gemela": {
+"enunciado": "Dos tanques se llenan a ritmo constante. T1 tiene 0, 40, 80 y 120 litros a los 0, 1, 2 y 3 minutos; T2 tiene 100, 120, 140 y 160 litros en esos mismos tiempos. ¿Cuál se llena más rápido?",
+"opciones": {
+"A": "T2, porque siempre tiene más agua.",
+"B": "Los dos igual, porque ambos aumentan cada minuto.",
+"C": "T2, porque empezó con 100 litros.",
+"D": "T1, porque aumenta 40 L/min y T2 solo 20 L/min."
+},
+"correcta": "D",
+"explicacion": "Paso 1: T1: 40 L/min. Paso 2: T2: 20 L/min. Paso 3: la rapidez la da la pendiente: T1 se llena más rápido."
+}
+},
+{
+"id": "P10-MAT-C013",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 10° (MEN 2016): reconoce la ecuación de la circunferencia a partir de su centro y su radio y la usa para modelar situaciones.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): identifico en forma visual, gráfica y algebraica algunas propiedades de las curvas que se observan en los bordes obtenidos por cortes de un cono (cónicas).",
+"afirmacion": "Representa algebraicamente una región circular descrita por su centro y su radio.",
+"evidencia": "Escribe la ecuación (x − h)² + (y − k)² = r² con los valores correctos de h, k y r.",
+"contexto": "En el plano de un barrio de Cali, en el que cada unidad equivale a 100 m, se instala una antena de wifi comunitario en el punto A(3, −2). La antena tiene un alcance de 5 unidades en todas las direcciones, de modo que el borde de la zona de cobertura es una circunferencia.",
+"enunciado": "¿Cuál es la ecuación de la circunferencia que delimita la zona de cobertura de la antena?",
+"opciones": {
+"A": "(x + 3)² + (y − 2)² = 25",
+"B": "(x − 3)² + (y + 2)² = 5",
+"C": "(x − 3)² + (y + 2)² = 10",
+"D": "(x − 3)² + (y + 2)² = 25"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Signos del centro invertidos",
+"porque": "Elegiste A porque probablemente escribiste las coordenadas del centro con el mismo signo que aparecen dentro del paréntesis.",
+"pregunta_guia": "Si reemplazas el centro (3, −2) en (x + 3)² + (y − 2)², ¿obtienes 0?",
+"aprende": "En (x − h)² + (y − k)², con h = 3 y k = −2 queda (x − 3)² + (y + 2)²."
+},
+"B": {
+"error": "No elevar el radio al cuadrado",
+"porque": "Elegiste B porque probablemente escribiste el radio directamente en el lado derecho.",
+"pregunta_guia": "En la fórmula, ¿el lado derecho es r o r²?",
+"aprende": "El lado derecho es r² = 5² = 25."
+},
+"C": {
+"error": "Confundir radio al cuadrado con diámetro",
+"porque": "Elegiste C porque probablemente multiplicaste el radio por 2 en lugar de elevarlo al cuadrado.",
+"pregunta_guia": "¿Qué es r²: r × 2 o r × r?",
+"aprende": "r² = 5 × 5 = 25; 10 sería el diámetro, que no aparece en la ecuación."
+}
+},
+"explicacion": "Paso 1: La ecuación de una circunferencia de centro (h, k) y radio r es (x − h)² + (y − k)² = r². Paso 2: h = 3, k = −2, r = 5. Paso 3: (x − 3)² + (y − (−2))² = 5². Paso 4: (x − 3)² + (y + 2)² = 25.",
+"tip": "Comprueba el centro: al reemplazarlo en el lado izquierdo debe dar 0.",
+"truco": "Dentro del paréntesis el signo «cambia»: centro (3, −2) → (x − 3) y (y + 2).",
+"estrategia_icfes": "El ICFES presenta zonas de cobertura, riego o sonido como circunferencias. Identifica centro y radio, cuida los signos y recuerda que a la derecha va r². Los distractores juegan con signos y con r frente a r².",
+"temas": [
+"ecuación de la circunferencia",
+"centro y radio",
+"cónicas"
+],
+"gemela": {
+"enunciado": "Una antena está en (−1, 4) y tiene un alcance de 3 unidades. ¿Cuál es la ecuación del borde de su cobertura?",
+"opciones": {
+"A": "(x − 1)² + (y + 4)² = 9",
+"B": "(x + 1)² + (y − 4)² = 9",
+"C": "(x + 1)² + (y − 4)² = 3",
+"D": "(x + 1)² + (y − 4)² = 6"
+},
+"correcta": "B",
+"explicacion": "Paso 1: h = −1, k = 4, r = 3. Paso 2: (x + 1)² + (y − 4)² = 9."
+}
+},
+{
+"id": "P10-MAT-C014",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"sabic": "Educación digital e IA",
+"dba": "DBA Matemáticas 10° (MEN 2016): usa la distancia entre puntos para decidir si un punto está dentro, sobre o fuera de una circunferencia.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos geométricos para resolver y formular problemas en contextos matemáticos y de otras ciencias.",
+"afirmacion": "Valida o refuta una conclusión sobre la posición de un punto respecto a una circunferencia.",
+"evidencia": "Compara la distancia del punto al centro con el radio para justificar si el punto está en la zona de cobertura.",
+"contexto": "En el plano de un barrio de Cali, en el que cada unidad equivale a 100 m, se instala una antena de wifi comunitario en el punto A(3, −2). La antena tiene un alcance de 5 unidades en todas las direcciones, de modo que el borde de la zona de cobertura es una circunferencia.",
+"enunciado": "La casa de Mariana está en el punto M(7, 2). Ella afirma: «Mi casa está dentro de la cobertura, porque me separan 4 unidades horizontales y 4 verticales de la antena, y las dos son menores que 5». ¿Qué argumento evalúa correctamente la afirmación de Mariana?",
+"opciones": {
+"A": "Es correcta, porque si cada desplazamiento es menor que el radio, el punto queda dentro del círculo.",
+"B": "Es correcta, porque el promedio de los desplazamientos es 4, que es menor que 5.",
+"C": "Es incorrecta, porque la distancia real a la antena es √(4² + 4²) ≈ 5,66 unidades, mayor que el radio 5.",
+"D": "Es incorrecta, porque la distancia a la antena es 4 + 4 = 8 unidades, mayor que el radio 5."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Comparar cada coordenada por separado con el radio",
+"porque": "Elegiste A porque probablemente pensaste que basta con que cada cambio sea menor que el radio, como si la zona fuera un cuadrado.",
+"pregunta_guia": "Si caminas 4 al oriente y luego 4 al norte, ¿a qué distancia en línea recta quedas del punto de partida?",
+"aprende": "Hay que combinar los desplazamientos con Pitágoras: √32 ≈ 5,66 > 5."
+},
+"B": {
+"error": "Usar un promedio sin sentido geométrico",
+"porque": "Elegiste B porque probablemente buscaste un único número promediando los desplazamientos.",
+"pregunta_guia": "¿La distancia entre dos puntos se calcula con un promedio o con el teorema de Pitágoras?",
+"aprende": "La distancia es √(Δx² + Δy²), no el promedio de Δx y Δy."
+},
+"D": {
+"error": "Sumar los catetos en lugar de usar Pitágoras",
+"porque": "Elegiste D porque probablemente llegaste a la conclusión correcta, pero calculaste la distancia como 4 + 4.",
+"pregunta_guia": "¿La distancia en línea recta es la suma de los catetos o la hipotenusa?",
+"aprende": "La conclusión debe sostenerse con un cálculo correcto: d = √(16 + 16) ≈ 5,66."
+}
+},
+"explicacion": "Paso 1: Δx = 7 − 3 = 4 y Δy = 2 − (−2) = 4. Paso 2: d = √(4² + 4²) = √32 ≈ 5,66. Paso 3: Compara con el radio: 5,66 > 5. Paso 4: La casa está fuera de la cobertura. Mariana se equivoca porque comparó cada cambio por separado; el argumento correcto es C.",
+"tip": "Un punto está dentro de un círculo si su distancia al centro es menor que el radio.",
+"truco": "Atajo sin raíz: compara Δx² + Δy² con r²: 32 > 25 → fuera.",
+"estrategia_icfes": "En Argumentación el ICFES incluye opciones con la conclusión correcta pero con un cálculo equivocado (como D). Exige que la opción tenga conclusión Y justificación correctas.",
+"temas": [
+"distancia entre puntos",
+"posición de un punto respecto a una circunferencia",
+"argumentación"
+],
+"gemela": {
+"contexto": "Una antena está en (−2, 1) y su alcance es de 10 unidades.",
+"enunciado": "Juan vive en (5, 8) y dice que está fuera de la cobertura porque 7 + 7 = 14 > 10. ¿Tiene razón?",
+"opciones": {
+"A": "Sí, porque la distancia es 14 unidades.",
+"B": "Sí, porque cada desplazamiento es 7.",
+"C": "No, porque la distancia es √98 ≈ 9,9 unidades, menor que 10.",
+"D": "No, porque la distancia es 7, menor que 10."
+},
+"correcta": "C",
+"explicacion": "Paso 1: Δx = 7, Δy = 7. Paso 2: d = √(49 + 49) = √98 ≈ 9,9 < 10. Paso 3: Juan está dentro de la cobertura."
+}
+},
+{
+"id": "P10-MAT-C015",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 10° (MEN 2016): transforma la ecuación general de una circunferencia a su forma canónica para identificar su centro y su radio.",
+"lineamiento": "Pensamiento espacial y pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas en los que se usen las propiedades geométricas de las cónicas de manera algebraica.",
+"afirmacion": "Ejecuta el procedimiento de completar cuadrados para hallar los elementos de una circunferencia.",
+"evidencia": "Agrupa términos, completa trinomios cuadrados perfectos y despeja r².",
+"contexto": "En la clase de STEAM, un grupo diseña en un software la pista circular de un robot. El programa muestra la ecuación general de la pista: x² + y² − 6x + 8y = 0 (en metros).",
+"enunciado": "¿Cuáles son el centro y el radio de la pista?",
+"opciones": {
+"A": "Centro (3, −4) y radio 5 m",
+"B": "Centro (−3, 4) y radio 5 m",
+"C": "Centro (3, −4) y radio 25 m",
+"D": "Centro (−6, 8) y radio 10 m"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Signos del centro invertidos",
+"porque": "Elegiste B porque probablemente tomaste el centro con los signos de −6x y +8y divididos entre 2, sin cambiarlos.",
+"pregunta_guia": "Si (x − 3)² viene de x² − 6x, ¿la coordenada x del centro es 3 o −3?",
+"aprende": "x² − 6x = (x − 3)² − 9 → h = 3; y² + 8y = (y + 4)² − 16 → k = −4."
+},
+"C": {
+"error": "Confundir r² con r",
+"porque": "Elegiste C porque probablemente completaste bien los cuadrados pero olvidaste sacar la raíz de 25.",
+"pregunta_guia": "En (x − 3)² + (y + 4)² = 25, ¿25 es el radio o el radio al cuadrado?",
+"aprende": "r² = 25 ⇒ r = 5 m."
+},
+"D": {
+"error": "Usar los coeficientes sin dividir entre 2",
+"porque": "Elegiste D porque probablemente tomaste −6 y 8 como coordenadas del centro y no completaste cuadrados.",
+"pregunta_guia": "Al desarrollar (x − h)², ¿qué coeficiente acompaña a x: h o 2h?",
+"aprende": "El coeficiente de x es −2h: −2h = −6 ⇒ h = 3."
+}
+},
+"explicacion": "Paso 1: Agrupa: (x² − 6x) + (y² + 8y) = 0. Paso 2: Completa cuadrados: (x² − 6x + 9) + (y² + 8y + 16) = 0 + 9 + 16. Paso 3: (x − 3)² + (y + 4)² = 25. Paso 4: Centro (3, −4) y r = √25 = 5 m. Comprobación: el origen cumple la ecuación (9 + 16 = 25), y su distancia al centro es 5.",
+"tip": "Lo que sumas a un lado para completar el cuadrado, súmalo también al otro lado.",
+"truco": "Centro = (−D/2, −E/2) en x² + y² + Dx + Ey + F = 0: (−(−6)/2, −8/2) = (3, −4).",
+"estrategia_icfes": "El ICFES puede dar la ecuación desarrollada para que identifiques elementos. Completa cuadrados con orden, verifica el signo del centro y saca la raíz al final.",
+"temas": [
+"completar cuadrados",
+"ecuación general de la circunferencia",
+"cónicas"
+],
+"gemela": {
+"enunciado": "¿Cuál es el centro y el radio de la circunferencia x² + y² + 4x − 10y + 20 = 0?",
+"opciones": {
+"A": "Centro (2, −5) y radio 3",
+"B": "Centro (−2, 5) y radio 9",
+"C": "Centro (−2, 5) y radio 3",
+"D": "Centro (−4, 10) y radio 3"
+},
+"correcta": "C",
+"explicacion": "Paso 1: (x + 2)² − 4 + (y − 5)² − 25 + 20 = 0. Paso 2: (x + 2)² + (y − 5)² = 9. Paso 3: centro (−2, 5), r = 3."
+}
+},
+{
+"id": "P10-MAT-C016",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"sabic": "STEAM",
+"dba": "DBA Matemáticas 10° (MEN 2016): reconoce la parábola como lugar geométrico e identifica su foco y su vértice a partir de la ecuación.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): identifico en forma visual, gráfica y algebraica algunas propiedades de las cónicas y las uso en situaciones de la ciencia y la tecnología.",
+"afirmacion": "Ejecuta un procedimiento para ubicar el foco de una parábola en un diseño tecnológico.",
+"evidencia": "Compara y = x²/80 con x² = 4py para obtener p y las coordenadas del foco.",
+"contexto": "Estudiantes de CENTEC construyen un horno solar con un reflector cuyo perfil es parabólico. Ubicando el vértice del reflector en el origen, el perfil sigue la ecuación y = x²/80, con x y y en centímetros. Los rayos del sol que llegan paralelos al eje se reflejan y se concentran en el foco, donde debe ponerse la olla.",
+"enunciado": "¿En qué punto deben ubicar la olla para aprovechar al máximo la energía?",
+"opciones": {
+"A": "(0, 80)",
+"B": "(0, 20)",
+"C": "(0, 40)",
+"D": "(0, 1/80)"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Tomar 4p como si fuera p",
+"porque": "Elegiste (0, 80) porque probablemente leíste el 80 de la ecuación directamente como la distancia al foco.",
+"pregunta_guia": "En x² = 4py, ¿80 corresponde a p o a 4p?",
+"aprende": "4p = 80 ⇒ p = 20 cm."
+},
+"C": {
+"error": "Dividir entre 2 en lugar de entre 4",
+"porque": "Elegiste (0, 40) porque probablemente recordaste que había que dividir, pero usaste 2p en lugar de 4p.",
+"pregunta_guia": "¿Cuál es la forma canónica de la parábola con vértice en el origen y eje vertical?",
+"aprende": "La forma es x² = 4py; por eso p = 80/4."
+},
+"D": {
+"error": "Usar el coeficiente de x² como foco",
+"porque": "Elegiste (0, 1/80) porque probablemente tomaste el coeficiente 1/80 de la ecuación como coordenada del foco.",
+"pregunta_guia": "Si despejas x² en y = x²/80, ¿qué número multiplica a y?",
+"aprende": "y = x²/80 ⇔ x² = 80y; de ahí 4p = 80. El coeficiente 1/80 equivale a 1/(4p)."
+}
+},
+"explicacion": "Paso 1: Escribe la ecuación como x² = 80y. Paso 2: Compárala con la forma canónica x² = 4py. Paso 3: 4p = 80 ⇒ p = 20. Paso 4: Con vértice en (0, 0) y eje vertical, el foco es (0, p) = (0, 20). La olla va a 20 cm del vértice, sobre el eje.",
+"tip": "En reflectores, antenas parabólicas y faros, lo importante siempre está en el foco.",
+"truco": "y = x²/(4p): el número del denominador dividido entre 4 te da la distancia al foco.",
+"estrategia_icfes": "El ICFES contextualiza cónicas con aplicaciones (antenas, faros, puentes). Lleva la ecuación a su forma canónica, identifica el parámetro p y relaciónalo con lo que pide el contexto.",
+"temas": [
+"parábola",
+"foco y vértice",
+"aplicaciones de las cónicas"
+],
+"gemela": {
+"enunciado": "Una antena parabólica tiene perfil y = x²/40 (en cm), con vértice en el origen. ¿Dónde está su foco?",
+"opciones": {
+"A": "(0, 40)",
+"B": "(0, 20)",
+"C": "(0, 1/40)",
+"D": "(0, 10)"
+},
+"correcta": "D",
+"explicacion": "Paso 1: x² = 40y. Paso 2: 4p = 40 ⇒ p = 10. Paso 3: foco (0, 10)."
+}
+},
+{
+"id": "P10-MAT-C017",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta la forma vértice de una función cuadrática y halla sus ceros para resolver problemas.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): modelo situaciones de variación con funciones polinómicas.",
+"afirmacion": "Plantea y resuelve una ecuación cuadrática a partir de un modelo dado en forma vértice.",
+"evidencia": "Iguala la función a cero, despeja el cuadrado y obtiene los dos puntos de apoyo del arco.",
+"contexto": "La entrada de un parque en Cali tiene un arco con forma de parábola. Si x es la distancia horizontal (en metros) medida desde el pie izquierdo del arco, la altura del arco es h(x) = −0,5(x − 4)² + 8.",
+"enunciado": "¿Cuál es el ancho del arco al nivel del suelo?",
+"opciones": {
+"A": "4 m",
+"B": "16 m",
+"C": "8 m",
+"D": "12 m"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Tomar la coordenada del vértice como ancho",
+"porque": "Elegiste 4 m porque probablemente confundiste la posición del punto más alto (x = 4) con el ancho total.",
+"pregunta_guia": "Si el punto más alto está a 4 m del pie izquierdo, ¿dónde está el pie derecho?",
+"aprende": "El vértice está en la mitad del arco: el ancho es el doble, 8 m."
+},
+"B": {
+"error": "No sacar raíz cuadrada",
+"porque": "Elegiste 16 m porque probablemente llegaste a (x − 4)² = 16 y tomaste 16 como el ancho.",
+"pregunta_guia": "Si (x − 4)² = 16, ¿cuánto vale x − 4?",
+"aprende": "x − 4 = ±4 ⇒ x = 0 o x = 8; ancho 8 − 0 = 8 m."
+},
+"D": {
+"error": "Sumar el vértice y una raíz",
+"porque": "Elegiste 12 m porque probablemente sumaste la posición del vértice (4) y una de las soluciones (8).",
+"pregunta_guia": "¿El ancho es la distancia entre las dos soluciones o la suma de dos números del problema?",
+"aprende": "El ancho es la diferencia entre los ceros: 8 − 0 = 8 m."
+}
+},
+"explicacion": "Paso 1: El arco toca el suelo cuando h(x) = 0. Paso 2: −0,5(x − 4)² + 8 = 0 ⇒ (x − 4)² = 16. Paso 3: x − 4 = 4 o x − 4 = −4 ⇒ x = 8 o x = 0. Paso 4: Ancho = 8 − 0 = 8 m. Comprobación: h(0) = −0,5·16 + 8 = 0 ✓.",
+"tip": "En la forma vértice y = a(x − h)² + k, el vértice es (h, k) y la gráfica es simétrica respecto a x = h.",
+"truco": "Ceros = h ± √(−k/a): 4 ± √16 = 4 ± 4.",
+"estrategia_icfes": "El ICFES usa arcos, puentes y lanzamientos para preguntar por alturas máximas o anchos. Traduce «al nivel del suelo» como h = 0 y aprovecha la simetría de la parábola.",
+"temas": [
+"función cuadrática",
+"forma vértice",
+"ceros de una función"
+],
+"gemela": {
+"enunciado": "Un chorro de agua sigue h(x) = −2(x − 3)² + 18 (en metros). ¿A qué distancia horizontal entre sí están los dos puntos donde h = 0?",
+"opciones": {
+"A": "6 m",
+"B": "3 m",
+"C": "9 m",
+"D": "18 m"
+},
+"correcta": "A",
+"explicacion": "Paso 1: (x − 3)² = 9. Paso 2: x = 0 o x = 6. Paso 3: distancia 6 m."
+}
+},
+{
+"id": "P10-MAT-C018",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Satisfactorio",
+"dba": "DBA Matemáticas 10° (MEN 2016): identifica los elementos de una elipse (ejes y semiejes) a partir de su ecuación canónica.",
+"lineamiento": "Pensamiento espacial y sistemas geométricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): identifico en forma visual, gráfica y algebraica algunas propiedades de las curvas cónicas.",
+"afirmacion": "Interpreta la ecuación canónica de una elipse para obtener las dimensiones de un objeto.",
+"evidencia": "Relaciona a² y b² con los semiejes y obtiene el largo y el ancho como 2a y 2b.",
+"contexto": "Una carpintería de Cali fabrica una mesa con forma de elipse. Con el centro de la mesa en el origen, el borde sigue la ecuación x²/25 + y²/9 = 1, donde x y y están en decímetros.",
+"enunciado": "¿Cuáles son el largo y el ancho máximos de la mesa?",
+"opciones": {
+"A": "10 dm de largo y 6 dm de ancho",
+"B": "5 dm de largo y 3 dm de ancho",
+"C": "25 dm de largo y 9 dm de ancho",
+"D": "50 dm de largo y 18 dm de ancho"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir semiejes con ejes",
+"porque": "Elegiste B porque probablemente calculaste bien a = 5 y b = 3, pero esas son las distancias desde el centro hasta el borde.",
+"pregunta_guia": "Si del centro al borde derecho hay 5 dm, ¿cuánto hay de borde a borde?",
+"aprende": "Largo = 2a = 10 dm; ancho = 2b = 6 dm."
+},
+"C": {
+"error": "Usar los denominadores sin sacar raíz",
+"porque": "Elegiste C porque probablemente tomaste 25 y 9 como medidas directas.",
+"pregunta_guia": "En x²/a², ¿el 25 es a o a²?",
+"aprende": "a² = 25 ⇒ a = 5; b² = 9 ⇒ b = 3."
+},
+"D": {
+"error": "Duplicar sin sacar raíz",
+"porque": "Elegiste D porque probablemente recordaste que hay que multiplicar por 2, pero lo hiciste con a² y b².",
+"pregunta_guia": "¿Qué debes hacer primero con 25: sacarle raíz o multiplicarlo por 2?",
+"aprende": "Primero la raíz (a = 5), luego el doble (2a = 10)."
+}
+},
+"explicacion": "Paso 1: La forma canónica es x²/a² + y²/b² = 1. Paso 2: a² = 25 ⇒ a = 5; b² = 9 ⇒ b = 3. Paso 3: El eje mayor mide 2a = 10 dm y el menor 2b = 6 dm. Paso 4: La mesa mide 10 dm (1 m) de largo y 6 dm de ancho. Comprobación: (5, 0) y (0, 3) cumplen la ecuación.",
+"tip": "Para hallar los extremos de la elipse, haz y = 0 (te da ±a) y x = 0 (te da ±b).",
+"truco": "Raíz primero, doble después: √25 = 5 → 10.",
+"estrategia_icfes": "El ICFES pregunta por dimensiones reales de objetos elípticos (mesas, pistas, órbitas). Recuerda que la ecuación da semiejes al cuadrado; transforma con cuidado.",
+"temas": [
+"elipse",
+"ejes y semiejes",
+"cónicas"
+],
+"gemela": {
+"enunciado": "Una pista tiene borde x²/49 + y²/16 = 1 (en decámetros). ¿Cuáles son su largo y su ancho máximos?",
+"opciones": {
+"A": "7 dam y 4 dam",
+"B": "49 dam y 16 dam",
+"C": "98 dam y 32 dam",
+"D": "14 dam y 8 dam"
+},
+"correcta": "D",
+"explicacion": "Paso 1: a = 7, b = 4. Paso 2: largo 2a = 14 dam, ancho 2b = 8 dam."
+}
+},
+{
+"id": "P10-MAT-C019",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 10° (MEN 2016): usa las razones trigonométricas en triángulos rectángulos para calcular distancias inaccesibles.",
+"lineamiento": "Pensamiento métrico y espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): describo y modelo fenómenos periódicos y resuelvo problemas con razones trigonométricas en triángulos rectángulos.",
+"afirmacion": "Plantea y ejecuta un procedimiento con razones trigonométricas para hallar una altura.",
+"evidencia": "Selecciona la tangente porque relaciona el cateto opuesto (altura) con el adyacente (distancia conocida).",
+"contexto": "Un técnico de una empresa de energía del Valle del Cauca quiere conocer la altura de una torre. Se ubica a 40 m de la base de la torre, sobre terreno plano, y mide un ángulo de elevación de 35° hasta la punta. (Usa: sen 35° ≈ 0,574; cos 35° ≈ 0,819; tan 35° ≈ 0,700.)",
+"enunciado": "Sin tener en cuenta la estatura del técnico, ¿cuál es, aproximadamente, la altura de la torre?",
+"opciones": {
+"A": "22,9 m",
+"B": "32,8 m",
+"C": "57,1 m",
+"D": "28,0 m"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar seno en lugar de tangente",
+"porque": "Elegiste 22,9 m porque probablemente multiplicaste 40 × sen 35°, como si 40 m fuera la hipotenusa.",
+"pregunta_guia": "Los 40 m, ¿son la distancia por el suelo (cateto adyacente) o la línea de visión (hipotenusa)?",
+"aprende": "Opuesto y adyacente se relacionan con la tangente: h = 40 × tan 35°."
+},
+"B": {
+"error": "Usar coseno",
+"porque": "Elegiste 32,8 m porque probablemente aplicaste 40 × cos 35°.",
+"pregunta_guia": "¿Qué razón trigonométrica tiene en el numerador el cateto opuesto?",
+"aprende": "cos = adyacente/hipotenusa; aquí no conoces ni buscas la hipotenusa."
+},
+"C": {
+"error": "Dividir en lugar de multiplicar",
+"porque": "Elegiste 57,1 m porque probablemente despejaste mal: h = 40 ÷ tan 35°.",
+"pregunta_guia": "Si tan 35° = h/40, ¿cómo se despeja h?",
+"aprende": "h = 40 × tan 35° ≈ 40 × 0,700 = 28,0 m."
+}
+},
+"explicacion": "Paso 1: Dibuja el triángulo: cateto adyacente 40 m (suelo), cateto opuesto h (torre), ángulo 35°. Paso 2: tan 35° = h/40. Paso 3: h = 40 × tan 35° ≈ 40 × 0,700 = 28,0 m. Paso 4: La torre mide aproximadamente 28 m.",
+"tip": "Dibuja siempre el triángulo y marca qué lado conoces y cuál buscas respecto al ángulo.",
+"truco": "SOH-CAH-TOA: Seno = Opuesto/Hipotenusa, Coseno = Adyacente/Hipotenusa, Tangente = Opuesto/Adyacente.",
+"estrategia_icfes": "El ICFES da los valores de las razones para no depender de calculadora. Elige la razón que relaciona el dato con la incógnita; los distractores son las otras dos razones y el despeje invertido.",
+"temas": [
+"razones trigonométricas",
+"ángulo de elevación",
+"triángulo rectángulo"
+],
+"gemela": {
+"enunciado": "Desde 25 m de la base de un edificio se ve su punta con un ángulo de elevación de 50° (tan 50° ≈ 1,192). ¿Cuál es la altura aproximada del edificio?",
+"opciones": {
+"A": "29,8 m",
+"B": "21,0 m",
+"C": "19,2 m",
+"D": "16,1 m"
+},
+"correcta": "A",
+"explicacion": "Paso 1: tan 50° = h/25. Paso 2: h = 25 × 1,192 ≈ 29,8 m."
+}
+},
+{
+"id": "P10-MAT-C020",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° (MEN 2016): aplica el teorema del coseno para resolver triángulos no rectángulos en situaciones de navegación y topografía.",
+"lineamiento": "Pensamiento métrico y espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso argumentos geométricos para resolver y formular problemas con los teoremas del seno y del coseno.",
+"afirmacion": "Ejecuta un procedimiento con el teorema del coseno para calcular una distancia.",
+"evidencia": "Identifica que el triángulo no es rectángulo y aplica c² = a² + b² − 2ab·cos C.",
+"contexto": "Dos lanchas salen al mismo tiempo del muelle de Buenaventura en línea recta. Una recorre 30 km y la otra 40 km, y las trayectorias forman un ángulo de 60° entre sí. (cos 60° = 0,5.)",
+"enunciado": "¿Cuál es, aproximadamente, la distancia entre las dos lanchas en ese momento?",
+"opciones": {
+"A": "50,0 km",
+"B": "36,1 km",
+"C": "70,0 km",
+"D": "60,8 km"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Aplicar Pitágoras a un triángulo no rectángulo",
+"porque": "Elegiste 50 km porque probablemente aplicaste 30² + 40² como si el ángulo fuera de 90°.",
+"pregunta_guia": "¿El ángulo entre las trayectorias es de 90°? ¿Cuándo sirve Pitágoras?",
+"aprende": "Si el ángulo no es recto, se usa el teorema del coseno."
+},
+"C": {
+"error": "Sumar los recorridos",
+"porque": "Elegiste 70 km porque probablemente sumaste las distancias recorridas, como si las lanchas fueran en sentidos opuestos.",
+"pregunta_guia": "Si las trayectorias forman 60°, ¿pueden estar a 70 km una de otra?",
+"aprende": "70 km solo ocurriría con un ángulo de 180°; con 60° la distancia es menor."
+},
+"D": {
+"error": "Error de signo en el teorema del coseno",
+"porque": "Elegiste 60,8 km porque probablemente sumaste el término 2ab·cos C en lugar de restarlo.",
+"pregunta_guia": "En c² = a² + b² − 2ab·cos C, ¿el último término se suma o se resta?",
+"aprende": "c² = 900 + 1.600 − 1.200 = 1.300."
+}
+},
+"explicacion": "Paso 1: El triángulo tiene lados 30 y 40 con ángulo de 60° entre ellos. Paso 2: d² = 30² + 40² − 2(30)(40)·cos 60°. Paso 3: d² = 900 + 1.600 − 2.400 × 0,5 = 2.500 − 1.200 = 1.300. Paso 4: d = √1.300 ≈ 36,1 km.",
+"tip": "Teorema del coseno: úsalo cuando conoces dos lados y el ángulo entre ellos.",
+"truco": "El coseno es «Pitágoras con corrección»: a² + b² − 2ab·cos C. Si C = 90°, el término desaparece.",
+"estrategia_icfes": "El ICFES describe recorridos con ángulos entre trayectorias. Antes de usar Pitágoras, revisa si el ángulo es recto; si no, decide entre el teorema del seno (lado-ángulo opuestos) y el del coseno (dos lados y el ángulo entre ellos).",
+"temas": [
+"teorema del coseno",
+"triángulos oblicuángulos",
+"navegación"
+],
+"gemela": {
+"enunciado": "Dos caminos parten de un mismo punto formando 60°. Un ciclista recorre 5 km por uno y otro 8 km por el otro. ¿A qué distancia quedan?",
+"opciones": {
+"A": "9,4 km",
+"B": "13 km",
+"C": "11,4 km",
+"D": "7 km"
+},
+"correcta": "D",
+"explicacion": "Paso 1: d² = 25 + 64 − 2(5)(8)(0,5) = 89 − 40 = 49. Paso 2: d = 7 km."
+}
+},
+{
+"id": "P10-MAT-C021",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Geometría",
+"nivel": "Avanzado",
+"sabic": "Técnico SENA",
+"dba": "DBA Matemáticas 10° (MEN 2016): selecciona la razón trigonométrica adecuada para hallar ángulos en triángulos rectángulos y justifica decisiones prácticas.",
+"lineamiento": "Pensamiento métrico y espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico la pertinencia de un cálculo con razones trigonométricas en la solución de problemas.",
+"afirmacion": "Valida o refuta una conclusión práctica con base en el cálculo correcto de un ángulo.",
+"evidencia": "Identifica que la distancia a la pared y la longitud de la escalera se relacionan con el coseno del ángulo con el suelo.",
+"contexto": "En una práctica de seguridad en el trabajo, el instructor indica que una escalera portátil es segura si el ángulo que forma con el suelo está entre 70° y 76°. Pedro apoya una escalera de 6 m contra una pared, con el pie a 2,5 m de la pared. (Usa: si cos θ ≈ 0,42, entonces θ ≈ 65°; si tan θ ≈ 0,42, entonces θ ≈ 23°.)",
+"enunciado": "¿Cuál de las siguientes afirmaciones evalúa correctamente si la escalera de Pedro está bien ubicada?",
+"opciones": {
+"A": "Es segura, porque la escalera mide más del doble de la distancia entre su pie y la pared.",
+"B": "No es segura, porque cos θ = 2,5/6 ≈ 0,42, de modo que θ ≈ 65°, menor que 70°.",
+"C": "No es segura, porque tan θ = 2,5/6 ≈ 0,42, de modo que θ ≈ 23°, muy por debajo de 70°.",
+"D": "Es segura, porque la altura que alcanza en la pared es mayor que 5 m."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar una regla intuitiva sin cálculo",
+"porque": "Elegiste A porque probablemente pensaste que basta con que la escalera sea mucho más larga que la distancia a la pared.",
+"pregunta_guia": "¿Qué ángulo resulta realmente con 6 m de escalera y 2,5 m de separación?",
+"aprende": "La seguridad depende del ángulo: cos θ = 2,5/6 da θ ≈ 65°, fuera del rango."
+},
+"C": {
+"error": "Elegir la razón trigonométrica equivocada",
+"porque": "Elegiste C porque probablemente llegaste a la conclusión correcta, pero usaste la tangente con la hipotenusa (6 m) como si fuera un cateto.",
+"pregunta_guia": "En este triángulo, ¿los 6 m de la escalera son un cateto o la hipotenusa?",
+"aprende": "La escalera es la hipotenusa; con adyacente e hipotenusa se usa el coseno."
+},
+"D": {
+"error": "Justificar con un dato verdadero pero irrelevante",
+"porque": "Elegiste D porque probablemente calculaste la altura (√(36 − 6,25) ≈ 5,45 m) y creíste que eso garantiza seguridad.",
+"pregunta_guia": "¿La regla del instructor habla de la altura o del ángulo?",
+"aprende": "El criterio es el ángulo con el suelo; la altura alcanzada no lo decide."
+}
+},
+"explicacion": "Paso 1: Triángulo rectángulo: hipotenusa = 6 m (escalera), cateto adyacente al ángulo con el suelo = 2,5 m. Paso 2: cos θ = 2,5/6 ≈ 0,42. Paso 3: θ ≈ 65°. Paso 4: 65° < 70°, así que la escalera está demasiado inclinada y no es segura. Paso 5: B es la única opción con conclusión y razón correctas. Para corregir, Pedro debe acercar el pie a la pared (entre unos 1,45 m y 2,05 m).",
+"tip": "En Argumentación, una conclusión correcta con una razón falsa sigue siendo incorrecta.",
+"truco": "Escalera = hipotenusa siempre. Con el pie (adyacente) usa coseno; con la altura (opuesto) usa seno.",
+"estrategia_icfes": "El ICFES plantea criterios de decisión (seguridad, normas) y pide evaluar si se cumplen. Resuelve tú el cálculo, compara con el criterio y descarta opciones que usan razones o datos que no corresponden.",
+"temas": [
+"razones trigonométricas",
+"ángulos en triángulos rectángulos",
+"seguridad en el trabajo"
+],
+"gemela": {
+"enunciado": "Con el mismo criterio (entre 70° y 76°), una escalera de 5 m tiene el pie a 1,5 m de la pared (cos θ = 0,3 ⇒ θ ≈ 72,5°). ¿Es segura?",
+"opciones": {
+"A": "No, porque tan θ = 0,3 da θ ≈ 17°.",
+"B": "Sí, porque cos θ = 1,5/5 = 0,3 y θ ≈ 72,5°, dentro del rango.",
+"C": "No, porque sen θ = 0,3 da θ ≈ 17,5°.",
+"D": "Sí, porque 5 m es más que 1,5 m."
+},
+"correcta": "B",
+"explicacion": "Paso 1: cos θ = 1,5/5 = 0,3. Paso 2: θ ≈ 72,5°, entre 70° y 76°. Paso 3: es segura."
+}
+},
+{
+"id": "P10-MAT-C022",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° (MEN 2016): modela fenómenos periódicos con funciones trigonométricas e interpreta su amplitud, su periodo y su valor medio.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): describo y modelo fenómenos periódicos del mundo real usando relaciones y funciones trigonométricas.",
+"afirmacion": "Interpreta los parámetros de una función sinusoidal a partir de una tabla y de su expresión.",
+"evidencia": "Lee en la tabla el máximo, el mínimo y el tiempo entre repeticiones para obtener amplitud y periodo.",
+"contexto": "Un modelo simplificado describe la altura de la marea en el puerto de Buenaventura con h(t) = 2 + 1,5·sen(πt/6), donde h está en metros y t en horas. La tabla muestra algunos valores del modelo.",
+"tabla": {
+"titulo": "Altura de la marea según el modelo",
+"cols": [
+"t (horas)",
+"0",
+"3",
+"6",
+"9",
+"12"
+],
+"filas": [
+[
+"h (m)",
+"2,0",
+"3,5",
+"2,0",
+"0,5",
+"2,0"
+]
+]
+},
+"enunciado": "Según el modelo, ¿cuáles son la amplitud y el periodo de la marea?",
+"opciones": {
+"A": "Amplitud 1,5 m y periodo 12 horas",
+"B": "Amplitud 3,5 m y periodo 12 horas",
+"C": "Amplitud 3 m y periodo 6 horas",
+"D": "Amplitud 1,5 m y periodo 6 horas"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir amplitud con valor máximo",
+"porque": "Elegiste B porque probablemente tomaste la altura máxima (3,5 m) como amplitud.",
+"pregunta_guia": "¿Cuánto sube la marea por encima de su nivel medio de 2 m?",
+"aprende": "Amplitud = (máximo − mínimo)/2 = (3,5 − 0,5)/2 = 1,5 m."
+},
+"C": {
+"error": "Usar la diferencia total y medio ciclo",
+"porque": "Elegiste C porque probablemente restaste máximo menos mínimo sin dividir entre 2 y tomaste el tiempo entre dos valores de 2 m consecutivos como periodo.",
+"pregunta_guia": "Entre t = 0 y t = 6 la marea sube y vuelve a 2 m, ¿ya bajó también hasta 0,5 m?",
+"aprende": "Un ciclo completo incluye subir y bajar: de t = 0 a t = 12. La amplitud es la mitad de 3 m."
+},
+"D": {
+"error": "Tomar medio ciclo como periodo",
+"porque": "Elegiste D porque probablemente calculaste bien la amplitud, pero viste que la altura vuelve a 2 m a las 6 horas.",
+"pregunta_guia": "A las 6 horas la marea vale 2 m pero va bajando; ¿está en el mismo punto del ciclo que en t = 0?",
+"aprende": "Periodo = 2π ÷ (π/6) = 12 horas: tiempo para repetir todo el comportamiento."
+}
+},
+"explicacion": "Paso 1: En h(t) = d + A·sen(Bt), la amplitud es |A| = 1,5 m y el nivel medio d = 2 m. Paso 2: En la tabla: máximo 3,5 m y mínimo 0,5 m; (3,5 − 0,5)/2 = 1,5 m ✓. Paso 3: Periodo = 2π/B = 2π/(π/6) = 12 horas. Paso 4: En la tabla, el comportamiento completo (subir, bajar y volver) va de t = 0 a t = 12 ✓.",
+"tip": "Amplitud = mitad de la distancia entre máximo y mínimo; nunca el máximo directamente.",
+"truco": "Periodo = 2π ÷ (número que multiplica a t).",
+"estrategia_icfes": "El ICFES presenta fenómenos periódicos (mareas, ruedas, sonido) con tablas o gráficas. Ubica máximo, mínimo y el tiempo de un ciclo completo y contrasta con la fórmula.",
+"temas": [
+"funciones trigonométricas",
+"amplitud y periodo",
+"fenómenos periódicos"
+],
+"gemela": {
+"enunciado": "Si h(t) = 3 + 2·sen(πt/4), ¿cuáles son la amplitud y el periodo?",
+"opciones": {
+"A": "Amplitud 5 y periodo 8",
+"B": "Amplitud 2 y periodo 4",
+"C": "Amplitud 3 y periodo 8",
+"D": "Amplitud 2 y periodo 8"
+},
+"correcta": "D",
+"explicacion": "Paso 1: amplitud |A| = 2. Paso 2: periodo 2π ÷ (π/4) = 8."
+}
+},
+{
+"id": "P10-MAT-C023",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"dba": "DBA Matemáticas 10° (MEN 2016): resuelve ecuaciones trigonométricas sencillas asociadas a modelos de fenómenos periódicos.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): modelo fenómenos periódicos y resuelvo problemas con funciones trigonométricas.",
+"afirmacion": "Plantea y resuelve una ecuación trigonométrica para responder una pregunta sobre un fenómeno periódico.",
+"evidencia": "Despeja sen(πt/6) = 0,5, identifica el ángulo π/6 y halla el primer valor de t.",
+"contexto": "Un modelo simplificado describe la altura de la marea en el puerto de Buenaventura con h(t) = 2 + 1,5·sen(πt/6), donde h está en metros y t en horas. La tabla muestra algunos valores del modelo.",
+"tabla": {
+"titulo": "Altura de la marea según el modelo",
+"cols": [
+"t (horas)",
+"0",
+"3",
+"6",
+"9",
+"12"
+],
+"filas": [
+[
+"h (m)",
+"2,0",
+"3,5",
+"2,0",
+"0,5",
+"2,0"
+]
+]
+},
+"enunciado": "Una lancha solo puede entrar al muelle cuando la marea tiene al menos 2,75 m. Según el modelo, ¿cuántas horas después de t = 0 la marea alcanza por primera vez 2,75 m?",
+"opciones": {
+"A": "3 horas",
+"B": "5 horas",
+"C": "7 horas",
+"D": "1 hora"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir el valor pedido con el máximo",
+"porque": "Elegiste 3 horas porque probablemente buscaste el momento de la marea más alta (3,5 m) y no el de 2,75 m.",
+"pregunta_guia": "¿La pregunta pide el máximo o el primer instante en que h = 2,75?",
+"aprende": "Hay que resolver h(t) = 2,75, que ocurre antes del máximo."
+},
+"B": {
+"error": "Tomar la segunda solución",
+"porque": "Elegiste 5 horas porque probablemente encontraste el instante en que la marea, ya bajando, vuelve a pasar por 2,75 m.",
+"pregunta_guia": "¿La marea pasa por 2,75 m una sola vez entre 0 y 6 horas, o dos veces?",
+"aprende": "sen x = 0,5 tiene dos soluciones en un ciclo: π/6 (t = 1) y 5π/6 (t = 5). «Por primera vez» es t = 1."
+},
+"C": {
+"error": "Error de signo al resolver",
+"porque": "Elegiste 7 horas porque probablemente usaste sen x = −0,5 o sumaste medio periodo a la solución.",
+"pregunta_guia": "Si a las 7 horas sen(7π/6) = −0,5, ¿la marea está por encima o por debajo de 2 m?",
+"aprende": "A las 7 horas h = 2 − 0,75 = 1,25 m, no 2,75 m."
+}
+},
+"explicacion": "Paso 1: Plantea 2 + 1,5·sen(πt/6) = 2,75. Paso 2: 1,5·sen(πt/6) = 0,75 ⇒ sen(πt/6) = 0,5. Paso 3: El primer ángulo positivo con seno 0,5 es π/6. Paso 4: πt/6 = π/6 ⇒ t = 1 hora. Comprobación: h(1) = 2 + 1,5 × 0,5 = 2,75 m ✓, y la lancha puede entrar entre t = 1 y t = 5.",
+"tip": "Para resolver una ecuación con seno, primero aísla el seno; después piensa en el ángulo.",
+"truco": "sen 30° = sen(π/6) = 1/2: memorízalo, aparece muchísimo.",
+"estrategia_icfes": "El ICFES pregunta «cuándo por primera vez» o «durante cuánto tiempo». Despeja paso a paso y recuerda que una función periódica alcanza el mismo valor varias veces: elige la solución que responde exactamente la pregunta.",
+"temas": [
+"ecuaciones trigonométricas",
+"función seno",
+"modelación de fenómenos periódicos"
+],
+"gemela": {
+"enunciado": "Con h(t) = 3 + 2·sen(πt/4) (t en horas), ¿cuándo alcanza h = 4 por primera vez?",
+"opciones": {
+"A": "A los 40 minutos",
+"B": "A las 2 horas",
+"C": "A los 20 minutos",
+"D": "A las 3 horas y 20 minutos"
+},
+"correcta": "A",
+"explicacion": "Paso 1: 2·sen(πt/4) = 1 ⇒ sen(πt/4) = 0,5. Paso 2: πt/4 = π/6 ⇒ t = 4/6 = 2/3 h. Paso 3: 2/3 h = 40 minutos."
+}
+},
+{
+"id": "P10-MAT-C024",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Geometría",
+"nivel": "Mínimo",
+"dba": "DBA Matemáticas 10° (MEN 2016): reconoce las razones trigonométricas como relaciones entre los lados de un triángulo rectángulo.",
+"lineamiento": "Pensamiento métrico y espacial (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): reconozco y describo las razones trigonométricas en triángulos rectángulos.",
+"afirmacion": "Identifica la razón trigonométrica que corresponde a un ángulo en una representación geométrica.",
+"evidencia": "Distingue cateto opuesto, cateto adyacente e hipotenusa respecto a un ángulo dado.",
+"contexto": "Para armar una carpa en una salida pedagógica a Calima, se tensa un cable desde la punta de un poste vertical de 9 m hasta una estaca clavada en el suelo a 12 m de la base del poste. El cable mide 15 m. Sea α el ángulo que forma el cable con el suelo.",
+"enunciado": "¿Cuál es el valor de sen α?",
+"opciones": {
+"A": "12/15",
+"B": "9/12",
+"C": "9/15",
+"D": "15/9"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir seno con coseno",
+"porque": "Elegiste 12/15 porque probablemente usaste el cateto que está junto al ángulo (adyacente).",
+"pregunta_guia": "Desde la estaca, ¿el poste de 9 m está frente al ángulo α o junto a él?",
+"aprende": "sen α = opuesto/hipotenusa = 9/15; 12/15 es cos α."
+},
+"B": {
+"error": "Confundir seno con tangente",
+"porque": "Elegiste 9/12 porque probablemente dividiste los dos catetos.",
+"pregunta_guia": "¿Qué razón relaciona los dos catetos sin usar la hipotenusa?",
+"aprende": "9/12 es tan α; el seno usa la hipotenusa en el denominador."
+},
+"D": {
+"error": "Invertir la razón",
+"porque": "Elegiste 15/9 porque probablemente pusiste la hipotenusa en el numerador.",
+"pregunta_guia": "¿El seno de un ángulo agudo puede ser mayor que 1?",
+"aprende": "El seno siempre está entre 0 y 1 en un triángulo rectángulo, porque la hipotenusa es el lado mayor."
+}
+},
+"explicacion": "Paso 1: Respecto a α (en la estaca): cateto opuesto = poste = 9 m; cateto adyacente = suelo = 12 m; hipotenusa = cable = 15 m. Paso 2: sen α = opuesto/hipotenusa = 9/15 = 3/5 = 0,6. Paso 3: Comprobación con Pitágoras: 9² + 12² = 81 + 144 = 225 = 15² ✓.",
+"tip": "Párate mentalmente en el vértice del ángulo: lo que ves «enfrente» es el cateto opuesto.",
+"truco": "SOH: Seno = Opuesto sobre Hipotenusa.",
+"estrategia_icfes": "El ICFES verifica que distingas los lados según el ángulo. Marca el ángulo en el dibujo, nombra los tres lados y luego escribe la razón; los distractores son coseno, tangente y la razón invertida.",
+"temas": [
+"razones trigonométricas",
+"triángulo rectángulo",
+"teorema de Pitágoras"
+],
+"gemela": {
+"enunciado": "En un triángulo rectángulo de catetos 8 y 15 e hipotenusa 17, β es el ángulo adyacente al cateto de 15. ¿Cuál es cos β?",
+"opciones": {
+"A": "8/17",
+"B": "15/17",
+"C": "8/15",
+"D": "17/15"
+},
+"correcta": "B",
+"explicacion": "Paso 1: cateto adyacente a β = 15, hipotenusa = 17. Paso 2: cos β = 15/17."
+}
+},
+{
+"id": "P10-MAT-C025",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): resuelve problemas que involucran porcentajes sucesivos (descuentos e impuestos) en situaciones de consumo.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9° y 10°–11° (2006): resuelvo problemas con porcentajes y uso de la proporcionalidad en contextos financieros.",
+"afirmacion": "Ejecuta procedimientos con porcentajes sucesivos para calcular un precio final.",
+"evidencia": "Aplica primero el factor de descuento y luego el factor del impuesto sobre el nuevo valor.",
+"contexto": "Una tienda de tecnología de Cali vende un portátil a $2.000.000. Durante una promoción aplica un descuento del 15 % y, sobre el precio con descuento, cobra un impuesto del 19 %.",
+"enunciado": "¿Cuánto paga un cliente por el portátil durante la promoción?",
+"opciones": {
+"A": "$2.023.000",
+"B": "$2.080.000",
+"C": "$1.700.000",
+"D": "$2.380.000"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Combinar porcentajes sumándolos",
+"porque": "Elegiste $2.080.000 porque probablemente restaste 19 % − 15 % = 4 % y lo aplicaste al precio original.",
+"pregunta_guia": "El 19 %, ¿se calcula sobre $2.000.000 o sobre el precio ya rebajado?",
+"aprende": "Los porcentajes sucesivos se multiplican: 2.000.000 × 0,85 × 1,19."
+},
+"C": {
+"error": "Olvidar el impuesto",
+"porque": "Elegiste $1.700.000 porque probablemente aplicaste solo el descuento.",
+"pregunta_guia": "¿Qué pasa después de aplicar el descuento, según el enunciado?",
+"aprende": "Al precio rebajado se le suma el 19 %: 1.700.000 × 1,19 = 2.023.000."
+},
+"D": {
+"error": "Olvidar el descuento",
+"porque": "Elegiste $2.380.000 porque probablemente aplicaste el impuesto directamente al precio original.",
+"pregunta_guia": "¿Dónde quedó el descuento del 15 % en tu cálculo?",
+"aprende": "Primero el descuento (× 0,85), después el impuesto (× 1,19)."
+}
+},
+"explicacion": "Paso 1: Descuento del 15 %: 2.000.000 × 0,85 = 1.700.000. Paso 2: Impuesto del 19 % sobre 1.700.000: 1.700.000 × 0,19 = 323.000. Paso 3: Precio final: 1.700.000 + 323.000 = 2.023.000. Paso 4: En un solo paso: 2.000.000 × 0,85 × 1,19 = $2.023.000.",
+"tip": "Antes de comprar, calcula el precio final real: los descuentos y los impuestos no se compensan.",
+"truco": "Descuento de p % → × (1 − p/100); aumento de p % → × (1 + p/100). Se encadenan multiplicando.",
+"estrategia_icfes": "El ICFES usa porcentajes sucesivos para detectar el error de sumarlos o restarlos. Convierte cada porcentaje en un factor y multiplica en el orden en que ocurren.",
+"temas": [
+"porcentajes sucesivos",
+"descuentos e impuestos",
+"educación financiera"
+],
+"gemela": {
+"enunciado": "Unos tenis cuestan $400.000; tienen 20 % de descuento y luego se cobra 19 % de impuesto sobre el precio rebajado. ¿Cuál es el precio final?",
+"opciones": {
+"A": "$396.000",
+"B": "$320.000",
+"C": "$380.800",
+"D": "$476.000"
+},
+"correcta": "C",
+"explicacion": "Paso 1: 400.000 × 0,8 = 320.000. Paso 2: 320.000 × 1,19 = 380.800."
+}
+},
+{
+"id": "P10-MAT-C026",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): utiliza porcentajes y razones para hallar valores originales a partir de valores finales en contextos financieros.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico procedimientos con porcentajes y proporcionalidad.",
+"afirmacion": "Valida o refuta un procedimiento para calcular un valor antes de un aumento porcentual.",
+"evidencia": "Reconoce que el porcentaje se aplicó sobre el valor anterior y que se debe dividir entre el factor de aumento.",
+"contexto": "Después de un aumento del 25 %, el arriendo de un apartamento en el sur de Cali quedó en $1.000.000 mensuales.",
+"enunciado": "Lucía afirma: «Antes del aumento pagábamos $750.000, porque al millón le quito el 25 %». ¿Qué argumento evalúa correctamente lo que dice Lucía?",
+"opciones": {
+"A": "Tiene razón, porque quitar el 25 % deshace exactamente un aumento del 25 %.",
+"B": "No tiene razón, porque antes del aumento pagaban $1.250.000.",
+"C": "Tiene razón, porque 750.000 × 1,25 = 1.000.000.",
+"D": "No tiene razón: el 25 % se aplicó sobre el valor anterior, que es 1.000.000 ÷ 1,25 = 800.000."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Creer que un porcentaje se deshace restando el mismo porcentaje",
+"porque": "Elegiste A porque probablemente pensaste que +25 % y −25 % se cancelan.",
+"pregunta_guia": "Si a 750.000 le sumas el 25 %, ¿obtienes 1.000.000?",
+"aprende": "750.000 × 1,25 = 937.500. El 25 % se calcula sobre bases distintas, por eso no se cancelan."
+},
+"B": {
+"error": "Sumar el porcentaje en lugar de revertirlo",
+"porque": "Elegiste B porque probablemente le sumaste el 25 % al millón.",
+"pregunta_guia": "Si el arriendo aumentó, ¿el valor anterior era mayor o menor que 1.000.000?",
+"aprende": "El valor anterior debe ser menor; se obtiene dividiendo entre 1,25."
+},
+"C": {
+"error": "Verificación con un cálculo erróneo",
+"porque": "Elegiste C porque probablemente aceptaste la comprobación sin hacer la multiplicación.",
+"pregunta_guia": "¿Cuánto es realmente 750.000 × 1,25?",
+"aprende": "750.000 × 1,25 = 937.500; en cambio 800.000 × 1,25 = 1.000.000."
+}
+},
+"explicacion": "Paso 1: Si el valor anterior es V, tras el aumento queda V × 1,25 = 1.000.000. Paso 2: V = 1.000.000 ÷ 1,25 = 800.000. Paso 3: Comprobación: 800.000 × 0,25 = 200.000 de aumento; 800.000 + 200.000 = 1.000.000 ✓. Paso 4: Lucía calculó el 25 % sobre el valor nuevo y no sobre el anterior; el argumento correcto es D.",
+"tip": "Para «devolverte» de un aumento, divide entre el factor; no restes el porcentaje.",
+"truco": "Valor anterior = valor final ÷ (1 + p/100).",
+"estrategia_icfes": "El ICFES pregunta por precios antes de impuestos o aumentos para ver si reconoces sobre qué base se calcula el porcentaje. Comprueba cada opción multiplicando por el factor.",
+"temas": [
+"porcentaje inverso",
+"factor de aumento",
+"argumentación"
+],
+"gemela": {
+"enunciado": "Tras un aumento del 20 %, una cuota quedó en $600.000. ¿Cuál era la cuota antes del aumento?",
+"opciones": {
+"A": "$480.000",
+"B": "$500.000",
+"C": "$720.000",
+"D": "$580.000"
+},
+"correcta": "B",
+"explicacion": "Paso 1: V × 1,2 = 600.000. Paso 2: V = 600.000 ÷ 1,2 = 500.000."
+}
+},
+{
+"id": "P10-MAT-C027",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): analiza el efecto de aumentos y disminuciones porcentuales consecutivos.",
+"lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico la validez de procedimientos con porcentajes en situaciones económicas.",
+"afirmacion": "Refuta una generalización sobre porcentajes consecutivos con un argumento matemático.",
+"evidencia": "Calcula el efecto neto de un aumento y una rebaja del mismo porcentaje y explica por qué no se cancelan.",
+"contexto": "Un almacén de celulares de Cali subió en enero el precio de un equipo de $1.000.000 en un 10 %. En febrero, para una temporada de ofertas, rebajó el nuevo precio en un 10 %.",
+"enunciado": "Juan afirma que en febrero el celular volvió a costar $1.000.000. ¿Cuál de las siguientes afirmaciones sobre lo que dice Juan es correcta?",
+"opciones": {
+"A": "Tiene razón, porque un aumento del 10 % y una rebaja del 10 % se cancelan.",
+"B": "No tiene razón: la rebaja se calcula sobre $1.100.000, así que el precio queda en $990.000, un 1 % menos que al inicio.",
+"C": "No tiene razón: el precio queda en $1.010.000, un 1 % más que al inicio.",
+"D": "No tiene razón: el precio queda en $980.000, un 2 % menos que al inicio."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Sumar porcentajes de bases distintas",
+"porque": "Elegiste A porque probablemente sumaste +10 % y −10 % como si se aplicaran al mismo valor.",
+"pregunta_guia": "El 10 % de $1.100.000, ¿es igual al 10 % de $1.000.000?",
+"aprende": "La rebaja es de $110.000, mayor que el aumento de $100.000."
+},
+"C": {
+"error": "Equivocar el sentido del efecto neto",
+"porque": "Elegiste C porque probablemente intuiste que los porcentajes no se cancelan, pero no hiciste el cálculo.",
+"pregunta_guia": "¿Qué fue mayor en pesos: el aumento de enero o la rebaja de febrero?",
+"aprende": "1,10 × 0,90 = 0,99: el precio queda 1 % por debajo."
+},
+"D": {
+"error": "Calcular mal el efecto neto",
+"porque": "Elegiste D porque probablemente pensaste que se pierde un 1 % en cada cambio.",
+"pregunta_guia": "Si multiplicas 1.000.000 × 1,10 × 0,90, ¿qué obtienes?",
+"aprende": "El resultado es 990.000: una disminución neta de 1 %."
+}
+},
+"explicacion": "Paso 1: Enero: 1.000.000 × 1,10 = 1.100.000. Paso 2: Febrero: 1.100.000 × 0,90 = 990.000. Paso 3: Efecto neto: 1,10 × 0,90 = 0,99, es decir, 1 % menos. Paso 4: Juan se equivoca porque la rebaja se calculó sobre una base mayor; la opción B lo justifica.",
+"tip": "Cuando cambia la base, cambia el valor del porcentaje.",
+"truco": "Sube p % y baja p % ⇒ pierdes (p²/100) %: 10² / 100 = 1 %.",
+"estrategia_icfes": "El ICFES usa afirmaciones cotidianas («vuelve al mismo precio») para evaluar argumentación. Calcula con factores y elige la opción con el valor y la razón correctos.",
+"temas": [
+"porcentajes consecutivos",
+"factor multiplicativo",
+"educación financiera"
+],
+"gemela": {
+"enunciado": "Un producto sube 20 % y luego baja 20 %. ¿Cómo queda su precio respecto al original?",
+"opciones": {
+"A": "Igual al original.",
+"B": "4 % más alto.",
+"C": "2 % más bajo.",
+"D": "4 % más bajo."
+},
+"correcta": "D",
+"explicacion": "Paso 1: 1,20 × 0,80 = 0,96. Paso 2: queda en el 96 % del original: 4 % más bajo."
+}
+},
+{
+"id": "P10-MAT-C028",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): modela situaciones de interés simple con funciones lineales y calcula intereses y montos.",
+"lineamiento": "Pensamiento numérico y pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas de interés simple en contextos de la vida cotidiana.",
+"afirmacion": "Ejecuta el procedimiento de interés simple para calcular el total que se paga por un préstamo.",
+"evidencia": "Aplica I = C · i · t y suma el interés al capital para obtener el monto.",
+"contexto": "Doña Rosa, dueña de una panadería en la Comuna 15 de Cali, toma un préstamo de $3.000.000 para comprar un horno. El préstamo cobra un interés simple del 2 % mensual y lo pagará todo al cabo de 8 meses.",
+"enunciado": "¿Cuánto dinero debe pagar en total doña Rosa al final de los 8 meses?",
+"opciones": {
+"A": "$480.000",
+"B": "$3.060.000",
+"C": "$3.480.000",
+"D": "$3.514.978"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir interés con monto",
+"porque": "Elegiste $480.000 porque probablemente calculaste bien el interés, pero olvidaste sumarle el capital.",
+"pregunta_guia": "¿La pregunta pide los intereses o todo lo que se paga?",
+"aprende": "Monto = capital + interés = 3.000.000 + 480.000."
+},
+"B": {
+"error": "Calcular un solo periodo",
+"porque": "Elegiste $3.060.000 porque probablemente aplicaste el 2 % una sola vez.",
+"pregunta_guia": "¿Durante cuántos meses se cobra el 2 %?",
+"aprende": "El interés simple se cobra cada mes sobre el capital: 60.000 × 8 = 480.000."
+},
+"D": {
+"error": "Usar interés compuesto",
+"porque": "Elegiste $3.514.978 porque probablemente calculaste 3.000.000 × (1,02)⁸, como si los intereses generaran intereses.",
+"pregunta_guia": "En el interés simple, ¿sobre qué valor se calcula el interés cada mes?",
+"aprende": "En el simple, siempre sobre el capital inicial: I = 3.000.000 × 0,02 × 8."
+}
+},
+"explicacion": "Paso 1: Interés de un mes: 3.000.000 × 0,02 = 60.000. Paso 2: Interés de 8 meses: 60.000 × 8 = 480.000 (I = C · i · t). Paso 3: Monto: 3.000.000 + 480.000 = $3.480.000.",
+"tip": "Antes de endeudarte, calcula cuánto pagarás en total, no solo la tasa.",
+"truco": "Interés simple: M = C(1 + i·t) = 3.000.000 × (1 + 0,16).",
+"estrategia_icfes": "El ICFES diferencia interés y monto, y simple y compuesto. Subraya qué te piden («en total», «de intereses») y revisa que la tasa y el tiempo estén en las mismas unidades.",
+"temas": [
+"interés simple",
+"monto",
+"crédito responsable"
+],
+"gemela": {
+"enunciado": "Se prestan $1.500.000 al 3 % mensual simple durante 6 meses. ¿Cuánto se paga en total?",
+"opciones": {
+"A": "$270.000",
+"B": "$1.770.000",
+"C": "$1.545.000",
+"D": "$1.791.078"
+},
+"correcta": "B",
+"explicacion": "Paso 1: I = 1.500.000 × 0,03 × 6 = 270.000. Paso 2: M = 1.770.000."
+}
+},
+{
+"id": "P10-MAT-C029",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): despeja variables en la fórmula de interés simple para hallar tasas y tiempos.",
+"lineamiento": "Pensamiento numérico y pensamiento variacional (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): resuelvo problemas que requieren despejar variables en fórmulas.",
+"afirmacion": "Plantea y resuelve una ecuación para hallar la tasa de interés simple de una inversión.",
+"evidencia": "Calcula el interés ganado y despeja i en I = C · i · t, con t expresado en años.",
+"contexto": "Valeria invierte $5.000.000 en un fondo de ahorro que paga interés simple. Después de un año y medio (18 meses) retira $5.600.000.",
+"enunciado": "¿Cuál es la tasa de interés simple anual que paga el fondo?",
+"opciones": {
+"A": "12 %",
+"B": "18 %",
+"C": "0,8 %",
+"D": "8 %"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "No tener en cuenta el tiempo",
+"porque": "Elegiste 12 % porque probablemente dividiste 600.000 entre 5.000.000 y olvidaste que ese interés se ganó en 1,5 años.",
+"pregunta_guia": "El 12 % se ganó en total; ¿cuánto corresponde a un solo año?",
+"aprende": "Tasa anual = 12 % ÷ 1,5 = 8 %."
+},
+"B": {
+"error": "Multiplicar por el tiempo en lugar de dividir",
+"porque": "Elegiste 18 % porque probablemente multiplicaste el 12 % por 1,5.",
+"pregunta_guia": "Si en 1,5 años se gana el 12 %, ¿en un año se gana más o menos que el 12 %?",
+"aprende": "En menos tiempo se gana menos: se divide entre 1,5."
+},
+"C": {
+"error": "Error al convertir decimal a porcentaje",
+"porque": "Elegiste 0,8 % porque probablemente obtuviste 0,08 y lo escribiste como 0,8 %.",
+"pregunta_guia": "Para pasar 0,08 a porcentaje, ¿por cuánto multiplicas?",
+"aprende": "0,08 × 100 = 8 %."
+}
+},
+"explicacion": "Paso 1: Interés ganado: 5.600.000 − 5.000.000 = 600.000. Paso 2: Tiempo en años: 18 meses = 1,5 años. Paso 3: I = C · i · t ⇒ 600.000 = 5.000.000 · i · 1,5. Paso 4: i = 600.000 ÷ 7.500.000 = 0,08 = 8 % anual. Comprobación: 5.000.000 × 0,08 × 1,5 = 600.000 ✓.",
+"tip": "La tasa y el tiempo deben estar en la misma unidad: tasa anual con tiempo en años.",
+"truco": "i = I ÷ (C × t).",
+"estrategia_icfes": "El ICFES pide despejar la variable desconocida de una fórmula financiera. Escribe la fórmula, reemplaza lo conocido y despeja; cuida la conversión de meses a años y de decimal a porcentaje.",
+"temas": [
+"interés simple",
+"despeje de fórmulas",
+"tasa de interés"
+],
+"gemela": {
+"enunciado": "Una inversión de $2.000.000 se convierte en $2.240.000 en 2 años con interés simple. ¿Cuál es la tasa anual?",
+"opciones": {
+"A": "12 %",
+"B": "6 %",
+"C": "24 %",
+"D": "0,6 %"
+},
+"correcta": "B",
+"explicacion": "Paso 1: I = 240.000. Paso 2: i = 240.000 ÷ (2.000.000 × 2) = 0,06 = 6 %."
+}
+},
+{
+"id": "P10-MAT-C030",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Álgebra y cálculo",
+"nivel": "Satisfactorio",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): compara crecimiento lineal y crecimiento exponencial a partir de tablas y gráficas.",
+"lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): analizo las relaciones entre representaciones gráficas de funciones lineales y exponenciales.",
+"afirmacion": "Interpreta gráficas que comparan el interés simple con el interés compuesto.",
+"evidencia": "Identifica que el interés simple produce crecimiento lineal y el compuesto un crecimiento cada vez mayor.",
+"contexto": "Tomás compara dos formas de invertir $1.000.000 durante 5 años al 10 % anual: con interés simple y con interés compuesto. La gráfica muestra el saldo al final de cada año, en millones de pesos.",
+"grafica": {
+"tipo": "lineas",
+"titulo": "Saldo de la inversión de $1.000.000 al 10 % anual",
+"etiquetas": [
+"Año 0",
+"Año 1",
+"Año 2",
+"Año 3",
+"Año 4",
+"Año 5"
+],
+"series": [
+{
+"nombre": "Interés simple",
+"datos": [
+1.0,
+1.1,
+1.2,
+1.3,
+1.4,
+1.5
+]
+},
+{
+"nombre": "Interés compuesto",
+"datos": [
+1.0,
+1.1,
+1.21,
+1.331,
+1.4641,
+1.61051
+]
+}
+],
+"ejeY": "millones de pesos"
+},
+"enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la información de la gráfica?",
+"opciones": {
+"A": "El saldo con interés simple aumenta lo mismo cada año, mientras que con interés compuesto aumenta cada vez más, por eso la diferencia entre ambos crece con el tiempo.",
+"B": "Las dos inversiones ganan los mismos intereses cada año, porque la tasa es la misma.",
+"C": "El interés compuesto genera más dinero que el simple desde el primer año.",
+"D": "Al final del año 5, el saldo con interés compuesto es el doble del saldo con interés simple."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Suponer que igual tasa implica igual interés",
+"porque": "Elegiste B porque probablemente pensaste que el 10 % siempre se calcula sobre el mismo valor.",
+"pregunta_guia": "Del año 2 al año 3, ¿cuánto creció cada saldo?",
+"aprende": "Simple: +100.000 cada año. Compuesto: +121.000 del año 2 al 3, porque el 10 % se calcula sobre el saldo acumulado."
+},
+"C": {
+"error": "No leer el primer intervalo",
+"porque": "Elegiste C porque probablemente recordaste que el compuesto «gana más» sin revisar el año 1.",
+"pregunta_guia": "Al final del año 1, ¿cuánto vale cada saldo en la gráfica?",
+"aprende": "En el año 1 ambos valen 1,1 millones; la diferencia aparece desde el año 2."
+},
+"D": {
+"error": "Exagerar la diferencia",
+"porque": "Elegiste D porque probablemente viste que la línea del compuesto queda arriba y supusiste una gran diferencia.",
+"pregunta_guia": "¿1,61 es el doble de 1,5?",
+"aprende": "1,61 frente a 1,5: la diferencia es de unos $110.510, no el doble."
+}
+},
+"explicacion": "Paso 1: Interés simple: el saldo sube 0,1 millones cada año (gráfica recta). Paso 2: Interés compuesto: sube 0,1; 0,11; 0,121; 0,1331; 0,14641 (curva cada vez más empinada). Paso 3: Diferencias entre ambos: 0; 0; 0,01; 0,031; 0,0641; 0,11051 millones: crecen con el tiempo. Paso 4: La opción A describe esto correctamente.",
+"tip": "El interés compuesto premia la paciencia: su ventaja crece con los años.",
+"truco": "Simple = recta (suma lo mismo); compuesto = curva (multiplica por lo mismo).",
+"estrategia_icfes": "Ante gráficas con dos series, el ICFES pregunta por tendencias y diferencias. Calcula cuánto cambia cada serie de un punto a otro y verifica cada afirmación con los números de la gráfica.",
+"temas": [
+"interés simple y compuesto",
+"crecimiento lineal y exponencial",
+"lectura de gráficas"
+],
+"gemela": {
+"enunciado": "Con $1.000.000 al 10 % anual, ¿cuál es la diferencia entre el saldo con interés compuesto y con interés simple al final del año 3?",
+"opciones": {
+"A": "$0",
+"B": "$331.000",
+"C": "$31.000",
+"D": "$300.000"
+},
+"correcta": "C",
+"explicacion": "Paso 1: compuesto: 1.000.000 × 1,1³ = 1.331.000. Paso 2: simple: 1.300.000. Paso 3: diferencia: $31.000."
+}
+},
+{
+"id": "P10-MAT-C031",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta información presentada en tablas y calcula porcentajes para analizar un presupuesto.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto y comparo resultados de estudios con información estadística provenientes de medios o de situaciones cotidianas.",
+"afirmacion": "Interpreta información de una tabla para calcular la parte porcentual de un rubro del presupuesto.",
+"evidencia": "Obtiene el valor faltante como diferencia entre el ingreso y los gastos y lo expresa como porcentaje del ingreso.",
+"contexto": "La familia Mosquera, de Cali, organiza su presupuesto mensual. Su ingreso es de $3.200.000 y la tabla muestra cómo lo distribuye. Lo que no se gasta se destina al ahorro.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor (pesos)"
+],
+"filas": [
+[
+"Arriendo",
+"960.000"
+],
+[
+"Alimentación",
+"800.000"
+],
+[
+"Transporte",
+"320.000"
+],
+[
+"Servicios públicos",
+"288.000"
+],
+[
+"Educación",
+"352.000"
+],
+[
+"Ahorro",
+"?"
+]
+]
+},
+"enunciado": "¿Qué porcentaje de su ingreso ahorra la familia cada mes?",
+"opciones": {
+"A": "85 %",
+"B": "15 %",
+"C": "17,6 %",
+"D": "48 %"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Calcular el porcentaje de gastos",
+"porque": "Elegiste 85 % porque probablemente calculaste lo que la familia gasta (2.720.000 ÷ 3.200.000), no lo que ahorra.",
+"pregunta_guia": "¿La pregunta pide el porcentaje que se gasta o el que se ahorra?",
+"aprende": "Ahorro = 100 % − 85 % = 15 %."
+},
+"C": {
+"error": "Dividir entre la base equivocada",
+"porque": "Elegiste 17,6 % porque probablemente dividiste el ahorro (480.000) entre el total de gastos (2.720.000).",
+"pregunta_guia": "El porcentaje «de su ingreso», ¿se calcula sobre el ingreso o sobre los gastos?",
+"aprende": "La base es el ingreso: 480.000 ÷ 3.200.000 = 0,15."
+},
+"D": {
+"error": "Confundir una cantidad con un porcentaje",
+"porque": "Elegiste 48 % porque probablemente tomaste las cifras de $480.000 como si fueran un porcentaje.",
+"pregunta_guia": "¿$480.000 es un porcentaje o una cantidad de dinero?",
+"aprende": "Para obtener el porcentaje hay que dividir entre el ingreso y multiplicar por 100."
+}
+},
+"explicacion": "Paso 1: Suma los gastos: 960.000 + 800.000 + 320.000 + 288.000 + 352.000 = 2.720.000. Paso 2: Ahorro: 3.200.000 − 2.720.000 = 480.000. Paso 3: Porcentaje: 480.000 ÷ 3.200.000 = 0,15. Paso 4: 0,15 × 100 = 15 %.",
+"tip": "Un buen presupuesto empieza por saber qué parte del ingreso se va en cada rubro.",
+"truco": "Porcentaje = (parte ÷ total) × 100; el «total» es lo que va después de «de».",
+"estrategia_icfes": "El ICFES presenta tablas con un dato faltante. Halla primero el dato (aquí, por diferencia) y luego identifica cuál es la base del porcentaje.",
+"temas": [
+"porcentajes",
+"presupuesto familiar",
+"lectura de tablas"
+],
+"gemela": {
+"enunciado": "Una familia gana $2.500.000 y gasta $2.200.000; el resto lo ahorra. ¿Qué porcentaje de su ingreso ahorra?",
+"opciones": {
+"A": "88 %",
+"B": "13,6 %",
+"C": "12 %",
+"D": "30 %"
+},
+"correcta": "C",
+"explicacion": "Paso 1: ahorro = 300.000. Paso 2: 300.000 ÷ 2.500.000 = 0,12 = 12 %."
+}
+},
+{
+"id": "P10-MAT-C032",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Estadística",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): justifica decisiones de presupuesto con cálculos de porcentajes sobre la base adecuada.",
+"lineamiento": "Pensamiento aleatorio y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico o refuto inferencias basadas en razonamientos estadísticos a partir de información de tablas.",
+"afirmacion": "Valida o refuta una propuesta de ahorro analizando el efecto de un cambio porcentual en un rubro.",
+"evidencia": "Calcula el 10 % sobre el rubro de arriendo (no sobre el ingreso) y compara el nuevo ahorro con la meta.",
+"contexto": "La familia Mosquera, de Cali, organiza su presupuesto mensual. Su ingreso es de $3.200.000 y la tabla muestra cómo lo distribuye. Lo que no se gasta se destina al ahorro.",
+"tabla": {
+"titulo": "Presupuesto mensual de la familia Mosquera",
+"cols": [
+"Rubro",
+"Valor (pesos)"
+],
+"filas": [
+[
+"Arriendo",
+"960.000"
+],
+[
+"Alimentación",
+"800.000"
+],
+[
+"Transporte",
+"320.000"
+],
+[
+"Servicios públicos",
+"288.000"
+],
+[
+"Educación",
+"352.000"
+],
+[
+"Ahorro",
+"?"
+]
+]
+},
+"enunciado": "Sara, la hija mayor, afirma: «Si conseguimos un arriendo un 10 % más barato y no cambiamos los demás gastos, lograremos ahorrar el 20 % del ingreso». ¿Qué argumento evalúa correctamente la afirmación de Sara?",
+"opciones": {
+"A": "Es correcta, porque el ahorro actual es 15 % y al sumarle el 10 % llega a 25 %, más del 20 %.",
+"B": "Es correcta, porque el 10 % del ingreso, $320.000, pasaría al ahorro, que llegaría a $800.000 (25 %).",
+"C": "Es incorrecta, porque al bajar el arriendo el ahorro disminuiría al 5 % del ingreso.",
+"D": "Es incorrecta, porque el arriendo bajaría $96.000 y el ahorro llegaría a $576.000, que es el 18 % del ingreso."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Sumar porcentajes de bases diferentes",
+"porque": "Elegiste A porque probablemente sumaste el 10 % (del arriendo) al 15 % (del ingreso) como si tuvieran la misma base.",
+"pregunta_guia": "El 10 % de rebaja, ¿es el 10 % del arriendo o el 10 % del ingreso?",
+"aprende": "10 % del arriendo = 96.000, que equivale solo al 3 % del ingreso."
+},
+"B": {
+"error": "Aplicar el porcentaje a la base equivocada",
+"porque": "Elegiste B porque probablemente calculaste el 10 % sobre el ingreso total y no sobre el arriendo.",
+"pregunta_guia": "¿Qué rubro se abarata en un 10 %?",
+"aprende": "La rebaja es 0,10 × 960.000 = 96.000, no 320.000."
+},
+"C": {
+"error": "Restar en lugar de sumar el ahorro",
+"porque": "Elegiste C porque probablemente restaste el 10 % al ahorro actual, como si el ahorro bajara cuando el gasto baja.",
+"pregunta_guia": "Si gastas menos en arriendo, ¿te queda más o menos dinero para ahorrar?",
+"aprende": "Menos gasto significa más ahorro: 480.000 + 96.000 = 576.000."
+}
+},
+"explicacion": "Paso 1: Ahorro actual: 3.200.000 − 2.720.000 = 480.000 (15 %). Paso 2: Rebaja del arriendo: 960.000 × 0,10 = 96.000. Paso 3: Nuevo ahorro: 480.000 + 96.000 = 576.000. Paso 4: 576.000 ÷ 3.200.000 = 0,18 = 18 %. Paso 5: 18 % < 20 %: la afirmación de Sara es incorrecta. Para llegar al 20 % ($640.000) faltarían $64.000 más de recorte.",
+"tip": "Antes de sumar porcentajes, pregúntate: ¿son porcentajes de la misma cantidad?",
+"truco": "Convierte todo a pesos, suma o resta en pesos y al final vuelve a porcentaje.",
+"estrategia_icfes": "El ICFES evalúa si identificas la base de cada porcentaje en propuestas de ahorro o gasto. Traduce cada porcentaje a pesos con su base correcta y compara con la meta.",
+"temas": [
+"porcentajes con distintas bases",
+"presupuesto y ahorro",
+"argumentación"
+],
+"gemela": {
+"enunciado": "Con el mismo presupuesto, si el gasto en alimentación bajara un 25 % y lo demás quedara igual, ¿llegaría la familia a ahorrar el 20 % del ingreso?",
+"opciones": {
+"A": "No, porque el ahorro sería del 18 %.",
+"B": "Sí, porque el ahorro sería de $1.280.000.",
+"C": "Sí, porque el ahorro sería de $680.000, que es el 21,25 % del ingreso.",
+"D": "No, porque el ahorro sería del 15 %."
+},
+"correcta": "C",
+"explicacion": "Paso 1: 25 % de 800.000 = 200.000. Paso 2: nuevo ahorro = 480.000 + 200.000 = 680.000. Paso 3: 680.000 ÷ 3.200.000 = 21,25 % ≥ 20 %."
+}
+},
+{
+"id": "P10-MAT-C033",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Interpretación y representación",
+"componente": "Estadística",
+"nivel": "Mínimo",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): interpreta información presentada en gráficas de barras y calcula medidas de tendencia central.",
+"lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): interpreto y uso medidas de tendencia central para analizar datos.",
+"afirmacion": "Interpreta datos de una gráfica de barras para calcular la media.",
+"evidencia": "Lee los valores de cada barra, los suma y divide entre el número de datos.",
+"contexto": "Un emprendimiento estudiantil de CENTEC vende productos de papelería. La gráfica muestra sus ventas de enero a junio, en miles de pesos.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas mensuales del emprendimiento",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ventas",
+"datos": [
+420,
+380,
+510,
+460,
+530,
+400
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿Cuál fue el promedio mensual de ventas en el semestre?",
+"opciones": {
+"A": "450 mil pesos",
+"B": "440 mil pesos",
+"C": "455 mil pesos",
+"D": "530 mil pesos"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir media con mediana",
+"porque": "Elegiste 440 mil porque probablemente ordenaste los datos y tomaste el promedio de los dos centrales (420 y 460), que es la mediana.",
+"pregunta_guia": "¿El promedio usa todos los datos o solo los del centro?",
+"aprende": "La media suma todos los datos: 2.700 ÷ 6 = 450."
+},
+"C": {
+"error": "Promediar solo los extremos",
+"porque": "Elegiste 455 mil porque probablemente promediaste el mínimo (380) y el máximo (530).",
+"pregunta_guia": "¿Cuántos meses deben entrar en el cálculo del promedio?",
+"aprende": "El punto medio del rango no es la media: hay que usar los seis datos."
+},
+"D": {
+"error": "Tomar el valor máximo",
+"porque": "Elegiste 530 mil porque probablemente escogiste la barra más alta.",
+"pregunta_guia": "¿Un promedio puede ser igual al valor más alto si los demás son menores?",
+"aprende": "La media queda entre el mínimo y el máximo."
+}
+},
+"explicacion": "Paso 1: Lee los datos: 420, 380, 510, 460, 530 y 400. Paso 2: Suma: 420 + 380 + 510 + 460 + 530 + 400 = 2.700. Paso 3: Divide entre 6 meses: 2.700 ÷ 6 = 450. Paso 4: El promedio es 450 mil pesos mensuales.",
+"tip": "El promedio es lo que se vendería cada mes si las ventas se repartieran por igual.",
+"truco": "Comprueba: la suma de las diferencias con la media debe dar 0 (−30 −70 +60 +10 +80 −50 = 0).",
+"estrategia_icfes": "El ICFES pregunta por media, mediana y moda con gráficas. Lee con cuidado cada barra y distingue qué medida se pide: los distractores suelen ser las otras medidas.",
+"temas": [
+"media aritmética",
+"gráficas de barras",
+"estadística financiera"
+],
+"gemela": {
+"enunciado": "Las ventas de 5 semanas fueron 120, 150, 90, 150 y 140 mil pesos. ¿Cuál fue el promedio semanal?",
+"opciones": {
+"A": "140 mil",
+"B": "130 mil",
+"C": "150 mil",
+"D": "120 mil"
+},
+"correcta": "B",
+"explicacion": "Paso 1: suma = 650. Paso 2: 650 ÷ 5 = 130 mil pesos."
+}
+},
+{
+"id": "P10-MAT-C034",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Formulación y ejecución",
+"componente": "Estadística",
+"nivel": "Satisfactorio",
+"sabic": "Estadística financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): calcula variaciones porcentuales a partir de datos presentados en gráficas.",
+"lineamiento": "Pensamiento aleatorio y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): uso comprensivamente porcentajes y razones de cambio para analizar datos.",
+"afirmacion": "Ejecuta el cálculo de una variación porcentual con el valor inicial como base.",
+"evidencia": "Calcula (valor final − valor inicial) ÷ valor inicial × 100 con los datos de la gráfica.",
+"contexto": "Un emprendimiento estudiantil de CENTEC vende productos de papelería. La gráfica muestra sus ventas de enero a junio, en miles de pesos.",
+"grafica": {
+"tipo": "barras",
+"titulo": "Ventas mensuales del emprendimiento",
+"etiquetas": [
+"Ene",
+"Feb",
+"Mar",
+"Abr",
+"May",
+"Jun"
+],
+"series": [
+{
+"nombre": "Ventas",
+"datos": [
+420,
+380,
+510,
+460,
+530,
+400
+]
+}
+],
+"ejeY": "miles de pesos"
+},
+"enunciado": "¿En qué porcentaje, aproximadamente, disminuyeron las ventas de mayo a junio?",
+"opciones": {
+"A": "32,5 %",
+"B": "75,5 %",
+"C": "24,5 %",
+"D": "9,8 %"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar el valor final como base",
+"porque": "Elegiste 32,5 % porque probablemente dividiste la disminución (130) entre las ventas de junio (400).",
+"pregunta_guia": "La variación de mayo a junio, ¿se compara con lo que había en mayo o en junio?",
+"aprende": "La base es el valor inicial: 130 ÷ 530 ≈ 0,245."
+},
+"B": {
+"error": "Calcular la parte que se conserva",
+"porque": "Elegiste 75,5 % porque probablemente calculaste 400 ÷ 530, que es lo que se mantuvo de las ventas.",
+"pregunta_guia": "Si junio representa el 75,5 % de mayo, ¿qué porcentaje se perdió?",
+"aprende": "Disminución = 100 % − 75,5 % = 24,5 %."
+},
+"D": {
+"error": "Leer meses equivocados",
+"porque": "Elegiste 9,8 % porque probablemente calculaste la disminución de marzo a abril (510 a 460).",
+"pregunta_guia": "¿Qué barras corresponden a mayo y junio?",
+"aprende": "Mayo = 530 y junio = 400; ubica bien las barras antes de calcular."
+}
+},
+"explicacion": "Paso 1: Mayo: 530 mil; junio: 400 mil. Paso 2: Disminución: 530 − 400 = 130 mil. Paso 3: Variación porcentual: 130 ÷ 530 ≈ 0,2453. Paso 4: 0,2453 × 100 ≈ 24,5 % de disminución.",
+"tip": "Toda variación porcentual se mide respecto al valor de partida.",
+"truco": "Variación % = (nuevo − viejo) ÷ viejo × 100. «El viejo va abajo».",
+"estrategia_icfes": "El ICFES pregunta por aumentos o disminuciones porcentuales entre periodos. Identifica el valor inicial, calcula el cambio y divide entre el inicial; revisa que leíste las barras correctas.",
+"temas": [
+"variación porcentual",
+"lectura de gráficas",
+"estadística financiera"
+],
+"gemela": {
+"enunciado": "Las ventas bajaron de 800 mil a 600 mil pesos. ¿En qué porcentaje disminuyeron?",
+"opciones": {
+"A": "33,3 %",
+"B": "20 %",
+"C": "75 %",
+"D": "25 %"
+},
+"correcta": "D",
+"explicacion": "Paso 1: disminución = 200. Paso 2: 200 ÷ 800 = 0,25 = 25 %."
+}
+},
+{
+"id": "P10-MAT-C035",
+"area": "matematicas",
+"grado": 10,
+"prueba": "Saber 11",
+"competencia": "Argumentación",
+"componente": "Álgebra y cálculo",
+"nivel": "Avanzado",
+"sabic": "Matemática financiera",
+"dba": "DBA Matemáticas 10° (MEN 2016): compara modelos de interés simple y compuesto para tomar decisiones de inversión.",
+"lineamiento": "Pensamiento variacional y numérico (Lineamientos Curriculares MEN 1998). EBC 10°–11° (2006): justifico decisiones a partir de la comparación de modelos lineales y exponenciales.",
+"afirmacion": "Justifica una decisión financiera calculando y comparando el resultado de dos alternativas.",
+"evidencia": "Calcula el monto con interés simple y con interés compuesto y refuta una conclusión basada solo en la tasa.",
+"contexto": "Valentina tiene $2.000.000 para invertir durante 3 años. La opción A paga 12 % anual con interés simple. La opción B paga 11 % anual con interés compuesto (los intereses se reinvierten cada año). (Dato: 1,11³ ≈ 1,3676.)",
+"enunciado": "Valentina afirma: «La opción A es mejor, porque su tasa es más alta». ¿Qué argumento evalúa correctamente la afirmación de Valentina?",
+"opciones": {
+"A": "Tiene razón, porque con una tasa mayor siempre se obtiene más dinero, sin importar el tipo de interés.",
+"B": "No tiene razón: A da $2.720.000 y B da cerca de $2.735.200, porque en B los intereses también generan intereses.",
+"C": "Tiene razón: A da $2.720.000 y B da $2.660.000.",
+"D": "No tiene razón, porque las dos opciones producen exactamente el mismo dinero al final de los 3 años."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Decidir solo por la tasa",
+"porque": "Elegiste A porque probablemente comparaste solo los porcentajes sin calcular los montos.",
+"pregunta_guia": "¿Qué tipo de interés hace que el dinero crezca sobre lo ya ganado?",
+"aprende": "La capitalización puede compensar una tasa menor: hay que calcular ambos montos."
+},
+"C": {
+"error": "Calcular la opción B con interés simple",
+"porque": "Elegiste C porque probablemente calculaste B como 2.000.000 × (1 + 0,11 × 3), sin reinvertir los intereses.",
+"pregunta_guia": "En la opción B, ¿el 11 % del segundo año se calcula sobre 2.000.000 o sobre 2.220.000?",
+"aprende": "B = 2.000.000 × 1,11³ ≈ 2.735.200."
+},
+"D": {
+"error": "Suponer que las diferencias se compensan sin calcular",
+"porque": "Elegiste D porque probablemente pensaste que la tasa mayor y la capitalización se equilibran exactamente.",
+"pregunta_guia": "¿Calculaste los dos montos? ¿Dan exactamente igual?",
+"aprende": "2.720.000 ≠ 2.735.200: la opción B gana por unos $15.200."
+}
+},
+"explicacion": "Paso 1: Opción A (simple): M = 2.000.000 × (1 + 0,12 × 3) = 2.000.000 × 1,36 = 2.720.000. Paso 2: Opción B (compuesto): M = 2.000.000 × 1,11³ ≈ 2.000.000 × 1,3676 = 2.735.200. Paso 3: B supera a A en unos $15.200. Paso 4: Valentina se equivoca: la tasa sola no decide; la opción B lo argumenta correctamente.",
+"tip": "Compara inversiones por el monto final, no solo por la tasa.",
+"truco": "Simple: × (1 + i·n). Compuesto: × (1 + i)ⁿ.",
+"estrategia_icfes": "En decisiones financieras, el ICFES pone una tasa «atractiva» con un tipo de interés menos favorable. Calcula ambos montos con su fórmula y elige la opción con resultado y razón correctos.",
+"temas": [
+"interés simple y compuesto",
+"decisiones de inversión",
+"argumentación"
+],
+"gemela": {
+"enunciado": "Con $1.000.000 durante 2 años: opción 1, 10 % anual simple; opción 2, 9,5 % anual compuesto. ¿Cuál da más dinero?",
+"opciones": {
+"A": "La opción 2, porque el compuesto siempre gana.",
+"B": "Dan exactamente lo mismo.",
+"C": "La opción 1: da $1.200.000 frente a $1.199.025 de la opción 2.",
+"D": "La opción 2: da $1.209.025."
+},
+"correcta": "C",
+"explicacion": "Paso 1: opción 1: 1.000.000 × 1,20 = 1.200.000. Paso 2: opción 2: 1.000.000 × 1,095² = 1.199.025. Paso 3: en pocos años, una tasa simple mayor puede ganar."
+}
+}
+]

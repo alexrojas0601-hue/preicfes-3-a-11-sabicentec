@@ -20,3 +20,9 @@ Ojo: este Worker publica la raíz del repositorio como sitio estático, así que
 - No romper lo que funciona: probar en navegador, en computador y en celular, sin errores de JavaScript.
 - Aplicar `/factcheck` y `/selfcheck`, y que un Dot auditor distinto de quien creó el contenido lo revise.
 - Commit en español que diga qué cambió; Cloudflare despliega desde GitHub. Verificar que el despliegue terminó.
+
+## Propiedad y protección (no quitar)
+- Titulares: **SABI CENTEC — Alexander Rojas Zamorano, Paula Andrea Rojas Cairasco y Daniela Rojas Cairasco**. Licencia propietaria en `LICENSE` (todos los derechos reservados, no es código abierto).
+- Cada HTML servido (raíz y `preicfes/`) lleva: comentario de derechos tras `<!doctype html>`, metas `author`/`copyright`/`rights`/`robots noai`/`og:site_name`, JSON-LD con `copyrightHolder` y la línea de pie «© 2025-2026 SABI CENTEC · …». **Toda página nueva debe llevarlos.**
+- `assets/sabi-proteccion.js` (raíz) y `preicfes/assets/sabi-proteccion.js`: bloquea iframes ajenos, muestra «Copia no autorizada» fuera de *.sabicentec.com, protege imágenes, desactiva Ctrl+S/Ctrl+U y agrega la fuente a textos largos copiados (no altera lo copiado desde campos de texto, p. ej. el CSV del panel docente). Es **disuasivo**: la protección real es la licencia, el aviso legal y el registro ante la DNDA.
+- `robots.txt` y `_headers` (raíz y `preicfes/`): bloqueo de bots de IA y copiadores; cabeceras nosniff, Referrer-Policy, `X-Robots-Tag: noai`, `frame-ancestors`. No agregar una CSP completa de recursos sin probar.

@@ -103,6 +103,7 @@ h = re.sub(r"function home\(\)\{.*?\n\}\n\n/\* ---------- PRUEBA ---------- \*/"
       <p class="motto">“${MOTTO}”</p>
       <p class="muted" style="font-size:.9rem"><b id="nBank">Más de 2.500</b> preguntas tipo ICFES por competencias, DBA y lineamientos. Cada vez que presentas, SABI te muestra preguntas que no has visto: aquí no se memoriza, se aprende.</p>
       <div class="row"><button type="button" id="goGuia">Cómo pregunta el ICFES</button></div>
+      <p class="muted" style="font-size:.8rem">Banco <b>en revisión docente</b>: si encuentras una pregunta con error, anótala y cuéntale a tu docente. Así también aprendemos del error.</p>
     </div>
   </section>
   <form class="card" id="fStart" novalidate>
@@ -254,6 +255,7 @@ rep("</style>", """.chartwrap{margin:0;display:flex;flex-direction:column;gap:6p
 .chart .gl{stroke:var(--line);stroke-width:1}.chart .ax{stroke:var(--muted);stroke-width:1.2}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.85rem}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 caption{font-weight:800;text-align:left;padding:6px 0;caption-side:top}
+@media (max-width:520px){.top .brand small{display:none}.top button{padding:6px 9px;font-size:.78rem;min-height:0}.top .in{gap:6px}}
 </style>""")
 
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(h)
@@ -261,7 +263,7 @@ open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(h)
 # ---------- 3. PWA ----------
 open(os.path.join(ROOT, "sw.js"), "w").write(f'''/* SABI PREICFES · funciona sin internet tras la primera visita */
 const V="sabi-preicfes-{version}";
-const SHELL=["./","index.html","manifest.json","assets/avatar_sabi.jpg","assets/avatar_face.jpg","assets/icono.png"];
+const SHELL=["./","index.html","manifest.json","assets/avatar_sabi.jpg","assets/avatar_face.jpg","assets/icono.png","favicon.ico"];
 self.addEventListener("install",e=>{{e.waitUntil((async()=>{{
   const c=await caches.open(V); await c.addAll(SHELL);
   try{{ const r=await fetch("banco/indice.json",{{cache:"no-store"}}); const idx=await r.clone().json(); await c.put("banco/indice.json",r);

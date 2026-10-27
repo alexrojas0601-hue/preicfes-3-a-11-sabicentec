@@ -1,0 +1,122 @@
+[
+ {
+  "id": "MAT-8-N103",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (80 vs 46-75 caracteres).",
+  "accion": "Se igualaron longitud y estructura de las cuatro opciones; la correcta ya no es la más larga."
+ },
+ {
+  "id": "MAT-8-N105",
+  "gravedad": "leve",
+  "hallazgo": "Gemela: «¿Cuántas veces más pintura?» con opción «9 veces» es ambiguo (36 m² es 8 veces más que 4 m², o 9 veces la cantidad).",
+  "accion": "Se reformuló: «¿por cuánto se multiplica la cantidad de pintura?» con opciones «Por 3/9/6/18»."
+ },
+ {
+  "id": "LEN-8-N101",
+  "gravedad": "leve",
+  "hallazgo": "La correcta era la más larga; en la gemela la correcta era mucho más larga (cita casi literal).",
+  "accion": "Se acortó la correcta y se alargaron distractores en ítem y gemela."
+ },
+ {
+  "id": "LEN-8-N102",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (87 vs 50-55).",
+  "accion": "Se reescribieron la correcta y el distractor B con longitud similar; se emparejó la gemela."
+ },
+ {
+  "id": "LEN-8-N103",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (125 vs 65-72); en la gemela, la correcta era la única con explicación larga.",
+  "accion": "Se reescribieron opciones de ítem y gemela con longitud similar sin cambiar la clave."
+ },
+ {
+  "id": "LEN-8-N104",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (99 vs 51-57).",
+  "accion": "Correcta resumida («ofrezca fruta a diario y junto a la caja»); se emparejaron los distractores de ítem y gemela."
+ },
+ {
+  "id": "LEN-8-N105",
+  "gravedad": "leve",
+  "hallazgo": "Correcta algo más larga que el resto; en la gemela, correcta notablemente más larga.",
+  "accion": "Se ajustaron longitudes en ítem y gemela."
+ },
+ {
+  "id": "LEN-8-N106",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (105 vs 45-78); en la gemela, la correcta era la única con datos concretos y mucho más larga.",
+  "accion": "Se reescribieron las 8 opciones con longitud y estructura parecidas."
+ },
+ {
+  "id": "CN-8-N103",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (108 vs 56-82). Además, errores[B].aprende era discutible (el color de las hojas también indica efecto de la luz).",
+  "accion": "Se emparejaron longitudes en ítem y gemela; se matizó el aprende de B."
+ },
+ {
+  "id": "CN-8-N104",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (125 vs 48-59).",
+  "accion": "Correcta resumida y distractores alargados (61-67 caracteres)."
+ },
+ {
+  "id": "CN-8-N106",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (155 vs 58-87).",
+  "accion": "Se reescribieron las 4 opciones (61-77 caracteres) y la gemela."
+ },
+ {
+  "id": "SOC-8-N101",
+  "gravedad": "leve",
+  "hallazgo": "Correcta más larga; el contexto no daba la fecha exacta y no mencionaba el Día de la Afrocolombianidad. Dato verificado: ley del 21 de mayo de 1851, vigente el 1 de enero de 1852; la Ley 725 de 2001 fija el 21 de mayo como Día de la Afrocolombianidad.",
+  "accion": "Se precisó el contexto y se igualaron longitudes en ítem y gemela."
+ },
+ {
+  "id": "SOC-8-N103",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (108 vs 68-73); en la gemela, también.",
+  "accion": "Correcta resumida («Acordar entre los dos grupos turnos por días o dividir la cancha»); se emparejó la gemela."
+ },
+ {
+  "id": "SOC-8-N104",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (110 vs 55-66). Dato verificado: Nariño tradujo e imprimió la Declaración en Santafé (1793-1794) y fue encarcelado.",
+  "accion": "Se reescribieron las opciones de ítem y gemela con longitud similar."
+ },
+ {
+  "id": "SOC-8-N105",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (110 vs 48-57).",
+  "accion": "Correcta resumida y distractores emparejados en ítem y gemela."
+ },
+ {
+  "id": "SOC-8-N106",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (205 vs 55-79); era la única opción con varias dimensiones. En la gemela, igual.",
+  "accion": "Se reescribieron las 8 opciones (64-73 caracteres); se ajustó la explicación para que siga cubriendo la dimensión social."
+ },
+ {
+  "id": "ING-8-N105",
+  "gravedad": "leve",
+  "hallazgo": "Correcta más larga que los distractores (53 vs 34-46).",
+  "accion": "Correcta: «She is proud of it and wants to continue»; se alargaron B y C; se ajustó la explicación."
+ },
+ {
+  "id": "ING-8-N106",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la opción correcta era claramente la más larga y la única con matices (77 vs 39-49).",
+  "accion": "Correcta: «To tell how a class project grew and what's next» (49 caracteres); se alargó C."
+ },
+ {
+  "id": "ING-8-N104",
+  "gravedad": "leve",
+  "hallazgo": "Gemela: correcta mucho más larga (54 vs 27-33).",
+  "accion": "Se emparejaron las opciones de la gemela."
+ },
+ {
+  "id": "TODOS",
+  "gravedad": "leve",
+  "hallazgo": "Solución a ciegas: 30/30 ítems y 30/30 gemelas coinciden con la clave; ninguna opción defendible doble. DBA sin número (solo contenido descrito y marcado como no verificado). Sin riesgos de seguridad infantil.",
+  "accion": "Sin cambios de clave. Validador: OK."
+ }
+]

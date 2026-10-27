@@ -1,0 +1,1933 @@
+[
+ {
+  "id": "MAT-8-N101",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Planteamiento y resolución de problemas",
+  "componente": "Numérico-variacional",
+  "nivel": "Mínimo",
+  "pensamiento": "Aplicar",
+  "sabic": "Matemática financiera",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: resuelve problemas que involucran porcentajes en situaciones de compra, descuento y ahorro (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento numérico y sistemas numéricos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: resuelvo problemas y simplifico cálculos usando propiedades y relaciones de los números reales, incluidos los porcentajes.",
+  "afirmacion": "El estudiante calcula el valor final de un artículo al aplicar un descuento porcentual.",
+  "evidencia": "Halla el porcentaje de una cantidad y lo resta del precio inicial (o multiplica por el porcentaje que queda).",
+  "contexto": "En una tienda deportiva del centro de Cali, una camiseta cuesta $80.000. Esta semana tiene un descuento del 15 %.",
+  "enunciado": "¿Cuánto paga Mateo por la camiseta con el descuento?",
+  "opciones": {
+   "A": "$68.000",
+   "B": "$12.000",
+   "C": "$65.000",
+   "D": "$92.000"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundir el descuento con el precio final",
+    "porque": "Elegiste $12.000 porque probablemente calculaste bien el 15 % de $80.000, pero te detuviste ahí y ese es solo el valor que te ahorras.",
+    "pregunta_guia": "¿Los $12.000 son lo que pagas o lo que te descuentan?",
+    "aprende": "Después de hallar el descuento, réstalo del precio: 80.000 − 12.000 = 68.000."
+   },
+   "C": {
+    "error": "Restar el porcentaje como si fuera dinero",
+    "porque": "Elegiste $65.000 porque probablemente restaste $15.000, como si 15 % fuera lo mismo que $15.000.",
+    "pregunta_guia": "¿El 15 % de $80.000 es igual a $15.000? Calcula 80.000 × 0,15.",
+    "aprende": "Un porcentaje siempre se calcula sobre la cantidad: 15 % de 80.000 = 12.000."
+   },
+   "D": {
+    "error": "Sumar el descuento",
+    "porque": "Elegiste $92.000 porque probablemente sumaste el 15 % en lugar de restarlo, como cuando se cobra un recargo.",
+    "pregunta_guia": "Un descuento, ¿hace que pagues más o menos?",
+    "aprende": "Descuento = se resta; recargo o impuesto = se suma."
+   }
+  },
+  "explicacion": "Paso 1: 15 % de 80.000 = 80.000 × 15 ÷ 100 = 12.000. Paso 2: precio final = 80.000 − 12.000 = 68.000. Comprobación: si pagas el 85 %, 80.000 × 0,85 = 68.000.",
+  "tip": "Antes de elegir, pregúntate si la respuesta debe ser mayor o menor que el precio inicial.",
+  "truco": "Con descuento del p %, pagas el (100 − p) %: 15 % menos → pagas el 85 %.",
+  "temas": [
+   "porcentajes",
+   "descuentos",
+   "finanzas personales"
+  ],
+  "gemela": {
+   "enunciado": "Unos tenis cuestan $120.000 y tienen 20 % de descuento. ¿Cuánto se paga por ellos?",
+   "opciones": {
+    "A": "$24.000",
+    "B": "$100.000",
+    "C": "$96.000",
+    "D": "$144.000"
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: 20 % de 120.000 = 24.000. Paso 2: 120.000 − 24.000 = 96.000. Comprobación: 120.000 × 0,80 = 96.000."
+  }
+ },
+ {
+  "id": "MAT-8-N102",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Comunicación, modelación y representación",
+  "componente": "Numérico-variacional",
+  "nivel": "Mínimo",
+  "pensamiento": "Aplicar",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: identifica y utiliza productos notables y relaciones entre expresiones algebraicas y áreas de figuras (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: construyo expresiones algebraicas equivalentes a una expresión algebraica dada.",
+  "afirmacion": "El estudiante representa el área de un cuadrado de lado (x + a) como un trinomio cuadrado perfecto.",
+  "evidencia": "Desarrolla (x + 3)² e incluye el doble producto 6x.",
+  "contexto": "El patio de una casa en el barrio El Vallado es cuadrado. Cada lado mide (x + 3) metros.",
+  "enunciado": "¿Cuál expresión representa el área del patio, en metros cuadrados?",
+  "opciones": {
+   "A": "x² + 9",
+   "B": "x² + 6x + 9",
+   "C": "x² + 3x + 9",
+   "D": "2x + 6"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Olvidar el doble producto",
+    "porque": "Elegiste x² + 9 porque probablemente elevaste al cuadrado cada término por separado: x² y 3².",
+    "pregunta_guia": "Dibuja el cuadrado dividido en x y 3 por lado: ¿cuántas piezas aparecen?",
+    "aprende": "(x + 3)² = (x + 3)(x + 3) = x² + 3x + 3x + 9 = x² + 6x + 9."
+   },
+   "C": {
+    "error": "Doble producto incompleto",
+    "porque": "Elegiste x² + 3x + 9 porque probablemente multiplicaste x por 3 una sola vez.",
+    "pregunta_guia": "Al multiplicar (x + 3)(x + 3), ¿cuántas veces aparece x · 3?",
+    "aprende": "El término del medio es 2 · x · 3 = 6x: aparecen dos rectángulos de x por 3."
+   },
+   "D": {
+    "error": "Confundir cuadrado con doble",
+    "porque": "Elegiste 2x + 6 porque probablemente calculaste 2(x + 3), es decir, multiplicaste por 2 en vez de elevar al cuadrado.",
+    "pregunta_guia": "¿El área de un cuadrado es lado × 2 o lado × lado?",
+    "aprende": "Elevar al cuadrado es multiplicar la expresión por sí misma, no por 2."
+   }
+  },
+  "explicacion": "Paso 1: área = lado × lado = (x + 3)(x + 3). Paso 2: x·x = x²; x·3 = 3x; 3·x = 3x; 3·3 = 9. Paso 3: x² + 3x + 3x + 9 = x² + 6x + 9. Comprobación con x = 1: (1 + 3)² = 16 y 1 + 6 + 9 = 16.",
+  "tip": "Comprueba tu expresión con un número sencillo, como x = 1.",
+  "truco": "(a + b)² = a² + 2ab + b²: «el primero al cuadrado, más el doble del primero por el segundo, más el segundo al cuadrado».",
+  "temas": [
+   "productos notables",
+   "trinomio cuadrado perfecto",
+   "área"
+  ],
+  "gemela": {
+   "enunciado": "Una baldosa cuadrada mide (x + 5) cm de lado. ¿Qué expresión representa su área?",
+   "opciones": {
+    "A": "x² + 25",
+    "B": "x² + 5x + 25",
+    "C": "2x + 10",
+    "D": "x² + 10x + 25"
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: (x + 5)(x + 5). Paso 2: x² + 5x + 5x + 25. Paso 3: x² + 10x + 25. Con x = 1: 6² = 36 y 1 + 10 + 25 = 36."
+  }
+ },
+ {
+  "id": "MAT-8-N103",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Razonamiento y argumentación",
+  "componente": "Aleatorio",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "sabic": "Estadística financiera",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: interpreta medidas de tendencia central en conjuntos de datos y decide cuál representa mejor los datos según su distribución (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento aleatorio y sistemas de datos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: uso medidas de tendencia central para interpretar el comportamiento de un conjunto de datos.",
+  "afirmacion": "El estudiante justifica qué medida de tendencia central describe mejor un conjunto de datos con un valor atípico.",
+  "evidencia": "Reconoce que un dato extremo desplaza la media y que la mediana no se afecta.",
+  "contexto": "Cinco puestos de empanadas de una feria en Cali registraron estas ventas en una semana (en miles de pesos): 120, 130, 140, 150 y 460. El último puesto vendió mucho más porque quedaba junto a la tarima principal.",
+  "enunciado": "¿Qué medida representa mejor lo que vende normalmente un puesto de la feria?",
+  "opciones": {
+   "A": "La media, $200.000, porque usa todos los datos de la feria.",
+   "B": "La moda, porque es el valor que más se repite.",
+   "C": "La mediana, $140.000, porque el dato extremo no la afecta.",
+   "D": "El rango, $340.000, porque compara el mayor con el menor."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Creer que la media siempre es la mejor",
+    "porque": "Elegiste la media porque probablemente piensas que usar todos los datos la hace siempre más justa.",
+    "pregunta_guia": "¿Cuántos puestos vendieron $200.000 o más? ¿Es eso lo normal?",
+    "aprende": "Un dato atípico (460) jala la media hacia arriba; aquí 4 de 5 puestos vendieron menos de 200."
+   },
+   "B": {
+    "error": "Usar la moda sin verificar que exista",
+    "porque": "Elegiste la moda porque probablemente recordaste su definición sin revisar los datos.",
+    "pregunta_guia": "¿Hay algún valor que se repita en la lista?",
+    "aprende": "Si ningún dato se repite, no hay moda útil para describir el conjunto."
+   },
+   "D": {
+    "error": "Confundir dispersión con valor típico",
+    "porque": "Elegiste el rango porque probablemente lo confundiste con una medida de tendencia central.",
+    "pregunta_guia": "¿El rango dice cuánto vende un puesto o qué tan separados están los datos?",
+    "aprende": "El rango mide dispersión; para el valor típico se usa media, mediana o moda."
+   }
+  },
+  "explicacion": "Paso 1: ordena los datos: 120, 130, 140, 150, 460. Paso 2: media = 1.000 ÷ 5 = 200. Paso 3: mediana = dato central = 140. Paso 4: 460 es atípico (muy lejano del resto) y sube la media hasta 200, valor que casi ningún puesto alcanzó. Paso 5: la mediana (140) describe mejor lo típico. Respuesta C.",
+  "tip": "Antes de calcular, busca si hay un dato muy lejano de los demás.",
+  "truco": "Dato atípico a la vista → prefiere la mediana.",
+  "temas": [
+   "media",
+   "mediana",
+   "datos atípicos"
+  ],
+  "gemela": {
+   "enunciado": "En un club de robótica, las edades de los 6 integrantes son 13, 13, 14, 14, 15 y 45 años (el último es el profesor). ¿Qué valor representa mejor la edad típica del grupo?",
+   "opciones": {
+    "A": "19 años, la media.",
+    "B": "14 años, la mediana.",
+    "C": "32 años, el rango.",
+    "D": "45 años, el dato mayor."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: media = 114 ÷ 6 = 19, pero la sube el dato 45. Paso 2: mediana = (14 + 14) ÷ 2 = 14. Paso 3: 14 describe mejor a los integrantes. Respuesta B."
+  }
+ },
+ {
+  "id": "MAT-8-N104",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Planteamiento y resolución de problemas",
+  "componente": "Numérico-variacional",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Aplicar",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: plantea y resuelve ecuaciones lineales para modelar y resolver situaciones (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: identifico y utilizo ecuaciones para resolver problemas.",
+  "afirmacion": "El estudiante plantea y resuelve una ecuación lineal a partir de una situación con dos tipos de cantidades.",
+  "evidencia": "Expresa una cantidad en función de la otra (10 − a) y despeja la incógnita.",
+  "contexto": "Un grupo de 10 personas de la Comuna 15 visitó el zoológico de Cali. La entrada de adulto costó $20.000 y la de niño, $12.000. En total pagaron $152.000.",
+  "enunciado": "¿Cuántos adultos había en el grupo?",
+  "opciones": {
+   "A": "6",
+   "B": "5",
+   "C": "7",
+   "D": "4"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Intercambiar las cantidades",
+    "porque": "Elegiste 6 porque probablemente hallaste el número de niños y lo tomaste como el de adultos.",
+    "pregunta_guia": "Si fueran 6 adultos y 4 niños, ¿cuánto pagarían en total?",
+    "aprende": "Comprueba siempre: 6 × 20.000 + 4 × 12.000 = 168.000, no 152.000."
+   },
+   "B": {
+    "error": "Suponer partes iguales",
+    "porque": "Elegiste 5 porque probablemente pensaste que la mitad eran adultos y la mitad niños.",
+    "pregunta_guia": "¿El problema dice que eran la misma cantidad de adultos y de niños?",
+    "aprende": "No supongas: plantea la ecuación 20.000a + 12.000(10 − a) = 152.000."
+   },
+   "C": {
+    "error": "Dividir el total entre un solo precio",
+    "porque": "Elegiste 7 porque probablemente dividiste 152.000 ÷ 20.000 ≈ 7,6 y tomaste la parte entera, olvidando a los niños.",
+    "pregunta_guia": "¿Todas las entradas costaron $20.000?",
+    "aprende": "El total mezcla dos precios; hay que separar cuántas personas pagaron cada uno."
+   }
+  },
+  "explicacion": "Paso 1: adultos = a; niños = 10 − a. Paso 2: 20.000a + 12.000(10 − a) = 152.000. Paso 3: 20.000a + 120.000 − 12.000a = 152.000 → 8.000a = 32.000. Paso 4: a = 4. Comprobación: 4 × 20.000 + 6 × 12.000 = 80.000 + 72.000 = 152.000. ✔",
+  "tip": "Si sabes el total de personas, una cantidad se escribe en función de la otra.",
+  "truco": "Atajo: si todos fueran niños, pagarían 120.000; sobran 32.000 y cada adulto cuesta 8.000 más → 32.000 ÷ 8.000 = 4 adultos.",
+  "temas": [
+   "ecuaciones lineales",
+   "planteamiento de problemas"
+  ],
+  "gemela": {
+   "enunciado": "Lucía compró 12 artículos entre cuadernos de $3.000 y lapiceros de $1.000. Pagó $20.000 en total. ¿Cuántos cuadernos compró?",
+   "opciones": {
+    "A": "8",
+    "B": "4",
+    "C": "6",
+    "D": "5"
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: cuadernos = c; lapiceros = 12 − c. Paso 2: 3.000c + 1.000(12 − c) = 20.000 → 2.000c = 8.000 → c = 4. Comprobación: 12.000 + 8.000 = 20.000."
+  }
+ },
+ {
+  "id": "MAT-8-N105",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Razonamiento y argumentación",
+  "componente": "Espacial-métrico",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "sabic": "STEAM",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: analiza cómo cambian el área y el volumen de figuras y cuerpos cuando se modifican sus dimensiones (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento espacial y sistemas geométricos; pensamiento métrico y sistemas de medidas (Lineamientos Curriculares MEN 1998). EBC 8°–9°: generalizo procedimientos de cálculo para encontrar el área y el volumen de cuerpos.",
+  "afirmacion": "El estudiante evalúa una afirmación sobre el efecto de duplicar las dimensiones en el volumen.",
+  "evidencia": "Calcula ambos volúmenes y reconoce que duplicar la arista multiplica el volumen por 8.",
+  "contexto": "El colegio tiene un tanque cúbico para recoger agua lluvia, de 1 m de arista. Andrés afirma: «Si compramos un tanque cúbico de 2 m de arista, podremos guardar el doble de agua».",
+  "enunciado": "¿Cuál es la evaluación correcta de la afirmación de Andrés?",
+  "opciones": {
+   "A": "Es correcta, porque si la arista se duplica, todo el tanque se duplica.",
+   "B": "Es incorrecta, porque el volumen se multiplica por 4, como el área de una cara.",
+   "C": "Es incorrecta, porque el volumen pasa de 1 m³ a 8 m³; se multiplica por 8.",
+   "D": "Es incorrecta, porque el volumen se multiplica por 6, ya que el cubo tiene 6 caras."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Pensar que todo crece en la misma proporción",
+    "porque": "Elegiste A porque probablemente supusiste que si una medida se duplica, el volumen también se duplica.",
+    "pregunta_guia": "Calcula 2 × 2 × 2: ¿cuántos metros cúbicos da?",
+    "aprende": "El volumen depende de tres dimensiones: si cada una se duplica, el volumen se multiplica por 2 × 2 × 2 = 8."
+   },
+   "B": {
+    "error": "Confundir área con volumen",
+    "porque": "Elegiste B porque probablemente calculaste el área de una cara (2 × 2 = 4) y la tomaste como volumen.",
+    "pregunta_guia": "¿El agua ocupa una cara del tanque o todo su espacio interior?",
+    "aprende": "Área: dos dimensiones (×4). Volumen: tres dimensiones (×8)."
+   },
+   "D": {
+    "error": "Relacionar el volumen con el número de caras",
+    "porque": "Elegiste D porque probablemente asociaste el cubo con sus 6 caras.",
+    "pregunta_guia": "¿La fórmula del volumen de un cubo usa el número de caras?",
+    "aprende": "Volumen del cubo = arista³; el 6 aparece en el área total (6 · arista²), no en el volumen."
+   }
+  },
+  "explicacion": "Paso 1: tanque actual: 1 × 1 × 1 = 1 m³. Paso 2: tanque nuevo: 2 × 2 × 2 = 8 m³. Paso 3: 8 ÷ 1 = 8: guarda 8 veces más, no el doble. Paso 4: la afirmación es incorrecta por la razón C.",
+  "tip": "Cuando cambian las medidas, calcula el antes y el después en vez de suponer.",
+  "truco": "Si las longitudes se multiplican por k: el área por k² y el volumen por k³.",
+  "temas": [
+   "volumen del cubo",
+   "razón de semejanza",
+   "área y volumen"
+  ],
+  "gemela": {
+   "enunciado": "Un mural cuadrado de 2 m de lado se rediseña con 6 m de lado. Si se pinta toda la superficie con la misma capa, ¿por cuánto se multiplica la cantidad de pintura necesaria?",
+   "opciones": {
+    "A": "Por 3",
+    "B": "Por 9",
+    "C": "Por 6",
+    "D": "Por 18"
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: área inicial 2 × 2 = 4 m². Paso 2: área nueva 6 × 6 = 36 m². Paso 3: 36 ÷ 4 = 9. El lado se triplicó, así que el área se multiplica por 3² = 9."
+  }
+ },
+ {
+  "id": "MAT-8-N106",
+  "area": "matematicas",
+  "grado": 8,
+  "competencia": "Comunicación, modelación y representación",
+  "componente": "Numérico-variacional",
+  "nivel": "Avanzado",
+  "pensamiento": "Analizar",
+  "sabic": "Matemática financiera",
+  "revision": true,
+  "dba": "DBA (v.2) Matemáticas 8°: identifica relaciones lineales en tablas y las modela con expresiones de la forma y = mx + b para hacer predicciones (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Pensamiento variacional y sistemas algebraicos y analíticos (Lineamientos Curriculares MEN 1998). EBC 8°–9°: identifico relaciones entre propiedades de las gráficas y propiedades de las ecuaciones algebraicas; modelo situaciones de variación con funciones lineales.",
+  "afirmacion": "El estudiante modela una situación de variación lineal y la usa para predecir.",
+  "evidencia": "Identifica valor inicial y razón de cambio, plantea A = 15.000 + 7.000s y resuelve una desigualdad.",
+  "contexto": "Sara ahorra para comprar una tableta. Registró su ahorro en esta tabla:\nSemana 0: $15.000\nSemana 1: $22.000\nSemana 2: $29.000\nSemana 3: $36.000\nSigue ahorrando la misma cantidad cada semana.",
+  "tabla": {
+   "titulo": "Ahorro acumulado de Sara",
+   "cols": [
+    "Semana",
+    "Ahorro acumulado"
+   ],
+   "filas": [
+    [
+     "0",
+     "$15.000"
+    ],
+    [
+     "1",
+     "$22.000"
+    ],
+    [
+     "2",
+     "$29.000"
+    ],
+    [
+     "3",
+     "$36.000"
+    ]
+   ]
+  },
+  "enunciado": "¿En qué semana el ahorro de Sara superará por primera vez $80.000?",
+  "opciones": {
+   "A": "Semana 9",
+   "B": "Semana 10",
+   "C": "Semana 11",
+   "D": "Semana 5"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Redondear hacia abajo en una desigualdad",
+    "porque": "Elegiste la semana 9 porque probablemente calculaste 65.000 ÷ 7.000 ≈ 9,3 y te quedaste con 9.",
+    "pregunta_guia": "¿Cuánto tendrá en la semana 9? ¿Ya supera $80.000?",
+    "aprende": "En la semana 9 tiene 15.000 + 63.000 = 78.000: aún no alcanza. Si el resultado es 9,3, la primera semana entera que lo cumple es la 10."
+   },
+   "C": {
+    "error": "Ignorar el ahorro inicial",
+    "porque": "Elegiste la semana 11 porque probablemente dividiste 80.000 ÷ 7.000 ≈ 11,4 sin tener en cuenta los $15.000 que ya tenía.",
+    "pregunta_guia": "En la semana 0, ¿Sara tenía $0 o ya tenía dinero?",
+    "aprende": "El valor inicial (15.000) se resta primero: faltan 65.000."
+   },
+   "D": {
+    "error": "Tomar el valor inicial como razón de cambio",
+    "porque": "Elegiste la semana 5 porque probablemente pensaste que ahorra $15.000 cada semana (80.000 ÷ 15.000 ≈ 5,3).",
+    "pregunta_guia": "¿Cuánto aumenta el ahorro de una semana a la siguiente?",
+    "aprende": "La razón de cambio es la diferencia entre semanas: 22.000 − 15.000 = 7.000."
+   }
+  },
+  "explicacion": "Paso 1: valor inicial = 15.000; aumento por semana = 7.000. Paso 2: A = 15.000 + 7.000s. Paso 3: 15.000 + 7.000s > 80.000 → 7.000s > 65.000 → s > 9,29. Paso 4: la primera semana entera es s = 10. Comprobación: semana 9 → 78.000 (no supera); semana 10 → 85.000 (sí supera).",
+  "tip": "En preguntas de «por primera vez», comprueba la semana anterior y la siguiente.",
+  "truco": "Lineal = inicio + cambio × tiempo. Identifica el inicio (semana 0) y el cambio (resta dos filas seguidas).",
+  "temas": [
+   "función lineal",
+   "razón de cambio",
+   "desigualdades",
+   "ahorro"
+  ],
+  "gemela": {
+   "enunciado": "Un tanque de la huerta escolar tiene 200 litros y pierde 15 litros por hora. ¿Después de cuántas horas tendrá por primera vez MENOS de 50 litros?",
+   "opciones": {
+    "A": "10 horas",
+    "B": "13 horas",
+    "C": "11 horas",
+    "D": "14 horas"
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: L = 200 − 15h. Paso 2: 200 − 15h < 50 → 15h > 150 → h > 10. Paso 3: en h = 10 quedan exactamente 50 L (no es menos); en h = 11 quedan 35 L. Respuesta: 11 horas."
+  }
+ },
+ {
+  "id": "LEN-8-N101",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Literal",
+  "nivel": "Mínimo",
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: reconoce las acciones, los personajes y la secuencia de hechos en textos narrativos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Literatura: comprende obras literarias de diferentes géneros, analizando sus personajes, acciones y sentido (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Identifica y entiende los contenidos locales que conforman un texto.",
+  "evidencia": "Localiza en el texto lo que sucedió en un momento específico de la narración.",
+  "contexto": "Cada sábado, Yuliana acompañaba a su abuela Rosalba a vender cholado en una esquina del parque de El Ingenio. La abuela raspaba el hielo con una calma que a Yuliana le parecía desesperante: los clientes esperaban y ella seguía picando la fruta en cuadritos perfectos. —Abuela, así nunca vamos a vender más —le reclamó un día.\nRosalba no respondió; le pasó el cuchillo y se sentó en un banco. Esa tarde Yuliana atendió sola el puesto. Sirvió rápido, cobró rápido y, al final, contó menos billetes que de costumbre. Un señor le devolvió el vaso a medio comer: «La fruta está mal cortada y el hielo, aguado». El sábado siguiente, Yuliana llegó temprano, se sentó junto a su abuela y, sin que nadie se lo pidiera, empezó a cortar la piña despacio.",
+  "enunciado": "Según el texto, ¿qué ocurrió la tarde en que Yuliana atendió sola el puesto?",
+  "opciones": {
+   "A": "Contó menos billetes y un cliente le devolvió el vaso.",
+   "B": "Vendió más que nunca porque atendió muy rápido.",
+   "C": "La abuela tuvo que levantarse del banco para ayudarle.",
+   "D": "Se le acabó la fruta antes de que llegaran los clientes."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Suponer en lugar de leer",
+    "porque": "Elegiste B porque probablemente pensaste que atender rápido trae más ventas, que era la idea de Yuliana, no lo que pasó.",
+    "pregunta_guia": "¿Qué dice el texto sobre los billetes que contó al final?",
+    "aprende": "En preguntas literales, la respuesta está escrita: «contó menos billetes que de costumbre»."
+   },
+   "C": {
+    "error": "Agregar hechos que no están",
+    "porque": "Elegiste C porque probablemente imaginaste que la abuela intervino.",
+    "pregunta_guia": "Después de pasarle el cuchillo, ¿el texto vuelve a mostrar a la abuela ayudando esa tarde?",
+    "aprende": "Marca solo lo que el texto dice; la abuela se sentó y la dejó atender sola."
+   },
+   "D": {
+    "error": "Confundir detalles del texto",
+    "porque": "Elegiste D porque probablemente recordaste que el texto habla mucho de la fruta.",
+    "pregunta_guia": "¿El problema fue la cantidad de fruta o la forma de cortarla?",
+    "aprende": "El cliente se quejó de la fruta «mal cortada», no de que se acabara."
+   }
+  },
+  "explicacion": "Paso 1: ubica el fragmento «Esa tarde Yuliana atendió sola el puesto». Paso 2: lee lo que sigue: «contó menos billetes que de costumbre» y «un señor le devolvió el vaso a medio comer». Paso 3: la opción A reúne ambos hechos. Respuesta A.",
+  "tip": "En una pregunta literal, subraya en el texto la oración exacta que la responde.",
+  "truco": "Si una opción usa la palabra de la pregunta («esa tarde»), busca esa misma frase en el texto.",
+  "temas": [
+   "comprensión literal",
+   "secuencia narrativa"
+  ],
+  "gemela": {
+   "enunciado": "Según el texto, ¿qué hizo Rosalba cuando Yuliana le reclamó?",
+   "opciones": {
+    "A": "Le explicó con calma por qué cortaba despacio.",
+    "B": "Le pidió que se fuera a la casa a descansar.",
+    "C": "Se puso a raspar el hielo mucho más rápido.",
+    "D": "No respondió: le pasó el cuchillo y se sentó."
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: busca la reacción después del reclamo. Paso 2: el texto dice «Rosalba no respondió; le pasó el cuchillo y se sentó en un banco». Respuesta D."
+  }
+ },
+ {
+  "id": "LEN-8-N102",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Inferencial",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "sabic": "Inteligencia emocional",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: infiere información implícita en textos narrativos a partir de las acciones de los personajes (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Literatura: comprende obras literarias de diferentes géneros, analizando sus personajes, acciones y sentido (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+  "evidencia": "Relaciona el comienzo y el final de un relato para inferir el cambio de un personaje.",
+  "contexto": "Cada sábado, Yuliana acompañaba a su abuela Rosalba a vender cholado en una esquina del parque de El Ingenio. La abuela raspaba el hielo con una calma que a Yuliana le parecía desesperante: los clientes esperaban y ella seguía picando la fruta en cuadritos perfectos. —Abuela, así nunca vamos a vender más —le reclamó un día.\nRosalba no respondió; le pasó el cuchillo y se sentó en un banco. Esa tarde Yuliana atendió sola el puesto. Sirvió rápido, cobró rápido y, al final, contó menos billetes que de costumbre. Un señor le devolvió el vaso a medio comer: «La fruta está mal cortada y el hielo, aguado». El sábado siguiente, Yuliana llegó temprano, se sentó junto a su abuela y, sin que nadie se lo pidiera, empezó a cortar la piña despacio.",
+  "enunciado": "¿Qué se puede inferir del final del relato, cuando Yuliana empieza a cortar la piña despacio?",
+  "opciones": {
+   "A": "Que decidió dejar de vender cholado con su abuela.",
+   "B": "Que su abuela la obligó a cortar despacio como castigo.",
+   "C": "Que entendió que el cuidado al preparar atrae clientes.",
+   "D": "Que quería terminar rápido para irse a jugar al parque."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Inferencia contraria al texto",
+    "porque": "Elegiste A porque probablemente leíste el mal resultado de la tarde y pensaste que Yuliana se rindió.",
+    "pregunta_guia": "Si hubiera decidido dejar de vender, ¿por qué llegaría temprano el sábado siguiente?",
+    "aprende": "Llegar temprano y ponerse a trabajar muestra compromiso, no abandono."
+   },
+   "B": {
+    "error": "Ignorar una pista clave",
+    "porque": "Elegiste B porque probablemente no viste la frase «sin que nadie se lo pidiera».",
+    "pregunta_guia": "¿Quién decidió que Yuliana cortara la piña?",
+    "aprende": "«Sin que nadie se lo pidiera» indica que fue una decisión propia."
+   },
+   "D": {
+    "error": "Contradecir el detalle «despacio»",
+    "porque": "Elegiste D porque probablemente supusiste que una adolescente prefiere terminar rápido.",
+    "pregunta_guia": "¿Cómo cortaba la piña: rápido o despacio?",
+    "aprende": "La palabra «despacio» muestra que ya no busca la rapidez, sino la calidad, como su abuela."
+   }
+  },
+  "explicacion": "Paso 1: al inicio, Yuliana cree que la calma de la abuela hace perder ventas. Paso 2: cuando atiende rápido, vende menos y un cliente se queja de la fruta mal cortada. Paso 3: al final, por su cuenta, corta despacio, como la abuela. Paso 4: se infiere que entendió que la calidad atrae a los clientes. Respuesta C.",
+  "tip": "Compara lo que el personaje piensa al inicio con lo que hace al final: ahí está el aprendizaje.",
+  "truco": "Frases como «sin que nadie se lo pidiera» son pistas de una decisión propia.",
+  "temas": [
+   "inferencia",
+   "transformación del personaje",
+   "texto narrativo"
+  ],
+  "gemela": {
+   "enunciado": "¿Qué sugiere la frase «contó menos billetes que de costumbre»?",
+   "opciones": {
+    "A": "Que atender más rápido no le dio más ventas.",
+    "B": "Que Yuliana todavía no sabía contar el dinero.",
+    "C": "Que la abuela se había llevado parte del dinero.",
+    "D": "Que ese día no llegaron clientes al parque."
+   },
+   "correcta": "A",
+   "explicacion": "Paso 1: Yuliana sirvió y cobró rápido. Paso 2: aun así, recibió menos dinero. Paso 3: se infiere que la rapidez no mejoró las ventas. Respuesta A."
+  }
+ },
+ {
+  "id": "LEN-8-N103",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Crítico",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: valora las decisiones de los personajes de un texto literario a partir de las pistas del relato y de su propio criterio (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Literatura: comprende obras literarias de diferentes géneros, analizando sus personajes, acciones y sentido (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Reflexiona a partir de un texto y evalúa su contenido.",
+  "evidencia": "Valora la estrategia de un personaje con argumentos apoyados en el texto.",
+  "contexto": "Cada sábado, Yuliana acompañaba a su abuela Rosalba a vender cholado en una esquina del parque de El Ingenio. La abuela raspaba el hielo con una calma que a Yuliana le parecía desesperante: los clientes esperaban y ella seguía picando la fruta en cuadritos perfectos. —Abuela, así nunca vamos a vender más —le reclamó un día.\nRosalba no respondió; le pasó el cuchillo y se sentó en un banco. Esa tarde Yuliana atendió sola el puesto. Sirvió rápido, cobró rápido y, al final, contó menos billetes que de costumbre. Un señor le devolvió el vaso a medio comer: «La fruta está mal cortada y el hielo, aguado». El sábado siguiente, Yuliana llegó temprano, se sentó junto a su abuela y, sin que nadie se lo pidiera, empezó a cortar la piña despacio.",
+  "enunciado": "¿Cuál afirmación valora mejor la decisión de la abuela de pasarle el cuchillo a Yuliana sin responderle?",
+  "opciones": {
+   "A": "Fue descortés, porque ignoró el reclamo de su nieta.",
+   "B": "Fue una forma de enseñarle con la propia experiencia.",
+   "C": "Mostró que la abuela estaba cansada y quería descansar.",
+   "D": "Fue un error, porque el puesto perdió sus clientes para siempre."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Juzgar sin considerar el resultado",
+    "porque": "Elegiste A porque probablemente valoraste solo el momento del silencio, sin mirar cómo terminó el relato.",
+    "pregunta_guia": "¿Qué aprendió Yuliana gracias a ese silencio?",
+    "aprende": "Para evaluar una decisión, mira sus efectos en toda la historia, no solo en un momento."
+   },
+   "C": {
+    "error": "Explicación sin apoyo en el texto",
+    "porque": "Elegiste C porque probablemente te fijaste en que se sentó en un banco.",
+    "pregunta_guia": "¿El texto da alguna pista de cansancio, o el gesto tiene otro propósito?",
+    "aprende": "Una valoración crítica debe apoyarse en pistas: el final muestra que fue una lección."
+   },
+   "D": {
+    "error": "Exagerar una consecuencia",
+    "porque": "Elegiste D porque probablemente generalizaste la queja de un cliente.",
+    "pregunta_guia": "¿El texto dice que el puesto se quedó sin clientes para siempre?",
+    "aprende": "Una mala tarde no es una pérdida definitiva; evita conclusiones que el texto no permite."
+   }
+  },
+  "explicacion": "Paso 1: la abuela no discute; entrega el cuchillo y deja trabajar sola a Yuliana. Paso 2: Yuliana vive las consecuencias de la prisa (menos dinero, queja). Paso 3: el sábado siguiente cambia por decisión propia. Paso 4: la decisión de la abuela funcionó como una enseñanza a través de la experiencia. Respuesta B.",
+  "tip": "Evaluar es dar un juicio y sostenerlo con evidencias de todo el texto.",
+  "truco": "La mejor valoración es la que el final del relato confirma.",
+  "temas": [
+   "lectura crítica",
+   "valoración de personajes",
+   "aprendizaje por experiencia"
+  ],
+  "gemela": {
+   "enunciado": "Un compañero opina: «El relato muestra que trabajar rápido siempre es malo». ¿Qué tan válida es esta conclusión?",
+   "opciones": {
+    "A": "Es válida, porque Yuliana vendió menos ese día.",
+    "B": "Es válida, porque la abuela nunca trabaja rápido.",
+    "C": "No es válida: un solo caso no permite decir «siempre».",
+    "D": "No es válida, porque Yuliana vendió más que su abuela."
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: el texto muestra un caso: prisa que dañó la calidad. Paso 2: un solo caso no permite afirmar «siempre». Paso 3: la conclusión generaliza demasiado. Respuesta C."
+  }
+ },
+ {
+  "id": "LEN-8-N104",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Literal",
+  "nivel": "Mínimo",
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: identifica la tesis y la propuesta en textos de opinión (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Comprensión e interpretación textual: comprendo e interpreto textos teniendo en cuenta el funcionamiento de la lengua, la intención comunicativa y la argumentación (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Identifica y entiende los contenidos locales que conforman un texto.",
+  "evidencia": "Reconoce la propuesta explícita del autor y la distingue de lo que el autor descarta.",
+  "contexto": "Columna del periódico escolar: «Fruta a la vista»\nEn la tienda de nuestro colegio, casi todos los productos vienen en paquete: papas, galletas, gaseosas. Muchos dirán que eso es lo que los estudiantes quieren comprar, y es cierto. Pero que algo se venda mucho no significa que nos convenga. La Organización Mundial de la Salud ha advertido que el consumo excesivo de azúcares añadidos se asocia con caries y aumento de peso. Además, en el Valle del Cauca se cosechan piña, papaya, mango y guayaba durante buena parte del año, y una porción de fruta picada puede costar lo mismo que un paquete de papas. No propongo prohibir los paquetes. Propongo que la tienda ofrezca, al menos, tres opciones de fruta todos los días y que las ponga a la vista, junto a la caja. A veces elegimos lo que tenemos más cerca, no lo que de verdad preferimos.",
+  "enunciado": "¿Qué propone el autor de la columna?",
+  "opciones": {
+   "A": "Prohibir la venta de paquetes en la tienda del colegio.",
+   "B": "Que la tienda baje el precio de las papas y las gaseosas.",
+   "C": "Que los estudiantes traigan la fruta desde su casa cada día.",
+   "D": "Que la tienda ofrezca fruta a diario y junto a la caja."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Confundir lo que el autor descarta con lo que propone",
+    "porque": "Elegiste A porque probablemente supusiste que quien critica los paquetes quiere prohibirlos.",
+    "pregunta_guia": "¿Qué dice exactamente la oración que empieza con «No propongo…»?",
+    "aprende": "El autor dice «No propongo prohibir los paquetes»: lo descarta de forma explícita."
+   },
+   "B": {
+    "error": "Tomar un dato como propuesta",
+    "porque": "Elegiste B porque probablemente recordaste la comparación de precios entre fruta y papas.",
+    "pregunta_guia": "¿El autor pide cambiar precios o habla de precios para comparar?",
+    "aprende": "El precio es un argumento de apoyo, no la propuesta."
+   },
+   "C": {
+    "error": "Proponer algo que el texto no dice",
+    "porque": "Elegiste C porque probablemente pensaste en una solución lógica, pero no en la del texto.",
+    "pregunta_guia": "¿A quién le pide el autor que ofrezca la fruta?",
+    "aprende": "La propuesta va dirigida a la tienda, no a las familias."
+   }
+  },
+  "explicacion": "Paso 1: busca la palabra «propongo». Paso 2: aparece dos veces: «No propongo prohibir…» y «Propongo que la tienda ofrezca, al menos, tres opciones de fruta todos los días y que las ponga a la vista, junto a la caja». Paso 3: la opción D lo resume. Respuesta D.",
+  "tip": "En textos de opinión, busca verbos como «propongo», «considero», «sostengo».",
+  "truco": "Ojo con las negaciones: «No propongo X» descarta X.",
+  "temas": [
+   "texto argumentativo",
+   "tesis y propuesta",
+   "comprensión literal"
+  ],
+  "gemela": {
+   "enunciado": "Según la columna, ¿por qué la fruta debe estar junto a la caja?",
+   "opciones": {
+    "A": "Porque a veces elegimos lo que tenemos más cerca.",
+    "B": "Porque en otro lugar de la tienda se daña más rápido.",
+    "C": "Porque así el tendero puede vigilarla mejor.",
+    "D": "Porque así lo ordenó la Organización Mundial de la Salud."
+   },
+   "correcta": "A",
+   "explicacion": "Paso 1: la última oración explica la ubicación. Paso 2: «A veces elegimos lo que tenemos más cerca». Respuesta A."
+  }
+ },
+ {
+  "id": "LEN-8-N105",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Inferencial",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: reconoce la estructura de los textos argumentativos (tesis, argumentos, contraargumentos) y la función de sus partes (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Comprensión e interpretación textual: comprendo e interpreto textos teniendo en cuenta el funcionamiento de la lengua, la intención comunicativa y la argumentación (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+  "evidencia": "Identifica la función de un contraargumento dentro de un texto de opinión.",
+  "contexto": "Columna del periódico escolar: «Fruta a la vista»\nEn la tienda de nuestro colegio, casi todos los productos vienen en paquete: papas, galletas, gaseosas. Muchos dirán que eso es lo que los estudiantes quieren comprar, y es cierto. Pero que algo se venda mucho no significa que nos convenga. La Organización Mundial de la Salud ha advertido que el consumo excesivo de azúcares añadidos se asocia con caries y aumento de peso. Además, en el Valle del Cauca se cosechan piña, papaya, mango y guayaba durante buena parte del año, y una porción de fruta picada puede costar lo mismo que un paquete de papas. No propongo prohibir los paquetes. Propongo que la tienda ofrezca, al menos, tres opciones de fruta todos los días y que las ponga a la vista, junto a la caja. A veces elegimos lo que tenemos más cerca, no lo que de verdad preferimos.",
+  "enunciado": "¿Qué función cumple en la columna la oración «Muchos dirán que eso es lo que los estudiantes quieren comprar, y es cierto»?",
+  "opciones": {
+   "A": "Reconoce una objeción posible para luego responderla.",
+   "B": "Presenta la tesis principal que defiende el autor.",
+   "C": "Aporta un dato científico que respalda la propuesta.",
+   "D": "Demuestra que el autor está de acuerdo con vender solo paquetes."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundir contraargumento con tesis",
+    "porque": "Elegiste B porque probablemente creíste que la primera opinión que aparece es la del autor.",
+    "pregunta_guia": "¿El autor defiende vender paquetes o pide algo distinto?",
+    "aprende": "La tesis es la postura que el autor defiende (ofrecer fruta); esta oración presenta lo que otros dirían."
+   },
+   "C": {
+    "error": "Confundir opinión con dato",
+    "porque": "Elegiste C porque probablemente la frase «y es cierto» te sonó a dato comprobado.",
+    "pregunta_guia": "¿Esta oración cita una fuente o un estudio?",
+    "aprende": "El dato científico del texto es el de la Organización Mundial de la Salud."
+   },
+   "D": {
+    "error": "Leer la concesión fuera de contexto",
+    "porque": "Elegiste D porque probablemente te quedaste con «y es cierto» sin leer la oración siguiente.",
+    "pregunta_guia": "¿Qué conector aparece justo después? ¿Qué anuncia «Pero»?",
+    "aprende": "Conceder («es cierto») y luego responder («Pero…») es una estrategia para fortalecer la propia postura."
+   }
+  },
+  "explicacion": "Paso 1: la oración presenta lo que dirían otros («Muchos dirán…»). Paso 2: el autor lo admite («y es cierto»). Paso 3: enseguida responde con «Pero que algo se venda mucho no significa que nos convenga». Paso 4: es un contraargumento que el autor reconoce y refuta. Respuesta A.",
+  "tip": "Las expresiones «muchos dirán», «se podría pensar» suelen anunciar un contraargumento.",
+  "truco": "Concesión + «pero» = el autor da la razón en algo para luego ganar la discusión.",
+  "temas": [
+   "contraargumento",
+   "estructura argumentativa",
+   "conectores"
+  ],
+  "gemela": {
+   "enunciado": "¿Qué función cumple en la columna la mención de la Organización Mundial de la Salud?",
+   "opciones": {
+    "A": "Presentar la opinión de los estudiantes del colegio.",
+    "B": "Respaldar el argumento con una fuente reconocida.",
+    "C": "Explicar cómo se cosecha la fruta en el Valle.",
+    "D": "Contradecir la propuesta que hace el autor."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: el autor necesita mostrar que los paquetes azucarados no convienen. Paso 2: cita a una entidad de salud reconocida. Paso 3: es un argumento de autoridad. Respuesta B."
+  }
+ },
+ {
+  "id": "LEN-8-N106",
+  "area": "lenguaje",
+  "grado": 8,
+  "competencia": "Comprensión lectora",
+  "componente": "Crítico",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "revision": true,
+  "dba": "DBA (v.2) Lenguaje 8°: evalúa la solidez de los argumentos de un texto de opinión y reconoce qué información los fortalece o los debilita (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Comprensión e interpretación textual: comprendo e interpreto textos teniendo en cuenta el funcionamiento de la lengua, la intención comunicativa y la argumentación (EBC Lenguaje 8°–9°).",
+  "afirmacion": "Reflexiona a partir de un texto y evalúa su contenido.",
+  "evidencia": "Identifica qué evidencia debilitaría el supuesto central de una propuesta.",
+  "contexto": "Columna del periódico escolar: «Fruta a la vista»\nEn la tienda de nuestro colegio, casi todos los productos vienen en paquete: papas, galletas, gaseosas. Muchos dirán que eso es lo que los estudiantes quieren comprar, y es cierto. Pero que algo se venda mucho no significa que nos convenga. La Organización Mundial de la Salud ha advertido que el consumo excesivo de azúcares añadidos se asocia con caries y aumento de peso. Además, en el Valle del Cauca se cosechan piña, papaya, mango y guayaba durante buena parte del año, y una porción de fruta picada puede costar lo mismo que un paquete de papas. No propongo prohibir los paquetes. Propongo que la tienda ofrezca, al menos, tres opciones de fruta todos los días y que las ponga a la vista, junto a la caja. A veces elegimos lo que tenemos más cerca, no lo que de verdad preferimos.",
+  "enunciado": "¿Cuál de los siguientes datos, si fuera verdadero, debilitaría MÁS la propuesta del autor?",
+  "opciones": {
+   "A": "A algunos estudiantes del colegio no les gusta la papaya.",
+   "B": "En otro colegio pusieron fruta junto a la caja y no se vendió más.",
+   "C": "En la tienda del barrio las gaseosas son más baratas que en el colegio.",
+   "D": "La Organización Mundial de la Salud también recomienda hacer ejercicio."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Tomar un caso parcial como objeción fuerte",
+    "porque": "Elegiste A porque probablemente pensaste que si a alguien no le gusta una fruta, la propuesta falla.",
+    "pregunta_guia": "¿La propuesta ofrece una sola fruta o al menos tres opciones?",
+    "aprende": "Una objeción débil afecta un detalle; la propuesta ya prevé variedad."
+   },
+   "C": {
+    "error": "Elegir un dato que no se relaciona con la propuesta",
+    "porque": "Elegiste C porque probablemente relacionaste el precio con la compra de paquetes.",
+    "pregunta_guia": "¿Ese dato dice algo sobre si la fruta a la vista cambia lo que compran los estudiantes?",
+    "aprende": "Para debilitar una propuesta, ataca su idea central: que tener la fruta cerca cambia la elección."
+   },
+   "D": {
+    "error": "Confundir información adicional con objeción",
+    "porque": "Elegiste D porque probablemente viste de nuevo a la OMS y pensaste que cambiaba el argumento.",
+    "pregunta_guia": "¿Recomendar ejercicio contradice que convenga comer fruta?",
+    "aprende": "Un dato que no contradice el supuesto central no debilita la propuesta."
+   }
+  },
+  "explicacion": "Paso 1: el supuesto central es «elegimos lo que tenemos más cerca»: si la fruta está a la vista, se comprará más. Paso 2: el dato B muestra que, en un caso real parecido, poner la fruta junto a la caja no cambió las ventas. Paso 3: eso ataca directamente el supuesto. Paso 4: las demás opciones son detalles o datos sin relación. Respuesta B.",
+  "tip": "Para evaluar un argumento, encuentra primero su supuesto: ¿qué tiene que ser cierto para que la propuesta funcione?",
+  "truco": "El dato que más debilita es el que contradice el «porque» de la propuesta.",
+  "temas": [
+   "evaluación de argumentos",
+   "supuestos",
+   "lectura crítica"
+  ],
+  "gemela": {
+   "enunciado": "¿Cuál de estos datos, si fuera verdadero, FORTALECERÍA más la propuesta del autor?",
+   "opciones": {
+    "A": "Las papas fritas de la tienda vienen en muchos sabores distintos.",
+    "B": "La tienda del colegio abre todos los días a las 6:30 a. m.",
+    "C": "El mango es una fruta tropical que se cosecha en el Valle.",
+    "D": "En un colegio de Palmira, la fruta junto a la caja duplicó sus ventas."
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: el supuesto es que la fruta cercana se compra más. Paso 2: el dato D muestra justamente ese efecto en un caso parecido. Respuesta D."
+  }
+ },
+ {
+  "id": "CN-8-N101",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Uso comprensivo del conocimiento científico",
+  "componente": "Entorno físico",
+  "nivel": "Mínimo",
+  "pensamiento": "Aplicar",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: comprende que en una reacción química se recombinan los átomos de las moléculas de los reactivos para generar productos nuevos, conservando el número de átomos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: explico condiciones de cambio y conservación en diversos sistemas, teniendo en cuenta transferencia y transporte de energía y su interacción con la materia.",
+  "afirmacion": "Usa la ecuación química para contar átomos en los productos de una reacción.",
+  "evidencia": "Interpreta coeficientes y subíndices para contar los átomos de un elemento.",
+  "contexto": "La reacción que ocurre cuando el hidrógeno se combina con el oxígeno para formar agua es:\n2 H₂ + O₂ → 2 H₂O",
+  "enunciado": "¿Cuántos átomos de hidrógeno hay en total en los productos de esta reacción?",
+  "opciones": {
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "8"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Ignorar el coeficiente",
+    "porque": "Elegiste 2 porque probablemente contaste solo el subíndice de H₂O y olvidaste el 2 que va adelante.",
+    "pregunta_guia": "¿Qué indica el número 2 escrito antes de H₂O?",
+    "aprende": "El coeficiente multiplica toda la molécula: 2 H₂O = 2 moléculas × 2 H = 4 H."
+   },
+   "C": {
+    "error": "Contar todos los átomos",
+    "porque": "Elegiste 6 porque probablemente sumaste los átomos de hidrógeno y de oxígeno de los productos.",
+    "pregunta_guia": "¿La pregunta pide todos los átomos o solo los de hidrógeno?",
+    "aprende": "Cuenta por elemento: 4 de H y 2 de O."
+   },
+   "D": {
+    "error": "Multiplicar de más",
+    "porque": "Elegiste 8 porque probablemente multiplicaste 2 × 2 × 2, aplicando el coeficiente dos veces.",
+    "pregunta_guia": "¿Cuántas moléculas de agua hay y cuántos H tiene cada una?",
+    "aprende": "Átomos = coeficiente × subíndice, una sola vez: 2 × 2 = 4."
+   }
+  },
+  "explicacion": "Paso 1: en los productos hay 2 H₂O, es decir, 2 moléculas de agua. Paso 2: cada molécula tiene 2 átomos de H (subíndice). Paso 3: 2 × 2 = 4. Comprobación: en los reactivos, 2 H₂ también tienen 4 átomos de H: los átomos se conservan. Respuesta B.",
+  "tip": "Coeficiente (adelante) = cuántas moléculas; subíndice (abajo) = cuántos átomos en cada molécula.",
+  "truco": "Átomos de un elemento = coeficiente × subíndice.",
+  "temas": [
+   "ecuaciones químicas",
+   "conservación de la materia",
+   "coeficientes y subíndices"
+  ],
+  "gemela": {
+   "enunciado": "En la combustión del gas natural, CH₄ + 2 O₂ → CO₂ + 2 H₂O, ¿cuántos átomos de oxígeno hay en los productos?",
+   "opciones": {
+    "A": "3",
+    "B": "2",
+    "C": "4",
+    "D": "6"
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: CO₂ tiene 2 átomos de O. Paso 2: 2 H₂O tienen 2 × 1 = 2 átomos de O. Paso 3: 2 + 2 = 4. En los reactivos, 2 O₂ = 4 átomos de O: se conserva."
+  }
+ },
+ {
+  "id": "CN-8-N102",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Uso comprensivo del conocimiento científico",
+  "componente": "Entorno vivo",
+  "nivel": "Mínimo",
+  "pensamiento": "Comprender",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: analiza relaciones entre sistemas de órganos (entre ellos el endocrino y el nervioso) y su papel en el equilibrio del organismo (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: explico la importancia de las hormonas en la regulación de las funciones del ser humano.",
+  "afirmacion": "Reconoce la función de una hormona en la regulación del organismo.",
+  "evidencia": "Relaciona la insulina y el páncreas con la regulación de la glucosa en la sangre.",
+  "contexto": "Después de almorzar arroz, aborrajado y jugo, la cantidad de glucosa en la sangre de Kevin aumenta. Su cuerpo libera una hormona que ayuda a que esa glucosa entre a las células.",
+  "enunciado": "¿Qué órgano produce esa hormona?",
+  "opciones": {
+   "A": "El hígado",
+   "B": "El estómago",
+   "C": "El páncreas",
+   "D": "El riñón"
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Confundir almacenamiento con producción de la hormona",
+    "porque": "Elegiste el hígado porque probablemente sabes que guarda glucosa, pero no es quien produce la insulina.",
+    "pregunta_guia": "¿Qué órgano tiene las células que fabrican insulina?",
+    "aprende": "El páncreas produce insulina; el hígado almacena glucosa en forma de glucógeno."
+   },
+   "B": {
+    "error": "Asociar todo con la digestión",
+    "porque": "Elegiste el estómago porque probablemente pensaste que, como la comida pasa por ahí, controla el azúcar.",
+    "pregunta_guia": "¿El estómago libera hormonas a la sangre para regular la glucosa?",
+    "aprende": "El estómago digiere; la regulación de la glucosa la hace la insulina del páncreas."
+   },
+   "D": {
+    "error": "Confundir excreción con regulación hormonal",
+    "porque": "Elegiste el riñón porque probablemente recordaste que filtra la sangre.",
+    "pregunta_guia": "¿Filtrar la sangre es lo mismo que hacer entrar glucosa a las células?",
+    "aprende": "El riñón filtra y forma orina; no produce insulina."
+   }
+  },
+  "explicacion": "Paso 1: al comer, la glucosa en la sangre sube. Paso 2: el páncreas libera insulina. Paso 3: la insulina facilita la entrada de glucosa a las células, y la glucosa en sangre baja. Respuesta C.",
+  "tip": "Hormona = mensajero químico que viaja por la sangre desde una glándula.",
+  "truco": "Insulina → «isla» del páncreas: la producen los islotes pancreáticos.",
+  "temas": [
+   "sistema endocrino",
+   "insulina",
+   "homeostasis"
+  ],
+  "gemela": {
+   "enunciado": "Lina se asusta cuando un perro le ladra de repente: su corazón late más rápido. ¿Qué glándulas liberan la hormona responsable (adrenalina)?",
+   "opciones": {
+    "A": "La tiroides",
+    "B": "Las glándulas suprarrenales",
+    "C": "El páncreas",
+    "D": "Las glándulas salivales"
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: ante un susto, el sistema nervioso activa una respuesta rápida. Paso 2: las glándulas suprarrenales liberan adrenalina. Paso 3: la adrenalina acelera el corazón. Respuesta B."
+  }
+ },
+ {
+  "id": "CN-8-N103",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Indagación",
+  "componente": "Entorno vivo",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "sabic": "STEAM",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: diseña experimentos sencillos identificando variables independientes, dependientes y controladas (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: identifico y verifico condiciones que influyen en los resultados de un experimento y que pueden permanecer constantes o cambiar (variables).",
+  "afirmacion": "Analiza si el diseño de un experimento permite responder una pregunta de investigación.",
+  "evidencia": "Reconoce que se cambió más de una variable a la vez.",
+  "contexto": "Sara quiere saber si la cantidad de luz afecta el crecimiento de plántulas de fríjol. Siembra tres semillas iguales en vasos con la misma tierra:\n• Vaso 1: junto a la ventana, con 20 mL de agua al día.\n• Vaso 2: dentro del clóset, con 10 mL de agua al día.\n• Vaso 3: debajo de la cama, con 30 mL de agua al día.\nDespués de dos semanas mide la altura de cada plántula.",
+  "enunciado": "¿Cuál es el principal problema del diseño para responder su pregunta?",
+  "opciones": {
+   "A": "Debió usar semillas de especies distintas para comparar mejor.",
+   "B": "Debió medir el color de las hojas en lugar de la altura.",
+   "C": "Las plantas no necesitan luz para crecer; el experimento sobra.",
+   "D": "Cambió la luz y el agua a la vez; no sabrá cuál causó el efecto."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Agregar variables en vez de controlarlas",
+    "porque": "Elegiste A porque probablemente pensaste que más variedad hace mejor el experimento.",
+    "pregunta_guia": "Si cambian la especie y la luz, ¿a cuál le atribuyes el resultado?",
+    "aprende": "En un experimento justo cambia solo una variable; lo demás se mantiene igual."
+   },
+   "B": {
+    "error": "Cambiar la variable medida sin razón",
+    "porque": "Elegiste B porque probablemente sabes que la luz afecta el color de las hojas.",
+    "pregunta_guia": "¿La altura es una forma válida de medir el crecimiento?",
+    "aprende": "La altura es una medida válida del crecimiento (y se puede complementar con el color de las hojas); el problema principal está en las variables que no se controlaron."
+   },
+   "C": {
+    "error": "Idea errónea sobre la fotosíntesis",
+    "porque": "Elegiste C porque probablemente has visto semillas germinar en la oscuridad.",
+    "pregunta_guia": "Después de gastar las reservas de la semilla, ¿de dónde obtiene la planta su energía?",
+    "aprende": "Las plantas necesitan luz para la fotosíntesis; sin ella, crecen débiles y amarillas."
+   }
+  },
+  "explicacion": "Paso 1: la pregunta es sobre la luz (variable independiente). Paso 2: la altura es la variable dependiente. Paso 3: el agua debía ser igual en los tres vasos (variable controlada), pero cambia: 20, 10 y 30 mL. Paso 4: si hay diferencias, no se sabe si se deben a la luz o al agua. Respuesta D.",
+  "tip": "Pregúntate: ¿qué cambié a propósito?, ¿qué medí?, ¿qué dejé igual?",
+  "truco": "Experimento justo: «cambia UNA cosa, mide UNA cosa, deja igual TODO lo demás».",
+  "temas": [
+   "variables",
+   "diseño experimental",
+   "fotosíntesis"
+  ],
+  "gemela": {
+   "enunciado": "Tomás quiere saber si la altura de una rampa cambia la distancia que recorre un carrito. Prueba una rampa de 20 cm con un carrito liviano y una de 40 cm con un carrito pesado. ¿Qué debe corregir?",
+   "opciones": {
+    "A": "Usar el mismo carrito y cambiar solo la altura.",
+    "B": "Usar rampas de la misma altura con carritos distintos.",
+    "C": "Medir el tiempo de bajada en lugar de la distancia.",
+    "D": "Probar con más carritos de pesos distintos."
+   },
+   "correcta": "A",
+   "explicacion": "Paso 1: la variable que se estudia es la altura. Paso 2: el carrito también cambia (otra variable). Paso 3: se debe usar el mismo carrito para que solo cambie la altura. Respuesta A."
+  }
+ },
+ {
+  "id": "CN-8-N104",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Explicación de fenómenos",
+  "componente": "Entorno físico",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Comprender",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: comprende la transferencia de energía térmica entre cuerpos por conducción, convección y radiación (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: explico condiciones de cambio y conservación en diversos sistemas, teniendo en cuenta la transferencia de energía.",
+  "afirmacion": "Explica un fenómeno cotidiano de transferencia de calor.",
+  "evidencia": "Relaciona la conducción térmica con el tipo de material.",
+  "contexto": "En la cocina, la mamá de Brayan deja una cuchara metálica y una cuchara de palo dentro de una olla de sancocho hirviendo. Minutos después, el mango de la cuchara metálica está muy caliente y el de la de palo está apenas tibio.",
+  "enunciado": "¿Cuál es la mejor explicación de esta diferencia?",
+  "opciones": {
+   "A": "El metal conduce bien el calor desde el caldo; la madera, muy poco.",
+   "B": "La madera deja escapar el frío más rápido que la cuchara de metal.",
+   "C": "El metal produce su propio calor cuando se moja con el caldo.",
+   "D": "El fogón calienta por radiación solo a los objetos metálicos."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Pensar que el frío fluye",
+    "porque": "Elegiste B porque probablemente imaginas el frío como algo que entra o sale de los objetos.",
+    "pregunta_guia": "¿Lo que se transfiere es «frío» o energía térmica del cuerpo caliente al frío?",
+    "aprende": "El calor siempre pasa del cuerpo más caliente al más frío; el «frío» no es una sustancia."
+   },
+   "C": {
+    "error": "Atribuir al material una fuente propia de energía",
+    "porque": "Elegiste C porque probablemente notaste que la cuchara se calienta sin estar en el fuego directo.",
+    "pregunta_guia": "Si la sacas de la olla, ¿la cuchara sigue calentándose sola?",
+    "aprende": "El metal no genera calor: lo recibe del caldo y lo conduce."
+   },
+   "D": {
+    "error": "Confundir la forma de transferencia",
+    "porque": "Elegiste D porque probablemente oíste que el fuego emite radiación.",
+    "pregunta_guia": "¿La radiación del fogón escoge qué materiales calentar?",
+    "aprende": "Aquí el mango se calienta porque el calor viaja por el material desde la parte sumergida: eso es conducción."
+   }
+  },
+  "explicacion": "Paso 1: ambas cucharas están en contacto con el caldo caliente. Paso 2: la energía térmica pasa al material y avanza por él (conducción). Paso 3: el metal la conduce bien; la madera es mala conductora (aislante). Paso 4: por eso el mango metálico se calienta y el de palo no tanto. Respuesta A.",
+  "tip": "Si el calor viaja a través de un sólido, piensa en conducción.",
+  "truco": "Conducción = contacto; convección = fluidos que se mueven; radiación = ondas, sin contacto.",
+  "temas": [
+   "transferencia de calor",
+   "conducción",
+   "conductores y aislantes"
+  ],
+  "gemela": {
+   "enunciado": "¿Por qué las ollas suelen tener mangos de plástico o de madera?",
+   "opciones": {
+    "A": "Porque esos materiales calientan más rápido la comida de la olla.",
+    "B": "Porque son malos conductores del calor y protegen la mano.",
+    "C": "Porque el plástico atrae el frío y enfría el mango.",
+    "D": "Porque pesan más y evitan que la olla se voltee."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: la olla metálica conduce el calor. Paso 2: el mango de plástico o madera conduce muy poco (aislante). Paso 3: así la mano no se quema. Respuesta B."
+  }
+ },
+ {
+  "id": "CN-8-N105",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Explicación de fenómenos",
+  "componente": "Entorno físico",
+  "nivel": "Avanzado",
+  "pensamiento": "Analizar",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: comprende el comportamiento de los gases ideales en términos de presión, volumen y temperatura, a partir del modelo cinético de partículas (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: establezco relaciones entre las variables de estado en un sistema termodinámico para predecir cambios físicos y químicos.",
+  "afirmacion": "Analiza datos para identificar la relación inversa entre presión y volumen de un gas.",
+  "evidencia": "Reconoce que el producto P × V se mantiene constante y lo usa para predecir.",
+  "contexto": "En el laboratorio del CENTEC, un grupo tapó la punta de una jeringa con 60 mL de aire y fue aumentando la presión sobre el émbolo, sin cambiar la temperatura. Registró estos datos:\nPresión 1 atm → volumen 60 mL\nPresión 2 atm → volumen 30 mL\nPresión 3 atm → volumen 20 mL",
+  "tabla": {
+   "titulo": "Jeringa tapada con aire (temperatura constante)",
+   "cols": [
+    "Presión (atm)",
+    "Volumen (mL)"
+   ],
+   "filas": [
+    [
+     "1",
+     "60"
+    ],
+    [
+     "2",
+     "30"
+    ],
+    [
+     "3",
+     "20"
+    ],
+    [
+     "4",
+     "?"
+    ]
+   ]
+  },
+  "enunciado": "Si la tendencia se mantiene, ¿qué volumen tendrá el aire a 4 atm?",
+  "opciones": {
+   "A": "10 mL, porque el volumen sigue bajando 10 mL por cada atm.",
+   "B": "240 mL, porque presión y volumen aumentan juntos.",
+   "C": "15 mL, porque presión × volumen se mantiene en 60.",
+   "D": "20 mL, porque el aire ya no se puede comprimir más."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Suponer una disminución constante",
+    "porque": "Elegiste A porque probablemente miraste solo el último cambio (de 30 a 20 mL) y supusiste que siempre baja 10 mL.",
+    "pregunta_guia": "De 1 a 2 atm, ¿cuánto bajó el volumen? ¿Fue también 10 mL?",
+    "aprende": "Bajó 30 y luego 10: no es lineal. Busca la regla en todos los datos: P × V = 60."
+   },
+   "B": {
+    "error": "Confundir relación inversa con directa",
+    "porque": "Elegiste B porque probablemente creíste que si la presión se multiplica por 4, el volumen también.",
+    "pregunta_guia": "En la tabla, cuando la presión sube, ¿el volumen sube o baja?",
+    "aprende": "Presión y volumen de un gas (a temperatura constante) son inversamente proporcionales."
+   },
+   "D": {
+    "error": "Creer que los gases no se comprimen",
+    "porque": "Elegiste D porque probablemente piensas que el aire llega a un límite y ya no cambia.",
+    "pregunta_guia": "Según los datos, ¿el aire dejó de comprimirse en algún momento?",
+    "aprende": "Las partículas de un gas están muy separadas; el gas sigue comprimiéndose al aumentar la presión."
+   }
+  },
+  "explicacion": "Paso 1: calcula P × V: 1 × 60 = 60; 2 × 30 = 60; 3 × 20 = 60. Paso 2: el producto es constante (ley de Boyle). Paso 3: a 4 atm, V = 60 ÷ 4 = 15 mL. Paso 4: explicación con partículas: al empujar, las partículas quedan más juntas y chocan más veces contra las paredes. Respuesta C.",
+  "tip": "Si una variable sube y la otra baja, prueba multiplicarlas.",
+  "truco": "Boyle: P₁ · V₁ = P₂ · V₂ (temperatura constante).",
+  "temas": [
+   "ley de Boyle",
+   "presión y volumen",
+   "modelo de partículas"
+  ],
+  "gemela": {
+   "enunciado": "Un globo meteorológico tiene 6 L de gas a 1 atm. Al subir, la presión externa baja a 0,5 atm. Si la temperatura no cambiara, ¿qué volumen tendría?",
+   "opciones": {
+    "A": "3 L",
+    "B": "6 L",
+    "C": "6,5 L",
+    "D": "12 L"
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: P₁ · V₁ = 1 × 6 = 6. Paso 2: V₂ = 6 ÷ 0,5 = 12 L. La presión bajó a la mitad, el volumen se duplica."
+  }
+ },
+ {
+  "id": "CN-8-N106",
+  "area": "ciencias",
+  "grado": 8,
+  "competencia": "Explicación de fenómenos",
+  "componente": "Ciencia, Tecnología y Sociedad",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "sabic": "STEAM",
+  "revision": true,
+  "dba": "DBA (v.2) Ciencias Naturales 8°: comprende el funcionamiento de máquinas térmicas (como los motores de combustión) a partir de la conservación y transformación de la energía (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Lineamientos Curriculares Ciencias Naturales y Educación Ambiental (MEN 1998). EBC 8°–9°: explico condiciones de cambio y conservación en sistemas que transforman energía; analizo el potencial de los recursos y la eficiencia de las máquinas en la transformación de energía (Ciencia, tecnología y sociedad).",
+  "afirmacion": "Evalúa una afirmación tecnológica a partir de la conservación y la transformación de la energía.",
+  "evidencia": "Argumenta que ninguna máquina térmica convierte toda la energía del combustible en movimiento.",
+  "contexto": "En un almacén de motos de Cali, un vendedor afirma: «El motor de esta moto es perfecto: convierte el 100 % de la energía de la gasolina en movimiento». Un cliente nota que, después de un recorrido, el motor está muy caliente.",
+  "enunciado": "¿Cuál es la evaluación correcta de la afirmación del vendedor?",
+  "opciones": {
+   "A": "Es falsa: parte de la energía se va como calor; por eso el motor se calienta.",
+   "B": "Es verdadera: la energía se conserva, así que toda se vuelve movimiento.",
+   "C": "Es verdadera si la moto es nueva y recibe buen mantenimiento.",
+   "D": "Es falsa, porque parte de la energía de la gasolina se destruye en el motor."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundir conservación con aprovechamiento total",
+    "porque": "Elegiste B porque probablemente recordaste que la energía se conserva y concluiste que toda se vuelve útil.",
+    "pregunta_guia": "Si toda la energía se volviera movimiento, ¿por qué se calienta el motor?",
+    "aprende": "La energía se conserva en total, pero se reparte: una parte es movimiento y otra calor que se pierde al ambiente."
+   },
+   "C": {
+    "error": "Creer que el mantenimiento elimina las pérdidas",
+    "porque": "Elegiste C porque probablemente sabes que el mantenimiento mejora el rendimiento.",
+    "pregunta_guia": "¿Existe algún motor de combustión que no se caliente?",
+    "aprende": "El mantenimiento puede mejorar la eficiencia, pero nunca la lleva al 100 %."
+   },
+   "D": {
+    "error": "Pensar que la energía se destruye",
+    "porque": "Elegiste D porque probablemente notaste que no toda la energía se aprovecha y pensaste que desaparece.",
+    "pregunta_guia": "¿La energía puede desaparecer o solo transformarse?",
+    "aprende": "La energía no se crea ni se destruye: la que no se aprovecha se transforma en calor."
+   }
+  },
+  "explicacion": "Paso 1: la gasolina tiene energía química. Paso 2: el motor la transforma en movimiento, pero una parte se transfiere como calor (por eso se calienta). Paso 3: la energía total se conserva, pero la útil es menor que la recibida. Paso 4: ninguna máquina térmica tiene eficiencia del 100 %. Respuesta A.",
+  "tip": "Si una máquina se calienta, hay energía que no se está usando para su trabajo principal.",
+  "truco": "Eficiencia = energía útil ÷ energía recibida; en máquinas reales siempre es menor que 1.",
+  "temas": [
+   "máquinas térmicas",
+   "conservación de la energía",
+   "eficiencia"
+  ],
+  "gemela": {
+   "enunciado": "Un bombillo LED y uno incandescente iluminan igual, pero el LED gasta menos energía eléctrica. ¿Cuál es la mejor explicación?",
+   "opciones": {
+    "A": "El LED crea energía luminosa sin necesitar otra energía.",
+    "B": "El bombillo incandescente destruye parte de la energía.",
+    "C": "El LED convierte menos energía en calor y más en luz.",
+    "D": "El LED funciona sin consumir nada de electricidad."
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: ambos transforman energía eléctrica en luz y calor. Paso 2: el incandescente pierde mucha energía como calor. Paso 3: el LED pierde menos, por eso es más eficiente. Respuesta C."
+  }
+ },
+ {
+  "id": "SOC-8-N101",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Pensamiento social",
+  "componente": "Relaciones con la historia y las culturas",
+  "nivel": "Mínimo",
+  "pensamiento": "Recordar",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: analiza los cambios sociales y políticos de Colombia en el siglo XIX, entre ellos la abolición de la esclavitud (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias en Ciencias Sociales (MEN 2004), grados 8° a 9°: identifico y explico algunos de los procesos sociales y políticos de Colombia en el siglo XIX (abolición de la esclavitud, reformas liberales).",
+  "afirmacion": "Reconoce un hecho histórico central del siglo XIX colombiano.",
+  "evidencia": "Identifica el contenido de la ley de abolición de la esclavitud de 1851.",
+  "contexto": "El 21 de mayo de 1851, durante el gobierno de José Hilario López, el Congreso de la Nueva Granada aprobó una ley que entró en vigor el 1 de enero de 1852. Por eso, cada 21 de mayo se conmemora en Colombia el Día de la Afrocolombianidad, una fecha muy importante para las comunidades afrodescendientes del Pacífico y del Valle del Cauca.",
+  "enunciado": "¿Qué estableció esa ley?",
+  "opciones": {
+   "A": "El derecho al voto para las mujeres del país.",
+   "B": "La independencia de la Nueva Granada frente a España.",
+   "C": "La abolición de la esclavitud en la Nueva Granada.",
+   "D": "La creación de la Constitución Política de 1991."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Confundir épocas de derechos",
+    "porque": "Elegiste A porque probablemente asociaste «ley de derechos» con el voto femenino.",
+    "pregunta_guia": "¿En qué siglo pudieron votar por primera vez las mujeres en Colombia?",
+    "aprende": "Las mujeres votaron por primera vez en Colombia en 1957, más de cien años después."
+   },
+   "B": {
+    "error": "Confundir abolición con independencia",
+    "porque": "Elegiste B porque probablemente asociaste el siglo XIX con la independencia.",
+    "pregunta_guia": "La independencia se logró hacia 1819; ¿qué pasó en 1851?",
+    "aprende": "Independencia (1810–1819) y abolición (1851) son procesos distintos: tras la independencia aún hubo esclavitud."
+   },
+   "D": {
+    "error": "Confundir constituciones",
+    "porque": "Elegiste D porque probablemente la Constitución de 1991 es la que más conoces.",
+    "pregunta_guia": "¿1851 y 1991 son el mismo siglo?",
+    "aprende": "Ubica los hechos en una línea del tiempo antes de responder."
+   }
+  },
+  "explicacion": "Paso 1: ubica la fecha: 1851, gobierno de José Hilario López. Paso 2: la ley de 21 de mayo de 1851 declaró libres a las personas esclavizadas desde el 1 de enero de 1852. Paso 3: por eso las comunidades afrodescendientes la recuerdan. Respuesta C.",
+  "tip": "Construye una línea del tiempo: independencia (1819) → abolición (1851) → voto femenino (1957) → Constitución (1991).",
+  "truco": "«51-52»: ley en 1851, libertad desde 1852.",
+  "temas": [
+   "abolición de la esclavitud",
+   "siglo XIX en Colombia",
+   "comunidades afrodescendientes"
+  ],
+  "gemela": {
+   "enunciado": "El 7 de agosto de 1819, el ejército dirigido por Simón Bolívar y Francisco de Paula Santander venció a las tropas realistas en el puente de Boyacá. ¿Qué proceso consolidó ese hecho?",
+   "opciones": {
+    "A": "La independencia de la Nueva Granada.",
+    "B": "La abolición de la esclavitud en el país.",
+    "C": "El derecho al voto para las mujeres.",
+    "D": "La creación de la Constitución de 1991."
+   },
+   "correcta": "A",
+   "explicacion": "Paso 1: ubica la fecha: 1819, batalla de Boyacá. Paso 2: esa victoria abrió el camino a Santafé y consolidó la independencia frente a España. Paso 3: la abolición (1851), el voto femenino (1957) y la Constitución (1991) llegaron después. Respuesta A."
+  }
+ },
+ {
+  "id": "SOC-8-N102",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Pensamiento social",
+  "componente": "Relaciones espaciales y ambientales",
+  "nivel": "Mínimo",
+  "pensamiento": "Comprender",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: comprende los fenómenos de migración, sus causas (factores de expulsión y de atracción) y sus efectos en los territorios (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias en Ciencias Sociales (MEN 2004), grados 8° a 9°: explico el impacto de las migraciones y desplazamientos en la organización social y económica de las regiones.",
+  "afirmacion": "Distingue factores de expulsión y de atracción en una situación de migración.",
+  "evidencia": "Identifica qué condición del lugar de llegada motivó el traslado.",
+  "contexto": "Don Hernán vivía en un pueblo de Nariño. Allí cerraron la única fábrica donde trabajaba y no encontró otro empleo. Un primo le contó que en Cali una empresa de alimentos necesitaba operarios, y allá le ofrecieron trabajo. Se mudó con su familia a la Comuna 15.",
+  "enunciado": "En esta situación, ¿cuál es el factor de ATRACCIÓN que llevó a don Hernán a Cali?",
+  "opciones": {
+   "A": "El cierre de la fábrica de su pueblo.",
+   "B": "La oferta de empleo en una empresa de Cali.",
+   "C": "La distancia entre Nariño y Cali.",
+   "D": "La falta de empleo en su pueblo."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Confundir expulsión con atracción",
+    "porque": "Elegiste A porque probablemente identificaste una causa de la migración, pero es una causa del lugar de salida.",
+    "pregunta_guia": "¿El cierre de la fábrica ocurrió en el lugar de llegada o en el de salida?",
+    "aprende": "Expulsión = lo que empuja a salir (origen). Atracción = lo que jala hacia el destino."
+   },
+   "C": {
+    "error": "Tomar un dato geográfico como causa",
+    "porque": "Elegiste C porque probablemente pensaste que la distancia influye en la decisión.",
+    "pregunta_guia": "¿La distancia es una razón para ir a Cali o solo un dato del viaje?",
+    "aprende": "Un factor de atracción es una ventaja del lugar de destino."
+   },
+   "D": {
+    "error": "Repetir un factor de expulsión",
+    "porque": "Elegiste D porque probablemente viste que el empleo es la clave, pero miraste el pueblo y no Cali.",
+    "pregunta_guia": "¿Dónde faltaba el empleo y dónde lo ofrecían?",
+    "aprende": "La falta de empleo en el origen expulsa; la oferta de empleo en el destino atrae."
+   }
+  },
+  "explicacion": "Paso 1: identifica el lugar de origen (pueblo de Nariño) y el de destino (Cali). Paso 2: lo que lo empujó a salir (cierre de la fábrica, falta de empleo) son factores de expulsión. Paso 3: lo que lo atrajo a Cali fue la oferta de empleo. Respuesta B.",
+  "tip": "Pregunta siempre «¿dónde ocurre?»: en el origen (expulsión) o en el destino (atracción).",
+  "truco": "Expulsión = Empuja; Atracción = Atrae (jala como un imán).",
+  "temas": [
+   "migraciones",
+   "factores de expulsión y atracción",
+   "territorio"
+  ],
+  "gemela": {
+   "enunciado": "Una familia se muda del campo a Cali porque en la ciudad hay colegios con más cupos para sus hijos. ¿Qué tipo de factor es la oferta de colegios en Cali?",
+   "opciones": {
+    "A": "Un factor de expulsión.",
+    "B": "Un factor ambiental del campo.",
+    "C": "Una consecuencia de la migración.",
+    "D": "Un factor de atracción."
+   },
+   "correcta": "D",
+   "explicacion": "Paso 1: la oferta de colegios está en el destino (Cali). Paso 2: es una ventaja que jala a la familia. Paso 3: es un factor de atracción. Respuesta D."
+  }
+ },
+ {
+  "id": "SOC-8-N103",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Multiperspectivismo",
+  "componente": "Convivencia y paz",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "sabic": "Inteligencia emocional",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: reconoce los intereses de las partes en un conflicto y propone alternativas de solución que los tengan en cuenta (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias Ciudadanas (MEN 2004), 8° a 9°: construyo, celebro, mantengo y reparo acuerdos entre grupos; uso mi libertad de expresión y respeto las opiniones ajenas.",
+  "afirmacion": "Analiza las perspectivas de las partes en un conflicto escolar.",
+  "evidencia": "Identifica la propuesta que integra los intereses de los dos grupos.",
+  "contexto": "En el colegio solo hay una cancha. En el descanso, los estudiantes de 8° quieren jugar fútbol y los de 6° quieren jugar a la lleva. Cada día discuten y algunos terminan empujándose. Ambos grupos dicen que tienen el mismo derecho a usar la cancha.",
+  "enunciado": "¿Cuál propuesta tiene en cuenta los intereses de AMBOS grupos?",
+  "opciones": {
+   "A": "Que la cancha sea solo para 8°, porque son mayores y la necesitan más.",
+   "B": "Prohibir el uso de la cancha en el descanso para que no haya peleas.",
+   "C": "Hacer una votación en la que solo participe el grupo con más estudiantes.",
+   "D": "Acordar entre los dos grupos turnos por días o dividir la cancha."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Resolver a favor de uno solo",
+    "porque": "Elegiste A porque probablemente consideraste que la edad da más derechos.",
+    "pregunta_guia": "¿Qué pasaría con el interés de los de 6°?",
+    "aprende": "Una solución justa en convivencia reconoce que ambos tienen derecho a usar el espacio común."
+   },
+   "B": {
+    "error": "Eliminar el conflicto quitando el derecho",
+    "porque": "Elegiste B porque probablemente buscaste que se acabaran las peleas rápidamente.",
+    "pregunta_guia": "Con esa medida, ¿alguien logra lo que quería?",
+    "aprende": "Prohibir evita la pelea pero deja a todos sin el espacio; no atiende los intereses."
+   },
+   "C": {
+    "error": "Confundir democracia con imposición de la mayoría",
+    "porque": "Elegiste C porque probablemente asociaste votar con ser justo.",
+    "pregunta_guia": "Si solo vota un grupo, ¿se escuchó al otro?",
+    "aprende": "La participación democrática exige escuchar a todas las partes, no solo a la mayoría."
+   }
+  },
+  "explicacion": "Paso 1: interés de 8°: jugar fútbol. Interés de 6°: jugar a la lleva. Paso 2: A favorece a uno; B quita el derecho a todos; C excluye a un grupo. Paso 3: D crea un acuerdo construido por ambos que permite que los dos jueguen. Respuesta D.",
+  "tip": "Una buena solución responde: ¿qué gana cada parte?",
+  "truco": "Gana-gana: si una parte pierde todo, la solución no es la mejor.",
+  "temas": [
+   "resolución de conflictos",
+   "acuerdos",
+   "convivencia escolar"
+  ],
+  "gemela": {
+   "enunciado": "En un grupo de trabajo, Valeria quiere hacer una maqueta y Samuel prefiere una presentación digital. ¿Cuál solución integra ambas perspectivas?",
+   "opciones": {
+    "A": "Que el profesor decida por ellos sin escuchar a ninguno.",
+    "B": "Que cada uno haga su propio trabajo por separado.",
+    "C": "Combinar maqueta y diapositivas, y repartir las tareas.",
+    "D": "Hacer lo que diga quien tenga las mejores notas."
+   },
+   "correcta": "C",
+   "explicacion": "Paso 1: interés de Valeria: maqueta; de Samuel: presentación digital. Paso 2: C combina ambos y reparte el trabajo. Respuesta C."
+  }
+ },
+ {
+  "id": "SOC-8-N104",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Pensamiento sistémico",
+  "componente": "Relaciones con la historia y las culturas",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: analiza la influencia de las ideas de la Ilustración y de la Revolución Francesa en los procesos de independencia de América (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias en Ciencias Sociales (MEN 2004), grados 8° a 9°: explico la influencia de las revoluciones de los siglos XVIII y XIX (como la Revolución Francesa) en los procesos de independencia de los pueblos americanos.",
+  "afirmacion": "Relaciona ideas políticas de un contexto histórico con sus efectos en otro territorio.",
+  "evidencia": "Explica por qué la difusión de la Declaración de los Derechos del Hombre y del Ciudadano era vista como una amenaza por las autoridades coloniales.",
+  "contexto": "A finales del siglo XVIII, Antonio Nariño tradujo al español e imprimió en Santafé la Declaración de los Derechos del Hombre y del Ciudadano, surgida de la Revolución Francesa. Las autoridades coloniales lo encarcelaron y ordenaron recoger las copias.",
+  "enunciado": "¿Por qué las autoridades coloniales consideraron peligrosa esa traducción?",
+  "opciones": {
+   "A": "Porque difundía ideas de libertad e igualdad que cuestionaban al rey.",
+   "B": "Porque estaba escrita en francés y casi nadie la podía leer.",
+   "C": "Porque proponía que España conquistara más territorios en América.",
+   "D": "Porque prohibía el comercio entre España y sus colonias americanas."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Contradecir el contexto",
+    "porque": "Elegiste B porque probablemente recordaste que el documento era francés.",
+    "pregunta_guia": "¿Qué hizo Nariño con el texto antes de imprimirlo?",
+    "aprende": "Nariño lo tradujo al español: precisamente por eso más personas podían leerlo."
+   },
+   "C": {
+    "error": "Invertir la intención del documento",
+    "porque": "Elegiste C porque probablemente asociaste «revolución» con guerra y conquista.",
+    "pregunta_guia": "¿Un documento sobre derechos del ciudadano fortalece o limita el poder de un rey?",
+    "aprende": "La Declaración limitaba el poder absoluto; no promovía la expansión de la monarquía."
+   },
+   "D": {
+    "error": "Confundir ideas políticas con medidas económicas",
+    "porque": "Elegiste D porque probablemente relacionaste la independencia con el comercio.",
+    "pregunta_guia": "¿La Declaración es una ley de comercio o un texto sobre derechos?",
+    "aprende": "Su contenido es político: libertad, igualdad y que la soberanía reside en la nación."
+   }
+  },
+  "explicacion": "Paso 1: la Declaración (1789) afirma que las personas nacen libres e iguales en derechos y que la soberanía reside en la nación. Paso 2: en una colonia gobernada por un rey absoluto, esas ideas cuestionaban su autoridad. Paso 3: por eso encarcelaron a Nariño y recogieron las copias. Respuesta A.",
+  "tip": "Para entender un hecho histórico, pregúntate: ¿a quién beneficiaba y a quién amenazaba?",
+  "truco": "Ideas de la Ilustración: libertad, igualdad, soberanía popular, división de poderes.",
+  "temas": [
+   "Revolución Francesa",
+   "Ilustración",
+   "independencia de Colombia"
+  ],
+  "gemela": {
+   "enunciado": "¿Qué idea de la Ilustración se refleja en que la Constitución de Colombia separe el poder en ramas legislativa, ejecutiva y judicial?",
+   "opciones": {
+    "A": "El derecho divino de los reyes a gobernar sin límites.",
+    "B": "La división de poderes para que nadie concentre todo el poder.",
+    "C": "El mercantilismo y la acumulación de metales preciosos.",
+    "D": "La conquista de nuevos territorios por parte del Estado."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: la Ilustración propuso dividir el poder (Montesquieu). Paso 2: así cada rama controla a las otras. Respuesta B."
+  }
+ },
+ {
+  "id": "SOC-8-N105",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Argumentación en contextos ciudadanos",
+  "componente": "Pluralidad e identidad",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: evalúa argumentos sobre la migración y reconoce prejuicios y generalizaciones que afectan la dignidad de las personas (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias Ciudadanas (MEN 2004), 8° a 9°: identifico prejuicios, estereotipos y emociones que me dificultan sentir empatía por algunas personas o grupos; argumento y debato sobre dilemas de la vida cotidiana.",
+  "afirmacion": "Evalúa la solidez de un argumento en un debate sobre un asunto público.",
+  "evidencia": "Reconoce una generalización apresurada y la confusión entre coincidencia y causa.",
+  "contexto": "En un foro escolar sobre migración, Julián afirma: «Desde que llegaron familias migrantes al barrio, hay más robos. Por lo tanto, los migrantes son los culpables de la inseguridad». No presenta datos sobre quién comete los robos.",
+  "enunciado": "¿Cuál es la principal debilidad del argumento de Julián?",
+  "opciones": {
+   "A": "No dice cuántas familias migrantes llegaron al barrio.",
+   "B": "Los robos no son un tema importante para un foro escolar.",
+   "C": "Julián es muy joven para opinar sobre un tema como la migración.",
+   "D": "Culpa a todo un grupo por una coincidencia, sin probar la causa."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Señalar un detalle secundario",
+    "porque": "Elegiste A porque probablemente pensaste que con el número de familias el argumento quedaría bien.",
+    "pregunta_guia": "Si supiéramos cuántas familias llegaron, ¿quedaría probado que ellas cometen los robos?",
+    "aprende": "La falla está en el razonamiento: que dos cosas pasen al mismo tiempo no prueba que una cause la otra."
+   },
+   "B": {
+    "error": "Descalificar el tema",
+    "porque": "Elegiste B porque probablemente evaluaste la importancia del tema y no el argumento.",
+    "pregunta_guia": "¿La pregunta pide juzgar el tema o la forma de razonar de Julián?",
+    "aprende": "Evaluar un argumento es revisar si sus razones sostienen su conclusión."
+   },
+   "C": {
+    "error": "Atacar a la persona",
+    "porque": "Elegiste C porque probablemente pensaste que la edad le quita validez.",
+    "pregunta_guia": "¿La edad de quien habla hace falso o verdadero lo que dice?",
+    "aprende": "Descalificar a la persona (falacia ad hominem) no evalúa el argumento."
+   }
+  },
+  "explicacion": "Paso 1: la premisa es una coincidencia: llegaron familias y aumentaron los robos. Paso 2: la conclusión culpa a todo un grupo. Paso 3: no hay datos que conecten a esas familias con los robos (confunde coincidencia con causa) y generaliza a todas las personas migrantes. Paso 4: además, atribuir delitos a un grupo por su origen afecta su dignidad y alimenta la discriminación. Respuesta D.",
+  "tip": "Pregunta siempre: ¿qué prueba hay de que A causó B?",
+  "truco": "«Después de» no es lo mismo que «por causa de».",
+  "temas": [
+   "argumentación",
+   "generalización apresurada",
+   "migración y dignidad humana"
+  ],
+  "gemela": {
+   "enunciado": "Una estudiante afirma: «Un joven del barrio X me robó; entonces todos los jóvenes de ese barrio son ladrones». ¿Cuál es el error de su razonamiento?",
+   "opciones": {
+    "A": "No dijo a qué hora ni en qué calle fue el robo.",
+    "B": "Generaliza a todo un grupo a partir de un solo caso.",
+    "C": "Debió poner la denuncia antes de dar su opinión.",
+    "D": "El barrio X queda muy lejos de donde ella vive."
+   },
+   "correcta": "B",
+   "explicacion": "Paso 1: parte de un solo caso. Paso 2: concluye algo sobre todo un grupo. Paso 3: es una generalización apresurada que crea un estereotipo. Respuesta B."
+  }
+ },
+ {
+  "id": "SOC-8-N106",
+  "area": "sociales",
+  "grado": 8,
+  "competencia": "Pensamiento sistémico",
+  "componente": "Relaciones espaciales y ambientales",
+  "nivel": "Avanzado",
+  "pensamiento": "Analizar",
+  "revision": true,
+  "dba": "DBA Ciencias Sociales 8°: analiza la relación entre las actividades económicas, el uso de los recursos naturales y las transformaciones del territorio (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Estándares Básicos de Competencias en Ciencias Sociales (MEN 2004), grados 8° a 9°: reconozco y analizo la interacción permanente entre el espacio geográfico y el ser humano, y evalúo críticamente los avances y las limitaciones de esta relación.",
+  "afirmacion": "Analiza un problema territorial considerando sus dimensiones económica, social y ambiental.",
+  "evidencia": "Identifica la cadena de efectos que integra varias dimensiones de una decisión productiva.",
+  "contexto": "En el valle geográfico del río Cauca, la caña de azúcar ocupa grandes extensiones de tierra. Supón que un municipio decide ampliar mucho más el área sembrada con caña, reemplazando cultivos variados de pequeños productores.",
+  "enunciado": "¿Cuál cadena describe mejor los posibles efectos de esa decisión, considerando varias dimensiones?",
+  "opciones": {
+   "A": "Solo habría más empleo en la industria; no tendría ningún otro efecto.",
+   "B": "Bajaría la temperatura del valle, porque la caña produce más lluvias.",
+   "C": "Más empleo, pero más presión sobre el agua y menos cultivos de alimentos.",
+   "D": "Desaparecerían todos los ríos del Valle del Cauca en pocos meses."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Mirar una sola dimensión",
+    "porque": "Elegiste A porque probablemente pensaste solo en el efecto económico positivo.",
+    "pregunta_guia": "¿Qué pasa con el agua, los alimentos y los pequeños productores?",
+    "aprende": "El pensamiento sistémico analiza efectos económicos, sociales y ambientales a la vez."
+   },
+   "B": {
+    "error": "Relación causal sin fundamento",
+    "porque": "Elegiste B porque probablemente supusiste que más plantas siempre traen más lluvia y frescura.",
+    "pregunta_guia": "¿Hay evidencia de que un monocultivo cambie así el clima del valle?",
+    "aprende": "Evita relaciones de causa sin sustento; los efectos documentados del monocultivo tienen que ver con agua, suelo y biodiversidad."
+   },
+   "D": {
+    "error": "Exagerar las consecuencias",
+    "porque": "Elegiste D porque probablemente sabes que la caña usa mucha agua y llevaste el efecto al extremo.",
+    "pregunta_guia": "¿Es razonable que todos los ríos desaparezcan en meses?",
+    "aprende": "Un análisis serio reconoce riesgos sin exagerarlos: aumenta la presión sobre el agua."
+   }
+  },
+  "explicacion": "Paso 1: dimensión económica: empleo e ingresos en los ingenios. Paso 2: dimensión ambiental: el cultivo requiere riego y presiona los ríos. Paso 3: dimensión social: se reducen los cultivos variados de alimentos de los pequeños productores, que además pueden vender o arrendar sus tierras (la tierra tiende a concentrarse). Paso 4: C reúne beneficios y costos de varias dimensiones sin negarlos ni exagerarlos. Respuesta C.",
+  "tip": "En preguntas sistémicas, la mejor opción reconoce efectos positivos y negativos en varias dimensiones.",
+  "truco": "Revisa la «triple E»: Economía, Entorno (ambiente) y Equidad (sociedad).",
+  "temas": [
+   "monocultivo",
+   "uso del agua",
+   "desarrollo sostenible",
+   "Valle del Cauca"
+  ],
+  "gemela": {
+   "enunciado": "Se propone construir un gran centro comercial sobre un humedal de una ciudad. ¿Cuál análisis considera varias dimensiones?",
+   "opciones": {
+    "A": "Habría empleo, pero se perdería un ecosistema que evita inundaciones.",
+    "B": "Solo traería beneficios, porque habría más tiendas y más empleo.",
+    "C": "No tendría efectos, porque un humedal es solo agua quieta sin vida.",
+    "D": "Desaparecería toda el agua que llega a los barrios de la ciudad."
+   },
+   "correcta": "A",
+   "explicacion": "Paso 1: efecto económico: empleo y comercio. Paso 2: efecto ambiental: pérdida del humedal y de su función de regular el agua. Paso 3: efecto social: riesgo de inundaciones en barrios cercanos. Respuesta A."
+  }
+ },
+ {
+  "id": "ING-8-N101",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Lingüística",
+  "componente": "Vocabulario",
+  "nivel": "Mínimo",
+  "pensamiento": "Recordar",
+  "mcer": "A2",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): comprende y usa vocabulario relacionado con viajes, lugares y ocupaciones en textos cortos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Reconozco el vocabulario de temas cotidianos en textos cortos.",
+  "afirmacion": "Relaciona una descripción con la palabra que la nombra.",
+  "evidencia": "Identifica el sustantivo que corresponde a una definición sencilla.",
+  "contexto": "Description: «A person who travels to a place to visit it and have fun, not to work there.»",
+  "enunciado": "Which word matches the description?",
+  "opciones": {
+   "A": "tourist",
+   "B": "driver",
+   "C": "pilot",
+   "D": "guide"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Asociar viaje con conducir",
+    "porque": "Elegiste 'driver' porque probablemente relacionaste 'travels' con manejar un vehículo.",
+    "pregunta_guia": "¿Un conductor viaja para divertirse o como su trabajo?",
+    "aprende": "Driver = conductor: maneja como trabajo o para llevar a otros."
+   },
+   "C": {
+    "error": "Asociar viaje con avión",
+    "porque": "Elegiste 'pilot' porque probablemente pensaste en viajes en avión.",
+    "pregunta_guia": "¿Qué dice la descripción: 'not to work there'? ¿El piloto trabaja?",
+    "aprende": "Pilot = piloto; viaja trabajando."
+   },
+   "D": {
+    "error": "Confundir al turista con quien lo acompaña",
+    "porque": "Elegiste 'guide' porque probablemente lo relacionaste con visitas a lugares turísticos.",
+    "pregunta_guia": "¿El guía visita el lugar para divertirse o para mostrarlo a otros?",
+    "aprende": "Guide = guía: trabaja mostrando el lugar a los turistas."
+   }
+  },
+  "explicacion": "1. Palabras clave: 'travels', 'visit', 'have fun', 'not to work'. 2. Driver, pilot y guide trabajan durante el viaje. 3. Quien viaja para conocer y divertirse es un 'tourist'. Respuesta A.",
+  "tip": "Busca en la descripción la palabra que descarta opciones (aquí: 'not to work').",
+  "truco": "Tourist = turista (palabra transparente: se parece al español).",
+  "temas": [
+   "Vocabulario de viajes",
+   "Ocupaciones"
+  ],
+  "gemela": {
+   "enunciado": "Description: «A person who shows a city or a museum to visitors and explains its history.» Which word matches?",
+   "opciones": {
+    "A": "tourist",
+    "B": "guide",
+    "C": "waiter",
+    "D": "nurse"
+   },
+   "correcta": "B",
+   "explicacion": "Mostrar un lugar y explicar su historia a los visitantes es el trabajo de un guía: guide. Respuesta B."
+  }
+ },
+ {
+  "id": "ING-8-N102",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Mínimo",
+  "pensamiento": "Aplicar",
+  "mcer": "A2",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): narra hechos pasados de forma secuencial usando pasado simple y pasado progresivo (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Uso estructuras gramaticales adecuadas para narrar hechos en pasado.",
+  "afirmacion": "Usa el pasado progresivo para una acción en curso interrumpida por otra.",
+  "evidencia": "Selecciona 'was + verbo -ing' con sujeto en primera persona singular.",
+  "contexto": "I ___ my math homework when the lights went off in the whole neighborhood.",
+  "enunciado": "Complete the sentence.",
+  "opciones": {
+   "A": "did",
+   "B": "was doing",
+   "C": "am doing",
+   "D": "were doing"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Pasado simple para acción en curso",
+    "porque": "Elegiste 'did' porque probablemente viste que la oración está en pasado y usaste el pasado simple.",
+    "pregunta_guia": "¿La tarea ya estaba terminada o estaba en proceso cuando se fue la luz?",
+    "aprende": "Acción larga en curso + acción corta que la interrumpe: was/were + -ing ... when + pasado simple."
+   },
+   "C": {
+    "error": "Usar presente",
+    "porque": "Elegiste 'am doing' porque probablemente tradujiste 'estoy haciendo' sin mirar 'went off'.",
+    "pregunta_guia": "¿'Went off' está en presente o en pasado?",
+    "aprende": "Si la otra acción está en pasado, la acción en curso también va en pasado: was doing."
+   },
+   "D": {
+    "error": "Concordancia del verbo to be",
+    "porque": "Elegiste 'were doing' porque probablemente acertaste con el tiempo, pero no con el sujeto.",
+    "pregunta_guia": "Con 'I', ¿se usa 'was' o 'were'?",
+    "aprende": "I/he/she/it → was; you/we/they → were."
+   }
+  },
+  "explicacion": "1. 'When the lights went off' = acción corta en pasado simple. 2. La tarea estaba en proceso: pasado progresivo. 3. Sujeto 'I' → was. 4. 'I was doing my homework'. Respuesta B.",
+  "tip": "La acción larga va con -ing; la que interrumpe va en pasado simple.",
+  "truco": "'Estaba haciendo' = was/were + -ing.",
+  "temas": [
+   "Pasado progresivo",
+   "Pasado simple",
+   "Conector when"
+  ],
+  "gemela": {
+   "enunciado": "My parents ___ dinner when my cousin called from Buenaventura.",
+   "opciones": {
+    "A": "was having",
+    "B": "have",
+    "C": "were having",
+    "D": "are having"
+   },
+   "correcta": "C",
+   "explicacion": "1. 'Called' interrumpe una acción en curso. 2. 'My parents' es plural → were. 3. 'were having'. Respuesta C."
+  }
+ },
+ {
+  "id": "ING-8-N103",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Sociolingüística",
+  "componente": "Interacción conversacional",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Comprender",
+  "mcer": "A2",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): participa en conversaciones cortas respondiendo de forma apropiada a solicitudes y ofrecimientos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Respondo con frases cortas y adecuadas a solicitudes en interacciones cotidianas.",
+  "afirmacion": "Responde de forma adecuada a una solicitud cortés en una conversación.",
+  "evidencia": "Elige la respuesta que acepta un pedido de manera natural.",
+  "contexto": "In the classroom:\nTeacher: «Could you lend me your marker, please?»\nStudent: «___»",
+  "enunciado": "What is the best answer?",
+  "opciones": {
+   "A": "You're welcome.",
+   "B": "Yes, I could.",
+   "C": "Sure, here you are.",
+   "D": "No, I don't."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Usar la respuesta a un agradecimiento",
+    "porque": "Elegiste 'You're welcome' porque probablemente lo asociaste con cortesía.",
+    "pregunta_guia": "¿La profesora te dio las gracias o te pidió algo?",
+    "aprende": "'You're welcome' responde a 'Thank you'. A un pedido se responde 'Sure, here you are'."
+   },
+   "B": {
+    "error": "Respuesta literal a una petición",
+    "porque": "Elegiste 'Yes, I could' porque probablemente respondiste la pregunta de forma gramatical.",
+    "pregunta_guia": "¿'Could you…?' pregunta por tu capacidad o es una forma amable de pedir?",
+    "aprende": "'Could you…?' es una petición: se responde aceptando y actuando (Sure / Of course)."
+   },
+   "D": {
+    "error": "Auxiliar que no concuerda",
+    "porque": "Elegiste 'No, I don't' porque probablemente usaste la respuesta corta más conocida.",
+    "pregunta_guia": "¿La pregunta usa 'do' o 'could'?",
+    "aprende": "Además de ser descortés sin explicación, el auxiliar no corresponde a la pregunta."
+   }
+  },
+  "explicacion": "1. 'Could you…, please?' es una petición cortés. 2. La respuesta natural acepta y entrega el objeto. 3. 'Sure, here you are' = Claro, aquí tiene. Respuesta C.",
+  "tip": "En conversaciones, identifica primero la función: ¿piden, ofrecen, agradecen o saludan?",
+  "truco": "Pedido → Sure / Of course. Gracias → You're welcome. Disculpa → No problem.",
+  "temas": [
+   "Peticiones corteses",
+   "Funciones comunicativas"
+  ],
+  "gemela": {
+   "enunciado": "Friend: «Thank you for helping me with the project!» — Best answer:",
+   "opciones": {
+    "A": "You're welcome.",
+    "B": "Here you are.",
+    "C": "Yes, please.",
+    "D": "I'm sorry."
+   },
+   "correcta": "A",
+   "explicacion": "Ante un agradecimiento ('Thank you') se responde 'You're welcome'. Respuesta A."
+  }
+ },
+ {
+  "id": "ING-8-N104",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "mcer": "B1",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): comprende la información principal y las relaciones de causa y efecto en textos narrativos cortos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico relaciones de significado e infiero información en textos cortos.",
+  "afirmacion": "Realiza inferencias de causa y efecto a partir de un texto.",
+  "evidencia": "Relaciona las acciones de los estudiantes con el aumento de lo recolectado.",
+  "contexto": "My name is Valentina and I live in Ciudad Córdoba, in Cali. Last year, my class started a small recycling project. Every Friday, we collected plastic bottles and paper at school and sold them to a recycling center near the market. At first, we only collected about 5 kilos a week, and some classmates said it was a waste of time. Then we made posters and talked to the families at the parents' meeting. Now we collect almost 30 kilos every week. With the money, we bought two new trash cans with labels and a small plant for every classroom. Next year, we want to teach the younger students how to separate their waste at home.",
+  "enunciado": "What can we infer about the posters and the parents' meeting?",
+  "opciones": {
+   "A": "They were very expensive for the class.",
+   "B": "The families did not like the project.",
+   "C": "The school stopped the project after the meeting.",
+   "D": "They helped more people take part in the project."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Inferencia sin apoyo",
+    "porque": "Elegiste esta porque probablemente supusiste que hacer carteles cuesta dinero.",
+    "pregunta_guia": "¿El texto menciona el precio de los carteles?",
+    "aprende": "Infiere solo con pistas del texto; nada habla de costos."
+   },
+   "B": {
+    "error": "Contradecir la información",
+    "porque": "Elegiste esta porque probablemente pensaste en los compañeros que dudaban al inicio.",
+    "pregunta_guia": "Después de la reunión, ¿la cantidad recogida subió o bajó?",
+    "aprende": "Subió de 5 a casi 30 kilos: las familias apoyaron."
+   },
+   "C": {
+    "error": "Inventar un hecho",
+    "porque": "Elegiste esta porque probablemente no viste la palabra 'Now'.",
+    "pregunta_guia": "¿Qué dice la oración que empieza con 'Now'?",
+    "aprende": "'Now we collect almost 30 kilos' muestra que el proyecto sigue."
+   }
+  },
+  "explicacion": "1. Antes: 5 kilos por semana. 2. 'Then' hicieron carteles y hablaron con las familias. 3. 'Now': casi 30 kilos. 4. Se infiere que esas acciones lograron que más personas participaran. Respuesta D.",
+  "tip": "Los conectores 'At first', 'Then', 'Now' muestran cambios: busca qué los causó.",
+  "truco": "Antes → acción → después: la acción del medio suele ser la causa del cambio.",
+  "temas": [
+   "Inferencia",
+   "Causa y efecto",
+   "Conectores de secuencia"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'At first, few students used the school library. Then the librarian started a comic club on Wednesdays. Now the library is full every Wednesday.' What can we infer?",
+   "opciones": {
+    "A": "The library closed every Wednesday.",
+    "B": "The comic club brought more students.",
+    "C": "Students don't like comics at all.",
+    "D": "The librarian left the school last year."
+   },
+   "correcta": "B",
+   "explicacion": "Antes pocos estudiantes; después del club, la biblioteca se llena los miércoles. Se infiere que el club atrajo a más estudiantes. Respuesta B."
+  }
+ },
+ {
+  "id": "ING-8-N105",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Avanzado",
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "mcer": "B1",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): infiere actitudes y opiniones de quien escribe en textos narrativos cortos (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico relaciones de significado e infiero información en textos.",
+  "afirmacion": "Infiere la actitud del autor frente a lo que narra.",
+  "evidencia": "Relaciona los resultados y los planes futuros con la valoración del proyecto.",
+  "contexto": "My name is Valentina and I live in Ciudad Córdoba, in Cali. Last year, my class started a small recycling project. Every Friday, we collected plastic bottles and paper at school and sold them to a recycling center near the market. At first, we only collected about 5 kilos a week, and some classmates said it was a waste of time. Then we made posters and talked to the families at the parents' meeting. Now we collect almost 30 kilos every week. With the money, we bought two new trash cans with labels and a small plant for every classroom. Next year, we want to teach the younger students how to separate their waste at home.",
+  "enunciado": "How does Valentina probably feel about the project now?",
+  "opciones": {
+   "A": "She is proud of it and wants to continue.",
+   "B": "She thinks the project was a waste of time.",
+   "C": "She is angry with the recycling center near the market.",
+   "D": "She wants to stop because it is too much work."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Atribuir a la autora la opinión de otros",
+    "porque": "Elegiste esta porque probablemente leíste 'it was a waste of time' sin fijarte en quién lo dijo.",
+    "pregunta_guia": "¿Quién dijo que era una pérdida de tiempo: Valentina o algunos compañeros, y cuándo?",
+    "aprende": "Esa opinión era de 'some classmates' y 'at first'; los resultados la contradicen."
+   },
+   "C": {
+    "error": "Inferencia sin apoyo",
+    "porque": "Elegiste esta porque probablemente pensaste que vender al centro de reciclaje generaba problemas.",
+    "pregunta_guia": "¿Hay alguna queja sobre el centro de reciclaje en el texto?",
+    "aprende": "El texto no muestra ningún conflicto con el centro de reciclaje."
+   },
+   "D": {
+    "error": "Contradecir los planes",
+    "porque": "Elegiste esta porque probablemente pensaste que recoger 30 kilos es agotador.",
+    "pregunta_guia": "¿Qué quieren hacer 'next year'?",
+    "aprende": "Quieren enseñar a los más pequeños: eso muestra que planean continuar y crecer."
+   }
+  },
+  "explicacion": "1. Los resultados mejoraron (de 5 a casi 30 kilos). 2. Con el dinero compraron canecas y plantas. 3. 'Next year, we want to teach…' muestra que quieren seguir. 4. Se infiere que Valentina está orgullosa del proyecto y quiere continuarlo. Respuesta A.",
+  "tip": "Para inferir lo que siente quien escribe, mira los resultados que destaca y sus planes.",
+  "truco": "Si alguien hace planes para el futuro de un proyecto, lo valora positivamente.",
+  "temas": [
+   "Inferencia",
+   "Actitud del autor",
+   "Reciclaje"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'Our dance group practiced every afternoon for months. We won second place in the city contest, and next month we will perform at the Petronio Álvarez festival.' How does the writer probably feel?",
+   "opciones": {
+    "A": "Bored with dancing.",
+    "B": "Sad because they didn't win first place.",
+    "C": "Proud and motivated to continue.",
+    "D": "Angry with the judges."
+   },
+   "correcta": "C",
+   "explicacion": "Practicaron mucho, obtuvieron un buen resultado y tienen planes de presentarse: se infiere orgullo y motivación. Respuesta C."
+  }
+ },
+ {
+  "id": "ING-8-N106",
+  "area": "ingles",
+  "grado": 8,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Avanzado",
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "mcer": "B1",
+  "revision": true,
+  "dba": "DBA de Inglés grado 8 (MEN 2016): identifica el propósito de un texto y la intención de quien lo escribe (contenido descrito; número de DBA sin verificar).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico el propósito y la intención del autor en textos cortos.",
+  "afirmacion": "Reconoce el propósito comunicativo global de un texto.",
+  "evidencia": "Distingue el propósito general de detalles particulares del texto.",
+  "contexto": "My name is Valentina and I live in Ciudad Córdoba, in Cali. Last year, my class started a small recycling project. Every Friday, we collected plastic bottles and paper at school and sold them to a recycling center near the market. At first, we only collected about 5 kilos a week, and some classmates said it was a waste of time. Then we made posters and talked to the families at the parents' meeting. Now we collect almost 30 kilos every week. With the money, we bought two new trash cans with labels and a small plant for every classroom. Next year, we want to teach the younger students how to separate their waste at home.",
+  "enunciado": "What is the main purpose of the text?",
+  "opciones": {
+   "A": "To complain about classmates who did not help.",
+   "B": "To tell how a class project grew and what's next.",
+   "C": "To sell plastic bottles and paper to the readers.",
+   "D": "To describe the recycling center near the market."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Tomar un detalle como propósito",
+    "porque": "Elegiste esta porque probablemente te fijaste en los compañeros que dudaban.",
+    "pregunta_guia": "¿Cuántas oraciones hablan de esos compañeros y cuántas del proyecto?",
+    "aprende": "El propósito abarca todo el texto, no una sola oración."
+   },
+   "C": {
+    "error": "Confundir el contenido con la intención",
+    "porque": "Elegiste esta porque probablemente viste que la clase vende botellas.",
+    "pregunta_guia": "¿El texto le pide algo al lector, como comprar?",
+    "aprende": "Vender botellas es parte de la historia; el texto no es un anuncio."
+   },
+   "D": {
+    "error": "Elegir un elemento secundario",
+    "porque": "Elegiste esta porque probablemente recordaste que el texto menciona el centro de reciclaje.",
+    "pregunta_guia": "¿El texto da detalles del centro o solo lo menciona?",
+    "aprende": "El centro aparece una vez; el tema central es el proyecto de la clase."
+   }
+  },
+  "explicacion": "1. El texto cuenta el inicio del proyecto, la dificultad, lo que hicieron, los resultados y los planes. 2. Todo gira alrededor del proyecto y su crecimiento. 3. Las demás opciones son detalles. Respuesta B.",
+  "tip": "El propósito es el que explica TODAS las partes del texto, no solo una.",
+  "truco": "Lee la primera y la última oración: suelen mostrar el propósito general.",
+  "temas": [
+   "Propósito del autor",
+   "Idea global",
+   "Texto narrativo"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'Do you want to learn to play the marimba? Join our free workshop at the community center every Saturday at 9 a.m. No experience needed!' What is the main purpose?",
+   "opciones": {
+    "A": "To explain the history of the marimba.",
+    "B": "To complain about the community center.",
+    "C": "To describe a concert.",
+    "D": "To invite people to join a music workshop."
+   },
+   "correcta": "D",
+   "explicacion": "La pregunta inicial, el 'Join our…' y los datos de lugar y hora muestran una invitación. Respuesta D."
+  }
+ }
+]

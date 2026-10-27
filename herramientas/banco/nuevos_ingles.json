@@ -1,0 +1,1534 @@
+[
+ {
+  "id": "ING-3-N101",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Lingüística",
+  "componente": "Vocabulario",
+  "nivel": "Mínimo",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): reconoce y nombra animales de su entorno a partir de descripciones sencillas (color, tamaño, acciones).",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Reconozco palabras relacionadas con mi entorno (animales, colores, acciones).",
+  "afirmacion": "Reconoce el significado de palabras de uso frecuente.",
+  "evidencia": "Identifica un animal a partir de su color, partes y acciones.",
+  "contexto": "It is green. It has four legs. It jumps. It lives near the river.",
+  "enunciado": "Read the clues. What animal is it?",
+  "opciones": {
+   "A": "a cat",
+   "B": "a frog",
+   "C": "a bird",
+   "D": "a fish"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Leíste solo 'four legs'.",
+    "porque": "Elegiste 'a cat' porque probablemente viste 'four legs' y pensaste en una mascota conocida, sin leer 'green' ni 'jumps'.",
+    "pregunta_guia": "¿Los gatos son verdes y viven junto al río?",
+    "aprende": "cat = gato. Lee TODAS las pistas, no solo una."
+   },
+   "C": {
+    "error": "Confundiste 'jumps' con volar.",
+    "porque": "Elegiste 'a bird' porque probablemente pensaste que 'jumps' es moverse por el aire.",
+    "pregunta_guia": "¿Cuántas patas tiene un pájaro: dos o cuatro?",
+    "aprende": "bird = pájaro (two legs, it flies). jump = saltar."
+   },
+   "D": {
+    "error": "Leíste solo 'river'.",
+    "porque": "Elegiste 'a fish' porque probablemente viste 'river' y pensaste en un animal del agua.",
+    "pregunta_guia": "¿Un pez tiene patas?",
+    "aprende": "fish = pez (no legs, it swims). La rana vive CERCA del río."
+   }
+  },
+  "explicacion": "1. 'Green' = verde. 2. 'Four legs' = cuatro patas. 3. 'It jumps' = salta. 4. 'It lives near the river' = vive cerca del río. 5. El animal verde, de cuatro patas, que salta y vive junto al río es la rana: 'a frog'.",
+  "tip": "Subraya cada pista y descarta los animales que NO cumplen alguna.",
+  "truco": "Jump = saltar: imagina una rana diciendo 'jump, jump'.",
+  "temas": [
+   "Vocabulario: animales",
+   "Colores y partes del cuerpo",
+   "Verbos de acción"
+  ],
+  "gemela": {
+   "enunciado": "It is grey and very big. It has a long nose. What animal is it?",
+   "opciones": {
+    "A": "a mouse",
+    "B": "an elephant",
+    "C": "a dog",
+    "D": "a duck"
+   },
+   "correcta": "B",
+   "explicacion": "1. 'Grey' = gris. 2. 'Very big' = muy grande. 3. 'Long nose' = nariz larga (trompa). 4. El animal gris, enorme y con trompa es el elefante: 'an elephant'."
+  },
+  "pensamiento": "Comprender",
+  "sabic": "STEAM",
+  "revision": true
+ },
+ {
+  "id": "ING-3-N102",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Mínimo",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): se presenta y da información personal básica (nombre, edad) con frases sencillas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Respondo a saludos y me presento con frases cortas.",
+  "afirmacion": "Usa estructuras básicas para presentarse.",
+  "evidencia": "Selecciona la forma correcta del verbo 'to be' con 'I'.",
+  "contexto": "My name is Sofía. I ___ eight years old.",
+  "enunciado": "Complete the sentence.",
+  "opciones": {
+   "A": "am",
+   "B": "is",
+   "C": "are",
+   "D": "have"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "'Is' es para he/she/it.",
+    "porque": "Elegiste 'is' porque probablemente es la forma de 'to be' que más escuchas.",
+    "pregunta_guia": "¿Con qué pronombres va 'is'?",
+    "aprende": "I am · he/she/it is · you/we/they are."
+   },
+   "C": {
+    "error": "'Are' es para you/we/they.",
+    "porque": "Elegiste 'are' porque probablemente recordaste 'How are you?'.",
+    "pregunta_guia": "¿'I' es una persona o varias?",
+    "aprende": "Con 'I' siempre va 'am': I am eight."
+   },
+   "D": {
+    "error": "Calco del español 'tengo años'.",
+    "porque": "Elegiste 'have' porque probablemente tradujiste 'tengo ocho años'.",
+    "pregunta_guia": "En inglés, ¿la edad se 'tiene' o se 'es'?",
+    "aprende": "En inglés la edad va con 'to be': I am eight years old."
+   }
+  },
+  "explicacion": "1. El sujeto es 'I' (yo). 2. Con 'I' el verbo 'to be' es 'am'. 3. En inglés la edad se dice con 'to be', no con 'have'. 4. 'I am eight years old'.",
+  "tip": "Para decir tu edad usa siempre am / is / are, nunca have.",
+  "truco": "I → am (las dos son cortitas y van juntas).",
+  "temas": [
+   "Verbo to be",
+   "Presentación personal",
+   "Números 1-20"
+  ],
+  "gemela": {
+   "enunciado": "Complete: My friend Lucas ___ nine years old.",
+   "opciones": {
+    "A": "am",
+    "B": "has",
+    "C": "is",
+    "D": "are"
+   },
+   "correcta": "C",
+   "explicacion": "1. 'My friend Lucas' = he (él). 2. Con he/she/it el verbo 'to be' es 'is'. 3. La edad va con 'to be': 'Lucas is nine years old'."
+  },
+  "pensamiento": "Aplicar",
+  "revision": true
+ },
+ {
+  "id": "ING-3-N103",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): comprende información específica en textos descriptivos muy cortos sobre familia y mascotas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Sigo la secuencia de un cuento corto y comprendo información específica en textos sencillos.",
+  "afirmacion": "Identifica información explícita en un texto corto.",
+  "evidencia": "Localiza un dato numérico sobre la familia en el texto.",
+  "contexto": "This is Andrés. He is nine years old. He lives in Cali with his mother and his two sisters. He has a dog. Its name is Toby. Toby is brown and small. Andrés likes to play football in the park with Toby.",
+  "enunciado": "How many sisters does Andrés have?",
+  "opciones": {
+   "A": "one",
+   "B": "nine",
+   "C": "two",
+   "D": "three"
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "No leíste el número.",
+    "porque": "Elegiste 'one' porque probablemente viste 'his mother' y contaste solo una persona.",
+    "pregunta_guia": "¿Qué número aparece antes de 'sisters'?",
+    "aprende": "two sisters = dos hermanas."
+   },
+   "B": {
+    "error": "Confundiste edad con cantidad.",
+    "porque": "Elegiste 'nine' porque probablemente tomaste el primer número del texto, que es la edad de Andrés.",
+    "pregunta_guia": "¿'Nine years old' habla de hermanas o de edad?",
+    "aprende": "Lee la palabra que acompaña al número: nine years old (edad), two sisters (hermanas)."
+   },
+   "D": {
+    "error": "Sumaste a la mamá.",
+    "porque": "Elegiste 'three' porque probablemente contaste a la mamá con las hermanas.",
+    "pregunta_guia": "¿La mamá es una hermana?",
+    "aprende": "sisters = hermanas; mother = mamá. Solo cuenta las hermanas: two."
+   }
+  },
+  "explicacion": "1. Busca la palabra 'sisters' en el texto. 2. Antes dice 'his two sisters'. 3. 'Two' = dos. 4. Andrés tiene dos hermanas.",
+  "tip": "Busca en el texto la palabra de la pregunta (sisters) y lee lo que está justo antes.",
+  "truco": "How many = ¿cuántos? → busca un número.",
+  "temas": [
+   "Lectura literal",
+   "Familia",
+   "Números"
+  ],
+  "gemela": {
+   "enunciado": "Read again: 'Toby is brown and small.' What colour is Toby?",
+   "opciones": {
+    "A": "black",
+    "B": "white",
+    "C": "green",
+    "D": "brown"
+   },
+   "correcta": "D",
+   "explicacion": "1. Busca 'Toby is'. 2. Dice 'brown and small'. 3. Brown = café. 4. Toby es café: 'brown'."
+  },
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "revision": true
+ },
+ {
+  "id": "ING-3-N104",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): comprende información en textos descriptivos muy cortos relacionando palabras que se refieren a la misma persona o animal.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Sigo la secuencia de un cuento corto y comprendo información específica en textos sencillos.",
+  "afirmacion": "Relaciona información de un texto corto.",
+  "evidencia": "Identifica a quién se refiere el pronombre 'its' para saber quién es Toby.",
+  "contexto": "This is Andrés. He is nine years old. He lives in Cali with his mother and his two sisters. He has a dog. Its name is Toby. Toby is brown and small. Andrés likes to play football in the park with Toby.",
+  "enunciado": "Who is Toby?",
+  "opciones": {
+   "A": "Andrés's brother",
+   "B": "Andrés's friend",
+   "C": "Andrés's sister",
+   "D": "Andrés's pet"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Supusiste que es una persona.",
+    "porque": "Elegiste 'brother' porque probablemente Toby te sonó a nombre de niño.",
+    "pregunta_guia": "¿El texto dice que Andrés tiene hermanos (brothers)?",
+    "aprende": "Un nombre propio puede ser de persona o de mascota: lee la oración anterior."
+   },
+   "B": {
+    "error": "Interpretaste 'play with Toby' como amigo.",
+    "porque": "Elegiste 'friend' porque probablemente leíste que juegan fútbol juntos y pensaste en un amigo.",
+    "pregunta_guia": "¿Qué tiene Andrés justo antes de 'Its name is Toby'?",
+    "aprende": "'Its' se usa para animales y cosas: Its name is Toby = el nombre del perro es Toby."
+   },
+   "C": {
+    "error": "Mezclaste datos de la familia.",
+    "porque": "Elegiste 'sister' porque probablemente recordaste 'two sisters' sin leer lo que sigue.",
+    "pregunta_guia": "¿Las hermanas son 'brown and small'?",
+    "aprende": "Las hermanas no tienen nombre en el texto; Toby es el perro."
+   }
+  },
+  "explicacion": "1. El texto dice 'He has a dog'. 2. Luego 'Its name is Toby': 'its' se usa para animales. 3. 'Toby is brown and small' describe al perro. 4. Toby es la mascota de Andrés: 'Andrés's pet'.",
+  "tip": "Cuando veas he/she/it/its, pregúntate: ¿de quién se habló justo antes?",
+  "truco": "Its = de un animal o cosa (its name = su nombre).",
+  "temas": [
+   "Pronombres: he, she, its",
+   "Mascotas",
+   "Lectura relacional"
+  ],
+  "gemela": {
+   "enunciado": "Read: 'Mariana has a cat. Its name is Nube. Nube is white.' Who is Nube?",
+   "opciones": {
+    "A": "Mariana's cat",
+    "B": "Mariana's mother",
+    "C": "Mariana's teacher",
+    "D": "Mariana's friend"
+   },
+   "correcta": "A",
+   "explicacion": "1. Primero: 'Mariana has a cat'. 2. Luego: 'Its name is Nube' ('its' = de un animal). 3. Nube es la gata de Mariana."
+  },
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "revision": true
+ },
+ {
+  "id": "ING-3-N105",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Avanzado",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): comprende secuencias de acciones sencillas en textos cortos y usa números del 1 al 20.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Sigo la secuencia de un cuento corto apoyado en palabras conocidas.",
+  "afirmacion": "Comprende la secuencia de acciones de un texto corto.",
+  "evidencia": "Integra tres acciones del texto (tiene, recibe, regala) para hallar el resultado.",
+  "contexto": "Lucía has 3 pencils. Her brother gives her 2 pencils. Then she gives 1 pencil to her friend Camilo.",
+  "enunciado": "How many pencils does Lucía have now?",
+  "opciones": {
+   "A": "four",
+   "B": "five",
+   "C": "three",
+   "D": "six"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Olvidaste la última acción.",
+    "porque": "Elegiste 'five' porque probablemente sumaste 3 + 2 y no leíste 'She gives 1 pencil'.",
+    "pregunta_guia": "¿Qué hace Lucía con un lápiz al final?",
+    "aprende": "gives = da, regala → hay que restar: 5 − 1 = 4."
+   },
+   "C": {
+    "error": "Solo leíste el inicio.",
+    "porque": "Elegiste 'three' porque probablemente respondiste con el primer número del texto.",
+    "pregunta_guia": "¿El texto termina en la primera oración?",
+    "aprende": "Lee todo el texto: la pregunta dice 'now' (ahora)."
+   },
+   "D": {
+    "error": "Sumaste todo.",
+    "porque": "Elegiste 'six' porque probablemente sumaste todos los números sin ver que 'gives' es dar.",
+    "pregunta_guia": "Si Lucía da un lápiz, ¿tiene más o menos?",
+    "aprende": "'Her brother gives her' = recibe (+); 'She gives' = da (−)."
+   }
+  },
+  "explicacion": "1. Lucía tiene 3 lápices. 2. Su hermano le da 2: 3 + 2 = 5. 3. Ella le da 1 a Camilo: 5 − 1 = 4. 4. Ahora tiene 'four'. Comprobación: 3 + 2 − 1 = 4.",
+  "tip": "Dibuja los lápices mientras lees: suma cuando ella recibe y resta cuando ella da.",
+  "truco": "gives HER = recibe ella; SHE gives = da ella.",
+  "temas": [
+   "Números en inglés",
+   "Verbo give",
+   "Secuencia de acciones"
+  ],
+  "gemela": {
+   "enunciado": "Read: 'Pedro has 6 stickers. He gives 2 stickers to his sister. His dad gives him 3 stickers.' How many stickers does Pedro have now?",
+   "opciones": {
+    "A": "eleven",
+    "B": "five",
+    "C": "seven",
+    "D": "four"
+   },
+   "correcta": "C",
+   "explicacion": "1. Pedro tiene 6. 2. Da 2 a su hermana: 6 − 2 = 4. 3. Su papá le da 3: 4 + 3 = 7. 4. Ahora tiene 'seven'."
+  },
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "sabic": "Matemática financiera",
+  "revision": true
+ },
+ {
+  "id": "ING-3-N106",
+  "area": "ingles",
+  "grado": 3,
+  "competencia": "Sociolingüística",
+  "componente": "Conversación",
+  "nivel": "Avanzado",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 3° (MEN): participa en intercambios muy breves para saludar, presentarse y responder preguntas sobre su nombre.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Respondo a saludos y a preguntas sencillas sobre mí y mi entorno.",
+  "afirmacion": "Responde de forma adecuada en una conversación corta.",
+  "evidencia": "Elige la respuesta que encaja con la pregunta anterior y con la reacción posterior.",
+  "contexto": "Sara: Hi! I'm Sara. What's your name?\nJuan: ___\nSara: Nice to meet you, Juan!",
+  "enunciado": "Complete the conversation.",
+  "opciones": {
+   "A": "I'm fine, thank you.",
+   "B": "I'm eight.",
+   "C": "My name is Juan.",
+   "D": "Goodbye, Sara."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Respondiste otra pregunta.",
+    "porque": "Elegiste 'I'm fine, thank you' porque probablemente la memorizaste como respuesta a todo saludo.",
+    "pregunta_guia": "¿Sara pregunta cómo estás o cómo te llamas?",
+    "aprende": "What's your name? → My name is…; How are you? → I'm fine."
+   },
+   "B": {
+    "error": "Respondiste la edad.",
+    "porque": "Elegiste 'I'm eight' porque probablemente confundiste 'What's your name?' con 'How old are you?'.",
+    "pregunta_guia": "¿Qué dato necesita Sara para decir 'Nice to meet you, Juan'?",
+    "aprende": "name = nombre; How old = edad."
+   },
+   "D": {
+    "error": "Cerraste la conversación.",
+    "porque": "Elegiste 'Goodbye' porque probablemente no leíste que la conversación continúa.",
+    "pregunta_guia": "Si Juan se despide, ¿Sara diría 'Nice to meet you'?",
+    "aprende": "Mira también lo que viene DESPUÉS del espacio."
+   }
+  },
+  "explicacion": "1. Sara pregunta 'What's your name?' (¿cómo te llamas?). 2. Después Sara dice 'Nice to meet you, Juan', así que Juan dijo su nombre. 3. La respuesta es 'My name is Juan.'",
+  "tip": "En diálogos, lee lo que va antes y lo que va después del espacio.",
+  "truco": "What's your name? → My name is…",
+  "temas": [
+   "Saludos y presentaciones",
+   "Preguntas personales",
+   "Diálogos cortos"
+  ],
+  "gemela": {
+   "enunciado": "Teacher: How old are you, Ana? / Ana: ___ / Teacher: Oh, you're eight! Like my son.",
+   "opciones": {
+    "A": "I'm eight.",
+    "B": "I'm Ana.",
+    "C": "I'm fine.",
+    "D": "I'm from Cali."
+   },
+   "correcta": "A",
+   "explicacion": "1. 'How old are you?' pregunta la edad. 2. La profesora responde 'you're eight'. 3. Ana dijo 'I'm eight.'"
+  },
+  "pensamiento": "Analizar",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N101",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Lingüística",
+  "componente": "Vocabulario",
+  "nivel": "Mínimo",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): reconoce vocabulario de lugares de la comunidad y su función a partir de descripciones sencillas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Reconozco y nombro lugares de mi comunidad y lo que se hace en ellos.",
+  "afirmacion": "Reconoce el significado de palabras de uso frecuente.",
+  "evidencia": "Identifica un lugar a partir de lo que se puede hacer allí.",
+  "contexto": "You can read books here, but you can't buy them. You can take a book home and bring it back next week.",
+  "enunciado": "Read the description. What place is it?",
+  "opciones": {
+   "A": "a bookshop",
+   "B": "a bank",
+   "C": "a hospital",
+   "D": "a library"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "No viste 'you can't buy them'.",
+    "porque": "Elegiste 'a bookshop' porque probablemente viste 'books' y no leíste que allí no se compran.",
+    "pregunta_guia": "¿En una librería (bookshop) puedes comprar libros?",
+    "aprende": "bookshop = librería (se compran); library = biblioteca (se prestan)."
+   },
+   "B": {
+    "error": "Asociación sin apoyo.",
+    "porque": "Elegiste 'a bank' porque probablemente pensaste en 'take… and bring it back' como sacar y devolver dinero.",
+    "pregunta_guia": "¿En el banco hay libros para leer?",
+    "aprende": "bank = banco (dinero)."
+   },
+   "C": {
+    "error": "Elegiste al azar.",
+    "porque": "Elegiste 'a hospital' porque probablemente no entendiste la descripción y escogiste una palabra parecida al español.",
+    "pregunta_guia": "¿En el hospital te prestan libros?",
+    "aprende": "hospital = lugar para personas enfermas."
+   }
+  },
+  "explicacion": "1. 'You can read books here' = lees libros. 2. 'You can't buy them' = no se compran. 3. 'Take a book home and bring it back' = lo llevas y lo devuelves. 4. Ese lugar es la biblioteca: 'a library'. Ojo: library NO es librería.",
+  "tip": "Cuidado con los falsos amigos: library = biblioteca, no librería.",
+  "truco": "LIBRary → se presta libre (gratis).",
+  "temas": [
+   "Lugares de la ciudad",
+   "Falsos amigos",
+   "Can / can't"
+  ],
+  "gemela": {
+   "enunciado": "You can see a doctor here when you are sick. What place is it?",
+   "opciones": {
+    "A": "a hospital",
+    "B": "a park",
+    "C": "a library",
+    "D": "a restaurant"
+   },
+   "correcta": "A",
+   "explicacion": "1. 'See a doctor' = ver a un médico. 2. 'When you are sick' = cuando estás enfermo. 3. El lugar es 'a hospital'."
+  },
+  "pensamiento": "Comprender",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N102",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Mínimo",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): describe rutinas propias y de otras personas usando el presente simple.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Describo con oraciones sencillas mi rutina diaria y la de otras personas.",
+  "afirmacion": "Usa el presente simple en contextos conocidos.",
+  "evidencia": "Agrega -s al verbo con la tercera persona del singular.",
+  "contexto": "My brother ___ football every Saturday in the park.",
+  "enunciado": "Complete the sentence.",
+  "opciones": {
+   "A": "play",
+   "B": "plays",
+   "C": "playing",
+   "D": "is play"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Olvidaste la -s.",
+    "porque": "Elegiste 'play' porque probablemente usas la misma forma que con 'I play'.",
+    "pregunta_guia": "¿'My brother' es he, she o I?",
+    "aprende": "He/she/it + verbo con -s: he plays."
+   },
+   "C": {
+    "error": "-ing sin auxiliar.",
+    "porque": "Elegiste 'playing' porque probablemente pensaste en 'jugando'.",
+    "pregunta_guia": "¿Hay 'is' antes del espacio?",
+    "aprende": "Rutina (every Saturday) → presente simple, no -ing."
+   },
+   "D": {
+    "error": "Mezcla de 'to be' con verbo.",
+    "porque": "Elegiste 'is play' porque probablemente tradujiste palabra por palabra 'él es juega'.",
+    "pregunta_guia": "¿Se pueden juntar 'is' y 'play' así?",
+    "aprende": "En presente simple no se usa 'is' con otro verbo: he plays."
+   }
+  },
+  "explicacion": "1. 'My brother' = he. 2. 'Every Saturday' indica rutina → presente simple. 3. Con he/she/it el verbo lleva -s. 4. 'plays'.",
+  "tip": "Every day / every Saturday / always → presente simple.",
+  "truco": "He, she, it → la S no se va.",
+  "temas": [
+   "Presente simple",
+   "Tercera persona -s",
+   "Rutinas"
+  ],
+  "gemela": {
+   "enunciado": "Complete: Camila ___ her teeth three times a day.",
+   "opciones": {
+    "A": "brush",
+    "B": "brushing",
+    "C": "brushes",
+    "D": "is brush"
+   },
+   "correcta": "C",
+   "explicacion": "1. Camila = she. 2. 'Three times a day' = rutina. 3. 'Brush' termina en -sh, así que se agrega -es: 'brushes'."
+  },
+  "pensamiento": "Aplicar",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N103",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): comprende información específica en textos descriptivos cortos sobre rutinas y actividades.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico información específica en textos cortos sobre temas familiares.",
+  "afirmacion": "Identifica información explícita en un texto corto.",
+  "evidencia": "Ubica una actividad según el momento del día (in the afternoon).",
+  "contexto": "Hello! My name is Kevin and I live in Buenaventura, on the Pacific coast. I get up at 5:30 because my school is far from my house. I go to school by boat with my cousin Ana. In the afternoon, I help my father at the market. We sell fish. On Sundays we don't work: we go to the beach and we eat fried fish with my grandmother.",
+  "enunciado": "What does Kevin do in the afternoon?",
+  "opciones": {
+   "A": "He helps his father at the market.",
+   "B": "He goes to the beach.",
+   "C": "He goes to school by boat.",
+   "D": "He eats with his grandmother."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundiste el día.",
+    "porque": "Elegiste 'beach' porque probablemente no viste que eso pasa 'on Sundays'.",
+    "pregunta_guia": "¿Qué palabra va antes de 'we go to the beach'?",
+    "aprende": "on Sundays = los domingos; in the afternoon = en la tarde."
+   },
+   "C": {
+    "error": "Confundiste el momento del día.",
+    "porque": "Elegiste 'school' porque probablemente recordaste el 'boat' sin ver que es en la mañana.",
+    "pregunta_guia": "¿A qué hora se levanta Kevin para ir al colegio?",
+    "aprende": "Va al colegio temprano (get up at 5:30)."
+   },
+   "D": {
+    "error": "Confundiste el día.",
+    "porque": "Elegiste 'grandmother' porque probablemente viste la última oración sin leer 'on Sundays'.",
+    "pregunta_guia": "¿Kevin come con su abuela todas las tardes o los domingos?",
+    "aprende": "Busca la expresión de tiempo de la pregunta: 'in the afternoon'."
+   }
+  },
+  "explicacion": "1. La pregunta dice 'in the afternoon'. 2. Busca esa expresión en el texto. 3. Dice 'In the afternoon, I help my father at the market'. 4. Respuesta: ayuda a su papá en el mercado.",
+  "tip": "Subraya la expresión de tiempo de la pregunta y búscala igualita en el texto.",
+  "truco": "Morning, afternoon, Sunday… cada acción tiene su momento.",
+  "temas": [
+   "Lectura literal",
+   "Rutinas",
+   "Expresiones de tiempo"
+  ],
+  "gemela": {
+   "enunciado": "Read again: 'I go to school by boat with my cousin Ana.' Who goes to school with Kevin?",
+   "opciones": {
+    "A": "his father",
+    "B": "his cousin",
+    "C": "his grandmother",
+    "D": "his teacher"
+   },
+   "correcta": "B",
+   "explicacion": "1. Busca 'go to school'. 2. Dice 'with my cousin Ana'. 3. Va con su prima: 'his cousin'."
+  },
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N104",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): comprende la idea general y deduce información sencilla en textos descriptivos cortos.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico información específica y deduzco ideas sencillas en textos cortos sobre temas familiares.",
+  "afirmacion": "Realiza inferencias sencillas a partir de un texto.",
+  "evidencia": "Deduce qué significa el domingo para Kevin a partir de varias pistas.",
+  "contexto": "Hello! My name is Kevin and I live in Buenaventura, on the Pacific coast. I get up at 5:30 because my school is far from my house. I go to school by boat with my cousin Ana. In the afternoon, I help my father at the market. We sell fish. On Sundays we don't work: we go to the beach and we eat fried fish with my grandmother.",
+  "enunciado": "What can we say about Sundays for Kevin?",
+  "opciones": {
+   "A": "He works all day.",
+   "B": "He goes to school.",
+   "C": "It is a family day.",
+   "D": "He sells fish with Ana."
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Contrario al texto.",
+    "porque": "Elegiste esta porque probablemente viste 'work' sin notar 'don't'.",
+    "pregunta_guia": "¿Qué significa 'we don't work'?",
+    "aprende": "don't = no. 'We don't work' = no trabajamos."
+   },
+   "B": {
+    "error": "Dato de otros días.",
+    "porque": "Elegiste esta porque probablemente recordaste la rutina de la semana.",
+    "pregunta_guia": "¿El texto dice que va al colegio los domingos?",
+    "aprende": "Los domingos hay playa y almuerzo con la abuela."
+   },
+   "D": {
+    "error": "Mezclaste personas y momentos.",
+    "porque": "Elegiste esta porque probablemente uniste 'fish' y 'Ana' de oraciones diferentes.",
+    "pregunta_guia": "¿Con quién vende pescado Kevin y cuándo?",
+    "aprende": "Vende con su papá, en la tarde, y los domingos no trabaja."
+   }
+  },
+  "explicacion": "1. 'On Sundays we don't work' = no trabajan. 2. 'We go to the beach' = van a la playa. 3. 'We eat fried fish with my grandmother' = comen con la abuela. 4. Si descansan y comparten en familia, el domingo es un día familiar.",
+  "tip": "Para inferir, une varias pistas del texto; la respuesta no aparece con las mismas palabras.",
+  "truco": "Don't = NO: cambia todo el sentido.",
+  "temas": [
+   "Inferencia",
+   "Negación con don't",
+   "Familia y rutinas"
+  ],
+  "gemela": {
+   "enunciado": "Read: 'Every Saturday, Luisa wakes up early, puts on her uniform and runs to the stadium. Her team plays at 8:00.' What can we say about Luisa?",
+   "opciones": {
+    "A": "She plays on a sports team.",
+    "B": "She works at the stadium.",
+    "C": "She doesn't like sports.",
+    "D": "She goes to school on Saturdays."
+   },
+   "correcta": "A",
+   "explicacion": "1. Se pone uniforme. 2. Va al estadio. 3. 'Her team plays' = su equipo juega. 4. Se deduce que pertenece a un equipo deportivo."
+  },
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N105",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Avanzado",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): describe personas, animales y objetos de su entorno usando adjetivos posesivos.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Describo con oraciones sencillas a personas, animales y objetos de mi entorno.",
+  "afirmacion": "Usa los adjetivos posesivos según el poseedor.",
+  "evidencia": "Elige el posesivo adecuado cuando hay dos poseedores.",
+  "contexto": "Mariana and her brother Felipe have a cat. ___ cat is black and white, and it sleeps on the sofa.",
+  "enunciado": "Complete the text.",
+  "opciones": {
+   "A": "His",
+   "B": "Their",
+   "C": "Her",
+   "D": "They"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Solo un poseedor masculino.",
+    "porque": "Elegiste 'His' porque probablemente pensaste solo en Felipe, el último nombre.",
+    "pregunta_guia": "¿El gato es de una persona o de dos?",
+    "aprende": "His = de él. Para dos o más personas: their."
+   },
+   "C": {
+    "error": "Solo un poseedor femenino.",
+    "porque": "Elegiste 'Her' porque probablemente pensaste solo en Mariana.",
+    "pregunta_guia": "¿Quiénes tienen el gato?",
+    "aprende": "Her = de ella. Mariana and Felipe → their."
+   },
+   "D": {
+    "error": "Pronombre sujeto en vez de posesivo.",
+    "porque": "Elegiste 'They' porque probablemente sabías que es plural pero no distinguiste 'ellos' de 'su'.",
+    "pregunta_guia": "¿'They cat' significa 'ellos gato' o 'su gato'?",
+    "aprende": "They = ellos (sujeto); their = su/sus de ellos (posesivo)."
+   }
+  },
+  "explicacion": "1. 'Mariana and Felipe' son dos personas. 2. El gato es de los dos. 3. El posesivo para 'they' es 'their'. 4. 'Their cat is black and white.'",
+  "tip": "Pregúntate de quién es la cosa: él (his), ella (her), ellos (their).",
+  "truco": "They → their: suenan parecido, pero their es de quién es.",
+  "temas": [
+   "Adjetivos posesivos",
+   "Pronombres personales",
+   "Descripción de mascotas"
+  ],
+  "gemela": {
+   "enunciado": "Complete: 'My grandparents live in Palmira. ___ house has a big mango tree.'",
+   "opciones": {
+    "A": "Our",
+    "B": "His",
+    "C": "Their",
+    "D": "Its"
+   },
+   "correcta": "C",
+   "explicacion": "1. 'My grandparents' = they (dos personas). 2. La casa es de ellos. 3. Posesivo de 'they' = 'their'."
+  },
+  "pensamiento": "Analizar",
+  "revision": true
+ },
+ {
+  "id": "ING-5-N106",
+  "area": "ingles",
+  "grado": 5,
+  "competencia": "Pragmática",
+  "componente": "Avisos",
+  "nivel": "Avanzado",
+  "mcer": "A1",
+  "dba": "Currículo sugerido de Inglés 5° (MEN): comprende avisos y letreros sencillos de su entorno y sigue instrucciones cortas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Comprendo instrucciones y avisos sencillos de mi entorno.",
+  "afirmacion": "Comprende el sentido de avisos y letreros.",
+  "evidencia": "Juzga si el plan de una persona cumple las reglas de un aviso.",
+  "contexto": "CITY ZOO\nOpen: 9:00 a.m. – 4:30 p.m.\nPlease do not feed the animals.\nChildren under 12 must be with an adult.",
+  "enunciado": "Tomás is 10 years old. He wants to visit the zoo alone at 5:00 p.m. What is the problem?",
+  "opciones": {
+   "A": "He can't take food to the zoo.",
+   "B": "He is too old to visit the zoo.",
+   "C": "The zoo is closed on weekdays.",
+   "D": "He needs an adult and the zoo is closed."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Regla que no aplica al plan.",
+    "porque": "Elegiste esta porque probablemente viste 'Do not feed the animals' y la tomaste como la regla principal.",
+    "pregunta_guia": "¿Tomás dijo que quiere dar comida a los animales?",
+    "aprende": "'Do not feed the animals' = no alimentes a los animales; no habla de llevar comida."
+   },
+   "B": {
+    "error": "Interpretaste al revés 'under 12'.",
+    "porque": "Elegiste esta porque probablemente pensaste que 'under 12' es 'más de 12'.",
+    "pregunta_guia": "¿10 es menos o más que 12?",
+    "aprende": "under 12 = menores de 12. Tomás (10) es menor: necesita un adulto."
+   },
+   "C": {
+    "error": "Dato inventado.",
+    "porque": "Elegiste esta porque probablemente supusiste un horario que el aviso no dice.",
+    "pregunta_guia": "¿El aviso nombra días de la semana?",
+    "aprende": "El aviso solo da horas: 9:00 a.m. – 4:30 p.m."
+   }
+  },
+  "explicacion": "1. 'Open 9:00 a.m. – 4:30 p.m.': a las 5:00 p.m. ya está cerrado. 2. 'Children under 12 must be with an adult': Tomás tiene 10, necesita un adulto. 3. Hay dos problemas y la opción D los nombra a ambos.",
+  "tip": "Compara cada dato de la persona (edad, hora, compañía) con cada regla del aviso.",
+  "truco": "Under = debajo de → menores de.",
+  "temas": [
+   "Avisos y letreros",
+   "Horas",
+   "Must / don't"
+  ],
+  "gemela": {
+   "enunciado": "Sign at the pool: 'Pool open 8:00 a.m. – 6:00 p.m. No running. Children under 8 must be with an adult.' Valeria is 9. She wants to swim at 3:00 p.m. with her friends. Can she swim?",
+   "opciones": {
+    "A": "No, she is under 8.",
+    "B": "Yes, the pool is open and she is over 8.",
+    "C": "No, the pool is closed at 3:00 p.m.",
+    "D": "No, she needs to run."
+   },
+   "correcta": "B",
+   "explicacion": "1. A las 3:00 p.m. la piscina está abierta (8:00 a.m. – 6:00 p.m.). 2. Valeria tiene 9, no es menor de 8. 3. Sí puede nadar."
+  },
+  "pensamiento": "Evaluar",
+  "lectura": "Inferencial",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N101",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Lingüística",
+  "componente": "Vocabulario",
+  "nivel": "Mínimo",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: comprende y usa vocabulario sobre oficios y ocupaciones de su comunidad.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Reconozco y uso vocabulario sobre ocupaciones y lugares de trabajo.",
+  "afirmacion": "Relaciona descripciones con palabras.",
+  "evidencia": "Identifica una ocupación a partir de su definición.",
+  "contexto": "A person who takes care of sick animals.",
+  "enunciado": "Which word matches the description?",
+  "opciones": {
+   "A": "a vet",
+   "B": "a nurse",
+   "C": "a farmer",
+   "D": "a waiter"
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Confundiste pacientes.",
+    "porque": "Elegiste 'a nurse' porque probablemente leíste 'takes care of sick' y no viste 'animals'.",
+    "pregunta_guia": "¿Una enfermera cuida principalmente personas o animales?",
+    "aprende": "nurse = enfermero(a) de personas; vet = veterinario(a)."
+   },
+   "C": {
+    "error": "Animales sí, pero no enfermos.",
+    "porque": "Elegiste 'a farmer' porque probablemente viste 'animals' y pensaste en la finca.",
+    "pregunta_guia": "¿El granjero cura animales enfermos?",
+    "aprende": "farmer = granjero; cría animales y cultiva, no los cura."
+   },
+   "D": {
+    "error": "Elección por descarte sin leer.",
+    "porque": "Elegiste 'a waiter' porque probablemente confundiste 'takes care of' con atender clientes.",
+    "pregunta_guia": "¿Un mesero trabaja con animales enfermos?",
+    "aprende": "waiter = mesero(a), trabaja en restaurantes."
+   }
+  },
+  "explicacion": "1. 'Takes care of' = cuida. 2. 'Sick animals' = animales enfermos. 3. La persona que cuida y cura animales enfermos es el veterinario: 'a vet'.",
+  "tip": "Busca las dos palabras clave de la definición (¿qué hace? ¿a quién?).",
+  "truco": "Vet = veterinario (empiezan igual).",
+  "temas": [
+   "Ocupaciones",
+   "Definiciones",
+   "Who + verbo"
+  ],
+  "gemela": {
+   "enunciado": "Which word matches: 'a person who designs buildings and houses'?",
+   "opciones": {
+    "A": "a builder",
+    "B": "a painter",
+    "C": "an architect",
+    "D": "a driver"
+   },
+   "correcta": "C",
+   "explicacion": "1. 'Designs' = diseña. 2. 'Buildings and houses' = edificios y casas. 3. Quien diseña (no quien construye) es 'an architect'."
+  },
+  "pensamiento": "Comprender",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N102",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Mínimo",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: narra brevemente hechos pasados de su vida y su comunidad usando el pasado simple.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Narro o describo de forma sencilla hechos y actividades pasadas.",
+  "afirmacion": "Usa el pasado simple en contextos conocidos.",
+  "evidencia": "Selecciona el pasado irregular de 'go' con un marcador de tiempo pasado.",
+  "contexto": "Last weekend we ___ to Lago Calima with my uncle. The wind was perfect for windsurfing!",
+  "enunciado": "Complete the text.",
+  "opciones": {
+   "A": "go",
+   "B": "goes",
+   "C": "went",
+   "D": "gone"
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Presente en vez de pasado.",
+    "porque": "Elegiste 'go' porque probablemente no viste 'Last weekend'.",
+    "pregunta_guia": "¿Qué expresión de tiempo abre la oración?",
+    "aprende": "Last weekend → pasado simple."
+   },
+   "B": {
+    "error": "Presente con -s.",
+    "porque": "Elegiste 'goes' porque probablemente aplicaste la regla de la -s sin mirar el sujeto ni el tiempo.",
+    "pregunta_guia": "¿'We' lleva -s? ¿La acción ya pasó?",
+    "aprende": "Pasado de go = went, igual para todos los sujetos."
+   },
+   "D": {
+    "error": "Participio en vez de pasado.",
+    "porque": "Elegiste 'gone' porque probablemente recordaste la tercera columna de los irregulares.",
+    "pregunta_guia": "¿Hay 'have' antes del espacio?",
+    "aprende": "go – went – gone: 'gone' necesita have/has."
+   }
+  },
+  "explicacion": "1. 'Last weekend' indica pasado terminado. 2. Se usa pasado simple. 3. 'Go' es irregular: go – went – gone. 4. Sin 'have', la forma es 'went'.",
+  "tip": "Aprende los irregulares en tres columnas: go – went – gone.",
+  "truco": "Last = ya pasó; went = ya fue.",
+  "temas": [
+   "Pasado simple irregular",
+   "Marcadores temporales",
+   "Viajes y paseos"
+  ],
+  "gemela": {
+   "enunciado": "Complete: 'Two days ago, my sister ___ a delicious sancocho for the family.'",
+   "opciones": {
+    "A": "make",
+    "B": "made",
+    "C": "makes",
+    "D": "making"
+   },
+   "correcta": "B",
+   "explicacion": "1. 'Two days ago' = hace dos días → pasado. 2. 'Make' es irregular: make – made – made. 3. 'made'."
+  },
+  "pensamiento": "Aplicar",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N103",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: comprende información específica en textos narrativos e informativos cortos sobre su comunidad.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico información específica en textos cortos narrativos e informativos.",
+  "afirmacion": "Identifica información explícita en un texto.",
+  "evidencia": "Localiza qué se compró con el dinero del reciclaje.",
+  "contexto": "Last Saturday, the 7th grade students of our school organized a recycling day in Ciudad Córdoba. We collected plastic bottles, paper and cans from the streets near the park. Some neighbours were surprised, but many of them helped us. In total, we collected 45 kilos of plastic. We sold the plastic to a recycling company, and we used the money to buy two new trash cans for the park. Next month, we want to plant ten trees there. Do you want to join us? – Natalia, 7B",
+  "enunciado": "What did the students buy with the money?",
+  "opciones": {
+   "A": "plastic bottles",
+   "B": "ten trees",
+   "C": "a recycling company",
+   "D": "two trash cans"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Confundiste recoger con comprar.",
+    "porque": "Elegiste esta porque probablemente viste 'plastic bottles' y no notaste que eso lo recogieron.",
+    "pregunta_guia": "¿Qué hicieron con las botellas: comprarlas o recogerlas?",
+    "aprende": "collected = recogieron; bought = compraron."
+   },
+   "B": {
+    "error": "Plan futuro tomado como hecho.",
+    "porque": "Elegiste esta porque probablemente viste 'ten trees' sin notar 'Next month, we want'.",
+    "pregunta_guia": "¿Ya sembraron los árboles o lo van a hacer?",
+    "aprende": "'Want to plant' = quieren sembrar (futuro)."
+   },
+   "C": {
+    "error": "Confundiste a quién le vendieron.",
+    "porque": "Elegiste esta porque probablemente viste 'recycling company' y no el verbo 'sold to'.",
+    "pregunta_guia": "¿A la empresa le compraron o le vendieron?",
+    "aprende": "sold to = le vendieron a."
+   }
+  },
+  "explicacion": "1. Busca 'money' en el texto. 2. Dice 'we used the money to buy two new trash cans'. 3. Compraron dos canecas nuevas: 'two trash cans'.",
+  "tip": "Ubica la palabra clave de la pregunta (money) y lee la oración completa.",
+  "truco": "Buy – bought: comprar; sell – sold: vender.",
+  "temas": [
+   "Lectura literal",
+   "Pasado simple",
+   "Medio ambiente"
+  ],
+  "gemela": {
+   "enunciado": "Read again. How many kilos of plastic did the students collect?",
+   "opciones": {
+    "A": "ten",
+    "B": "forty-five",
+    "C": "seven",
+    "D": "two"
+   },
+   "correcta": "B",
+   "explicacion": "1. Busca 'kilos'. 2. Dice 'we collected 45 kilos of plastic'. 3. 45 = forty-five."
+  },
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "sabic": "STEAM",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N104",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: comprende el propósito de mensajes y textos cortos sobre su comunidad.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico el propósito de textos cortos.",
+  "afirmacion": "Identifica la intención comunicativa de un texto.",
+  "evidencia": "Reconoce el propósito global del texto de Natalia.",
+  "contexto": "Last Saturday, the 7th grade students of our school organized a recycling day in Ciudad Córdoba. We collected plastic bottles, paper and cans from the streets near the park. Some neighbours were surprised, but many of them helped us. In total, we collected 45 kilos of plastic. We sold the plastic to a recycling company, and we used the money to buy two new trash cans for the park. Next month, we want to plant ten trees there. Do you want to join us? – Natalia, 7B",
+  "enunciado": "What is the main purpose of Natalia's text?",
+  "opciones": {
+   "A": "to sell plastic to the neighbours",
+   "B": "to tell about a community activity and invite readers",
+   "C": "to complain about the dirty streets",
+   "D": "to ask the park for money"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Detalle tomado como propósito.",
+    "porque": "Elegiste esta porque probablemente viste 'sold the plastic' y lo tomaste como idea central.",
+    "pregunta_guia": "¿A quién le vendieron el plástico?",
+    "aprende": "Vendieron a una empresa; es solo un detalle del relato."
+   },
+   "C": {
+    "error": "Tono mal interpretado.",
+    "porque": "Elegiste esta porque probablemente pensaste que hablar de calles con basura es quejarse.",
+    "pregunta_guia": "¿Natalia se queja o cuenta lo que lograron?",
+    "aprende": "El texto es positivo: cuenta logros y planes."
+   },
+   "D": {
+    "error": "Intención inventada.",
+    "porque": "Elegiste esta porque probablemente relacionaste 'money' y 'park'.",
+    "pregunta_guia": "¿Quién usó dinero para el parque?",
+    "aprende": "Los estudiantes compraron canecas para el parque; no piden dinero."
+   }
+  },
+  "explicacion": "1. El texto narra lo que hicieron (recoger, vender, comprar). 2. Cuenta el plan siguiente (sembrar árboles). 3. Termina con 'Do you want to join us?' (invitación). 4. Propósito: contar una actividad comunitaria e invitar a participar.",
+  "tip": "El propósito se ve en todo el texto, sobre todo al inicio y al final.",
+  "truco": "Pregunta final 'Do you want to join us?' = invitación.",
+  "temas": [
+   "Propósito comunicativo",
+   "Idea global",
+   "Invitaciones"
+  ],
+  "gemela": {
+   "enunciado": "Read: 'Dear neighbours, the water will be cut on Tuesday from 8 a.m. to 2 p.m. Please save water on Monday night. – Building administration.' What is the purpose of the note?",
+   "opciones": {
+    "A": "to sell water",
+    "B": "to inform and give advice",
+    "C": "to invite to a party",
+    "D": "to complain about neighbours"
+   },
+   "correcta": "B",
+   "explicacion": "1. Informa que cortarán el agua y cuándo. 2. Aconseja guardar agua. 3. Propósito: informar y recomendar."
+  },
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N105",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Avanzado",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: valora información de textos cortos y reconoce qué datos sustentan una idea.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico relaciones de significado y valoro la información de textos cortos.",
+  "afirmacion": "Evalúa la información de un texto para sustentar una afirmación.",
+  "evidencia": "Escoge la cita del texto que mejor demuestra un beneficio para la comunidad.",
+  "contexto": "Last Saturday, the 7th grade students of our school organized a recycling day in Ciudad Córdoba. We collected plastic bottles, paper and cans from the streets near the park. Some neighbours were surprised, but many of them helped us. In total, we collected 45 kilos of plastic. We sold the plastic to a recycling company, and we used the money to buy two new trash cans for the park. Next month, we want to plant ten trees there. Do you want to join us? – Natalia, 7B",
+  "enunciado": "Which sentence from the text BEST shows that the recycling day helped the park?",
+  "opciones": {
+   "A": "\"We collected plastic bottles, paper and cans.\"",
+   "B": "\"Some neighbours were surprised.\"",
+   "C": "\"We used the money to buy two new trash cans for the park.\"",
+   "D": "\"Next month, we want to plant ten trees there.\""
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "Acción sin resultado.",
+    "porque": "Elegiste esta porque probablemente pensaste que recoger basura ya demuestra el beneficio.",
+    "pregunta_guia": "¿Esta oración dice qué ganó el parque?",
+    "aprende": "Una evidencia fuerte muestra un resultado concreto."
+   },
+   "B": {
+    "error": "Reacción, no beneficio.",
+    "porque": "Elegiste esta porque probablemente pensaste que la sorpresa muestra impacto.",
+    "pregunta_guia": "¿Que alguien se sorprenda prueba que el parque mejoró?",
+    "aprende": "Las emociones de las personas no prueban un resultado."
+   },
+   "D": {
+    "error": "Plan, no hecho.",
+    "porque": "Elegiste esta porque probablemente viste 'plant trees' y lo asociaste con ayudar.",
+    "pregunta_guia": "¿Sembrar árboles ya pasó o es un deseo futuro?",
+    "aprende": "'Want to…' es un plan; aún no prueba nada."
+   }
+  },
+  "explicacion": "1. Se pide la MEJOR prueba de que el parque se benefició. 2. A es una acción sin resultado; B es una reacción; D es un plan futuro. 3. C muestra un resultado concreto y ya cumplido: canecas nuevas para el parque. 4. Respuesta C.",
+  "tip": "Una buena evidencia es un hecho cumplido y concreto, no una opinión ni un plan.",
+  "truco": "Hecho > opinión > deseo.",
+  "temas": [
+   "Lectura crítica",
+   "Hechos vs planes",
+   "Evidencias"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'Our class started a reading club in March. At first only five students came. Now twenty students meet every Friday, and the library lends us new books every month.' Which sentence BEST shows the club is growing?",
+   "opciones": {
+    "A": "\"Our class started a reading club in March.\"",
+    "B": "\"At first only five students came.\"",
+    "C": "\"Now twenty students meet every Friday.\"",
+    "D": "\"The library lends us new books.\""
+   },
+   "correcta": "C",
+   "explicacion": "1. 'Crecer' = más miembros. 2. Pasar de 5 a 20 estudiantes es la prueba. 3. La oración C lo muestra con un dato actual."
+  },
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "sabic": "STEAM",
+  "revision": true
+ },
+ {
+  "id": "ING-7-N106",
+  "area": "ingles",
+  "grado": 7,
+  "competencia": "Sociolingüística",
+  "componente": "Conversación",
+  "nivel": "Avanzado",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 7° (MEN 2016), contenido sin número: participa en conversaciones cortas usando expresiones de cortesía adecuadas a la situación.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Utilizo códigos de cortesía apropiados en conversaciones cotidianas.",
+  "afirmacion": "Usa un registro adecuado en una interacción.",
+  "evidencia": "Elige la respuesta cortés y coherente con lo que sigue en el diálogo.",
+  "contexto": "Waiter: Good afternoon. Are you ready to order?\nCustomer: ___\nWaiter: Sure. Anything to drink?",
+  "enunciado": "Complete the conversation.",
+  "opciones": {
+   "A": "Yes, I'd like the chicken with rice, please.",
+   "B": "Give me chicken. Now.",
+   "C": "Yes, I like chicken very much.",
+   "D": "No, thanks. I'm full."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Registro descortés.",
+    "porque": "Elegiste esta porque probablemente la gramática te pareció suficiente y no pensaste en la cortesía.",
+    "pregunta_guia": "¿Cómo se sentiría el mesero con 'Now'?",
+    "aprende": "En un restaurante: I'd like… please / Can I have… please?"
+   },
+   "C": {
+    "error": "Like ≠ would like.",
+    "porque": "Elegiste esta porque probablemente tradujiste 'quiero pollo' como 'I like chicken'.",
+    "pregunta_guia": "¿'I like' pide algo o cuenta un gusto general?",
+    "aprende": "I like = me gusta (siempre); I'd like = quisiera (ahora)."
+   },
+   "D": {
+    "error": "No encaja con lo que sigue.",
+    "porque": "Elegiste esta porque probablemente no leíste la respuesta del mesero.",
+    "pregunta_guia": "Si el cliente no pide nada, ¿el mesero diría 'Sure. Anything to drink?'?",
+    "aprende": "Lee lo que va después del espacio para comprobar la coherencia."
+   }
+  },
+  "explicacion": "1. El mesero pregunta si está listo para pedir. 2. Luego responde 'Sure. Anything to drink?', así que el cliente pidió comida. 3. La forma cortés es 'I'd like…, please'. 4. Respuesta A.",
+  "tip": "Para pedir en inglés: I'd like… / Can I have…? + please.",
+  "truco": "I'd like = quisiera; I like = me gusta.",
+  "temas": [
+   "Would like vs like",
+   "Cortesía",
+   "Diálogos en restaurante"
+  ],
+  "gemela": {
+   "enunciado": "At a shop: Clerk: Can I help you? / Customer: ___ / Clerk: Of course. What size?",
+   "opciones": {
+    "A": "Yes, I'd like to try on these shoes, please.",
+    "B": "No, I'm just looking, thanks.",
+    "C": "I like shoes.",
+    "D": "Give me shoes."
+   },
+   "correcta": "A",
+   "explicacion": "1. El vendedor responde 'Of course. What size?', así que el cliente pidió algo. 2. La forma cortés es 'I'd like…, please'. 3. Respuesta A."
+  },
+  "pensamiento": "Evaluar",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N101",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Lingüística",
+  "componente": "Vocabulario",
+  "nivel": "Mínimo",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: comprende vocabulario de textos informativos sobre temas de interés general, como el manejo del dinero.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico el significado de palabras en textos sobre temas de mi interés.",
+  "afirmacion": "Relaciona descripciones con palabras.",
+  "evidencia": "Identifica un término de finanzas personales a partir de su definición.",
+  "contexto": "A plan that shows how much money you will earn and spend each month.",
+  "enunciado": "Which word matches the description?",
+  "opciones": {
+   "A": "a receipt",
+   "B": "a salary",
+   "C": "a loan",
+   "D": "a budget"
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Documento de una compra.",
+    "porque": "Elegiste 'a receipt' porque probablemente asociaste 'money… spend' con el papel que te dan al pagar.",
+    "pregunta_guia": "¿Un recibo muestra un plan de todo el mes?",
+    "aprende": "receipt = recibo o factura de UNA compra."
+   },
+   "B": {
+    "error": "Solo ingresos.",
+    "porque": "Elegiste 'a salary' porque probablemente viste 'earn' (ganar).",
+    "pregunta_guia": "¿El salario incluye lo que gastas?",
+    "aprende": "salary = sueldo (lo que ganas); budget incluye ingresos y gastos."
+   },
+   "C": {
+    "error": "Dinero prestado.",
+    "porque": "Elegiste 'a loan' porque probablemente relacionaste 'money' con pedir dinero.",
+    "pregunta_guia": "¿La definición habla de pedir prestado?",
+    "aprende": "loan = préstamo (dinero que debes devolver)."
+   }
+  },
+  "explicacion": "1. 'A plan' = un plan. 2. 'How much money you will earn and spend' = cuánto ganarás y gastarás. 3. 'Each month' = cada mes. 4. Ese plan es un presupuesto: 'a budget'.",
+  "tip": "Las definiciones tienen palabras clave: aquí 'plan', 'earn' y 'spend'.",
+  "truco": "Budget = presupuesto: plan de lo que entra y lo que sale.",
+  "temas": [
+   "Vocabulario de finanzas personales",
+   "Definiciones",
+   "Will (futuro)"
+  ],
+  "gemela": {
+   "enunciado": "Which word matches: 'money that you keep in the bank and don't spend'?",
+   "opciones": {
+    "A": "savings",
+    "B": "prices",
+    "C": "debts",
+    "D": "bills"
+   },
+   "correcta": "A",
+   "explicacion": "1. 'Keep… and don't spend' = guardas y no gastas. 2. Eso son los ahorros: 'savings'."
+  },
+  "pensamiento": "Comprender",
+  "sabic": "Matemática financiera",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N102",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Mínimo",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: compara personas, lugares y situaciones usando estructuras comparativas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Uso estructuras gramaticales adecuadas para comparar y describir.",
+  "afirmacion": "Usa estructuras comparativas en contexto.",
+  "evidencia": "Forma el comparativo de un adjetivo corto con 'than'.",
+  "contexto": "Cali is ___ than Bogotá, so you don't need a jacket there.",
+  "enunciado": "Complete the sentence.",
+  "opciones": {
+   "A": "hot",
+   "B": "hotter",
+   "C": "hottest",
+   "D": "more hot"
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Adjetivo sin comparar.",
+    "porque": "Elegiste 'hot' porque probablemente no viste 'than' después del espacio.",
+    "pregunta_guia": "¿Qué palabra indica comparación en la oración?",
+    "aprende": "Adjetivo + than → comparativo: hotter than."
+   },
+   "C": {
+    "error": "Superlativo en vez de comparativo.",
+    "porque": "Elegiste 'hottest' porque probablemente confundiste 'más caliente que' con 'el más caliente'.",
+    "pregunta_guia": "¿Comparas dos ciudades o una entre muchas?",
+    "aprende": "Dos cosas → -er than; una entre muchas → the -est."
+   },
+   "D": {
+    "error": "'More' con adjetivo corto.",
+    "porque": "Elegiste 'more hot' porque probablemente tradujiste 'más caliente' palabra por palabra.",
+    "pregunta_guia": "¿'Hot' es un adjetivo corto o largo?",
+    "aprende": "Adjetivos de una sílaba: -er (hot → hotter, se duplica la t)."
+   }
+  },
+  "explicacion": "1. 'Than' indica comparación entre dos ciudades. 2. 'Hot' es corto (una sílaba) → -er. 3. Termina en consonante-vocal-consonante → se duplica la t: 'hotter'. 4. 'Cali is hotter than Bogotá'.",
+  "tip": "Cuando veas 'than', busca la forma -er o more + adjetivo largo.",
+  "truco": "Corto: -er · Largo: more · Than: que.",
+  "temas": [
+   "Comparativos",
+   "Ortografía: doble consonante",
+   "Clima en Colombia"
+  ],
+  "gemela": {
+   "enunciado": "Complete: 'For me, chemistry is ___ than history.'",
+   "opciones": {
+    "A": "difficult",
+    "B": "more difficult",
+    "C": "difficulter",
+    "D": "most difficult"
+   },
+   "correcta": "B",
+   "explicacion": "1. 'Than' indica comparación. 2. 'Difficult' es largo (tres sílabas). 3. Se usa 'more difficult'."
+  },
+  "pensamiento": "Aplicar",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N103",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "A2",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: identifica información específica e ideas principales en textos narrativos e informativos cortos.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico información específica en textos narrativos e informativos.",
+  "afirmacion": "Identifica información explícita en un texto.",
+  "evidencia": "Reconoce cómo consiguió el personaje el dinero.",
+  "contexto": "Juliana, 15, wanted a second-hand laptop for her robotics projects. It cost 900,000 pesos. Instead of asking her parents for the money, she made a plan. Every weekend she sold arepas de choclo with her aunt in the park near her house, and she saved part of the money. She also wrote every sale in a notebook. After a few weeks, she noticed that she sold more on rainy days, because people wanted something warm. So she started bringing hot chocolate on cloudy days. It took her fifteen weeks, but she bought the laptop. \"The best part,\" she says, \"is that now I know how to manage my own money.\"",
+  "enunciado": "How did Juliana get the money for the laptop?",
+  "opciones": {
+   "A": "Her parents gave it to her.",
+   "B": "She sold food in the park on weekends.",
+   "C": "She sold one of her robotics projects.",
+   "D": "Her aunt lent her the money."
+  },
+  "correcta": "B",
+  "errores": {
+   "A": {
+    "error": "Contrario al texto.",
+    "porque": "Elegiste esta porque probablemente viste 'her parents' sin notar 'Instead of asking'.",
+    "pregunta_guia": "¿Qué significa 'instead of asking her parents'?",
+    "aprende": "instead of = en lugar de: NO les pidió a sus papás."
+   },
+   "C": {
+    "error": "Palabra del texto en otra función.",
+    "porque": "Elegiste esta porque probablemente viste 'robotics projects' y la uniste con 'sold'.",
+    "pregunta_guia": "¿Para qué quería el portátil?",
+    "aprende": "Los proyectos de robótica son la razón de la compra, no la fuente del dinero."
+   },
+   "D": {
+    "error": "Rol del personaje confundido.",
+    "porque": "Elegiste esta porque probablemente viste que la tía participa y supusiste un préstamo.",
+    "pregunta_guia": "¿El texto dice 'lent' o 'with her aunt'?",
+    "aprende": "with her aunt = vendía junto con su tía; no hubo préstamo."
+   }
+  },
+  "explicacion": "1. 'Instead of asking her parents' descarta a los papás. 2. 'Every weekend she sold arepas de choclo… in the park' = vendía comida los fines de semana. 3. 'She saved part of the money' = ahorró. 4. Respuesta B.",
+  "tip": "Desconfía de las opciones que copian palabras del texto: revisa la oración completa.",
+  "truco": "Instead of = en lugar de → descarta esa opción.",
+  "temas": [
+   "Lectura literal",
+   "Instead of",
+   "Finanzas personales"
+  ],
+  "gemela": {
+   "enunciado": "Read again. What did Juliana do on cloudy days?",
+   "opciones": {
+    "A": "She stayed at home.",
+    "B": "She brought hot chocolate to sell.",
+    "C": "She worked on her robot.",
+    "D": "She bought a notebook."
+   },
+   "correcta": "B",
+   "explicacion": "1. Busca 'cloudy days'. 2. Dice 'she started bringing hot chocolate on cloudy days'. 3. Llevaba chocolate caliente."
+  },
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "sabic": "Matemática financiera",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N104",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Satisfactorio",
+  "mcer": "B1",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: infiere información implícita y relaciones de causa y efecto en textos narrativos cortos.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Identifico relaciones de significado e infiero información en textos.",
+  "afirmacion": "Realiza inferencias a partir de un texto.",
+  "evidencia": "Deduce la utilidad del cuaderno de ventas relacionando dos partes del texto.",
+  "contexto": "Juliana, 15, wanted a second-hand laptop for her robotics projects. It cost 900,000 pesos. Instead of asking her parents for the money, she made a plan. Every weekend she sold arepas de choclo with her aunt in the park near her house, and she saved part of the money. She also wrote every sale in a notebook. After a few weeks, she noticed that she sold more on rainy days, because people wanted something warm. So she started bringing hot chocolate on cloudy days. It took her fifteen weeks, but she bought the laptop. \"The best part,\" she says, \"is that now I know how to manage my own money.\"",
+  "enunciado": "What does the text suggest about Juliana's notebook?",
+  "opciones": {
+   "A": "It helped her find a way to sell more.",
+   "B": "It was a present from her aunt.",
+   "C": "She used it for her robotics class.",
+   "D": "It showed that she was losing money."
+  },
+  "correcta": "A",
+  "errores": {
+   "B": {
+    "error": "Inferencia sin apoyo.",
+    "porque": "Elegiste esta porque probablemente uniste 'aunt' y 'notebook' sin que el texto los relacione.",
+    "pregunta_guia": "¿El texto dice quién le dio el cuaderno?",
+    "aprende": "Infiere solo lo que se apoya en pistas del texto."
+   },
+   "C": {
+    "error": "Mezcla de temas.",
+    "porque": "Elegiste esta porque probablemente asociaste cuaderno con colegio y robótica.",
+    "pregunta_guia": "¿Qué escribía Juliana en el cuaderno?",
+    "aprende": "She wrote every sale = anotaba cada venta."
+   },
+   "D": {
+    "error": "Contradice el final.",
+    "porque": "Elegiste esta porque probablemente pensaste que llevar cuentas es señal de problemas.",
+    "pregunta_guia": "¿Juliana logró comprar el portátil?",
+    "aprende": "Si compró el portátil, no estaba perdiendo dinero."
+   }
+  },
+  "explicacion": "1. Juliana anotaba cada venta. 2. Gracias a esos registros notó que vendía más con lluvia. 3. Por eso empezó a llevar chocolate en días nublados. 4. Se infiere que el cuaderno le ayudó a encontrar cómo vender más.",
+  "tip": "Conecta causa y efecto: ¿qué hizo el personaje y qué logró por eso?",
+  "truco": "'After… she noticed… So…' = registro → descubrimiento → decisión.",
+  "temas": [
+   "Inferencia",
+   "Causa y efecto",
+   "Registro de datos"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'Mateo recorded how many hours he slept and his quiz grades for a month. He saw that his grades were better after eight hours of sleep. Now he goes to bed earlier.' What does the text suggest?",
+   "opciones": {
+    "A": "Mateo doesn't care about school.",
+    "B": "His records helped him improve a habit.",
+    "C": "He sleeps less than before.",
+    "D": "His teacher asked him to record data."
+   },
+   "correcta": "B",
+   "explicacion": "1. Registró horas de sueño y notas. 2. Descubrió una relación. 3. Cambió su hábito (se acuesta más temprano). 4. Los registros le ayudaron a mejorar un hábito."
+  },
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "sabic": "Estadística financiera",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N105",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Pragmática",
+  "componente": "Comprensión lectora",
+  "nivel": "Avanzado",
+  "mcer": "B1",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: identifica el mensaje global de un texto y lo valora a partir de la información que presenta.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Valoro la información de un texto y expreso mi opinión con argumentos sencillos.",
+  "afirmacion": "Evalúa el mensaje global de un texto.",
+  "evidencia": "Escoge la conclusión que se apoya en todo el texto y no generaliza de más.",
+  "contexto": "Juliana, 15, wanted a second-hand laptop for her robotics projects. It cost 900,000 pesos. Instead of asking her parents for the money, she made a plan. Every weekend she sold arepas de choclo with her aunt in the park near her house, and she saved part of the money. She also wrote every sale in a notebook. After a few weeks, she noticed that she sold more on rainy days, because people wanted something warm. So she started bringing hot chocolate on cloudy days. It took her fifteen weeks, but she bought the laptop. \"The best part,\" she says, \"is that now I know how to manage my own money.\"",
+  "enunciado": "Which statement BEST expresses the main lesson of the text?",
+  "opciones": {
+   "A": "Laptops are too expensive for teenagers.",
+   "B": "Selling food is the only way to earn money.",
+   "C": "Parents should always pay for school projects.",
+   "D": "Planning and keeping records can help us reach a goal."
+  },
+  "correcta": "D",
+  "errores": {
+   "A": {
+    "error": "Opinión que el texto no defiende.",
+    "porque": "Elegiste esta porque probablemente te fijaste en el precio (900,000) y no en cómo lo logró.",
+    "pregunta_guia": "¿Juliana pudo o no pudo comprarlo?",
+    "aprende": "El texto muestra que con un plan sí se puede."
+   },
+   "B": {
+    "error": "Generalización exagerada.",
+    "porque": "Elegiste esta porque probablemente tomaste el caso de Juliana como regla para todos.",
+    "pregunta_guia": "¿El texto dice que es la ÚNICA forma?",
+    "aprende": "Cuidado con 'only', 'always', 'never': suelen exagerar."
+   },
+   "C": {
+    "error": "Contrario a la decisión de Juliana.",
+    "porque": "Elegiste esta porque probablemente pensaste en lo que pasa normalmente en casa.",
+    "pregunta_guia": "¿Juliana les pidió el dinero a sus papás?",
+    "aprende": "'Instead of asking her parents' muestra lo contrario."
+   }
+  },
+  "explicacion": "1. Juliana hizo un plan (vender y ahorrar). 2. Llevó registros y con ellos mejoró sus ventas. 3. Alcanzó su meta y aprendió a manejar su dinero. 4. La lección que recoge todo el texto es D. A, B y C son opiniones o generalizaciones que el texto no sostiene.",
+  "tip": "La idea principal debe cubrir el inicio, el desarrollo y el final del texto.",
+  "truco": "Si la opción dice 'only' o 'always', revisa dos veces.",
+  "temas": [
+   "Idea principal",
+   "Lectura crítica",
+   "Metas y ahorro"
+  ],
+  "gemela": {
+   "enunciado": "Text: 'Samuel wanted to run 5 km. He made a schedule, ran three times a week and wrote his times in an app. After two months he finished his first 5 km race in Cali.' What is the main lesson?",
+   "opciones": {
+    "A": "Running is only for professional athletes.",
+    "B": "Apps are better than coaches.",
+    "C": "A clear plan and tracking progress help you reach goals.",
+    "D": "Races in Cali are very easy."
+   },
+   "correcta": "C",
+   "explicacion": "1. Samuel planeó, practicó y registró sus tiempos. 2. Logró la meta. 3. La lección: un plan y medir el avance ayudan a lograr metas."
+  },
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "sabic": "Matemática financiera",
+  "revision": true
+ },
+ {
+  "id": "ING-9-N106",
+  "area": "ingles",
+  "grado": 9,
+  "competencia": "Lingüística",
+  "componente": "Gramática en texto",
+  "nivel": "Avanzado",
+  "mcer": "B1",
+  "dba": "DBA de Inglés grado 9° (MEN 2016), contenido sin número: expresa condiciones y consecuencias posibles en situaciones cotidianas.",
+  "lineamiento": "Guía 22 – Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés. Uso estructuras gramaticales adecuadas para expresar condiciones y planes.",
+  "afirmacion": "Usa el primer condicional en contexto.",
+  "evidencia": "Selecciona el presente simple en la cláusula 'if' de una condición real futura.",
+  "contexto": "If it ___ tomorrow, the match at the Pascual Guerrero stadium will be cancelled.",
+  "enunciado": "Complete the sentence.",
+  "opciones": {
+   "A": "will rain",
+   "B": "rained",
+   "C": "rains",
+   "D": "raining"
+  },
+  "correcta": "C",
+  "errores": {
+   "A": {
+    "error": "'Will' en la cláusula con 'if'.",
+    "porque": "Elegiste 'will rain' porque probablemente pensaste que, como es mañana, ambas partes llevan futuro.",
+    "pregunta_guia": "¿Qué parte de la oración ya tiene 'will'?",
+    "aprende": "Primer condicional: If + presente, … will + verbo."
+   },
+   "B": {
+    "error": "Mezcla con el segundo condicional.",
+    "porque": "Elegiste 'rained' porque probablemente recordaste 'If it rained, …' (situación hipotética).",
+    "pregunta_guia": "¿La otra parte dice 'will' o 'would'?",
+    "aprende": "If + pasado va con would; If + presente va con will."
+   },
+   "D": {
+    "error": "-ing sin auxiliar.",
+    "porque": "Elegiste 'raining' porque probablemente pensaste en 'está lloviendo'.",
+    "pregunta_guia": "¿Hay 'is' antes del espacio?",
+    "aprende": "El verbo después de 'it' en presente simple lleva -s: it rains."
+   }
+  },
+  "explicacion": "1. La segunda parte dice 'will be cancelled' → condición real sobre el futuro (primer condicional). 2. Estructura: If + presente simple, will + verbo. 3. Sujeto 'it' → presente con -s: 'rains'. 4. 'If it rains tomorrow, the match will be cancelled.'",
+  "tip": "En el primer condicional, 'will' va solo en la consecuencia, nunca después de 'if'.",
+  "truco": "If + presente → will + verbo (un solo 'will').",
+  "temas": [
+   "Primer condicional",
+   "Presente simple",
+   "Will"
+  ],
+  "gemela": {
+   "enunciado": "Complete: 'If you ___ your homework early, we will go to the cinema.'",
+   "opciones": {
+    "A": "will finish",
+    "B": "finish",
+    "C": "finished",
+    "D": "finishing"
+   },
+   "correcta": "B",
+   "explicacion": "1. La consecuencia tiene 'will go'. 2. Primer condicional: If + presente simple. 3. Sujeto 'you' → 'finish'."
+  },
+  "pensamiento": "Analizar",
+  "revision": true
+ }
+]

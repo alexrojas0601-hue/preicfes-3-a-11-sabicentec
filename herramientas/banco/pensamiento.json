@@ -1,0 +1,1391 @@
+{
+ "MAT-3-1": {
+  "pensamiento": "Analizar",
+  "por": "Dos pasos encadenados: total de compra y luego vuelto."
+ },
+ "MAT-3-2": {
+  "pensamiento": "Analizar",
+  "por": "Problema de varios pasos: faltante y división por ahorro semanal."
+ },
+ "MAT-4-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica perímetro de rectángulo en situación cotidiana."
+ },
+ "MAT-4-2": {
+  "pensamiento": "Aplicar",
+  "por": "Ejecuta fracción de una cantidad y resta rutinaria."
+ },
+ "MAT-5-1": {
+  "pensamiento": "Aplicar",
+  "por": "Identifica máximo y mínimo en tabla y resta."
+ },
+ "MAT-5-2": {
+  "pensamiento": "Aplicar",
+  "por": "Procedimiento rutinario de porcentaje y descuento."
+ },
+ "MAT-6-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica proporcionalidad directa con factor de escala."
+ },
+ "MAT-6-2": {
+  "pensamiento": "Analizar",
+  "por": "Descompone la caja por dimensiones y relaciona con el cubo."
+ },
+ "MAT-7-1": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula diferencia entre enteros de distinto signo."
+ },
+ "MAT-7-2": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica fórmula de interés simple y suma al capital."
+ },
+ "MAT-8-1": {
+  "pensamiento": "Comprender",
+  "por": "Traduce enunciado verbal a expresión algebraica lineal."
+ },
+ "MAT-8-2": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica teorema de Pitágoras para despejar cateto."
+ },
+ "MAT-9-1": {
+  "pensamiento": "Analizar",
+  "por": "Infiere relación lineal a partir de patrones en tabla."
+ },
+ "MAT-9-2": {
+  "pensamiento": "Analizar",
+  "por": "Organiza espacio muestral de dos dados y cuenta favorables."
+ },
+ "MAT-10-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica razón tangente para hallar altura."
+ },
+ "MAT-10-2": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga qué medida describe mejor datos con valor atípico."
+ },
+ "MAT-11-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica fórmula de interés compuesto."
+ },
+ "MAT-11-2": {
+  "pensamiento": "Analizar",
+  "por": "Modela ingreso cuadrático no rutinario y halla vértice."
+ },
+ "MAT-11-03": {
+  "pensamiento": "Aplicar",
+  "por": "Suma frecuencias y convierte a porcentaje."
+ },
+ "MAT-11-04": {
+  "pensamiento": "Aplicar",
+  "por": "Ejecuta media ponderada con marcas de clase."
+ },
+ "MAT-11-05": {
+  "pensamiento": "Evaluar",
+  "por": "Valida una afirmación descartando razonamientos inválidos."
+ },
+ "MAT-11-06": {
+  "pensamiento": "Analizar",
+  "por": "Varios pasos: cuota inicial, cuotas totales y comparación."
+ },
+ "MAT-11-07": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga argumento sobre descuentos sucesivos multiplicativos."
+ },
+ "MAT-11-08": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta valor inicial y razón de cambio de tabla."
+ },
+ "MAT-11-09": {
+  "pensamiento": "Analizar",
+  "por": "Convierte escala, calcula área y unidades en varios pasos."
+ },
+ "MAT-11-10": {
+  "pensamiento": "Analizar",
+  "por": "Elige razón trigonométrica y suma altura del observador."
+ },
+ "MAT-11-11": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa propuesta comparando volúmenes de cilindros."
+ },
+ "MAT-11-12": {
+  "pensamiento": "Analizar",
+  "por": "Calcula tasas por intervalo y distingue de variación total."
+ },
+ "MAT-11-13": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula probabilidad del complemento."
+ },
+ "MAT-11-14": {
+  "pensamiento": "Analizar",
+  "por": "Reconoce cambio de espacio muestral en probabilidad condicional."
+ },
+ "MAT-3-03": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta valor posicional de una cifra."
+ },
+ "MAT-3-04": {
+  "pensamiento": "Analizar",
+  "por": "Descubre regularidad del patrón y la extiende."
+ },
+ "MAT-3-05": {
+  "pensamiento": "Aplicar",
+  "por": "Usa la clave del pictograma para contar."
+ },
+ "MAT-3-06": {
+  "pensamiento": "Aplicar",
+  "por": "Lee pictograma con clave y resta."
+ },
+ "MAT-3-07": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga afirmación comparando sumas de datos."
+ },
+ "MAT-3-08": {
+  "pensamiento": "Aplicar",
+  "por": "Multiplicación rutinaria filas por columnas."
+ },
+ "MAT-3-09": {
+  "pensamiento": "Analizar",
+  "por": "Interpreta el residuo de la división en contexto."
+ },
+ "MAT-3-10": {
+  "pensamiento": "Aplicar",
+  "por": "Suma tiempo con conversión de minutos a horas."
+ },
+ "MAT-3-11": {
+  "pensamiento": "Aplicar",
+  "por": "Mide longitud como diferencia de marcas en regla."
+ },
+ "MAT-3-12": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica figura según sus propiedades."
+ },
+ "MAT-3-13": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica perímetro de rectángulo."
+ },
+ "MAT-3-14": {
+  "pensamiento": "Comprender",
+  "por": "Compara cantidades para interpretar probabilidad cualitativa."
+ },
+ "MAT-3-15": {
+  "pensamiento": "Comprender",
+  "por": "Representa una parte de un todo como fracción."
+ },
+ "MAT-3-16": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta multiplicación como suma repetida."
+ },
+ "MAT-5-03": {
+  "pensamiento": "Comprender",
+  "por": "Representa y reconoce fracción equivalente simplificada."
+ },
+ "MAT-5-04": {
+  "pensamiento": "Aplicar",
+  "por": "División rutinaria en contexto de ahorro."
+ },
+ "MAT-5-05": {
+  "pensamiento": "Analizar",
+  "por": "Varios pasos: gasto, saldo y comparación con nuevos gastos."
+ },
+ "MAT-5-06": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica perímetro de rectángulo."
+ },
+ "MAT-5-07": {
+  "pensamiento": "Analizar",
+  "por": "Descompone figura en L para calcular área."
+ },
+ "MAT-5-08": {
+  "pensamiento": "Evaluar",
+  "por": "Valida afirmaciones sobre probabilidad con cantidades."
+ },
+ "MAT-5-09": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula total y expresa fracción simplificada."
+ },
+ "MAT-5-10": {
+  "pensamiento": "Evaluar",
+  "por": "Verifica varias afirmaciones contra datos de tabla."
+ },
+ "MAT-5-11": {
+  "pensamiento": "Analizar",
+  "por": "Generaliza regularidad de patrón en expresión."
+ },
+ "MAT-5-12": {
+  "pensamiento": "Comprender",
+  "por": "Compara y ordena decimales."
+ },
+ "MAT-5-13": {
+  "pensamiento": "Aplicar",
+  "por": "Convierte litros a mililitros y divide."
+ },
+ "MAT-5-14": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona cambio de dimensiones con cambio de volumen."
+ },
+ "MAT-7-03": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula frecuencia relativa en porcentaje."
+ },
+ "MAT-7-04": {
+  "pensamiento": "Evaluar",
+  "por": "Valida afirmación agrupando categorías frente a la mitad."
+ },
+ "MAT-7-05": {
+  "pensamiento": "Analizar",
+  "por": "Redefine espacio muestral y cuenta favorables."
+ },
+ "MAT-7-06": {
+  "pensamiento": "Evaluar",
+  "por": "Compara ofertas y elige justificación correcta."
+ },
+ "MAT-7-07": {
+  "pensamiento": "Analizar",
+  "por": "Varios pasos con fracciones de un total y resto."
+ },
+ "MAT-7-08": {
+  "pensamiento": "Analizar",
+  "por": "Reconoce proporcionalidad inversa no evidente."
+ },
+ "MAT-7-09": {
+  "pensamiento": "Analizar",
+  "por": "Deduce dimensiones externas y resta áreas."
+ },
+ "MAT-7-10": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica escala y conversión de unidades."
+ },
+ "MAT-7-11": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga afirmación usando suma de ángulos del triángulo."
+ },
+ "MAT-7-12": {
+  "pensamiento": "Comprender",
+  "por": "Traduce situación a expresión con término fijo y variable."
+ },
+ "MAT-7-13": {
+  "pensamiento": "Aplicar",
+  "por": "Convierte fracciones a decimales y ordena."
+ },
+ "MAT-7-14": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa afirmación general mediante contraejemplo."
+ },
+ "MAT-9-03": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula media ponderada por frecuencias."
+ },
+ "MAT-9-04": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la medida más representativa ante valores extremos."
+ },
+ "MAT-9-05": {
+  "pensamiento": "Analizar",
+  "por": "Plantea y resuelve sistema de dos ecuaciones en contexto."
+ },
+ "MAT-9-06": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica Pitágoras para hallar hipotenusa."
+ },
+ "MAT-9-07": {
+  "pensamiento": "Analizar",
+  "por": "Calcula y compara interés simple y compuesto."
+ },
+ "MAT-9-08": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga afirmación sobre descuentos sucesivos."
+ },
+ "MAT-9-09": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona concavidad, vértice y raíces con el contexto."
+ },
+ "MAT-9-10": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica reglas de notación científica."
+ },
+ "MAT-9-11": {
+  "pensamiento": "Comprender",
+  "por": "Identifica la proporción correcta entre magnitudes correspondientes."
+ },
+ "MAT-9-12": {
+  "pensamiento": "Evaluar",
+  "por": "Justifica efecto de duplicar radio usando la fórmula."
+ },
+ "MAT-9-13": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica principio multiplicativo de conteo."
+ },
+ "MAT-9-14": {
+  "pensamiento": "Aplicar",
+  "por": "Factoriza trinomio para hallar lado desconocido."
+ },
+ "LEN-3-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Identifica relación causal explícita en el cuento."
+ },
+ "LEN-3-2": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Reconoce propósito comunicativo de un aviso."
+ },
+ "LEN-4-1": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera información puntual explícita del texto."
+ },
+ "LEN-4-2": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Infiere relación lógica entre ideas para elegir conector."
+ },
+ "LEN-5-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Sintetiza la idea principal del texto."
+ },
+ "LEN-5-2": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Identifica estrategias persuasivas del autor."
+ },
+ "LEN-6-1": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Compara datos de infografía para hallar mayor ahorro."
+ },
+ "LEN-6-2": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta el sentido de una expresión figurada."
+ },
+ "LEN-7-1": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona función de un párrafo con la estructura."
+ },
+ "LEN-7-2": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Distingue hecho de opinión con criterio."
+ },
+ "LEN-8-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere estado emocional a partir de acciones."
+ },
+ "LEN-8-2": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Valora la confiabilidad de un mensaje en redes."
+ },
+ "LEN-9-1": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Reconoce función argumentativa de un enunciado."
+ },
+ "LEN-9-2": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Reconoce la ironía como estrategia de crítica."
+ },
+ "LEN-10-1": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Determina la relación semántica que establece un conector."
+ },
+ "LEN-10-2": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Detecta falla de razonamiento en un argumento."
+ },
+ "LEN-11-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta una comparación según su contexto."
+ },
+ "LEN-11-2": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Relaciona y contrasta posturas de dos textos."
+ },
+ "LEN-11-03": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta el sentido de una comparación narrativa."
+ },
+ "LEN-11-04": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona un episodio con afirmación previa del personaje."
+ },
+ "LEN-11-05": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta el cambio de un personaje por una acción."
+ },
+ "LEN-11-06": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Valora efecto expresivo del doble sentido final."
+ },
+ "LEN-11-07": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Identifica supuesto implícito que el autor cuestiona."
+ },
+ "LEN-11-08": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Reconoce función de un párrafo en la argumentación."
+ },
+ "LEN-11-09": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Explica cómo un contraste apoya una distinción conceptual."
+ },
+ "LEN-11-10": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Juzga la fidelidad de una paráfrasis."
+ },
+ "LEN-11-11": {
+  "pensamiento": "Analizar",
+  "lectura": "Literal",
+  "por": "Localiza y cruza datos en tabla de doble entrada."
+ },
+ "LEN-11-12": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona dos variables de una tabla."
+ },
+ "LEN-11-13": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Evalúa validez de un titular con datos y metodología."
+ },
+ "LEN-11-14": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Analiza marcas de modalización y postura del autor."
+ },
+ "LEN-3-03": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera un dato explícito del cuento."
+ },
+ "LEN-3-04": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere causa del cambio de actitud del personaje."
+ },
+ "LEN-3-05": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta el significado de lo que dice un personaje."
+ },
+ "LEN-3-06": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Reconoce la función de la raya de diálogo."
+ },
+ "LEN-3-07": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera un dato explícito del texto informativo."
+ },
+ "LEN-3-08": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Explica el sentido de un apodo con datos del texto."
+ },
+ "LEN-3-09": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Identifica la intención comunicativa del texto."
+ },
+ "LEN-3-10": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera el paso siguiente explícito de la receta."
+ },
+ "LEN-3-11": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere la razón de una indicación de seguridad."
+ },
+ "LEN-3-12": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Explica la intención de los signos de admiración."
+ },
+ "LEN-3-13": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera requisito explícito del aviso."
+ },
+ "LEN-3-14": {
+  "pensamiento": "Aplicar",
+  "lectura": "Inferencial",
+  "por": "Aplica un requisito del aviso a un caso."
+ },
+ "LEN-3-15": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Explica la intención de un recurso gráfico."
+ },
+ "LEN-3-16": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta una comparación en un poema."
+ },
+ "LEN-5-03": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera una acción explícita del cuento."
+ },
+ "LEN-5-04": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere estado de ánimo a partir de gestos."
+ },
+ "LEN-5-05": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Interpreta mensaje de una expresión figurada final."
+ },
+ "LEN-5-06": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Localiza un dato en tabla de programación."
+ },
+ "LEN-5-07": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Cruza dos columnas para cumplir dos condiciones."
+ },
+ "LEN-5-08": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Compara datos de gráfica para concluir."
+ },
+ "LEN-5-09": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Juzga la validez de la interpretación de otro lector."
+ },
+ "LEN-5-10": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera normas explícitas del texto."
+ },
+ "LEN-5-11": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Analiza el efecto persuasivo de un recurso del afiche."
+ },
+ "LEN-5-12": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta una personificación en el poema."
+ },
+ "LEN-5-13": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Identifica el paso siguiente explícito."
+ },
+ "LEN-5-14": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Distingue opinión de hechos con criterio."
+ },
+ "LEN-7-03": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera un hecho explícito del narrador."
+ },
+ "LEN-7-04": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere cambio de actitud a partir de un gesto."
+ },
+ "LEN-7-05": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Selecciona fragmento que sustenta una lectura global."
+ },
+ "LEN-7-06": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Localiza en infografía la etapa de un proceso."
+ },
+ "LEN-7-07": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona dos pasos de infografía para inferir razón."
+ },
+ "LEN-7-08": {
+  "pensamiento": "Aplicar",
+  "lectura": "Literal",
+  "por": "Aplica la condición del aviso a cada objeto."
+ },
+ "LEN-7-09": {
+  "pensamiento": "Comprender",
+  "lectura": "Crítico",
+  "por": "Identifica intención persuasiva de un enunciado."
+ },
+ "LEN-7-10": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Determina relación de sentido que establece un conector."
+ },
+ "LEN-7-11": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Traduce una personificación a lenguaje literal."
+ },
+ "LEN-7-12": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Explica función argumentativa de datos de encuesta."
+ },
+ "LEN-7-13": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera una razón explícita de la carta."
+ },
+ "LEN-7-14": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Juzga por qué un titular distorsiona los datos."
+ },
+ "LEN-9-03": {
+  "pensamiento": "Analizar",
+  "lectura": "Literal",
+  "por": "Localiza dato que cumple dos condiciones en tabla."
+ },
+ "LEN-9-04": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona aumento de dato con hecho de la nota."
+ },
+ "LEN-9-05": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Contrasta generalización con datos y halla excepción."
+ },
+ "LEN-9-06": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta lo que sugiere una comparación."
+ },
+ "LEN-9-07": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera acción explícita del personaje."
+ },
+ "LEN-9-08": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Relaciona el final con idea previa y su efecto."
+ },
+ "LEN-9-09": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Distingue idea principal de detalles e ideas refutadas."
+ },
+ "LEN-9-10": {
+  "pensamiento": "Aplicar",
+  "lectura": "Literal",
+  "por": "Aplica requisito del afiche a un caso particular."
+ },
+ "LEN-9-11": {
+  "pensamiento": "Evaluar",
+  "lectura": "Crítico",
+  "por": "Detecta generalización apresurada en un argumento."
+ },
+ "LEN-9-12": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Relaciona imágenes del inicio y final del poema."
+ },
+ "LEN-9-13": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Combina dos condiciones explícitas para decidir un caso."
+ },
+ "LEN-9-14": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Compara criterios de valoración de dos autores."
+ },
+ "CN-3-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera los factores que usa la planta."
+ },
+ "CN-3-2": {
+  "pensamiento": "Analizar",
+  "por": "Infiere relación calor-fusión a partir de datos."
+ },
+ "CN-4-1": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica al productor en la cadena alimentaria."
+ },
+ "CN-4-2": {
+  "pensamiento": "Analizar",
+  "por": "Ordena métodos de separación según propiedades de la mezcla."
+ },
+ "CN-5-1": {
+  "pensamiento": "Comprender",
+  "por": "Explica por qué ciertos materiales cierran el circuito."
+ },
+ "CN-5-2": {
+  "pensamiento": "Comprender",
+  "por": "Explica cambio fisiológico por demanda de oxígeno."
+ },
+ "CN-6-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera estructuras exclusivas de la célula vegetal."
+ },
+ "CN-6-2": {
+  "pensamiento": "Analizar",
+  "por": "Calcula densidades y relaciona con flotación e identidad."
+ },
+ "CN-7-1": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica un proceso como cambio químico."
+ },
+ "CN-7-2": {
+  "pensamiento": "Comprender",
+  "por": "Explica la pérdida de energía entre niveles tróficos."
+ },
+ "CN-8-1": {
+  "pensamiento": "Comprender",
+  "por": "Explica identidad genética por reproducción asexual."
+ },
+ "CN-8-2": {
+  "pensamiento": "Comprender",
+  "por": "Explica efecto de presión atmosférica sobre gas encerrado."
+ },
+ "CN-9-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica cuadro de Punnett a cruce monohíbrido."
+ },
+ "CN-9-2": {
+  "pensamiento": "Aplicar",
+  "por": "Usa la neutralización para predecir el pH."
+ },
+ "CN-10-1": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula concentración con conversión de unidades."
+ },
+ "CN-10-2": {
+  "pensamiento": "Analizar",
+  "por": "Deduce aceleración de datos y calcula desplazamiento."
+ },
+ "CN-11-1": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga explicación darwiniana frente a lamarckista."
+ },
+ "CN-11-2": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa conclusión distinguiendo correlación de causalidad."
+ },
+ "CN-11-03": {
+  "pensamiento": "Comprender",
+  "por": "Explica reducción cromosómica por meiosis."
+ },
+ "CN-11-04": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona variables manipulada y medida con la pregunta."
+ },
+ "CN-11-05": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa diseño y propone control de variable de confusión."
+ },
+ "CN-11-06": {
+  "pensamiento": "Comprender",
+  "por": "Explica hiperglucemia por ausencia de insulina."
+ },
+ "CN-11-07": {
+  "pensamiento": "Comprender",
+  "por": "Explica el movimiento de pasajeros por inercia."
+ },
+ "CN-11-08": {
+  "pensamiento": "Analizar",
+  "por": "Identifica el diseño que controla variables."
+ },
+ "CN-11-09": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona conexión en paralelo con corriente total."
+ },
+ "CN-11-10": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica conservación de energía para hallar rapidez."
+ },
+ "CN-11-11": {
+  "pensamiento": "Aplicar",
+  "por": "Ejecuta cálculo estequiométrico masa-mol-masa."
+ },
+ "CN-11-12": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga qué conclusión respaldan los datos."
+ },
+ "CN-11-13": {
+  "pensamiento": "Comprender",
+  "por": "Explica inmiscibilidad por polaridad."
+ },
+ "CN-11-14": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa debilidad metodológica de un estudio."
+ },
+ "CN-5-03": {
+  "pensamiento": "Recordar",
+  "por": "Recupera el orden de niveles de organización."
+ },
+ "CN-5-04": {
+  "pensamiento": "Recordar",
+  "por": "Recupera el órgano de absorción de nutrientes."
+ },
+ "CN-5-05": {
+  "pensamiento": "Analizar",
+  "por": "Identifica el montaje que controla variables."
+ },
+ "CN-5-06": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica productores en el humedal."
+ },
+ "CN-5-07": {
+  "pensamiento": "Analizar",
+  "por": "Predice efectos en cadena en una red trófica."
+ },
+ "CN-5-08": {
+  "pensamiento": "Comprender",
+  "por": "Explica el secado como evaporación."
+ },
+ "CN-5-09": {
+  "pensamiento": "Analizar",
+  "por": "Infiere relación fricción-distancia de los datos."
+ },
+ "CN-5-10": {
+  "pensamiento": "Comprender",
+  "por": "Explica el sonido como vibración."
+ },
+ "CN-5-11": {
+  "pensamiento": "Analizar",
+  "por": "Ordena métodos de separación según propiedades."
+ },
+ "CN-5-12": {
+  "pensamiento": "Evaluar",
+  "por": "Valida afirmaciones comparando datos de tabla."
+ },
+ "CN-5-13": {
+  "pensamiento": "Comprender",
+  "por": "Explica conservación por frío en microorganismos."
+ },
+ "CN-5-14": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga qué procedimiento comprueba mejor la afirmación."
+ },
+ "CN-7-03": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica la mezcla y elige método de separación."
+ },
+ "CN-7-04": {
+  "pensamiento": "Comprender",
+  "por": "Clasifica sustancias como compuestos."
+ },
+ "CN-7-05": {
+  "pensamiento": "Comprender",
+  "por": "Explica disipación de energía por fricción."
+ },
+ "CN-7-06": {
+  "pensamiento": "Analizar",
+  "por": "Compara ensayos controlados para concluir."
+ },
+ "CN-7-07": {
+  "pensamiento": "Comprender",
+  "por": "Explica aporte de transpiración al ciclo del agua."
+ },
+ "CN-7-08": {
+  "pensamiento": "Comprender",
+  "por": "Explica fertilidad por fijación de nitrógeno."
+ },
+ "CN-7-09": {
+  "pensamiento": "Comprender",
+  "por": "Explica captura de CO₂ por fotosíntesis."
+ },
+ "CN-7-10": {
+  "pensamiento": "Recordar",
+  "por": "Recupera estructura y función del cloroplasto."
+ },
+ "CN-7-11": {
+  "pensamiento": "Analizar",
+  "por": "Clasifica mutualismo y predice efecto de eliminar el hongo."
+ },
+ "CN-7-12": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona variables del experimento con la pregunta."
+ },
+ "CN-7-13": {
+  "pensamiento": "Analizar",
+  "por": "Identifica el montaje que controla variables."
+ },
+ "CN-7-14": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa conclusión ante variables que covarían."
+ },
+ "CN-9-03": {
+  "pensamiento": "Comprender",
+  "por": "Explica cómo actúa una vacuna."
+ },
+ "CN-9-04": {
+  "pensamiento": "Analizar",
+  "por": "Distingue variables independiente, dependiente y controladas."
+ },
+ "CN-9-05": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona intensidad de luz con datos de oxígeno."
+ },
+ "CN-9-06": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica v = d/t con conversión de unidades."
+ },
+ "CN-9-07": {
+  "pensamiento": "Comprender",
+  "por": "Explica flotación por aumento de densidad."
+ },
+ "CN-9-08": {
+  "pensamiento": "Comprender",
+  "por": "Explica propiedades por electrones de valencia."
+ },
+ "CN-9-09": {
+  "pensamiento": "Evaluar",
+  "por": "Evalúa procedimiento para probar conservación de masa."
+ },
+ "CN-9-10": {
+  "pensamiento": "Aplicar",
+  "por": "Compara datos con un valor de referencia."
+ },
+ "CN-9-11": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona materia orgánica, descomponedores y oxígeno."
+ },
+ "CN-9-12": {
+  "pensamiento": "Comprender",
+  "por": "Explica resistencia con selección natural."
+ },
+ "CN-9-13": {
+  "pensamiento": "Analizar",
+  "por": "Infiere bioacumulación según nivel trófico."
+ },
+ "CN-9-14": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona mediciones con la pregunta que responden."
+ },
+ "SOC-3-1": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la mejor forma de resolver un conflicto."
+ },
+ "SOC-3-2": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta ubicación espacial a partir de la información."
+ },
+ "SOC-4-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera la función del personero estudiantil."
+ },
+ "SOC-4-2": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona condiciones geográficas con actividad económica."
+ },
+ "SOC-5-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera el hecho histórico conmemorado."
+ },
+ "SOC-5-2": {
+  "pensamiento": "Aplicar",
+  "por": "Calcula saldo de presupuesto con operaciones rutinarias."
+ },
+ "SOC-6-1": {
+  "pensamiento": "Comprender",
+  "por": "Infiere tipo de relación económica de una fuente."
+ },
+ "SOC-6-2": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la propuesta que integra intereses de ambos grupos."
+ },
+ "SOC-7-1": {
+  "pensamiento": "Comprender",
+  "por": "Relaciona la encomienda con sus consecuencias."
+ },
+ "SOC-7-2": {
+  "pensamiento": "Analizar",
+  "por": "Establece cadena de efectos de la deforestación."
+ },
+ "SOC-8-1": {
+  "pensamiento": "Comprender",
+  "por": "Distingue el derecho de petición de otros mecanismos."
+ },
+ "SOC-8-2": {
+  "pensamiento": "Comprender",
+  "por": "Reconoce argumento coherente con la postura federalista."
+ },
+ "SOC-9-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera consecuencia histórica del Frente Nacional."
+ },
+ "SOC-9-2": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica el mecanismo de participación adecuado al caso."
+ },
+ "SOC-10-1": {
+  "pensamiento": "Analizar",
+  "por": "Compara salario e inflación para concluir."
+ },
+ "SOC-10-2": {
+  "pensamiento": "Evaluar",
+  "por": "Distingue hecho verificable de valoraciones."
+ },
+ "SOC-11-1": {
+  "pensamiento": "Recordar",
+  "por": "Recupera órgano y acción de inconstitucionalidad."
+ },
+ "SOC-11-2": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona intereses de actores ante una medida."
+ },
+ "SOC-11-03": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica la tutela a un caso de derecho fundamental."
+ },
+ "SOC-11-04": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica la acción popular a un derecho colectivo."
+ },
+ "SOC-11-05": {
+  "pensamiento": "Recordar",
+  "por": "Recupera la revocatoria del mandato como mecanismo."
+ },
+ "SOC-11-06": {
+  "pensamiento": "Analizar",
+  "por": "Identifica costo democrático del Frente Nacional."
+ },
+ "SOC-11-07": {
+  "pensamiento": "Comprender",
+  "por": "Identifica la preocupación central de un actor."
+ },
+ "SOC-11-08": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la propuesta que integra a los tres actores."
+ },
+ "SOC-11-09": {
+  "pensamiento": "Analizar",
+  "por": "Reconoce cadena sistémica de consecuencias."
+ },
+ "SOC-11-10": {
+  "pensamiento": "Analizar",
+  "por": "Compara cómo dos actores valoran el territorio."
+ },
+ "SOC-11-11": {
+  "pensamiento": "Evaluar",
+  "por": "Pondera libertad de expresión y buen nombre."
+ },
+ "SOC-11-12": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona efecto buscado y no deseado de política monetaria."
+ },
+ "SOC-11-13": {
+  "pensamiento": "Comprender",
+  "por": "Identifica qué actor expresa una perspectiva."
+ },
+ "SOC-11-14": {
+  "pensamiento": "Analizar",
+  "por": "Reconoce supuesto implícito de una propuesta."
+ },
+ "SOC-5-03": {
+  "pensamiento": "Comprender",
+  "por": "Reconoce el punto de vista de un grupo."
+ },
+ "SOC-5-04": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la propuesta que atiende ambos intereses."
+ },
+ "SOC-5-05": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona argumento sustentado en el derecho a la educación."
+ },
+ "SOC-5-06": {
+  "pensamiento": "Analizar",
+  "por": "Reconstruye cadena causal basura-inundación."
+ },
+ "SOC-5-07": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga propuesta coherente con funciones del personero."
+ },
+ "SOC-5-08": {
+  "pensamiento": "Comprender",
+  "por": "Infiere sentimientos de quien es objeto de burla."
+ },
+ "SOC-5-09": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona el argumento que mejor sustenta la inclusión."
+ },
+ "SOC-5-10": {
+  "pensamiento": "Comprender",
+  "por": "Reconoce a quiénes afecta una conducta."
+ },
+ "SOC-5-11": {
+  "pensamiento": "Analizar",
+  "por": "Clasifica opiniones según intereses económicos."
+ },
+ "SOC-5-12": {
+  "pensamiento": "Analizar",
+  "por": "Explica cómo una decisión atiende varias dimensiones."
+ },
+ "SOC-5-13": {
+  "pensamiento": "Comprender",
+  "por": "Identifica la razón para preferir el diálogo."
+ },
+ "SOC-5-14": {
+  "pensamiento": "Analizar",
+  "por": "Identifica efectos encadenados de un programa."
+ },
+ "SOC-7-03": {
+  "pensamiento": "Comprender",
+  "por": "Identifica el interés detrás de una postura."
+ },
+ "SOC-7-04": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona el argumento con hecho verificable."
+ },
+ "SOC-7-05": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga la propuesta que atiende más necesidades."
+ },
+ "SOC-7-06": {
+  "pensamiento": "Recordar",
+  "por": "Recupera la función del Concejo municipal."
+ },
+ "SOC-7-07": {
+  "pensamiento": "Comprender",
+  "por": "Explica por qué el mecanismo es adecuado."
+ },
+ "SOC-7-08": {
+  "pensamiento": "Comprender",
+  "por": "Infiere sentimientos de un actor por su contexto."
+ },
+ "SOC-7-09": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga afirmación sobre intención y efecto del agresor."
+ },
+ "SOC-7-10": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona razón basada en igualdad de oportunidades."
+ },
+ "SOC-7-11": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona medida con efecto según datos de causas."
+ },
+ "SOC-7-12": {
+  "pensamiento": "Evaluar",
+  "por": "Detecta debilidad de argumento frecuencia-gravedad."
+ },
+ "SOC-7-13": {
+  "pensamiento": "Comprender",
+  "por": "Reconoce el punto de vista de un actor."
+ },
+ "SOC-7-14": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona dimensiones del problema y efectos mutuos."
+ },
+ "SOC-9-03": {
+  "pensamiento": "Analizar",
+  "por": "Distingue intereses detrás de posiciones en conflicto."
+ },
+ "SOC-9-04": {
+  "pensamiento": "Comprender",
+  "por": "Explica control entre ramas del poder."
+ },
+ "SOC-9-05": {
+  "pensamiento": "Evaluar",
+  "por": "Detecta falacia ad hominem en un argumento."
+ },
+ "SOC-9-06": {
+  "pensamiento": "Analizar",
+  "por": "Agrupa actores según tipo de preocupación."
+ },
+ "SOC-9-07": {
+  "pensamiento": "Analizar",
+  "por": "Anticipa efecto entre dimensiones según actores."
+ },
+ "SOC-9-08": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga acción coherente con consulta previa."
+ },
+ "SOC-9-09": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona argumento que justifica la tutela."
+ },
+ "SOC-9-10": {
+  "pensamiento": "Analizar",
+  "por": "Relaciona acción de espectadores con acoso."
+ },
+ "SOC-9-11": {
+  "pensamiento": "Comprender",
+  "por": "Identifica argumento propio de un actor."
+ },
+ "SOC-9-12": {
+  "pensamiento": "Evaluar",
+  "por": "Selecciona argumento basado en libertad de cultos."
+ },
+ "SOC-9-13": {
+  "pensamiento": "Analizar",
+  "por": "Analiza costo de oportunidad presupuestal."
+ },
+ "SOC-9-14": {
+  "pensamiento": "Evaluar",
+  "por": "Juzga argumento sobre límites de la libertad de expresión."
+ },
+ "ING-3-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Relaciona pistas descriptivas con un vocablo."
+ },
+ "ING-3-2": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica conjugación de 'to be' con 'I'."
+ },
+ "ING-4-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Interpreta un aviso para ubicar su contexto."
+ },
+ "ING-4-2": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta la pregunta 'How' para responder."
+ },
+ "ING-5-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica -s de tercera persona singular."
+ },
+ "ING-5-2": {
+  "pensamiento": "Recordar",
+  "lectura": "Literal",
+  "por": "Recupera la razón explícita en el texto."
+ },
+ "ING-6-1": {
+  "pensamiento": "Comprender",
+  "por": "Relaciona función de objeto con su nombre."
+ },
+ "ING-6-2": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta fórmula natural para aceptar ofrecimiento."
+ },
+ "ING-7-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica pasado simple según marcador temporal."
+ },
+ "ING-7-2": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Identifica propósito global del mensaje."
+ },
+ "ING-8-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica regla del comparativo de una sílaba."
+ },
+ "ING-8-2": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Parafrasea el mensaje de un aviso."
+ },
+ "ING-9-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica presente perfecto con 'since'."
+ },
+ "ING-9-2": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Infiere cambio de actitud del personaje."
+ },
+ "ING-10-1": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica presente simple en condicional tipo 1."
+ },
+ "ING-10-2": {
+  "pensamiento": "Comprender",
+  "por": "Distingue significado evitando falsos amigos."
+ },
+ "ING-11-1": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Identifica causa explicada en el texto."
+ },
+ "ING-11-2": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica 'were' en condicional irreal."
+ },
+ "ING-11-03": {
+  "pensamiento": "Comprender",
+  "por": "Relaciona descripción de oficio con palabra."
+ },
+ "ING-11-04": {
+  "pensamiento": "Comprender",
+  "por": "Relaciona descripción con el oficio correspondiente."
+ },
+ "ING-11-05": {
+  "pensamiento": "Comprender",
+  "lectura": "Inferencial",
+  "por": "Asocia palabras clave del aviso con su contexto."
+ },
+ "ING-11-06": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Distingue lugares parecidos por un detalle del aviso."
+ },
+ "ING-11-07": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta 'Do you mind' para conceder permiso."
+ },
+ "ING-11-08": {
+  "pensamiento": "Comprender",
+  "por": "Interpreta 'How long' y responde con duración."
+ },
+ "ING-11-09": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica 'used to' para hábito pasado."
+ },
+ "ING-11-10": {
+  "pensamiento": "Aplicar",
+  "por": "Aplica comparativo con 'than'."
+ },
+ "ING-11-11": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Reconoce paráfrasis de información explícita."
+ },
+ "ING-11-12": {
+  "pensamiento": "Comprender",
+  "lectura": "Literal",
+  "por": "Reconoce paráfrasis de información explícita."
+ },
+ "ING-11-13": {
+  "pensamiento": "Analizar",
+  "lectura": "Crítico",
+  "por": "Deduce propósito del autor integrando argumentos."
+ },
+ "ING-11-14": {
+  "pensamiento": "Analizar",
+  "lectura": "Inferencial",
+  "por": "Infiere postura del autor descartando extremos."
+ },
+ "ING-11-15": {
+  "pensamiento": "Analizar",
+  "por": "Integra pistas de tiempo y voz pasiva en contexto."
+ },
+ "ING-11-16": {
+  "pensamiento": "Analizar",
+  "por": "Identifica ideas opuestas para elegir conector."
+ }
+}

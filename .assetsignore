@@ -7,3 +7,8 @@ preicfes/wrangler.jsonc
 preicfes/.assetsignore
 preicfes/tools
 preicfes/banco_raw
+herramientas
+docs
+CLAUDE.md
+.github
+.sabi-puerta.json

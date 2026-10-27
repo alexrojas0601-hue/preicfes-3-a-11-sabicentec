@@ -1,0 +1,62 @@
+[
+ {
+  "id": "ING-7-N106",
+  "gravedad": "grave",
+  "hallazgo": "El enunciado no pedía cortesía: 'Give me chicken. Now.' y 'No, thanks. I'm full.' también encajaban con 'Sure. Anything to drink?' (más de una opción defendible). La correcta era además la más larga y la única cortés.",
+  "accion": "Enunciado pide 'the most polite and appropriate answer'; D cambiada por un distractor cortés pero fuera de momento ('pay the bill'); longitudes igualadas en ítem y gemela; porque de B y D reescritos."
+ },
+ {
+  "id": "ING-5-N106",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la correcta (D) era la más larga y la única con dos partes; en la gemela, la correcta era la más larga y D ('she needs to run') era absurda.",
+  "accion": "Opciones del ítem y la gemela reescritas con longitud y estructura parecidas; porque de A y C ajustados."
+ },
+ {
+  "id": "ING-7-N104",
+  "gravedad": "media",
+  "hallazgo": "Sesgo de forma: la correcta era la única opción compuesta y la más larga (igual en la gemela).",
+  "accion": "Distractores reescritos con estructura compuesta y longitud similar; porque de A ajustado."
+ },
+ {
+  "id": "ING-5-N105",
+  "gravedad": "media",
+  "hallazgo": "Gemela: 'Our house has a big mango tree' es gramatical y podría leerse como la casa de la familia del hablante (segunda opción defendible).",
+  "accion": "Opción A cambiada a 'They' (mismo error del ítem principal: pronombre en vez de posesivo)."
+ },
+ {
+  "id": "ING-5-N101",
+  "gravedad": "leve",
+  "hallazgo": "El porque de C ('palabra parecida al español') no explicaba un error real; el truco 'library → se presta libre' sugería una etimología falsa (viene del latín liber, libro).",
+  "accion": "Porque de C reescrito; truco reemplazado por uno correcto (library ~ libro; bookshop = tienda de libros)."
+ },
+ {
+  "id": "ING-3-N104",
+  "gravedad": "leve",
+  "hallazgo": "Gemela: la opción correcta 'Mariana's cat' copiaba literalmente el texto y no evaluaba la misma inferencia (animal → mascota) del ítem.",
+  "accion": "Opción correcta cambiada a 'Mariana's pet' y explicación ajustada."
+ },
+ {
+  "id": "ING-9-N103",
+  "gravedad": "leve",
+  "hallazgo": "Gemela literal: la correcta añadía 'to sell', que el texto no dice textualmente, y era la más larga.",
+  "accion": "Opción reducida a 'She brought hot chocolate.'"
+ },
+ {
+  "id": "(gemelas)",
+  "gravedad": "leve",
+  "hallazgo": "Claves de las gemelas desbalanceadas (B 10, C 7, A 6, D 1).",
+  "accion": "Se intercambió la opción correcta con la D en las gemelas de ING-3-N101, ING-5-N103, ING-7-N103, ING-9-N103 e ING-9-N105; ninguna de esas explicaciones menciona letras. Resultado: A 6, B 6, C 6, D 6."
+ },
+ {
+  "id": "(todos)",
+  "gravedad": "media",
+  "hallazgo": "Los 'lineamiento' citan Guía 22 con redacción que parece paráfrasis (p. ej., 3-N105 dice 'apoyado en palabras conocidas'; el estándar de 1.°–3.° habla de 'apoyado en imágenes'). Los DBA no traen número (correcto), pero su texto es paráfrasis del Currículo sugerido/DBA del MEN.",
+  "accion": "Sin cambio: el docente de inglés debe cotejar la redacción con la Guía 22 y el Currículo sugerido antes de aprobar."
+ },
+ {
+  "id": "(5.°)",
+  "gravedad": "leve",
+  "hallazgo": "MCER: la Guía 22 ubica 4.°–5.° en A2.1 (Básico 1); los ítems de 5.° están marcados A1, igual que el banco existente.",
+  "accion": "Sin cambio por coherencia con bank.json; el docente decide si se pasan a A2."
+ }
+]

@@ -52,11 +52,11 @@
    "enunciado": "It is grey and very big. It has a long nose. What animal is it?",
    "opciones": {
     "A": "a mouse",
-    "B": "an elephant",
+    "B": "a duck",
     "C": "a dog",
-    "D": "a duck"
+    "D": "an elephant"
    },
-   "correcta": "B",
+   "correcta": "D",
    "explicacion": "1. 'Grey' = gris. 2. 'Very big' = muy grande. 3. 'Long nose' = nariz larga (trompa). 4. El animal gris, enorme y con trompa es el elefante: 'an elephant'."
   },
   "pensamiento": "Comprender",
@@ -242,13 +242,13 @@
   "gemela": {
    "enunciado": "Read: 'Mariana has a cat. Its name is Nube. Nube is white.' Who is Nube?",
    "opciones": {
-    "A": "Mariana's cat",
+    "A": "Mariana's pet",
     "B": "Mariana's mother",
     "C": "Mariana's teacher",
     "D": "Mariana's friend"
    },
    "correcta": "A",
-   "explicacion": "1. Primero: 'Mariana has a cat'. 2. Luego: 'Its name is Nube' ('its' = de un animal). 3. Nube es la gata de Mariana."
+   "explicacion": "1. Primero: 'Mariana has a cat'. 2. Luego: 'Its name is Nube' ('its' = de un animal). 3. Nube es la gata de Mariana, es decir, su mascota: 'Mariana's pet'."
   },
   "pensamiento": "Analizar",
   "lectura": "Inferencial",
@@ -418,14 +418,14 @@
    },
    "C": {
     "error": "Elegiste al azar.",
-    "porque": "Elegiste 'a hospital' porque probablemente no entendiste la descripción y escogiste una palabra parecida al español.",
+    "porque": "Elegiste 'a hospital' porque probablemente reconociste la palabra (se escribe igual en español) y la marcaste sin comprobarla con la descripción.",
     "pregunta_guia": "¿En el hospital te prestan libros?",
     "aprende": "hospital = lugar para personas enfermas."
    }
   },
   "explicacion": "1. 'You can read books here' = lees libros. 2. 'You can't buy them' = no se compran. 3. 'Take a book home and bring it back' = lo llevas y lo devuelves. 4. Ese lugar es la biblioteca: 'a library'. Ojo: library NO es librería.",
   "tip": "Cuidado con los falsos amigos: library = biblioteca, no librería.",
-  "truco": "LIBRary → se presta libre (gratis).",
+  "truco": "LIBRary empieza como LIBRo: allí se prestan libros. La tienda de libros es bookSHOP (shop = tienda).",
   "temas": [
    "Lugares de la ciudad",
    "Falsos amigos",
@@ -561,11 +561,11 @@
    "enunciado": "Read again: 'I go to school by boat with my cousin Ana.' Who goes to school with Kevin?",
    "opciones": {
     "A": "his father",
-    "B": "his cousin",
+    "B": "his teacher",
     "C": "his grandmother",
-    "D": "his teacher"
+    "D": "his cousin"
    },
-   "correcta": "B",
+   "correcta": "D",
    "explicacion": "1. Busca 'go to school'. 2. Dice 'with my cousin Ana'. 3. Va con su prima: 'his cousin'."
   },
   "pensamiento": "Comprender",
@@ -688,7 +688,7 @@
   "gemela": {
    "enunciado": "Complete: 'My grandparents live in Palmira. ___ house has a big mango tree.'",
    "opciones": {
-    "A": "Our",
+    "A": "They",
     "B": "His",
     "C": "Their",
     "D": "Its"
@@ -714,16 +714,16 @@
   "contexto": "CITY ZOO\nOpen: 9:00 a.m. – 4:30 p.m.\nPlease do not feed the animals.\nChildren under 12 must be with an adult.",
   "enunciado": "Tomás is 10 years old. He wants to visit the zoo alone at 5:00 p.m. What is the problem?",
   "opciones": {
-   "A": "He can't take food to the zoo.",
+   "A": "He can't bring food for the animals.",
    "B": "He is too old to visit the zoo.",
-   "C": "The zoo is closed on weekdays.",
-   "D": "He needs an adult and the zoo is closed."
+   "C": "The zoo is closed from Monday to Friday.",
+   "D": "He needs an adult, and it is closed."
   },
   "correcta": "D",
   "errores": {
    "A": {
     "error": "Regla que no aplica al plan.",
-    "porque": "Elegiste esta porque probablemente viste 'Do not feed the animals' y la tomaste como la regla principal.",
+    "porque": "Elegiste esta porque probablemente viste 'Please do not feed the animals' y la tomaste como la regla que afecta a Tomás, aunque él no lleva comida.",
     "pregunta_guia": "¿Tomás dijo que quiere dar comida a los animales?",
     "aprende": "'Do not feed the animals' = no alimentes a los animales; no habla de llevar comida."
    },
@@ -735,7 +735,7 @@
    },
    "C": {
     "error": "Dato inventado.",
-    "porque": "Elegiste esta porque probablemente supusiste un horario que el aviso no dice.",
+    "porque": "Elegiste esta porque probablemente supusiste un horario por días que el aviso no dice: solo da horas.",
     "pregunta_guia": "¿El aviso nombra días de la semana?",
     "aprende": "El aviso solo da horas: 9:00 a.m. – 4:30 p.m."
    }
@@ -751,10 +751,10 @@
   "gemela": {
    "enunciado": "Sign at the pool: 'Pool open 8:00 a.m. – 6:00 p.m. No running. Children under 8 must be with an adult.' Valeria is 9. She wants to swim at 3:00 p.m. with her friends. Can she swim?",
    "opciones": {
-    "A": "No, she is under 8.",
-    "B": "Yes, the pool is open and she is over 8.",
-    "C": "No, the pool is closed at 3:00 p.m.",
-    "D": "No, she needs to run."
+    "A": "No, because she is under 8.",
+    "B": "Yes, it is open and she is over 8.",
+    "C": "No, because it closes at 3:00 p.m.",
+    "D": "No, because she can't go with friends."
    },
    "correcta": "B",
    "explicacion": "1. A las 3:00 p.m. la piscina está abierta (8:00 a.m. – 6:00 p.m.). 2. Valeria tiene 9, no es menor de 8. 3. Sí puede nadar."
@@ -942,11 +942,11 @@
    "enunciado": "Read again. How many kilos of plastic did the students collect?",
    "opciones": {
     "A": "ten",
-    "B": "forty-five",
+    "B": "two",
     "C": "seven",
-    "D": "two"
+    "D": "forty-five"
    },
-   "correcta": "B",
+   "correcta": "D",
    "explicacion": "1. Busca 'kilos'. 2. Dice 'we collected 45 kilos of plastic'. 3. 45 = forty-five."
   },
   "pensamiento": "Comprender",
@@ -969,16 +969,16 @@
   "contexto": "Last Saturday, the 7th grade students of our school organized a recycling day in Ciudad Córdoba. We collected plastic bottles, paper and cans from the streets near the park. Some neighbours were surprised, but many of them helped us. In total, we collected 45 kilos of plastic. We sold the plastic to a recycling company, and we used the money to buy two new trash cans for the park. Next month, we want to plant ten trees there. Do you want to join us? – Natalia, 7B",
   "enunciado": "What is the main purpose of Natalia's text?",
   "opciones": {
-   "A": "to sell plastic to the neighbours",
-   "B": "to tell about a community activity and invite readers",
-   "C": "to complain about the dirty streets",
-   "D": "to ask the park for money"
+   "A": "to sell plastic and ask neighbours to buy it",
+   "B": "to tell about an activity and invite readers",
+   "C": "to complain about the dirty streets and park",
+   "D": "to ask the city for money for the park"
   },
   "correcta": "B",
   "errores": {
    "A": {
     "error": "Detalle tomado como propósito.",
-    "porque": "Elegiste esta porque probablemente viste 'sold the plastic' y lo tomaste como idea central.",
+    "porque": "Elegiste esta porque probablemente viste 'sold the plastic' y lo tomaste como idea central; el plástico se vendió a una empresa, no a los vecinos.",
     "pregunta_guia": "¿A quién le vendieron el plástico?",
     "aprende": "Vendieron a una empresa; es solo un detalle del relato."
    },
@@ -1006,10 +1006,10 @@
   "gemela": {
    "enunciado": "Read: 'Dear neighbours, the water will be cut on Tuesday from 8 a.m. to 2 p.m. Please save water on Monday night. – Building administration.' What is the purpose of the note?",
    "opciones": {
-    "A": "to sell water",
+    "A": "to sell water to the neighbours",
     "B": "to inform and give advice",
-    "C": "to invite to a party",
-    "D": "to complain about neighbours"
+    "C": "to invite neighbours to a party",
+    "D": "to complain about the neighbours"
    },
    "correcta": "B",
    "explicacion": "1. Informa que cortarán el agua y cuándo. 2. Aconseja guardar agua. 3. Propósito: informar y recomendar."
@@ -1096,18 +1096,18 @@
   "afirmacion": "Usa un registro adecuado en una interacción.",
   "evidencia": "Elige la respuesta cortés y coherente con lo que sigue en el diálogo.",
   "contexto": "Waiter: Good afternoon. Are you ready to order?\nCustomer: ___\nWaiter: Sure. Anything to drink?",
-  "enunciado": "Complete the conversation.",
+  "enunciado": "Complete the conversation with the most polite and appropriate answer.",
   "opciones": {
    "A": "Yes, I'd like the chicken with rice, please.",
-   "B": "Give me chicken. Now.",
-   "C": "Yes, I like chicken very much.",
-   "D": "No, thanks. I'm full."
+   "B": "Give me the chicken with rice. Now.",
+   "C": "Yes, I like chicken with rice very much.",
+   "D": "Yes, I'd like to pay the bill, please."
   },
   "correcta": "A",
   "errores": {
    "B": {
     "error": "Registro descortés.",
-    "porque": "Elegiste esta porque probablemente la gramática te pareció suficiente y no pensaste en la cortesía.",
+    "porque": "Elegiste esta porque probablemente viste que pide la comida y no pensaste en la cortesía: 'Give me… Now.' suena brusco.",
     "pregunta_guia": "¿Cómo se sentiría el mesero con 'Now'?",
     "aprende": "En un restaurante: I'd like… please / Can I have… please?"
    },
@@ -1118,13 +1118,13 @@
     "aprende": "I like = me gusta (siempre); I'd like = quisiera (ahora)."
    },
    "D": {
-    "error": "No encaja con lo que sigue.",
-    "porque": "Elegiste esta porque probablemente no leíste la respuesta del mesero.",
-    "pregunta_guia": "Si el cliente no pide nada, ¿el mesero diría 'Sure. Anything to drink?'?",
-    "aprende": "Lee lo que va después del espacio para comprobar la coherencia."
+    "error": "Usaste la fórmula cortés en el momento equivocado.",
+    "porque": "Elegiste esta porque probablemente reconociste 'I'd like…, please' como fórmula cortés, pero pedir la cuenta no responde a 'Are you ready to order?'.",
+    "pregunta_guia": "¿Se pide la cuenta antes de comer? ¿Qué pregunta el mesero después: comida o bebida?",
+    "aprende": "pay the bill = pagar la cuenta (al final). order = pedir la comida (al inicio)."
    }
   },
-  "explicacion": "1. El mesero pregunta si está listo para pedir. 2. Luego responde 'Sure. Anything to drink?', así que el cliente pidió comida. 3. La forma cortés es 'I'd like…, please'. 4. Respuesta A.",
+  "explicacion": "1. El mesero pregunta si está listo para pedir ('ready to order'). 2. Luego responde 'Sure. Anything to drink?', así que el cliente pidió comida, no la cuenta. 3. La forma cortés de pedir es 'I'd like…, please'; 'Give me… Now.' es brusca. 4. Respuesta A.",
   "tip": "Para pedir en inglés: I'd like… / Can I have…? + please.",
   "truco": "I'd like = quisiera; I like = me gusta.",
   "temas": [
@@ -1133,12 +1133,12 @@
    "Diálogos en restaurante"
   ],
   "gemela": {
-   "enunciado": "At a shop: Clerk: Can I help you? / Customer: ___ / Clerk: Of course. What size?",
+   "enunciado": "At a shop: Clerk: Can I help you? / Customer: ___ / Clerk: Of course. What size? Choose the most polite and appropriate answer.",
    "opciones": {
     "A": "Yes, I'd like to try on these shoes, please.",
     "B": "No, I'm just looking, thanks.",
-    "C": "I like shoes.",
-    "D": "Give me shoes."
+    "C": "I like these shoes a lot, they're cool.",
+    "D": "Give me these shoes in my size. Now."
    },
    "correcta": "A",
    "explicacion": "1. El vendedor responde 'Of course. What size?', así que el cliente pidió algo. 2. La forma cortés es 'I'd like…, please'. 3. Respuesta A."
@@ -1326,11 +1326,11 @@
    "enunciado": "Read again. What did Juliana do on cloudy days?",
    "opciones": {
     "A": "She stayed at home.",
-    "B": "She brought hot chocolate to sell.",
+    "B": "She bought a notebook.",
     "C": "She worked on her robot.",
-    "D": "She bought a notebook."
+    "D": "She brought hot chocolate."
    },
-   "correcta": "B",
+   "correcta": "D",
    "explicacion": "1. Busca 'cloudy days'. 2. Dice 'she started bringing hot chocolate on cloudy days'. 3. Llevaba chocolate caliente."
   },
   "pensamiento": "Comprender",
@@ -1457,10 +1457,10 @@
    "opciones": {
     "A": "Running is only for professional athletes.",
     "B": "Apps are better than coaches.",
-    "C": "A clear plan and tracking progress help you reach goals.",
-    "D": "Races in Cali are very easy."
+    "C": "Races in Cali are very easy.",
+    "D": "A clear plan and tracking progress help you reach goals."
    },
-   "correcta": "C",
+   "correcta": "D",
    "explicacion": "1. Samuel planeó, practicó y registró sus tiempos. 2. Logró la meta. 3. La lección: un plan y medir el avance ayudan a lograr metas."
   },
   "pensamiento": "Evaluar",
